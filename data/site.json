@@ -1,0 +1,89 @@
+{
+  "siteName": "EasyMusic.AI Blog",
+  "productName": "EasyMusic.AI",
+  "productUrl": "https://easymusic.ai",
+  "productSitemapUrl": "https://easymusic.ai/sitemap.xml",
+  "baseUrl": "https://coderpan.github.io/easymusic-ai-blog",
+  "defaultLocale": "en",
+  "locales": ["ar", "de", "en", "es", "fr", "it", "ja", "ko", "pt", "ru", "zh"],
+  "localeNames": {
+    "ar": "Arabic",
+    "de": "Deutsch",
+    "en": "English",
+    "es": "Espanol",
+    "fr": "Francais",
+    "it": "Italiano",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "pt": "Portugues",
+    "ru": "Russian",
+    "zh": "Simplified Chinese"
+  },
+  "defaultProductLinks": {
+    "home": {
+      "ar": "https://easymusic.ai/ar",
+      "de": "https://easymusic.ai/de",
+      "en": "https://easymusic.ai",
+      "es": "https://easymusic.ai/es",
+      "fr": "https://easymusic.ai/fr",
+      "it": "https://easymusic.ai/it",
+      "ja": "https://easymusic.ai/ja",
+      "ko": "https://easymusic.ai/ko",
+      "pt": "https://easymusic.ai/pt",
+      "ru": "https://easymusic.ai/ru",
+      "zh": "https://easymusic.ai/zh"
+    },
+    "aiMusicGenerator": {
+      "ar": "https://easymusic.ai/ar/ai-music-generator",
+      "de": "https://easymusic.ai/de/ai-music-generator",
+      "en": "https://easymusic.ai/ai-music-generator",
+      "es": "https://easymusic.ai/es/ai-music-generator",
+      "fr": "https://easymusic.ai/fr/ai-music-generator",
+      "it": "https://easymusic.ai/it/ai-music-generator",
+      "ja": "https://easymusic.ai/ja/ai-music-generator",
+      "ko": "https://easymusic.ai/ko/ai-music-generator",
+      "pt": "https://easymusic.ai/pt/ai-music-generator",
+      "ru": "https://easymusic.ai/ru/ai-music-generator",
+      "zh": "https://easymusic.ai/zh/ai-music-generator"
+    },
+    "aiLyricsGenerator": {
+      "ar": "https://easymusic.ai/ar/tools/ai-lyrics-generator",
+      "de": "https://easymusic.ai/de/tools/ai-lyrics-generator",
+      "en": "https://easymusic.ai/tools/ai-lyrics-generator",
+      "es": "https://easymusic.ai/es/tools/ai-lyrics-generator",
+      "fr": "https://easymusic.ai/fr/tools/ai-lyrics-generator",
+      "it": "https://easymusic.ai/it/tools/ai-lyrics-generator",
+      "ja": "https://easymusic.ai/ja/tools/ai-lyrics-generator",
+      "ko": "https://easymusic.ai/ko/tools/ai-lyrics-generator",
+      "pt": "https://easymusic.ai/pt/tools/ai-lyrics-generator",
+      "ru": "https://easymusic.ai/ru/tools/ai-lyrics-generator",
+      "zh": "https://easymusic.ai/zh/tools/ai-lyrics-generator"
+    },
+    "musicStyleGenerator": {
+      "ar": "https://easymusic.ai/ar/tools/music-style-generator",
+      "de": "https://easymusic.ai/de/tools/music-style-generator",
+      "en": "https://easymusic.ai/tools/music-style-generator",
+      "es": "https://easymusic.ai/es/tools/music-style-generator",
+      "fr": "https://easymusic.ai/fr/tools/music-style-generator",
+      "it": "https://easymusic.ai/it/tools/music-style-generator",
+      "ja": "https://easymusic.ai/ja/tools/music-style-generator",
+      "ko": "https://easymusic.ai/ko/tools/music-style-generator",
+      "pt": "https://easymusic.ai/pt/tools/music-style-generator",
+      "ru": "https://easymusic.ai/ru/tools/music-style-generator",
+      "zh": "https://easymusic.ai/zh/tools/music-style-generator"
+    },
+    "pricing": {
+      "ar": "https://easymusic.ai/ar/pricing",
+      "de": "https://easymusic.ai/de/pricing",
+      "en": "https://easymusic.ai/pricing",
+      "es": "https://easymusic.ai/es/pricing",
+      "fr": "https://easymusic.ai/fr/pricing",
+      "it": "https://easymusic.ai/it/pricing",
+      "ja": "https://easymusic.ai/ja/pricing",
+      "ko": "https://easymusic.ai/ko/pricing",
+      "pt": "https://easymusic.ai/pt/pricing",
+      "ru": "https://easymusic.ai/ru/pricing",
+      "zh": "https://easymusic.ai/zh/pricing"
+    }
+  }
+}

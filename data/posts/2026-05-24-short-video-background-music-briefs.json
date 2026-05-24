@@ -1,0 +1,183 @@
+{
+  "date": "2026-05-24",
+  "slug": "short-video-background-music-briefs",
+  "cluster": "workflow-guides",
+  "translations": {
+    "en": {
+      "title": "How to Brief Background Music for Short Videos Before You Generate It",
+      "description": "A practical workflow for turning a short video idea into a clear AI music brief with mood, pacing, structure, revision notes, and rights-aware planning.",
+      "body": [
+        "A short video often fails because the music brief is too vague. Asking for upbeat background music can produce a track, but it does not tell the system where the edit opens, when the product appears, how intense the hook should feel, or what kind of ending leaves room for a voiceover. Before you use an [AI music generator](https://easymusic.ai/ai-music-generator), write a small creative brief that connects the sound to the edit.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music generation platform for creating and customizing music from prompts, lyrics, style ideas, and model choices. For a short-video workflow, think of it as the production tool after your creative decision is clear, not a replacement for deciding mood, pacing, and usage context.",
+        "## Start with the cut, not the genre",
+        "Write the brief around time and viewer attention. A useful first line might say: 18 second product demo, quick hook in the first two seconds, warm electronic pulse, softer middle for voiceover, clean button ending. That is better than asking for modern pop because it gives the music a job. Add three constraints: tempo range, emotional temperature, and what must not happen, such as no heavy drop under speech.",
+        "## Turn the brief into reusable prompt parts",
+        "- Scene: what is happening on screen and who the viewer is.\n- Energy curve: intro, middle, reveal, ending.\n- Sound palette: instruments, texture, density, vocal or no vocal.\n- Edit notes: places where voiceover, captions, or product sounds need space.\n- Revision rule: what you will change first if the result is close but not usable.",
+        "If the concept needs sung words, draft the message separately with an [AI lyrics generator](https://easymusic.ai/tools/ai-lyrics-generator) and keep the first version short. If the issue is not words but musical identity, collect style vocabulary with a music style generator before generating the full track.",
+        "## FAQ",
+        "How long should the brief be? Usually 80 to 140 words is enough for a short video. Should I mention commercial use? Mention the intended use internally and review the plan terms and project requirements before publishing. Can I reuse one prompt for every reel? Reuse the structure, but change the scene, energy curve, and negative constraints for each edit."
+      ]
+    },
+    "de": {
+      "title": "So schreibst du ein Musik-Briefing fuer kurze Videos, bevor du generierst",
+      "description": "Ein praktischer Ablauf, um aus einer Videoidee ein klares KI-Musik-Briefing mit Stimmung, Timing, Struktur, Korrekturen und Nutzungspruefung zu machen.",
+      "body": [
+        "Kurze Videos brauchen Musik, die eine Aufgabe erfuellt. Ein Prompt wie frische Hintergrundmusik klingt harmlos, laesst aber offen, wann der Einstieg greift, wo Sprache Platz braucht und wie der Schluss geschnitten wird. Bevor du einen [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) nutzt, lohnt sich ein kleines Briefing, das Bild, Rhythmus und Ziel der Szene zusammenbringt.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerzeugung, bei der Musik aus Prompts, Lyrics, Stilideen und Modellauswahl entstehen kann. Im Video-Workflow ist es besonders hilfreich, wenn die kreative Richtung schon klar ist: Welche Stimmung, welches Tempo und welche Nutzungssituation soll der Track tragen?",
+        "## Beginne mit dem Schnitt, nicht mit dem Genre",
+        "Formuliere zuerst die Szene: 15 Sekunden App-Demo, schneller Einstieg, freundlicher elektronischer Puls, ruhiger Mittelteil fuer Voiceover, klarer Abschluss auf dem Logo. Diese Beschreibung ist brauchbarer als nur Pop oder Lo-Fi, weil sie den Track an den Schnitt bindet. Ergaenze Tempo, emotionale Temperatur und Ausschluesse, zum Beispiel kein lauter Drop unter gesprochenem Text.",
+        "## Baue das Briefing in wiederverwendbare Teile",
+        "- Szene: Was passiert im Bild und wer schaut zu?\n- Energieverlauf: Anfang, Mitte, Reveal, Ende.\n- Klangpalette: Instrumente, Dichte, Textur, Stimme oder instrumental.\n- Schnittnotizen: Wo brauchen Sprache, Untertitel oder Produktsounds Raum?\n- Korrekturregel: Was aenderst du zuerst, wenn der Track fast passt?",
+        "Wenn Worte gesungen werden sollen, skizziere den Text getrennt mit einem [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator). Wenn dir eher die Stilbeschreibung fehlt, sammle Vokabular mit einem Music Style Generator, bevor du den kompletten Track erzeugst.",
+        "## FAQ",
+        "Wie lang sollte das Briefing sein? Fuer kurze Videos reichen oft 80 bis 140 Woerter. Muss ich die Nutzung nennen? Halte den geplanten Einsatz intern fest und pruefe Tarif, Projektanforderungen und Rechtefragen vor der Veroeffentlichung. Kann ich einen Prompt immer wieder verwenden? Ja, aber nur als Struktur; Szene, Energie und Ausschluesse sollten pro Video angepasst werden."
+      ]
+    },
+    "es": {
+      "title": "Como preparar un brief de musica para videos cortos antes de generarla",
+      "description": "Un flujo practico para convertir una idea de video corto en un brief claro de musica con tono, ritmo, estructura, revisiones y cuidado sobre el uso.",
+      "body": [
+        "Un video corto no necesita solo una pista bonita; necesita musica que ayude al montaje. Pedir musica alegre de fondo deja demasiadas decisiones abiertas: donde entra el gancho, cuando aparece el producto, que espacio queda para la voz y como termina el plano final. Antes de usar un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator), escribe un brief pequeno y concreto.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de generacion musical con IA para crear y personalizar musica a partir de prompts, letras, ideas de estilo y seleccion de modelo. En un flujo de videos cortos funciona mejor cuando ya tienes clara la direccion creativa y no esperas que la herramienta decida todo por ti.",
+        "## Empieza por el montaje, no por el genero",
+        "Describe la pieza como si hablaras con una persona de audio: demo de producto de 20 segundos, entrada rapida, pulso electronico calido, zona media suave para locucion y cierre limpio para el logo. Esa frase da mas informacion que pedir pop moderno. Anade tempo aproximado, emocion principal y limites, por ejemplo sin bajo agresivo debajo de la voz.",
+        "## Convierte el brief en piezas reutilizables",
+        "- Escena: que se ve y quien lo vera.\n- Curva de energia: inicio, desarrollo, revelacion y cierre.\n- Paleta sonora: instrumentos, textura, densidad y presencia de voz.\n- Notas de edicion: donde necesitan espacio la locucion, subtitulos o sonidos del producto.\n- Regla de revision: que cambiaras primero si el resultado esta cerca.",
+        "Si la pieza necesita letra cantada, prepara el mensaje con un [generador de letras con IA](https://easymusic.ai/es/tools/ai-lyrics-generator). Si todavia no tienes vocabulario musical, explora descriptores con un generador de estilos musicales antes de crear la pista completa.",
+        "## Preguntas frecuentes",
+        "Cuanto debe medir el brief? Entre 80 y 140 palabras suele bastar. Debo mencionar el uso comercial? Anotalo para tu propia revision y confirma condiciones del plan y requisitos del proyecto antes de publicar. Puedo reutilizar el mismo prompt? Reutiliza el esqueleto, pero cambia escena, energia y restricciones para cada video."
+      ]
+    },
+    "fr": {
+      "title": "Comment preparer un brief musical pour une video courte avant de generer",
+      "description": "Une methode concrete pour transformer une idee de video courte en brief musical clair avec intention, rythme, structure, revisions et prudence d usage.",
+      "body": [
+        "Dans une video courte, la musique doit servir le montage. Demander une musique de fond dynamique ne dit pas ou placer l accroche, quand laisser respirer la voix off, ni comment terminer sans couvrir le message final. Avant d ouvrir un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator), prepare un brief simple qui relie le son a la scene.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de generation musicale par IA qui permet de creer et personnaliser de la musique avec des prompts, des paroles, des idees de style et un choix de modele. Pour une video courte, elle intervient apres la decision editoriale: ambiance, rythme, place de la voix et contexte d utilisation.",
+        "## Pars du montage, pas du genre",
+        "Ecris une phrase operationnelle: video produit de 18 secondes, ouverture vive, pulse electronique chaud, milieu plus leger pour la voix off, fin nette sur l appel a l action. C est plus utile que pop moderne, car le morceau recoit une fonction. Ajoute trois limites: tempo, intensite emotionnelle et elements a eviter, par exemple pas de drop massif sous les paroles.",
+        "## Structure ton brief",
+        "- Scene: ce que l on voit et le public vise.\n- Courbe d energie: ouverture, milieu, revelation, fin.\n- Palette sonore: instruments, texture, densite, voix ou instrumental.\n- Notes de montage: zones reservees a la voix, aux sous-titres ou aux sons produit.\n- Regle de revision: le premier parametre a changer si le resultat est presque bon.",
+        "Si le concept demande des paroles chantees, redige le message separement avec un [generateur de paroles IA](https://easymusic.ai/fr/tools/ai-lyrics-generator). Si le probleme est plutot le vocabulaire musical, explore des pistes avec un generateur de styles musicaux avant de produire le morceau.",
+        "## FAQ",
+        "Quelle longueur viser? En general, 80 a 140 mots suffisent. Faut-il parler des droits? Note l usage prevu et verifie les conditions du plan ainsi que les contraintes du projet avant diffusion. Peut-on garder le meme prompt? Garde la structure, mais adapte scene, energie et interdits a chaque video."
+      ]
+    },
+    "it": {
+      "title": "Come scrivere un brief musicale per video brevi prima di generare",
+      "description": "Un metodo pratico per trasformare un idea di video breve in un brief musicale chiaro con mood, ritmo, struttura, revisioni e attenzione all uso.",
+      "body": [
+        "Nei video brevi la musica deve sostenere il montaggio, non solo riempire il silenzio. Chiedere musica allegra di sottofondo lascia aperte troppe decisioni: dove entrare, quanto spazio dare alla voce, quando salire di energia e come chiudere. Prima di usare un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator), conviene scrivere un brief essenziale.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di generazione musicale con IA per creare e personalizzare musica da prompt, testi, idee di stile e scelta del modello. Nel lavoro sui video brevi e piu utile quando la direzione creativa e gia definita: atmosfera, ritmo, spazio per la voce e contesto di pubblicazione.",
+        "## Parti dal montaggio, non dal genere",
+        "Scrivi una riga concreta: demo prodotto da 16 secondi, apertura veloce, pulse elettronico caldo, parte centrale leggera per voiceover, finale pulito sul logo. Questa indicazione aiuta piu di pop moderno perche assegna alla musica una funzione. Aggiungi tempo indicativo, intensita emotiva e divieti, come niente drop pesante sotto il parlato.",
+        "## Trasforma il brief in blocchi riutilizzabili",
+        "- Scena: cosa accade sullo schermo e chi guarda.\n- Curva di energia: intro, sviluppo, reveal, chiusura.\n- Tavolozza sonora: strumenti, texture, densita, voce o strumentale.\n- Note di montaggio: dove servono spazio per voce, sottotitoli o suoni del prodotto.\n- Regola di revisione: cosa cambiare per primo se il risultato e quasi corretto.",
+        "Se servono parole cantate, prepara il testo con un [generatore di testi AI](https://easymusic.ai/it/tools/ai-lyrics-generator). Se manca il linguaggio per descrivere il sound, usa un generatore di stili musicali per raccogliere parole utili prima della traccia finale.",
+        "## FAQ",
+        "Quanto deve essere lungo il brief? Spesso bastano 80-140 parole. Devo indicare l uso previsto? Si, almeno nelle note interne, poi verifica piano, requisiti del progetto e condizioni prima della pubblicazione. Posso riusare lo stesso prompt? Riusane la struttura, ma cambia scena, energia e limiti per ogni video."
+      ]
+    },
+    "pt": {
+      "title": "Como criar um briefing de musica para videos curtos antes de gerar",
+      "description": "Um fluxo pratico para transformar uma ideia de video curto em um briefing musical claro com clima, ritmo, estrutura, revisoes e cuidado de uso.",
+      "body": [
+        "Em videos curtos, a trilha precisa trabalhar junto com a edicao. Pedir musica animada de fundo nao explica onde fica o gancho, quando o produto aparece, quanto espaco a narração precisa ou como a cena termina. Antes de usar um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator), escreva um briefing pequeno e objetivo.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de geracao musical com IA para criar e personalizar musica a partir de prompts, letras, ideias de estilo e escolha de modelo. Para videos curtos, ela funciona melhor quando a decisao criativa ja esta organizada: clima, ritmo, espaco para voz e contexto de uso.",
+        "## Comece pelo corte, nao pelo genero",
+        "Descreva a edicao: demo de produto de 18 segundos, entrada rapida, pulso eletronico quente, meio mais leve para narracao e final limpo no logo. Isso ajuda mais do que pedir pop moderno, porque da uma funcao para a trilha. Inclua faixa de tempo, temperatura emocional e limites, como sem batida pesada sob a fala.",
+        "## Use blocos reutilizaveis",
+        "- Cena: o que aparece e quem vai assistir.\n- Curva de energia: abertura, meio, revelacao e final.\n- Paleta sonora: instrumentos, textura, densidade, com voz ou instrumental.\n- Notas de edicao: onde narracao, legendas ou sons do produto precisam respirar.\n- Regra de revisao: o que mudar primeiro se a faixa estiver quase certa.",
+        "Se a ideia precisa de letra cantada, prepare o texto com um [gerador de letras com IA](https://easymusic.ai/pt/tools/ai-lyrics-generator). Se o desafio e encontrar palavras para o estilo, use um gerador de estilos musicais antes de criar a faixa completa.",
+        "## Perguntas frequentes",
+        "Qual tamanho ideal? De 80 a 140 palavras costuma resolver. Devo registrar o uso comercial? Registre o objetivo internamente e confira o plano e as exigencias do projeto antes de publicar. Posso repetir o mesmo prompt? Repita a estrutura, mas ajuste cena, energia e restricoes para cada video."
+      ]
+    },
+    "ru": {
+      "title": "Как подготовить бриф для музыки в коротком видео до генерации",
+      "description": "Практичный процесс для коротких видео: настроение, темп, структура, правки, место для голоса и осторожное планирование использования.",
+      "body": [
+        "В коротком видео музыка должна помогать монтажу, а не просто звучать на фоне. Запрос вроде энергичная фоновая музыка не объясняет, где нужен хук, когда появляется продукт, сколько места оставить голосу и каким должен быть финал. Перед использованием [AI music generator](https://easymusic.ai/ru/ai-music-generator) полезно написать короткий творческий бриф.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для генерации и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. В рабочем процессе для коротких видео она особенно полезна после того, как вы определили настроение, ритм, роль музыки и контекст публикации.",
+        "## Начинайте с монтажа, а не с жанра",
+        "Опишите задачу: продуктовая демонстрация на 18 секунд, быстрый вход, теплый электронный пульс, спокойная середина для озвучки, чистое завершение на логотипе. Такая строка лучше, чем современный поп, потому что музыка получает функцию. Добавьте темп, эмоциональную интенсивность и запреты, например без тяжелого дропа под речь.",
+        "## Соберите бриф из блоков",
+        "- Сцена: что происходит на экране и кто зритель.\n- Кривая энергии: вступление, середина, раскрытие, финал.\n- Звуковая палитра: инструменты, плотность, фактура, вокал или инструментал.\n- Монтажные заметки: где голос, субтитры или звуки продукта требуют пространства.\n- Правило правки: что менять первым, если результат почти подходит.",
+        "Если нужны поющиеся слова, подготовьте текст отдельно с помощью [AI lyrics generator](https://easymusic.ai/ru/tools/ai-lyrics-generator). Если не хватает словаря для описания звучания, соберите варианты через music style generator, а потом создавайте полную дорожку.",
+        "## FAQ",
+        "Какой длины должен быть бриф? Обычно достаточно 80-140 слов. Нужно ли указывать коммерческое использование? Запишите предполагаемый сценарий и проверьте условия плана и требования проекта перед публикацией. Можно ли повторять один промпт? Повторяйте структуру, но меняйте сцену, энергию и ограничения."
+      ]
+    },
+    "zh": {
+      "title": "短视频配乐生成前，如何写清楚音乐 Brief",
+      "description": "把短视频创意整理成可执行的 AI 音乐 Brief：包含情绪、节奏、段落、修改方向、旁白空间和使用场景检查。",
+      "body": [
+        "很多短视频不是输在画面，而是输在音乐需求太模糊。只写一条轻快的背景音乐，系统很难知道开头两秒要不要抓人、产品出现时是否需要抬升、旁白下面要留多少空间、结尾是干净收住还是继续延展。使用 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 前，先写一个小而具体的音乐 Brief，会让生成结果更接近剪辑目标。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐生成与定制平台，可以围绕提示词、歌词、风格描述和模型选择来创作音乐。在短视频流程里，它更适合作为执行工具：你先判断画面情绪、节奏和发布场景，再让工具根据清晰方向生成素材。",
+        "## 先写剪辑任务，不要先写流派",
+        "一个好 Brief 可以这样开始：18 秒产品演示，前 2 秒快速进入，温暖电子律动，中段给旁白留空间，结尾在 logo 出现时干净收束。它比现代流行风更有效，因为它说明了音乐在片子里的作用。再补三类约束：大致速度、情绪温度、不要出现的元素，例如不要在口播下方出现过重的鼓点。",
+        "## 把 Brief 拆成可复用模块",
+        "- 场景：画面里发生什么，谁会观看。\n- 能量曲线：开头、中段、揭示点、结尾。\n- 声音材料：乐器、质感、密度、是否需要人声。\n- 剪辑备注：旁白、字幕、产品音效需要空间的位置。\n- 修改规则：如果结果接近可用，优先调整什么。",
+        "如果视频需要演唱内容，可以先用 [AI 歌词生成器](https://easymusic.ai/zh/tools/ai-lyrics-generator) 整理词意和句长；如果问题是不会描述风格，可以先用音乐风格生成器收集更准确的声音词汇，再生成完整音乐。",
+        "## 常见问题",
+        "Brief 要写多长？短视频通常 80 到 140 个词就够。要不要写商业用途？建议在内部备注里写清楚，并在发布前检查订阅方案、项目要求和相关使用条件。一个提示词能反复用吗？可以复用结构，但每条视频都应重新调整场景、能量曲线和限制条件。"
+      ]
+    },
+    "ja": {
+      "title": "短い動画のBGMを生成する前に音楽ブリーフを書く方法",
+      "description": "短尺動画のアイデアを、ムード、テンポ、構成、修正方針、ナレーションの余白、利用前確認まで含む音楽ブリーフに整理する方法。",
+      "body": [
+        "短い動画では、音楽はただ雰囲気を足すものではなく、編集を支える設計要素です。明るいBGMとだけ書くと、冒頭のつかみ、商品が出る瞬間、ナレーションの余白、終わり方が曖昧になります。[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)を使う前に、映像の役割に沿った小さなブリーフを書いておくと、結果を判断しやすくなります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja)は、プロンプト、歌詞、スタイル案、モデル選択をもとに音楽を作成し調整できるAI音楽生成プラットフォームです。短尺動画では、ムード、テンポ、声の入る位置、公開目的を先に決めたうえで使うと、制作ツールとして扱いやすくなります。",
+        "## ジャンルより先に編集内容を書く",
+        "たとえば、18秒の商品デモ、最初の2秒で素早く入る、温かいエレクトロのパルス、中盤はナレーションのために薄く、最後はロゴで短く着地、と書きます。モダンポップより具体的で、音楽の役割が伝わります。さらにテンポ感、感情の強さ、避けたい要素を加えます。例として、話し声の下に大きなドロップを置かない、などです。",
+        "## ブリーフを再利用できる部品にする",
+        "- シーン: 画面で何が起こり、誰が見るのか。\n- エネルギー曲線: 導入、中盤、見せ場、終わり。\n- 音色: 楽器、質感、密度、ボーカルの有無。\n- 編集メモ: ナレーション、字幕、商品音を邪魔しない場所。\n- 修正ルール: 近い結果が出たとき、最初に何を変えるか。",
+        "歌詞が必要な企画では、まず[AI歌詞ジェネレーター](https://easymusic.ai/ja/tools/ai-lyrics-generator)で言葉の長さと意味を整理します。音楽の言い方に迷う場合は、音楽スタイルジェネレーターで表現語を集めてから全体のトラックを作ると安定します。",
+        "## FAQ",
+        "ブリーフの長さはどのくらいですか。短尺動画なら80から140語程度で十分です。商用利用の予定を書くべきですか。内部メモには用途を書き、公開前にプラン条件とプロジェクト要件を確認してください。同じプロンプトを使い回せますか。構造は使えますが、シーン、エネルギー、避けたい要素は毎回変えるべきです。"
+      ]
+    },
+    "ko": {
+      "title": "짧은 영상 BGM을 생성하기 전에 음악 브리프를 쓰는 법",
+      "description": "짧은 영상 아이디어를 분위기, 박자, 구성, 수정 기준, 내레이션 여백, 사용 전 확인까지 담은 AI 음악 브리프로 정리하는 실무 흐름.",
+      "body": [
+        "짧은 영상에서 음악은 빈 공간을 채우는 장식이 아니라 편집을 움직이는 장치입니다. 밝은 배경음악이라고만 쓰면 첫 2초의 훅, 제품이 등장하는 순간, 내레이션이 들어갈 공간, 마지막 컷의 마무리가 모두 모호해집니다. [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 쓰기 전에 영상의 역할을 설명하는 작은 브리프를 먼저 준비해 보세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 생성 플랫폼입니다. 짧은 영상 작업에서는 분위기, 속도, 음성의 자리, 게시 목적을 먼저 정한 뒤 제작 도구로 활용할 때 결과 판단이 쉬워집니다.",
+        "## 장르보다 편집 목적을 먼저 적기",
+        "예시는 이렇게 쓸 수 있습니다. 18초 제품 데모, 첫 2초 빠른 진입, 따뜻한 전자 펄스, 중간은 내레이션을 위해 얇게, 로고 컷에서 깔끔하게 종료. 모던 팝보다 훨씬 구체적이며 음악이 해야 할 일을 알려 줍니다. 여기에 대략적인 템포, 감정 강도, 피해야 할 요소를 더합니다. 예를 들어 말소리 아래에는 과한 드롭을 넣지 않는다처럼요.",
+        "## 브리프를 재사용 가능한 블록으로 만들기",
+        "- 장면: 화면에 무엇이 나오고 누가 보는가.\n- 에너지 곡선: 시작, 중간, 공개 지점, 마무리.\n- 사운드 팔레트: 악기, 질감, 밀도, 보컬 여부.\n- 편집 메모: 내레이션, 자막, 제품 소리가 숨 쉴 자리.\n- 수정 기준: 결과가 거의 맞을 때 가장 먼저 바꿀 것.",
+        "노래 가사가 필요한 콘셉트라면 [AI 가사 생성기](https://easymusic.ai/ko/tools/ai-lyrics-generator)로 메시지와 문장 길이를 먼저 정리하세요. 사운드를 설명할 단어가 부족하다면 음악 스타일 생성기로 표현을 모은 뒤 전체 트랙을 생성하는 편이 좋습니다.",
+        "## FAQ",
+        "브리프는 얼마나 길어야 하나요? 짧은 영상은 보통 80에서 140단어면 충분합니다. 상업적 사용 계획을 적어야 하나요? 내부 메모에는 용도를 남기고, 게시 전 플랜 조건과 프로젝트 요구사항을 확인하세요. 같은 프롬프트를 반복해도 되나요? 구조는 재사용하되 장면, 에너지, 제한 조건은 영상마다 바꾸는 것이 좋습니다."
+      ]
+    },
+    "ar": {
+      "title": "كيف تكتب موجزا موسيقيا لفيديو قصير قبل توليد الموسيقى",
+      "description": "طريقة عملية لتحويل فكرة فيديو قصير إلى موجز موسيقي واضح يشمل المزاج، الإيقاع، البنية، المراجعة، مساحة التعليق الصوتي، ومراجعة الاستخدام.",
+      "body": [
+        "في الفيديوهات القصيرة لا تكفي عبارة موسيقى خلفية مبهجة. هذه العبارة لا تشرح أين يبدأ الجذب، متى يظهر المنتج، كم مساحة يحتاجها التعليق الصوتي، أو كيف يجب أن ينتهي المشهد. قبل استخدام [مولد موسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، اكتب موجزا صغيرا يربط الصوت بالمونتاج والهدف.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) هو منصة لتوليد وتخصيص الموسيقى بالذكاء الاصطناعي اعتمادا على المطالبات، الكلمات، أفكار الأسلوب، واختيار النموذج. في عمل الفيديوهات القصيرة، يكون مفيدا عندما تكون قد حددت المزاج، السرعة، مساحة الصوت البشري، وسياق النشر مسبقا.",
+        "## ابدأ بالمونتاج لا بالنوع الموسيقي",
+        "اكتب وصفا عمليا: عرض منتج مدته 18 ثانية، دخول سريع في أول ثانيتين، نبض إلكتروني دافئ، وسط أخف للتعليق الصوتي، ونهاية نظيفة عند ظهور الشعار. هذا أدق من قول موسيقى بوب حديثة، لأنه يعطي الموسيقى وظيفة واضحة. أضف سرعة تقريبية، درجة الشعور، وما يجب تجنبه مثل عدم وضع إيقاع ثقيل تحت الكلام.",
+        "## حول الموجز إلى أجزاء قابلة لإعادة الاستخدام",
+        "- المشهد: ماذا يظهر على الشاشة ومن هو المشاهد.\n- منحنى الطاقة: البداية، الوسط، لحظة الكشف، النهاية.\n- لوحة الصوت: الآلات، الكثافة، الملمس، وجود صوت غنائي أو عدمه.\n- ملاحظات المونتاج: أين تحتاج الكلمات أو الترجمة أو أصوات المنتج إلى مساحة.\n- قاعدة المراجعة: ما أول شيء ستعدله إذا كانت النتيجة قريبة من المطلوب.",
+        "إذا احتاجت الفكرة إلى كلمات مغناة، حضر الرسالة أولا باستخدام [مولد كلمات بالذكاء الاصطناعي](https://easymusic.ai/ar/tools/ai-lyrics-generator). وإذا كان التحدي هو وصف الطابع الموسيقي، فاستعن بمولد أسلوب الموسيقى لجمع مفردات أوضح قبل إنشاء المسار الكامل.",
+        "## أسئلة شائعة",
+        "ما طول الموجز المناسب؟ غالبا يكفي من 80 إلى 140 كلمة. هل أذكر الاستخدام التجاري؟ سجله في ملاحظاتك الداخلية، ثم راجع شروط الخطة ومتطلبات المشروع قبل النشر. هل يمكن استخدام نفس المطالبة دائما؟ استخدم الهيكل نفسه، لكن غير المشهد ومنحنى الطاقة والقيود لكل فيديو."
+      ]
+    }
+  }
+}
