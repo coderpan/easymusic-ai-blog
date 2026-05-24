@@ -4,6 +4,7 @@ const path = require("node:path");
 const root = process.cwd();
 const outDir = path.join(root, "public");
 const site = readJson("data/site.json");
+const basePath = new URL(site.baseUrl).pathname.replace(/\/$/, "");
 const posts = fs
   .readdirSync(path.join(root, "data/posts"))
   .filter((file) => file.endsWith(".json"))
@@ -39,7 +40,7 @@ function renderIndex(locale) {
       const entry = post.translations[locale];
       return `<article class="post-card">
         <time datetime="${post.date}">${post.date}</time>
-        <h2><a href="/${locale}/posts/${post.slug}/">${escapeHtml(entry.title)}</a></h2>
+        <h2><a href="${localUrl(`/${locale}/posts/${post.slug}/`)}">${escapeHtml(entry.title)}</a></h2>
         <p>${escapeHtml(entry.description)}</p>
       </article>`;
     })
@@ -82,19 +83,19 @@ function layout(locale, title, description, canonicalPath, content, alternates =
   <link rel="canonical" href="${canonical}">
   ${Object.entries(alternateLinks).map(([code, href]) => `<link rel="alternate" hreflang="${code}" href="${href}">`).join("\n  ")}
   <link rel="alternate" hreflang="x-default" href="${alternateLinks[site.defaultLocale]}">
-  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="${localUrl("/assets/site.css")}">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/${locale}/">${escapeHtml(site.siteName)}</a>
+    <a class="brand" href="${localUrl(`/${locale}/`)}">${escapeHtml(site.siteName)}</a>
     <nav aria-label="Languages">
-      ${site.locales.map((code) => `<a href="/${code}/"${code === locale ? ' aria-current="page"' : ""}>${code.toUpperCase()}</a>`).join("")}
+      ${site.locales.map((code) => `<a href="${localUrl(`/${code}/`)}"${code === locale ? ' aria-current="page"' : ""}>${code.toUpperCase()}</a>`).join("")}
     </nav>
   </header>
   <main>${content}</main>
   <footer>
     <p>${escapeHtml(site.siteName)} publishes practical AI music workflow guides. Product references point to verified ${escapeHtml(site.productName)} pages.</p>
-    <p><a href="${site.productUrl}">${escapeHtml(site.productName)}</a> · <a href="/${locale}/feed.xml">RSS</a> · <a href="/llms.txt">llms.txt</a></p>
+    <p><a href="${site.productUrl}">${escapeHtml(site.productName)}</a> · <a href="${localUrl(`/${locale}/feed.xml`)}">RSS</a> · <a href="${localUrl("/llms.txt")}">llms.txt</a></p>
   </footer>
 </body>
 </html>`;
@@ -202,11 +203,17 @@ function inline(text) {
 }
 
 function renderRedirect(target) {
-  return `<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${target}"><link rel="canonical" href="${site.baseUrl}${target}"></head><body><a href="${target}">Continue</a></body></html>`;
+  const href = localUrl(target);
+  return `<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${href}"><link rel="canonical" href="${site.baseUrl}${target}"></head><body><a href="${href}">Continue</a></body></html>`;
 }
 
 function css() {
-  return `:root{color-scheme:light;--ink:#17211f;--muted:#5d6b66;--paper:#fbfaf6;--line:#d9ded7;--accent:#0f766e;--warm:#b45309;--panel:#ffffff}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:var(--accent);text-decoration-thickness:.08em;text-underline-offset:.18em}.site-header{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:18px clamp(18px,4vw,56px);border-bottom:1px solid var(--line);background:rgba(251,250,246,.92);position:sticky;top:0;backdrop-filter:blur(14px)}.brand{font-weight:800;color:var(--ink);text-decoration:none}nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}nav a{font-size:12px;text-decoration:none;color:var(--muted);padding:4px 6px;border-radius:4px}nav a[aria-current=page]{color:var(--ink);background:#e8eee9}main{width:min(100%,980px);margin:0 auto;padding:42px clamp(18px,4vw,28px) 64px}.hero{padding:42px 0 34px;border-bottom:1px solid var(--line)}.eyebrow{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--warm);font-weight:700}.hero h1,.article h1{font-size:clamp(34px,6vw,62px);line-height:1.02;margin:10px 0 18px;letter-spacing:0}.hero p,.dek{max-width:760px;color:var(--muted);font-size:18px}.post-list{display:grid;gap:16px;margin-top:28px}.post-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:22px}.post-card h2{font-size:24px;line-height:1.18;margin:8px 0}.post-card time{color:var(--warm);font-size:13px;font-weight:700}.article{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:clamp(22px,5vw,52px)}.article h2{margin-top:38px;font-size:28px;line-height:1.2}.article h3{margin-top:28px;font-size:20px}.article p,.article li{font-size:17px}.article ul{padding-inline-start:1.4rem}.article li+li{margin-top:8px}footer{border-top:1px solid var(--line);padding:28px clamp(18px,4vw,56px);color:var(--muted);font-size:14px}@media(max-width:720px){.site-header{position:static;align-items:flex-start;flex-direction:column}.article{border-left:0;border-right:0;border-radius:0;margin-left:-18px;margin-right:-18px}.hero h1,.article h1{font-size:36px}}`;
+  return `:root{color-scheme:light;--ink:#17211f;--muted:#5d6b66;--paper:#fbfaf6;--line:#d9ded7;--accent:#0f766e;--warm:#b45309;--panel:#ffffff;--soft:#eef3ee;--gold:#d6a03d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#fbfaf6 0%,#f2f6f0 46%,#fbfaf6 100%);color:var(--ink);font-family:ui-serif,Georgia,Cambria,"Times New Roman",serif;line-height:1.7}a{color:var(--accent);text-decoration-thickness:.08em;text-underline-offset:.2em}.site-header{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:18px clamp(18px,4vw,56px);border-bottom:1px solid color-mix(in srgb,var(--line),transparent 12%);background:rgba(251,250,246,.9);position:sticky;top:0;z-index:5;backdrop-filter:blur(14px)}.brand{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:850;color:var(--ink);text-decoration:none;letter-spacing:.01em}nav{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end}nav a{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:12px;font-weight:700;text-decoration:none;color:var(--muted);padding:5px 7px;border-radius:4px}nav a:hover,nav a[aria-current=page]{color:var(--ink);background:var(--soft)}main{width:min(100%,1080px);margin:0 auto;padding:46px clamp(18px,4vw,34px) 72px}.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,280px);gap:clamp(22px,5vw,64px);align-items:end;padding:50px 0 38px;border-bottom:1px solid var(--line)}.hero:after{content:"";height:220px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(135deg,#12312d 0%,#0f766e 45%,#d6a03d 100%);box-shadow:inset 0 0 0 12px rgba(251,250,246,.16)}.eyebrow{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--warm);font-weight:800}.hero h1,.article h1{font-size:clamp(38px,6vw,76px);line-height:.98;margin:10px 0 20px;letter-spacing:0;max-width:900px}.hero p,.dek{max-width:760px;color:var(--muted);font-size:19px}.post-list{display:grid;gap:18px;margin-top:30px}.post-card{background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:8px;padding:24px 26px;box-shadow:0 18px 50px rgba(23,33,31,.06)}.post-card h2{font-size:26px;line-height:1.14;margin:8px 0 10px}.post-card time{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--warm);font-size:12px;font-weight:800;letter-spacing:.05em}.article{background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:8px;padding:clamp(24px,5vw,60px);box-shadow:0 18px 60px rgba(23,33,31,.07)}.article h2{margin-top:42px;font-size:30px;line-height:1.16}.article h3{margin-top:30px;font-size:21px}.article p,.article li{font-size:18px}.article p{max-width:760px}.article ul{padding-inline-start:1.35rem;max-width:760px}.article li+li{margin-top:8px}footer{border-top:1px solid var(--line);padding:30px clamp(18px,4vw,56px);color:var(--muted);font-size:14px;background:#f7f7f1}footer p{max-width:900px}@media(max-width:760px){.site-header{position:static;align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr;padding-top:24px}.hero:after{height:120px;order:-1}.article{border-left:0;border-right:0;border-radius:0;margin-left:-18px;margin-right:-18px}.hero h1,.article h1{font-size:38px}.article p,.article li{font-size:17px}}`;
+}
+
+function localUrl(pathname) {
+  const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  return `${basePath}${normalized}`;
 }
 
 function readJson(relativePath) {
