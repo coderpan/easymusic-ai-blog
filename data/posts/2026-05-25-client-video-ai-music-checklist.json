@@ -1,0 +1,216 @@
+{
+  "date": "2026-05-25",
+  "slug": "client-video-ai-music-checklist",
+  "cluster": "responsible-commercial-workflow",
+  "translations": {
+    "en": {
+      "title": "A Client-Ready AI Music Checklist Before You Publish a Brand Video",
+      "description": "A practical rights-aware checklist for planning, generating, documenting, reviewing, and handing off AI music for client or brand video projects.",
+      "body": [
+        "The risky moment in a brand video is not always generation. It is the hour before publishing, when the client asks, Can we use this on ads, Shorts, Reels, and the product page? A good track from an [AI music generator](https://easymusic.ai/ai-music-generator) still needs a clean usage note, a version record, and a platform check before it becomes client-ready.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music generation platform for creating and customizing music from prompts, lyrics, style ideas, and model choices. In a client workflow, treat it as the music production tool inside a larger approval process: you still define the brief, confirm the intended use, review the output, and keep records for the project file.",
+        "## Start with a usage note",
+        "Before generating, write a five-line note: project name, client or brand, channels, whether the post is organic or paid, and the expected duration of use. Add the planned formats, such as 9:16 social cut, 16:9 landing page edit, or 6-second bumper. This note keeps the music decision tied to the real distribution plan instead of a vague request for something energetic.",
+        "## Keep a generation and edit record",
+        "Save the prompt, date, selected style words, important lyrics, model or mode if visible, downloaded filenames, and every meaningful edit. If you later adjust tempo, trim an intro, remove vocals, or combine the track with voiceover, write that down. The record does not solve every rights question, but it gives the client and your team a clear history of what was made and changed.",
+        "## Run a platform fit check",
+        "Do not assume every platform treats music the same way. Check the current rules for the account type, especially when the video is for a business account, an ad, a sponsored post, or a monetized channel. For EasyMusic.AI itself, review the current [pricing and plan details](https://easymusic.ai/pricing) before promising a usage scope to a client. If the campaign depends on one channel, test a private or draft upload early enough to replace the music if needed.",
+        "## Three reusable habits",
+        "- Create a fallback mix with lower music and more room for voiceover.\n- Store the final audio, project file, prompt, and approval note in the same folder.\n- Send the client a plain-language handoff note that says where the music will be used, what was generated, and what still depends on platform or plan terms.",
+        "## FAQ",
+        "Can I tell a client AI music is automatically clear for every use? No. Avoid absolute promises and check the tool terms, platform rules, and project requirements. What should I save for the project file? Keep the prompt, date, generated file, final edit, usage note, and client approval. What if a platform flags the audio? Pause the launch, read the claim or warning, replace the track if needed, and dispute only when you have a sound basis. Should I mix a trending song with an AI track? Only if the rights for the trending song and the final use are clear; otherwise build the identity with original style direction instead."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer Kundenvideos: Checkliste vor der Veroeffentlichung",
+      "description": "Eine praktische, rechtebewusste Checkliste fuer Planung, Generierung, Dokumentation, Pruefung und Uebergabe von KI-Musik in Marken- und Kundenprojekten.",
+      "body": [
+        "Der riskante Moment kommt oft nicht beim Generieren, sondern kurz vor der Veroeffentlichung. Der Kunde fragt: Duerfen wir diesen Track fuer Ads, Shorts, Reels und die Produktseite nutzen? Ein gutes Ergebnis aus einem [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) braucht trotzdem eine klare Nutzungsnotiz, eine Versionshistorie und eine Plattformpruefung.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerzeugung, mit der Musik aus Prompts, Lyrics, Stilideen und Modellauswahl erstellt und angepasst werden kann. In einem Kundenprojekt ist es das Produktionswerkzeug innerhalb eines groesseren Freigabeprozesses: Briefing, Nutzungskontext, Ergebnispruefung und Projektdokumentation bleiben deine Aufgabe.",
+        "## Beginne mit einer Nutzungsnotiz",
+        "Schreibe vor der Generierung fuenf Zeilen auf: Projektname, Kunde oder Marke, Kanaele, organisch oder bezahlt, geplante Nutzungsdauer. Ergaenze Formate wie 9:16 Social Cut, 16:9 Landingpage-Version oder 6-Sekunden-Bumper. So bleibt die Musikentscheidung an den echten Verteilplan gebunden und nicht an eine vage Bitte um etwas Energetisches.",
+        "## Halte Generierung und Bearbeitung fest",
+        "Speichere Prompt, Datum, wichtige Stilwoerter, relevante Lyrics, sichtbaren Modus oder Modellnamen, Download-Dateien und jede wichtige Aenderung. Wenn du Tempo anpasst, ein Intro kuerzt, Gesang entfernst oder den Track unter Voiceover legst, notiere es. Diese Dokumentation loest nicht jede Rechtefrage, aber sie zeigt sauber, was erstellt und veraendert wurde.",
+        "## Pruefe die Plattformtauglichkeit",
+        "Gehe nicht davon aus, dass jede Plattform Musik gleich behandelt. Pruefe aktuelle Regeln fuer den Kontotyp, besonders bei Business-Accounts, Anzeigen, gesponserten Posts oder monetarisierten Kanaelen. Fuer EasyMusic.AI selbst solltest du vor Zusagen an Kunden die aktuellen [Preise und Plandetails](https://easymusic.ai/de/pricing) lesen. Wenn eine Kampagne von einem Kanal abhaengt, teste frueh genug in Entwurf oder privatem Upload.",
+        "## Drei wiederverwendbare Gewohnheiten",
+        "- Erstelle einen Fallback-Mix mit leiserer Musik und mehr Raum fuer Sprache.\n- Lege finale Audiodatei, Projektdatei, Prompt und Freigabenotiz im selben Ordner ab.\n- Uebergib dem Kunden eine kurze Notiz: Wo wird die Musik genutzt, was wurde generiert, und was haengt weiterhin von Plattform- oder Planbedingungen ab.",
+        "## FAQ",
+        "Kann ich einem Kunden sagen, KI-Musik sei automatisch frei von Rechtefragen? Nein. Vermeide absolute Zusagen und pruefe Tool-Bedingungen, Plattformregeln und Projektanforderungen. Was gehoert in die Projektakte? Prompt, Datum, generierte Datei, finaler Schnitt, Nutzungsnotiz und Kundenfreigabe. Was tun bei einer Plattformwarnung? Start pausieren, Hinweis lesen, Track bei Bedarf ersetzen und nur mit guter Grundlage widersprechen. Sollte ich einen Trendsong mit einem KI-Track mischen? Nur wenn die Rechte am Trendsong und an der finalen Nutzung klar sind."
+      ]
+    },
+    "es": {
+      "title": "Checklist de musica con IA antes de publicar un video de marca",
+      "description": "Una lista practica y prudente para planear, generar, documentar, revisar y entregar musica con IA en videos de clientes o marcas.",
+      "body": [
+        "El momento delicado no siempre ocurre al generar la pista. Llega una hora antes de publicar, cuando el cliente pregunta si puede usarla en anuncios, Shorts, Reels y la pagina del producto. Una buena pista creada con un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator) todavia necesita una nota de uso, registro de versiones y revision de plataforma.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de generacion musical con IA para crear y personalizar musica a partir de prompts, letras, ideas de estilo y seleccion de modelo. En un flujo con clientes, conviene verla como la herramienta de produccion dentro de un proceso mayor: brief, contexto de uso, revision del resultado y archivo del proyecto.",
+        "## Empieza con una nota de uso",
+        "Antes de generar, escribe cinco lineas: nombre del proyecto, cliente o marca, canales, si sera organico o pagado, y duracion prevista del uso. Anade formatos como corte social 9:16, version 16:9 para landing page o bumper de 6 segundos. La decision musical queda atada al plan real de distribucion, no a una peticion vaga de algo energico.",
+        "## Guarda el historial de generacion y edicion",
+        "Conserva el prompt, fecha, palabras de estilo, letras importantes, modo o modelo visible, nombres de descarga y cada cambio relevante. Si luego ajustas tempo, recortas una intro, quitas voz o mezclas la pista con locucion, anotalo. El registro no resuelve todas las dudas legales, pero da al equipo y al cliente una historia clara de lo creado.",
+        "## Haz una revision por plataforma",
+        "No supongas que todas las plataformas tratan la musica igual. Revisa las reglas actuales segun tipo de cuenta, sobre todo si es cuenta de empresa, anuncio, post patrocinado o canal monetizado. Para EasyMusic.AI, consulta los [precios y detalles del plan](https://easymusic.ai/es/pricing) antes de prometer un alcance de uso al cliente. Si la campana depende de un canal, prueba un borrador o carga privada con tiempo.",
+        "## Tres habitos reutilizables",
+        "- Prepara una mezcla alternativa con musica mas baja y mas espacio para la voz.\n- Guarda audio final, archivo de proyecto, prompt y nota de aprobacion en la misma carpeta.\n- Entrega al cliente una nota simple: donde se usara la musica, que se genero y que sigue dependiendo de terminos de plataforma o plan.",
+        "## Preguntas frecuentes",
+        "Puedo decir que la musica con IA esta automaticamente libre de problemas de derechos? No. Evita promesas absolutas y revisa terminos de la herramienta, reglas de plataforma y requisitos del proyecto. Que debo guardar? Prompt, fecha, archivo generado, edicion final, nota de uso y aprobacion del cliente. Que hago si una plataforma marca el audio? Pausa el lanzamiento, lee el aviso, reemplaza la pista si hace falta y disputa solo con base clara. Conviene mezclar un tema de tendencia con una pista IA? Solo si los derechos de ese tema y del uso final estan claros."
+      ]
+    },
+    "fr": {
+      "title": "Checklist musique IA avant de publier une video de marque",
+      "description": "Une checklist pratique pour planifier, generer, documenter, verifier et livrer de la musique IA dans un projet video client ou marque.",
+      "body": [
+        "Le moment fragile n est pas toujours la generation. Il arrive souvent juste avant la publication, quand le client demande si la piste peut servir pour des publicites, Shorts, Reels et une page produit. Une bonne piste creee avec un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator) doit encore passer par une note d usage, un historique de versions et une verification de plateforme.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de generation musicale par IA qui permet de creer et personnaliser de la musique avec des prompts, des paroles, des idees de style et un choix de modele. Dans un projet client, c est un outil de production integre a un processus plus large: brief, contexte d utilisation, revue du resultat et archivage du dossier.",
+        "## Commence par une note d usage",
+        "Avant de generer, ecris cinq lignes: nom du projet, client ou marque, canaux, publication organique ou payante, duree prevue d utilisation. Ajoute les formats, par exemple cut social 9:16, version 16:9 pour landing page ou bumper de 6 secondes. La decision musicale reste ainsi reliee au vrai plan de diffusion, pas a une demande floue de son dynamique.",
+        "## Garde une trace de generation et de montage",
+        "Conserve le prompt, la date, les mots de style importants, les paroles utiles, le mode ou modele visible, les noms de fichiers telecharges et chaque modification notable. Si tu changes le tempo, raccourcis une intro, retires une voix ou places la piste sous une voix off, note-le. Cette trace ne regle pas toutes les questions de droits, mais elle donne une histoire claire de ce qui a ete cree.",
+        "## Verifie l adequation a la plateforme",
+        "Ne pars pas du principe que toutes les plateformes traitent la musique de la meme facon. Consulte les regles actuelles selon le type de compte, surtout pour un compte entreprise, une publicite, un post sponsorise ou une chaine monetisee. Pour EasyMusic.AI, relis les [prix et details du plan](https://easymusic.ai/fr/pricing) avant de promettre un champ d usage au client. Si la campagne depend d un canal, teste un brouillon ou une mise en ligne privee assez tot.",
+        "## Trois habitudes reutilisables",
+        "- Prepare une version de secours avec une musique plus basse et plus d espace pour la voix.\n- Range l audio final, le fichier projet, le prompt et la note d approbation dans le meme dossier.\n- Remets au client une note simple: ou la musique sera utilisee, ce qui a ete genere et ce qui depend encore des conditions de plateforme ou de plan.",
+        "## FAQ",
+        "Puis-je dire a un client que la musique IA est automatiquement sans probleme de droits? Non. Evite les promesses absolues et verifie les conditions de l outil, les regles de plateforme et les exigences du projet. Que faut-il archiver? Prompt, date, fichier genere, montage final, note d usage et validation client. Que faire si une plateforme signale l audio? Suspendre la publication, lire l avis, remplacer la piste si necessaire et contester seulement avec une base solide. Faut-il melanger un son tendance avec une piste IA? Seulement si les droits du son tendance et de l usage final sont clairs."
+      ]
+    },
+    "it": {
+      "title": "Checklist per usare musica AI in un video cliente",
+      "description": "Una checklist pratica per pianificare, generare, documentare, controllare e consegnare musica AI in video per clienti e brand.",
+      "body": [
+        "Il momento rischioso spesso non e la generazione. Arriva poco prima della pubblicazione, quando il cliente chiede se la traccia puo andare su ads, Shorts, Reels e pagina prodotto. Una buona traccia creata con un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator) ha ancora bisogno di una nota d uso, di uno storico delle versioni e di un controllo per piattaforma.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di generazione musicale con IA per creare e personalizzare musica da prompt, testi, idee di stile e scelta del modello. In un lavoro per clienti va trattata come strumento di produzione dentro un processo piu ampio: brief, contesto d uso, revisione del risultato e archivio del progetto.",
+        "## Parti da una nota d uso",
+        "Prima di generare, scrivi cinque righe: nome progetto, cliente o brand, canali, contenuto organico o a pagamento, durata prevista dell uso. Aggiungi i formati, come taglio social 9:16, versione 16:9 per landing page o bumper da 6 secondi. Cosi la scelta musicale resta collegata al piano reale di distribuzione, non a una richiesta vaga di qualcosa di energico.",
+        "## Conserva traccia di generazione e modifiche",
+        "Salva prompt, data, parole di stile, testi importanti, modalita o modello visibile, nomi dei file scaricati e ogni modifica rilevante. Se cambi tempo, tagli un intro, rimuovi una voce o combini la traccia con voiceover, annotalo. Il registro non risolve ogni domanda sui diritti, ma offre a team e cliente una storia chiara di cio che e stato creato.",
+        "## Controlla la piattaforma",
+        "Non dare per scontato che ogni piattaforma tratti la musica nello stesso modo. Verifica le regole correnti per tipo di account, soprattutto per account business, annunci, post sponsorizzati o canali monetizzati. Per EasyMusic.AI, leggi [prezzi e dettagli del piano](https://easymusic.ai/it/pricing) prima di promettere al cliente un perimetro d uso. Se la campagna dipende da un canale, fai un test in bozza o privato con anticipo.",
+        "## Tre abitudini riutilizzabili",
+        "- Prepara un mix di riserva con musica piu bassa e piu spazio alla voce.\n- Metti audio finale, file di progetto, prompt e nota di approvazione nella stessa cartella.\n- Invia al cliente una nota semplice: dove sara usata la musica, cosa e stato generato e cosa dipende ancora dai termini di piattaforma o piano.",
+        "## FAQ",
+        "Posso dire al cliente che la musica AI e automaticamente senza problemi di diritti? No. Evita promesse assolute e verifica termini dello strumento, regole della piattaforma e requisiti del progetto. Cosa devo salvare? Prompt, data, file generato, versione finale, nota d uso e approvazione del cliente. Che fare se una piattaforma segnala l audio? Metti in pausa, leggi l avviso, sostituisci la traccia se necessario e contesta solo con una base solida. Conviene mescolare una hit di tendenza con una traccia AI? Solo se i diritti del brano e dell uso finale sono chiari."
+      ]
+    },
+    "pt": {
+      "title": "Checklist de musica com IA antes de publicar um video de marca",
+      "description": "Uma lista pratica para planejar, gerar, documentar, revisar e entregar musica com IA em videos de clientes ou marcas.",
+      "body": [
+        "O momento mais delicado nem sempre e a geracao. Ele aparece perto da publicacao, quando o cliente pergunta se a faixa pode ir para anuncios, Shorts, Reels e pagina de produto. Uma boa faixa criada com um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator) ainda precisa de nota de uso, registro de versoes e checagem por plataforma.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de geracao musical com IA para criar e personalizar musica a partir de prompts, letras, ideias de estilo e escolha de modelo. Em trabalhos para clientes, ela deve ficar dentro de um processo maior: briefing, contexto de uso, revisao do resultado e documentacao do projeto.",
+        "## Comece com uma nota de uso",
+        "Antes de gerar, escreva cinco linhas: nome do projeto, cliente ou marca, canais, se o post sera organico ou pago, e periodo previsto de uso. Inclua os formatos, como corte social 9:16, versao 16:9 para landing page ou bumper de 6 segundos. Assim a decisao musical fica ligada ao plano real de distribuicao, nao a um pedido vago por algo energico.",
+        "## Registre geracao e edicoes",
+        "Guarde prompt, data, palavras de estilo, letras importantes, modo ou modelo visivel, nomes dos arquivos baixados e cada mudanca relevante. Se voce ajustar tempo, cortar uma intro, remover vocal ou combinar a faixa com narracao, anote. O registro nao resolve todas as questoes de direitos, mas mostra ao time e ao cliente o historico do que foi criado.",
+        "## Faca uma checagem por plataforma",
+        "Nao assuma que toda plataforma trata musica do mesmo jeito. Verifique as regras atuais para o tipo de conta, principalmente em conta comercial, anuncio, post patrocinado ou canal monetizado. No caso do EasyMusic.AI, leia os [precos e detalhes do plano](https://easymusic.ai/pt/pricing) antes de prometer um escopo de uso ao cliente. Se a campanha depende de um canal, teste um rascunho ou upload privado com antecedencia.",
+        "## Tres habitos reutilizaveis",
+        "- Prepare uma mistura alternativa com musica mais baixa e mais espaco para voz.\n- Guarde audio final, arquivo do projeto, prompt e nota de aprovacao na mesma pasta.\n- Envie ao cliente uma nota simples: onde a musica sera usada, o que foi gerado e o que ainda depende de termos de plataforma ou plano.",
+        "## Perguntas frequentes",
+        "Posso dizer que musica com IA esta automaticamente livre de problemas de direitos? Nao. Evite promessas absolutas e revise termos da ferramenta, regras da plataforma e exigencias do projeto. O que devo salvar? Prompt, data, arquivo gerado, edicao final, nota de uso e aprovacao do cliente. E se a plataforma sinalizar o audio? Pause o lancamento, leia o aviso, substitua a faixa se preciso e conteste apenas com base clara. Vale misturar musica em alta com faixa de IA? Somente se os direitos da musica em alta e do uso final estiverem claros."
+      ]
+    },
+    "ru": {
+      "title": "Чеклист для ИИ-музыки перед публикацией брендового видео",
+      "description": "Практичный чеклист для планирования, генерации, документации, проверки и передачи ИИ-музыки в клиентских и брендовых видео.",
+      "body": [
+        "Самый рискованный момент часто наступает не во время генерации, а перед публикацией. Клиент спрашивает, можно ли использовать трек в рекламе, Shorts, Reels и на странице продукта. Даже удачная дорожка из [AI music generator](https://easymusic.ai/ru/ai-music-generator) должна пройти через заметку об использовании, историю версий и проверку платформы.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для генерации и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. В клиентском процессе ее лучше воспринимать как инструмент производства внутри более широкой схемы: бриф, контекст использования, проверка результата и сохранение материалов проекта.",
+        "## Начните с заметки об использовании",
+        "До генерации запишите пять строк: название проекта, клиент или бренд, каналы, органическая публикация или платное размещение, предполагаемый срок использования. Добавьте форматы: социальный ролик 9:16, версия 16:9 для лендинга или 6-секундный бампер. Так музыкальное решение связано с реальным планом распространения, а не с просьбой сделать что-то энергичное.",
+        "## Ведите запись генерации и правок",
+        "Сохраните промпт, дату, важные слова о стиле, ключевые строки текста, видимый режим или модель, имена скачанных файлов и каждое существенное изменение. Если вы меняете темп, режете вступление, убираете вокал или совмещаете трек с озвучкой, запишите это. Такая история не решает все вопросы прав, но показывает команде и клиенту, что именно было создано и изменено.",
+        "## Проверьте соответствие платформе",
+        "Не считайте, что все платформы одинаково относятся к музыке. Проверьте актуальные правила для типа аккаунта, особенно если это бизнес-аккаунт, реклама, спонсорский пост или монетизируемый канал. Для EasyMusic.AI перед обещаниями клиенту изучите [цены и детали плана](https://easymusic.ai/ru/pricing). Если кампания зависит от одного канала, заранее сделайте черновую или приватную загрузку.",
+        "## Три привычки, которые можно повторять",
+        "- Подготовьте запасной микс: музыка тише, голосу больше места.\n- Храните финальное аудио, проектный файл, промпт и заметку об одобрении в одной папке.\n- Передайте клиенту простую записку: где музыка будет использована, что было сгенерировано и что еще зависит от правил платформы или плана.",
+        "## FAQ",
+        "Можно ли обещать клиенту, что ИИ-музыка автоматически не создает вопросов по правам? Нет. Избегайте абсолютных обещаний и проверяйте условия инструмента, правила платформы и требования проекта. Что сохранить в папке проекта? Промпт, дату, сгенерированный файл, финальную версию, заметку об использовании и одобрение клиента. Что делать, если платформа пометила аудио? Остановить запуск, прочитать предупреждение, заменить трек при необходимости и спорить только при наличии основания. Стоит ли смешивать популярный трек с ИИ-дорожкой? Только если права на популярный трек и финальное использование понятны."
+      ]
+    },
+    "zh": {
+      "title": "品牌视频正式发布前的 AI 音乐使用检查清单",
+      "description": "面向客户和品牌视频项目的实用清单：规划、生成、记录、审核、交付 AI 音乐时如何降低返工和使用风险。",
+      "body": [
+        "真正容易出问题的时刻，往往不是生成音乐，而是发布前一小时。客户会问：这条音乐能不能用在广告、Shorts、Reels 和产品页？即使你已经用 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 得到了一条合适的配乐，也需要补上使用说明、版本记录和平台检查，才适合交给客户发布。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐生成与定制平台，可以围绕提示词、歌词、风格描述和模型选择来创作音乐。在客户项目里，它应被放在完整审批流程中使用：先写清 Brief 和使用场景，再审核结果，并把关键记录留在项目文件夹中。",
+        "## 先写一张使用说明",
+        "生成前写五行信息：项目名、客户或品牌、发布渠道、自然内容还是付费投放、预计使用时长。再补充格式，例如 9:16 社交短视频、16:9 落地页版本、6 秒广告前贴片。这样音乐选择就和真实分发计划绑定，而不是停留在要一段有活力的音乐这种模糊需求上。",
+        "## 保留生成与修改记录",
+        "保存提示词、日期、风格词、重要歌词、可见的模式或模型、下载文件名，以及每一次重要修改。如果你调整速度、剪掉前奏、移除人声，或把音乐放在旁白下面，都写下来。这些记录不能替代权利判断，但能让团队和客户清楚看到音乐是如何产生和被修改的。",
+        "## 做一次平台适配检查",
+        "不要默认所有平台对音乐的处理方式都一样。根据账号类型检查当前规则，尤其是企业账号、广告、赞助内容或开通变现的频道。就 EasyMusic.AI 本身而言，在向客户承诺使用范围前，应查看当前的[价格和方案详情](https://easymusic.ai/zh/pricing)。如果活动高度依赖某个平台，尽早用草稿或私密上传测试。",
+        "## 三个可复用习惯",
+        "- 准备一个备用混音版本：音乐更低，给旁白留更多空间。\n- 把最终音频、项目文件、提示词和客户确认记录放在同一文件夹。\n- 给客户一段简单交付说明：音乐将用于哪里，生成了什么，哪些部分仍取决于平台或方案条款。",
+        "## 常见问题",
+        "可以告诉客户 AI 音乐自动没有版权问题吗？不可以。避免绝对承诺，应检查工具条款、平台规则和项目要求。项目文件夹里要保存什么？提示词、日期、生成文件、最终剪辑、使用说明和客户确认。平台提示音频有问题怎么办？暂停发布，阅读提示，必要时替换音乐；只有在有明确依据时再申诉。可以把热门歌曲和 AI 音乐混在一起吗？只有在热门歌曲和最终用途的授权都清楚时才考虑，否则用原创风格方向建立识别度。"
+      ]
+    },
+    "ja": {
+      "title": "ブランド動画を公開する前のAI音楽チェックリスト",
+      "description": "クライアントやブランド動画でAI音楽を使う前に、計画、生成、記録、確認、納品を整理する実務チェックリスト。",
+      "body": [
+        "注意が必要なのは、生成するときだけではありません。公開直前に、クライアントから広告、Shorts、Reels、商品ページでも使えるのかと聞かれることがあります。[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)で良い曲ができても、使用メモ、バージョン記録、プラットフォーム確認がそろって初めて納品しやすくなります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja)は、プロンプト、歌詞、スタイル案、モデル選択をもとに音楽を作成し調整できるAI音楽生成プラットフォームです。クライアント案件では、制作ツールとして使いながら、ブリーフ、使用目的、結果確認、プロジェクト記録を別途きちんと残すことが大切です。",
+        "## まず使用メモを書く",
+        "生成前に5行だけ書きます。案件名、クライアントまたはブランド、掲載先、オーガニックか広告か、想定される使用期間です。さらに9:16の縦動画、16:9の商品ページ版、6秒バンパーなどの形式も足します。これで音楽判断が、なんとなく勢いのある曲ではなく、実際の配信計画に結びつきます。",
+        "## 生成と編集の記録を残す",
+        "プロンプト、日付、重要なスタイル語、使った歌詞、表示されているモードやモデル、ダウンロードしたファイル名、主な編集内容を保存します。テンポ調整、イントロ短縮、ボーカル削除、ナレーションとのミックスを行ったら、それも書きます。この記録はすべての権利問題を解決しませんが、何を作り、何を変えたかを説明できます。",
+        "## プラットフォームごとに確認する",
+        "すべてのプラットフォームが音楽を同じように扱うとは限りません。ビジネスアカウント、広告、スポンサー投稿、収益化チャンネルでは、現在のルールを確認してください。EasyMusic.AIについても、クライアントに使用範囲を約束する前に、最新の[料金とプラン詳細](https://easymusic.ai/ja/pricing)を確認します。特定の掲載先が重要なら、下書きや限定公開で早めにテストします。",
+        "## 再利用できる三つの習慣",
+        "- 音楽を少し下げ、声の余白を増やした予備ミックスを作る。\n- 最終音声、プロジェクトファイル、プロンプト、承認メモを同じフォルダに入れる。\n- 音楽の使用場所、生成内容、プラットフォームやプラン条件に依存する点を短くクライアントへ渡す。",
+        "## FAQ",
+        "AI音楽は自動的に権利面で問題ないと伝えてよいですか。いいえ。絶対的な約束は避け、ツール条件、プラットフォーム規則、案件要件を確認してください。何を保存すべきですか。プロンプト、日付、生成ファイル、最終編集、使用メモ、クライアント承認です。音声がプラットフォームで警告されたらどうしますか。公開を止め、警告を読み、必要なら曲を差し替え、根拠がある場合だけ異議を出します。流行曲とAI曲を混ぜてもよいですか。その曲と最終用途の権利が明確な場合だけ検討してください。"
+      ]
+    },
+    "ko": {
+      "title": "브랜드 영상 게시 전 AI 음악 체크리스트",
+      "description": "클라이언트와 브랜드 영상에서 AI 음악을 쓰기 전, 기획, 생성, 기록, 검토, 전달 과정을 정리하는 실무 체크리스트.",
+      "body": [
+        "위험한 순간은 음악을 생성할 때만 오지 않습니다. 게시 직전 클라이언트가 이 음악을 광고, Shorts, Reels, 제품 페이지에도 써도 되냐고 묻는 순간이 더 중요할 때가 많습니다. [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)로 좋은 트랙을 만들었더라도 사용 메모, 버전 기록, 플랫폼 확인이 있어야 클라이언트용 결과물이 됩니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 생성 플랫폼입니다. 클라이언트 프로젝트에서는 제작 도구로 활용하되, 브리프, 사용 목적, 결과 검토, 프로젝트 기록을 함께 관리해야 합니다.",
+        "## 사용 메모부터 쓰기",
+        "생성 전에 다섯 줄을 적습니다. 프로젝트 이름, 클라이언트 또는 브랜드, 게시 채널, 자연 게시물인지 유료 광고인지, 예상 사용 기간입니다. 9:16 소셜 컷, 16:9 랜딩 페이지 버전, 6초 범퍼 같은 형식도 더합니다. 이렇게 하면 음악 선택이 막연히 에너지 있는 음악이 아니라 실제 배포 계획에 묶입니다.",
+        "## 생성과 편집 기록 남기기",
+        "프롬프트, 날짜, 중요한 스타일 단어, 핵심 가사, 보이는 모드나 모델, 다운로드 파일명, 의미 있는 편집 내용을 저장하세요. 템포를 바꾸거나 인트로를 자르거나 보컬을 제거하거나 내레이션 아래에 섞었다면 그것도 적습니다. 이 기록이 모든 권리 문제를 해결하지는 않지만 무엇을 만들고 바꾸었는지 설명할 수 있게 합니다.",
+        "## 플랫폼 적합성 확인하기",
+        "모든 플랫폼이 음악을 같은 방식으로 다룬다고 가정하지 마세요. 비즈니스 계정, 광고, 협찬 게시물, 수익화 채널이라면 현재 규칙을 확인해야 합니다. EasyMusic.AI의 경우 클라이언트에게 사용 범위를 약속하기 전에 현재 [가격 및 플랜 세부 정보](https://easymusic.ai/ko/pricing)를 확인하세요. 특정 채널이 중요하다면 초안이나 비공개 업로드로 일찍 테스트합니다.",
+        "## 재사용할 수 있는 세 가지 습관",
+        "- 음악 볼륨을 낮추고 음성 공간을 넓힌 예비 믹스를 만든다.\n- 최종 오디오, 프로젝트 파일, 프롬프트, 승인 메모를 같은 폴더에 둔다.\n- 음악이 어디에 쓰일지, 무엇을 생성했는지, 플랫폼이나 플랜 조건에 따라 달라지는 점을 짧게 클라이언트에게 전달한다.",
+        "## FAQ",
+        "AI 음악은 자동으로 권리 문제가 없다고 말해도 되나요? 아니요. 절대적인 약속은 피하고 도구 약관, 플랫폼 규칙, 프로젝트 요구사항을 확인하세요. 무엇을 저장해야 하나요? 프롬프트, 날짜, 생성 파일, 최종 편집본, 사용 메모, 클라이언트 승인을 저장합니다. 플랫폼이 오디오를 표시하면 어떻게 하나요? 게시를 멈추고 안내를 읽은 뒤 필요하면 트랙을 바꾸며, 명확한 근거가 있을 때만 이의 제기합니다. 유행곡과 AI 트랙을 섞어도 되나요? 그 곡과 최종 사용에 대한 권리가 명확할 때만 고려하세요."
+      ]
+    },
+    "ar": {
+      "title": "قائمة فحص لموسيقى الذكاء الاصطناعي قبل نشر فيديو لعلامة تجارية",
+      "description": "قائمة عملية لتخطيط موسيقى الذكاء الاصطناعي وتوليدها وتوثيقها ومراجعتها وتسليمها في مشاريع الفيديو للعلامات والعملاء.",
+      "body": [
+        "ليست لحظة التوليد هي الخطر الوحيد. قد يأتي السؤال قبل النشر مباشرة: هل يمكن استخدام هذه الموسيقى في الإعلانات وShorts وReels وصفحة المنتج؟ حتى لو حصلت على مسار جيد من [مولد موسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، فهو يحتاج إلى ملاحظة استخدام، وسجل نسخ، وفحص للمنصة قبل تسليمه للعميل.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) هو منصة لتوليد وتخصيص الموسيقى بالذكاء الاصطناعي اعتمادا على المطالبات، الكلمات، أفكار الأسلوب، واختيار النموذج. في عمل العملاء، استخدمه كأداة إنتاج داخل عملية أوسع تشمل الموجز، وسياق الاستخدام، ومراجعة النتيجة، وحفظ سجل واضح للمشروع.",
+        "## ابدأ بملاحظة استخدام",
+        "قبل التوليد، اكتب خمس نقاط: اسم المشروع، العميل أو العلامة، قنوات النشر، هل المحتوى عضوي أم مدفوع، ومدة الاستخدام المتوقعة. أضف الصيغ، مثل فيديو عمودي 9:16، نسخة 16:9 لصفحة هبوط، أو إعلان قصير من 6 ثوان. بهذه الطريقة ترتبط الموسيقى بخطة توزيع حقيقية لا بطلب عام لموسيقى نشيطة.",
+        "## احتفظ بسجل للتوليد والتعديل",
+        "احفظ المطالبة، التاريخ، كلمات الأسلوب المهمة، الكلمات الغنائية الأساسية، الوضع أو النموذج الظاهر، أسماء الملفات التي تم تنزيلها، وكل تعديل مؤثر. إذا غيرت السرعة، قصصت المقدمة، أزلت صوتا، أو مزجت الموسيقى مع تعليق صوتي، فاكتب ذلك. السجل لا يحل كل سؤال قانوني، لكنه يوضح للفريق والعميل ما تم إنشاؤه وتغييره.",
+        "## افحص ملاءمة المنصة",
+        "لا تفترض أن كل منصة تتعامل مع الموسيقى بالطريقة نفسها. راجع القواعد الحالية حسب نوع الحساب، خصوصا في حسابات الأعمال، الإعلانات، المحتوى الممول، أو القنوات التي تحقق دخلا. وبالنسبة إلى EasyMusic.AI، راجع [الأسعار وتفاصيل الخطة](https://easymusic.ai/ar/pricing) قبل وعد العميل بنطاق استخدام محدد. إذا كانت الحملة تعتمد على قناة واحدة، اختبر مسودة أو رفعا خاصا مبكرا.",
+        "## ثلاث عادات قابلة لإعادة الاستخدام",
+        "- أنشئ مزيجا بديلا تكون فيه الموسيقى أخفض وتترك مساحة أكبر للصوت البشري.\n- احفظ الصوت النهائي وملف المشروع والمطالبة وملاحظة الموافقة في مجلد واحد.\n- أرسل للعميل ملاحظة بسيطة: أين ستستخدم الموسيقى، ما الذي تم توليده، وما الذي لا يزال يعتمد على شروط المنصة أو الخطة.",
+        "## أسئلة شائعة",
+        "هل يمكنني إخبار العميل أن موسيقى الذكاء الاصطناعي لا تحمل تلقائيا أي مشكلة حقوق؟ لا. تجنب الوعود المطلقة وراجع شروط الأداة وقواعد المنصة ومتطلبات المشروع. ماذا أحفظ في ملف المشروع؟ المطالبة، التاريخ، الملف المولد، النسخة النهائية، ملاحظة الاستخدام، وموافقة العميل. ماذا لو وضعت المنصة علامة على الصوت؟ أوقف النشر، اقرأ التنبيه، استبدل المسار عند الحاجة، ولا تعترض إلا إذا كانت لديك حجة واضحة. هل أمزج أغنية رائجة مع مسار مولد؟ فقط إذا كانت حقوق الأغنية والاستخدام النهائي واضحة."
+      ]
+    }
+  }
+}
