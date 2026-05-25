@@ -34,7 +34,7 @@ console.log(`Built ${posts.length} post(s) into ${path.relative(root, outDir)}.`
 
 function renderIndex(locale) {
   const title = `${site.siteName} - ${site.localeNames[locale]}`;
-  const description = "Practical multilingual guides for AI music creation workflows, prompts, planning, and responsible production.";
+  const description = "Practical notes on briefs, prompts, revisions, and publishing decisions for people making music with AI tools.";
   const items = posts
     .map((post) => {
       const entry = post.translations[locale];
@@ -47,9 +47,9 @@ function renderIndex(locale) {
     .join("\n");
   return layout(locale, title, description, localeHomePath(locale), `
     <section class="hero">
-      <p class="eyebrow">${escapeHtml(site.productName)} knowledge base</p>
-      <h1>${escapeHtml(site.siteName)}</h1>
-      <p>Useful, product-adjacent articles for creators, marketers, educators, and teams planning music with AI.</p>
+      <p class="eyebrow">Prompts, edits, and publishing decisions</p>
+      <h1>Make the music brief do real work</h1>
+      <p>Field-tested notes for creators, marketers, educators, and small teams turning rough audio ideas into usable tracks.</p>
     </section>
     <section class="post-list">${items}</section>
   `);
