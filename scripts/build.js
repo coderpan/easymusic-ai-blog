@@ -15,6 +15,7 @@ const posts = fs
 fs.rmSync(outDir, { recursive: true, force: true });
 fs.mkdirSync(outDir, { recursive: true });
 writeFile("assets/site.css", css());
+writeFile("index.html", renderIndex(site.defaultLocale));
 
 for (const locale of site.locales) {
   writeFile(`${locale}/index.html`, renderIndex(locale));
@@ -24,7 +25,6 @@ for (const locale of site.locales) {
   }
 }
 
-writeFile("index.html", renderRedirect(`/${site.defaultLocale}/`));
 writeFile("sitemap.xml", renderSitemap());
 writeFile("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${site.baseUrl}/sitemap.xml\n`);
 writeFile("llms.txt", renderLlms());
@@ -45,7 +45,7 @@ function renderIndex(locale) {
       </article>`;
     })
     .join("\n");
-  return layout(locale, title, description, `/${locale}/`, `
+  return layout(locale, title, description, localeHomePath(locale), `
     <section class="hero">
       <p class="eyebrow">${escapeHtml(site.productName)} knowledge base</p>
       <h1>${escapeHtml(site.siteName)}</h1>
@@ -72,7 +72,7 @@ function renderPost(locale, post) {
 function layout(locale, title, description, canonicalPath, content, alternates = null) {
   const dir = locale === "ar" ? "rtl" : "ltr";
   const canonical = `${site.baseUrl}${canonicalPath}`;
-  const alternateLinks = alternates || Object.fromEntries(site.locales.map((code) => [code, `${site.baseUrl}/${code}/`]));
+  const alternateLinks = alternates || Object.fromEntries(site.locales.map((code) => [code, `${site.baseUrl}${localeHomePath(code)}`]));
   return `<!doctype html>
 <html lang="${locale}" dir="${dir}">
 <head>
@@ -87,9 +87,9 @@ function layout(locale, title, description, canonicalPath, content, alternates =
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="${localUrl(`/${locale}/`)}">${escapeHtml(site.siteName)}</a>
+    <a class="brand" href="${localUrl(localeHomePath(locale))}">${escapeHtml(site.siteName)}</a>
     <nav aria-label="Languages">
-      ${site.locales.map((code) => `<a href="${localUrl(`/${code}/`)}"${code === locale ? ' aria-current="page"' : ""}>${code.toUpperCase()}</a>`).join("")}
+      ${site.locales.map((code) => `<a href="${localUrl(localeHomePath(code))}"${code === locale ? ' aria-current="page"' : ""}>${code.toUpperCase()}</a>`).join("")}
     </nav>
   </header>
   <main>${content}</main>
@@ -102,9 +102,11 @@ function layout(locale, title, description, canonicalPath, content, alternates =
 }
 
 function renderSitemap() {
-  const urls = [];
+  const urls = [{ loc: `${site.baseUrl}/`, lastmod: today() }];
   for (const locale of site.locales) {
-    urls.push({ loc: `${site.baseUrl}/${locale}/`, lastmod: today() });
+    if (locale !== site.defaultLocale) {
+      urls.push({ loc: `${site.baseUrl}/${locale}/`, lastmod: today() });
+    }
     for (const post of posts) {
       urls.push({ loc: `${site.baseUrl}/${locale}/posts/${post.slug}/`, lastmod: post.date });
     }
@@ -124,7 +126,7 @@ function renderFeed(locale) {
       return `<item><title>${escapeHtml(entry.title)}</title><link>${url}</link><guid>${url}</guid><pubDate>${new Date(post.date).toUTCString()}</pubDate><description>${escapeHtml(entry.description)}</description></item>`;
     })
     .join("");
-  return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>${escapeHtml(site.siteName)} (${locale})</title><link>${site.baseUrl}/${locale}/</link><description>Multilingual AI music creation guides.</description>${items}</channel></rss>`;
+  return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>${escapeHtml(site.siteName)} (${locale})</title><link>${site.baseUrl}${localeHomePath(locale)}</link><description>Multilingual AI music creation guides.</description>${items}</channel></rss>`;
 }
 
 function renderLlms() {
@@ -202,11 +204,6 @@ function inline(text) {
   return parts.join("").replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 }
 
-function renderRedirect(target) {
-  const href = localUrl(target);
-  return `<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${href}"><link rel="canonical" href="${site.baseUrl}${target}"></head><body><a href="${href}">Continue</a></body></html>`;
-}
-
 function css() {
   return `:root{color-scheme:light;--ink:#17211f;--muted:#5d6b66;--paper:#fbfaf6;--line:#d9ded7;--accent:#0f766e;--warm:#b45309;--panel:#ffffff;--soft:#eef3ee;--gold:#d6a03d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#fbfaf6 0%,#f2f6f0 46%,#fbfaf6 100%);color:var(--ink);font-family:ui-serif,Georgia,Cambria,"Times New Roman",serif;line-height:1.7}a{color:var(--accent);text-decoration-thickness:.08em;text-underline-offset:.2em}.site-header{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:18px clamp(18px,4vw,56px);border-bottom:1px solid color-mix(in srgb,var(--line),transparent 12%);background:rgba(251,250,246,.9);position:sticky;top:0;z-index:5;backdrop-filter:blur(14px)}.brand{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:850;color:var(--ink);text-decoration:none;letter-spacing:.01em}nav{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end}nav a{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:12px;font-weight:700;text-decoration:none;color:var(--muted);padding:5px 7px;border-radius:4px}nav a:hover,nav a[aria-current=page]{color:var(--ink);background:var(--soft)}main{width:min(100%,1080px);margin:0 auto;padding:46px clamp(18px,4vw,34px) 72px}.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,280px);gap:clamp(22px,5vw,64px);align-items:end;padding:50px 0 38px;border-bottom:1px solid var(--line)}.hero:after{content:"";height:220px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(135deg,#12312d 0%,#0f766e 45%,#d6a03d 100%);box-shadow:inset 0 0 0 12px rgba(251,250,246,.16)}.eyebrow{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--warm);font-weight:800}.hero h1,.article h1{font-size:clamp(38px,6vw,76px);line-height:.98;margin:10px 0 20px;letter-spacing:0;max-width:900px}.hero p,.dek{max-width:760px;color:var(--muted);font-size:19px}.post-list{display:grid;gap:18px;margin-top:30px}.post-card{background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:8px;padding:24px 26px;box-shadow:0 18px 50px rgba(23,33,31,.06)}.post-card h2{font-size:26px;line-height:1.14;margin:8px 0 10px}.post-card time{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--warm);font-size:12px;font-weight:800;letter-spacing:.05em}.article{background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:8px;padding:clamp(24px,5vw,60px);box-shadow:0 18px 60px rgba(23,33,31,.07)}.article h2{margin-top:42px;font-size:30px;line-height:1.16}.article h3{margin-top:30px;font-size:21px}.article p,.article li{font-size:18px}.article p{max-width:760px}.article ul{padding-inline-start:1.35rem;max-width:760px}.article li+li{margin-top:8px}footer{border-top:1px solid var(--line);padding:30px clamp(18px,4vw,56px);color:var(--muted);font-size:14px;background:#f7f7f1}footer p{max-width:900px}@media(max-width:760px){.site-header{position:static;align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr;padding-top:24px}.hero:after{height:120px;order:-1}.article{border-left:0;border-right:0;border-radius:0;margin-left:-18px;margin-right:-18px}.hero h1,.article h1{font-size:38px}.article p,.article li{font-size:17px}}`;
 }
@@ -214,6 +211,10 @@ function css() {
 function localUrl(pathname) {
   const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
   return `${basePath}${normalized}`;
+}
+
+function localeHomePath(locale) {
+  return locale === site.defaultLocale ? "/" : `/${locale}/`;
 }
 
 function readJson(relativePath) {
