@@ -1,0 +1,227 @@
+{
+  "date": "2026-05-26",
+  "slug": "hook-first-ai-song-prompts",
+  "cluster": "prompt-workflow-guidance",
+  "translations": {
+    "en": {
+      "title": "Turn a Chorus Hook Into a Better AI Song Prompt",
+      "description": "A practical hook-first workflow for shaping lyrics, style, song sections, vocal direction, and revisions before generating an AI song.",
+      "body": [
+        "You may have one strong line in your head, but the generated song keeps wandering away from it. The chorus sounds like a different idea, the verse says too much, or the track lands in the wrong style. Before opening an [AI music generator](https://easymusic.ai/ai-music-generator), turn that hook into a small song map instead of asking for a complete song in one loose sentence.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music generation platform for creating and customizing music from prompts, lyrics, style ideas, and model choices. It works best when you bring a clear creative direction: the emotional center, the words that matter, the sound palette, and the part of the song you want listeners to remember.",
+        "## Start with a hook card",
+        "Write a four-line card before you generate: the exact hook line, the speaker, the feeling after the chorus, and the one image the song should keep returning to. For example: hook line - still hearing your name in the hallway; speaker - someone leaving a small town; feeling - tender but not dramatic; image - empty train platform at dusk. This gives the song a center of gravity.",
+        "## Separate lyrics from style",
+        "Do not ask one prompt to invent the story, choose the genre, write the hook, arrange the song, and fix the vocal tone all at once. Draft the chorus first, then use an [AI lyrics generator](https://easymusic.ai/tools/ai-lyrics-generator) only for alternatives to wording, rhyme, or point of view. Keep style words in a different note: tempo feel, instruments, vocal texture, density, and ending. Separation makes revisions cleaner because you know which layer failed.",
+        "## Map the sections before the full track",
+        "- Verse 1: set the scene without explaining everything.\n- Pre-chorus: tighten the emotional pressure in two short lines.\n- Chorus: repeat or slightly vary the hook, with the clearest melody space.\n- Verse 2: add one new detail instead of a new plot.\n- Bridge or break: change perspective, texture, or intensity for contrast.\n- Ending: decide whether the hook resolves, fades, or stops dry.",
+        "A usable prompt can be compact: mid-tempo indie pop, intimate vocal, warm electric piano and soft drums, verse-pre-chorus-chorus structure, chorus built around the line still hearing your name in the hallway, restrained first verse, bigger final chorus, clean ending with no long instrumental outro. The exact words will change by project, but the order keeps the instruction readable.",
+        "## Revise one layer at a time",
+        "If the result misses, change only one thing before generating again. If the hook is buried, ask for a sparser chorus or stronger vocal focus. If the style is right but the lyric feels generic, keep the style and rewrite the hook card. If the song is exciting but messy, shorten the section map. Three reusable habits help immediately: keep two hook variants, write one negative constraint such as no rap verse or no festival drop, and save the prompt beside the audio version you might use.",
+        "## FAQ",
+        "Should the hook be written before the verse? Usually yes, if the chorus is the reason for the song. Can I mention a famous artist in the prompt? It is usually better to describe era, instrumentation, vocal delivery, and mood instead of using an artist name as a shortcut. How long should the prompt be? About 60 to 120 words is enough for a first pass. What should I do with a good result that has weak lyrics? Keep the style note, rewrite the lyric layer, and generate a new version rather than editing every problem at once."
+      ]
+    },
+    "de": {
+      "title": "Aus einer Chorus-Hook einen besseren KI-Song-Prompt machen",
+      "description": "Ein praktischer Hook-first-Ablauf fuer Lyrics, Stil, Songteile, Gesangsanweisung und Revisionen vor der KI-Songgenerierung.",
+      "body": [
+        "Manchmal hast du nur eine starke Zeile im Kopf, aber der generierte Song laeuft daran vorbei. Der Refrain klingt nach einer anderen Idee, die Strophe erklaert zu viel oder der Stil passt nicht zur Stimmung. Bevor du einen [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) nutzt, mach aus dieser Hook eine kleine Songkarte statt einen ganzen Song mit einem lockeren Satz zu bestellen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerzeugung, mit der Musik aus Prompts, Lyrics, Stilideen und Modellauswahl erstellt und angepasst werden kann. Am besten funktioniert sie, wenn die kreative Richtung klar ist: emotionaler Kern, wichtige Worte, Klangpalette und der Songteil, der im Kopf bleiben soll.",
+        "## Beginne mit einer Hook-Karte",
+        "Schreibe vor dem Generieren vier Zeilen: die genaue Hook-Zeile, die sprechende Person, das Gefuehl nach dem Refrain und ein Bild, zu dem der Song zurueckkehren soll. Beispiel: Hook - ich hoere deinen Namen noch im Flur; Sprecher - jemand verlaesst eine kleine Stadt; Gefuehl - zart, aber nicht melodramatisch; Bild - leerer Bahnsteig in der Daemmerung. So bekommt der Song einen Schwerpunkt.",
+        "## Trenne Lyrics und Stil",
+        "Ein Prompt sollte nicht gleichzeitig Story, Genre, Hook, Arrangement und Gesangston erfinden. Schreibe zuerst den Refrain und nutze einen [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) nur fuer Varianten bei Wortwahl, Reim oder Perspektive. Halte Stilwoerter in einer zweiten Notiz fest: Tempo, Instrumente, Stimme, Dichte und Schluss. Dadurch erkennst du spaeter, welche Ebene wirklich nicht passt.",
+        "## Plane die Songteile vor dem Track",
+        "- Strophe 1: Szene setzen, nicht alles erklaeren.\n- Pre-Chorus: den emotionalen Druck in zwei kurzen Zeilen erhoehen.\n- Chorus: die Hook wiederholen oder leicht variieren.\n- Strophe 2: ein neues Detail statt einer neuen Handlung.\n- Bridge oder Break: Perspektive, Textur oder Intensitaet wechseln.\n- Ende: entscheiden, ob die Hook aufloest, ausblendet oder trocken stoppt.",
+        "Ein brauchbarer Prompt darf kurz sein: Midtempo-Indie-Pop, intime Stimme, warmes E-Piano und weiche Drums, Strophe-Pre-Chorus-Chorus-Struktur, Chorus um die Zeile ich hoere deinen Namen noch im Flur, zurueckhaltende erste Strophe, groesserer letzter Chorus, klares Ende ohne langes Instrumental-Outro. Die Worte aendern sich je Projekt, aber die Reihenfolge bleibt lesbar.",
+        "## Aendere immer nur eine Ebene",
+        "Wenn das Ergebnis nicht trifft, aendere nur eine Sache vor der naechsten Generierung. Ist die Hook zu versteckt, verlange einen luftigeren Chorus oder staerkeren Gesangsfokus. Passt der Stil, aber der Text klingt beliebig, behalte die Stilnotiz und schreibe die Hook-Karte neu. Drei Gewohnheiten helfen sofort: zwei Hook-Varianten behalten, eine Negativgrenze wie kein Rap-Part oder kein Festival-Drop notieren und den Prompt neben der Audiodatei speichern.",
+        "## FAQ",
+        "Sollte die Hook vor der Strophe stehen? Meist ja, wenn der Refrain der Grund fuer den Song ist. Darf ich einen bekannten Artist nennen? Besser ist es, Aera, Instrumente, Stimme und Stimmung zu beschreiben, statt einen Namen als Abkuerzung zu nutzen. Wie lang sollte der Prompt sein? Fuer den ersten Versuch reichen oft 60 bis 120 Woerter. Was tun, wenn Musik gut ist, aber Lyrics schwach sind? Stilnotiz behalten, Textebene neu schreiben und eine neue Version erzeugen."
+      ]
+    },
+    "es": {
+      "title": "Convierte un hook de estribillo en un mejor prompt de cancion IA",
+      "description": "Un flujo hook-first para ordenar letra, estilo, secciones, voz y revisiones antes de generar una cancion con IA.",
+      "body": [
+        "Puedes tener una linea fuerte en la cabeza y aun asi obtener una cancion que se aleja de ella. El estribillo parece otra idea, la estrofa explica demasiado o el estilo cae en un lugar equivocado. Antes de abrir un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator), convierte ese hook en un pequeno mapa de cancion en vez de pedir una pieza completa con una frase vaga.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de generacion musical con IA para crear y personalizar musica a partir de prompts, letras, ideas de estilo y seleccion de modelo. Funciona mejor cuando llegas con una direccion clara: el centro emocional, las palabras importantes, la paleta sonora y la parte que quieres que el oyente recuerde.",
+        "## Empieza con una tarjeta de hook",
+        "Antes de generar, escribe cuatro lineas: la frase exacta del hook, quien habla, que sentimiento queda despues del estribillo y una imagen que debe volver durante la cancion. Ejemplo: hook - sigo oyendo tu nombre en el pasillo; voz - alguien que deja un pueblo pequeno; sensacion - tierna, no dramatica; imagen - anden vacio al atardecer. Esa tarjeta le da peso a la cancion.",
+        "## Separa letra y estilo",
+        "No le pidas a un solo prompt que invente historia, genero, hook, arreglo y voz al mismo tiempo. Redacta primero el estribillo y usa un [generador de letras con IA](https://easymusic.ai/es/tools/ai-lyrics-generator) solo para probar alternativas de palabras, rima o punto de vista. Guarda el estilo en otra nota: tempo, instrumentos, textura vocal, densidad y cierre. Asi sabras que capa fallo.",
+        "## Mapea las secciones antes de la pista completa",
+        "- Verso 1: presenta la escena sin explicar todo.\n- Pre-estribillo: sube la presion emocional en dos lineas breves.\n- Estribillo: repite o varia un poco el hook.\n- Verso 2: agrega un detalle nuevo, no una trama nueva.\n- Puente o break: cambia perspectiva, textura o intensidad.\n- Final: decide si el hook se resuelve, se desvanece o corta en seco.",
+        "Un prompt util puede ser compacto: indie pop a medio tempo, voz intima, piano electrico calido y bateria suave, estructura verso-pre-estribillo-estribillo, estribillo alrededor de sigo oyendo tu nombre en el pasillo, primer verso contenido, ultimo estribillo mas amplio, final limpio sin outro instrumental largo. Cambiaran las palabras, pero el orden mantiene la instruccion clara.",
+        "## Revisa una capa por vez",
+        "Si el resultado falla, cambia solo una cosa antes de generar de nuevo. Si el hook queda enterrado, pide un estribillo mas despejado o mas foco vocal. Si el estilo funciona pero la letra suena generica, conserva la nota de estilo y reescribe la tarjeta de hook. Tres habitos ayudan ya: guardar dos variantes de hook, escribir una restriccion negativa como sin verso rapeado o sin drop de festival, y guardar el prompt junto a la version de audio.",
+        "## Preguntas frecuentes",
+        "Conviene escribir el hook antes del verso? Normalmente si, cuando el estribillo es la razon de la cancion. Puedo nombrar a un artista famoso? Suele ser mejor describir epoca, instrumentos, entrega vocal y estado de animo. Cuanto debe medir el prompt? Entre 60 y 120 palabras basta para una primera version. Que hago si la musica esta bien pero la letra no? Conserva el estilo, cambia la capa de letra y genera otra version."
+      ]
+    },
+    "fr": {
+      "title": "Transformer une accroche de refrain en meilleur prompt de chanson IA",
+      "description": "Une methode hook-first pour cadrer paroles, style, sections, direction vocale et revisions avant de generer une chanson IA.",
+      "body": [
+        "Tu peux avoir une tres bonne ligne en tete et obtenir une chanson qui s en eloigne. Le refrain raconte autre chose, le couplet explique trop ou le style sonore tombe a cote. Avant d utiliser un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator), transforme cette accroche en petite carte de chanson plutot que de demander un morceau entier avec une phrase vague.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de generation musicale par IA qui permet de creer et personnaliser de la musique avec des prompts, des paroles, des idees de style et un choix de modele. Elle fonctionne mieux quand tu apportes une direction claire: centre emotionnel, mots essentiels, palette sonore et partie que l auditeur doit retenir.",
+        "## Commence par une carte de hook",
+        "Avant de generer, ecris quatre lignes: la phrase exacte du hook, la personne qui parle, le sentiment apres le refrain et l image qui doit revenir. Exemple: hook - j entends encore ton nom dans le couloir; voix - quelqu un quitte une petite ville; emotion - tendre sans etre theatrale; image - quai de gare vide au crepuscule. Cette carte donne un centre au morceau.",
+        "## Separe paroles et style",
+        "Ne demande pas au meme prompt d inventer l histoire, le genre, le hook, l arrangement et la couleur vocale. Redige d abord le refrain, puis utilise un [generateur de paroles IA](https://easymusic.ai/fr/tools/ai-lyrics-generator) seulement pour tester des variantes de mots, de rime ou de point de vue. Garde le style dans une autre note: tempo, instruments, texture vocale, densite et fin. La revision devient plus lisible.",
+        "## Dessine les sections avant la piste complete",
+        "- Couplet 1: poser la scene sans tout expliquer.\n- Pre-refrain: resserrer la tension en deux lignes courtes.\n- Refrain: repeter ou varier legerement le hook.\n- Couplet 2: ajouter un detail, pas une nouvelle intrigue.\n- Pont ou break: changer de perspective, de texture ou d intensite.\n- Fin: choisir si le hook se resout, s efface ou s arrete net.",
+        "Un prompt utile peut rester compact: indie pop mid-tempo, voix intime, piano electrique chaud et batterie douce, structure couplet-pre-refrain-refrain, refrain autour de j entends encore ton nom dans le couloir, premier couplet retenu, dernier refrain plus large, fin nette sans long outro instrumental. Les mots changent selon le projet, mais l ordre garde l instruction claire.",
+        "## Ne revise qu une couche a la fois",
+        "Si le resultat rate la cible, change une seule chose avant de relancer. Si le hook est enfoui, demande un refrain plus aere ou une voix plus presente. Si le style est bon mais les paroles banales, garde la note de style et reecris la carte de hook. Trois habitudes servent tout de suite: garder deux variantes de hook, noter une contrainte negative comme pas de couplet rappe ou pas de drop festival, et sauvegarder le prompt avec l audio.",
+        "## FAQ",
+        "Faut-il ecrire le hook avant le couplet? Souvent oui, si le refrain est la raison du morceau. Peut-on citer un artiste celebre? Il vaut mieux decrire l epoque, les instruments, la voix et l humeur. Quelle longueur pour le prompt? Environ 60 a 120 mots suffisent pour un premier essai. Que faire si la musique est bonne mais les paroles faibles? Conserve le style, reecris la couche paroles et genere une nouvelle version."
+      ]
+    },
+    "it": {
+      "title": "Trasforma un hook di ritornello in un prompt migliore per canzoni AI",
+      "description": "Un flusso hook-first per organizzare testo, stile, sezioni, voce e revisioni prima di generare una canzone con IA.",
+      "body": [
+        "Puoi avere una frase forte in testa e ottenere comunque una canzone che la perde per strada. Il ritornello sembra parlare d altro, la strofa spiega troppo o lo stile sonoro non centra il clima. Prima di usare un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator), trasforma quel hook in una piccola mappa del brano invece di chiedere una canzone completa con una frase vaga.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di generazione musicale con IA per creare e personalizzare musica da prompt, testi, idee di stile e scelta del modello. Funziona meglio quando arrivi con una direzione chiara: centro emotivo, parole importanti, tavolozza sonora e parte che vuoi far ricordare.",
+        "## Parti da una scheda hook",
+        "Prima di generare, scrivi quattro righe: frase esatta del hook, chi parla, sentimento dopo il ritornello e immagine che deve tornare nel brano. Esempio: hook - sento ancora il tuo nome nel corridoio; voce - qualcuno che lascia una piccola citta; sensazione - tenera, non melodrammatica; immagine - binario vuoto al tramonto. Cosi la canzone ha un centro.",
+        "## Separa testo e stile",
+        "Non chiedere a un solo prompt di inventare storia, genere, hook, arrangiamento e tono vocale insieme. Scrivi prima il ritornello e usa un [generatore di testi AI](https://easymusic.ai/it/tools/ai-lyrics-generator) solo per varianti di parole, rime o punto di vista. Tieni lo stile in una nota separata: tempo, strumenti, texture vocale, densita e finale. In revisione capirai quale livello non funziona.",
+        "## Disegna le sezioni prima della traccia",
+        "- Strofa 1: aprire la scena senza spiegare tutto.\n- Pre-ritornello: aumentare la tensione in due righe brevi.\n- Ritornello: ripetere o variare poco il hook.\n- Strofa 2: aggiungere un dettaglio, non una nuova trama.\n- Bridge o break: cambiare prospettiva, texture o intensita.\n- Finale: decidere se il hook risolve, sfuma o si ferma secco.",
+        "Un prompt utile puo essere compatto: indie pop mid-tempo, voce intima, piano elettrico caldo e batteria morbida, struttura strofa-pre-ritornello-ritornello, ritornello costruito su sento ancora il tuo nome nel corridoio, prima strofa trattenuta, ultimo ritornello piu ampio, finale pulito senza lungo outro strumentale. Cambiano le parole, ma l ordine resta leggibile.",
+        "## Correggi un livello alla volta",
+        "Se il risultato non arriva al punto, cambia una sola cosa prima di rigenerare. Se il hook e nascosto, chiedi un ritornello piu scarno o piu attenzione alla voce. Se lo stile e giusto ma il testo e generico, conserva la nota di stile e riscrivi la scheda hook. Tre abitudini aiutano subito: tenere due varianti del hook, scrivere un limite negativo come niente strofa rap o niente drop da festival, e salvare il prompt accanto all audio.",
+        "## FAQ",
+        "Conviene scrivere il hook prima della strofa? Di solito si, se il ritornello e il motivo del brano. Posso nominare un artista famoso? Meglio descrivere periodo, strumenti, interpretazione vocale e umore. Quanto lungo deve essere il prompt? Da 60 a 120 parole basta per una prima prova. Cosa faccio se la musica e buona ma il testo no? Mantieni lo stile, riscrivi il livello testuale e genera una nuova versione."
+      ]
+    },
+    "ja": {
+      "title": "サビのフックからAIソング用プロンプトを組み立てる方法",
+      "description": "サビの一行を起点に、歌詞、スタイル、構成、ボーカル指示、修正方針を整理してからAI楽曲を生成する実践手順。",
+      "body": [
+        "頭の中に強い一行があるのに、生成された曲がそこから離れてしまうことがあります。サビが別の話に聞こえる、Aメロが説明しすぎる、音の方向が違う。そんなときは[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)を開く前に、ゆるい一文で丸ごと頼むのではなく、そのフックを小さな曲の地図にします。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja)は、プロンプト、歌詞、スタイル案、モデル選択をもとに音楽を作成し調整できるAI音楽生成プラットフォームです。感情の中心、残したい言葉、音の材料、聞き手に覚えてほしい部分を先に決めておくと、制作ツールとして使いやすくなります。",
+        "## フックカードから始める",
+        "生成前に四行だけ書きます。正確なフックの一文、語り手、サビの後に残したい感情、曲の中で戻ってくる映像です。例: フック - まだ廊下で君の名前が聞こえる、語り手 - 小さな町を出る人、感情 - 優しいが大げさではない、映像 - 夕暮れの空のホーム。このカードが曲の重心になります。",
+        "## 歌詞とスタイルを分ける",
+        "一つのプロンプトに、物語、ジャンル、フック、アレンジ、声の質感を同時に決めさせないほうが安定します。まずサビを書き、言葉遣い、韻、視点を試したいときだけ[AI歌詞ジェネレーター](https://easymusic.ai/ja/tools/ai-lyrics-generator)で候補を作ります。スタイルは別メモにして、テンポ感、楽器、声の質感、密度、終わり方を置きます。",
+        "## 曲全体の前に構成を書く",
+        "- Aメロ1: すべてを説明せず、場面だけ置く。\n- Bメロ: 二行ほどで感情の圧力を上げる。\n- サビ: フックを繰り返すか少し変える。\n- Aメロ2: 新しい話ではなく、一つの細部を足す。\n- ブリッジまたはブレイク: 視点、質感、強さを変える。\n- 終わり: フックを解決するか、フェードするか、短く止めるかを決める。",
+        "使いやすいプロンプトは短くても十分です。ミドルテンポのインディーポップ、親密なボーカル、温かいエレピとやわらかいドラム、Aメロ-Bメロ-サビ構成、まだ廊下で君の名前が聞こえるを中心にしたサビ、控えめな最初のAメロ、大きめのラストサビ、長いアウトロなしのきれいな終わり。順番があると指示が読みやすくなります。",
+        "## 一度に一層だけ直す",
+        "結果が外れたら、次の生成前に一つだけ変えます。フックが埋もれるなら、サビを薄くするか声を前に出す。スタイルは良いのに歌詞が弱いなら、スタイルメモは残してフックカードを書き直す。すぐ使える習慣は三つあります。フックを二案残す、ラップなしや大きなドロップなしのような禁止条件を一つ書く、使えそうな音源の横にプロンプトを保存することです。",
+        "## FAQ",
+        "フックはAメロより先に書くべきですか。サビが曲の理由なら、先に書くほうが判断しやすいです。有名アーティスト名を書いてよいですか。名前に頼るより、時代感、楽器、歌い方、ムードを説明するほうが実用的です。プロンプトの長さはどのくらいですか。最初は60から120語程度で十分です。音は良いが歌詞が弱い場合はどうしますか。スタイルを残し、歌詞の層だけ書き直して新しい版を作ります。"
+      ]
+    },
+    "ko": {
+      "title": "후렴 훅을 더 좋은 AI 노래 프롬프트로 바꾸는 법",
+      "description": "후렴 한 줄을 중심으로 가사, 스타일, 곡 구조, 보컬 지시, 수정 기준을 정리한 뒤 AI 노래를 만드는 실무 흐름.",
+      "body": [
+        "머릿속에는 강한 한 줄이 있는데 생성된 노래는 그 줄에서 멀어질 때가 있습니다. 후렴이 다른 이야기를 하고, 벌스는 너무 많이 설명하며, 사운드는 원하는 분위기와 어긋납니다. [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 열기 전에 느슨한 한 문장으로 전체 곡을 맡기지 말고, 그 훅을 작은 곡 지도처럼 정리하세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 생성 플랫폼입니다. 감정의 중심, 꼭 남겨야 할 말, 사운드 팔레트, 청자가 기억해야 할 부분을 먼저 정하면 제작 도구로 쓰기 쉽습니다.",
+        "## 훅 카드부터 쓰기",
+        "생성 전에 네 줄을 적습니다. 정확한 훅 문장, 말하는 사람, 후렴 뒤에 남길 감정, 곡이 반복해서 떠올릴 이미지입니다. 예를 들면 훅 - 아직 복도에서 네 이름이 들려, 화자 - 작은 도시를 떠나는 사람, 감정 - 부드럽지만 과하지 않음, 이미지 - 해 질 무렵 빈 기차 승강장. 이 카드가 곡의 중심을 잡아 줍니다.",
+        "## 가사와 스타일을 분리하기",
+        "하나의 프롬프트에 이야기, 장르, 훅, 편곡, 보컬 톤을 모두 맡기면 수정이 어려워집니다. 먼저 후렴을 쓰고, 단어 선택, 운율, 시점을 바꾸고 싶을 때만 [AI 가사 생성기](https://easymusic.ai/ko/tools/ai-lyrics-generator)를 사용하세요. 스타일은 별도 메모에 둡니다. 템포감, 악기, 보컬 질감, 밀도, 끝맺음처럼요. 그래야 어떤 층이 실패했는지 보입니다.",
+        "## 전체 트랙 전에 구조를 그리기",
+        "- 벌스 1: 전부 설명하지 말고 장면을 놓는다.\n- 프리코러스: 짧은 두 줄로 감정 압력을 올린다.\n- 코러스: 훅을 반복하거나 조금 변주한다.\n- 벌스 2: 새 줄거리보다 새 디테일 하나를 더한다.\n- 브리지 또는 브레이크: 관점, 질감, 강도를 바꾼다.\n- 엔딩: 훅을 해결할지, 페이드할지, 짧게 멈출지 정한다.",
+        "쓸 만한 프롬프트는 짧아도 됩니다. 미드템포 인디 팝, 친밀한 보컬, 따뜻한 전자 피아노와 부드러운 드럼, 벌스-프리코러스-코러스 구조, 아직 복도에서 네 이름이 들려라는 줄을 중심으로 한 코러스, 절제된 첫 벌스, 더 큰 마지막 코러스, 긴 연주 아웃트로 없는 깨끗한 끝. 프로젝트마다 단어는 바뀌어도 순서가 있으면 읽기 쉽습니다.",
+        "## 한 번에 한 층만 수정하기",
+        "결과가 빗나가면 다음 생성 전에 하나만 바꾸세요. 훅이 묻히면 더 빈 코러스나 더 앞선 보컬을 요청합니다. 스타일은 좋은데 가사가 평범하면 스타일 메모는 두고 훅 카드를 다시 씁니다. 바로 쓸 수 있는 습관은 세 가지입니다. 훅 두 가지를 보관하기, 랩 벌스 없음이나 페스티벌 드롭 없음 같은 금지 조건 하나 쓰기, 사용할 만한 오디오 옆에 프롬프트 저장하기.",
+        "## FAQ",
+        "훅을 벌스보다 먼저 써야 하나요? 후렴이 곡의 이유라면 보통 먼저 쓰는 편이 좋습니다. 유명 아티스트 이름을 넣어도 되나요? 이름보다 시대감, 악기, 보컬 전달, 분위기를 설명하는 편이 낫습니다. 프롬프트 길이는 어느 정도가 좋나요? 첫 시도는 60에서 120단어면 충분합니다. 음악은 좋은데 가사가 약하면요? 스타일은 유지하고 가사 층만 다시 써서 새 버전을 만드세요."
+      ]
+    },
+    "pt": {
+      "title": "Transforme um hook de refrao em um prompt melhor para musica IA",
+      "description": "Um fluxo hook-first para organizar letra, estilo, secoes, direcao vocal e revisoes antes de gerar uma musica com IA.",
+      "body": [
+        "Voce pode ter uma frase forte na cabeca e ainda assim receber uma musica que se afasta dela. O refrao parece outra ideia, o verso explica demais ou o estilo cai no lugar errado. Antes de abrir um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator), transforme esse hook em um pequeno mapa da musica em vez de pedir uma faixa completa com uma frase solta.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de geracao musical com IA para criar e personalizar musica a partir de prompts, letras, ideias de estilo e escolha de modelo. Ela funciona melhor quando voce chega com direcao clara: centro emocional, palavras importantes, paleta sonora e a parte que o ouvinte deve lembrar.",
+        "## Comece com um cartao de hook",
+        "Antes de gerar, escreva quatro linhas: a frase exata do hook, quem fala, a sensacao depois do refrao e uma imagem que deve voltar na musica. Exemplo: hook - ainda ouco seu nome no corredor; voz - alguem deixando uma cidade pequena; sentimento - terno, sem drama exagerado; imagem - plataforma vazia ao anoitecer. Isso da gravidade para a cancao.",
+        "## Separe letra e estilo",
+        "Nao peca a um unico prompt para inventar historia, genero, hook, arranjo e tom vocal ao mesmo tempo. Escreva primeiro o refrao e use um [gerador de letras com IA](https://easymusic.ai/pt/tools/ai-lyrics-generator) apenas para testar palavras, rimas ou ponto de vista. Guarde o estilo em outra nota: tempo, instrumentos, textura vocal, densidade e final. Assim fica claro qual camada falhou.",
+        "## Mapeie as secoes antes da faixa completa",
+        "- Verso 1: apresentar a cena sem explicar tudo.\n- Pre-refrao: aumentar a pressao emocional em duas linhas curtas.\n- Refrao: repetir ou variar um pouco o hook.\n- Verso 2: acrescentar um detalhe, nao uma nova trama.\n- Ponte ou break: mudar perspectiva, textura ou intensidade.\n- Final: decidir se o hook resolve, desaparece ou para seco.",
+        "Um prompt util pode ser compacto: indie pop em tempo medio, voz intima, piano eletrico quente e bateria suave, estrutura verso-pre-refrao-refrao, refrao construido em torno de ainda ouco seu nome no corredor, primeiro verso contido, ultimo refrao maior, final limpo sem longo outro instrumental. As palavras mudam por projeto, mas a ordem deixa a instrucao clara.",
+        "## Revise uma camada por vez",
+        "Se o resultado errar, mude so uma coisa antes de gerar de novo. Se o hook ficar escondido, peca um refrao mais vazio ou maior foco na voz. Se o estilo estiver bom mas a letra parecer generica, mantenha a nota de estilo e reescreva o cartao de hook. Tres habitos ajudam agora: guardar duas variantes de hook, escrever uma restricao negativa como sem verso rap ou sem drop de festival, e salvar o prompt ao lado da versao de audio.",
+        "## Perguntas frequentes",
+        "Devo escrever o hook antes do verso? Normalmente sim, se o refrao e a razao da musica. Posso citar um artista famoso? Geralmente e melhor descrever epoca, instrumentos, entrega vocal e clima. Qual o tamanho do prompt? De 60 a 120 palavras costuma bastar para a primeira tentativa. E se a musica ficar boa, mas a letra fraca? Mantenha o estilo, reescreva a camada de letra e gere uma nova versao."
+      ]
+    },
+    "ru": {
+      "title": "Как превратить припев-хук в сильный промпт для AI-песни",
+      "description": "Практичный hook-first процесс: текст, стиль, структура песни, вокальные указания и правки до генерации AI-музыки.",
+      "body": [
+        "У вас может быть сильная строка, но сгенерированная песня все равно уходит в сторону. Припев звучит как другая идея, куплет слишком много объясняет, а стиль не попадает в настроение. Перед тем как открыть [AI music generator](https://easymusic.ai/ru/ai-music-generator), превратите хук в короткую карту песни, а не просите весь трек одной расплывчатой фразой.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для генерации и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. Она полезнее, когда у вас уже есть ясное направление: эмоциональный центр, важные слова, звуковая палитра и часть песни, которую слушатель должен запомнить.",
+        "## Начните с карточки хука",
+        "До генерации запишите четыре строки: точную строку хука, кто говорит, какое чувство остается после припева и к какому образу песня возвращается. Например: хук - я все еще слышу твое имя в коридоре; герой - человек уезжает из маленького города; чувство - нежно, но без мелодрамы; образ - пустая платформа на закате. Это дает песне центр тяжести.",
+        "## Разделите текст и стиль",
+        "Не заставляйте один промпт одновременно придумывать историю, жанр, хук, аранжировку и голос. Сначала напишите припев, а [AI lyrics generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) используйте только для вариантов слов, рифмы или точки зрения. Стиль держите в отдельной заметке: темп, инструменты, фактура голоса, плотность и финал. Так легче понять, какой слой не сработал.",
+        "## Составьте карту частей до полного трека",
+        "- Куплет 1: поставить сцену, не объясняя все.\n- Пре-припев: усилить эмоциональное давление двумя короткими строками.\n- Припев: повторить или немного изменить хук.\n- Куплет 2: добавить одну новую деталь, а не новый сюжет.\n- Бридж или брейк: сменить перспективу, фактуру или интенсивность.\n- Финал: решить, хук разрешается, затухает или резко останавливается.",
+        "Рабочий промпт может быть коротким: среднетемповый инди-поп, интимный вокал, теплое электропиано и мягкие барабаны, структура куплет-пре-припев-припев, припев вокруг строки я все еще слышу твое имя в коридоре, сдержанный первый куплет, более широкий финальный припев, чистое окончание без долгого инструментального аутро. Слова меняются, но порядок делает задачу понятной.",
+        "## Правьте по одному слою",
+        "Если результат промахнулся, перед новой генерацией меняйте только одну вещь. Если хук потерялся, попросите более разреженный припев или больший фокус на вокале. Если стиль подходит, но текст звучит общо, оставьте стилевую заметку и перепишите карточку хука. Три привычки помогут сразу: храните две версии хука, пишите один запрет вроде без рэп-куплета или без фестивального дропа, и сохраняйте промпт рядом с аудиофайлом.",
+        "## FAQ",
+        "Нужно ли писать хук до куплета? Обычно да, если припев является причиной песни. Можно ли назвать известного артиста? Практичнее описать эпоху, инструменты, подачу голоса и настроение. Какой длины должен быть промпт? Для первой версии часто хватает 60-120 слов. Что делать, если музыка хорошая, а текст слабый? Оставьте стиль, перепишите текстовый слой и создайте новую версию."
+      ]
+    },
+    "zh": {
+      "title": "把副歌 Hook 变成更好用的 AI 歌曲提示词",
+      "description": "以副歌 Hook 为起点，先整理歌词、风格、段落、演唱方向和修改规则，再生成 AI 歌曲的实用流程。",
+      "body": [
+        "你可能脑子里已经有一句很强的副歌，但生成出来的歌总是跑偏：副歌像在讲另一件事，主歌解释太多，声音风格也不对。打开 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 之前，先把这句 Hook 变成一张小型歌曲地图，而不是用一句松散的话要求系统写完整首歌。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐生成与定制平台，可以围绕提示词、歌词、风格描述和模型选择来创作音乐。它更适合在创作方向清楚时使用：情绪核心是什么，哪些词必须留下，声音材料是什么，听众应该记住哪一段。",
+        "## 先写 Hook 卡片",
+        "生成前写四行：准确的 Hook 句子、说话的人、听完副歌后要留下的感觉、歌曲反复回到的画面。例如：Hook 是还在走廊里听见你的名字；说话的人是离开小城的人；感觉是温柔但不过分戏剧化；画面是黄昏的空站台。这张卡片会成为整首歌的重心。",
+        "## 把歌词和风格分开",
+        "不要让一个提示词同时决定故事、流派、Hook、编曲和人声质感。先写副歌，需要调整措辞、押韵或视角时，再用 [AI 歌词生成器](https://easymusic.ai/zh/tools/ai-lyrics-generator) 生成备选。风格单独放在另一条笔记里：速度感、乐器、声线质感、密度和结尾方式。这样修改时才知道是哪一层出了问题。",
+        "## 生成完整音轨前，先画段落",
+        "- 第一段主歌：摆出场景，不要解释全部背景。\n- 预副歌：用两句短句收紧情绪压力。\n- 副歌：重复 Hook，或做小幅变化。\n- 第二段主歌：增加一个新细节，不要换成新剧情。\n- 桥段或 Break：改变视角、质感或强度。\n- 结尾：决定 Hook 是解决、淡出，还是干净停止。",
+        "一个可用提示词可以很紧凑：中速独立流行，亲密人声，温暖电钢琴和轻柔鼓组，主歌-预副歌-副歌结构，副歌围绕还在走廊里听见你的名字，第一段主歌克制，最后副歌更开阔，结尾干净，不要长器乐尾奏。每个项目的词会不同，但顺序清楚，指令就更容易读懂。",
+        "## 一次只改一层",
+        "结果不对时，下一次生成前只改一个点。Hook 被埋住，就要求副歌更稀疏或人声更靠前。风格对了但歌词普通，就保留风格笔记，重写 Hook 卡片。三个习惯可以马上使用：保留两个 Hook 版本，写一个负面限制，例如不要说唱段落或不要大型电子 Drop，把可能使用的音频和提示词放在一起。",
+        "## 常见问题",
+        "Hook 应该先于主歌写吗？如果副歌是这首歌的核心，通常应该先写。可以在提示词里写知名歌手名字吗？更好的做法是描述年代感、乐器、演唱方式和情绪，而不是用名字代替具体说明。提示词多长合适？第一次生成 60 到 120 个词通常足够。音乐不错但歌词弱怎么办？保留风格层，重写歌词层，再生成一个新版本。"
+      ]
+    },
+    "ar": {
+      "title": "حوّل Hook الكورس إلى مطالبة أفضل لأغنية بالذكاء الاصطناعي",
+      "description": "سير عمل يبدأ من Hook الكورس لتنظيم الكلمات، الأسلوب، أقسام الأغنية، توجيه الصوت، والمراجعات قبل توليد أغنية بالذكاء الاصطناعي.",
+      "body": [
+        "قد تكون لديك جملة قوية في رأسك، لكن الأغنية المولدة تبتعد عنها. الكورس يبدو كفكرة أخرى، المقطع يشرح أكثر من اللازم، أو الأسلوب الصوتي لا يناسب المزاج. قبل فتح [مولد موسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، حوّل تلك الجملة إلى خريطة صغيرة للأغنية بدلا من طلب أغنية كاملة بجملة فضفاضة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) هو منصة لتوليد وتخصيص الموسيقى بالذكاء الاصطناعي اعتمادا على المطالبات، الكلمات، أفكار الأسلوب، واختيار النموذج. يكون أكثر فائدة عندما تأتي باتجاه واضح: المركز العاطفي، الكلمات التي يجب أن تبقى، لوحة الصوت، والجزء الذي تريد أن يتذكره المستمع.",
+        "## ابدأ ببطاقة Hook",
+        "قبل التوليد، اكتب أربع نقاط: جملة الـ Hook كما هي، من يتكلم، الشعور بعد الكورس، والصورة التي يجب أن تعود في الأغنية. مثال: ما زلت أسمع اسمك في الممر؛ المتكلم شخص يغادر بلدة صغيرة؛ الشعور حنون لا مبالغ فيه؛ الصورة رصيف قطار فارغ عند الغروب. هذه البطاقة تعطي الأغنية مركزا واضحا.",
+        "## افصل الكلمات عن الأسلوب",
+        "لا تطلب من مطالبة واحدة أن تخترع القصة، النوع، الـ Hook، التوزيع، ونبرة الصوت معا. اكتب الكورس أولا، واستخدم [مولد كلمات بالذكاء الاصطناعي](https://easymusic.ai/ar/tools/ai-lyrics-generator) فقط لتجربة صيغ أو قواف أو زاوية نظر بديلة. ضع الأسلوب في ملاحظة منفصلة: الإحساس بالسرعة، الآلات، ملمس الصوت، الكثافة، وطريقة النهاية. هكذا تعرف أي طبقة تحتاج إلى تعديل.",
+        "## ارسم الأقسام قبل المسار الكامل",
+        "- المقطع الأول: ضع المشهد من دون شرح كل شيء.\n- ما قبل الكورس: ارفع الضغط العاطفي في سطرين قصيرين.\n- الكورس: كرر الـ Hook أو غيّره قليلا.\n- المقطع الثاني: أضف تفصيلا جديدا لا قصة جديدة.\n- الجسر أو الاستراحة: غيّر المنظور أو الملمس أو الشدة.\n- النهاية: قرر هل يحل الـ Hook، يتلاشى، أم يتوقف بوضوح.",
+        "يمكن أن تكون المطالبة المفيدة قصيرة: بوب مستقل متوسط السرعة، صوت حميم، بيانو كهربائي دافئ وطبول ناعمة، بنية مقطع-ما قبل الكورس-كورس، كورس مبني حول ما زلت أسمع اسمك في الممر، مقطع أول هادئ، كورس أخير أكبر، ونهاية نظيفة من دون خاتمة موسيقية طويلة. الكلمات تتغير حسب المشروع، لكن الترتيب يجعل التعليمات أوضح.",
+        "## عدل طبقة واحدة في كل مرة",
+        "إذا أخطأت النتيجة، غيّر شيئا واحدا فقط قبل التوليد مرة أخرى. إذا اختفى الـ Hook، اطلب كورسا أخف أو تركيزا أقوى على الصوت. إذا كان الأسلوب مناسبا لكن الكلمات عامة، احتفظ بملاحظة الأسلوب وأعد كتابة بطاقة الـ Hook. ثلاث عادات تفيد فورا: احتفظ بنسختين من الـ Hook، اكتب قيدا سلبيا مثل بلا مقطع راب أو بلا Drop ضخم، واحفظ المطالبة بجانب النسخة الصوتية التي قد تستخدمها.",
+        "## أسئلة شائعة",
+        "هل أكتب الـ Hook قبل المقطع؟ غالبا نعم إذا كان الكورس هو سبب الأغنية. هل أذكر فنانا مشهورا؟ الأفضل وصف الحقبة، الآلات، طريقة الغناء، والمزاج بدلا من استخدام الاسم كاختصار. ما طول المطالبة المناسب؟ غالبا تكفي 60 إلى 120 كلمة للمحاولة الأولى. ماذا لو كانت الموسيقى جيدة والكلمات ضعيفة؟ احتفظ بالأسلوب، أعد كتابة طبقة الكلمات، ثم أنشئ نسخة جديدة."
+      ]
+    }
+  }
+}
