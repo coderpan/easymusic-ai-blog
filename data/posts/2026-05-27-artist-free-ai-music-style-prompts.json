@@ -1,0 +1,227 @@
+{
+  "date": "2026-05-27",
+  "slug": "artist-free-ai-music-style-prompts",
+  "cluster": "prompt-workflow-guidance",
+  "translations": {
+    "en": {
+      "title": "Write AI Music Style Prompts Without Naming Artists",
+      "description": "A practical way to turn a reference-track idea into genre, mood, instruments, vocal delivery, texture, and revision notes for AI music generation.",
+      "body": [
+        "The lazy prompt is tempting: make this sound like one famous song. The result is often vague, overfitted, or awkward because the system has to guess which part of the reference matters. Before opening an [AI music generator](https://easymusic.ai/ai-music-generator), describe the musical evidence instead: what you hear, where the energy sits, and what should stay out.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music generation platform for creating and customizing music from prompts, lyrics, style ideas, and model choices. For this workflow, treat it as a drafting desk: your job is to bring a clear style brief, then compare versions by listening instead of trusting the first output.",
+        "## Turn the reference into five slots",
+        "Write a short note with five fields: genre frame, groove, instruments, vocal delivery, and production texture. A reference such as a late-night synth pop track might become: mid-tempo synth pop, steady four-on-the-floor pulse, soft analog bass and glassy pads, relaxed breathy vocal, wide reverb with a clean modern mix. That is more useful than a name because each part can be changed.",
+        "## Use traits, not celebrity shortcuts",
+        "If the reference is a singer, do not copy the person. Describe the delivery: close-mic whisper, bright group chant, dry spoken verse, warm baritone, airy falsetto, or stacked harmonies. If the reference is a band, describe arrangement choices: sparse guitar riff, tight live drums, rounded electric piano, call-and-response backing vocals, or no dense strings. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help expand these traits into a fuller style description, but keep only the words you can actually defend by ear.",
+        "## Add one boundary and one test",
+        "Style prompts improve when they include a limit. Try one negative boundary such as no trap hats, no stadium drop, no spoken intro, or no busy lead guitar. Then run two versions that differ by only one field. Version A might be warmer and slower; version B might keep the same instruments but use a tighter drum feel. This makes the listening decision specific instead of emotional.",
+        "## A reusable prompt frame",
+        "- Core style: genre plus era or scene, not an artist name.\n- Motion: tempo range, groove, swing, or rhythmic density.\n- Color: two or three instruments that carry the track.\n- Voice: delivery, range, group or solo feel, and lyric clarity.\n- Texture: dry, roomy, polished, gritty, intimate, cinematic, or minimal.\n- Boundary: one thing the result should avoid.",
+        "A compact first prompt could read: mid-tempo indie electronic, 95 BPM, steady pulse, warm analog bass, soft drum machine, glassy pads, intimate female vocal, clear chorus melody, polished but not glossy, no festival drop, no rap verse. Save the prompt next to the audio file and write one sentence about why the best version worked.",
+        "## FAQ",
+        "Can I still use a reference track privately? Yes, as a listening aid, but translate it into traits before prompting. Is this a legal clearance method? No. It is only a clearer way to describe sound; permissions and release decisions need their own review. How many style words are enough? Ten to twenty focused words often beat a long paragraph. What if the result is close but not usable? Change one field, such as rhythm or vocal delivery, and keep the rest stable for the next generation."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik-Stilprompts schreiben, ohne Artists zu nennen",
+      "description": "Ein praktischer Weg, eine Referenzidee in Genre, Stimmung, Instrumente, Stimme, Textur und Revisionen fuer KI-Musik zu uebersetzen.",
+      "body": [
+        "Der bequeme Prompt ist verlockend: Mach es wie dieser bekannte Song. Das Ergebnis wird aber oft unscharf, zu nah an einer falschen Stelle oder einfach komisch, weil das System raten muss, welcher Teil der Referenz wichtig ist. Bevor du einen [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) nutzt, beschreibe hoerbare Merkmale: was du wirklich wahrnimmst, wo die Energie sitzt und was nicht hinein soll.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerzeugung, mit der Musik aus Prompts, Lyrics, Stilideen und Modellauswahl erstellt und angepasst werden kann. In diesem Ablauf ist es ein Skizzenplatz: Du bringst ein klares Stilbriefing mit und entscheidest danach durch Hoeren, nicht durch den ersten Treffer.",
+        "## Uebersetze die Referenz in fuenf Felder",
+        "Schreibe eine kurze Notiz mit fuenf Punkten: Genre-Rahmen, Groove, Instrumente, Stimme und Produktionstextur. Aus einer naechtlichen Synth-Pop-Referenz wird zum Beispiel: Midtempo-Synth-Pop, gleichmaessiger Four-on-the-floor-Puls, weicher analoger Bass und glaeserne Pads, entspannter hauchiger Gesang, breiter Hall mit sauberem modernem Mix. Das ist brauchbarer als ein Name, weil jede Ebene einzeln aenderbar bleibt.",
+        "## Nutze Merkmale statt Promi-Abkuerzungen",
+        "Wenn die Referenz eine Saengerin oder ein Saenger ist, kopiere nicht die Person. Beschreibe die Art des Vortrags: nahes Fluester-Mikro, heller Gruppenruf, trockene Sprechstrophe, warmer Bariton, luftiges Falsett oder mehrstimmige Harmonien. Wenn die Referenz eine Band ist, beschreibe das Arrangement: sparsames Gitarrenriff, enge Live-Drums, rundes E-Piano, Call-and-response-Backings oder keine dichten Streicher. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann solche Merkmale zu einer Stilbeschreibung ausbauen; behalte aber nur Woerter, die du beim Hoeren erklaeren kannst.",
+        "## Fuege eine Grenze und einen Test hinzu",
+        "Stilprompts werden besser, wenn sie eine Grenze enthalten. Probiere eine negative Vorgabe wie keine Trap-Hi-Hats, kein Stadion-Drop, kein gesprochenes Intro oder keine ueberladene Lead-Gitarre. Erzeuge dann zwei Versionen, die sich nur in einem Feld unterscheiden. Version A ist waermer und langsamer; Version B behalt die Instrumente, aber nutzt straffere Drums. So wird die Entscheidung konkret.",
+        "## Wiederverwendbarer Prompt-Rahmen",
+        "- Kernstil: Genre plus Aera oder Szene, kein Artist-Name.\n- Bewegung: Tempo, Groove, Swing oder rhythmische Dichte.\n- Farbe: zwei oder drei tragende Instrumente.\n- Stimme: Vortrag, Lage, Solo- oder Gruppenwirkung und Textklarheit.\n- Textur: trocken, raeumlich, poliert, rau, intim, filmisch oder minimal.\n- Grenze: eine Sache, die vermieden werden soll.",
+        "Ein erster Prompt kann kompakt sein: Midtempo-Indie-Electronic, 95 BPM, stabiler Puls, warmer analoger Bass, weiche Drum-Machine, glaeserne Pads, intime weibliche Stimme, klare Chorus-Melodie, poliert aber nicht glaenzend, kein Festival-Drop, kein Rap-Part. Speichere den Prompt neben der Audiodatei und notiere in einem Satz, warum die beste Version funktioniert.",
+        "## FAQ",
+        "Kann ich privat trotzdem mit einer Referenz hoeren? Ja, aber uebersetze sie vor dem Prompten in Merkmale. Ist das eine rechtliche Freigabe? Nein. Es beschreibt nur Klang klarer; Rechte- und Veroeffentlichungsfragen brauchen eine eigene Pruefung. Wie viele Stilwoerter reichen? Zehn bis zwanzig genaue Woerter schlagen oft einen langen Absatz. Was tun, wenn das Ergebnis nah, aber nicht nutzbar ist? Aendere ein Feld, etwa Rhythmus oder Stimme, und halte den Rest stabil."
+      ]
+    },
+    "es": {
+      "title": "Escribe prompts de estilo musical IA sin nombrar artistas",
+      "description": "Una forma practica de convertir una referencia en genero, clima, instrumentos, voz, textura y notas de revision para musica IA.",
+      "body": [
+        "El prompt perezoso tienta mucho: hazlo sonar como esta cancion famosa. Pero el resultado suele ser vago, demasiado pegado a la parte equivocada o simplemente raro, porque el sistema tiene que adivinar que detalle de la referencia importa. Antes de abrir un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator), describe pruebas sonoras: que oyes, donde esta la energia y que debe quedar fuera.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de generacion musical con IA para crear y personalizar musica a partir de prompts, letras, ideas de estilo y seleccion de modelo. En este flujo conviene tratarla como una mesa de bocetos: llegas con un briefing de estilo claro y luego comparas versiones escuchando, no confiando en el primer resultado.",
+        "## Convierte la referencia en cinco campos",
+        "Escribe una nota breve con cinco campos: marco de genero, groove, instrumentos, entrega vocal y textura de produccion. Una referencia de synth pop nocturno puede quedar asi: synth pop a medio tempo, pulso four-on-the-floor constante, bajo analogico suave y pads cristalinos, voz relajada y aireada, reverb amplia con mezcla moderna limpia. Eso sirve mas que un nombre porque cada capa se puede cambiar.",
+        "## Usa rasgos, no atajos de celebridad",
+        "Si la referencia es una voz, no copies a la persona. Describe la interpretacion: susurro cercano al micro, coro grupal brillante, verso hablado y seco, baritono calido, falsete ligero o armonias apiladas. Si la referencia es una banda, describe el arreglo: riff de guitarra escaso, bateria en vivo muy ajustada, piano electrico redondo, coros de pregunta y respuesta o ausencia de cuerdas densas. El [generador de estilos musicales](https://easymusic.ai/es/tools/music-style-generator) puede ampliar esos rasgos en una descripcion, pero conserva solo palabras que puedas defender al oido.",
+        "## Anade un limite y una prueba",
+        "Los prompts de estilo mejoran cuando incluyen un limite. Prueba una frontera negativa: sin hi-hats de trap, sin drop de festival, sin intro hablada o sin guitarra lider ocupada. Luego genera dos versiones que cambien un solo campo. La version A puede ser mas calida y lenta; la version B conserva instrumentos, pero usa una bateria mas tensa. Asi la decision de escucha deja de ser confusa.",
+        "## Marco reutilizable de prompt",
+        "- Estilo central: genero mas epoca o escena, no nombre de artista.\n- Movimiento: rango de tempo, groove, swing o densidad ritmica.\n- Color: dos o tres instrumentos que sostienen la pista.\n- Voz: entrega, registro, sensacion solista o grupal y claridad de letra.\n- Textura: seca, espaciosa, pulida, aspera, intima, cinematica o minima.\n- Limite: una cosa que el resultado debe evitar.",
+        "Un primer prompt compacto podria ser: indie electronico a medio tempo, 95 BPM, pulso estable, bajo analogico calido, caja de ritmos suave, pads cristalinos, voz femenina intima, melodia de estribillo clara, pulido pero no brillante, sin drop de festival, sin verso rap. Guarda el prompt junto al audio y escribe una frase sobre por que funciono la mejor version.",
+        "## Preguntas frecuentes",
+        "Puedo usar una cancion de referencia en privado? Si, como ayuda de escucha, pero traducela a rasgos antes de escribir el prompt. Esto sirve como permiso legal? No. Solo describe mejor el sonido; permisos y publicacion requieren otra revision. Cuantas palabras de estilo bastan? Diez a veinte palabras enfocadas suelen superar un parrafo largo. Que hago si el resultado esta cerca pero no sirve? Cambia un campo, como ritmo o voz, y deja lo demas estable."
+      ]
+    },
+    "fr": {
+      "title": "Ecrire des prompts de style musical IA sans citer d artistes",
+      "description": "Une methode pratique pour convertir une reference en genre, humeur, instruments, voix, texture et notes de revision pour la musique IA.",
+      "body": [
+        "Le prompt paresseux est tentant: fais sonner ca comme ce morceau connu. Le resultat devient souvent flou, trop accroche au mauvais detail ou simplement etrange, parce que le systeme doit deviner quelle partie de la reference compte. Avant d ouvrir un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator), decris les preuves sonores: ce que tu entends, ou se place l energie et ce qui doit rester dehors.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de generation musicale par IA qui permet de creer et personnaliser de la musique avec des prompts, des paroles, des idees de style et un choix de modele. Dans ce flux, traite-la comme une table de brouillon: tu apportes un brief sonore clair, puis tu compares les versions a l ecoute.",
+        "## Transforme la reference en cinq cases",
+        "Ecris une note courte avec cinq champs: cadre de genre, groove, instruments, direction vocale et texture de production. Une reference synth pop nocturne peut devenir: synth pop mid-tempo, pulsation four-on-the-floor stable, basse analogique douce et pads vitreux, voix detendue et souffle, large reverb avec mix moderne propre. C est plus utile qu un nom car chaque couche peut etre modifiee.",
+        "## Utilise des traits, pas des raccourcis celebres",
+        "Si la reference est une voix, ne copie pas la personne. Decris l interpretation: murmure proche du micro, chant de groupe lumineux, couplet parle et sec, baryton chaud, falsetto aerien ou harmonies empilees. Si la reference est un groupe, decris l arrangement: riff de guitare rare, batterie live serree, piano electrique rond, choeurs en appel-reponse ou pas de cordes denses. Le [generateur de styles musicaux](https://easymusic.ai/fr/tools/music-style-generator) peut developper ces traits en description plus complete, mais garde seulement les mots que tu peux justifier a l oreille.",
+        "## Ajoute une limite et un test",
+        "Un prompt de style gagne souvent avec une limite. Essaie une contrainte negative: pas de hi-hats trap, pas de drop festival, pas d intro parlee ou pas de guitare lead chargee. Lance ensuite deux versions qui ne changent qu un champ. La version A peut etre plus chaude et plus lente; la version B garde les instruments mais resserre la batterie. La decision devient precise.",
+        "## Cadre de prompt reutilisable",
+        "- Style central: genre plus periode ou scene, pas nom d artiste.\n- Mouvement: tempo, groove, swing ou densite rythmique.\n- Couleur: deux ou trois instruments porteurs.\n- Voix: delivery, registre, solo ou groupe, clarte des paroles.\n- Texture: seche, large, polie, rugueuse, intime, cinematographique ou minimale.\n- Limite: une chose que le resultat doit eviter.",
+        "Un premier prompt peut rester compact: indie electronique mid-tempo, 95 BPM, pulsation stable, basse analogique chaude, boite a rythmes douce, pads vitreux, voix feminine intime, melodie de refrain claire, poli mais pas brillant, pas de drop festival, pas de couplet rap. Sauvegarde le prompt avec l audio et note en une phrase pourquoi la meilleure version marche.",
+        "## FAQ",
+        "Puis-je utiliser une reference en prive? Oui, comme aide d ecoute, mais traduis-la en traits avant le prompt. Est-ce une methode d autorisation juridique? Non. Elle decrit mieux le son; les permissions et la sortie publique demandent une verification separee. Combien de mots de style suffisent? Dix a vingt mots precis valent souvent mieux qu un long paragraphe. Si le resultat est proche mais inutilisable? Change un champ, par exemple rythme ou voix, et garde le reste stable."
+      ]
+    },
+    "it": {
+      "title": "Scrivere prompt di stile musicale AI senza nominare artisti",
+      "description": "Un metodo pratico per trasformare una reference in genere, mood, strumenti, voce, texture e note di revisione per musica AI.",
+      "body": [
+        "Il prompt pigro e allettante: fallo suonare come quella canzone famosa. Pero il risultato spesso diventa vago, troppo legato al dettaglio sbagliato o semplicemente strano, perche il sistema deve indovinare quale parte della reference conta. Prima di usare un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator), descrivi le prove sonore: cosa senti, dove sta l energia e cosa deve restare fuori.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di generazione musicale con IA per creare e personalizzare musica da prompt, testi, idee di stile e scelta del modello. In questo flusso trattala come un tavolo di bozza: porti un brief di stile chiaro e poi confronti le versioni ascoltando, non fidandoti del primo risultato.",
+        "## Trasforma la reference in cinque campi",
+        "Scrivi una nota breve con cinque campi: cornice di genere, groove, strumenti, resa vocale e texture di produzione. Una reference synth pop notturna puo diventare: synth pop mid-tempo, pulsazione four-on-the-floor stabile, basso analogico morbido e pad cristallini, voce rilassata e ariosa, riverbero largo con mix moderno pulito. E piu utile di un nome perche ogni livello resta modificabile.",
+        "## Usa tratti, non scorciatoie famose",
+        "Se la reference e una voce, non copiare la persona. Descrivi l interpretazione: sussurro vicino al microfono, coro di gruppo brillante, strofa parlata e asciutta, baritono caldo, falsetto leggero o armonie sovrapposte. Se la reference e una band, descrivi l arrangiamento: riff di chitarra scarno, batteria live stretta, piano elettrico rotondo, cori call-and-response o niente archi densi. Il [generatore di stili musicali](https://easymusic.ai/it/tools/music-style-generator) puo ampliare questi tratti in una descrizione piu ricca, ma tieni solo le parole che puoi difendere ascoltando.",
+        "## Aggiungi un limite e un test",
+        "I prompt di stile migliorano quando includono un limite. Prova un confine negativo: niente hi-hat trap, niente drop da festival, niente intro parlato o niente chitarra solista troppo piena. Poi crea due versioni che cambiano un solo campo. La versione A puo essere piu calda e lenta; la versione B mantiene gli strumenti ma usa una batteria piu serrata. Cosi la scelta diventa concreta.",
+        "## Schema riutilizzabile",
+        "- Stile centrale: genere piu epoca o scena, non nome di artista.\n- Movimento: tempo, groove, swing o densita ritmica.\n- Colore: due o tre strumenti portanti.\n- Voce: interpretazione, registro, effetto solista o gruppo e chiarezza del testo.\n- Texture: asciutta, spaziosa, lucida, ruvida, intima, cinematica o minima.\n- Limite: una cosa da evitare.",
+        "Un primo prompt compatto puo essere: indie elettronico mid-tempo, 95 BPM, pulsazione stabile, basso analogico caldo, drum machine morbida, pad cristallini, voce femminile intima, melodia del ritornello chiara, pulito ma non patinato, niente drop da festival, niente strofa rap. Salva il prompt accanto all audio e scrivi una frase sul motivo per cui la versione migliore funziona.",
+        "## FAQ",
+        "Posso usare comunque una reference in privato? Si, come guida d ascolto, ma traducila in tratti prima del prompt. E un metodo di autorizzazione legale? No. Serve solo a descrivere meglio il suono; permessi e pubblicazione richiedono una verifica separata. Quante parole di stile bastano? Dieci o venti parole precise spesso valgono piu di un paragrafo lungo. Se il risultato e vicino ma non utile? Cambia un campo, come ritmo o voce, e lascia stabile il resto."
+      ]
+    },
+    "ja": {
+      "title": "アーティスト名に頼らずAI音楽のスタイルプロンプトを書く",
+      "description": "参考曲の印象を、ジャンル、ムード、楽器、ボーカル、質感、修正メモに分解してAI音楽生成へ渡す実践的な方法。",
+      "body": [
+        "一番楽なプロンプトは、この有名曲みたいにして、という書き方です。ただしそのままだと、どの要素を参考にしたいのかが曖昧になり、違う部分だけが強く出たり、妙に寄りすぎたりします。[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)を開く前に、名前ではなく聞こえる証拠を書きます。何が鳴っているか、エネルギーはどこにあるか、何を避けたいかを整理します。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja)は、プロンプト、歌詞、スタイル案、モデル選択をもとに音楽を作成し調整できるAI音楽生成プラットフォームです。この作業では下書きの机として考えると扱いやすくなります。最初に明確なスタイルブリーフを用意し、生成後は最初の一曲を信じ切るのではなく、耳で比較します。",
+        "## 参考曲を五つの枠に分ける",
+        "短いメモを五つの枠で書きます。ジャンルの枠、グルーブ、楽器、ボーカルの出し方、プロダクションの質感です。夜のシンセポップを参考にするなら、中速シンセポップ、安定した四つ打ち、柔らかいアナログベースとガラスのようなパッド、息を含んだ落ち着いた声、広いリバーブと清潔な現代的ミックス、のように書けます。名前より有用なのは、各層を別々に変えられるからです。",
+        "## 有名人の近道ではなく特徴を書く",
+        "参考が歌手の場合、その人をコピーしようとしないで、歌い方を説明します。近接マイクのささやき、明るい集団チャント、乾いた spoken verse、温かいバリトン、軽いファルセット、重ねたハーモニーなどです。参考がバンドなら、まばらなギターリフ、締まった生ドラム、丸いエレピ、掛け合いのコーラス、厚いストリングスなし、のように編曲を書きます。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator)は特徴を長めのスタイル文へ広げる助けになりますが、耳で説明できる語だけを残します。",
+        "## 境界線とテストを一つずつ入れる",
+        "スタイルプロンプトは、避けたいものを一つ入れると判断しやすくなります。トラップ系ハイハットなし、フェス風ドロップなし、語りのイントロなし、忙しいリードギターなし、などです。そのうえで、一つの項目だけを変えた二つの版を作ります。Aは少し温かく遅め、Bは楽器を同じにしてドラムだけタイトにする。こうすると感覚だけでなく、どの変更が効いたのかを聞き分けられます。",
+        "## 使い回せるプロンプト枠",
+        "- 中心スタイル: アーティスト名ではなく、ジャンルと時代感またはシーン。\n- 動き: テンポ、グルーブ、スイング、リズム密度。\n- 色: 曲を支える二つか三つの楽器。\n- 声: 歌い方、音域、ソロ感か集団感、歌詞の明瞭さ。\n- 質感: ドライ、広い、磨かれた、荒い、親密、映画的、ミニマル。\n- 境界線: 結果に入れたくないものを一つ。",
+        "最初のプロンプトは短くてかまいません。中速インディーエレクトロニック、95 BPM、安定したパルス、温かいアナログベース、柔らかいドラムマシン、ガラス質のパッド、親密な女性ボーカル、明瞭なサビのメロディ、磨かれているが派手すぎない、フェス風ドロップなし、ラップ verse なし。音声ファイルの横にプロンプトを保存し、良かった版がなぜ効いたのか一文で残します。",
+        "## FAQ",
+        "参考曲を自分で聞くのはよいですか？ はい、聞くための材料として使えます。ただしプロンプトに入れる前に特徴へ変換します。これは法的な許可の方法ですか？ いいえ。音を明確に説明するための方法であり、公開や許諾の判断は別に確認が必要です。スタイル語はいくつ必要ですか？ 十から二十個の焦点が合った語の方が、長い段落より扱いやすいことが多いです。惜しいが使えない結果は？ リズムか声など一つだけ変え、残りを固定して次を作ります。"
+      ]
+    },
+    "ko": {
+      "title": "아티스트 이름 없이 AI 음악 스타일 프롬프트 쓰기",
+      "description": "레퍼런스 곡의 인상을 장르, 분위기, 악기, 보컬, 질감, 수정 메모로 나누어 AI 음악 생성에 전달하는 방법.",
+      "body": [
+        "가장 쉬운 프롬프트는 유명한 곡처럼 만들어 달라는 식입니다. 하지만 그렇게 쓰면 무엇을 참고해야 하는지 흐려지고, 엉뚱한 부분만 강해지거나 어색하게 가까워질 수 있습니다. [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 열기 전에 이름 대신 들리는 증거를 적어 보세요. 무엇이 들리는지, 에너지가 어디에 있는지, 무엇을 빼야 하는지를 먼저 정리합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 생성 플랫폼입니다. 이 흐름에서는 초안 책상처럼 쓰는 편이 좋습니다. 명확한 스타일 브리프를 가져오고, 생성 후에는 첫 결과를 그대로 믿기보다 여러 버전을 귀로 비교합니다.",
+        "## 레퍼런스를 다섯 칸으로 나누기",
+        "짧은 메모를 다섯 칸으로 씁니다. 장르 틀, 그루브, 악기, 보컬 전달, 프로덕션 질감입니다. 늦은 밤 신스팝을 참고한다면 중간 템포 신스팝, 안정적인 포온더플로어 박자, 부드러운 아날로그 베이스와 유리 같은 패드, 편안하고 숨이 섞인 보컬, 넓은 리버브와 깨끗한 현대적 믹스처럼 바꿀 수 있습니다. 이름보다 유용한 이유는 각 층을 따로 수정할 수 있기 때문입니다.",
+        "## 유명인 이름 대신 특징 쓰기",
+        "레퍼런스가 가수라면 그 사람을 복제하려 하지 말고 전달 방식을 적습니다. 가까운 마이크의 속삭임, 밝은 단체 챈트, 건조한 말하듯 부르는 벌스, 따뜻한 바리톤, 가벼운 팔세토, 겹친 하모니처럼요. 밴드를 참고한다면 성긴 기타 리프, 타이트한 라이브 드럼, 둥근 전자 피아노, 콜앤리스폰스 백보컬, 두꺼운 스트링 없음 같은 편곡 특징을 씁니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 이런 특징을 더 긴 스타일 설명으로 넓히는 데 도움이 되지만, 실제로 귀로 설명할 수 있는 단어만 남기세요.",
+        "## 경계와 테스트를 하나씩 넣기",
+        "스타일 프롬프트는 제한이 있을 때 더 판단하기 쉽습니다. 트랩 하이햇 없음, 페스티벌 드롭 없음, 말하는 인트로 없음, 바쁜 리드 기타 없음처럼 부정 조건 하나를 넣어 보세요. 그런 다음 한 칸만 바꾼 두 버전을 만듭니다. A는 더 따뜻하고 느리게, B는 악기는 그대로 두고 드럼만 더 타이트하게 할 수 있습니다. 이렇게 하면 느낌이 아니라 어떤 변경이 효과를 냈는지 들을 수 있습니다.",
+        "## 다시 쓸 수 있는 프롬프트 틀",
+        "- 핵심 스타일: 아티스트 이름이 아니라 장르와 시대감 또는 장면.\n- 움직임: 템포, 그루브, 스윙, 리듬 밀도.\n- 색깔: 트랙을 이끄는 두세 가지 악기.\n- 목소리: 전달 방식, 음역, 솔로 또는 그룹 느낌, 가사 선명도.\n- 질감: 드라이, 넓은 공간감, 매끈함, 거침, 친밀함, 영화적, 미니멀.\n- 경계: 결과에서 피하고 싶은 것 하나.",
+        "첫 프롬프트는 짧아도 됩니다. 미드템포 인디 일렉트로닉, 95 BPM, 안정적인 펄스, 따뜻한 아날로그 베이스, 부드러운 드럼 머신, 유리 같은 패드, 친밀한 여성 보컬, 선명한 코러스 멜로디, 매끈하지만 과하게 번쩍이지 않음, 페스티벌 드롭 없음, 랩 벌스 없음. 오디오 파일 옆에 프롬프트를 저장하고, 가장 좋은 버전이 왜 통했는지 한 문장으로 적어 두세요.",
+        "## FAQ",
+        "개인적으로 레퍼런스 곡을 들어도 되나요? 네, 듣기 자료로는 쓸 수 있지만 프롬프트에는 특징으로 바꿔 넣는 것이 좋습니다. 이 방법이 법적 허가를 뜻하나요? 아닙니다. 소리를 더 분명히 설명하는 방법일 뿐이며 공개와 허가 판단은 따로 확인해야 합니다. 스타일 단어는 몇 개면 충분한가요? 초점이 맞은 10개에서 20개 단어가 긴 문단보다 나을 때가 많습니다. 결과가 아깝지만 쓸 수 없다면요? 리듬이나 보컬처럼 한 칸만 바꾸고 나머지는 고정하세요."
+      ]
+    },
+    "pt": {
+      "title": "Escreva prompts de estilo musical IA sem citar artistas",
+      "description": "Um metodo pratico para converter uma referencia em genero, clima, instrumentos, voz, textura e notas de revisao para musica IA.",
+      "body": [
+        "O prompt preguiçoso e tentador: faca soar como aquela musica famosa. Mas o resultado costuma ficar vago, preso ao detalhe errado ou simplesmente estranho, porque o sistema precisa adivinhar qual parte da referencia importa. Antes de abrir um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator), descreva evidencias sonoras: o que voce ouve, onde esta a energia e o que deve ficar de fora.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de geracao musical com IA para criar e personalizar musica a partir de prompts, letras, ideias de estilo e escolha de modelo. Neste fluxo, trate a ferramenta como uma mesa de rascunho: voce chega com um briefing claro de estilo e depois compara versoes ouvindo, nao confiando no primeiro resultado.",
+        "## Transforme a referencia em cinco campos",
+        "Escreva uma nota curta com cinco campos: moldura de genero, groove, instrumentos, entrega vocal e textura de producao. Uma referencia de synth pop noturno pode virar: synth pop em tempo medio, pulso four-on-the-floor constante, baixo analogico suave e pads cristalinos, voz relaxada e arejada, reverb amplo com mix moderno limpo. Isso e mais util do que um nome porque cada camada pode ser mudada.",
+        "## Use caracteristicas, nao atalhos de celebridade",
+        "Se a referencia for uma voz, nao tente copiar a pessoa. Descreva a entrega: sussurro perto do microfone, canto de grupo brilhante, verso falado e seco, baritono quente, falsete leve ou harmonias empilhadas. Se a referencia for uma banda, descreva o arranjo: riff de guitarra economico, bateria ao vivo apertada, piano eletrico redondo, backing vocals de pergunta e resposta ou sem cordas densas. O [gerador de estilos musicais](https://easymusic.ai/pt/tools/music-style-generator) pode expandir esses tracos em uma descricao maior, mas mantenha apenas palavras que voce consegue defender ouvindo.",
+        "## Adicione um limite e um teste",
+        "Prompts de estilo melhoram quando trazem um limite. Experimente uma fronteira negativa: sem hi-hats de trap, sem drop de festival, sem intro falada ou sem guitarra solo ocupada. Depois gere duas versoes que mudem apenas um campo. A versao A pode ser mais quente e lenta; a versao B mantem os instrumentos, mas usa bateria mais firme. Assim a decisao de escuta fica concreta.",
+        "## Estrutura reutilizavel de prompt",
+        "- Estilo central: genero mais epoca ou cena, nao nome de artista.\n- Movimento: faixa de tempo, groove, swing ou densidade ritmica.\n- Cor: dois ou tres instrumentos que sustentam a faixa.\n- Voz: entrega, registro, sensacao solo ou grupo e clareza da letra.\n- Textura: seca, espacosa, polida, aspera, intima, cinematica ou minima.\n- Limite: uma coisa que o resultado deve evitar.",
+        "Um primeiro prompt compacto poderia ser: indie eletronico em tempo medio, 95 BPM, pulso estavel, baixo analogico quente, drum machine suave, pads cristalinos, voz feminina intima, melodia de refrao clara, polido mas nao brilhante, sem drop de festival, sem verso rap. Salve o prompt ao lado do audio e escreva uma frase sobre por que a melhor versao funcionou.",
+        "## Perguntas frequentes",
+        "Posso usar uma faixa de referencia em privado? Sim, como apoio de escuta, mas traduza para caracteristicas antes do prompt. Isso serve como liberacao legal? Nao. E apenas uma forma de descrever melhor o som; permissoes e publicacao precisam de revisao propria. Quantas palavras de estilo bastam? Dez a vinte palavras focadas costumam vencer um paragrafo longo. E se o resultado estiver perto, mas nao servir? Mude um campo, como ritmo ou voz, e mantenha o resto estavel."
+      ]
+    },
+    "ru": {
+      "title": "Как писать AI-промпты для стиля музыки без имен артистов",
+      "description": "Практичный способ превратить референс в жанр, настроение, инструменты, вокал, фактуру и заметки для правок в AI-музыке.",
+      "body": [
+        "Ленивый промпт очень соблазнителен: сделай как та известная песня. Но результат часто получается размытым, цепляется не за тот элемент или звучит странно, потому что системе приходится угадывать, какая часть референса важна. Перед тем как открыть [AI music generator](https://easymusic.ai/ru/ai-music-generator), опишите слышимые признаки: что именно звучит, где находится энергия и чего быть не должно.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для генерации и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. В этом процессе лучше считать ее черновым столом: вы приносите понятный стилевой бриф, а затем сравниваете версии на слух, не доверяя первому варианту автоматически.",
+        "## Разложите референс на пять полей",
+        "Сделайте короткую заметку из пяти полей: жанровая рамка, грув, инструменты, вокальная подача и фактура продакшена. Ночной синт-поповый референс можно перевести так: среднетемповый synth pop, ровный four-on-the-floor пульс, мягкий аналоговый бас и стеклянные пады, расслабленный воздушный вокал, широкий реверб с чистым современным миксом. Это полезнее имени, потому что каждый слой можно менять отдельно.",
+        "## Пишите признаки, а не звездные ярлыки",
+        "Если референс - певец, не пытайтесь копировать человека. Опишите подачу: близкий шепот у микрофона, яркий групповой chant, сухой разговорный куплет, теплый баритон, легкий фальцет или многослойные гармонии. Если референс - группа, опишите аранжировку: редкий гитарный рифф, плотные живые барабаны, округлое электропиано, бэк-вокал вопрос-ответ или отсутствие густых струнных. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) может расширить такие признаки в более полное описание, но оставляйте только слова, которые можно объяснить на слух.",
+        "## Добавьте одну границу и один тест",
+        "Стилевые промпты становятся яснее, когда содержат ограничение. Попробуйте один запрет: без trap hi-hats, без фестивального дропа, без разговорного интро или без перегруженной соло-гитары. Затем создайте две версии, которые отличаются только одним полем. Версия A может быть теплее и медленнее; версия B сохраняет инструменты, но делает барабаны плотнее. Так решение становится конкретным.",
+        "## Повторяемая рамка промпта",
+        "- Основной стиль: жанр плюс эпоха или сцена, без имени артиста.\n- Движение: темп, грув, свинг или ритмическая плотность.\n- Цвет: два-три инструмента, которые несут трек.\n- Голос: подача, диапазон, соло или группа, ясность текста.\n- Фактура: сухая, просторная, гладкая, шероховатая, интимная, кинематографичная или минимальная.\n- Граница: одна вещь, которой нужно избежать.",
+        "Первый промпт может быть компактным: среднетемповая indie electronic, 95 BPM, устойчивый пульс, теплый аналоговый бас, мягкая драм-машина, стеклянные пады, интимный женский вокал, ясная мелодия припева, аккуратно, но не глянцево, без фестивального дропа, без рэп-куплета. Сохраните промпт рядом с аудио и одной фразой запишите, почему лучшая версия сработала.",
+        "## FAQ",
+        "Можно ли слушать референс для себя? Да, как материал для анализа, но до промпта переведите его в признаки. Это способ юридического разрешения? Нет. Это только более ясное описание звука; разрешения и публикация требуют отдельной проверки. Сколько стилевых слов достаточно? Десять-двадцать точных слов часто лучше длинного абзаца. Что делать, если результат близок, но не подходит? Измените одно поле, например ритм или вокал, а остальное оставьте стабильным."
+      ]
+    },
+    "zh": {
+      "title": "不写歌手名字，也能写清楚 AI 音乐风格提示词",
+      "description": "把参考歌曲拆成流派、情绪、乐器、人声、质感和修改备注，再交给 AI 音乐生成器的实用方法。",
+      "body": [
+        "最偷懒的提示词很诱人：做得像某首知名歌曲。但结果常常很模糊，或者抓住了错误的细节，甚至显得过度贴近，因为系统必须猜测你到底想参考什么。打开 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 之前，先写听得见的证据：你听到了什么，能量在哪里，哪些东西不该出现。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐生成与定制平台，可以围绕提示词、歌词、风格描述和模型选择来创作音乐。在这个流程里，可以把它当成草稿台：你先带着清晰的风格简报进入生成，再用耳朵比较不同版本，而不是直接相信第一版。",
+        "## 把参考歌拆成五个格子",
+        "先写一条短笔记，包含五个格子：流派框架、律动、乐器、人声表达、制作质感。如果参考的是夜晚感的合成器流行，可以写成：中速 synth pop，稳定四拍律动，柔和模拟贝斯和玻璃感 pad，放松带气声的人声，宽混响和干净的现代混音。这样比写名字更有用，因为每一层都可以单独修改。",
+        "## 写特征，不写名人捷径",
+        "如果参考对象是歌手，不要试图复制这个人，而是描述唱法：近距离麦克风耳语、明亮的群唱、干燥的 spoken verse、温暖男中音、轻盈假声、叠加和声。若参考的是乐队，就写编曲：稀疏吉他 riff、紧实现场鼓、圆润电钢琴、呼应式和声，或者不要厚重弦乐。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把这些特征扩展成更完整的风格描述，但只保留你能用耳朵解释的词。",
+        "## 加一个边界，再做一个测试",
+        "风格提示词加入限制后更容易判断。可以写一个负面边界：不要 trap hi-hat，不要大型电子 drop，不要 spoken intro，不要忙碌的主音吉他。然后生成两个只改变一个格子的版本。A 版更温暖、更慢；B 版保留乐器，只让鼓更紧。这样你判断的是具体变化，而不是模糊感觉。",
+        "## 可复用的提示词框架",
+        "- 核心风格：流派加年代感或场景，不写歌手名。\n- 运动感：速度、律动、摇摆感或节奏密度。\n- 色彩：支撑音轨的两到三件乐器。\n- 人声：唱法、音区、独唱或群体感、歌词清晰度。\n- 质感：干、宽、精致、粗粝、亲密、电影感或极简。\n- 边界：结果应该避开的一个东西。",
+        "第一版提示词可以很短：中速 indie electronic，95 BPM，稳定脉冲，温暖模拟贝斯，柔和鼓机，玻璃感 pad，亲密女声，副歌旋律清楚，精致但不过分闪亮，不要大型电子 drop，不要 rap verse。把提示词和音频放在一起，并写一句话记录最好版本为什么有效。",
+        "## 常见问题",
+        "可以私下听参考歌吗？可以，把它当作听觉分析材料，但写入提示词前要翻译成特征。这是法律许可方法吗？不是。它只是更清楚地描述声音；授权和发布判断需要单独检查。风格词需要多少？十到二十个聚焦的词，往往比一大段文字更好用。结果接近但不能用怎么办？只改一个格子，例如节奏或人声，其他部分保持稳定再试。"
+      ]
+    },
+    "ar": {
+      "title": "اكتب مطالبات أسلوب موسيقي AI من دون ذكر أسماء فنانين",
+      "description": "طريقة عملية لتحويل فكرة مرجعية إلى نوع، مزاج، آلات، أداء صوتي، ملمس إنتاج، وملاحظات مراجعة لتوليد موسيقى AI.",
+      "body": [
+        "المطالبة الكسولة مغرية: اجعلها تشبه تلك الأغنية المشهورة. لكن النتيجة غالبا تكون ضبابية، أو تلتقط الجزء الخطأ من المرجع، أو تقترب بطريقة محرجة، لأن النظام يضطر إلى تخمين ما يهمك بالضبط. قبل فتح [مولد موسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، اكتب الدليل المسموع: ماذا تسمع، أين توجد الطاقة، وما الذي يجب أن يبقى خارج النتيجة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) هو منصة لتوليد وتخصيص الموسيقى بالذكاء الاصطناعي اعتمادا على المطالبات، الكلمات، أفكار الأسلوب، واختيار النموذج. في هذا المسار، استخدمه كطاولة مسودات: أحضر موجزا واضحا للأسلوب، ثم قارن النسخ بالاستماع بدلا من الثقة في أول نتيجة فقط.",
+        "## حوّل المرجع إلى خمس خانات",
+        "اكتب ملاحظة قصيرة بخمس خانات: إطار النوع، الإيقاع، الآلات، طريقة الأداء الصوتي، وملمس الإنتاج. مرجع synth pop ليلي يمكن أن يصبح: synth pop متوسط السرعة، نبض four-on-the-floor ثابت، باس تناظري ناعم وطبقات pad زجاجية، صوت هادئ فيه نفس، ريفيرب واسع ومكس حديث نظيف. هذا أفيد من الاسم لأن كل طبقة يمكن تعديلها وحدها.",
+        "## اكتب الصفات لا اختصارات المشاهير",
+        "إذا كان المرجع صوت مغن، لا تحاول نسخ الشخص. صف الأداء: همس قريب من الميكروفون، هتاف جماعي لامع، مقطع منطوق وجاف، باريتون دافئ، فالستو خفيف، أو هارموني متعدد الطبقات. إذا كان المرجع فرقة، صف التوزيع: riff غيتار بسيط، طبول حية مشدودة، بيانو كهربائي دائري، أصوات خلفية بأسلوب سؤال وجواب، أو عدم وجود وتريات كثيفة. يمكن أن يساعدك [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في توسيع هذه الصفات إلى وصف أسلوب أطول، لكن احتفظ فقط بالكلمات التي تستطيع تفسيرها بالأذن.",
+        "## أضف حدا واحدا واختبارا واحدا",
+        "تتحسن مطالبات الأسلوب عندما تحتوي على حد واضح. جرّب قيدا سلبيا مثل: بلا hi-hats تراب، بلا drop مهرجاني، بلا مقدمة منطوقة، أو بلا غيتار رئيسي مزدحم. ثم أنشئ نسختين تختلفان في خانة واحدة فقط. قد تكون النسخة A أدفأ وأبطأ، بينما تحتفظ النسخة B بالآلات نفسها وتجعل الطبول أشد. هكذا يصبح قرار الاستماع محددا.",
+        "## قالب مطالبة قابل لإعادة الاستخدام",
+        "- الأسلوب الأساسي: نوع موسيقي مع حقبة أو مشهد، لا اسم فنان.\n- الحركة: مدى السرعة، groove، swing، أو كثافة الإيقاع.\n- اللون: آلتان أو ثلاث تحمل المسار.\n- الصوت: طريقة الأداء، الطبقة، إحساس منفرد أو جماعي، ووضوح الكلمات.\n- الملمس: جاف، واسع، مصقول، خشن، حميم، سينمائي، أو بسيط.\n- الحد: شيء واحد يجب أن تتجنبه النتيجة.",
+        "يمكن أن تكون المطالبة الأولى قصيرة: indie electronic متوسط السرعة، 95 BPM، نبض ثابت، باس تناظري دافئ، drum machine ناعمة، pads زجاجية، صوت نسائي حميم، لحن كورس واضح، مصقول لكن غير لامع أكثر من اللازم، بلا drop مهرجاني، بلا مقطع راب. احفظ المطالبة بجانب ملف الصوت واكتب جملة واحدة تشرح لماذا نجحت أفضل نسخة.",
+        "## أسئلة شائعة",
+        "هل يمكنني استخدام أغنية مرجعية بشكل خاص؟ نعم، كأداة استماع، لكن حوّلها إلى صفات قبل كتابة المطالبة. هل هذه طريقة للحصول على إذن قانوني؟ لا. إنها طريقة أوضح لوصف الصوت فقط؛ قرارات الإذن والنشر تحتاج مراجعة منفصلة. كم كلمة أسلوب تكفي؟ عشر إلى عشرين كلمة مركزة غالبا أفضل من فقرة طويلة. ماذا لو كانت النتيجة قريبة لكنها غير صالحة؟ غيّر خانة واحدة مثل الإيقاع أو الصوت، وثبّت الباقي في الجيل التالي."
+      ]
+    }
+  }
+}
