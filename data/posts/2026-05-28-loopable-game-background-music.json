@@ -1,0 +1,227 @@
+{
+  "date": "2026-05-28",
+  "slug": "loopable-game-background-music",
+  "cluster": "game-audio-workflows",
+  "translations": {
+    "en": {
+      "title": "Make Loopable AI Game Background Music That Holds Up",
+      "description": "A practical workflow for briefing, generating, editing, and testing AI game background music loops without relying on a vague genre prompt.",
+      "body": [
+        "The menu theme sounds great for twelve seconds, then the restart point clicks. The exploration cue builds into a chorus nobody asked for. The battle version covers the jump sound. Before opening an [AI music generator](https://easymusic.ai/ai-music-generator), treat game background music as a looped system cue, not a standalone song.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music generation platform for creating and customizing music from prompts, lyrics, style ideas, and model choices. For game work, use it as a fast sketching tool: it can give you musical material, but you still decide the player state, loop length, mix role, and implementation test.",
+        "## Start with the game state",
+        "Write one loop card before you generate. Name the state, such as main menu, safe village, stealth room, puzzle fail, or low-health combat. Add the emotional job, the approximate length, the tempo range, the instruments that should carry the loop, and the sounds it must leave room for. A card like quiet cave exploration, 45 seconds, 82 BPM, muted hand percussion, low drones, no vocals, no cymbal swells, room for footsteps gives the music a playable job.",
+        "## Prompt for loop behavior, then verify it",
+        "Ask for a steady motif, a consistent groove, an intro that can be trimmed, and an ending that returns to the opening texture. Do not assume the generated file will loop cleanly just because the prompt says loop. Put the best section into an audio editor, trim to a bar boundary, crossfade if needed, and test it in the engine with the loop option enabled. If the restart is obvious after ten repeats, the cue is not done.",
+        "## Build one base cue and one pressure cue",
+        "Small games often need fewer tracks than people think. Make one base loop for normal play and one pressure loop for danger, time limits, or combat. Keep tempo and key close enough that a simple fade can move between them. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help collect words for texture and instrumentation, but keep the final prompt short enough to leave the model room to write.",
+        "## A reusable game-music prompt frame",
+        "- State: where the player is and what they are doing.\n- Loop length: 20, 30, 45, or 60 seconds.\n- Motion: BPM, groove, rhythmic density, and whether the pulse is steady.\n- Palette: two or three instruments plus one background texture.\n- Mix role: under dialogue, under footsteps, menu focus, or high-pressure combat.\n- Boundary: no vocals, no big drop, no long fade, no sudden key change, or no bright lead melody.",
+        "A first prompt could read: 45-second loop-ready cave exploration cue, 82 BPM, quiet minor mood, muted hand drums, low bowed strings, soft granular pads, short repeating three-note motif, steady but not busy, no vocals, no cymbal crash, no dramatic ending, ending texture returns to opening texture. Generate two versions, then test the less exciting one first; subtle loops usually survive longer play sessions.",
+        "## FAQ",
+        "Should I make game music with vocals? Usually not for background loops unless the vocal is part of the design, because repeated words can become tiring. How long should a loop be? Short mobile scenes may work with 20 to 30 seconds; exploration spaces often feel better around 45 to 60 seconds. Can AI make a perfect loop by prompt alone? Sometimes it gets close, but you should still trim, crossfade, and test. What should I save? Keep the prompt, chosen section, edited loop file, loop point notes, and a short note about where it is used in the game."
+      ]
+    },
+    "de": {
+      "title": "Loopbare KI-Game-Musik erstellen, die nicht nervt",
+      "description": "Ein praktischer Ablauf fuer Briefing, Generierung, Schnitt und Test von KI-Hintergrundmusik fuer Games statt vager Genre-Prompts.",
+      "body": [
+        "Das Menuthema klingt zwoelf Sekunden gut, dann klickt der Neustartpunkt. Die Erkundungsmusik baut ploetzlich einen Refrain auf, den das Spiel nicht braucht. Die Kampfvariante verdeckt den Sprungsound. Bevor du einen [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) nutzt, behandle Game-Musik als geloopten System-Cue, nicht als fertigen Popsong.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerzeugung, mit der Musik aus Prompts, Lyrics, Stilideen und Modellauswahl erstellt und angepasst werden kann. Fuer Games ist sie ein schneller Skizzenplatz: Sie liefert musikalisches Material, aber du entscheidest Spielzustand, Laenge, Mix-Aufgabe und Engine-Test.",
+        "## Beginne mit dem Spielzustand",
+        "Schreibe vor der Generierung eine Loop-Karte. Benenne den Zustand: Hauptmenu, sicheres Dorf, Schleichraum, Puzzle-Fehler oder Kampf bei wenig Energie. Fuege die emotionale Aufgabe, ungefaehre Laenge, Tempo, tragende Instrumente und die Sounds hinzu, denen Platz bleiben muss. Eine Karte wie ruhige Hoehlenerkundung, 45 Sekunden, 82 BPM, gedampfte Handpercussion, tiefe Drones, keine Vocals, keine Becken-Swells, Platz fuer Schritte gibt der Musik eine spielbare Aufgabe.",
+        "## Fordere Loop-Verhalten an und pruefe es",
+        "Bitte um ein stabiles Motiv, gleichmaessigen Groove, ein Intro, das sich kuerzen laesst, und ein Ende, das zur Anfangstextur zurueckkehrt. Verlass dich aber nicht darauf, dass die Datei sauber loopt, nur weil das Wort Loop im Prompt steht. Lege den besten Abschnitt in ein Audioprogramm, schneide auf eine Taktgrenze, nutze bei Bedarf Crossfade und teste ihn in der Engine mit aktivierter Loop-Option. Wenn der Neustart nach zehn Wiederholungen auffaellt, ist der Cue noch nicht fertig.",
+        "## Baue einen Basis-Cue und einen Druck-Cue",
+        "Kleine Spiele brauchen oft weniger Tracks als gedacht. Erstelle einen Basis-Loop fuer normales Spiel und einen Druck-Loop fuer Gefahr, Zeitlimit oder Kampf. Halte Tempo und Tonart nah genug beieinander, damit ein einfacher Fade funktionieren kann. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) hilft beim Sammeln von Woertern fuer Textur und Instrumente; der finale Prompt sollte trotzdem knapp bleiben.",
+        "## Wiederverwendbarer Prompt-Rahmen",
+        "- Zustand: Wo ist die Spielfigur und was passiert?\n- Loop-Laenge: 20, 30, 45 oder 60 Sekunden.\n- Bewegung: BPM, Groove, rhythmische Dichte und Stabilitaet des Pulses.\n- Palette: zwei oder drei Instrumente plus eine Hintergrundtextur.\n- Mix-Rolle: unter Dialog, unter Schritten, Menufokus oder Kampfspannung.\n- Grenze: keine Vocals, kein grosser Drop, kein langer Fade, kein ploetzlicher Tonartwechsel oder keine helle Lead-Melodie.",
+        "Ein erster Prompt kann lauten: 45-sekuendiger loop-ready Cue fuer Hoehlenerkundung, 82 BPM, ruhige Mollstimmung, gedampfte Handtrommeln, tiefe gestrichene Streicher, weiche granulare Pads, kurzes dreitoeniges Motiv, stabil aber nicht ueberladen, keine Vocals, kein Becken-Crash, kein dramatisches Ende, Endtextur kehrt zur Anfangstextur zurueck. Generiere zwei Versionen und teste zuerst die weniger aufregende; dezente Loops halten laenger.",
+        "## FAQ",
+        "Sollte Game-Hintergrundmusik Gesang haben? Meist nicht, ausser die Stimme ist Teil des Designs, denn wiederholte Woerter ermueden schnell. Wie lang sollte ein Loop sein? Kurze Mobile-Szenen funktionieren oft mit 20 bis 30 Sekunden; Erkundungsraeume eher mit 45 bis 60 Sekunden. Kann KI per Prompt einen perfekten Loop erzeugen? Manchmal kommt sie nah heran, aber Schneiden, Crossfade und Test bleiben noetig. Was sollte ich speichern? Prompt, gewaehlten Abschnitt, bearbeitete Loop-Datei, Loop-Punkt-Notizen und den Einsatzort im Spiel."
+      ]
+    },
+    "es": {
+      "title": "Crea musica IA en loop para juegos sin cansar al jugador",
+      "description": "Un flujo practico para preparar, generar, editar y probar musica de fondo IA para juegos sin depender de un prompt de genero vago.",
+      "body": [
+        "El tema del menu suena bien durante doce segundos, pero el punto de reinicio hace clic. La musica de exploracion se convierte en un estribillo que nadie pidio. La version de combate tapa el sonido del salto. Antes de abrir un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator), piensa la musica de juego como una senal de sistema en bucle, no como una cancion independiente.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de generacion musical con IA para crear y personalizar musica a partir de prompts, letras, ideas de estilo y seleccion de modelo. En juegos conviene usarla como mesa de bocetos rapidos: puede dar material musical, pero tu decides el estado del jugador, la duracion, el papel en la mezcla y la prueba en el motor.",
+        "## Empieza por el estado de juego",
+        "Escribe una tarjeta de loop antes de generar. Nombra el estado: menu principal, aldea segura, sala de sigilo, fallo de puzzle o combate con poca vida. Anade la tarea emocional, duracion aproximada, rango de tempo, instrumentos principales y sonidos que deben respirar. Una tarjeta como exploracion tranquila de cueva, 45 segundos, 82 BPM, percusion de mano apagada, drones graves, sin voces, sin subidas de platillos, espacio para pasos le da a la musica una funcion jugable.",
+        "## Pide comportamiento de loop y luego compruebalo",
+        "Pide un motivo estable, groove consistente, intro recortable y final que vuelva a la textura inicial. No asumas que el archivo repetira limpio solo porque el prompt dice loop. Lleva la mejor seccion a un editor de audio, corta en limite de compas, aplica crossfade si hace falta y pruebala en el motor con la opcion de loop activada. Si el reinicio se nota despues de diez vueltas, el cue no esta terminado.",
+        "## Crea un cue base y otro de presion",
+        "Muchos juegos pequenos necesitan menos pistas de lo que parece. Haz un loop base para juego normal y otro de presion para peligro, limite de tiempo o combate. Manten tempo y tonalidad lo bastante cerca para que un fade simple funcione. El [generador de estilos musicales](https://easymusic.ai/es/tools/music-style-generator) ayuda a reunir vocabulario de textura e instrumentos, pero el prompt final debe quedar claro y no demasiado largo.",
+        "## Marco reutilizable de prompt",
+        "- Estado: donde esta el jugador y que hace.\n- Duracion del loop: 20, 30, 45 o 60 segundos.\n- Movimiento: BPM, groove, densidad ritmica y estabilidad del pulso.\n- Paleta: dos o tres instrumentos y una textura de fondo.\n- Papel en la mezcla: bajo dialogo, bajo pasos, foco de menu o combate intenso.\n- Limite: sin voces, sin gran drop, sin fade largo, sin cambio brusco de tonalidad o sin melodia lider brillante.",
+        "Un primer prompt podria ser: cue de exploracion de cueva preparado para loop de 45 segundos, 82 BPM, clima menor tranquilo, tambores de mano apagados, cuerdas graves frotadas, pads granulares suaves, motivo corto de tres notas, estable pero no cargado, sin voces, sin crash de platillo, sin final dramatico, la textura final vuelve a la inicial. Genera dos versiones y prueba primero la menos espectacular; los loops sutiles suelen aguantar mas sesiones.",
+        "## Preguntas frecuentes",
+        "Conviene usar voces en musica de fondo para juegos? Normalmente no, salvo que la voz sea parte del diseno, porque las palabras repetidas cansan. Cuanto debe durar un loop? Escenas moviles cortas pueden funcionar con 20 a 30 segundos; zonas de exploracion suelen ir mejor con 45 a 60. Puede la IA crear un loop perfecto solo con prompt? A veces se acerca, pero conviene recortar, cruzar fundidos y probar. Que debo guardar? Prompt, seccion elegida, archivo editado, notas de punto de loop y donde se usa en el juego."
+      ]
+    },
+    "fr": {
+      "title": "Creer une musique IA de jeu en boucle qui tient vraiment",
+      "description": "Une methode pratique pour briefer, generer, monter et tester une musique de fond IA pour jeu sans prompt de genre flou.",
+      "body": [
+        "Le theme du menu fonctionne douze secondes, puis le point de reprise claque. La boucle d exploration part vers un refrain inutile. La version combat masque le son du saut. Avant d ouvrir un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator), pense la musique de jeu comme un cue de systeme qui tourne, pas comme une chanson autonome.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de generation musicale par IA qui permet de creer et personnaliser de la musique avec des prompts, des paroles, des idees de style et un choix de modele. Pour un jeu, utilise-la comme table de croquis rapide: elle peut fournir de la matiere musicale, mais l etat joueur, la duree, le role dans le mix et le test moteur restent tes decisions.",
+        "## Commence par l etat de jeu",
+        "Ecris une carte de boucle avant de generer. Nomme l etat: menu principal, village sur, salle d infiltration, echec de puzzle ou combat en danger. Ajoute la fonction emotionnelle, la duree approximative, le tempo, les instruments porteurs et les sons qui doivent rester audibles. Une carte comme exploration calme de grotte, 45 secondes, 82 BPM, percussions de main assourdies, drones graves, pas de voix, pas de montee de cymbales, espace pour les pas donne une vraie mission a la musique.",
+        "## Demande une boucle, puis verifie",
+        "Demande un motif stable, un groove regulier, une intro que tu peux couper et une fin qui revient a la texture de depart. Ne suppose pas que le fichier boucle proprement parce que le prompt le demande. Place le meilleur passage dans un editeur audio, coupe sur une limite de mesure, ajoute un crossfade si necessaire et teste dans le moteur avec l option loop activee. Si la reprise s entend apres dix tours, le cue n est pas pret.",
+        "## Cree un cue de base et un cue de pression",
+        "Les petits jeux ont souvent besoin de moins de pistes qu on l imagine. Cree une boucle de base pour le jeu normal et une boucle de pression pour danger, chrono ou combat. Garde tempo et tonalite assez proches pour qu un simple fondu puisse passer de l une a l autre. Le [generateur de styles musicaux](https://easymusic.ai/fr/tools/music-style-generator) peut aider a trouver des mots de texture et d instrumentation, mais garde le prompt final lisible.",
+        "## Cadre de prompt reutilisable",
+        "- Etat: ou se trouve le joueur et ce qu il fait.\n- Duree: 20, 30, 45 ou 60 secondes.\n- Mouvement: BPM, groove, densite rythmique et regularite du pouls.\n- Palette: deux ou trois instruments plus une texture de fond.\n- Role de mix: sous dialogue, sous pas, focus menu ou combat tendu.\n- Limite: pas de voix, pas de gros drop, pas de long fade, pas de changement brusque de tonalite ou pas de melodie lead trop brillante.",
+        "Un premier prompt peut etre: cue de grotte pret a boucler, 45 secondes, 82 BPM, ambiance mineure calme, percussions de main etouffees, cordes graves frottees, pads granulaires doux, court motif de trois notes, stable mais pas charge, pas de voix, pas de crash de cymbale, pas de fin dramatique, la texture finale revient a celle du debut. Genere deux versions et teste d abord la moins spectaculaire; les boucles discretes fatiguent moins vite.",
+        "## FAQ",
+        "Faut-il utiliser des voix dans une musique de fond de jeu? En general non, sauf si la voix fait partie du design, car les mots repetes deviennent vite lourds. Quelle longueur viser? Les petites scenes mobiles peuvent tenir en 20 a 30 secondes; l exploration respire mieux autour de 45 a 60 secondes. L IA peut-elle produire une boucle parfaite avec un prompt? Parfois elle s en approche, mais il faut quand meme couper, fondre et tester. Que garder? Le prompt, la section choisie, le fichier monte, les notes de point de boucle et l endroit d utilisation dans le jeu."
+      ]
+    },
+    "it": {
+      "title": "Creare musica AI in loop per giochi senza stancare",
+      "description": "Un flusso pratico per brief, generazione, editing e test di musica AI di sottofondo per giochi, oltre il solito prompt di genere.",
+      "body": [
+        "Il tema del menu funziona per dodici secondi, poi il punto di ripartenza fa click. La traccia di esplorazione cresce in un ritornello che il gioco non chiedeva. La versione da combattimento copre il suono del salto. Prima di usare un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator), pensa alla musica di gioco come a un cue di sistema in loop, non come a una canzone finita.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di generazione musicale con IA per creare e personalizzare musica da prompt, testi, idee di stile e scelta del modello. Nei giochi usala come tavolo di bozza veloce: puo darti materiale musicale, ma stato del giocatore, durata, ruolo nel mix e test nel motore restano scelte tue.",
+        "## Parti dallo stato di gioco",
+        "Scrivi una scheda loop prima di generare. Dai un nome allo stato: menu principale, villaggio sicuro, stanza stealth, errore di puzzle o combattimento a bassa salute. Aggiungi funzione emotiva, durata indicativa, range di tempo, strumenti portanti e suoni a cui lasciare spazio. Una scheda come esplorazione tranquilla in caverna, 45 secondi, 82 BPM, percussioni a mano ovattate, droni gravi, niente voci, niente crescite di piatti, spazio ai passi rende la musica utile al gameplay.",
+        "## Chiedi il loop, poi controllalo",
+        "Chiedi un motivo stabile, groove costante, intro che si possa tagliare e finale che torni alla texture iniziale. Non dare per scontato che il file giri pulito solo perche il prompt contiene loop. Porta la sezione migliore in un editor audio, taglia sul confine di battuta, usa un crossfade se serve e testala nel motore con l opzione loop attiva. Se la ripartenza si nota dopo dieci giri, il cue non e pronto.",
+        "## Crea un cue base e uno di pressione",
+        "I giochi piccoli spesso richiedono meno tracce di quanto sembri. Prepara un loop base per il gioco normale e un loop di pressione per pericolo, timer o combattimento. Tieni tempo e tonalita abbastanza vicini da poter passare con un fade semplice. Il [generatore di stili musicali](https://easymusic.ai/it/tools/music-style-generator) puo aiutare a raccogliere parole per texture e strumenti, ma il prompt finale deve restare leggibile.",
+        "## Schema riutilizzabile",
+        "- Stato: dove si trova il giocatore e cosa sta facendo.\n- Durata loop: 20, 30, 45 o 60 secondi.\n- Movimento: BPM, groove, densita ritmica e stabilita del pulse.\n- Tavolozza: due o tre strumenti piu una texture di fondo.\n- Ruolo nel mix: sotto dialoghi, sotto passi, focus menu o combattimento teso.\n- Limite: niente voci, niente drop grande, niente fade lungo, niente cambio brusco di tonalita o niente melodia lead brillante.",
+        "Un primo prompt puo essere: cue di esplorazione caverna pronto per loop di 45 secondi, 82 BPM, mood minore quieto, tamburi a mano ovattati, archi gravi sfregati, pad granulari morbidi, breve motivo di tre note, stabile ma non affollato, niente voci, niente crash di piatto, niente finale drammatico, texture finale che torna a quella iniziale. Genera due versioni e testa prima quella meno eccitante; i loop sottili resistono meglio a lungo.",
+        "## FAQ",
+        "La musica di fondo per giochi dovrebbe avere voci? Di solito no, salvo che la voce sia parte del design, perche le parole ripetute stancano. Quanto deve durare un loop? Scene mobile brevi possono reggere 20-30 secondi; l esplorazione spesso funziona meglio con 45-60. L IA puo creare un loop perfetto solo con il prompt? A volte ci va vicino, ma devi comunque tagliare, fondere e testare. Cosa salvo? Prompt, sezione scelta, file editato, note sul punto di loop e scena in cui verra usato."
+      ]
+    },
+    "ja": {
+      "title": "長く聴いても疲れにくいAIゲームBGMループの作り方",
+      "description": "曖昧なジャンル指定に頼らず、AIでゲーム用BGMループを企画、生成、編集、実機テストするための実践ワークフロー。",
+      "body": [
+        "メニュー曲は最初の12秒だけ気持ちよく、ループ地点でカチッと目立つ。探索BGMは急にサビのように盛り上がる。戦闘版はジャンプ音を隠してしまう。[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)を開く前に、ゲームBGMを単体の曲ではなく、繰り返し再生されるシステム用キューとして考えます。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja)は、プロンプト、歌詞、スタイル案、モデル選択をもとに音楽を作成し調整できるAI音楽生成プラットフォームです。ゲーム制作では、すばやく音の素材を出す下書き用の場として使い、プレイヤー状態、長さ、ミックス上の役割、エンジン内テストは自分で決めます。",
+        "## まずゲーム状態を書く",
+        "生成前にループカードを1枚書きます。メインメニュー、安全な村、ステルス部屋、パズル失敗、低体力の戦闘など、状態名を決めます。そこに感情の役割、おおよその長さ、テンポ、主役になる楽器、空けておくべき効果音の場所を足します。静かな洞窟探索、45秒、82 BPM、こもったハンドパーカッション、低いドローン、ボーカルなし、シンバルの盛り上げなし、足音の余白あり、と書けば音楽の仕事がはっきりします。",
+        "## ループを頼み、必ず確かめる",
+        "安定したモチーフ、一定のグルーブ、切りやすいイントロ、終わりが冒頭の質感へ戻ることを求めます。ただし、プロンプトにループと書いただけで、ファイルがきれいに回るとは考えない方が安全です。良い部分をオーディオ編集ソフトに入れ、小節の境目で切り、必要ならクロスフェードし、エンジンでループ設定を有効にしてテストします。10回繰り返して再開点が気になるなら、まだ完成ではありません。",
+        "## 基本キューと緊張キューを作る",
+        "小さなゲームでは、必要な曲数は思ったより少ないことがあります。通常プレイ用の基本ループと、危険、時間制限、戦闘用の緊張ループを作ります。単純なフェードで移れるように、テンポとキーは近づけておきます。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator)は質感や楽器の言葉を集める助けになりますが、最後のプロンプトは読みやすい短さにします。",
+        "## 使い回せるプロンプト枠",
+        "- 状態: プレイヤーがどこで何をしているか。\n- ループ長: 20、30、45、60秒。\n- 動き: BPM、グルーブ、リズム密度、拍の安定感。\n- 音色: 2つか3つの楽器と背景テクスチャ。\n- ミックス役割: 会話の下、足音の下、メニュー主役、強い戦闘感。\n- 制限: ボーカルなし、大きなドロップなし、長いフェードなし、急な転調なし、明るすぎるリードメロディなし。",
+        "最初のプロンプト例はこうです。45秒のループ向け洞窟探索キュー、82 BPM、静かな短調、こもったハンドドラム、低い弦のロングトーン、柔らかいグラニュラーPad、短い3音モチーフ、安定しているが忙しすぎない、ボーカルなし、シンバルクラッシュなし、劇的な終わりなし、最後の質感が冒頭に戻る。2案生成し、まず地味な方をテストします。控えめなループほど長いプレイに耐えます。",
+        "## FAQ",
+        "ゲームBGMに歌は必要ですか。背景ループでは、声がデザインの中心でない限り、通常は避けます。言葉は繰り返すと疲れやすいからです。ループの長さはどのくらいですか。短いモバイル場面は20から30秒、探索空間は45から60秒が扱いやすいです。AIはプロンプトだけで完璧なループを作れますか。近いものは出ますが、切り、クロスフェード、テストは必要です。何を保存しますか。プロンプト、選んだ区間、編集済みファイル、ループ地点メモ、ゲーム内で使う場所です。"
+      ]
+    },
+    "ko": {
+      "title": "오래 들어도 버티는 AI 게임 배경음악 루프 만들기",
+      "description": "막연한 장르 프롬프트 대신, AI 게임 BGM 루프를 브리프하고 생성하고 편집하고 엔진에서 테스트하는 실무 흐름.",
+      "body": [
+        "메뉴 음악은 12초 동안은 좋지만 루프 지점에서 딸깍거립니다. 탐험 음악은 갑자기 후렴처럼 커집니다. 전투 버전은 점프 소리를 덮어 버립니다. [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 열기 전에 게임 배경음악을 완성된 노래가 아니라 반복 재생되는 시스템 큐로 생각하세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 생성 플랫폼입니다. 게임 작업에서는 빠른 스케치 도구로 쓰면 좋습니다. 음악 소재는 얻을 수 있지만, 플레이어 상태, 길이, 믹스 안에서의 역할, 엔진 테스트는 직접 정해야 합니다.",
+        "## 게임 상태부터 정하기",
+        "생성 전에 루프 카드 한 장을 씁니다. 메인 메뉴, 안전한 마을, 잠입 방, 퍼즐 실패, 낮은 체력 전투처럼 상태 이름을 정하세요. 감정적 역할, 대략적인 길이, 템포 범위, 중심 악기, 비워 두어야 할 효과음도 적습니다. 조용한 동굴 탐험, 45초, 82 BPM, muted hand percussion, 낮은 drone, 보컬 없음, 심벌 swell 없음, 발소리 공간 확보라고 쓰면 음악이 게임에서 해야 할 일이 분명해집니다.",
+        "## 루프처럼 요청하고 실제로 확인하기",
+        "안정적인 모티프, 일정한 groove, 자를 수 있는 intro, 끝이 처음 texture로 돌아오는 구조를 요청하세요. 하지만 프롬프트에 loop라고 썼다고 파일이 바로 깨끗하게 반복된다고 믿으면 안 됩니다. 가장 좋은 구간을 오디오 편집기에 넣고 마디 경계에서 자른 뒤, 필요하면 crossfade를 넣고 엔진에서 loop 옵션을 켠 채 테스트하세요. 열 번 반복했을 때 재시작이 들리면 아직 끝난 큐가 아닙니다.",
+        "## 기본 큐와 압박 큐 만들기",
+        "작은 게임은 생각보다 적은 트랙으로 충분할 때가 많습니다. 일반 플레이용 기본 루프 하나와 위험, 제한 시간, 전투용 압박 루프 하나를 만드세요. 간단한 fade로 이동할 수 있도록 tempo와 key를 가깝게 유지합니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 질감과 악기 단어를 모으는 데 도움이 되지만, 최종 프롬프트는 너무 길지 않게 둡니다.",
+        "## 재사용 가능한 프롬프트 틀",
+        "- 상태: 플레이어가 어디에서 무엇을 하는가.\n- 루프 길이: 20, 30, 45, 60초.\n- 움직임: BPM, groove, 리듬 밀도, pulse 안정성.\n- 팔레트: 두세 가지 악기와 배경 texture 하나.\n- 믹스 역할: 대사 아래, 발소리 아래, 메뉴 중심, 고압 전투.\n- 제한: 보컬 없음, 큰 drop 없음, 긴 fade 없음, 갑작스러운 전조 없음, 밝은 lead melody 없음.",
+        "첫 프롬프트는 이렇게 쓸 수 있습니다. 45초 loop-ready 동굴 탐험 큐, 82 BPM, 조용한 minor mood, muted hand drums, 낮은 현악 drone, 부드러운 granular pads, 짧은 세 음 모티프, 안정적이지만 복잡하지 않음, 보컬 없음, 심벌 crash 없음, 극적인 끝 없음, 마지막 texture가 처음 texture로 돌아옴. 두 버전을 만들고 덜 화려한 쪽부터 테스트하세요. 은근한 루프가 긴 플레이 세션을 더 잘 견딥니다.",
+        "## FAQ",
+        "게임 배경 루프에 보컬을 써도 되나요? 보컬이 디자인의 핵심이 아니라면 보통 피하는 편이 좋습니다. 반복되는 단어는 금방 피로해집니다. 루프는 얼마나 길어야 하나요? 짧은 모바일 장면은 20에서 30초, 탐험 공간은 45에서 60초가 편합니다. AI가 프롬프트만으로 완벽한 루프를 만들 수 있나요? 가까운 결과는 나올 수 있지만, 잘라내기, crossfade, 테스트는 필요합니다. 무엇을 저장해야 하나요? 프롬프트, 선택한 구간, 편집한 루프 파일, 루프 지점 메모, 게임 안에서 쓰는 위치입니다."
+      ]
+    },
+    "pt": {
+      "title": "Crie musica IA em loop para jogos sem cansar o jogador",
+      "description": "Um fluxo pratico para planejar, gerar, editar e testar musica de fundo IA para jogos sem depender de um prompt de genero vago.",
+      "body": [
+        "O tema do menu soa bem por doze segundos, depois o ponto de reinicio estala. A trilha de exploracao vira um refrao que o jogo nao precisava. A versao de combate cobre o som do pulo. Antes de abrir um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator), trate musica de jogo como um cue de sistema em loop, nao como uma cancao isolada.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de geracao musical com IA para criar e personalizar musica a partir de prompts, letras, ideias de estilo e escolha de modelo. Em jogos, use como mesa de rascunho rapida: ela pode fornecer material musical, mas estado do jogador, duracao, papel na mixagem e teste no motor continuam sendo decisoes suas.",
+        "## Comece pelo estado do jogo",
+        "Escreva um cartao de loop antes de gerar. Nomeie o estado: menu principal, vila segura, sala furtiva, falha de puzzle ou combate com pouca vida. Acrescente funcao emocional, duracao aproximada, faixa de tempo, instrumentos principais e sons que precisam de espaco. Um cartao como exploracao calma de caverna, 45 segundos, 82 BPM, percussao de mao abafada, drones graves, sem vocais, sem crescidas de pratos, espaco para passos da uma tarefa jogavel para a musica.",
+        "## Peca comportamento de loop e teste",
+        "Peca um motivo estavel, groove consistente, intro que possa ser cortada e final que volte para a textura inicial. Nao presuma que o arquivo vai repetir limpo so porque o prompt diz loop. Leve a melhor secao para um editor de audio, corte no limite de compasso, use crossfade se preciso e teste no motor com a opcao de loop ligada. Se o reinicio fica obvio depois de dez repeticoes, o cue ainda nao esta pronto.",
+        "## Faca um cue base e um de pressao",
+        "Jogos pequenos muitas vezes precisam de menos faixas do que parece. Crie um loop base para jogo normal e outro de pressao para perigo, limite de tempo ou combate. Mantenha tempo e tonalidade proximos o bastante para uma transicao por fade simples. O [gerador de estilos musicais](https://easymusic.ai/pt/tools/music-style-generator) ajuda a reunir palavras de textura e instrumentacao, mas o prompt final deve continuar claro.",
+        "## Estrutura reutilizavel",
+        "- Estado: onde o jogador esta e o que esta fazendo.\n- Duracao: 20, 30, 45 ou 60 segundos.\n- Movimento: BPM, groove, densidade ritmica e estabilidade do pulso.\n- Paleta: dois ou tres instrumentos e uma textura de fundo.\n- Papel na mixagem: sob dialogo, sob passos, foco de menu ou combate intenso.\n- Limite: sem vocais, sem drop grande, sem fade longo, sem mudanca brusca de tom ou sem melodia lider brilhante.",
+        "Um primeiro prompt pode ser: cue de exploracao de caverna pronto para loop de 45 segundos, 82 BPM, clima menor calmo, tambores de mao abafados, cordas graves sustentadas, pads granulares suaves, motivo curto de tres notas, estavel mas nao cheio, sem vocais, sem crash de prato, sem final dramatico, textura final volta para a textura inicial. Gere duas versoes e teste primeiro a menos chamativa; loops sutis resistem melhor a sessoes longas.",
+        "## Perguntas frequentes",
+        "Musica de fundo para jogo deve ter vocal? Normalmente nao, a menos que a voz faca parte do design, porque palavras repetidas cansam rapido. Qual deve ser a duracao? Cenas curtas de mobile podem funcionar com 20 a 30 segundos; exploracao costuma ficar melhor com 45 a 60. A IA consegue criar um loop perfeito so com prompt? As vezes chega perto, mas ainda e preciso cortar, cruzar fades e testar. O que devo salvar? Prompt, secao escolhida, arquivo editado, notas de ponto de loop e local de uso no jogo."
+      ]
+    },
+    "ru": {
+      "title": "Как сделать AI-музыку для игрового фона, которая нормально зацикливается",
+      "description": "Практичный процесс для брифа, генерации, монтажа и теста AI-фоновой музыки для игры вместо расплывчатого жанрового промпта.",
+      "body": [
+        "Тема меню звучит хорошо первые двенадцать секунд, а потом точка повтора щелкает. Музыка исследования внезапно превращается в припев. Боевая версия перекрывает звук прыжка. Перед тем как открыть [AI music generator](https://easymusic.ai/ru/ai-music-generator), относитесь к игровой фоновой музыке как к системному зацикленному cue, а не как к отдельной песне.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для генерации и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. В игровом процессе ее лучше использовать как быстрый черновой стол: она дает музыкальный материал, но состояние игрока, длина, роль в миксе и тест в движке остаются вашей задачей.",
+        "## Начните с состояния игры",
+        "До генерации сделайте карточку лупа. Назовите состояние: главное меню, безопасная деревня, стелс-комната, провал головоломки или бой с малым здоровьем. Добавьте эмоциональную задачу, примерную длину, темп, главные инструменты и звуки, которым нужно оставить место. Карточка вроде спокойное исследование пещеры, 45 секунд, 82 BPM, приглушенная ручная перкуссия, низкие дроны, без вокала, без нарастания тарелок, место для шагов дает музыке игровую функцию.",
+        "## Просите поведение лупа, затем проверяйте",
+        "Попросите устойчивый мотив, ровный groove, вступление, которое можно обрезать, и конец, возвращающийся к начальной фактуре. Но не считайте, что файл будет повторяться чисто только из-за слова loop в промпте. Перенесите лучший фрагмент в аудиоредактор, обрежьте по границе такта, при необходимости сделайте crossfade и проверьте в движке с включенной опцией loop. Если перезапуск заметен после десяти повторов, cue еще не готов.",
+        "## Сделайте базовый cue и cue напряжения",
+        "Небольшим играм часто нужно меньше треков, чем кажется. Создайте один базовый луп для обычной игры и один луп напряжения для опасности, таймера или боя. Держите темп и тональность достаточно близкими, чтобы простой fade мог соединить их. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает собрать слова для фактуры и инструментов, но финальный промпт лучше оставить коротким и понятным.",
+        "## Повторяемая рамка промпта",
+        "- Состояние: где игрок и что он делает.\n- Длина лупа: 20, 30, 45 или 60 секунд.\n- Движение: BPM, groove, ритмическая плотность и устойчивость пульса.\n- Палитра: два-три инструмента и одна фоновая фактура.\n- Роль в миксе: под диалог, под шаги, фокус меню или напряженный бой.\n- Граница: без вокала, без большого drop, без длинного fade, без резкой смены тональности или без яркой ведущей мелодии.",
+        "Первый промпт может звучать так: 45-секундный loop-ready cue для исследования пещеры, 82 BPM, спокойное минорное настроение, приглушенные ручные барабаны, низкие протяжные струнные, мягкие granular pads, короткий мотив из трех нот, устойчиво, но не перегружено, без вокала, без crash тарелки, без драматичного финала, финальная фактура возвращается к начальной. Создайте две версии и сначала тестируйте менее эффектную: тонкие лупы дольше выдерживают игру.",
+        "## FAQ",
+        "Нужен ли вокал в фоновой игровой музыке? Обычно нет, если голос не является частью дизайна, потому что повторяющиеся слова быстро утомляют. Какой длины должен быть луп? Коротким мобильным сценам часто хватает 20-30 секунд; исследование лучше чувствует себя при 45-60 секундах. Может ли AI сделать идеальный луп одним промптом? Иногда он близок, но обрезка, crossfade и тест все равно нужны. Что сохранять? Промпт, выбранный фрагмент, отредактированный файл, заметки о точке лупа и место использования в игре."
+      ]
+    },
+    "zh": {
+      "title": "为游戏制作耐听的 AI 背景音乐循环指南",
+      "description": "不再只写模糊流派词，而是用清晰流程规划、生成、编辑并测试游戏用 AI 背景音乐循环。",
+      "body": [
+        "菜单音乐前 12 秒很好听，到了循环点却突然咔一下。探索音乐莫名进入副歌。战斗版本把跳跃音效盖住了。打开 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 之前，先把游戏背景音乐当作会不断重复的系统提示音轨，而不是一首独立歌曲。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐生成与定制平台，可以围绕提示词、歌词、风格描述和模型选择来创作音乐。在游戏工作流里，可以把它当作快速草稿台：它提供音乐素材，但玩家状态、循环长度、混音角色和引擎测试仍然需要你决定。",
+        "## 从游戏状态开始",
+        "生成前先写一张循环卡片。给状态命名，例如主菜单、安全村庄、潜行房间、解谜失败、低血量战斗。再写情绪任务、大致长度、速度范围、主要乐器，以及需要留空间的音效。一张卡片可以写成：安静洞穴探索，45 秒，82 BPM，闷一点的手鼓，低频 drone，不要人声，不要镲片渐强，给脚步声留空间。这样音乐才有游戏里的工作。",
+        "## 要求循环行为，然后实际检查",
+        "提示词可以要求稳定动机、稳定 groove、可以剪掉的前奏，以及结尾回到开头质感。但不要因为提示词写了 loop，就默认文件已经可以干净循环。把最好的一段放进音频编辑软件，在小节边界剪开，需要时做 crossfade，再放到引擎里打开循环选项测试。如果重复十次后仍然能听出重启点，这条 cue 还没有完成。",
+        "## 做一个基础 cue 和一个压力 cue",
+        "很多小型游戏需要的音乐数量比想象中少。先做一条正常游玩的基础循环，再做一条危险、倒计时或战斗用的压力循环。让两者速度和调性足够接近，方便用简单 fade 过渡。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮你收集质感和乐器词，但最后的提示词仍要保持清楚，不要写成一大段愿望清单。",
+        "## 可复用的提示词框架",
+        "- 状态：玩家在哪里，正在做什么。\n- 循环长度：20、30、45 或 60 秒。\n- 运动感：BPM、groove、节奏密度、脉冲是否稳定。\n- 音色：两到三件乐器，加一种背景质感。\n- 混音角色：放在对白下、脚步下、菜单主导位置，或高压战斗。\n- 边界：不要人声，不要大型 drop，不要长 fade，不要突然转调，不要明亮主旋律。",
+        "第一版提示词可以这样写：45 秒 loop-ready 洞穴探索 cue，82 BPM，安静小调氛围，闷手鼓，低音弦乐长音，柔和 granular pad，短三音动机，稳定但不要太忙，不要人声，不要镲片 crash，不要戏剧化结尾，结尾质感回到开头质感。生成两个版本后，先测试不那么刺激的一版；低调循环通常更能承受长时间游玩。",
+        "## 常见问题",
+        "游戏背景循环需要人声吗？通常不需要，除非人声本身就是设计重点，因为重复歌词很容易让人疲劳。循环多长合适？短移动端场景可以是 20 到 30 秒，探索空间通常 45 到 60 秒更自然。AI 能只靠提示词做出完美循环吗？有时会接近，但仍然要剪辑、交叉淡化并测试。需要保存什么？提示词、选中的片段、编辑后的循环文件、循环点备注，以及它在游戏里的使用位置。"
+      ]
+    },
+    "ar": {
+      "title": "اصنع موسيقى خلفية AI للالعاب يمكن تكرارها من دون ازعاج",
+      "description": "مسار عملي لتخطيط موسيقى خلفية AI للالعاب وتوليدها وتحريرها واختبارها بدلا من الاعتماد على مطالبة نوع موسيقي عامة.",
+      "body": [
+        "موسيقى القائمة تبدو جيدة اثنتي عشرة ثانية، ثم تسمع نقرة عند نقطة الاعادة. موسيقى الاستكشاف تكبر فجأة كأنها كورس. نسخة القتال تغطي صوت القفز. قبل فتح [مولد موسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، تعامل مع موسيقى اللعبة كإشارة نظامية تدور في حلقة، لا كأغنية مستقلة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) هو منصة لتوليد وتخصيص الموسيقى بالذكاء الاصطناعي اعتمادا على المطالبات، الكلمات، أفكار الأسلوب، واختيار النموذج. في عمل الالعاب، استخدمه كطاولة مسودات سريعة: يمكنه تقديم مادة موسيقية، لكن حالة اللاعب، طول الحلقة، دورها في المكس، واختبارها داخل المحرك تبقى قراراتك.",
+        "## ابدأ بحالة اللعبة",
+        "اكتب بطاقة حلقة قبل التوليد. سم الحالة: القائمة الرئيسية، قرية آمنة، غرفة تخف، فشل لغز، أو قتال مع صحة منخفضة. اضف المهمة الشعورية، الطول التقريبي، مدى السرعة، الآلات الحاملة، والاصوات التي تحتاج مساحة. بطاقة مثل استكشاف كهف هادئ، 45 ثانية، 82 BPM، ايقاع يدوي مكتوم، drones منخفضة، بلا غناء، بلا ارتفاعات cymbal، مساحة لخطوات اللاعب تجعل للموسيقى وظيفة داخل اللعب.",
+        "## اطلب سلوك الحلقة ثم اختبره",
+        "اطلب موتيفا ثابتا، groove مستقرا، مقدمة يمكن قصها، ونهاية تعود الى ملمس البداية. لا تفترض ان الملف سيدور بنظافة لمجرد ان المطالبة كتبت loop. ضع افضل جزء في محرر صوت، واقصه عند حد موسيقي واضح، واستخدم crossfade عند الحاجة، ثم اختبره داخل المحرك مع تفعيل خيار الحلقة. اذا كان الرجوع واضحا بعد عشر مرات، فالـ cue لم يجهز بعد.",
+        "## ابن cue اساسيا وcue للضغط",
+        "الالعاب الصغيرة غالبا تحتاج مسارات اقل مما نتخيل. اصنع حلقة اساسية للعب الطبيعي وحلقة ضغط للخطر او الوقت المحدود او القتال. اجعل السرعة والمقام قريبين بما يكفي للانتقال بينهما بعملية fade بسيطة. يمكن ان يساعدك [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في جمع كلمات للملمس والآلات، لكن اجعل المطالبة النهائية قصيرة وواضحة.",
+        "## قالب مطالبة قابل للاعادة",
+        "- الحالة: اين يوجد اللاعب وماذا يفعل.\n- طول الحلقة: 20 او 30 او 45 او 60 ثانية.\n- الحركة: BPM وgroove وكثافة الايقاع وثبات النبض.\n- اللوحة الصوتية: آلتان او ثلاث مع ملمس خلفي واحد.\n- دور المكس: تحت الحوار، تحت الخطوات، تركيز القائمة، او قتال عالي الضغط.\n- الحد: بلا غناء، بلا drop كبير، بلا fade طويل، بلا تغيير مقام مفاجئ، او بلا لحن رئيسي لامع.",
+        "يمكن ان تكون المطالبة الاولى: cue استكشاف كهف جاهز للحلقة مدته 45 ثانية، 82 BPM، مزاج minor هادئ، طبول يد مكتومة، اوتار منخفضة ممتدة، pads حبيبية ناعمة، موتيف قصير من ثلاث نغمات، ثابت لكن غير مزدحم، بلا غناء، بلا crash cymbal، بلا نهاية درامية، ملمس النهاية يعود الى ملمس البداية. انشئ نسختين واختبر الاقل اثارة اولا؛ الحلقات الهادئة غالبا تتحمل جلسات لعب اطول.",
+        "## اسئلة شائعة",
+        "هل يجب وضع غناء في موسيقى خلفية اللعبة؟ غالبا لا، الا اذا كان الصوت جزءا من التصميم، لان الكلمات المتكررة تتعب بسرعة. ما طول الحلقة المناسب؟ المشاهد القصيرة في الموبايل قد تكفيها 20 الى 30 ثانية؛ مساحات الاستكشاف غالبا افضل بين 45 و60 ثانية. هل يستطيع AI صنع حلقة مثالية بالمطالبة فقط؟ قد يقترب احيانا، لكن القص وcrossfade والاختبار لا تزال ضرورية. ماذا احفظ؟ المطالبة، الجزء المختار، ملف الحلقة بعد التحرير، ملاحظات نقطة الحلقة، ومكان استخدامها في اللعبة."
+      ]
+    }
+  }
+}
