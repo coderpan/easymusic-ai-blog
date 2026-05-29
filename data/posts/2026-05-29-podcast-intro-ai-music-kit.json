@@ -1,0 +1,249 @@
+{
+  "date": "2026-05-29",
+  "slug": "podcast-intro-ai-music-kit",
+  "cluster": "podcast-audio-workflows",
+  "translations": {
+    "en": {
+      "title": "Build a Podcast Intro Music Kit Without Overpowering the Show",
+      "description": "A practical AI music workflow for podcast intros, outros, and short bumpers that support the host voice instead of becoming the episode.",
+      "body": [
+        "A podcast intro can fail in two opposite ways: it sounds too thin to remember, or it becomes a miniature song that delays the first sentence. If you use EasyMusic.AI's [AI music generator](https://easymusic.ai/ai-music-generator), brief the result as a small audio identity kit, not as one dramatic full-length track.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music generation platform for creating and customizing music from prompts, lyrics, style ideas, and model choices. For podcast work, it is best used as a sketchpad for short musical cues that you still trim, mix, document, and test against real speech.",
+        "## Build three cues, not one song",
+        "Start with an intro, an outro, and a transition bumper. The intro should identify the show quickly and clear space for the host. The outro can be a little warmer because it sits after the content. The bumper should be shorter than you think, often three to six seconds, so it can separate segments without making the listener feel parked at a loading screen.",
+        "## Write the cue card before the prompt",
+        "A useful cue card has five fields: length, emotional job, tempo, instrument palette, and boundaries. For a business interview show, the card might say: 12-second intro, calm but alert, 95 BPM, muted piano, light brush drums, warm bass, no vocals, no riser, no big drop, leave a pocket for a spoken show title. This is clearer than asking for professional podcast music and hoping the model guesses your format.",
+        "## A reusable prompt frame",
+        "- Role: podcast intro, outro, or segment bumper.\n- Length: 6, 10, 12, or 18 seconds.\n- Voice space: leave the center clean for spoken words.\n- Texture: two lead sounds and one background layer.\n- Energy curve: quick logo, gentle lift, or calm landing.\n- Boundary: no lyrics, no long build, no club drop, no sudden ending, no famous-artist reference.",
+        "A first prompt could read: 12-second podcast intro for a thoughtful founder interview show, 95 BPM, warm muted piano motif, light brush drums, soft electric bass, modern but restrained, clear center for a host voice, gentle ending that can fade under speech, no vocals, no big riser, no dramatic drop. Generate a few versions, then choose the one that still works when played at low volume.",
+        "## Edit for speech and platform reality",
+        "Treat the generated file as source material. Trim dead air, fade the last beat, and test it under a real host line, not a silent timeline. Keep a simple rights and production note with the prompt, generation date, chosen file, edits made, and where the cue appears. Podcast and video platforms have their own content and rights rules, so this note is useful even when you are only making a short identity cue.",
+        "## Three checks before publishing",
+        "- Play the intro before a cold open and ask whether it delays the first useful sentence.\n- Lower the cue under speech until consonants stay clear on phone speakers.\n- Export a clean intro, clean outro, and dry bumper so you can reuse them without re-editing each episode.",
+        "## FAQ",
+        "How long should a podcast intro be? Most shows are better served by 6 to 15 seconds unless the music is part of the format. Should I use vocals? Usually no; repeated words compete with the host and can date quickly. Can one cue cover every episode? It can, but seasonal shows often benefit from a second lighter bumper. What should I save? Keep the prompt, source file, edited exports, platform notes, and the episode template where the cue is placed."
+      ]
+    },
+    "de": {
+      "title": "Ein Podcast-Intro-Musik-Kit bauen, das die Sendung nicht ueberdeckt",
+      "description": "Ein praktischer KI-Musik-Workflow fuer Podcast-Intros, Outros und kurze Bumper, die der Stimme helfen statt die Folge zu bremsen.",
+      "body": [
+        "Ein Podcast-Intro scheitert oft in zwei Richtungen: Es klingt zu duenn, um haengen zu bleiben, oder es wird zu einem kleinen Song, der den ersten Satz verzoegert. Wenn du den [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) von EasyMusic.AI nutzt, beschreibe das Ergebnis als kleines Audio-Identity-Kit, nicht als dramatischen Volltrack.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerzeugung, mit der Musik aus Prompts, Lyrics, Stilideen und Modellauswahl erstellt und angepasst werden kann. Fuer Podcasts eignet sie sich vor allem als Skizzenplatz fuer kurze musikalische Cues, die du danach schneidest, mischst, dokumentierst und mit echter Sprache testest.",
+        "## Baue drei Cues statt eines Songs",
+        "Beginne mit Intro, Outro und Transition-Bumper. Das Intro soll die Sendung schnell erkennbar machen und der Moderation Platz lassen. Das Outro darf etwas waermer sein, weil es nach dem Inhalt sitzt. Der Bumper sollte kuerzer sein, als man zunaechst denkt, oft drei bis sechs Sekunden, damit er Segmente trennt, ohne die Hoerer aufzuhalten.",
+        "## Schreibe zuerst die Cue-Karte",
+        "Eine brauchbare Cue-Karte hat fuenf Felder: Laenge, emotionale Aufgabe, Tempo, Instrumentenpalette und Grenzen. Fuer ein Business-Interview kann sie lauten: 12-sekuendiges Intro, ruhig aber wach, 95 BPM, gedampftes Piano, leichte Brush-Drums, warmer Bass, keine Vocals, kein Riser, kein grosser Drop, Platz fuer einen gesprochenen Sendungstitel. Das ist klarer als professionelle Podcast-Musik zu verlangen und auf die richtige Interpretation zu hoffen.",
+        "## Wiederverwendbarer Prompt-Rahmen",
+        "- Rolle: Podcast-Intro, Outro oder Segment-Bumper.\n- Laenge: 6, 10, 12 oder 18 Sekunden.\n- Platz fuer Stimme: die Mitte frei fuer gesprochene Woerter lassen.\n- Textur: zwei tragende Sounds und eine Hintergrundschicht.\n- Energiekurve: schnelles Logo, sanfter Lift oder ruhiges Landen.\n- Grenze: keine Lyrics, kein langer Aufbau, kein Club-Drop, kein ploetzliches Ende, keine bekannte Kuenstlerreferenz.",
+        "Ein erster Prompt koennte lauten: 12-sekuendiges Podcast-Intro fuer eine nachdenkliche Founder-Interview-Show, 95 BPM, warmes gedampftes Piano-Motiv, leichte Brush-Drums, weicher E-Bass, modern aber zurueckhaltend, klare Mitte fuer Host-Stimme, sanftes Ende, das unter Sprache ausblenden kann, keine Vocals, kein grosser Riser, kein dramatischer Drop. Erzeuge mehrere Versionen und waehle die, die auch leise funktioniert.",
+        "## Fuer Sprache und Plattformen bearbeiten",
+        "Behandle die generierte Datei als Ausgangsmaterial. Schneide Leerstellen, blende den letzten Beat sauber aus und teste den Cue unter einer echten Host-Zeile, nicht in einer stillen Timeline. Fuehre eine einfache Rechte- und Produktionsnotiz mit Prompt, Generierungsdatum, gewaehlter Datei, Bearbeitungen und Einsatzort. Podcast- und Videoplattformen haben eigene Inhalts- und Rechteregeln; diese Notiz hilft auch bei kurzen Identitaets-Cues.",
+        "## Drei Checks vor der Veroeffentlichung",
+        "- Spiele das Intro vor einem Cold Open und pruefe, ob es den ersten nuetzlichen Satz verzoegert.\n- Senke den Cue unter Sprache ab, bis Konsonanten auch auf Handylautsprechern klar bleiben.\n- Exportiere sauberes Intro, sauberes Outro und trockenen Bumper, damit du sie in jeder Folge ohne neuen Schnitt nutzen kannst.",
+        "## FAQ",
+        "Wie lang sollte ein Podcast-Intro sein? Viele Shows funktionieren mit 6 bis 15 Sekunden besser, ausser Musik ist Teil des Formats. Sollte ich Vocals nutzen? Meist nicht; wiederholte Woerter konkurrieren mit der Moderation und altern schnell. Reicht ein Cue fuer alle Folgen? Ja, aber Staffeln profitieren oft von einem zweiten leichteren Bumper. Was sollte ich speichern? Prompt, Quelldatei, bearbeitete Exporte, Plattformnotizen und die Episodenvorlage mit Cue-Position."
+      ]
+    },
+    "es": {
+      "title": "Crea un kit de musica para intro de podcast sin tapar la voz",
+      "description": "Un flujo practico de musica con IA para intros, outros y bumpers de podcast que apoyan al presentador en vez de dominar el episodio.",
+      "body": [
+        "Una intro de podcast suele fallar de dos maneras: suena tan fina que nadie la recuerda, o se convierte en una mini cancion que retrasa la primera frase. Si usas el [generador de musica con IA](https://easymusic.ai/es/ai-music-generator) de EasyMusic.AI, pide un pequeno kit de identidad sonora, no una pista completa y dramatica.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de generacion musical con IA para crear y personalizar musica a partir de prompts, letras, ideas de estilo y seleccion de modelo. En podcasts conviene usarla como mesa de bocetos para cues cortos que despues recortas, mezclas, documentas y pruebas contra voz real.",
+        "## Crea tres cues, no una cancion",
+        "Empieza con intro, outro y bumper de transicion. La intro debe identificar el programa rapido y dejar espacio al presentador. El outro puede ser algo mas calido porque aparece despues del contenido. El bumper debe ser mas corto de lo que parece, a menudo entre tres y seis segundos, para separar secciones sin hacer sentir al oyente en una pantalla de espera.",
+        "## Escribe la tarjeta del cue antes del prompt",
+        "Una tarjeta util tiene cinco campos: duracion, tarea emocional, tempo, paleta de instrumentos y limites. Para un podcast de entrevistas de negocio podria decir: intro de 12 segundos, calma pero despierta, 95 BPM, piano apagado, escobillas ligeras, bajo calido, sin voces, sin riser, sin gran drop, espacio para un titulo hablado. Es mas claro que pedir musica profesional para podcast y esperar que el modelo adivine el formato.",
+        "## Marco reutilizable de prompt",
+        "- Papel: intro de podcast, outro o bumper de segmento.\n- Duracion: 6, 10, 12 o 18 segundos.\n- Espacio para voz: dejar limpio el centro para palabras habladas.\n- Textura: dos sonidos protagonistas y una capa de fondo.\n- Curva de energia: logo rapido, subida suave o cierre tranquilo.\n- Limite: sin letra, sin construccion larga, sin drop de club, sin final brusco, sin referencia a artistas famosos.",
+        "Un primer prompt podria ser: intro de podcast de 12 segundos para un programa de entrevistas a fundadores, 95 BPM, motivo de piano calido y apagado, escobillas ligeras, bajo electrico suave, moderno pero contenido, centro claro para voz de presentador, final suave que pueda fundirse bajo habla, sin voces, sin gran riser, sin drop dramatico. Genera varias versiones y elige la que todavia funciona a bajo volumen.",
+        "## Edita para voz y realidad de plataforma",
+        "Trata el archivo generado como material de origen. Recorta silencios, funde el ultimo golpe y pruebalo debajo de una frase real del presentador, no en una linea de tiempo muda. Guarda una nota simple de derechos y produccion con prompt, fecha de generacion, archivo elegido, ediciones realizadas y donde aparece el cue. Las plataformas de podcast y video tienen sus propias reglas de contenido y derechos, por lo que esa nota ayuda incluso con una senal corta de identidad.",
+        "## Tres pruebas antes de publicar",
+        "- Pon la intro antes de una apertura en frio y pregunta si retrasa la primera frase util.\n- Baja el cue bajo la voz hasta que las consonantes sigan claras en altavoces de telefono.\n- Exporta intro limpia, outro limpio y bumper seco para reutilizarlos sin reeditar cada episodio.",
+        "## Preguntas frecuentes",
+        "Cuanto debe durar una intro de podcast? La mayoria de programas funcionan mejor con 6 a 15 segundos salvo que la musica sea parte del formato. Conviene usar voces? Normalmente no; las palabras repetidas compiten con el presentador y envejecen rapido. Un cue sirve para todos los episodios? Puede servir, pero las temporadas a veces agradecen un segundo bumper mas ligero. Que debo guardar? Prompt, archivo fuente, exportaciones editadas, notas de plataforma y plantilla del episodio donde va el cue."
+      ]
+    },
+    "fr": {
+      "title": "Creer un kit musical d intro podcast sans couvrir la voix",
+      "description": "Un workflow pratique de musique IA pour intros, outros et courts bumpers de podcast qui soutiennent la voix au lieu de prendre toute la place.",
+      "body": [
+        "Une intro de podcast rate souvent de deux manieres: elle est trop fine pour etre memorable, ou elle devient une petite chanson qui retarde la premiere phrase. Si tu utilises le [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator) de EasyMusic.AI, briefe le resultat comme un petit kit d identite sonore, pas comme un morceau complet et dramatique.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de generation musicale par IA qui permet de creer et personnaliser de la musique avec des prompts, des paroles, des idees de style et un choix de modele. Pour un podcast, elle sert surtout de table de croquis pour des cues courts que tu vas ensuite couper, mixer, documenter et tester avec une vraie voix.",
+        "## Cree trois cues, pas une chanson",
+        "Commence par une intro, une outro et un bumper de transition. L intro doit identifier l emission vite et laisser de la place a l animateur. L outro peut etre un peu plus chaude parce qu elle arrive apres le contenu. Le bumper doit etre plus court qu on ne l imagine, souvent trois a six secondes, afin de separer les rubriques sans immobiliser l auditeur.",
+        "## Ecris la carte du cue avant le prompt",
+        "Une bonne carte contient cinq champs: duree, mission emotionnelle, tempo, palette instrumentale et limites. Pour une emission d interviews business, elle peut dire: intro de 12 secondes, calme mais alerte, 95 BPM, piano feutre, legeres brushes, basse chaude, pas de voix, pas de riser, pas de gros drop, laisser une poche pour un titre parle. C est plus clair que demander une musique professionnelle de podcast et esperer que le modele comprenne le format.",
+        "## Cadre de prompt reutilisable",
+        "- Role: intro de podcast, outro ou bumper de segment.\n- Duree: 6, 10, 12 ou 18 secondes.\n- Place pour la voix: garder le centre propre pour les mots parles.\n- Texture: deux sons principaux et une couche de fond.\n- Courbe d energie: logo rapide, petite montee ou atterrissage calme.\n- Limite: pas de paroles, pas de longue construction, pas de drop club, pas de fin soudaine, pas de reference a un artiste connu.",
+        "Un premier prompt peut etre: intro podcast de 12 secondes pour une emission d entretiens avec fondateurs, 95 BPM, motif de piano feutre et chaleureux, legeres brushes, basse electrique douce, moderne mais retenu, centre clair pour la voix de l animateur, fin douce pouvant passer sous la parole, pas de voix, pas de grand riser, pas de drop dramatique. Genere plusieurs versions et choisis celle qui fonctionne encore a faible volume.",
+        "## Monte pour la voix et les plateformes",
+        "Traite le fichier genere comme une matiere premiere. Coupe les blancs, fais fondre le dernier temps et teste le cue sous une vraie phrase d animateur, pas dans une timeline silencieuse. Garde une note simple de droits et de production avec prompt, date de generation, fichier choisi, edits realises et emplacement du cue. Les plateformes de podcast et de video ont leurs propres regles de contenu et de droits; cette note reste utile meme pour une courte signature sonore.",
+        "## Trois verifications avant publication",
+        "- Place l intro avant une ouverture a froid et demande si elle retarde la premiere phrase utile.\n- Baisse le cue sous la voix jusqu a ce que les consonnes restent claires sur haut-parleur de telephone.\n- Exporte une intro propre, une outro propre et un bumper sec pour les reutiliser sans refaire le montage.",
+        "## FAQ",
+        "Quelle longueur pour une intro de podcast? Beaucoup d emissions gagnent a rester entre 6 et 15 secondes, sauf si la musique fait partie du format. Faut-il utiliser des voix? En general non; les mots repetes concurrencent l animateur et vieillissent vite. Un seul cue suffit-il pour toutes les episodes? Oui parfois, mais une saison peut profiter d un deuxieme bumper plus leger. Que garder? Le prompt, le fichier source, les exports montes, les notes de plateforme et le template d episode ou le cue est place."
+      ]
+    },
+    "it": {
+      "title": "Crea un kit musicale per intro podcast senza coprire la voce",
+      "description": "Un workflow pratico con musica AI per intro, outro e brevi bumper podcast che sostengono la voce invece di dominare l episodio.",
+      "body": [
+        "Un intro podcast puo fallire in due modi: e troppo sottile per restare in mente, oppure diventa una mini canzone che ritarda la prima frase. Se usi il [generatore di musica AI](https://easymusic.ai/it/ai-music-generator) di EasyMusic.AI, chiedi un piccolo kit di identita sonora, non una traccia completa e drammatica.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di generazione musicale con IA per creare e personalizzare musica da prompt, testi, idee di stile e scelta del modello. Per i podcast e utile come tavolo di bozza per cue brevi che poi tagli, mixi, documenti e provi contro una voce reale.",
+        "## Crea tre cue, non una canzone",
+        "Parti da intro, outro e bumper di transizione. L intro deve identificare il programma in fretta e lasciare spazio al conduttore. L outro puo essere un po piu caldo perche arriva dopo il contenuto. Il bumper dovrebbe essere piu corto di quanto sembri, spesso da tre a sei secondi, cosi separa le sezioni senza far sentire l ascoltatore in attesa.",
+        "## Scrivi la scheda cue prima del prompt",
+        "Una scheda utile ha cinque campi: durata, compito emotivo, tempo, tavolozza strumentale e limiti. Per un podcast di interviste business puo dire: intro di 12 secondi, calmo ma sveglio, 95 BPM, piano ovattato, brush leggeri, basso caldo, niente voci, niente riser, niente grande drop, lascia spazio a un titolo parlato. E piu chiaro che chiedere musica professionale per podcast e sperare che il modello indovini il formato.",
+        "## Schema riutilizzabile",
+        "- Ruolo: intro podcast, outro o bumper di segmento.\n- Durata: 6, 10, 12 o 18 secondi.\n- Spazio voce: lasciare il centro pulito per le parole.\n- Texture: due suoni principali e uno strato di fondo.\n- Curva di energia: logo rapido, crescita leggera o atterraggio calmo.\n- Limite: niente testo cantato, niente build lunga, niente club drop, niente fine improvvisa, nessun riferimento ad artisti famosi.",
+        "Un primo prompt puo essere: intro podcast di 12 secondi per un programma di interviste a founder, 95 BPM, motivo caldo di piano ovattato, brush leggeri, basso elettrico morbido, moderno ma contenuto, centro chiaro per la voce del conduttore, finale gentile che puo sfumare sotto il parlato, niente voci, niente grande riser, niente drop drammatico. Genera alcune versioni e scegli quella che funziona ancora a basso volume.",
+        "## Edita per voce e piattaforme",
+        "Tratta il file generato come materiale sorgente. Taglia i vuoti, sfuma l ultimo beat e prova il cue sotto una vera frase del conduttore, non in una timeline silenziosa. Tieni una nota semplice di diritti e produzione con prompt, data di generazione, file scelto, modifiche fatte e punto d uso. Le piattaforme podcast e video hanno regole proprie su contenuti e diritti, quindi questa nota e utile anche per un breve segno sonoro.",
+        "## Tre controlli prima di pubblicare",
+        "- Metti l intro prima di un cold open e chiediti se ritarda la prima frase utile.\n- Abbassa il cue sotto la voce finche le consonanti restano chiare dagli speaker del telefono.\n- Esporta intro pulita, outro pulito e bumper asciutto per riusarli senza rimontare ogni episodio.",
+        "## FAQ",
+        "Quanto deve durare un intro podcast? Molti programmi funzionano meglio tra 6 e 15 secondi, salvo che la musica sia parte del format. Conviene usare voci? Di solito no; le parole ripetute competono con il conduttore e invecchiano presto. Un cue basta per tutti gli episodi? Puo bastare, ma le stagioni spesso migliorano con un secondo bumper piu leggero. Cosa devo salvare? Prompt, file sorgente, export editati, note di piattaforma e template episodio con posizione del cue."
+      ]
+    },
+    "ja": {
+      "title": "番組の声を邪魔しないポッドキャスト用イントロ音楽キットの作り方",
+      "description": "ポッドキャストのイントロ、アウトロ、短いブリッジ音楽をAIで作るための実用ワークフロー。主役は音楽ではなく話し声です。",
+      "body": [
+        "ポッドキャストのイントロは、薄すぎて記憶に残らないか、逆に小さな1曲になって最初の一言を遅らせるかのどちらかで失敗しがちです。EasyMusic.AI の [AI 音楽生成ツール](https://easymusic.ai/ja/ai-music-generator) を使うなら、完成曲ではなく短い音のアイデンティティキットとして依頼します。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja) は、プロンプト、歌詞、スタイルのアイデア、モデル選択をもとに音楽を作成、カスタマイズできる AI 音楽生成プラットフォームです。ポッドキャストでは、短い cue の下書きを作る場所として使い、その後に編集、ミックス、記録、実際の話し声との確認を行うのが現実的です。",
+        "## 1曲ではなく3つの cue を作る",
+        "まず intro、outro、transition bumper を分けて考えます。intro は番組をすばやく認識させ、ホストの声に余白を残す役目です。outro は本編後に流れるため少し温かくしてもかまいません。bumper は想像より短く、3秒から6秒程度にすると、セグメントを区切りながらリスナーを待たせません。",
+        "## プロンプトの前に cue カードを書く",
+        "使える cue カードには、長さ、感情の役割、テンポ、楽器パレット、禁止事項の5項目があります。ビジネスインタビュー番組なら、12秒 intro、落ち着いているが眠くない、95 BPM、muted piano、軽い brush drums、温かい bass、ボーカルなし、riser なし、大きな drop なし、話し声の番組タイトルを入れる余白、と書けます。professional podcast music とだけ頼むより、番組形式がはるかに伝わります。",
+        "## 使い回せるプロンプト枠",
+        "- 役割: podcast intro、outro、segment bumper。\n- 長さ: 6、10、12、18秒。\n- 声の余白: 話し言葉のために中央を空ける。\n- 質感: 主役の音を2つ、背景レイヤーを1つ。\n- エネルギー曲線: 短いロゴ、ゆるい上昇、静かな着地。\n- 境界: 歌詞なし、長い build なし、club drop なし、急な終わりなし、有名アーティスト名なし。",
+        "最初のプロンプト例はこうです。12秒の podcast intro、思慮深い創業者インタビュー番組向け、95 BPM、温かい muted piano motif、軽い brush drums、柔らかい electric bass、現代的だが控えめ、ホストの声のために中央を空ける、話し声の下で fade できる穏やかな終わり、ボーカルなし、大きな riser なし、劇的な drop なし。いくつか生成し、小さい音量でも役に立つものを選びます。",
+        "## 声と配信先を前提に編集する",
+        "生成ファイルは素材として扱います。無音部分を切り、最後の beat を fade し、無音のタイムラインではなく実際のホストの一文の下で確認します。プロンプト、生成日、選んだファイル、編集内容、cue の使用場所を簡単な制作メモとして残します。ポッドキャストや動画プラットフォームにはそれぞれコンテンツと権利のルールがあるため、短い音のロゴでも記録は役に立ちます。",
+        "## 公開前の3つの確認",
+        "- cold open の前に intro を置き、最初の有用な一文を遅らせていないか確認する。\n- スマホのスピーカーでも子音が聞こえるまで、声の下の cue を下げる。\n- intro、outro、dry bumper を別々に書き出し、毎回編集し直さず使えるようにする。",
+        "## FAQ",
+        "ポッドキャストのイントロは何秒がよいですか？ 音楽自体が番組形式の一部でない限り、6秒から15秒が扱いやすいです。ボーカルは入れるべきですか？ 通常は避けます。繰り返される言葉はホストの声と競合し、古く聞こえやすいからです。1つの cue を全エピソードで使えますか？ 可能ですが、シーズン制なら軽い bumper をもう1つ持つと便利です。何を保存しますか？ プロンプト、素材ファイル、編集済み書き出し、配信先メモ、cue の位置を含むエピソードテンプレートです。"
+      ]
+    },
+    "ko": {
+      "title": "진행자 목소리를 덮지 않는 팟캐스트 인트로 음악 키트 만들기",
+      "description": "팟캐스트 인트로, 아웃트로, 짧은 범퍼 음악을 AI로 만들 때 목소리를 살리고 에피소드를 지연시키지 않는 실전 흐름입니다.",
+      "body": [
+        "팟캐스트 인트로는 너무 얇아서 기억에 남지 않거나, 작은 노래처럼 커져서 첫 문장을 늦추는 방식으로 실패합니다. EasyMusic.AI의 [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 쓴다면 완성된 긴 트랙이 아니라 짧은 오디오 아이덴티티 키트로 요청하세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 생성 플랫폼입니다. 팟캐스트에서는 짧은 cue 초안을 만드는 도구로 쓰고, 이후 편집, 믹스, 기록, 실제 음성과의 테스트를 직접 하는 편이 좋습니다.",
+        "## 한 곡이 아니라 세 개의 cue를 만든다",
+        "intro, outro, transition bumper를 나누어 시작하세요. intro는 프로그램을 빨리 알아보게 하되 진행자 목소리의 자리를 남겨야 합니다. outro는 본문 뒤에 오므로 조금 더 따뜻해도 됩니다. bumper는 생각보다 짧게, 보통 3초에서 6초 정도면 세그먼트를 나누면서도 청취자를 기다리게 하지 않습니다.",
+        "## 프롬프트 전에 cue 카드를 쓴다",
+        "쓸모 있는 cue 카드에는 길이, 감정 역할, 템포, 악기 팔레트, 경계가 들어갑니다. 비즈니스 인터뷰 쇼라면 이렇게 쓸 수 있습니다. 12초 intro, 차분하지만 또렷함, 95 BPM, muted piano, light brush drums, warm bass, 보컬 없음, riser 없음, 큰 drop 없음, 말로 들어갈 쇼 제목을 위한 공간. professional podcast music이라고만 쓰는 것보다 형식을 훨씬 정확히 전달합니다.",
+        "## 재사용 가능한 프롬프트 틀",
+        "- 역할: podcast intro, outro, segment bumper.\n- 길이: 6, 10, 12, 18초.\n- 음성 공간: 말소리가 들어갈 중앙을 비워 둠.\n- 질감: 주요 소리 두 개와 배경 레이어 하나.\n- 에너지 곡선: 빠른 로고, 부드러운 상승, 차분한 착지.\n- 경계: 가사 없음, 긴 build 없음, club drop 없음, 갑작스러운 끝 없음, 유명 아티스트 언급 없음.",
+        "첫 프롬프트는 이렇게 쓸 수 있습니다. 12초 podcast intro, 신중한 창업자 인터뷰 쇼용, 95 BPM, 따뜻한 muted piano motif, light brush drums, soft electric bass, 현대적이지만 절제됨, 진행자 목소리를 위한 깨끗한 중앙, 말소리 아래로 fade 가능한 부드러운 끝, 보컬 없음, 큰 riser 없음, 극적인 drop 없음. 몇 가지 버전을 만들고 작은 볼륨에서도 역할을 하는 것을 고르세요.",
+        "## 음성과 플랫폼 현실에 맞게 편집한다",
+        "생성된 파일은 원본 소재로 다루세요. 빈 부분을 자르고 마지막 beat를 fade한 뒤, 조용한 타임라인이 아니라 실제 진행자 문장 아래에서 테스트합니다. 프롬프트, 생성일, 선택한 파일, 편집 내용, cue가 들어가는 위치를 간단한 권리 및 제작 메모로 남겨 둡니다. 팟캐스트와 동영상 플랫폼은 콘텐츠와 권리 규칙이 다르므로, 짧은 아이덴티티 cue라도 기록이 도움이 됩니다.",
+        "## 공개 전 세 가지 확인",
+        "- cold open 앞에 intro를 놓고 첫 유용한 문장을 늦추는지 확인한다.\n- 휴대폰 스피커에서도 자음이 또렷할 때까지 말 아래 cue를 낮춘다.\n- clean intro, clean outro, dry bumper를 따로 export해 매회 다시 편집하지 않게 한다.",
+        "## FAQ",
+        "팟캐스트 인트로는 얼마나 길어야 하나요? 음악이 형식의 일부가 아니라면 보통 6초에서 15초가 편합니다. 보컬을 써도 되나요? 대개 피하는 편이 좋습니다. 반복되는 단어가 진행자와 경쟁하고 빨리 낡게 들릴 수 있습니다. 한 cue를 모든 에피소드에 써도 되나요? 가능하지만 시즌형 쇼는 더 가벼운 bumper를 하나 더 두면 좋습니다. 무엇을 저장해야 하나요? 프롬프트, 원본 파일, 편집된 export, 플랫폼 메모, cue 위치가 들어간 에피소드 템플릿입니다."
+      ]
+    },
+    "pt": {
+      "title": "Monte um kit de intro para podcast sem cobrir a voz",
+      "description": "Um fluxo pratico de musica IA para intros, encerramentos e bumpers curtos de podcast que apoiam a fala em vez de dominar o episodio.",
+      "body": [
+        "Uma intro de podcast costuma falhar de dois jeitos: fica fina demais para ser lembrada, ou vira uma pequena cancao que atrasa a primeira frase. Se voce usa o [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator) da EasyMusic.AI, peca um pequeno kit de identidade sonora, nao uma faixa completa e dramatica.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de geracao musical com IA para criar e personalizar musica a partir de prompts, letras, ideias de estilo e escolha de modelo. Para podcast, funciona melhor como mesa de rascunho para cues curtos que voce ainda corta, mixa, documenta e testa contra fala real.",
+        "## Crie tres cues, nao uma cancao",
+        "Comece por intro, encerramento e bumper de transicao. A intro deve identificar o programa rapidamente e abrir espaco para a voz. O encerramento pode ser um pouco mais quente porque vem depois do conteudo. O bumper deve ser mais curto do que parece, muitas vezes de tres a seis segundos, para separar blocos sem deixar o ouvinte esperando.",
+        "## Escreva o cartao do cue antes do prompt",
+        "Um cartao util tem cinco campos: duracao, tarefa emocional, tempo, paleta de instrumentos e limites. Para um podcast de entrevistas de negocios, ele poderia dizer: intro de 12 segundos, calma mas alerta, 95 BPM, piano abafado, brush drums leves, baixo quente, sem vocais, sem riser, sem grande drop, deixar bolso para o titulo falado do programa. Isso e mais claro do que pedir musica profissional de podcast e esperar que o modelo adivinhe o formato.",
+        "## Estrutura reutilizavel",
+        "- Papel: intro de podcast, encerramento ou bumper de segmento.\n- Duracao: 6, 10, 12 ou 18 segundos.\n- Espaco para voz: deixar o centro limpo para palavras faladas.\n- Textura: dois sons principais e uma camada de fundo.\n- Curva de energia: logo rapido, elevacao suave ou pouso calmo.\n- Limite: sem letra, sem build longo, sem drop de club, sem final repentino, sem referencia a artista famoso.",
+        "Um primeiro prompt pode ser: intro de podcast de 12 segundos para um programa de entrevistas com fundadores, 95 BPM, motivo de piano quente e abafado, brush drums leves, baixo eletrico suave, moderno mas contido, centro claro para voz do apresentador, final suave que possa sumir sob a fala, sem vocais, sem grande riser, sem drop dramatico. Gere algumas versoes e escolha a que ainda funciona em volume baixo.",
+        "## Edite para fala e realidade das plataformas",
+        "Trate o arquivo gerado como material de origem. Corte espacos mortos, faca fade no ultimo tempo e teste o cue embaixo de uma fala real do apresentador, nao em uma timeline silenciosa. Mantenha uma nota simples de direitos e producao com prompt, data de geracao, arquivo escolhido, edicoes feitas e onde o cue aparece. Plataformas de podcast e video tem regras proprias de conteudo e direitos, entao essa nota ajuda ate em uma assinatura sonora curta.",
+        "## Tres verificacoes antes de publicar",
+        "- Toque a intro antes de uma abertura fria e veja se ela atrasa a primeira frase util.\n- Baixe o cue sob a fala ate as consoantes ficarem claras em alto-falantes de celular.\n- Exporte intro limpa, encerramento limpo e bumper seco para reutilizar sem reeditar cada episodio.",
+        "## Perguntas frequentes",
+        "Quanto deve durar uma intro de podcast? A maioria dos programas funciona melhor com 6 a 15 segundos, a menos que a musica faca parte do formato. Devo usar vocais? Normalmente nao; palavras repetidas competem com o apresentador e envelhecem rapido. Um cue serve para todos os episodios? Pode servir, mas temporadas muitas vezes ganham com um segundo bumper mais leve. O que devo salvar? Prompt, arquivo fonte, exports editados, notas de plataforma e template do episodio com a posicao do cue."
+      ]
+    },
+    "ru": {
+      "title": "Как собрать музыку для интро подкаста, не перекрывая голос",
+      "description": "Практичный процесс для AI-интро, аутро и коротких bumper-фрагментов подкаста, которые поддерживают речь, а не захватывают выпуск.",
+      "body": [
+        "Интро подкаста часто проваливается в одну из двух сторон: оно слишком тонкое и не запоминается, либо превращается в маленькую песню и задерживает первую фразу. Если вы используете [AI music generator](https://easymusic.ai/ru/ai-music-generator) от EasyMusic.AI, описывайте задачу как небольшой набор звуковой айдентики, а не как полноценный драматичный трек.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для генерации и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. Для подкаста ее лучше использовать как черновой стол для коротких cue, которые вы затем обрезаете, микшируете, документируете и проверяете под реальной речью.",
+        "## Делайте три cue, а не одну песню",
+        "Начните с intro, outro и transition bumper. Intro должно быстро обозначить передачу и оставить место ведущему. Outro может быть немного теплее, потому что звучит после контента. Bumper лучше делать короче, чем кажется, часто три-шесть секунд, чтобы разделить блоки и не заставить слушателя ждать.",
+        "## Сначала напишите карточку cue",
+        "Полезная карточка содержит пять полей: длина, эмоциональная задача, темп, палитра инструментов и ограничения. Для делового интервью это может выглядеть так: 12-секундное intro, спокойно, но бодро, 95 BPM, приглушенное пианино, легкие brush drums, теплый бас, без вокала, без riser, без большого drop, оставить место для произнесенного названия шоу. Это яснее, чем просить профессиональную музыку для подкаста и надеяться, что модель угадает формат.",
+        "## Повторяемая рамка промпта",
+        "- Роль: podcast intro, outro или segment bumper.\n- Длина: 6, 10, 12 или 18 секунд.\n- Место для голоса: чистый центр для произнесенных слов.\n- Фактура: два главных звука и один фоновый слой.\n- Кривая энергии: быстрый логотип, мягкий подъем или спокойная посадка.\n- Граница: без текста, без длинного build, без club drop, без резкого конца, без ссылки на известного артиста.",
+        "Первый промпт может звучать так: 12-секундное podcast intro для вдумчивого шоу с интервью основателей, 95 BPM, теплый приглушенный piano motif, легкие brush drums, мягкий electric bass, современно, но сдержанно, чистый центр для голоса ведущего, мягкий конец, который можно увести под речь, без вокала, без большого riser, без драматичного drop. Создайте несколько версий и выберите ту, которая работает даже на небольшой громкости.",
+        "## Редактируйте с учетом речи и платформ",
+        "Относитесь к сгенерированному файлу как к исходному материалу. Уберите пустоты, сделайте fade последнего удара и проверьте cue под реальной фразой ведущего, а не на тихой дорожке. Ведите простую заметку о правах и производстве: промпт, дата генерации, выбранный файл, правки и место использования. У подкаст- и видеоплатформ есть свои правила контента и прав, поэтому такая заметка полезна даже для короткой звуковой айдентики.",
+        "## Три проверки перед публикацией",
+        "- Поставьте intro перед cold open и проверьте, задерживает ли оно первую полезную фразу.\n- Опустите cue под речь, пока согласные остаются ясными на динамиках телефона.\n- Экспортируйте чистое intro, чистое outro и сухой bumper, чтобы не пересобирать их в каждом выпуске.",
+        "## FAQ",
+        "Какой длины должно быть интро подкаста? Большинству шоу достаточно 6-15 секунд, если музыка не является частью формата. Стоит ли использовать вокал? Обычно нет: повторяющиеся слова конкурируют с ведущим и быстро стареют. Может ли один cue работать во всех выпусках? Да, но сезонным шоу часто помогает второй более легкий bumper. Что сохранять? Промпт, исходный файл, отредактированные экспорты, заметки по платформам и шаблон выпуска с местом cue."
+      ]
+    },
+    "zh": {
+      "title": "为播客制作不抢人声的 AI 片头音乐套件指南",
+      "description": "用 AI 为播客制作片头、片尾和短转场音乐的实用流程，让音乐服务主持人声音，而不是拖慢节目。",
+      "body": [
+        "播客片头常见的失败有两种：太薄，没人记得住；或者像一首小歌，迟迟不让第一句话出现。如果使用 EasyMusic.AI 的 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator)，请把目标写成一套短小的声音识别素材，而不是一首完整、戏剧化的歌曲。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐生成与定制平台，可以围绕提示词、歌词、风格描述和模型选择来创作音乐。用于播客时，更适合把它当作短 cue 草稿台，之后仍要剪辑、混音、记录，并拿真实人声测试。",
+        "## 做三条 cue，而不是一首歌",
+        "先拆成 intro、outro 和 transition bumper。intro 要快速让听众识别节目，同时给主持人的声音留位置。outro 出现在内容之后，可以稍微温暖一点。bumper 应该比想象中更短，通常三到六秒就足够分隔段落，不会让听众像在等加载。",
+        "## 先写 cue 卡片，再写提示词",
+        "有用的 cue 卡片包含五项：长度、情绪任务、速度、乐器组合和边界。比如一档商业访谈播客可以写：12 秒 intro，冷静但清醒，95 BPM，muted piano，轻 brush drums，温暖 bass，不要人声，不要 riser，不要大 drop，给口播节目名留空间。这比只写 professional podcast music 更能让模型理解格式。",
+        "## 可复用的提示词框架",
+        "- 角色：podcast intro、outro 或 segment bumper。\n- 长度：6、10、12 或 18 秒。\n- 人声空间：中间保持干净，留给口播。\n- 质感：两个主声音色加一个背景层。\n- 能量曲线：快速 logo、轻微抬升或平静落地。\n- 边界：不要歌词，不要长 build，不要 club drop，不要突然结束，不要引用知名艺人。",
+        "第一版提示词可以这样写：12 秒 podcast intro，用于一档有思考感的创始人访谈节目，95 BPM，温暖 muted piano motif，轻 brush drums，柔和 electric bass，现代但克制，中间给主持人声音留干净空间，结尾柔和可淡入讲话下方，不要人声，不要大 riser，不要戏剧化 drop。生成几版后，选择小音量下仍然有效的那一版。",
+        "## 按人声和平台现实来编辑",
+        "把生成文件当作源素材。剪掉空白，给最后一个 beat 做 fade，并放在真实主持人句子下面测试，而不是只在静音时间线上听。保留一条简单的权利和制作记录：提示词、生成日期、选中的文件、做过的编辑、cue 出现的位置。播客和视频平台都有各自的内容与权利规则，即使只是很短的声音识别，也值得留下记录。",
+        "## 发布前的三个检查",
+        "- 把 intro 放在冷开场前，确认它没有拖慢第一句有用内容。\n- 把人声下方的 cue 降低到手机扬声器也能听清辅音。\n- 分别导出干净 intro、干净 outro 和 dry bumper，避免每集重新剪。",
+        "## 常见问题",
+        "播客片头多长合适？如果音乐不是节目形式的一部分，大多数节目用 6 到 15 秒更顺手。要不要使用人声？通常不建议，重复词会和主持人竞争，也容易显得过时。一条 cue 能用于所有集吗？可以，但季播节目常常适合再准备一条更轻的 bumper。需要保存什么？提示词、源文件、编辑后的导出、平台备注，以及放置 cue 的节目模板。"
+      ]
+    },
+    "ar": {
+      "title": "اصنع حزمة موسيقى لمقدمة البودكاست من دون ان تغطي الصوت",
+      "description": "مسار عملي لاستخدام موسيقى AI في مقدمات البودكاست والخواتيم والفواصل القصيرة بحيث تدعم صوت المقدم ولا تسيطر على الحلقة.",
+      "body": [
+        "تفشل مقدمة البودكاست غالبا بطريقتين: تكون خفيفة جدا فلا يتذكرها احد، او تتحول الى اغنية صغيرة تؤخر اول جملة. اذا استخدمت [مولد الموسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator) من EasyMusic.AI، اطلب حزمة هوية صوتية قصيرة، لا مسارا كاملا دراميا.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) هو منصة لتوليد وتخصيص الموسيقى بالذكاء الاصطناعي اعتمادا على المطالبات، الكلمات، افكار الاسلوب، واختيار النموذج. في عمل البودكاست، الافضل استخدامه كمساحة مسودة لاشارات موسيقية قصيرة ثم قصها ومزجها وتوثيقها واختبارها مع كلام حقيقي.",
+        "## ابن ثلاث اشارات، لا اغنية واحدة",
+        "ابدأ بمقدمة وخاتمة وفاصل انتقال. يجب ان تعرف المقدمة بالبرنامج بسرعة وتترك مساحة لصوت المقدم. يمكن ان تكون الخاتمة ادفأ قليلا لانها تأتي بعد المحتوى. اما الفاصل فينبغي ان يكون اقصر مما تتوقع، غالبا من ثلاث الى ست ثوان، كي يفصل المقاطع من دون ان يشعر المستمع انه ينتظر.",
+        "## اكتب بطاقة الاشارة قبل المطالبة",
+        "البطاقة المفيدة تحتوي خمسة حقول: الطول، المهمة الشعورية، السرعة، لوحة الآلات، والحدود. لبودكاست مقابلات اعمال يمكن ان تكتب: مقدمة 12 ثانية، هادئة لكن يقظة، 95 BPM، piano مكتوم، brush drums خفيفة، bass دافئ، بلا غناء، بلا riser، بلا drop كبير، واترك فراغا لاسم البرنامج المنطوق. هذا اوضح بكثير من طلب موسيقى بودكاست احترافية وانتظار ان يخمن النموذج شكل الحلقة.",
+        "## قالب مطالبة قابل للاعادة",
+        "- الدور: مقدمة بودكاست، خاتمة، او فاصل مقطع.\n- الطول: 6 او 10 او 12 او 18 ثانية.\n- مساحة الصوت: اترك الوسط نظيفا للكلام.\n- الملمس: صوتان رئيسيان وطبقة خلفية واحدة.\n- منحنى الطاقة: شعار سريع، ارتفاع لطيف، او هبوط هادئ.\n- الحد: بلا كلمات مغناة، بلا build طويل، بلا club drop، بلا نهاية مفاجئة، بلا اشارة الى فنان مشهور.",
+        "يمكن ان تكون المطالبة الاولى: مقدمة بودكاست 12 ثانية لبرنامج مقابلات هادئ مع مؤسسين، 95 BPM، موتيف piano دافئ ومكتوم، brush drums خفيفة، electric bass ناعم، حديث لكن مضبوط، وسط واضح لصوت المقدم، نهاية لطيفة يمكن ان تتلاشى تحت الكلام، بلا غناء، بلا riser كبير، بلا drop درامي. ولد عدة نسخ واختر النسخة التي تبقى مفيدة عند مستوى صوت منخفض.",
+        "## حرر من اجل الكلام وواقع المنصات",
+        "تعامل مع الملف المولد كمادة مصدر. قص الفراغات، واجعل آخر ضربة تتلاشى، واختبر الاشارة تحت جملة حقيقية من المقدم لا في خط زمني صامت. احتفظ بملاحظة بسيطة للحقوق والانتاج تشمل المطالبة، تاريخ التوليد، الملف المختار، التعديلات، ومكان ظهور الاشارة. منصات البودكاست والفيديو لديها قواعدها الخاصة للمحتوى والحقوق، لذلك يفيد هذا السجل حتى مع هوية صوتية قصيرة.",
+        "## ثلاث فحوص قبل النشر",
+        "- شغل المقدمة قبل افتتاح بارد واسأل هل تؤخر اول جملة مفيدة.\n- اخفض الاشارة تحت الكلام حتى تبقى الحروف واضحة على سماعات الهاتف.\n- صدر مقدمة نظيفة وخاتمة نظيفة وفاصلا جافا كي تعيد استخدامها من دون تحرير كل حلقة.",
+        "## FAQ",
+        "كم يجب ان تكون مدة مقدمة البودكاست؟ غالبية البرامج تستفيد من 6 الى 15 ثانية ما لم تكن الموسيقى جزءا من الصيغة. هل استخدم الغناء؟ غالبا لا، لان الكلمات المتكررة تنافس المقدم وتشيخ بسرعة. هل تكفي اشارة واحدة لكل الحلقات؟ ممكن، لكن المواسم تستفيد احيانا من فاصل اخف ثان. ماذا احفظ؟ المطالبة، ملف المصدر، النسخ المحررة، ملاحظات المنصة، وقالب الحلقة الذي يوضح مكان الاشارة."
+      ]
+    }
+  }
+}
