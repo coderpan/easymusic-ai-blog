@@ -1,0 +1,249 @@
+{
+  "date": "2026-05-30",
+  "slug": "ai-song-teaser-video-workflow",
+  "cluster": "music-video-workflows",
+  "translations": {
+    "en": {
+      "title": "Plan a Short AI Song Teaser Video Before You Generate Visuals",
+      "description": "A practical workflow for turning an AI-generated song into a short teaser video with a clear hook, readable captions, and platform-aware notes.",
+      "body": [
+        "A song teaser fails when it tries to show everything at once: the chorus, the whole lyric, a moving camera, a fake band, a product shot, and three visual styles. Viewers feel the template before they hear the hook. If you start with EasyMusic.AI's [AI music generator](https://easymusic.ai/ai-music-generator), choose the audio moment first, then build the video around that one job.",
+        "## What is EasyMusic.AI?",
+        "EasyMusic.AI is an AI music creation platform for making and adapting tracks from prompts, lyrics, style ideas, and model choices. For teaser work, use it as a place to shape the song idea and then move carefully into a short visual treatment, whether you edit manually or test a tool such as the [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## Pick one section, not the whole song",
+        "Choose 12 to 25 seconds that can stand alone. A chorus is not always best; a pre-chorus lift, a strange drum break, or the first line after a drop may be more memorable. Mark the exact in and out points before opening a video tool. If the section needs too much explanation, it is the wrong teaser section.",
+        "## Make a four-beat storyboard",
+        "Use four beats instead of a full script: opening image, first motion, lyric or title moment, ending frame. Example: close-up of handwritten title, streetlight movement on the beat, one lyric line appears, final frame holds the artist name and release date. This keeps the visual plan small enough that the music still leads.",
+        "## Keep words readable",
+        "If the teaser uses lyrics, write only the line the viewer must remember. The [AI lyrics generator](https://easymusic.ai/tools/ai-lyrics-generator) can help draft or refine lines, but the video should not paste a whole verse on screen. Use short captions, avoid busy backgrounds behind text, and test the clip muted because many social feeds start without sound.",
+        "## Reusable prompt frame for the visual pass",
+        "- Audio section: exact start and end, plus the lyric or sound that matters.\n- Frame shape: vertical, square, or wide, chosen before generation.\n- Visual world: one location, one color mood, one type of movement.\n- Text layer: title, lyric line, date, or none.\n- Boundary: no fake celebrity, no confusing brand mark, no unreadable captions, no sudden style switch.",
+        "A first visual brief could read: 18-second vertical teaser for a moody synth-pop chorus, rainy bus-stop setting, blue streetlight, slow handheld push-in, one readable lyric line in the lower third, no fake artist face, no logo imitation, end on release date. Generate or edit two versions, then keep the one that still makes sense with the sound muted.",
+        "## Save a small publishing note",
+        "Keep the prompt, audio file, video source, edit date, caption text, and where you plan to post the clip. Platforms may ask creators to label altered or synthetic visuals in certain situations, and music rights questions are separate from whether a file was made with AI. A simple note will not solve every rights issue, but it prevents confusion when you revise, repost, or hand the teaser to someone else.",
+        "## FAQ",
+        "How long should the teaser be? Usually 12 to 25 seconds, long enough to sell one hook and short enough to watch twice. Should I show an AI singer? Only if the visual style helps the song; an unclear face can distract from the track. Do I need subtitles? Use one lyric line or a title card, not a full transcript. What should I test before posting? Play it once with sound, once muted, and once on a phone screen with brightness turned down."
+      ]
+    },
+    "de": {
+      "title": "Plane ein kurzes KI-Song-Teaser-Video vor den Visuals",
+      "description": "Ein praktischer Workflow, um aus einem KI-Song ein kurzes Teaser-Video mit Hook, lesbaren Captions und Plattformnotizen zu machen.",
+      "body": [
+        "Ein Song-Teaser scheitert, wenn er alles gleichzeitig zeigen will: Chorus, ganzen Text, bewegte Kamera, kuenstliche Band, Produktbild und drei visuelle Stile. Man spuert die Vorlage, bevor man den Hook hoert. Wenn du mit dem [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) von EasyMusic.AI startest, waehle zuerst den Audiomoment und baue das Video um diese eine Aufgabe.",
+        "## Was ist EasyMusic.AI?",
+        "EasyMusic.AI ist eine Plattform zur KI-gestuetzten Musikerstellung, mit der Tracks aus Prompts, Lyrics, Stilideen und Modellauswahl entstehen und angepasst werden koennen. Fuer Teaser ist sie ein Ort, um die Songidee zu formen und danach vorsichtig in eine kurze visuelle Behandlung zu gehen, ob per Schnitt oder mit einem Tool wie dem [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## Waehle einen Abschnitt, nicht den ganzen Song",
+        "Nimm 12 bis 25 Sekunden, die allein funktionieren. Der Chorus ist nicht immer die beste Wahl; ein Pre-Chorus-Lift, ein seltsamer Drum-Break oder die erste Zeile nach einem Drop kann staerker sein. Markiere exakte In- und Out-Punkte, bevor du ein Videotool oeffnest. Wenn der Abschnitt zu viel Erklaerung braucht, ist er der falsche Teaser.",
+        "## Baue ein Storyboard aus vier Beats",
+        "Nutze vier Beats statt eines kompletten Skripts: Anfangsbild, erste Bewegung, Lyric- oder Titelmoment, Schlussframe. Beispiel: Nahaufnahme eines handgeschriebenen Titels, Strassenlicht bewegt sich auf den Beat, eine Textzeile erscheint, der letzte Frame haelt Kuenstlername und Release-Datum. So bleibt der Plan klein genug, damit die Musik fuehrt.",
+        "## Halte Text lesbar",
+        "Wenn der Teaser Lyrics nutzt, schreibe nur die Zeile, die man behalten soll. Der [AI lyrics generator](https://easymusic.ai/de/tools/ai-lyrics-generator) kann beim Entwerfen oder Schaerfen von Zeilen helfen, aber das Video sollte keinen ganzen Vers auf den Bildschirm kleben. Nutze kurze Captions, vermeide unruhige Hintergruende hinter Text und teste den Clip stumm, weil viele Feeds ohne Ton starten.",
+        "## Wiederverwendbarer Rahmen fuer den Visual-Pass",
+        "- Audioabschnitt: genauer Start und Stopp plus Lyric oder Sound, der zaehlt.\n- Bildformat: vertikal, quadratisch oder breit, vor der Generierung festlegen.\n- Visuelle Welt: ein Ort, eine Farbstimmung, eine Bewegungsart.\n- Textebene: Titel, Lyric-Zeile, Datum oder nichts.\n- Grenze: kein fake celebrity, keine verwirrende Marke, keine unlesbaren Captions, kein ploetzlicher Stilwechsel.",
+        "Ein erster Visual-Brief kann lauten: 18-sekuendiger vertikaler Teaser fuer einen duesteren Synth-Pop-Chorus, regnerische Bushaltestelle, blaues Strassenlicht, langsamer handheld push-in, eine lesbare Lyric-Zeile im unteren Drittel, kein kuenstliches Kuenstlergesicht, keine Logo-Imitation, Ende auf Release-Datum. Erzeuge oder schneide zwei Versionen und behalte die, die auch stumm Sinn ergibt.",
+        "## Speichere eine kleine Publishing-Notiz",
+        "Halte Prompt, Audiodatei, Videoquelle, Schnittdatum, Caption-Text und geplante Plattform fest. Plattformen koennen in bestimmten Situationen Labels fuer veraenderte oder synthetische Visuals verlangen, und Rechtefragen zur Musik sind getrennt davon, ob eine Datei mit KI erstellt wurde. Eine einfache Notiz loest nicht jede Rechtefrage, verhindert aber Verwirrung bei Revision, Repost oder Uebergabe.",
+        "## FAQ",
+        "Wie lang sollte der Teaser sein? Meist 12 bis 25 Sekunden, lang genug fuer einen Hook und kurz genug fuer zwei Durchlaeufe. Soll ich einen KI-Saenger zeigen? Nur wenn der visuelle Stil dem Song hilft; ein unklares Gesicht lenkt schnell ab. Brauche ich Untertitel? Nutze eine Lyric-Zeile oder eine Titelkarte, kein komplettes Transkript. Was teste ich vor dem Posten? Einmal mit Ton, einmal stumm und einmal auf dem Handy mit niedriger Helligkeit."
+      ]
+    },
+    "es": {
+      "title": "Planifica un teaser corto de una cancion IA antes del video",
+      "description": "Un flujo practico para convertir una cancion generada con IA en un teaser breve con hook claro, textos legibles y notas para plataformas.",
+      "body": [
+        "Un teaser de cancion falla cuando intenta mostrarlo todo: estribillo, letra completa, camara en movimiento, banda falsa, producto y tres estilos visuales. El espectador nota la plantilla antes de escuchar el hook. Si empiezas con el [generador de musica con IA](https://easymusic.ai/es/ai-music-generator) de EasyMusic.AI, elige primero el momento de audio y construye el video alrededor de esa tarea.",
+        "## Que es EasyMusic.AI?",
+        "EasyMusic.AI es una plataforma de creacion musical con IA para crear y ajustar pistas desde prompts, letras, ideas de estilo y seleccion de modelo. Para teasers, usala para dar forma a la idea musical y despues pasar con cuidado a un tratamiento visual corto, ya sea editando a mano o probando una herramienta como el [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## Elige una seccion, no toda la cancion",
+        "Escoge entre 12 y 25 segundos que funcionen solos. El estribillo no siempre es lo mejor; una subida previa, un break de bateria raro o la primera linea despues de un drop pueden recordar mas. Marca el punto exacto de entrada y salida antes de abrir una herramienta de video. Si la seccion necesita demasiada explicacion, no es el teaser correcto.",
+        "## Haz un storyboard de cuatro beats",
+        "Usa cuatro beats en vez de un guion completo: imagen inicial, primer movimiento, momento de letra o titulo y plano final. Ejemplo: primer plano de un titulo escrito a mano, luz de calle moviendose al ritmo, aparece una linea de letra, plano final con nombre artistico y fecha. Asi el plan visual queda pequeno y la musica sigue mandando.",
+        "## Haz que las palabras se lean",
+        "Si el teaser usa letra, muestra solo la linea que debe quedar en la memoria. El [generador de letras con IA](https://easymusic.ai/es/tools/ai-lyrics-generator) puede ayudar a escribir o pulir frases, pero el video no debe poner un verso entero en pantalla. Usa captions cortas, evita fondos cargados detras del texto y prueba el clip sin sonido porque muchos feeds empiezan en silencio.",
+        "## Marco reutilizable para la pasada visual",
+        "- Seccion de audio: inicio y final exactos, mas la letra o sonido importante.\n- Forma del cuadro: vertical, cuadrado o ancho, decidido antes de generar.\n- Mundo visual: un lugar, un clima de color y un tipo de movimiento.\n- Capa de texto: titulo, linea de letra, fecha o nada.\n- Limite: sin famoso falso, sin marca confusa, sin captions ilegibles, sin cambio brusco de estilo.",
+        "Un primer brief visual podria decir: teaser vertical de 18 segundos para un estribillo synth-pop oscuro, parada de bus lluviosa, farol azul, avance lento de camara en mano, una linea legible en el tercio inferior, sin rostro de artista falso, sin imitacion de logo, final con fecha de lanzamiento. Genera o edita dos versiones y conserva la que aun se entiende sin sonido.",
+        "## Guarda una nota pequena de publicacion",
+        "Conserva el prompt, archivo de audio, fuente de video, fecha de edicion, texto de caption y lugar donde piensas publicar. Las plataformas pueden pedir etiquetas para visuales alterados o sinteticos en ciertos casos, y las preguntas de derechos musicales son distintas de si el archivo se hizo con IA. Una nota simple no resuelve todo, pero evita confusion al revisar, repostear o entregar el teaser.",
+        "## Preguntas frecuentes",
+        "Cuanto debe durar el teaser? Normalmente 12 a 25 segundos, suficiente para vender un hook y corto para verlo dos veces. Debo mostrar un cantante IA? Solo si el estilo visual ayuda a la cancion; una cara poco clara distrae. Necesito subtitulos? Usa una linea de letra o una tarjeta de titulo, no una transcripcion completa. Que pruebo antes de publicar? Una vez con sonido, una sin sonido y una en el telefono con brillo bajo."
+      ]
+    },
+    "fr": {
+      "title": "Planifier un court teaser video pour une chanson IA",
+      "description": "Un workflow pratique pour transformer une chanson creee avec IA en teaser court, avec hook clair, texte lisible et notes de plateforme.",
+      "body": [
+        "Un teaser de chanson rate quand il veut tout montrer: refrain, paroles completes, camera mobile, faux groupe, image produit et trois styles visuels. On sent le modele avant d entendre le hook. Si tu pars du [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator) de EasyMusic.AI, choisis d abord le moment audio, puis construis la video autour de cette seule mission.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "EasyMusic.AI est une plateforme de creation musicale par IA pour creer et ajuster des morceaux a partir de prompts, paroles, idees de style et choix de modele. Pour un teaser, utilise-la pour cadrer l idee musicale puis passer prudemment vers un traitement visuel court, que tu montes toi-meme ou que tu testes avec un outil comme le [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## Choisis une section, pas toute la chanson",
+        "Prends 12 a 25 secondes qui tiennent seules. Le refrain n est pas toujours le meilleur choix; une montee de pre-refrain, un break de batterie etrange ou la premiere ligne apres un drop peut etre plus memorable. Marque les points d entree et de sortie exacts avant d ouvrir un outil video. Si la section demande trop d explication, ce n est pas le bon teaser.",
+        "## Fais un storyboard en quatre beats",
+        "Utilise quatre beats au lieu d un script complet: image d ouverture, premier mouvement, moment paroles ou titre, image finale. Exemple: gros plan d un titre ecrit a la main, lumiere de rue qui bouge sur le tempo, une ligne de paroles apparait, dernier plan avec nom d artiste et date. Le plan reste assez petit pour laisser la musique mener.",
+        "## Garde les mots lisibles",
+        "Si le teaser affiche des paroles, montre seulement la ligne que le public doit retenir. Le [generateur de paroles IA](https://easymusic.ai/fr/tools/ai-lyrics-generator) peut aider a ecrire ou affiner des lignes, mais la video ne doit pas coller tout un couplet a l ecran. Utilise des captions courtes, evite les fonds charges derriere le texte et teste le clip sans son, car beaucoup de feeds demarrent ainsi.",
+        "## Cadre reutilisable pour la passe visuelle",
+        "- Section audio: debut et fin exacts, plus la parole ou le son important.\n- Format: vertical, carre ou large, decide avant generation.\n- Monde visuel: un lieu, une humeur couleur, un type de mouvement.\n- Couche texte: titre, ligne de paroles, date ou rien.\n- Limite: pas de fausse celebrite, pas de marque confuse, pas de captions illisibles, pas de changement soudain de style.",
+        "Un premier brief peut dire: teaser vertical de 18 secondes pour un refrain synth-pop sombre, arret de bus sous la pluie, lumiere bleue, lent mouvement handheld vers l avant, une ligne lisible en bas de l image, pas de faux visage d artiste, pas d imitation de logo, fin sur la date de sortie. Genere ou monte deux versions et garde celle qui reste claire sans le son.",
+        "## Garde une petite note de publication",
+        "Conserve le prompt, le fichier audio, la source video, la date de montage, le texte de caption et l endroit ou tu comptes publier. Certaines plateformes peuvent demander un label pour des visuels modifies ou synthetiques, et les questions de droits musicaux sont separees du fait qu un fichier ait ete fait avec IA. Une note simple ne resout pas tout, mais evite la confusion lors d une revision, d un repost ou d une remise a quelqu un d autre.",
+        "## FAQ",
+        "Quelle duree viser? Souvent 12 a 25 secondes, assez pour vendre un hook et assez court pour etre revu. Faut-il montrer un chanteur IA? Seulement si le style visuel aide la chanson; un visage flou ou etrange detourne l attention. Faut-il sous-titrer? Une ligne de paroles ou une carte titre suffit, pas une transcription complete. Que tester avant publication? Une lecture avec son, une sans son et une sur telephone avec luminosite basse."
+      ]
+    },
+    "it": {
+      "title": "Pianifica un breve teaser video per una canzone AI",
+      "description": "Un workflow pratico per trasformare una canzone generata con AI in un teaser breve con hook chiaro, testo leggibile e note di piattaforma.",
+      "body": [
+        "Un teaser di canzone fallisce quando prova a mostrare tutto: ritornello, testo intero, camera in movimento, band finta, prodotto e tre stili visivi. Lo spettatore sente il template prima di ascoltare l hook. Se parti dal [generatore di musica AI](https://easymusic.ai/it/ai-music-generator) di EasyMusic.AI, scegli prima il momento audio e costruisci il video intorno a quel compito.",
+        "## Che cos e EasyMusic.AI?",
+        "EasyMusic.AI e una piattaforma di creazione musicale con AI per creare e adattare tracce da prompt, testi, idee di stile e scelta del modello. Per un teaser, usala per dare forma all idea musicale e poi passare con attenzione a un trattamento visivo breve, montato a mano o provato con uno strumento come l [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## Scegli una sezione, non tutta la canzone",
+        "Prendi 12-25 secondi che reggano da soli. Il ritornello non e sempre la scelta migliore; un pre-chorus che sale, un break di batteria strano o la prima riga dopo un drop possono restare piu impressi. Segna ingresso e uscita esatti prima di aprire lo strumento video. Se la sezione richiede troppe spiegazioni, non e il teaser giusto.",
+        "## Crea uno storyboard in quattro beat",
+        "Usa quattro beat invece di un copione completo: immagine iniziale, primo movimento, momento testo o titolo, frame finale. Esempio: dettaglio del titolo scritto a mano, lampione che si muove sul beat, appare una riga di testo, ultimo frame con nome artista e data di uscita. Il piano resta abbastanza piccolo da far guidare la musica.",
+        "## Tieni le parole leggibili",
+        "Se il teaser usa testo cantato, mostra solo la riga che deve restare in mente. Il [generatore di testi AI](https://easymusic.ai/it/tools/ai-lyrics-generator) puo aiutare a scrivere o rifinire le frasi, ma il video non deve incollare un intero verso sullo schermo. Usa caption brevi, evita sfondi troppo mossi dietro le parole e prova il clip senza audio perche molti feed partono muti.",
+        "## Schema riutilizzabile per il passaggio visuale",
+        "- Sezione audio: inizio e fine precisi, piu la frase o il suono importante.\n- Forma frame: verticale, quadrata o larga, scelta prima della generazione.\n- Mondo visivo: un luogo, un colore emotivo, un tipo di movimento.\n- Livello testo: titolo, riga lyric, data o niente.\n- Limite: niente celebrita finta, niente marchio ambiguo, niente caption illeggibili, niente cambio stile improvviso.",
+        "Un primo brief visuale puo essere: teaser verticale di 18 secondi per un ritornello synth-pop scuro, fermata del bus sotto la pioggia, luce blu, lento push-in handheld, una riga leggibile nel terzo inferiore, nessun volto artista finto, nessuna imitazione di logo, finale sulla data di uscita. Genera o monta due versioni e tieni quella che funziona anche senza audio.",
+        "## Salva una piccola nota di pubblicazione",
+        "Conserva prompt, file audio, sorgente video, data di editing, testo caption e piattaforma prevista. Alcune piattaforme possono chiedere etichette per visual alterati o sintetici, e le questioni sui diritti musicali sono separate dal fatto che un file sia stato creato con AI. Una nota semplice non risolve tutto, ma evita confusione quando rivedi, riposti o passi il teaser a qualcun altro.",
+        "## FAQ",
+        "Quanto deve durare il teaser? Di solito 12-25 secondi, abbastanza per vendere un hook e corto per essere rivisto. Devo mostrare un cantante AI? Solo se lo stile visivo aiuta la canzone; un volto poco chiaro distrae. Servono sottotitoli? Una riga di testo o una title card, non una trascrizione completa. Cosa provo prima di pubblicare? Una volta con audio, una muta e una sul telefono con luminosita bassa."
+      ]
+    },
+    "ja": {
+      "title": "AI 楽曲の短いティーザー動画を先に設計する方法",
+      "description": "AI で作った曲を、フックが伝わり、字幕が読めて、公開時の記録も残せる短いティーザー動画にする実践ワークフローです。",
+      "body": [
+        "曲のティーザーは、サビ、歌詞全部、動くカメラ、架空のバンド、商品カット、複数の映像スタイルを一度に見せようとすると失敗します。視聴者は hook を聴く前にテンプレート感を見てしまいます。EasyMusic.AI の [AI 音楽生成ツール](https://easymusic.ai/ja/ai-music-generator) から始めるなら、まず使う音の瞬間を決め、その一つの役割に合わせて動画を組み立てます。",
+        "## EasyMusic.AI とは？",
+        "EasyMusic.AI は、プロンプト、歌詞、スタイルのアイデア、モデル選択を使って楽曲を作り、調整できる AI 音楽制作プラットフォームです。ティーザーでは、曲の方向を形にする場所として使い、その後に手作業の編集や [AI music video generator](https://easymusic.ai/ai-music-video-generator) のようなツールで短い映像処理を試す、という考え方が扱いやすいです。",
+        "## 曲全体ではなく一つの区間を選ぶ",
+        "12 秒から 25 秒ほどで単独でも成立する部分を選びます。サビが常に最適とは限りません。サビ前の持ち上がり、変わったドラムブレイク、drop の直後の最初の一行のほうが残ることもあります。動画ツールを開く前に、開始点と終了点を正確に決めます。説明がないと伝わらない区間は、ティーザーには向きません。",
+        "## 4ビートのストーリーボードを作る",
+        "長い台本ではなく、4つの beat で考えます。最初の絵、最初の動き、歌詞またはタイトルの瞬間、最後のフレームです。例：手書きタイトルの close-up、街灯の光が beat に合わせて動く、一行の歌詞が出る、最後にアーティスト名と公開日を止める。このくらい小さくすると、音楽が主役のまま残ります。",
+        "## 文字を読める量にする",
+        "歌詞を出すなら、覚えてほしい一行だけにします。[AI 歌詞生成ツール](https://easymusic.ai/ja/tools/ai-lyrics-generator) は行の作成や調整に使えますが、動画に一節すべてを貼る必要はありません。短い字幕、文字の後ろが忙しすぎない背景、音なし再生の確認をセットにします。多くのフィードは最初から音が出ない状態で見られるからです。",
+        "## 映像生成や編集に使う枠組み",
+        "- 音声区間：正確な開始と終了、重要な歌詞または音。\n- 画面比率：縦、正方形、横を先に決める。\n- 映像世界：場所を一つ、色の気分を一つ、動きを一つ。\n- 文字レイヤー：タイトル、歌詞一行、日付、またはなし。\n- 境界：偽の有名人、紛らわしいブランド、読めない字幕、急なスタイル変更を避ける。",
+        "最初の映像 brief はこう書けます。暗めの synth-pop サビ用、18 秒の縦型ティーザー、雨のバス停、青い街灯、ゆっくりした handheld push-in、下三分の一に読める歌詞一行、架空のアーティスト顔なし、ロゴ模倣なし、最後は公開日で止める。2案作り、音を消しても意味が残るほうを選びます。",
+        "## 公開メモを小さく残す",
+        "プロンプト、音声ファイル、映像ソース、編集日、字幕文、投稿予定先を保存します。プラットフォームによっては、改変または合成された映像にラベルが求められる場合があります。また、音楽の権利確認は AI で作ったかどうかとは別の問題です。簡単なメモだけで全ては解決しませんが、修正、再投稿、引き渡し時の混乱を減らせます。",
+        "## FAQ",
+        "ティーザーは何秒がよいですか？ 多くは 12 秒から 25 秒で十分です。フックを一つ伝え、もう一度見られる長さです。AI シンガーを見せるべきですか？ 曲に役立つ映像表現なら使えますが、曖昧な顔は曲から注意を奪います。字幕は必要ですか？ 全文ではなく、歌詞一行かタイトルカードにします。投稿前に何を確認しますか？ 音あり、音なし、スマホ低輝度の3回で確認します。"
+      ]
+    },
+    "ko": {
+      "title": "AI 노래 티저 영상을 만들기 전에 먼저 설계하는 법",
+      "description": "AI로 만든 곡을 짧은 티저 영상으로 만들 때 훅, 읽히는 자막, 플랫폼 메모를 함께 정리하는 실전 워크플로입니다.",
+      "body": [
+        "노래 티저는 코러스, 전체 가사, 움직이는 카메라, 가짜 밴드, 제품 컷, 여러 시각 스타일을 한꺼번에 보여 주려 할 때 쉽게 실패합니다. 시청자는 훅을 듣기 전에 템플릿 냄새를 먼저 느낍니다. EasyMusic.AI의 [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)로 시작한다면 먼저 사용할 오디오 순간을 고르고, 그 한 가지 역할에 맞춰 영상을 만드세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "EasyMusic.AI는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 제작 플랫폼입니다. 티저 작업에서는 곡의 방향을 잡는 곳으로 쓰고, 이후 수동 편집이나 [AI music video generator](https://easymusic.ai/ai-music-video-generator) 같은 도구로 짧은 시각 처리를 조심스럽게 시험하는 편이 좋습니다.",
+        "## 전체 곡이 아니라 한 구간을 고른다",
+        "혼자서도 의미가 있는 12초에서 25초를 고르세요. 코러스가 항상 최선은 아닙니다. 프리코러스의 상승, 특이한 드럼 브레이크, drop 직후의 첫 문장이 더 오래 남을 수 있습니다. 영상 도구를 열기 전에 정확한 시작과 끝을 표시합니다. 설명이 많아야 이해되는 구간이라면 티저용으로 맞지 않습니다.",
+        "## 네 개의 beat로 스토리보드를 만든다",
+        "긴 대본 대신 네 beat만 씁니다. 시작 이미지, 첫 움직임, 가사나 제목 순간, 마지막 프레임입니다. 예를 들면 손글씨 제목 클로즈업, beat에 맞춰 움직이는 가로등 빛, 한 줄 가사 등장, 아티스트 이름과 발매일이 남는 마지막 프레임입니다. 이렇게 작게 계획해야 음악이 계속 중심에 있습니다.",
+        "## 글자는 읽히는 만큼만 둔다",
+        "가사를 보여 준다면 기억해야 할 한 줄만 씁니다. [AI 가사 생성기](https://easymusic.ai/ko/tools/ai-lyrics-generator)는 문장을 만들거나 다듬는 데 쓸 수 있지만, 영상에 한 절 전체를 붙일 필요는 없습니다. 짧은 자막, 글자 뒤의 복잡하지 않은 배경, 무음 재생 테스트를 함께 하세요. 많은 소셜 피드는 처음에 소리 없이 시작됩니다.",
+        "## 영상 단계에 쓰는 재사용 프레임",
+        "- 오디오 구간: 정확한 시작과 끝, 중요한 가사나 소리.\n- 화면 형태: 세로, 정사각형, 가로 중 먼저 결정.\n- 시각 세계: 장소 하나, 색 분위기 하나, 움직임 하나.\n- 텍스트 레이어: 제목, 가사 한 줄, 날짜, 또는 없음.\n- 경계: 가짜 유명인, 헷갈리는 브랜드 표시, 읽기 어려운 자막, 갑작스러운 스타일 전환 금지.",
+        "첫 비주얼 브리프는 이렇게 쓸 수 있습니다. 어두운 synth-pop 코러스용 18초 세로 티저, 비 오는 버스 정류장, 파란 가로등, 느린 handheld push-in, 하단 3분의 1에 읽히는 가사 한 줄, 가짜 아티스트 얼굴 없음, 로고 모방 없음, 발매일로 끝남. 두 버전을 만들고, 소리를 꺼도 의미가 남는 쪽을 고릅니다.",
+        "## 작은 게시 메모를 남긴다",
+        "프롬프트, 오디오 파일, 영상 소스, 편집일, 자막 문구, 게시할 곳을 보관하세요. 플랫폼에 따라 변경되거나 합성된 영상에 라벨을 요구할 수 있고, 음악 권리 문제는 파일이 AI로 만들어졌는지와 별개입니다. 간단한 메모가 모든 권리 문제를 해결하지는 않지만 수정, 재게시, 전달 때 혼란을 줄입니다.",
+        "## FAQ",
+        "티저는 얼마나 길어야 하나요? 보통 12초에서 25초면 한 훅을 보여 주고 두 번 볼 수 있습니다. AI 가수를 보여 줘야 하나요? 영상 스타일이 곡을 돕는 경우에만 좋습니다. 애매한 얼굴은 곡에서 주의를 빼앗습니다. 자막이 필요한가요? 전체 가사가 아니라 한 줄이나 제목 카드면 충분합니다. 게시 전 무엇을 테스트하나요? 소리 켜고 한 번, 무음으로 한 번, 휴대폰 화면 밝기를 낮춰 한 번 봅니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje um teaser curto para uma musica IA antes do video",
+      "description": "Um fluxo pratico para transformar uma musica gerada com IA em teaser curto com hook claro, legendas legiveis e notas de plataforma.",
+      "body": [
+        "Um teaser de musica falha quando tenta mostrar tudo ao mesmo tempo: refrao, letra inteira, camera em movimento, banda falsa, produto e tres estilos visuais. A pessoa percebe o template antes de ouvir o hook. Se voce comeca pelo [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator) da EasyMusic.AI, escolha primeiro o momento de audio e construa o video em torno dessa funcao.",
+        "## O que e EasyMusic.AI?",
+        "EasyMusic.AI e uma plataforma de criacao musical com IA para criar e ajustar faixas a partir de prompts, letras, ideias de estilo e escolha de modelo. Para teasers, use como lugar para moldar a ideia da musica e depois passe com cuidado para um tratamento visual curto, editado manualmente ou testado com uma ferramenta como o [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## Escolha uma secao, nao a musica inteira",
+        "Escolha 12 a 25 segundos que funcionem sozinhos. O refrao nem sempre e a melhor parte; uma subida antes do refrao, uma virada de bateria estranha ou a primeira linha depois de um drop podem marcar mais. Defina pontos exatos de entrada e saida antes de abrir uma ferramenta de video. Se a secao precisa de explicacao demais, nao e o teaser certo.",
+        "## Crie um storyboard de quatro beats",
+        "Use quatro beats em vez de um roteiro inteiro: imagem de abertura, primeiro movimento, momento de letra ou titulo e quadro final. Exemplo: close no titulo escrito a mao, luz de rua se movendo no beat, uma linha de letra aparece, ultimo quadro segura nome artistico e data de lancamento. Assim o plano visual fica pequeno o bastante para a musica comandar.",
+        "## Mantenha as palavras legiveis",
+        "Se o teaser usa letra, mostre apenas a linha que a pessoa precisa lembrar. O [gerador de letras com IA](https://easymusic.ai/pt/tools/ai-lyrics-generator) pode ajudar a criar ou refinar frases, mas o video nao deve colar um verso inteiro na tela. Use legendas curtas, evite fundos agitados atras do texto e teste o clipe sem som, porque muitos feeds comecam mudos.",
+        "## Estrutura reutilizavel para a etapa visual",
+        "- Secao de audio: inicio e fim exatos, mais a letra ou som importante.\n- Formato: vertical, quadrado ou largo, decidido antes de gerar.\n- Mundo visual: um lugar, um clima de cor, um tipo de movimento.\n- Camada de texto: titulo, linha de letra, data ou nada.\n- Limite: sem celebridade falsa, sem marca confusa, sem legenda ilegivel, sem mudanca brusca de estilo.",
+        "Um primeiro brief visual pode ser: teaser vertical de 18 segundos para refrao synth-pop sombrio, ponto de onibus chuvoso, luz azul, push-in lento de camera na mao, uma linha legivel no terco inferior, sem rosto falso de artista, sem imitacao de logo, final na data de lancamento. Gere ou edite duas versoes e fique com a que ainda faz sentido sem som.",
+        "## Salve uma pequena nota de publicacao",
+        "Guarde prompt, arquivo de audio, fonte de video, data de edicao, texto de legenda e onde pretende publicar. Plataformas podem pedir rotulos para visuais alterados ou sinteticos em certas situacoes, e perguntas sobre direitos musicais sao separadas do fato de o arquivo ter sido feito com IA. Uma nota simples nao resolve tudo, mas reduz confusao ao revisar, repostar ou entregar o teaser.",
+        "## Perguntas frequentes",
+        "Quanto deve durar o teaser? Normalmente 12 a 25 segundos, o bastante para vender um hook e curto para assistir de novo. Devo mostrar um cantor IA? So se o estilo visual ajuda a musica; um rosto pouco claro distrai. Preciso de legendas? Use uma linha de letra ou cartao de titulo, nao uma transcricao completa. O que testar antes de postar? Uma vez com som, uma vez sem som e uma vez no celular com brilho baixo."
+      ]
+    },
+    "ru": {
+      "title": "Как спланировать короткий тизер-видео для AI-песни",
+      "description": "Практичный процесс для короткого видео-тизера AI-песни: один hook, читаемые подписи и заметки для публикации на платформах.",
+      "body": [
+        "Тизер песни часто проваливается, когда пытается показать все сразу: припев, весь текст, движущуюся камеру, вымышленную группу, продуктовый кадр и три визуальных стиля. Зритель чувствует шаблон раньше, чем слышит hook. Если вы начинаете с [AI music generator](https://easymusic.ai/ru/ai-music-generator) от EasyMusic.AI, сначала выберите звуковой момент, а затем строите видео вокруг одной задачи.",
+        "## Что такое EasyMusic.AI?",
+        "EasyMusic.AI - это платформа для создания и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. Для тизера используйте ее как место, где формируется музыкальная идея, а затем осторожно переходите к короткой визуальной версии, вручную или через инструмент вроде [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## Выберите один фрагмент, а не всю песню",
+        "Возьмите 12-25 секунд, которые работают сами по себе. Припев не всегда лучший выбор: подъем перед припевом, странный drum break или первая строка после drop иногда запоминаются сильнее. До открытия видеосервиса отметьте точные точки входа и выхода. Если фрагмент приходится долго объяснять, он не подходит для тизера.",
+        "## Сделайте storyboard из четырех beats",
+        "Используйте четыре beats вместо полного сценария: стартовый кадр, первое движение, момент текста или названия, финальный кадр. Например: крупный план рукописного названия, свет фонаря движется в ритм, появляется одна строка текста, финальный кадр держит имя артиста и дату релиза. Такой план достаточно мал, чтобы музыка оставалась главной.",
+        "## Оставляйте слова читаемыми",
+        "Если тизер показывает lyrics, используйте только строку, которую зритель должен запомнить. [AI lyrics generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) может помочь написать или уточнить строки, но видео не должно размещать на экране целый куплет. Делайте короткие подписи, избегайте шумного фона за текстом и проверяйте клип без звука, потому что многие ленты стартуют без аудио.",
+        "## Повторяемая рамка для визуального этапа",
+        "- Аудиофрагмент: точное начало и конец, плюс важная строка или звук.\n- Формат кадра: вертикальный, квадратный или широкий, выбран до генерации.\n- Визуальный мир: одно место, одно цветовое настроение, один тип движения.\n- Текстовый слой: название, строка lyrics, дата или ничего.\n- Граница: без фальшивой знаменитости, без путаного бренда, без нечитаемых подписей, без резкой смены стиля.",
+        "Первый визуальный brief может звучать так: 18-секундный вертикальный тизер для мрачного synth-pop припева, дождливая автобусная остановка, синий фонарь, медленный handheld push-in, одна читаемая строка в нижней трети, без фальшивого лица артиста, без имитации логотипа, конец на дате релиза. Создайте или смонтируйте две версии и оставьте ту, которая понятна без звука.",
+        "## Сохраните короткую заметку о публикации",
+        "Сохраните промпт, аудиофайл, видеоисточник, дату монтажа, текст подписи и место публикации. Платформы могут требовать маркировку измененных или синтетических визуальных материалов в некоторых случаях, а вопросы музыкальных прав не сводятся к тому, создан ли файл с ИИ. Простая заметка не решает все, но уменьшает путаницу при правке, повторной публикации или передаче тизера.",
+        "## FAQ",
+        "Какой длины должен быть тизер? Обычно 12-25 секунд: достаточно для одного hook и коротко для повторного просмотра. Стоит ли показывать AI-певца? Только если визуальный стиль помогает песне; неясное лицо отвлекает. Нужны ли субтитры? Используйте одну строку текста или карточку с названием, не полную расшифровку. Что проверить перед публикацией? Один раз со звуком, один раз без звука и один раз на телефоне с низкой яркостью."
+      ]
+    },
+    "zh": {
+      "title": "先规划，再制作 AI 歌曲短视频预告工作流",
+      "description": "把 AI 生成歌曲做成短视频预告的实用流程：突出一个 hook，保证字幕可读，并留下发布记录。",
+      "body": [
+        "歌曲预告视频最容易失败的地方，是想一次展示所有东西：副歌、整段歌词、移动镜头、虚构乐队、产品画面和几种视觉风格。观众还没听到 hook，先看到了模板感。如果你从 EasyMusic.AI 的 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 开始，请先选定一个音频瞬间，再围绕这个任务制作视频。",
+        "## EasyMusic.AI 是什么？",
+        "EasyMusic.AI 是一个 AI 音乐创作平台，可以根据提示词、歌词、风格想法和模型选择来生成并调整音乐。用于预告视频时，可以先用它确定歌曲方向，然后再谨慎进入短视频视觉处理，可能是手动剪辑，也可能是测试 [AI music video generator](https://easymusic.ai/ai-music-video-generator) 这类工具。",
+        "## 选一个段落，不是整首歌",
+        "选择 12 到 25 秒、单独拿出来也成立的片段。副歌并不总是最佳选择；副歌前的上扬、一个特别的鼓点 break、drop 后第一句歌词，可能更让人记住。打开视频工具之前，先标出精确的开始和结束。如果一个片段需要解释很多，说明它不适合作预告。",
+        "## 用四个 beat 做 storyboard",
+        "不要先写完整脚本，只写四个 beat：开场画面、第一次运动、歌词或标题瞬间、结束帧。例如：手写标题特写，路灯光跟着节拍移动，一句歌词出现，最后一帧停在艺名和发布日期。视觉计划越小，音乐越容易保持主导。",
+        "## 让文字真的可读",
+        "如果视频要放歌词，只放观众必须记住的一行。[AI 歌词生成器](https://easymusic.ai/zh/tools/ai-lyrics-generator) 可以帮助起草或调整歌词句子，但视频不应该把一整段 verse 都贴到屏幕上。使用短字幕，避免文字背后太花，并测试静音播放，因为很多信息流默认就是无声开始。",
+        "## 可复用的视觉 brief 框架",
+        "- 音频片段：准确开始和结束，以及最重要的歌词或声音。\n- 画面比例：竖屏、方形或横屏，生成前先决定。\n- 视觉世界：一个地点，一种色彩情绪，一种运动方式。\n- 文字层：标题、歌词一行、日期，或不要文字。\n- 边界：不要虚假名人，不要容易混淆的品牌标记，不要读不清的字幕，不要突然换风格。",
+        "第一版视觉 brief 可以这样写：18 秒竖屏预告，用于阴郁 synth-pop 副歌，雨夜公交站，蓝色路灯，缓慢 handheld push-in，下三分之一处放一行可读歌词，不要虚构艺人脸，不要模仿 logo，最后停在发布日期。生成或剪出两个版本，保留静音时仍然能看懂的那一个。",
+        "## 留一条简短发布记录",
+        "保存提示词、音频文件、视频来源、剪辑日期、字幕文案和计划发布的平台。某些平台在特定情况下会要求对改动或合成视觉内容做标识；音乐权利问题也不等同于文件是否由 AI 制作。一条简单记录不能解决所有问题，但能减少修改、重发或交接时的混乱。",
+        "## 常见问题",
+        "预告应该多长？通常 12 到 25 秒足够，让一个 hook 成立，也短到可以看第二遍。要展示 AI 歌手吗？只有当这种视觉风格能帮助歌曲时才需要；模糊的人脸很容易分散注意力。需要字幕吗？用一行歌词或标题卡片，不要放完整逐字稿。发布前检查什么？有声播放一次，静音播放一次，再用低亮度手机屏幕看一次。"
+      ]
+    },
+    "ar": {
+      "title": "خطط لفيديو تشويقي قصير لاغنية AI قبل توليد المشاهد",
+      "description": "مسار عملي لتحويل اغنية مولدة بالذكاء الاصطناعي الى فيديو تشويقي قصير ب hook واضح، نص مقروء، وملاحظات مناسبة للنشر.",
+      "body": [
+        "يفشل فيديو الاغنية التشويقي عندما يحاول عرض كل شيء دفعة واحدة: الكورس، كل الكلمات، كاميرا متحركة، فرقة غير حقيقية، لقطة منتج، وثلاثة اساليب بصرية. يشعر المشاهد بالقالب قبل ان يسمع ال hook. اذا بدأت من [مولد الموسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator) في EasyMusic.AI، فاختر لحظة الصوت اولا، ثم ابن الفيديو حول وظيفة واحدة.",
+        "## ما هو EasyMusic.AI؟",
+        "EasyMusic.AI هو منصة لصناعة الموسيقى بالذكاء الاصطناعي اعتمادا على المطالبات، الكلمات، افكار الاسلوب، واختيار النموذج. في عمل الفيديو التشويقي، استخدمه لتشكيل فكرة الاغنية، ثم انتقل بحذر الى معالجة بصرية قصيرة، سواء بالتحرير اليدوي او بتجربة اداة مثل [AI music video generator](https://easymusic.ai/ai-music-video-generator).",
+        "## اختر مقطعا واحدا لا الاغنية كاملة",
+        "اختر من 12 الى 25 ثانية يمكن ان تقف وحدها. الكورس ليس دائما افضل اختيار؛ ربما يكون صعود ما قبل الكورس، break ايقاعي غريب، او اول سطر بعد drop اكثر قابلية للتذكر. حدد نقطة الدخول والخروج بدقة قبل فتح اداة الفيديو. اذا احتاج المقطع الى شرح طويل، فهو ليس مقطع teaser مناسبا.",
+        "## اصنع storyboard من اربع beats",
+        "استخدم اربع beats بدلا من سيناريو كامل: صورة افتتاحية، اول حركة، لحظة كلمات او عنوان، واطار نهائي. مثال: لقطة قريبة لعنوان مكتوب باليد، ضوء شارع يتحرك مع الايقاع، يظهر سطر كلمات واحد، ثم اطار اخير يحمل اسم الفنان وتاريخ النشر. هكذا يبقى التخطيط صغيرا بما يكفي لتقود الموسيقى.",
+        "## اجعل الكلمات مقروءة",
+        "اذا استخدم الفيديو كلمات، فاعرض السطر الذي يجب ان يتذكره المشاهد فقط. يمكن ان يساعد [مولد الكلمات بالذكاء الاصطناعي](https://easymusic.ai/ar/tools/ai-lyrics-generator) في كتابة السطور او تنقيحها، لكن الفيديو لا يحتاج الى لصق verse كامل على الشاشة. استخدم captions قصيرة، وتجنب الخلفيات المزدحمة خلف النص، واختبر المقطع بلا صوت لان كثيرا من الخلاصات تبدأ صامتة.",
+        "## قالب قابل للاعادة للمرحلة البصرية",
+        "- مقطع الصوت: بداية ونهاية دقيقتان، مع السطر او الصوت المهم.\n- شكل الاطار: عمودي، مربع، او عريض، ويحدد قبل التوليد.\n- العالم البصري: مكان واحد، مزاج لوني واحد، ونوع حركة واحد.\n- طبقة النص: عنوان، سطر كلمات، تاريخ، او لا شيء.\n- الحدود: بلا مشهور مزيف، بلا علامة تجارية مربكة، بلا captions غير مقروءة، بلا تغيير اسلوب مفاجئ.",
+        "يمكن ان يكون اول brief بصري هكذا: teaser عمودي من 18 ثانية لكورس synth-pop داكن، موقف حافلات ممطر، ضوء شارع ازرق، حركة handheld بطيئة الى الداخل، سطر كلمات مقروء في الثلث السفلي، بلا وجه فنان مزيف، بلا تقليد شعار، النهاية على تاريخ الاصدار. اصنع نسختين او حررهما، ثم احتفظ بالنسخة التي تبقى مفهومة وهي صامتة.",
+        "## احفظ ملاحظة نشر صغيرة",
+        "احتفظ بالمطالبة، ملف الصوت، مصدر الفيديو، تاريخ التحرير، نص ال caption، والمكان الذي ستنشر فيه. قد تطلب المنصات في بعض الحالات وسم المرئيات المعدلة او الاصطناعية، واسئلة حقوق الموسيقى منفصلة عن كون الملف مصنوعا بالذكاء الاصطناعي. ملاحظة بسيطة لا تحل كل شيء، لكنها تمنع الارتباك عند المراجعة او اعادة النشر او تسليم teaser لشخص اخر.",
+        "## FAQ",
+        "كم يجب ان يكون طول teaser؟ غالبا من 12 الى 25 ثانية، كافيا لبيع hook واحد وقصيرا بما يكفي للمشاهدة مرتين. هل اعرض مغنيا AI؟ فقط اذا كان الاسلوب البصري يخدم الاغنية؛ الوجه غير الواضح يشتت الانتباه. هل احتاج الى subtitles؟ استخدم سطر كلمات واحدا او بطاقة عنوان، لا تفريغا كاملا. ماذا اختبر قبل النشر؟ شغله مرة بالصوت، ومرة صامتا، ومرة على هاتف بسطوع منخفض."
+      ]
+    }
+  }
+}

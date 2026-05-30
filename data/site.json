@@ -72,6 +72,9 @@
       "ru": "https://easymusic.ai/ru/tools/music-style-generator",
       "zh": "https://easymusic.ai/zh/tools/music-style-generator"
     },
+    "aiMusicVideoGenerator": {
+      "en": "https://easymusic.ai/ai-music-video-generator"
+    },
     "pricing": {
       "ar": "https://easymusic.ai/ar/pricing",
       "de": "https://easymusic.ai/de/pricing",
