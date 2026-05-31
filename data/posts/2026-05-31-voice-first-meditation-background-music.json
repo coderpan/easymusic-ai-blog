@@ -1,0 +1,238 @@
+{
+  "date": "2026-05-31",
+  "slug": "voice-first-meditation-background-music",
+  "cluster": "wellness-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع موسيقى تأمل بالذكاء الاصطناعي تترك مساحة للصوت",
+      "description": "طريقة عملية لصنع خلفية موسيقية هادئة للتأمل أو التنفس الموجه، مع Prompt واضح واختبار مزج بسيط قبل النشر.",
+      "body": [
+        "تسجيل التأمل الموجه لا يحتاج إلى موسيقى جميلة فقط. إذا أصبحت الموسيقى لحنًا يتتبعه المستمع، أو إذا غطت على كلمات المرشد، فسيتحول التمرين إلى صراع صغير مع الصوت. قبل استخدام [مولد الموسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، اكتب الخطة وكأن الصوت البشري هو العنصر الرئيسي والموسيقى طبقة دعم هادئة.",
+        "## ما هو EasyMusic.AI؟",
+        "EasyMusic.AI منصة لإنشاء الموسيقى بالذكاء الاصطناعي من أفكار نصية وكلمات ووصف أسلوبي وخيارات نماذج. في عمل التأمل أو التنفس، استخدمها لتجربة سرعات وألوان صوتية ونسخ هادئة، ثم قيّم النتيجة داخل التسجيل الحقيقي بدل الحكم عليها وحدها.",
+        "## ابدأ بنص الصوت لا بنوع الموسيقى",
+        "اقرأ أول دقيقة من النص بصوت مرتفع وحدد مواضع الصمت والتنفس والانتقال. اكتب: جلسة تنفس مدتها 8 دقائق، صوت هادئ في المقدمة، دخول موسيقي بطيء، لا غناء، لا إيقاع واضح، لا ذروة مفاجئة، وتلاشي ناعم في النهاية. هذا أفضل من طلب موسيقى تأمل فقط، لأنه يصف وظيفة الخلفية.",
+        "## اجعل Prompt ضيقًا ومفيدًا",
+        "استخدم أربع خانات: المدة أو شكل الحلقة، السرعة، الخامة، وما يجب تجنبه. مثال قابل لإعادة الاستخدام: خلفية Ambient هادئة لجلسة تأمل موجهة، 60 إلى 70 BPM، طبقات Pad دافئة، بيانو قليل جدًا، نسيج هوائي، بدون غناء، بدون طبول، بدون Drop، تتكرر بهدوء وتترك مساحة لصوت منخفض. إذا كنت تحتاج مفردات أدق للخامة، جرّب [مولد أنماط الموسيقى](https://easymusic.ai/ar/tools/music-style-generator) قبل إنشاء النسخة الكاملة.",
+        "## اختبرها تحت الصوت الحقيقي",
+        "لا تعتمد على سماع المقطع وحده. ضع الموسيقى تحت تسجيلك، ثم شغلها بسماعات، وبمكبر هاتف صغير، وبمستوى صوت منخفض. إذا ضاعت الحروف أو أصبحت الموسيقى أجمل شيء في التسجيل، فهي مرتفعة أو مزدحمة. كقاعدة عملية، اجعل الموسيقى أدنى بكثير من الكلام، واترك للمرشد أوضح مكان في المزيج.",
+        "## ثلاث أفكار قابلة للتطبيق فورًا",
+        "- اصنع نسخة من دون موسيقى لأول مراجعة، ثم أضف الخلفية فقط إذا حسّنت التجربة.\n- اجعل أول 10 ثوان وآخر 15 ثانية Fade ناعمًا حتى لا يبدأ أو ينتهي التسجيل بصدمة صوتية.\n- احتفظ ببطاقة صغيرة فيها Prompt، المدة، مستوى الصوت النسبي، تاريخ التعديل، والمكان الذي ستنشر فيه التسجيل.",
+        "## أخطاء شائعة",
+        "تجنب الأصوات الغنائية حتى لو لم تكن كلمات واضحة؛ كثير من المستمعين يتعاملون معها كصوت بشري آخر. تجنب التحولات الكبيرة في منتصف الجلسة، لأنها تعيد الانتباه إلى الموسيقى. ولا تعد بأن الموسيقى مناسبة لكل استخدام تجاري أو علاجي؛ راجع شروط الأداة ومتطلبات المشروع والمنصة قبل النشر.",
+        "## أسئلة شائعة",
+        "هل يجب أن تكون الموسيقى طوال الجلسة؟ غالبًا نعم إذا كانت خلفية، لكن الصمت المقصود قد يكون أفضل في بعض التمارين. ما أفضل طول للتجربة الأولى؟ ابدأ بمقطع من دقيقتين واختبره تحت الصوت قبل إنشاء نسخة طويلة. هل أستخدم كلمات؟ لا في الخلفية الموجهة؛ الكلمات تنافس الإرشاد. ماذا أفعل إذا أضافت الأداة أصواتًا بشرية؟ أعد الصياغة بعبارات Instrumental وبدون غناء، أو اختر نتيجة أخرى أبسط."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fur Meditation, bei der die Stimme klar bleibt",
+      "description": "Ein praktischer Workflow fur ruhige Meditations- und Atemmusik unter Voiceover, mit brauchbarem Prompt, Mix-Test und klaren Grenzen.",
+      "body": [
+        "Eine gefuhrte Meditation scheitert selten, weil die Musik zu schlicht ist. Sie scheitert, wenn die Musik interessanter wird als die Stimme, plotzlich anschwillt oder Konsonanten verdeckt. Bevor du einen [AI Music Generator](https://easymusic.ai/de/ai-music-generator) nutzt, plane die Musik als leises Bett fur die Stimme, nicht als eigenstandigen Track.",
+        "## Was ist EasyMusic.AI?",
+        "EasyMusic.AI ist eine Plattform zum Erstellen von Musik mit KI aus Prompts, Lyrics, Stilideen und Modelloptionen. Fur Meditation, Atemubungen oder ruhige Kurs-Audios ist sie vor allem ein Ort zum Testen von Texturen, Tempo und Varianten; die eigentliche Qualitatskontrolle passiert im Mix mit deiner Aufnahme.",
+        "## Schreibe zuerst den Sprachbogen",
+        "Lies dein Skript laut und markiere Einstieg, Atempausen, langere Stille und Ruckkehr. Ein guter Arbeitsauftrag klingt konkret: 10-minutige Atemsession, ruhige Sprecherstimme vorn, langsamer Einstieg, keine Vocals, kein deutlicher Beat, keine dramatische Steigerung, sanftes Ende. Das ist viel nutzlicher als nur ambient meditation music.",
+        "## Baue den Prompt aus vier Feldern",
+        "Nutze Dauer oder Loop-Form, Tempo, Klangmaterial und Ausschlusse. Beispiel: ruhiges Ambient-Bett fur gefuhrte Meditation, 60 bis 70 BPM, warme Pad-Flachen, sehr sparsames Piano, luftige Textur, instrumental, keine Vocals, keine Drums, kein Drop, gleichmassig und voiceover-freundlich. Wenn dir die richtigen Stilworter fehlen, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) helfen, die Klangbeschreibung vor der Generierung zu scharfen.",
+        "## Teste im echten Voiceover-Mix",
+        "Bewerte den Track nicht solo. Lege ihn unter deine Stimme und hore ihn uber Kopfhorer, Smartphone-Lautsprecher und sehr leise Wiedergabe. Wenn du einzelne Wortenden verlierst, wenn der Bass die Stimme verdickt oder wenn du auf die Melodie wartest, ist die Musik zu laut oder zu komplex. Fur sprachgefuhrte Audios sollte die Stimme klar gewinnen.",
+        "## Drei sofort nutzbare Ideen",
+        "- Erstelle zuerst eine stille Sprachfassung und fug die Musik erst danach als Testschicht hinzu.\n- Verwende einen weichen Fade-in und Fade-out, damit Anfang und Ende nicht abrupt wirken.\n- Speichere Prompt, Version, Dauer, Mix-Notiz, Exportdatum und geplante Plattform in einer kleinen Produktionskarte.",
+        "## Typische Fehler",
+        "Summende Stimmen, Chore oder hauchige Vocal-Samples konnen genauso ablenken wie gesungene Worte. Zu viele Akkordwechsel machen aus Hintergrundmusik eine Erzahlung. Und ein KI-generierter Track ersetzt keine Prufung von Tool-Bedingungen, Plattformregeln oder Kundenanforderungen, falls du das Audio offentlich oder kommerziell nutzt.",
+        "## FAQ",
+        "Soll die Musik die ganze Meditation laufen? Meist ja, wenn sie als Hintergrundbett gedacht ist; geplante Stille kann aber besser sein als ein zufalliges Ende. Welche Lange ist gut fur den ersten Test? Zwei Minuten reichen, um Stimme, Tempo und Dichte zu prufen. Sind Naturgerausche sinnvoll? Nur sparsam, denn Wasser, Wind oder Glocken konnen Sprache maskieren. Was mache ich, wenn Vocals auftauchen? Schreibe instrumental und keine Vocals fruh in den Prompt und wahle die schlichteste brauchbare Variante."
+      ]
+    },
+    "en": {
+      "title": "Make AI Meditation Background Music That Leaves Room for the Voice",
+      "description": "A practical workflow for creating quiet AI meditation or breathwork music beds that support narration instead of competing with it.",
+      "body": [
+        "A guided meditation does not need the most beautiful music you can generate. It needs music that almost disappears until the listener would miss it. If the track swells, sings, or pulls attention away from the words, it has failed the session. Before opening an [AI music generator](https://easymusic.ai/ai-music-generator), treat the voice as the foreground and the music as a support layer.",
+        "## What is EasyMusic.AI?",
+        "EasyMusic.AI is an AI music creation platform for making tracks from prompts, lyrics, style ideas, and model choices. For meditation, breathwork, sleep wind-downs, or quiet course audio, use it to test calm textures and variations, then judge the result under the real narration rather than as a standalone song.",
+        "## Start with the spoken script",
+        "Read the first minute aloud and mark the opening, breathing gaps, long pauses, and final return. A useful brief might say: 8-minute guided breathing practice, calm voice in front, very slow fade-in, no vocals, no obvious beat, no dramatic lift, gentle fade-out. That gives the music a job. A vague request for relaxing meditation music does not.",
+        "## Build a narrow prompt",
+        "Use four fields: length or loop shape, tempo, sound palette, and boundaries. A reusable prompt could be: quiet ambient bed for guided meditation voiceover, 60 to 70 BPM, warm sustained pads, sparse felt piano, airy texture, instrumental only, no vocals, no drums, no drop, steady low-energy movement, clean fade ending. If the style language feels thin, use the [music style generator](https://easymusic.ai/tools/music-style-generator) to collect better texture words before generating the full bed.",
+        "## Test it under the real voice",
+        "Do not approve the music by listening to it alone. Put it under the narration and test it on headphones, a phone speaker, and very low volume. If consonants blur, if the bass thickens the voice, or if you start waiting for the chord change, lower the music or choose a simpler take. For speech-led audio, the voice should win without effort.",
+        "## Three ideas you can reuse today",
+        "- Make a voice-only reference first, then add music as a removable layer.\n- Use a soft 8 to 12 second fade-in and a longer fade-out so the session never snaps in or out.\n- Save a production card with the prompt, version, duration, relative mix level, export date, and intended platform.",
+        "## Mistakes to avoid",
+        "Avoid vocal pads if they sound like another person in the room. Avoid big mid-session changes, because the listener will notice the music instead of the practice. Avoid promising that an AI-generated track is cleared for every use; review the tool terms, client requirements, and platform rules for the actual project.",
+        "## FAQ",
+        "Should the music run through the whole meditation? Usually, if it is a background bed, but planned silence can be stronger than an accidental cutoff. How long should the first test be? Two minutes is enough to check voice clarity, tempo, and density. Should I add nature sounds? Only if they stay below the voice and do not create masking. What if the tool keeps adding vocals? Put instrumental only and no vocals early in the prompt, remove lyric cues, and keep the simplest usable take."
+      ]
+    },
+    "es": {
+      "title": "Crea musica de meditacion con IA sin tapar la voz",
+      "description": "Un flujo practico para crear fondos tranquilos de meditacion o respiracion guiada con IA, probarlos bajo la narracion y evitar distracciones.",
+      "body": [
+        "Una meditacion guiada no mejora porque la musica sea mas llamativa. Mejora cuando la voz se entiende sin esfuerzo y el fondo sostiene el ambiente sin pedir atencion. Antes de usar un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator), decide que la voz manda y que la musica solo acompana.",
+        "## Que es EasyMusic.AI?",
+        "EasyMusic.AI es una plataforma para crear musica con IA a partir de prompts, letras, ideas de estilo y opciones de modelo. En meditaciones, ejercicios de respiracion o audios tranquilos para cursos, sirve para probar texturas suaves y variantes; la decision final debe tomarse escuchando la mezcla con la voz real.",
+        "## Empieza por el guion hablado",
+        "Lee el primer minuto en voz alta y marca entrada, pausas de respiracion, silencios largos y cierre. Un brief util diria: practica guiada de 8 minutos, voz tranquila al frente, entrada muy lenta, sin voces, sin ritmo evidente, sin subida dramatica, final con fade suave. Eso da una funcion a la musica. Pedir musica relajante de meditacion es demasiado amplio.",
+        "## Escribe un prompt estrecho",
+        "Usa cuatro campos: duracion o forma de loop, tempo, paleta sonora y limites. Ejemplo reutilizable: fondo ambient tranquilo para voz de meditacion guiada, 60 a 70 BPM, pads calidos sostenidos, piano felt muy escaso, textura aireada, solo instrumental, sin voces, sin bateria, sin drop, movimiento estable de baja energia, final limpio con fade. Si te faltan palabras de estilo, prueba el [generador de estilos musicales](https://easymusic.ai/es/tools/music-style-generator) antes de crear la pista completa.",
+        "## Pruebala debajo de la voz real",
+        "No apruebes la musica escuchandola sola. Colocala bajo la narracion y revisala con audifonos, con el altavoz del telefono y a volumen muy bajo. Si las consonantes se pierden, si el bajo ensucia la voz o si esperas el cambio de acorde, baja la musica o elige una version mas simple. En audio guiado, la voz debe ganar sin esfuerzo.",
+        "## Tres ideas para usar hoy",
+        "- Crea primero una referencia solo con voz y anade musica como capa que puedas quitar.\n- Usa un fade-in suave de 8 a 12 segundos y un fade-out mas largo para evitar cortes bruscos.\n- Guarda una tarjeta de produccion con prompt, version, duracion, nivel relativo de mezcla, fecha de exportacion y plataforma prevista.",
+        "## Errores que conviene evitar",
+        "Evita pads vocales si parecen otra persona en la sala. Evita cambios grandes a mitad de la sesion, porque llevan la atencion hacia la musica. Y evita prometer que una pista generada con IA sirve para cualquier uso; revisa terminos de la herramienta, requisitos del cliente y reglas de la plataforma concreta.",
+        "## Preguntas frecuentes",
+        "La musica debe sonar durante toda la meditacion? Normalmente si es un fondo, aunque un silencio planeado puede ser mejor que un corte accidental. Cuanto debe durar la primera prueba? Dos minutos bastan para revisar claridad, tempo y densidad. Convienen sonidos de naturaleza? Solo si quedan por debajo de la voz y no la enmascaran. Que hago si aparecen voces? Escribe solo instrumental y sin voces al principio del prompt, quita pistas de letra y conserva la toma mas simple."
+      ]
+    },
+    "fr": {
+      "title": "Creer une musique IA de meditation qui laisse la voix devant",
+      "description": "Un workflow concret pour produire un fond musical calme de meditation ou de respiration guidee, puis le tester sous la narration.",
+      "body": [
+        "Une meditation guidee n'a pas besoin d'une musique spectaculaire. Elle a besoin d'un fond qui soutient l'attention sans voler la place de la voix. Si le morceau gonfle, chante ou attire l'oreille au mauvais moment, il travaille contre la seance. Avant d'utiliser un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator), place la voix au premier plan et la musique en couche de soutien.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "EasyMusic.AI est une plateforme de creation musicale par IA a partir de prompts, paroles, idees de style et choix de modeles. Pour la meditation, la respiration guidee ou les audios de relaxation, utilise-la pour explorer des textures calmes et des variantes, puis juge le resultat dans le vrai mix avec la narration.",
+        "## Commence par le texte parle",
+        "Lis la premiere minute a voix haute et note l'ouverture, les respirations, les silences longs et le retour final. Un brief utile ressemble a ceci : pratique respiratoire guidee de 8 minutes, voix calme devant, entree tres lente, pas de voix chantee, pas de rythme marque, pas de montee dramatique, fondu de fin doux. La musique recoit alors une mission precise.",
+        "## Reduis le prompt",
+        "Travaille avec quatre champs : duree ou boucle, tempo, palette sonore et limites. Exemple : fond ambient calme pour voix de meditation guidee, 60 a 70 BPM, nappes chaudes tenues, piano feutre tres rare, texture aerienne, instrumental uniquement, pas de voix, pas de batterie, pas de drop, mouvement stable et discret, fin propre en fondu. Si le vocabulaire manque, le [generateur de style musical](https://easymusic.ai/fr/tools/music-style-generator) peut aider a preciser les textures avant la generation.",
+        "## Teste sous la voix reelle",
+        "N'approuve pas la musique seule. Place-la sous la narration, puis ecoute au casque, sur haut-parleur de telephone et a tres faible volume. Si les consonnes se floutent, si les basses epaississent la voix ou si tu attends le prochain accord, baisse la musique ou choisis une version plus simple. Dans un audio guide, la voix doit gagner sans effort.",
+        "## Trois idees reutilisables",
+        "- Cree d'abord une version voix seule, puis ajoute la musique comme couche amovible.\n- Prevois un fade-in doux de 8 a 12 secondes et un fade-out plus long pour eviter les ruptures.\n- Garde une fiche de production avec prompt, version, duree, niveau relatif, date d'export et plateforme visee.",
+        "## Erreurs a eviter",
+        "Les pads vocaux peuvent distraire meme sans paroles, car ils donnent l'impression d'une deuxieme voix. Les grands changements au milieu de la seance ramenent l'attention vers la musique. Et une piste creee par IA ne doit pas etre presentee comme valable pour tous les usages sans verifier les conditions de l'outil, le contexte client et les regles de publication.",
+        "## FAQ",
+        "La musique doit-elle durer toute la seance ? Souvent oui pour un fond continu, mais un silence volontaire peut etre plus fort qu'une coupure accidentelle. Quelle longueur pour le premier test ? Deux minutes suffisent pour verifier clarte, tempo et densite. Les sons de nature sont-ils utiles ? Seulement s'ils restent sous la voix. Que faire si des voix apparaissent ? Mets instrumental uniquement et pas de voix tot dans le prompt, supprime les indices de paroles et garde la prise la plus simple."
+      ]
+    },
+    "it": {
+      "title": "Crea musica AI per meditazione lasciando spazio alla voce",
+      "description": "Un metodo pratico per creare basi calme per meditazioni o respirazioni guidate, con prompt mirato e test di mix sotto la voce.",
+      "body": [
+        "Una meditazione guidata non ha bisogno della musica piu interessante possibile. Ha bisogno di un letto sonoro che aiuti senza rubare attenzione alla voce. Se la traccia cresce troppo, sembra cantare o copre le consonanti, il risultato diventa faticoso. Prima di usare un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator), decidi che la voce e il primo piano e la musica e solo supporto.",
+        "## Che cos'e EasyMusic.AI?",
+        "EasyMusic.AI e una piattaforma per creare musica con l'AI usando prompt, testi, idee di stile e opzioni di modello. Per meditazioni, breathwork o audio calmi per corsi, usala per provare texture, tempi e varianti; poi valuta tutto sotto la registrazione vocale reale.",
+        "## Parti dal copione parlato",
+        "Leggi ad alta voce il primo minuto e segna apertura, pause di respiro, silenzi lunghi e chiusura. Un brief utile puo dire: pratica guidata di 8 minuti, voce calma davanti, fade-in molto lento, nessuna voce, nessun beat evidente, nessun crescendo drammatico, fade-out morbido. Questo assegna alla musica un compito preciso.",
+        "## Scrivi un prompt stretto",
+        "Usa quattro campi: durata o forma del loop, tempo, tavolozza sonora e limiti. Esempio riutilizzabile: base ambient quieta per voce di meditazione guidata, 60-70 BPM, pad caldi sostenuti, pianoforte felt molto raro, texture ariosa, solo strumentale, niente voci, niente batteria, niente drop, movimento stabile e a bassa energia, finale pulito in fade. Se mancano parole di stile, prova il [generatore di stili musicali](https://easymusic.ai/it/tools/music-style-generator) prima di generare la base completa.",
+        "## Provala sotto la voce vera",
+        "Non approvare la musica ascoltandola da sola. Mettila sotto la narrazione e prova cuffie, altoparlante del telefono e volume molto basso. Se le parole perdono nitidezza, se il basso sporca la voce o se aspetti il cambio armonico, abbassa la musica o scegli una take piu semplice. Nell'audio guidato, la voce deve vincere senza sforzo.",
+        "## Tre idee da usare subito",
+        "- Crea prima una versione solo voce, poi aggiungi la musica come livello rimovibile.\n- Usa un fade-in morbido di 8-12 secondi e un fade-out piu lungo per evitare stacchi bruschi.\n- Salva una scheda con prompt, versione, durata, livello relativo nel mix, data di export e piattaforma prevista.",
+        "## Errori da evitare",
+        "Evita pad vocali se sembrano un'altra persona nella stanza. Evita grandi cambi nel mezzo della sessione, perche riportano l'attenzione sulla musica. E non promettere che una traccia generata con AI sia adatta a qualsiasi uso: controlla condizioni dello strumento, requisiti del progetto e regole della piattaforma.",
+        "## FAQ",
+        "La musica deve durare tutta la meditazione? Di solito si, se e un sottofondo, ma un silenzio progettato puo funzionare meglio di un taglio casuale. Quanto deve durare il primo test? Due minuti bastano per controllare voce, tempo e densita. I suoni naturali aiutano? Solo se restano sotto la voce e non la mascherano. Che fare se compaiono voci? Metti solo strumentale e niente voci all'inizio del prompt, togli riferimenti al testo e scegli la versione piu semplice."
+      ]
+    },
+    "ja": {
+      "title": "声を邪魔しないAI瞑想BGMを作る実用手順",
+      "description": "ガイド瞑想や呼吸法のナレーションを支える静かなAI音楽を作り、実際の声の下で確認するための実用的な手順です。",
+      "body": [
+        "ガイド瞑想に必要なのは、単体で映える音楽ではありません。聴き手が言葉を自然に追えて、音楽の存在をほとんど忘れられることです。曲が盛り上がりすぎたり、声のような成分が入ったり、子音を隠したりすると、練習の集中が切れます。[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)を開く前に、声を主役、音楽を支えとして設計します。",
+        "## EasyMusic.AIとは？",
+        "EasyMusic.AIは、プロンプト、歌詞、スタイル案、モデル選択からAI音楽を作るためのプラットフォームです。瞑想、呼吸法、睡眠前の音声、静かな講座音声では、穏やかな質感やテンポの案を試し、最終判断は実際のナレーションの下で行うのが現実的です。",
+        "## まず話す台本から始める",
+        "最初の1分を声に出して読み、導入、呼吸の間、長い沈黙、終わりへの戻りを印します。使えるブリーフは、8分の呼吸ガイド、落ち着いた声が前面、とても遅いフェードイン、ボーカルなし、はっきりしたビートなし、急な盛り上がりなし、柔らかいフェードアウト、のように具体的です。単にリラックスできる瞑想音楽と書くより、音楽の役割が明確になります。",
+        "## プロンプトを狭くする",
+        "長さまたはループ形、テンポ、音色、禁止事項の4つで書きます。例: guided meditation voiceover のための静かなambient bed、60から70 BPM、暖かい持続パッド、少ないfelt piano、空気感のある質感、instrumental only、no vocals、no drums、no drop、低いエネルギーで安定、きれいなフェード終わり。質感の言葉が足りない場合は、全体生成の前に[音楽スタイルジェネレーター](https://easymusic.ai/ja/tools/music-style-generator)で語彙を集めます。",
+        "## 本物の声の下で試す",
+        "音楽だけで合格にしないでください。ナレーションの下に置き、ヘッドホン、スマートフォンのスピーカー、小さな音量で聴きます。語尾がぼやける、低音が声を濁らせる、次のコード変化を待ってしまうなら、音量を下げるか、もっと単純なテイクを選びます。声で導く音声では、声が努力なしに勝つ必要があります。",
+        "## 今日から使える3つの工夫",
+        "- まず声だけの基準版を作り、音楽は外せる層として後から足します。\n- 冒頭は8から12秒ほどゆっくり入り、終わりはさらに長めにフェードして急な切れ目を避けます。\n- プロンプト、版、長さ、相対的な音量、書き出し日、公開先を小さな制作メモに残します。",
+        "## 避けたい失敗",
+        "言葉がなくても、声のようなパッドはもう一人が部屋にいるように聞こえることがあります。途中の大きな展開は、練習ではなく音楽に注意を戻します。また、AIで作った音源がすべての用途で問題なく使えるとは言わず、ツールの条件、案件の要件、公開先の規則を確認してください。",
+        "## FAQ",
+        "音楽は全編に流すべきですか？背景音として使うなら多くの場合そうですが、意図した無音の方が強いこともあります。最初のテストは何分がよいですか？声の明瞭さ、テンポ、密度を見るなら2分で十分です。自然音は入れるべきですか？声を隠さないほど低い場合だけにします。ボーカルが入る場合は？instrumental only と no vocals を早めに書き、歌詞の手がかりを消して、最も単純な使える結果を選びます。"
+      ]
+    },
+    "ko": {
+      "title": "목소리를 살리는 AI 명상 배경음악 만들기",
+      "description": "가이드 명상이나 호흡 안내용 AI 배경음악을 조용하게 만들고, 실제 내레이션 아래에서 점검하는 실전 워크플로입니다.",
+      "body": [
+        "가이드 명상에 필요한 것은 혼자 들었을 때 가장 멋진 음악이 아닙니다. 듣는 사람이 말을 편하게 따라가고, 음악은 거의 잊을 수 있어야 합니다. 트랙이 갑자기 커지거나, 사람 목소리처럼 들리거나, 발음을 덮으면 세션의 중심이 흔들립니다. [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 쓰기 전에 목소리를 전경으로, 음악을 낮은 보조층으로 정하세요.",
+        "## EasyMusic.AI란?",
+        "EasyMusic.AI는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 AI 음악을 만드는 플랫폼입니다. 명상, 호흡 안내, 수면 전 오디오, 차분한 강의 오디오에서는 텍스처와 템포 후보를 빠르게 시험하고, 최종 판단은 실제 내레이션 아래에서 하는 것이 좋습니다.",
+        "## 말하는 대본부터 표시하기",
+        "첫 1분을 소리 내어 읽고 시작, 숨 쉬는 간격, 긴 침묵, 마무리 구간을 표시합니다. 좋은 브리프는 이렇게 구체적입니다: 8분 호흡 안내, 차분한 목소리가 앞에 있음, 아주 느린 페이드인, 보컬 없음, 뚜렷한 비트 없음, 극적인 고조 없음, 부드러운 페이드아웃. 단순히 편안한 명상 음악이라고 쓰는 것보다 음악의 일을 분명히 합니다.",
+        "## 프롬프트를 좁게 쓰기",
+        "길이 또는 루프 형태, 템포, 사운드 팔레트, 금지 요소 네 칸으로 작성합니다. 예: guided meditation voiceover용 조용한 ambient bed, 60-70 BPM, 따뜻하게 지속되는 pad, 아주 적은 felt piano, 공기감 있는 질감, instrumental only, no vocals, no drums, no drop, 낮은 에너지로 안정적, 깔끔한 fade ending. 스타일 단어가 부족하면 전체 생성 전에 [음악 스타일 생성기](https://easymusic.ai/ko/tools/music-style-generator)로 질감 표현을 정리하세요.",
+        "## 실제 목소리 아래에서 테스트하기",
+        "음악만 듣고 승인하지 마세요. 내레이션 아래에 깔고 헤드폰, 휴대폰 스피커, 아주 낮은 볼륨으로 확인합니다. 자음이 흐려지거나, 저음이 목소리를 탁하게 만들거나, 코드 변화가 기다려진다면 음악을 낮추거나 더 단순한 버전을 고르세요. 말이 중심인 오디오에서는 목소리가 힘들이지 않고 이겨야 합니다.",
+        "## 오늘 바로 쓸 수 있는 세 가지",
+        "- 먼저 목소리만 있는 기준 파일을 만들고 음악은 나중에 뺄 수 있는 레이어로 더합니다.\n- 시작은 8-12초 정도 천천히 들어오게 하고, 끝은 더 길게 페이드아웃해 갑작스러운 끊김을 피합니다.\n- 프롬프트, 버전, 길이, 상대 믹스 레벨, 내보낸 날짜, 게시 위치를 작은 제작 카드에 기록합니다.",
+        "## 피해야 할 실수",
+        "가사가 없어도 보컬 패드는 방 안에 다른 사람이 있는 것처럼 들릴 수 있습니다. 중간의 큰 변화는 연습이 아니라 음악에 주의를 돌립니다. 또한 AI로 만든 트랙이 모든 용도에 자동으로 적합하다고 말하지 말고, 도구 약관, 프로젝트 요구사항, 플랫폼 규칙을 확인하세요.",
+        "## FAQ",
+        "음악은 명상 내내 나와야 하나요? 배경층이라면 대체로 그렇지만, 의도한 침묵이 더 나을 때도 있습니다. 첫 테스트 길이는 어느 정도가 좋나요? 목소리 명료도와 밀도를 보려면 2분이면 충분합니다. 자연 소리는 넣어도 되나요? 목소리보다 훨씬 낮고 말을 가리지 않을 때만 쓰세요. 보컬이 계속 나오면요? instrumental only와 no vocals를 프롬프트 앞쪽에 넣고, 가사 단서를 지운 뒤 가장 단순한 결과를 선택합니다."
+      ]
+    },
+    "pt": {
+      "title": "Crie musica de meditacao com IA sem cobrir a voz",
+      "description": "Um fluxo pratico para criar bases calmas de meditacao ou respiracao guiada com IA, testar sob a narracao e evitar distracoes.",
+      "body": [
+        "Uma meditacao guiada nao precisa da musica mais bonita possivel. Precisa de um fundo que apoie a voz sem disputar atencao. Se a faixa cresce demais, parece cantar ou cobre as consoantes, o ouvinte passa a lutar com o audio. Antes de usar um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator), trate a voz como primeiro plano e a musica como camada de suporte.",
+        "## O que e EasyMusic.AI?",
+        "EasyMusic.AI e uma plataforma de criacao musical com IA a partir de prompts, letras, ideias de estilo e escolhas de modelo. Para meditacao, respiracao guiada, audio de relaxamento ou aulas calmas, use-a para testar texturas e variacoes; aprove a faixa apenas depois de ouvi-la sob a narracao real.",
+        "## Comece pelo roteiro falado",
+        "Leia o primeiro minuto em voz alta e marque abertura, pausas de respiracao, silencios longos e encerramento. Um briefing util diz: pratica guiada de 8 minutos, voz calma na frente, entrada muito lenta, sem vocais, sem batida clara, sem subida dramatica, fade-out suave. Isso da uma funcao para a musica, em vez de pedir apenas musica relaxante.",
+        "## Escreva um prompt estreito",
+        "Use quatro campos: duracao ou loop, tempo, paleta sonora e limites. Exemplo reutilizavel: base ambient tranquila para voz de meditacao guiada, 60 a 70 BPM, pads quentes sustentados, piano felt bem raro, textura arejada, somente instrumental, sem vocais, sem bateria, sem drop, movimento estavel de baixa energia, final limpo em fade. Se faltarem palavras de estilo, use o [gerador de estilos musicais](https://easymusic.ai/pt/tools/music-style-generator) antes de criar a base completa.",
+        "## Teste sob a voz real",
+        "Nao aprove a musica sozinha. Coloque-a sob a narracao e escute em fones, no alto-falante do celular e em volume muito baixo. Se as consoantes somem, se o grave engrossa a voz ou se voce fica esperando a troca de acorde, abaixe a musica ou escolha uma versao mais simples. Em audio guiado por fala, a voz precisa vencer sem esforco.",
+        "## Tres ideias para aplicar hoje",
+        "- Faca primeiro uma referencia somente com voz e adicione a musica como camada removivel.\n- Use fade-in suave de 8 a 12 segundos e fade-out mais longo para evitar cortes bruscos.\n- Guarde um cartao de producao com prompt, versao, duracao, nivel relativo de mix, data de exportacao e plataforma pretendida.",
+        "## Erros a evitar",
+        "Evite pads vocais se eles soarem como outra pessoa no ambiente. Evite grandes mudancas no meio da sessao, porque elas puxam a atencao para a musica. E nao prometa que uma faixa gerada por IA serve para qualquer uso; revise os termos da ferramenta, os requisitos do projeto e as regras da plataforma.",
+        "## Perguntas frequentes",
+        "A musica deve tocar durante toda a meditacao? Em geral sim, se for um fundo continuo, mas silencio planejado pode funcionar melhor que um corte acidental. Qual o tamanho do primeiro teste? Dois minutos bastam para avaliar clareza, tempo e densidade. Sons da natureza ajudam? Apenas se ficarem abaixo da voz e nao mascararem palavras. E se surgirem vocais? Coloque somente instrumental e sem vocais no inicio do prompt, remova pistas de letra e use a versao mais simples."
+      ]
+    },
+    "ru": {
+      "title": "AI-музыка для медитации, которая не мешает голосу",
+      "description": "Практичный процесс создания тихой музыкальной подложки для медитации или дыхательной практики с проверкой под реальным голосом.",
+      "body": [
+        "Для guided meditation не нужна самая красивая музыка сама по себе. Нужна подложка, которая поддерживает голос и почти исчезает из внимания. Если трек резко растет, звучит как пение или закрывает согласные, он мешает практике. Перед тем как открыть [AI music generator](https://easymusic.ai/ru/ai-music-generator), поставьте голос на первый план, а музыку сделайте тихим слоем поддержки.",
+        "## Что такое EasyMusic.AI?",
+        "EasyMusic.AI - это платформа для создания музыки с помощью AI на основе промптов, текстов, стилевых идей и выбора моделей. Для медитации, breathwork, спокойных уроков или аудио перед сном используйте ее для проверки текстур, темпа и вариантов, а окончательное решение принимайте только в миксе с настоящей записью голоса.",
+        "## Начните с spoken script",
+        "Прочитайте первую минуту вслух и отметьте вступление, дыхательные паузы, длинную тишину и финальный возврат. Полезный бриф звучит так: 8-минутная дыхательная практика, спокойный голос впереди, очень медленный fade-in, без вокала, без явного бита, без драматического подъема, мягкий fade-out. Такой бриф дает музыке задачу, а не просит абстрактную расслабляющую музыку.",
+        "## Сузьте промпт",
+        "Используйте четыре поля: длина или форма loop, tempo, звуковая палитра и границы. Пример: quiet ambient bed for guided meditation voiceover, 60 to 70 BPM, warm sustained pads, sparse felt piano, airy texture, instrumental only, no vocals, no drums, no drop, steady low-energy movement, clean fade ending. Если не хватает стилевых слов, сначала соберите лексику через [music style generator](https://easymusic.ai/ru/tools/music-style-generator), а потом создавайте полную подложку.",
+        "## Проверьте под реальным голосом",
+        "Не утверждайте музыку в одиночном прослушивании. Положите ее под narration и проверьте в наушниках, на динамике телефона и на очень низкой громкости. Если согласные теряются, низ делает голос мутным или вы начинаете ждать смену аккорда, уменьшите уровень музыки или выберите более простой вариант. В речевом аудио голос должен побеждать без усилия.",
+        "## Три идеи на сегодня",
+        "- Сначала сделайте версию только с голосом, а музыку добавьте как слой, который можно убрать.\n- Поставьте мягкий fade-in на 8-12 секунд и более длинный fade-out, чтобы не было резких границ.\n- Храните карточку производства: промпт, версия, длина, относительный уровень микса, дата экспорта и планируемая платформа.",
+        "## Частые ошибки",
+        "Избегайте vocal pads, если они звучат как еще один человек в комнате. Избегайте крупных изменений в середине сессии, потому что они возвращают внимание к музыке. И не обещайте, что AI-трек подходит для любого использования; проверьте условия инструмента, требования проекта и правила площадки.",
+        "## FAQ",
+        "Должна ли музыка идти всю медитацию? Обычно да, если это фон, но намеренная тишина может быть лучше случайного обрыва. Какой длины первый тест? Двух минут достаточно для проверки ясности речи, темпа и плотности. Нужны ли звуки природы? Только если они ниже голоса и не маскируют слова. Что делать, если появляются голоса? Поставьте instrumental only и no vocals в начале промпта, уберите намеки на lyrics и выберите самый простой пригодный вариант."
+      ]
+    },
+    "zh": {
+      "title": "制作不抢人声的 AI 冥想背景音乐实用流程",
+      "description": "一套实用流程，帮助你为冥想、呼吸练习或安静课程制作 AI 背景音乐，并在真实旁白下检查混音。",
+      "body": [
+        "引导冥想不需要一首单独听起来最漂亮的音乐。它需要的是一种几乎退到背景里的声音，让听众不用费力就能听清引导词。如果音乐突然推高、像人在哼唱，或者盖住辅音，它就已经干扰了练习。打开 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 之前，先把人声定为前景，把音乐定为支撑层。",
+        "## EasyMusic.AI 是什么？",
+        "EasyMusic.AI 是一个用提示词、歌词、风格想法和模型选项来创作 AI 音乐的平台。用于冥想、呼吸引导、睡前音频或安静课程时，可以用它测试质感、速度和不同版本，但最终要放到真实旁白下面听，而不是只听音乐本身。",
+        "## 先从 spoken script 开始",
+        "把开头一分钟读出来，标记进入、呼吸间隔、长停顿和结束回收。一个有用的 brief 可以这样写：8 分钟呼吸引导，平静人声在前，非常慢的 fade-in，无人声，无明显鼓点，无戏剧化上升，柔和 fade-out。这样音乐有了明确工作，而不是泛泛地要求放松冥想音乐。",
+        "## 把提示词写窄",
+        "用四个部分：时长或循环形态、速度、声音材料、限制条件。可复用示例：quiet ambient bed for guided meditation voiceover, 60 to 70 BPM, warm sustained pads, sparse felt piano, airy texture, instrumental only, no vocals, no drums, no drop, steady low-energy movement, clean fade ending。如果风格词不够，可以先用[音乐风格生成器](https://easymusic.ai/zh/tools/music-style-generator)整理质感词，再生成完整背景。",
+        "## 放到真实人声下面测试",
+        "不要只听音乐就通过。把它垫在旁白下，用耳机、手机扬声器和很低音量各听一遍。如果辅音变糊、低频让人声变厚，或者你开始等待下一个和弦变化，就降低音乐或换一个更简单的版本。以语言为主的音频里，人声必须轻松胜出。",
+        "## 今天就能复用的三个做法",
+        "- 先做一个只有人声的参考版，再把音乐作为可移除的图层加入。\n- 开头用 8 到 12 秒的柔和淡入，结尾用更长淡出，避免突然出现或断掉。\n- 保存一张制作卡：提示词、版本、时长、相对混音电平、导出日期和计划发布平台。",
+        "## 避免这些错误",
+        "即使没有歌词，带人声感的 Pad 也可能像房间里多了一个人。中段大幅变化会把注意力从练习拉回音乐。也不要承诺 AI 生成的音轨适用于所有用途；发布前要看工具条款、项目要求和平台规则。",
+        "## FAQ",
+        "音乐需要贯穿整段冥想吗？如果它是背景层，通常可以，但有意设计的安静比意外截断更好。第一次测试多长合适？两分钟足够检查人声清晰度、速度和密度。要加自然声吗？只有在它低于人声且不遮挡词句时才加。如果工具总是加人声怎么办？把 instrumental only 和 no vocals 写在提示词前面，去掉歌词线索，然后选择最简单可用的结果。"
+      ]
+    }
+  }
+}
