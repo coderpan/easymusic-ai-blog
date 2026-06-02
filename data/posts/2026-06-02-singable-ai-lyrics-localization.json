@@ -1,0 +1,238 @@
+{
+  "date": "2026-06-02",
+  "slug": "singable-ai-lyrics-localization",
+  "cluster": "localization-workflows",
+  "translations": {
+    "ar": {
+      "title": "كيف تكتب كلمات أغنية قابلة للغناء بلغة أخرى باستخدام الذكاء الاصطناعي",
+      "description": "دليل عملي لتحويل فكرة أغنية إلى كلمات قابلة للغناء في لغة جديدة، مع الحفاظ على المعنى والإيقاع واللازمة.",
+      "body": [
+        "تبدو الفكرة بسيطة: خذ لازمة إنجليزية ناجحة، ترجمها إلى الإسبانية أو اليابانية، ثم أنشئ نسخة جديدة. لكن السطر الذي يبدو جيدًا على الورق قد يصبح أطول من اللحن، أو يضع الكلمة المهمة في موضع ضعيف، أو يفقد القافية التي تجعل اللازمة ثابتة في الذاكرة. قبل استخدام [مولد كلمات الأغاني بالذكاء الاصطناعي](https://easymusic.ai/ar/tools/ai-lyrics-generator)، عامل الترجمة كإعادة كتابة قابلة للغناء لا كاستبدال كلمة بكلمة.",
+        "## ما هو EasyMusic.AI؟",
+        "EasyMusic.AI منصة لإنشاء الموسيقى بالذكاء الاصطناعي من أفكار نصية وكلمات ووصف أسلوبي وخيارات نماذج. في عمل الكلمات متعددة اللغات، استخدمها لصنع مسودات وتجارب سريعة، ثم احكم على النتيجة بالصوت والإيقاع والمعنى، لا بمجرد قراءة النص وحده.",
+        "## ابدأ بخريطة للمعنى",
+        "اكتب لكل مقطع وظيفة قصيرة: ماذا يقول، ما الشعور، وما الجملة التي لا يجوز أن تضيع. لا تترجم كل سطر فورًا. مثال: البيت الأول يشرح الفقد بهدوء، ما قبل اللازمة يرفع التوتر، اللازمة تقول إن الشخص سيبدأ من جديد. هذه الخريطة تسمح لك بتغيير الكلمات عندما تحتاج اللغة الجديدة إلى صياغة أقصر أو أكثر طبيعية.",
+        "## اضبط اللغة والمزاج قبل توليد الكلمات",
+        "في المسودة الأولى، اجمع اللغة المطلوبة، الموضوع، المزاج، النوع الموسيقي، وعددًا قليلًا من الكلمات الأساسية. إذا كان وصف الأسلوب ضعيفًا، استخدم [مولد أنماط الموسيقى](https://easymusic.ai/ar/tools/music-style-generator) لجمع مفردات مثل acoustic pop، soft reggaeton، synth ballad، أو indie folk قبل طلب الكلمات. كلما كان السياق أوضح، قل احتمال خروج النص كترجمة حرفية جامدة.",
+        "## اختبر قابلية الغناء لا القواعد فقط",
+        "اقرأ كل سطر بصوت عالٍ على إيقاع بسيط. عد المقاطع تقريبًا، لاحظ أين تقع الكلمات المهمة، وابحث عن النهايات التي يسهل مدها بالغناء. إذا كانت اللازمة الأصلية تنتهي بكلمة مفتوحة وسهلة، فحاول أن تمنح النسخة الجديدة نهاية صوتية مريحة أيضًا. بعد ذلك جرّب جزءًا قصيرًا في [مولد الموسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator) بدل إنشاء أغنية كاملة قبل اختبار الضغط الإيقاعي.",
+        "## ثلاث أفكار يمكن استخدامها فورًا",
+        "- اصنع عمودين: المعنى غير القابل للتنازل، والصياغة القابلة للتغيير.\n- أعط كل لازمة خيارين: نسخة قريبة من المعنى ونسخة أكثر غنائية، ثم اختر بالصوت.\n- احتفظ ببطاقة لكل لغة فيها الكلمات الأساسية، النبرة، الكلمات التي يجب تجنبها، وسبب أي تغيير كبير عن الأصل.",
+        "## أخطاء شائعة",
+        "لا تجعل القافية أهم من المعنى إذا غيّرت شخصية الأغنية. لا تفترض أن كل لغة تتحمل عدد المقاطع نفسه في نفس اللحن. ولا تعرض المسودة كترجمة رسمية أو مضمونة الحقوق؛ راجع شروط الأداة، مصدر النص، ومتطلبات المشروع قبل النشر أو التسليم.",
+        "## أسئلة شائعة",
+        "هل أترجم الكلمات أولًا ثم أطلب من الذكاء الاصطناعي تحسينها؟ هذا مفيد إذا كنت تفهم اللغة الجديدة، لكن الأفضل غالبًا أن تبدأ بخريطة معنى ثم تطلب صياغة طبيعية. هل يجب الحفاظ على القافية الأصلية؟ فقط إذا خدمت الأغنية؛ أحيانًا يكفي تكرار صوتي أبسط. ماذا أفعل إذا أصبحت اللازمة طويلة؟ اختصر الصورة، لا تضف كلمات أسرع. هل أحتاج مراجعة بشرية؟ نعم إذا كانت اللغة مهمة للجمهور أو للعميل."
+      ]
+    },
+    "de": {
+      "title": "Singbare Songtexte in einer anderen Sprache mit KI schreiben",
+      "description": "Ein praktischer Workflow fuer mehrsprachige Lyrics, die Bedeutung, Hook, Rhythmus und Singbarkeit besser zusammenhalten.",
+      "body": [
+        "Die erste Uebersetzung klingt oft vernuenftig, bis jemand sie singt. Eine Zeile ist zwei Silben zu lang, der emotionale Begriff landet auf einer schwachen Zaehlzeit, oder der Hook verliert genau das Wort, das ihn merkbar gemacht hat. Bevor du einen [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) nutzt, behandle Sprachwechsel als Neufassung fuer Melodie und Publikum, nicht als Satz-fuer-Satz-Uebersetzung.",
+        "## Was ist EasyMusic.AI?",
+        "EasyMusic.AI ist eine Plattform zum Erstellen von Musik mit KI aus Prompts, Lyrics, Stilideen und Modelloptionen. Fuer mehrsprachige Songideen eignet sie sich als schneller Entwurfsraum; die Qualitaetsentscheidung bleibt aber menschlich: klingt die Zeile natuerlich, passt sie auf die Phrase, und bleibt der Kern des Songs erhalten?",
+        "## Schreibe zuerst eine Bedeutungskarte",
+        "Notiere fuer jede Section eine kurze Aufgabe: Was passiert, welche Emotion traegt sie, und welche Aussage darf nicht verloren gehen? Verse eins kann zum Beispiel ruhige Erinnerung sein, der Pre-Chorus steigert Zweifel, der Chorus sagt Ich fange noch einmal an. Mit so einer Karte darf die neue Sprache andere Bilder und Wortlaengen nutzen, solange die Funktion bleibt.",
+        "## Gib Sprache, Stimmung und Stil vor",
+        "Ein guter erster Auftrag nennt Zielsprache, Thema, Mood, Genre und wenige Pflichtwoerter. Wenn dir das Stilvokabular fehlt, sammle mit dem [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Begriffe wie acoustic pop, synth ballad, soft Latin groove oder indie folk, bevor du den Text entwerfen laesst. Das schuetzt vor flachen Woertern, die nur uebersetzt wirken.",
+        "## Pruefe Singbarkeit laut",
+        "Sprich jede Zeile im Tempo der Musik und markiere Silben, Betonungen und lange Vokale. Der wichtigste Begriff sollte nicht dort stehen, wo die Melodie kaum Gewicht hat. Wenn der Original-Hook mit einem offenen, gut haltbaren Laut endet, suche in der Zielsprache ebenfalls nach einem singbaren Ende. Teste danach einen kurzen Ausschnitt im [AI Music Generator](https://easymusic.ai/de/ai-music-generator), bevor du eine komplette Version erzeugst.",
+        "## Drei Ideen fuer sofort",
+        "- Lege zwei Spalten an: unverhandelbare Bedeutung und frei formulierbare Zeile.\n- Schreibe fuer den Chorus eine nahe Version und eine singbarere Version, dann entscheide beim Singen.\n- Fuehre pro Sprache eine kleine Karte mit Tonfall, Pflichtwoertern, No-go-Woertern und den groessten Abweichungen vom Original.",
+        "## Typische Fehler",
+        "Eine perfekte Reimstelle kann trotzdem falsch sein, wenn sie die Figur des Songs veraendert. Gleiche Silbenzahl garantiert keinen guten Flow, weil Betonung und Vokale anders arbeiten. Und KI-Text sollte nicht als offizielle oder rechtlich geklaerte Uebersetzung verkauft werden; pruefe Ausgangstext, Tool-Bedingungen und Projektanforderungen.",
+        "## FAQ",
+        "Soll ich erst maschinell uebersetzen und dann umschreiben? Nur als Rohmaterial; besser ist meist eine Bedeutungskarte plus natuerliche Neufassung. Muss der Reim gleich bleiben? Nein, der Hook muss funktionieren, nicht die Reimtechnik kopieren. Was tun, wenn der Chorus zu lang wird? Bild kuerzen statt Silben hastig in die Melodie zu pressen. Brauche ich Muttersprachler-Feedback? Ja, sobald die Sprache fuer Fans, Kunden oder Veroeffentlichung wichtig ist."
+      ]
+    },
+    "en": {
+      "title": "Write Singable AI Lyrics in Another Language Without Flattening the Song",
+      "description": "A practical workflow for using AI lyric drafts across languages while protecting meaning, hook shape, rhythm, and vocal feel.",
+      "body": [
+        "The rough translation looks fine until someone tries to sing it. The chorus runs two syllables long, the strongest word lands on a weak beat, and the line that felt direct in English sounds stiff in Portuguese, Korean, or German. Before opening an [AI lyrics generator](https://easymusic.ai/tools/ai-lyrics-generator), treat localization as a sung rewrite, not a line-by-line language swap.",
+        "## What is EasyMusic.AI?",
+        "EasyMusic.AI is an AI music creation platform for making music from prompts, lyrics, style ideas, and model choices. For multilingual lyric work, use it to explore drafts and variations quickly, then make the real decision by reading, singing, and testing the words in context.",
+        "## Map the job of each section",
+        "Before drafting, write a plain-language map: verse one sets the place, pre-chorus adds doubt, chorus says I am starting over, bridge admits the cost. This map is more useful than a literal source lyric because it tells you what must survive. A localized line may need a different image, shorter syntax, or a softer idiom while still doing the same emotional job.",
+        "## Give the draft a language and style frame",
+        "For the first pass, specify target language, theme, mood, genre, and a small set of keywords. If the style vocabulary is thin, use the [music style generator](https://easymusic.ai/tools/music-style-generator) to collect texture and genre words before asking for lyrics. A brief like Japanese city-pop ballad, late-night regret, simple conversational chorus is far stronger than translate this song to Japanese.",
+        "## Run a singability pass",
+        "Speak each line in time, then sing it badly on purpose. Count rough syllables, circle stressed words, and mark vowels that can be held. The important word should not fall where the melody has no weight. If the original hook ends on an open sound, look for a target-language ending that a singer can hold cleanly. Then test only one verse and chorus in the [AI music generator](https://easymusic.ai/ai-music-generator) before committing to a full version.",
+        "## Three reusable ideas",
+        "- Keep two columns: meaning that cannot move, and wording that can change.\n- Ask for two chorus options: one closer to the source, one more singable in the target language.\n- Save a language card with tone, required words, avoided words, rhyme choice, and the reason for any major rewrite.",
+        "## Mistakes to avoid",
+        "Do not protect every metaphor if the new language makes it sound formal or confusing. Do not chase rhyme so hard that the speaker becomes a different person. Do not assume a generated lyric is ready for release, client delivery, or official translation without checking the source material, tool terms, and a fluent reviewer when the language matters.",
+        "## FAQ",
+        "Should I translate first and then rewrite? It can help as a reference, but a section map usually produces more natural lyrics. Should the rhyme scheme match the original? Only when it helps the hook; repeated vowel sounds may work better. What if the target chorus is too long? Remove an image or split the thought, rather than forcing fast syllables. Do I need human review? Yes for public-facing work in a language you do not know well."
+      ]
+    },
+    "es": {
+      "title": "Escribe letras cantables en otro idioma con IA sin aplanar la cancion",
+      "description": "Un flujo practico para crear letras multilingues con IA cuidando significado, gancho, ritmo y naturalidad al cantar.",
+      "body": [
+        "La traduccion parece correcta hasta que alguien intenta cantarla. El estribillo queda dos silabas largo, la palabra mas fuerte cae en un tiempo debil y una frase directa en ingles suena rigida en espanol, frances o coreano. Antes de usar un [generador de letras con IA](https://easymusic.ai/es/tools/ai-lyrics-generator), piensa en localizacion cantada, no en reemplazar lineas una por una.",
+        "## Que es EasyMusic.AI?",
+        "EasyMusic.AI es una plataforma para crear musica con IA a partir de prompts, letras, ideas de estilo y opciones de modelo. Para letras multilingues, sirve para explorar borradores y variantes con rapidez; la decision real debe venir de leer, cantar y probar esas palabras dentro de la cancion.",
+        "## Mapea la funcion de cada seccion",
+        "Antes de escribir, resume la tarea de cada parte: la estrofa situa la escena, el pre-estribillo aumenta la duda, el estribillo dice voy a empezar de nuevo, el puente reconoce el coste. Este mapa vale mas que una traduccion literal, porque indica que debe sobrevivir aunque cambien imagenes, longitud de frase o expresiones locales.",
+        "## Da marco de idioma y estilo",
+        "En el primer pase, especifica idioma objetivo, tema, estado de animo, genero y pocas palabras clave. Si te falta vocabulario musical, usa el [generador de estilos musicales](https://easymusic.ai/es/tools/music-style-generator) para reunir terminos antes de pedir la letra. Un brief como balada pop en espanol, arrepentimiento nocturno, estribillo conversacional y sencillo es mucho mejor que traduce esta cancion.",
+        "## Haz una pasada de cantabilidad",
+        "Di cada linea a tempo y luego cantala de forma sencilla. Cuenta silabas aproximadas, marca acentos y senala vocales que se puedan sostener. La palabra importante no debe caer donde la melodia no tiene peso. Si el gancho original termina en un sonido abierto, busca una salida parecida en el idioma nuevo. Despues prueba solo una estrofa y un estribillo en el [generador de musica con IA](https://easymusic.ai/es/ai-music-generator) antes de crear la version completa.",
+        "## Tres ideas reutilizables",
+        "- Usa dos columnas: significado que no se mueve y redaccion que puede cambiar.\n- Pide dos estribillos: uno cercano al original y otro mas cantable en el idioma objetivo.\n- Guarda una tarjeta de idioma con tono, palabras obligatorias, palabras prohibidas, decision de rima y motivo de cada cambio grande.",
+        "## Errores que conviene evitar",
+        "No protejas todas las metaforas si en el nuevo idioma suenan formales o confusas. No persigas la rima hasta convertir al narrador en otra persona. Y no trates una letra generada como lista para publicar, entregar a un cliente o presentar como traduccion oficial sin revisar el texto base, las condiciones de la herramienta y una opinion fluida cuando el idioma importe.",
+        "## Preguntas frecuentes",
+        "Conviene traducir primero y reescribir despues? Puede servir como referencia, pero un mapa de secciones suele dar letras mas naturales. Debe coincidir el esquema de rima? Solo si ayuda al gancho; a veces bastan sonidos vocales repetidos. Que hago si el estribillo queda largo? Quita una imagen o divide la idea. Necesito revision humana? Si el idioma no es tuyo y la obra sera publica, si."
+      ]
+    },
+    "fr": {
+      "title": "Ecrire des paroles chantables dans une autre langue avec l IA",
+      "description": "Une methode concrete pour adapter des paroles avec IA sans perdre le sens, le hook, le rythme ni la sensation vocale.",
+      "body": [
+        "La traduction semble correcte jusqu au moment ou quelqu un essaie de la chanter. Le refrain deborde de deux syllabes, le mot le plus fort tombe sur un temps faible, et une phrase simple en anglais devient raide en francais, allemand ou japonais. Avant d utiliser un [generateur de paroles IA](https://easymusic.ai/fr/tools/ai-lyrics-generator), pense adaptation chantee, pas remplacement ligne par ligne.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "EasyMusic.AI est une plateforme de creation musicale par IA a partir de prompts, paroles, idees de style et choix de modeles. Pour des paroles multilingues, elle sert a explorer vite des brouillons et variantes; la vraie selection se fait en lisant, chantant et testant les mots dans leur phrase musicale.",
+        "## Carte le role de chaque section",
+        "Avant de rediger, note la mission de chaque partie: le couplet pose le lieu, le pre-refrain ajoute le doute, le refrain dit je recommence, le pont avoue le prix a payer. Cette carte est plus utile qu une traduction litterale, car elle montre ce qui doit rester meme si l image, la longueur ou l idiome changent.",
+        "## Donne un cadre de langue et de style",
+        "Pour le premier jet, precise langue cible, theme, humeur, genre et quelques mots indispensables. Si le vocabulaire musical manque, le [generateur de style musical](https://easymusic.ai/fr/tools/music-style-generator) peut aider a trouver des mots de texture et de genre avant de demander les paroles. Un brief comme ballade pop francaise, regret nocturne, refrain simple et parle guide mieux qu une demande vague de traduction.",
+        "## Fais une passe de chantabilite",
+        "Dis chaque ligne au tempo, puis chante-la volontairement simplement. Compte les syllabes approximatives, marque les accents et repere les voyelles que l on peut tenir. Le mot cle ne doit pas tomber la ou la melodie n a presque pas de poids. Si le hook original finit sur un son ouvert, cherche une fin confortable dans la langue cible. Teste ensuite seulement un couplet et un refrain dans le [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator) avant de produire une version complete.",
+        "## Trois idees reutilisables",
+        "- Garde deux colonnes: sens intouchable et formulation modifiable.\n- Demande deux refrains: l un proche de la source, l autre plus naturel a chanter.\n- Tiens une fiche de langue avec ton, mots requis, mots a eviter, choix de rime et raison des grandes adaptations.",
+        "## Erreurs a eviter",
+        "Ne protege pas chaque metaphore si elle devient trop litteraire ou confuse dans la nouvelle langue. Ne force pas la rime au point de changer la voix du narrateur. Et ne presente pas une parole generee comme prete a publier, a livrer ou comme traduction officielle sans verifier le texte source, les conditions de l outil et l avis d une personne fluide si l enjeu est important.",
+        "## FAQ",
+        "Faut-il traduire puis reecrire? Cela peut servir de reference, mais une carte de sections donne souvent un resultat plus naturel. Le schema de rimes doit-il rester identique? Seulement s il aide le hook. Que faire si le refrain est trop long? Supprime une image ou coupe l idee en deux. Faut-il une relecture humaine? Oui pour un public reel dans une langue que tu ne maitrises pas."
+      ]
+    },
+    "it": {
+      "title": "Scrivere testi cantabili in un altra lingua con l AI",
+      "description": "Un workflow pratico per adattare testi con l AI mantenendo significato, hook, ritmo e naturalezza vocale.",
+      "body": [
+        "La traduzione sembra corretta finche qualcuno prova a cantarla. Il ritornello ha due sillabe di troppo, la parola piu forte cade su un accento debole e una frase naturale in inglese suona rigida in italiano, tedesco o coreano. Prima di usare un [generatore di testi AI](https://easymusic.ai/it/tools/ai-lyrics-generator), considera il passaggio di lingua come una riscrittura cantata, non come una sostituzione riga per riga.",
+        "## Che cos e EasyMusic.AI?",
+        "EasyMusic.AI e una piattaforma per creare musica con AI da prompt, testi, idee di stile e scelte di modello. Per testi multilingue, usala per esplorare bozze e varianti rapidamente; poi scegli leggendo, cantando e provando le parole dentro la struttura musicale.",
+        "## Mappa il lavoro di ogni sezione",
+        "Prima di scrivere, riassumi il compito di ogni parte: la strofa apre la scena, il pre-ritornello aumenta il dubbio, il ritornello dice ricomincio, il bridge ammette il costo. Questa mappa vale piu di una traduzione letterale, perche mostra cosa deve restare anche se immagini, lunghezza o modi di dire cambiano.",
+        "## Dai un quadro di lingua e stile",
+        "Nel primo passaggio indica lingua di arrivo, tema, mood, genere e poche parole chiave. Se mancano parole musicali precise, usa il [generatore di stili musicali](https://easymusic.ai/it/tools/music-style-generator) per raccogliere termini di texture e genere prima di chiedere il testo. Un brief come ballata pop italiana, rimpianto notturno, ritornello semplice e colloquiale e molto piu utile di traduci questa canzone.",
+        "## Fai una verifica di cantabilita",
+        "Parla ogni riga a tempo e poi cantala in modo grezzo. Conta le sillabe in modo approssimativo, segna gli accenti e nota le vocali che si possono tenere. La parola importante non dovrebbe cadere dove la melodia ha poco peso. Se l hook originale finisce con un suono aperto, cerca una chiusura comoda anche nella lingua nuova. Poi prova solo una strofa e un ritornello nel [generatore di musica AI](https://easymusic.ai/it/ai-music-generator) prima di creare la versione completa.",
+        "## Tre idee riutilizzabili",
+        "- Tieni due colonne: significato intoccabile e formulazione modificabile.\n- Chiedi due ritornelli: uno vicino alla fonte e uno piu cantabile nella lingua di arrivo.\n- Salva una scheda lingua con tono, parole obbligatorie, parole da evitare, scelta di rima e motivo delle riscritture principali.",
+        "## Errori da evitare",
+        "Non proteggere ogni metafora se nella nuova lingua diventa formale o confusa. Non inseguire la rima fino a cambiare la voce del narratore. E non trattare un testo generato come pronto per pubblicazione, consegna a un cliente o traduzione ufficiale senza controllare testo di partenza, condizioni dello strumento e revisione fluente quando serve.",
+        "## FAQ",
+        "Meglio tradurre prima e poi riscrivere? Puo aiutare come riferimento, ma una mappa delle sezioni spesso produce testi piu naturali. Lo schema di rima deve restare uguale? Solo se sostiene l hook. Cosa fare se il ritornello e troppo lungo? Togli un immagine o dividi l idea. Serve una revisione umana? Si, se la lingua non e tua e il brano andra a un pubblico reale."
+      ]
+    },
+    "ja": {
+      "title": "別の言語でも歌えるAI歌詞を書くための実用手順",
+      "description": "意味、フック、リズム、声に出した自然さを守りながら、AIで多言語の歌詞案を作るためのワークフローです。",
+      "body": [
+        "翻訳文だけを見ると問題なさそうでも、歌ってみると急に崩れることがあります。サビが2音節長すぎる、いちばん大事な言葉が弱い拍に落ちる、英語では自然だった一文が日本語やドイツ語では固く聞こえる。 [AI歌詞ジェネレーター](https://easymusic.ai/ja/tools/ai-lyrics-generator)を使う前に、言語変更は行ごとの翻訳ではなく、歌える形への書き直しだと考えます。",
+        "## EasyMusic.AIとは？",
+        "EasyMusic.AIは、プロンプト、歌詞、スタイル案、モデル選択からAI音楽を作るためのプラットフォームです。多言語の歌詞制作では、短時間で草案や別案を試す場所として使い、最終判断は読んで、歌って、曲の中で確認して行います。",
+        "## 各セクションの役割を先に書く",
+        "制作前に、各部分の仕事を短く書きます。Aメロは場所を見せる、Bメロは迷いを強める、サビはもう一度始めると言う、ブリッジはその代償を認める、のように整理します。この地図があれば、言語に合わせて比喩や語順や長さを変えても、曲の芯を守れます。",
+        "## 言語とスタイルの枠を渡す",
+        "最初の依頼では、対象言語、テーマ、ムード、ジャンル、少数の必須語を入れます。音楽スタイルの語彙が足りない場合は、歌詞生成の前に[音楽スタイルジェネレーター](https://easymusic.ai/ja/tools/music-style-generator)で質感やジャンルの言葉を集めます。late-night city pop ballad、会話のような短いサビ、後悔と再出発、のような指示は、単に日本語に翻訳してと言うより役に立ちます。",
+        "## 歌いやすさを確認する",
+        "各行をテンポに合わせて読み、あえてラフに歌います。おおまかな音節数、強く聞こえる語、伸ばしやすい母音を印にします。大事な言葉がメロディの弱い場所に来ていないか確認してください。元のフックが開いた音で終わるなら、新しい言語でも歌手が伸ばしやすい終わりを探します。その後、全曲ではなく1番とサビだけを[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)で試します。",
+        "## 今日から使える3つの工夫",
+        "- 変えてはいけない意味と、変えてよい言い回しを2列で分けます。\n- サビは原文に近い案と、対象言語で歌いやすい案の2つを作ります。\n- 言語ごとに、トーン、必須語、避ける語、韻の方針、大きく書き換えた理由をメモします。",
+        "## 避けたい失敗",
+        "すべての比喩を守ろうとして、新しい言語で不自然になることがあります。韻を優先しすぎると、語り手の性格が変わります。また、AIが作った歌詞をそのまま公開用、納品用、公式翻訳として扱わず、元の素材、ツール条件、必要な場合はその言語に詳しい人の確認を通してください。",
+        "## FAQ",
+        "先に翻訳してから直すべきですか？参考にはなりますが、セクションの役割から作る方が自然になりやすいです。韻は原曲と同じにしますか？フックに役立つ場合だけで十分です。サビが長すぎる場合は？言葉を速く詰めず、イメージを一つ減らします。人のレビューは必要ですか？よく知らない言語で公開するなら必要です。"
+      ]
+    },
+    "ko": {
+      "title": "다른 언어에서도 부를 수 있는 AI 가사 쓰기",
+      "description": "의미, 후크, 리듬, 보컬 감각을 지키면서 AI로 다국어 가사 초안을 만드는 실전 워크플로입니다.",
+      "body": [
+        "번역문만 보면 괜찮아 보여도 막상 부르면 문제가 드러납니다. 후렴이 두 음절 길고, 가장 중요한 단어가 약한 박에 놓이고, 영어에서는 자연스러운 문장이 한국어, 스페인어, 독일어에서는 딱딱하게 들릴 수 있습니다. [AI 가사 생성기](https://easymusic.ai/ko/tools/ai-lyrics-generator)를 쓰기 전에 언어 변경을 줄 단위 번역이 아니라 노래할 수 있는 재작성으로 보세요.",
+        "## EasyMusic.AI란?",
+        "EasyMusic.AI는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 AI 음악을 만드는 플랫폼입니다. 다국어 가사 작업에서는 빠르게 초안과 변형을 실험하는 공간으로 쓰고, 최종 판단은 읽기, 노래하기, 곡 안에서의 테스트로 내려야 합니다.",
+        "## 각 섹션의 역할을 먼저 적기",
+        "초안을 만들기 전에 각 부분의 일을 짧게 씁니다. 벌스는 장소를 보여준다, 프리코러스는 의심을 키운다, 후렴은 다시 시작하겠다고 말한다, 브리지는 그 대가를 인정한다. 이런 지도가 있으면 새 언어에 맞춰 이미지, 어순, 길이를 바꾸더라도 노래의 핵심은 지킬 수 있습니다.",
+        "## 언어와 스타일 프레임 주기",
+        "첫 요청에는 목표 언어, 주제, 무드, 장르, 꼭 들어갈 단어 몇 개를 넣습니다. 스타일 표현이 부족하면 가사 생성 전에 [음악 스타일 생성기](https://easymusic.ai/ko/tools/music-style-generator)로 질감과 장르 단어를 모으세요. late-night synth pop ballad, conversational chorus, regret and restart처럼 구체적인 프레임은 이 노래를 한국어로 번역해줘보다 훨씬 낫습니다.",
+        "## 노래 가능성을 확인하기",
+        "각 줄을 템포에 맞춰 읽고 일부러 거칠게 불러봅니다. 대략적인 음절 수, 강세가 들리는 단어, 길게 끌 수 있는 모음을 표시하세요. 중요한 단어가 힘없는 멜로디 위치에 놓이면 후크가 약해집니다. 원래 후크가 열린 소리로 끝난다면 새 언어에서도 부르기 편한 끝음을 찾으세요. 그다음 전체 곡이 아니라 한 벌스와 후렴만 [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)에서 시험합니다.",
+        "## 오늘 바로 쓸 수 있는 세 가지",
+        "- 바뀌면 안 되는 의미와 바꿔도 되는 표현을 두 칸으로 나눕니다.\n- 후렴은 원문에 가까운 버전과 목표 언어에서 더 잘 불리는 버전 두 개를 만듭니다.\n- 언어별 카드에 톤, 필수 단어, 피할 단어, 운율 선택, 크게 바꾼 이유를 적습니다.",
+        "## 피해야 할 실수",
+        "모든 은유를 지키려다 새 언어에서 어색하거나 과하게 문어체가 될 수 있습니다. 운율만 좇으면 화자의 성격이 달라집니다. 또한 AI가 만든 가사를 바로 공개용, 고객 납품용, 공식 번역으로 다루지 말고 원문 권리, 도구 조건, 필요한 경우 유창한 검토를 확인하세요.",
+        "## FAQ",
+        "먼저 번역한 뒤 고치는 게 좋나요? 참고용으로는 좋지만, 섹션 역할표에서 시작하는 편이 더 자연스럽습니다. 운율은 원곡과 같아야 하나요? 후크에 도움이 될 때만 그렇습니다. 후렴이 너무 길면요? 빠르게 욱여넣지 말고 이미지를 하나 줄이세요. 사람 검토가 필요한가요? 잘 모르는 언어로 공개한다면 필요합니다."
+      ]
+    },
+    "pt": {
+      "title": "Escreva letras cantaveis em outro idioma com IA",
+      "description": "Um fluxo pratico para criar letras multilingues com IA preservando sentido, gancho, ritmo e sensacao vocal.",
+      "body": [
+        "A traducao parece correta ate alguem tentar cantar. O refrao fica duas silabas longo, a palavra mais forte cai num tempo fraco e uma frase direta em ingles soa dura em portugues, japones ou alemao. Antes de usar um [gerador de letras com IA](https://easymusic.ai/pt/tools/ai-lyrics-generator), trate a localizacao como reescrita cantada, nao como troca linha por linha.",
+        "## O que e EasyMusic.AI?",
+        "EasyMusic.AI e uma plataforma de criacao musical com IA a partir de prompts, letras, ideias de estilo e escolhas de modelo. Em letras multilingues, use-a para testar rascunhos e variacoes rapidamente; a decisao real vem depois, lendo, cantando e ouvindo as palavras dentro da musica.",
+        "## Mapeie a funcao de cada secao",
+        "Antes de escrever, resuma o trabalho de cada parte: o verso apresenta o lugar, o pre-refrao aumenta a duvida, o refrao diz vou recomecar, a ponte admite o custo. Esse mapa vale mais que uma traducao literal, porque mostra o que precisa sobreviver mesmo que imagem, sintaxe ou tamanho mudem na nova lingua.",
+        "## Defina idioma e estilo",
+        "No primeiro pedido, indique idioma alvo, tema, clima, genero e poucas palavras essenciais. Se faltar vocabulario musical, use o [gerador de estilos musicais](https://easymusic.ai/pt/tools/music-style-generator) para reunir palavras de textura e genero antes de pedir a letra. Um briefing como balada pop brasileira, arrependimento de madrugada, refrao simples e conversado orienta melhor que traduzir esta musica.",
+        "## Faca uma passada de cantabilidade",
+        "Fale cada linha no tempo e depois cante de forma simples. Conte silabas de modo aproximado, marque palavras fortes e observe vogais que podem ser sustentadas. A palavra importante nao deve cair onde a melodia quase nao tem peso. Se o gancho original termina em som aberto, procure uma saida confortavel na lingua alvo. Depois teste apenas um verso e refrao no [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator) antes de criar a versao inteira.",
+        "## Tres ideias reutilizaveis",
+        "- Mantenha duas colunas: sentido que nao pode mudar e redacao que pode mudar.\n- Peca dois refroes: um mais perto da fonte e outro mais cantavel na lingua alvo.\n- Guarde um cartao de idioma com tom, palavras obrigatorias, palavras evitadas, escolha de rima e motivo das grandes reescritas.",
+        "## Erros a evitar",
+        "Nao proteja toda metafora se ela soar formal ou confusa na nova lingua. Nao persiga rima ate mudar a personalidade de quem canta. E nao trate uma letra gerada como pronta para publicacao, entrega a cliente ou traducao oficial sem revisar material de origem, condicoes da ferramenta e opiniao fluente quando o idioma importa.",
+        "## Perguntas frequentes",
+        "Devo traduzir primeiro e reescrever depois? Pode ajudar como referencia, mas o mapa de secoes costuma gerar letras mais naturais. O esquema de rima precisa ser igual? So quando ajuda o gancho. E se o refrao ficar longo? Remova uma imagem ou divida a ideia. Preciso de revisao humana? Sim, se voce nao domina a lingua e a musica sera publica."
+      ]
+    },
+    "ru": {
+      "title": "Как писать AI-тексты песен для другого языка, чтобы их можно было петь",
+      "description": "Практичный процесс для многоязычных lyrics: сохранить смысл, hook, ритм и естественность вокальной фразы.",
+      "body": [
+        "Черновой перевод выглядит нормально, пока его не пытаются спеть. Припев становится на два слога длиннее, главное слово попадает на слабую долю, а фраза, которая звучала прямо на английском, кажется деревянной на русском, немецком или корейском. Перед тем как открыть [AI lyrics generator](https://easymusic.ai/ru/tools/ai-lyrics-generator), воспринимайте локализацию как вокальную переработку, а не замену строк.",
+        "## Что такое EasyMusic.AI?",
+        "EasyMusic.AI - это платформа для создания музыки с помощью AI на основе prompts, lyrics, стилевых идей и выбора моделей. Для многоязычных текстов она полезна как место быстрых черновиков и вариантов; окончательное решение лучше принимать после чтения вслух, пропевания и проверки внутри музыкальной фразы.",
+        "## Сначала опишите задачу каждой части",
+        "Перед генерацией напишите простую карту: куплет показывает место, pre-chorus добавляет сомнение, chorus говорит я начинаю заново, bridge признает цену. Такая карта полезнее буквального исходника, потому что показывает, что должно сохраниться. В новом языке можно менять образ, синтаксис и длину, если эмоциональная функция остается той же.",
+        "## Задайте язык и стиль",
+        "В первом запросе укажите целевой язык, тему, настроение, жанр и несколько обязательных слов. Если не хватает музыкального словаря, соберите слова через [music style generator](https://easymusic.ai/ru/tools/music-style-generator) до генерации текста. Запрос вроде Russian indie pop ballad, late-night regret, simple conversational chorus даст более живой результат, чем просто переведи песню.",
+        "## Проверьте, можно ли это петь",
+        "Проговорите каждую строку в темпе, потом грубо пропойте. Посчитайте примерные слоги, отметьте ударные слова и гласные, которые можно тянуть. Важное слово не должно стоять там, где мелодия почти не имеет веса. Если оригинальный hook заканчивается открытым звуком, найдите удобное окончание и в целевом языке. Затем проверьте только куплет и припев в [AI music generator](https://easymusic.ai/ru/ai-music-generator), не создавая сразу полную версию.",
+        "## Три приема на сегодня",
+        "- Держите две колонки: смысл, который нельзя менять, и формулировку, которую можно переписать.\n- Попросите два припева: ближе к источнику и более удобный для пения.\n- Ведите карточку языка: тон, обязательные слова, нежелательные слова, решение по рифме и причина крупных переработок.",
+        "## Частые ошибки",
+        "Не сохраняйте каждую метафору, если в новом языке она звучит официально или запутанно. Не гонитесь за рифмой так сильно, что меняется личность рассказчика. И не считайте AI-текст готовым для релиза, клиентской сдачи или официального перевода без проверки исходного материала, условий инструмента и носителя языка, если это важно.",
+        "## FAQ",
+        "Сначала перевести, потом переписать? Можно использовать как справку, но карта секций часто дает более естественный текст. Нужно ли копировать рифмовку? Только если она помогает hook. Что делать, если припев слишком длинный? Уберите один образ или разделите мысль. Нужна ли человеческая проверка? Да, если вы плохо знаете язык и работа будет публичной."
+      ]
+    },
+    "zh": {
+      "title": "用 AI 写出另一种语言里也能自然演唱的歌词",
+      "description": "一套实用流程，帮助你用 AI 制作多语言歌词草稿，同时保留含义、副歌、节奏和演唱感。",
+      "body": [
+        "歌词翻译看起来没问题，不代表唱起来也成立。副歌可能多出两个音节，最重要的词落在弱拍上，英语里很直接的一句，换成中文、葡萄牙语或德语就显得僵硬。使用 [AI 歌词生成器](https://easymusic.ai/zh/tools/ai-lyrics-generator) 前，先把本地化当成可演唱的重写，而不是逐行替换。",
+        "## EasyMusic.AI 是什么？",
+        "EasyMusic.AI 是一个 AI 音乐创作平台，可以根据提示词、歌词、风格想法和模型选择来制作音乐。做多语言歌词时，可以用它快速探索草稿和不同版本，但真正的判断要来自朗读、试唱，以及放进歌曲结构里的测试。",
+        "## 先写出每个段落的任务",
+        "生成前，先用普通话写一张结构图：主歌展示场景，预副歌增加犹豫，副歌说我要重新开始，桥段承认代价。这样的图比逐字原文更有用，因为它告诉你什么必须保留。换到另一种语言时，意象、语序和长度都可以改变，只要情绪功能还在。",
+        "## 给出语言和风格框架",
+        "第一次请求里写清目标语言、主题、情绪、曲风和少量关键词。如果风格词不够准确，可以先用[音乐风格生成器](https://easymusic.ai/zh/tools/music-style-generator)收集质感和曲风词，再生成歌词。比如 late-night Mandarin pop ballad、遗憾但克制、短句副歌，就比把这首歌翻译成中文更有指导性。",
+        "## 做一次可唱性检查",
+        "按节奏读每一行，然后故意用很粗略的方式唱出来。数大致音节，圈出重音词，标记可以拉长的元音。重要的词不要放在旋律没有重量的位置。如果原来的 hook 结尾是容易延长的开口音，新的语言里也要寻找舒服的结尾。之后只把一段主歌和副歌放进 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 测试，不要一开始就做完整版本。",
+        "## 三个可以马上复用的做法",
+        "- 建两列：不能改变的含义，和可以改写的表达。\n- 副歌做两个版本：一个更接近原文，一个更适合目标语言演唱。\n- 每种语言保留一张卡片，记录语气、必须出现的词、避免的词、押韵策略，以及大改写的原因。",
+        "## 避免这些错误",
+        "不要为了保住每个比喻，让新语言听起来书面或混乱。不要为了押韵，把叙述者写成另一个人。也不要把 AI 生成的歌词直接当成可发布、可交付客户或官方翻译的最终稿；要检查原始素材、工具条款，并在语言重要时找熟悉该语言的人审读。",
+        "## 常见问题",
+        "应该先翻译再改写吗？可以作为参考，但从段落任务开始通常更自然。押韵结构要和原曲一样吗？只有它帮助副歌时才需要。副歌太长怎么办？删掉一个意象或拆开一句，不要硬塞快音节。需要真人审阅吗？如果你不熟悉目标语言，而且作品要公开，就需要。"
+      ]
+    }
+  }
+}
