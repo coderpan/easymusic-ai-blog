@@ -1,0 +1,238 @@
+{
+  "date": "2026-06-08",
+  "slug": "ai-lyrics-section-tags-workflow",
+  "cluster": "lyrics-workflows",
+  "translations": {
+    "ar": {
+      "title": "رتب كلمات الأغنية بعلامات المقاطع قبل توليد موسيقى AI",
+      "description": "طريقة عملية لاستخدام علامات مثل Verse وChorus وBridge حتى يفهم مولد الموسيقى بنية الأغنية بدلا من غناء نص مرتبك.",
+      "body": [
+        "تكتب كلمات جيدة، تلصقها في الأداة، ثم تسمع نتيجة غريبة: اللازمة لا تعود في المكان الصحيح، المقطع الهادئ يغنى مثل البيت، أو الجسر يتحول إلى بيت ثالث. غالبا ليست المشكلة في الفكرة، بل في شكل النص. قبل استخدام [مولد كلمات الأغاني بالذكاء الاصطناعي](https://easymusic.ai/ar/tools/ai-lyrics-generator)، رتب الكلمات كخريطة مقاطع يمكن للموديل قراءتها.",
+        "## ما هو EasyMusic.AI؟",
+        "EasyMusic.AI منصة لإنشاء الموسيقى بالذكاء الاصطناعي من وصف نصي، كلمات، أفكار أسلوبية، وخيارات توليد. يمكن أن تساعدك في تجربة كلمات وأغان بسرعة، لكنك لا تزال تحتاج إلى brief واضح، مراجعة بشرية، وتحقق من شروط الاستخدام قبل أي نشر أو عمل لعميل.",
+        "## اجعل العلامات علامات طريق لا أوامر طويلة",
+        "ضع علامة قصيرة في سطر منفصل قبل كل مقطع: [Verse]، [Pre-Chorus]، [Chorus]، [Bridge]، [Outro]. لا تضع فقرة تعليمات كاملة داخل العلامة. التفاصيل مثل المزاج، السرعة، الآلات، أو نوع الصوت مكانها الأفضل في prompt الأسلوب أو في وصف قصير قبل التوليد. إذا كانت مفردات النوع غير واضحة، اجمعها أولا عبر [مولد أنماط الموسيقى](https://easymusic.ai/ar/tools/music-style-generator).",
+        "## اكتب قالبا صغيرا قبل الكلمات",
+        "ابدأ بخطة فارغة: Intro قصير، Verse من أربعة أسطر، Pre-Chorus من سطرين، Chorus من أربعة أسطر، Verse ثان، Chorus، Bridge، Chorus أخير. بعد ذلك املأ الكلمات. هذا يمنعك من كتابة مقاطع طويلة ثم محاولة إنقاذ البنية لاحقا. حافظ على أطوال متقاربة داخل المقطع نفسه، لأن السطر الطويل جدا قد يجعل الغناء يتعثر أو يضغط الكلمات بسرعة.",
+        "## افصل ما يغنى عما يوجه الأداء",
+        "كل ما تضعه كسطر عادي قد يحاول النموذج غناءه. إذا أردت لحظة بلا كلمات، استخدم علامة بسيطة مثل [Instrumental Break] ثم اترك مساحة أو اكتب وصفا قصيرا غير غنائي في prompt الأسلوب. لا تكتب تعليمات مثل خفف الآلات الآن بين سطور الكلمات، لأنها قد تظهر ككلمات مسموعة. عند الاختبار، ولد مقطعا قصيرا في [مولد الموسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator) واستمع إلى انتقال Verse إلى Chorus قبل بناء الأغنية كاملة.",
+        "## ثلاث أفكار قابلة للاستخدام فورا",
+        "- اكتب بنية الأغنية كاملة بالعلامات فقط قبل كتابة أي سطر غنائي.\n- اجعل كل Chorus متطابقا أو قريبا جدا إذا كان يجب أن يبقى hook في الذاكرة.\n- اختبر نسخة بدون Bridge ونسخة مع Bridge حتى تعرف هل تحتاج الأغنية إلى تغيير حقيقي أم إلى تكرار أقوى.",
+        "## أخطاء شائعة",
+        "لا تخلط أسماء المقاطع بلغات كثيرة في الأغنية نفسها إذا لم يكن ذلك مقصودا. لا تضع [Verse 1: غناء حزين، صوت قريب، بيانو فقط] إذا كان يمكنك نقل هذه الصفات إلى prompt الأسلوب. لا تفترض أن العلامات ضمان مطلق؛ هي إشارات مفيدة، وليست محررا موسيقيا دقيقا. احتفظ بنسخة النص، prompt، التاريخ، وأي مصدر خارجي استخدمته للمراجعة.",
+        "## FAQ",
+        "هل أحتاج العلامات في كل أغنية؟ ليست إلزامية، لكنها مفيدة عندما لديك كلمات محددة. هل أكتب Verse 1 وVerse 2؟ يمكن ذلك، لكن العلامة البسيطة غالبا أوضح. هل أكرر اللازمة كاملة؟ نعم إذا كان تكرار hook مهم. ماذا لو تجاهل الموديل علامة؟ قصر المقطع، قلل التعليمات داخل الكلمات، وجرب prompt أسلوب أبسط."
+      ]
+    },
+    "de": {
+      "title": "AI-Lyrics mit Section-Tags sauber fuer die Generierung vorbereiten",
+      "description": "Ein praktischer Workflow fuer Verse-, Chorus-, Bridge- und Instrumental-Tags, damit der Songentwurf nicht als Textblock zerfaellt.",
+      "body": [
+        "Du hast ordentliche Lyrics, fuegst sie ein, und der erzeugte Song verhaelt sich trotzdem seltsam: Der Chorus kommt nicht klar zurueck, die Bridge klingt wie eine dritte Strophe, oder ein kurzer Instrumentalteil wird gesungen. Oft ist nicht die Idee das Problem, sondern das Format. Bevor du mit einem [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) weiterarbeitest, mach aus dem Text eine lesbare Songkarte.",
+        "## Was ist EasyMusic.AI?",
+        "EasyMusic.AI ist eine Plattform zur KI-gestuetzten Musikerstellung aus Textbeschreibungen, Lyrics, Stilideen und Generierungsoptionen. Sie kann schnelle Songskizzen und Varianten liefern, ersetzt aber keinen klaren Brief, keine menschliche Auswahl und keine Pruefung von Tool-Bedingungen oder Rechtefragen vor Veroeffentlichung.",
+        "## Nutze Tags als Wegweiser, nicht als Roman",
+        "Setze kurze Tags auf eigene Zeilen: [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]. Schreibe keine langen Regieanweisungen in die Klammern. Stimmung, Tempo, Instrumente und Stimme gehoeren meistens in den Style-Prompt. Wenn dir dafuer die Worte fehlen, sammle zuerst Genre-, Instrument- und Texturbegriffe mit dem [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator).",
+        "## Baue erst eine kleine Schablone",
+        "Beginne mit einer leeren Struktur: kurzes Intro, vierzeilige Verse, zweizeiliger Pre-Chorus, vierzeiliger Chorus, zweite Verse, Chorus, Bridge, finaler Chorus. Danach fuellst du die Lyrics. So vermeidest du den typischen Fehler, einen langen Gedichtblock zu schreiben und spaeter eine Songform hineinzuzwingen. Halte Zeilen innerhalb derselben Section aehnlich lang; extrem lange Zeilen fuehren oft zu gehetzter Phrasierung.",
+        "## Trenne Gesungenes von Steuerung",
+        "Alles, was wie eine normale Zeile aussieht, kann als Lyric gesungen werden. Fuer einen Abschnitt ohne Gesang reicht ein einfacher Tag wie [Instrumental Break], waehrend Klangdetails besser in den Style-Prompt gehoeren. Schreibe nicht mitten in die Lyrics, dass die Drums jetzt leiser werden sollen. Teste erst nur den Uebergang von Verse zu Chorus im [AI Music Generator](https://easymusic.ai/de/ai-music-generator), bevor du die komplette Songfassung beurteilst.",
+        "## Drei sofort nutzbare Ideen",
+        "- Schreibe die komplette Songform nur mit Tags, bevor du Lyrics einsetzt.\n- Wiederhole den Chorus bewusst fast gleich, wenn der Hook haften bleiben soll.\n- Erzeuge eine Version mit Bridge und eine ohne Bridge, um zu hoeren, ob der Song wirklich Kontrast braucht.",
+        "## Typische Fehler",
+        "Mische Section-Namen nicht ohne Grund in mehreren Sprachen. Ueberlade Tags nicht mit Details wie [Verse 1: traurig, nahes Vocal, nur Piano], wenn diese Informationen im Style-Prompt klarer sind. Erwarte keine absolute Kontrolle; Tags sind hilfreiche Hinweise, kein exakter Notensatz. Speichere Lyrics, Prompt, Datum und verwendete Quellen als Produktionsnotiz.",
+        "## FAQ",
+        "Braucht jeder Song Tags? Nein, aber bei eigenen Lyrics helfen sie stark. Soll ich Verse 1 und Verse 2 nummerieren? Das kann funktionieren, einfache Tags sind oft stabiler. Muss der Chorus exakt wiederholt werden? Wenn der Hook wichtig ist, ja oder sehr nah. Was tun, wenn ein Tag ignoriert wird? Kuerzere Sections, weniger Regie im Lyrics-Feld und ein klarerer Style-Prompt."
+      ]
+    },
+    "en": {
+      "title": "Format AI Lyrics With Section Tags Before You Generate",
+      "description": "A practical workflow for using verse, chorus, bridge, and instrumental tags so an AI song draft follows the structure you meant.",
+      "body": [
+        "The lyric reads well on the page, but the generated song does something else: the chorus does not return cleanly, the bridge feels like another verse, or the note for an instrumental break gets treated like a sung line. That is usually a formatting problem, not a creativity problem. Before sending the draft through an [AI lyrics generator](https://easymusic.ai/tools/ai-lyrics-generator), turn the text into a simple song map.",
+        "## What is EasyMusic.AI?",
+        "EasyMusic.AI is an AI music creation platform for making music from text prompts, lyrics, style ideas, and generation settings. It can help you draft songs and test variations quickly, but it does not replace a clear brief, human taste, tool-term review, or rights checks before release or client use.",
+        "## Use tags as signposts, not essays",
+        "Put short section tags on their own lines: [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]. Avoid stuffing the tag with every performance direction. Mood, tempo, instruments, vocal delivery, and production texture usually belong in the style prompt. If your sound vocabulary is thin, use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) first to collect genre, instrument, mood, and texture words.",
+        "## Build the blank structure first",
+        "Start with an empty form: short intro, four-line verse, two-line pre-chorus, four-line chorus, second verse, chorus, bridge, final chorus. Then fill in the lyric. This keeps you from writing a long poem and trying to force song architecture onto it later. Keep line lengths reasonably consistent inside each section; one very long line can make the vocal rush or blur the phrase ending.",
+        "## Separate lyrics from directions",
+        "Anything that looks like a normal lyric line may be sung. If you want a wordless moment, use a plain tag such as [Instrumental Break] and keep the sonic details in the style prompt. Do not write production instructions between lyric lines unless you are comfortable hearing them. Test only the verse-to-chorus handoff in the [AI music generator](https://easymusic.ai/ai-music-generator) before judging a full arrangement.",
+        "## Three reusable ideas",
+        "- Write the whole song form with tags only before adding any lyrics.\n- Keep each chorus identical or nearly identical when the hook needs to be remembered.\n- Generate one version with a bridge and one without, then decide whether contrast helps or just delays the final chorus.",
+        "## Mistakes to avoid",
+        "Do not mix section names in several languages unless the song intentionally needs that. Do not write tags like [Verse 1: sad, close vocal, piano only] when those details would be clearer in the style prompt. Do not treat tags as guaranteed control; they are useful signals, not a precise score editor. Keep a production note with the lyric text, prompt, date, tool, and any source material you used.",
+        "## FAQ",
+        "Do all AI songs need section tags? No, but they help when you care about a fixed lyric shape. Should I number verses? You can, although simple repeated tags are often cleaner. Should the chorus repeat exactly? Usually yes if the hook is the point. What if the model ignores a tag? Shorten the section, remove extra directions from the lyrics field, and simplify the style prompt."
+      ]
+    },
+    "es": {
+      "title": "Formatea letras IA con etiquetas de seccion antes de generar",
+      "description": "Un flujo practico para usar etiquetas de verso, estribillo, puente e instrumental sin que el borrador termine como un bloque confuso.",
+      "body": [
+        "La letra funciona al leerla, pero la cancion generada hace otra cosa: el estribillo no vuelve con claridad, el puente suena como otro verso o una nota de instrumental acaba cantada. Muchas veces no falta creatividad; falta formato. Antes de pasar el texto por un [generador de letras con IA](https://easymusic.ai/es/tools/ai-lyrics-generator), conviertelo en un mapa sencillo de cancion.",
+        "## Que es EasyMusic.AI?",
+        "EasyMusic.AI es una plataforma de creacion musical con IA para hacer musica desde prompts, letras, ideas de estilo y ajustes de generacion. Sirve para probar canciones y variantes rapido, pero no sustituye un brief claro, criterio humano, revision de condiciones de la herramienta ni comprobaciones de derechos antes de publicar o entregar a un cliente.",
+        "## Usa las etiquetas como senales, no como parrafos",
+        "Pon etiquetas cortas en lineas separadas: [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]. Evita meter todas las instrucciones dentro del corchete. Mood, tempo, instrumentos, voz y textura de produccion suelen ir mejor en el prompt de estilo. Si te faltan palabras sonoras, usa primero el [generador de estilos musicales](https://easymusic.ai/es/tools/music-style-generator) para reunir vocabulario de genero, instrumentos y textura.",
+        "## Construye primero la estructura vacia",
+        "Empieza con una forma vacia: intro corta, verso de cuatro lineas, pre-estribillo de dos, estribillo de cuatro, segundo verso, estribillo, puente y estribillo final. Luego rellena la letra. Asi evitas escribir un poema largo y forzar despues una arquitectura musical. Mantén longitudes parecidas dentro de cada seccion; una linea demasiado larga puede hacer que la voz se apresure o cierre mal la frase.",
+        "## Separa lo cantado de las direcciones",
+        "Todo lo que parezca una linea normal puede terminar cantado. Si quieres un momento sin voz, usa una etiqueta simple como [Instrumental Break] y deja los detalles sonoros para el prompt de estilo. No escribas instrucciones de produccion entre versos salvo que no te importe oirlas. Prueba solo el paso de verso a estribillo en el [generador de musica con IA](https://easymusic.ai/es/ai-music-generator) antes de juzgar todo el arreglo.",
+        "## Tres ideas reutilizables",
+        "- Escribe toda la forma de la cancion solo con etiquetas antes de anadir letras.\n- Mantén cada estribillo igual o casi igual si el hook debe recordarse.\n- Genera una version con puente y otra sin puente para decidir si el contraste ayuda o solo retrasa el final.",
+        "## Errores que conviene evitar",
+        "No mezcles nombres de secciones en varios idiomas sin razon. No escribas etiquetas como [Verse 1: triste, voz cercana, solo piano] si esos detalles se entienden mejor en el prompt de estilo. No trates las etiquetas como control garantizado; son senales utiles, no un editor de partitura. Guarda una nota con letra, prompt, fecha, herramienta y cualquier material fuente.",
+        "## Preguntas frecuentes",
+        "Todas las canciones con IA necesitan etiquetas? No, pero ayudan cuando quieres una forma fija. Conviene numerar versos? Se puede, aunque las etiquetas simples suelen ser mas limpias. El estribillo debe repetirse igual? Normalmente si el hook es importante. Que hago si ignora una etiqueta? Acorta la seccion, quita instrucciones del campo de letra y simplifica el prompt de estilo."
+      ]
+    },
+    "fr": {
+      "title": "Formater des paroles IA avec des tags de section avant generation",
+      "description": "Un workflow pratique pour utiliser couplet, refrain, pont et instrumental sans transformer le brouillon en bloc confus.",
+      "body": [
+        "Les paroles se lisent bien, mais la chanson generee part ailleurs: le refrain ne revient pas clairement, le pont ressemble a un autre couplet, ou une note d instrumental est chantee comme une ligne. Ce n est pas toujours un probleme d idee. C est souvent un probleme de format. Avant de passer le texte dans un [generateur de paroles IA](https://easymusic.ai/fr/tools/ai-lyrics-generator), transforme-le en carte de chanson lisible.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "EasyMusic.AI est une plateforme de creation musicale par IA a partir de prompts, paroles, idees de style et reglages de generation. Elle aide a tester vite des chansons et variantes, mais elle ne remplace pas un brief clair, le jugement humain, la lecture des conditions de l outil ni la verification des droits avant publication ou travail client.",
+        "## Utilise les tags comme panneaux, pas comme roman",
+        "Place des tags courts sur leur propre ligne: [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]. Evite de mettre toutes les directions dans les crochets. L humeur, le tempo, les instruments, la voix et la texture de production vont souvent mieux dans le prompt de style. Si ton vocabulaire sonore manque, commence par le [generateur de style musical](https://easymusic.ai/fr/tools/music-style-generator) pour rassembler genre, instruments et textures.",
+        "## Construis d abord la forme vide",
+        "Commence par une structure nue: intro courte, couplet de quatre lignes, pre-refrain de deux lignes, refrain de quatre lignes, deuxieme couplet, refrain, pont, refrain final. Remplis ensuite les paroles. Cela evite d ecrire un long poeme puis d essayer de lui imposer une architecture de chanson. Garde des longueurs de ligne assez proches dans chaque section; une ligne tres longue peut forcer la voix a courir.",
+        "## Separe ce qui se chante des directions",
+        "Tout ce qui ressemble a une ligne normale peut etre chante. Pour un moment sans voix, utilise un tag simple comme [Instrumental Break] et mets les details sonores dans le prompt de style. N ecris pas d instructions de production entre les paroles sauf si tu acceptes de les entendre. Teste seulement le passage couplet-refrain dans le [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator) avant de juger tout l arrangement.",
+        "## Trois idees reutilisables",
+        "- Ecris toute la forme avec des tags seuls avant d ajouter les paroles.\n- Garde chaque refrain identique ou presque si le hook doit rester en memoire.\n- Genere une version avec pont et une sans pont pour savoir si le contraste aide vraiment.",
+        "## Erreurs a eviter",
+        "Ne melange pas les noms de sections dans plusieurs langues sans intention claire. N ecris pas des tags comme [Verse 1: triste, voix proche, piano seul] si ces details seraient plus nets dans le prompt de style. Ne prends pas les tags pour un controle garanti; ce sont des signaux utiles, pas un editeur de partition. Garde une note avec paroles, prompt, date, outil et sources utilisees.",
+        "## FAQ",
+        "Tous les morceaux IA ont-ils besoin de tags? Non, mais ils aident si la forme compte. Faut-il numeroter les couplets? Tu peux, mais les tags simples sont souvent plus propres. Le refrain doit-il etre identique? Souvent oui si le hook est central. Que faire si un tag est ignore? Raccourcis la section, retire les directions du champ paroles et simplifie le prompt de style."
+      ]
+    },
+    "it": {
+      "title": "Formatta i testi AI con tag di sezione prima di generare",
+      "description": "Un workflow pratico per usare strofa, ritornello, bridge e tag strumentali senza far diventare il brano un blocco confuso.",
+      "body": [
+        "Il testo funziona sulla pagina, ma la canzone generata fa altro: il ritornello non torna bene, il bridge sembra un altra strofa, oppure una nota per l intermezzo strumentale viene cantata. Spesso non e un problema di idea, ma di formato. Prima di passare la bozza in un [generatore di testi AI](https://easymusic.ai/it/tools/ai-lyrics-generator), trasformala in una mappa semplice della canzone.",
+        "## Che cos e EasyMusic.AI?",
+        "EasyMusic.AI e una piattaforma di creazione musicale con AI da prompt testuali, testi, idee di stile e impostazioni di generazione. Aiuta a provare canzoni e varianti rapidamente, ma non sostituisce un brief chiaro, il gusto umano, la revisione dei termini dello strumento o il controllo dei diritti prima di pubblicare o consegnare a un cliente.",
+        "## Usa i tag come segnali, non come saggi",
+        "Metti tag brevi su righe separate: [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]. Evita di infilare tutte le indicazioni dentro le parentesi. Mood, tempo, strumenti, voce e texture di produzione di solito stanno meglio nel prompt di stile. Se ti mancano parole sonore, usa prima il [generatore di stili musicali](https://easymusic.ai/it/tools/music-style-generator) per raccogliere termini di genere, strumenti e texture.",
+        "## Costruisci prima la struttura vuota",
+        "Parti da una forma nuda: intro breve, strofa di quattro righe, pre-ritornello di due, ritornello di quattro, seconda strofa, ritornello, bridge, ritornello finale. Poi riempi il testo. Cosi eviti di scrivere una lunga poesia e forzare dopo una struttura musicale. Mantieni lunghezze simili dentro la stessa sezione; una riga molto lunga puo far correre la voce o confondere la chiusura della frase.",
+        "## Separa testo cantato e direzioni",
+        "Tutto cio che sembra una normale riga puo essere cantato. Se vuoi un momento senza parole, usa un tag semplice come [Instrumental Break] e lascia i dettagli sonori al prompt di stile. Non scrivere istruzioni di produzione tra le righe del testo se non vuoi rischiare di sentirle. Prova solo il passaggio strofa-ritornello nel [generatore di musica AI](https://easymusic.ai/it/ai-music-generator) prima di giudicare tutto l arrangiamento.",
+        "## Tre idee riutilizzabili",
+        "- Scrivi l intera forma della canzone solo con tag prima di aggiungere parole.\n- Tieni ogni ritornello uguale o quasi uguale quando l hook deve restare in memoria.\n- Genera una versione con bridge e una senza per capire se il contrasto aiuta davvero.",
+        "## Errori da evitare",
+        "Non mescolare nomi di sezioni in piu lingue senza motivo. Non scrivere tag come [Verse 1: triste, voce vicina, solo piano] se quei dettagli sono piu chiari nel prompt di stile. Non trattare i tag come controllo garantito; sono segnali utili, non un editor di partitura. Conserva una nota con testo, prompt, data, strumento e materiali fonte.",
+        "## FAQ",
+        "Tutte le canzoni AI hanno bisogno di tag? No, ma aiutano quando la forma conta. Devo numerare le strofe? Puoi, anche se i tag semplici sono spesso piu puliti. Il ritornello deve ripetersi uguale? Di solito si, se l hook e centrale. E se il modello ignora un tag? Accorcia la sezione, togli istruzioni dal campo testo e semplifica il prompt di stile."
+      ]
+    },
+    "ja": {
+      "title": "生成前にAI歌詞をセクションタグで整える方法",
+      "description": "Verse、Chorus、Bridge、Instrumentalのタグを使い、意図した構成でAI曲の下書きを試すための実践手順です。",
+      "body": [
+        "歌詞として読むと悪くないのに、生成すると別の曲になります。サビがきれいに戻らない、ブリッジがただの2番に聞こえる、インストのメモが歌われてしまう。これは才能の問題ではなく、入力の形の問題であることが多いです。[AI歌詞ジェネレーター](https://easymusic.ai/ja/tools/ai-lyrics-generator)に渡す前に、歌詞を小さな曲の地図に整えます。",
+        "## EasyMusic.AIとは？",
+        "EasyMusic.AIは、テキストプロンプト、歌詞、スタイル案、生成設定から音楽を作るAI音楽制作プラットフォームです。曲案や別案を速く試せますが、明確なブリーフ、人の判断、ツール条件の確認、公開や納品前の権利確認を置き換えるものではありません。",
+        "## タグは長い指示ではなく道しるべにする",
+        "[Verse]、[Pre-Chorus]、[Chorus]、[Bridge]、[Outro]のような短いタグを、それぞれ独立した行に置きます。角括弧の中に演奏指示を詰め込みすぎないでください。ムード、テンポ、楽器、声、質感は、多くの場合スタイルプロンプトに書いた方が明確です。音の語彙が足りない場合は、先に[音楽スタイルジェネレーター](https://easymusic.ai/ja/tools/music-style-generator)でジャンル、楽器、質感の言葉を集めます。",
+        "## 先に空の構成を作る",
+        "まず空の形を書きます。短いIntro、4行のVerse、2行のPre-Chorus、4行のChorus、2番、Chorus、Bridge、最後のChorus。そこへ歌詞を入れます。長い詩を書いてから曲構成を押し込むより、ずっと整理しやすくなります。同じセクション内では行の長さを近づけます。極端に長い行は、歌が急いだり語尾が曖昧になったりしやすいからです。",
+        "## 歌う言葉と指示を分ける",
+        "普通の歌詞行に見えるものは、歌われる可能性があります。言葉のない部分がほしいなら、[Instrumental Break]のような単純なタグを使い、音の詳細はスタイルプロンプトへ移します。歌詞の間に制作指示を書き込むと、それ自体が聞こえるリスクがあります。全体を判断する前に、[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)でVerseからChorusへの短い流れだけを試します。",
+        "## すぐ使える3つの工夫",
+        "- 歌詞を書く前に、タグだけで曲全体の形を書きます。\n- Hookを覚えさせたいなら、Chorusは同じかほぼ同じにします。\n- Bridgeあり版となし版を作り、対比が本当に必要か比べます。",
+        "## 避けたいミス",
+        "意図がないのに複数言語のセクション名を混ぜないこと。[Verse 1: sad, close vocal, piano only]のように詰め込むより、詳しい音の条件はスタイルプロンプトに置く方が安定します。タグは便利な合図であり、完全な制御ではありません。歌詞、プロンプト、日付、使ったツール、参照素材を制作メモとして残してください。",
+        "## FAQ",
+        "すべてのAI曲にタグは必要ですか？必須ではありませんが、形を固定したい時に役立ちます。Verse 1のように番号を付けますか？可能ですが、単純なタグの方が整理しやすいことがあります。Chorusは同じにしますか？Hookが重要なら基本は同じです。タグを無視されたら？セクションを短くし、歌詞欄の指示を減らし、スタイルプロンプトを単純にします。"
+      ]
+    },
+    "ko": {
+      "title": "생성 전에 AI 가사를 섹션 태그로 정리하는 법",
+      "description": "Verse, Chorus, Bridge, Instrumental 태그를 써서 AI 노래 초안이 의도한 구조를 따라가게 만드는 실전 흐름입니다.",
+      "body": [
+        "가사는 읽을 때 괜찮은데 생성된 노래는 다르게 움직일 때가 있습니다. 후렴이 제대로 돌아오지 않거나, 브리지가 또 다른 벌스처럼 들리거나, 연주 구간 메모가 가사처럼 불립니다. 창의력보다 입력 형식의 문제일 때가 많습니다. [AI 가사 생성기](https://easymusic.ai/ko/tools/ai-lyrics-generator)에 넣기 전에 텍스트를 간단한 노래 지도처럼 정리하세요.",
+        "## EasyMusic.AI는 무엇인가요?",
+        "EasyMusic.AI는 텍스트 프롬프트, 가사, 스타일 아이디어, 생성 설정을 바탕으로 음악을 만드는 AI 음악 제작 플랫폼입니다. 곡 초안과 변형을 빠르게 시험하는 데 도움이 되지만, 명확한 브리프, 사람의 취향 판단, 도구 조건 검토, 공개나 납품 전 권리 확인을 대신하지는 않습니다.",
+        "## 태그는 긴 설명이 아니라 표지판처럼 쓰기",
+        "[Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]처럼 짧은 태그를 각각 독립된 줄에 둡니다. 괄호 안에 모든 연주 지시를 넣지 마세요. 무드, 템포, 악기, 보컬 톤, 질감은 대개 스타일 프롬프트에 쓰는 편이 더 분명합니다. 소리 표현이 부족하다면 먼저 [음악 스타일 생성기](https://easymusic.ai/ko/tools/music-style-generator)로 장르, 악기, 질감 단어를 모으세요.",
+        "## 빈 구조를 먼저 만들기",
+        "처음에는 빈 형식부터 씁니다. 짧은 Intro, 4줄 Verse, 2줄 Pre-Chorus, 4줄 Chorus, 두 번째 Verse, Chorus, Bridge, 마지막 Chorus. 그다음 가사를 채웁니다. 긴 시를 써 놓고 나중에 노래 구조를 억지로 넣는 것보다 안정적입니다. 같은 섹션 안에서는 줄 길이를 비슷하게 유지하세요. 너무 긴 줄 하나는 보컬이 급하게 달리거나 어미가 흐려지는 원인이 됩니다.",
+        "## 가사와 지시를 분리하기",
+        "평범한 가사 줄처럼 보이는 것은 불릴 수 있습니다. 말 없는 구간이 필요하면 [Instrumental Break] 같은 단순한 태그를 쓰고, 구체적 소리 설명은 스타일 프롬프트에 둡니다. 가사 사이에 프로덕션 지시를 쓰면 그 문장이 들릴 위험이 있습니다. 전체 편곡을 판단하기 전에 [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)에서 Verse에서 Chorus로 넘어가는 짧은 구간만 테스트하세요.",
+        "## 바로 쓸 수 있는 세 가지",
+        "- 가사를 넣기 전에 태그만으로 전체 곡 구조를 씁니다.\n- Hook을 기억시키고 싶다면 Chorus는 같거나 거의 같게 둡니다.\n- Bridge가 있는 버전과 없는 버전을 만들어 대비가 정말 필요한지 비교합니다.",
+        "## 피해야 할 실수",
+        "의도 없이 여러 언어의 섹션 이름을 섞지 마세요. [Verse 1: sad, close vocal, piano only]처럼 태그에 다 넣기보다 자세한 소리 조건은 스타일 프롬프트에 두는 편이 낫습니다. 태그를 완전한 제어로 생각하지 마세요. 유용한 신호일 뿐 정확한 악보 편집기는 아닙니다. 가사, 프롬프트, 날짜, 도구, 참고 자료를 제작 메모로 남기세요.",
+        "## FAQ",
+        "모든 AI 노래에 태그가 필요한가요? 필수는 아니지만 고정된 구조가 중요할 때 좋습니다. Verse 1처럼 번호를 붙여야 하나요? 가능하지만 단순 태그가 더 깔끔할 때가 많습니다. Chorus는 똑같이 반복하나요? Hook이 중요하면 보통 그렇습니다. 태그를 무시하면요? 섹션을 줄이고, 가사 칸의 지시를 덜어내고, 스타일 프롬프트를 단순하게 만드세요."
+      ]
+    },
+    "pt": {
+      "title": "Formate letras com tags de secao antes de gerar musica IA",
+      "description": "Um fluxo pratico para usar verso, refrao, ponte e instrumental para que o rascunho de musica IA siga a estrutura desejada.",
+      "body": [
+        "A letra funciona quando voce le, mas a musica gerada faz outra coisa: o refrao nao volta limpo, a ponte soa como outro verso ou a nota de instrumental vira uma linha cantada. Muitas vezes nao e falta de ideia; e formato. Antes de enviar o texto para um [gerador de letras com IA](https://easymusic.ai/pt/tools/ai-lyrics-generator), transforme-o em um mapa simples de cancao.",
+        "## O que e EasyMusic.AI?",
+        "EasyMusic.AI e uma plataforma de criacao musical com IA para fazer musica a partir de prompts, letras, ideias de estilo e configuracoes de geracao. Ela ajuda a testar musicas e variacoes rapidamente, mas nao substitui um brief claro, julgamento humano, revisao dos termos da ferramenta nem verificacao de direitos antes de publicar ou entregar a um cliente.",
+        "## Use tags como placas, nao como ensaios",
+        "Coloque tags curtas em linhas proprias: [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]. Evite encher o colchete com toda direcao de performance. Clima, tempo, instrumentos, voz e textura de producao normalmente funcionam melhor no prompt de estilo. Se faltar vocabulario sonoro, use primeiro o [gerador de estilos musicais](https://easymusic.ai/pt/tools/music-style-generator) para reunir termos de genero, instrumentos e textura.",
+        "## Crie primeiro a estrutura vazia",
+        "Comece por uma forma vazia: intro curta, verso de quatro linhas, pre-refrao de duas, refrao de quatro, segundo verso, refrao, ponte e refrao final. Depois preencha a letra. Isso evita escrever um poema longo e tentar encaixar arquitetura musical depois. Mantenha comprimentos parecidos dentro da mesma secao; uma linha longa demais pode fazer a voz correr ou borrar o fim da frase.",
+        "## Separe letras de instrucoes",
+        "Tudo que parece uma linha normal pode ser cantado. Se quiser um momento sem voz, use uma tag simples como [Instrumental Break] e deixe os detalhes sonoros no prompt de estilo. Nao escreva instrucoes de producao entre linhas de letra se voce nao quer correr o risco de ouvi-las. Teste apenas a passagem de verso para refrao no [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator) antes de julgar o arranjo completo.",
+        "## Tres ideias reutilizaveis",
+        "- Escreva a forma inteira da musica apenas com tags antes de adicionar letras.\n- Mantenha cada refrao igual ou quase igual quando o hook precisa ficar na memoria.\n- Gere uma versao com ponte e outra sem ponte para decidir se o contraste ajuda mesmo.",
+        "## Erros para evitar",
+        "Nao misture nomes de secoes em varias linguas sem intencao. Nao escreva tags como [Verse 1: triste, voz proxima, so piano] quando esses detalhes ficariam mais claros no prompt de estilo. Nao trate tags como controle garantido; elas sao sinais uteis, nao um editor de partitura. Guarde uma nota com letra, prompt, data, ferramenta e materiais fonte usados.",
+        "## Perguntas frequentes",
+        "Toda musica IA precisa de tags? Nao, mas elas ajudam quando a forma importa. Devo numerar versos? Pode, embora tags simples costumem ser mais limpas. O refrao deve repetir igual? Geralmente sim se o hook e o ponto central. E se o modelo ignorar uma tag? Encurte a secao, tire instrucoes do campo de letra e simplifique o prompt de estilo."
+      ]
+    },
+    "ru": {
+      "title": "Форматируйте AI-текст песни с тегами секций до генерации",
+      "description": "Практичный workflow для Verse, Chorus, Bridge и Instrumental tags, чтобы AI-song draft следовал нужной структуре.",
+      "body": [
+        "Текст хорошо читается на странице, но сгенерированная песня ведет себя иначе: припев не возвращается чисто, bridge звучит как еще один verse, а заметка про instrumental break вдруг поется как строка. Часто дело не в идее, а в формате. Перед работой с [AI lyrics generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) превратите текст в простую карту песни.",
+        "## Что такое EasyMusic.AI?",
+        "EasyMusic.AI - это платформа для создания музыки с помощью AI на основе текстовых prompts, lyrics, стилевых идей и настроек генерации. Она помогает быстро проверять черновики и варианты песен, но не заменяет ясный brief, человеческий вкус, проверку условий инструмента и правовой контекст перед релизом или клиентской работой.",
+        "## Используйте теги как указатели, а не как инструкции на абзац",
+        "Ставьте короткие tags отдельными строками: [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro]. Не запихивайте все исполнительские детали внутрь скобок. Настроение, темп, инструменты, вокальная подача и production texture обычно лучше работают в style prompt. Если не хватает слов для звука, сначала соберите жанры, инструменты и фактуру через [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator).",
+        "## Сначала сделайте пустую форму",
+        "Начните с пустой структуры: короткое intro, verse на четыре строки, pre-chorus на две, chorus на четыре, второй verse, chorus, bridge, final chorus. Потом заполните lyrics. Так вы не будете писать длинное стихотворение и позднее насильно превращать его в песню. Держите длину строк внутри секции примерно одинаковой; одна слишком длинная строка часто заставляет вокал торопиться.",
+        "## Отделяйте слова от управляющих заметок",
+        "Все, что выглядит как обычная строка lyrics, может быть спето. Если нужен момент без слов, используйте простой tag вроде [Instrumental Break], а детали звучания оставьте в style prompt. Не вставляйте production instructions между строками, если не хотите рискнуть услышать их в вокале. Сначала проверьте только переход verse-to-chorus в [AI music generator](https://easymusic.ai/ru/ai-music-generator), а уже потом оценивайте полный arrangement.",
+        "## Три идеи, которые можно применить сразу",
+        "- Напишите всю форму песни только тегами, прежде чем добавлять lyrics.\n- Оставляйте chorus одинаковым или почти одинаковым, если hook должен запоминаться.\n- Сгенерируйте версию с bridge и без bridge, чтобы понять, нужен ли контраст.",
+        "## Ошибки, которых стоит избегать",
+        "Не смешивайте названия секций на разных языках без причины. Не пишите tags вроде [Verse 1: sad, close vocal, piano only], если эти детали яснее в style prompt. Не считайте tags гарантированным контролем; это полезные сигналы, а не точный редактор партитуры. Сохраните production note: lyrics, prompt, date, tool и использованные источники.",
+        "## FAQ",
+        "Нужны ли tags каждой AI-песне? Нет, но они помогают, когда важна фиксированная форма. Нужно ли нумеровать verses? Можно, хотя простые tags часто чище. Должен ли chorus повторяться точно? Обычно да, если важен hook. Что делать, если модель игнорирует tag? Укоротите секцию, уберите лишние directions из lyrics field и упростите style prompt."
+      ]
+    },
+    "zh": {
+      "title": "生成前先用段落标签整理 AI 歌词结构流程",
+      "description": "一个实用流程，教你用 Verse、Chorus、Bridge 和 Instrumental 标签，让 AI 歌曲草稿更接近预期结构。",
+      "body": [
+        "歌词在纸面上读起来不错，生成后却变了样：副歌没有清楚回来，Bridge 听起来像第三段主歌，写给间奏的备注还被唱出来。这通常不是创意不够，而是输入格式不清楚。把文本交给 [AI 歌词生成器](https://easymusic.ai/zh/tools/ai-lyrics-generator)之前，先把它整理成一张简单的歌曲地图。",
+        "## EasyMusic.AI 是什么？",
+        "EasyMusic.AI 是一个 AI 音乐创作平台，可以根据文字提示、歌词、风格想法和生成设置制作音乐。它适合快速测试歌曲草稿和不同版本，但不能替代清晰 brief、人类审美判断、工具条款检查，以及发布或客户交付前的权利审查。",
+        "## 把标签当路标，不要当长说明",
+        "把短标签单独放在一行，例如 [Verse]、[Pre-Chorus]、[Chorus]、[Bridge]、[Outro]。不要把所有演唱和编曲要求都塞进方括号。情绪、速度、乐器、声线、制作质感通常更适合写在风格 prompt 里。如果你缺少声音词汇，可以先用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 收集流派、乐器和质感表达。",
+        "## 先写空结构，再填歌词",
+        "先写一个空表：短 Intro、四行 Verse、两行 Pre-Chorus、四行 Chorus、第二段 Verse、Chorus、Bridge、最后 Chorus。然后再填歌词。这样比先写一大段诗、再硬塞成歌曲结构稳定得多。同一段落里的行长尽量接近；一行过长会让人声赶拍，或者让句尾变得含糊。",
+        "## 区分要唱的字和控制说明",
+        "任何看起来像普通歌词行的内容，都有可能被唱出来。如果你想要无歌词片段，用简单标签如 [Instrumental Break]，把具体声音细节放到风格 prompt。不要把降低鼓声、这里停顿之类制作说明夹在歌词中间，除非你能接受它被唱出来。先在 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator)里测试 Verse 到 Chorus 的短连接，再判断整首编曲。",
+        "## 三个马上可用的做法",
+        "- 写任何歌词前，先只用标签写完整歌曲结构。\n- 如果 hook 需要被记住，每次 Chorus 保持相同或接近相同。\n- 做一个有 Bridge 的版本和一个没有 Bridge 的版本，比较对比是否真的有帮助。",
+        "## 常见错误",
+        "不要无意混用多种语言的段落名。不要写 [Verse 1: sad, close vocal, piano only] 这类过度拥挤的标签，详细声音条件放在风格 prompt 往往更清楚。不要把标签当成绝对控制；它们是有用信号，不是精准乐谱编辑器。保留制作记录：歌词、prompt、日期、工具，以及参考素材来源。",
+        "## FAQ",
+        "每首 AI 歌都需要标签吗？不一定，但当你在意固定结构时很有用。要写 Verse 1、Verse 2 吗？可以，不过简单标签常常更干净。Chorus 必须重复吗？如果 hook 是重点，通常应该相同或非常接近。模型忽略标签怎么办？缩短段落，减少歌词栏里的指令，并简化风格 prompt。"
+      ]
+    }
+  }
+}

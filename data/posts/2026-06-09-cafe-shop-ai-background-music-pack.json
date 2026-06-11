@@ -1,0 +1,238 @@
+{
+  "date": "2026-06-09",
+  "slug": "cafe-shop-ai-background-music-pack",
+  "cluster": "business-ambience-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع حزمة موسيقى AI هادئة لمقهى أو متجر قبل تشغيلها للزبائن",
+      "description": "Workflow عملي لتخطيط موسيقى خلفية لمقهى أو متجر صغير مع اختبار الصوت، تقسيم اليوم، ومراجعة الحقوق قبل التشغيل العام.",
+      "body": [
+        "يريد صاحب مقهى صغير شيئا افضل من قائمة عشوائية تعلو فوق المحادثات، لكنه لا يريد ايضا تحويل المكان الى عرض موسيقي. الحل ليس توليد مسار واحد طويل ونسيانه. ابدأ بحزمة قصيرة من ثلاث لحظات: صباح هادئ، فترة مزدحمة، ونهاية يوم اكثر دفئا. يمكن تجربة المسودات في [مولد الموسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، لكن قرار التشغيل في مكان عام يحتاج مراجعة منفصلة للحقوق والسياق.",
+        "## ما هو EasyMusic.AI؟",
+        "EasyMusic.AI منصة لإنشاء الموسيقى بالذكاء الاصطناعي من أوصاف نصية، كلمات، أفكار أسلوبية، وخيارات توليد. تساعدك على اختبار اتجاهات صوتية بسرعة، لكنها لا تلغي الحاجة إلى brief واضح، ذوق بشري، سجل استخدام، ومراجعة شروط الأداة أو أي ترخيص لازم قبل تشغيل الموسيقى للعملاء.",
+        "## ارسم خريطة اليوم قبل كتابة prompt",
+        "اكتب ثلاث بطاقات فقط. بطاقة الصباح: tempo متوسط بطيء، آلات ناعمة، مساحة للحديث. بطاقة الذروة: إيقاع اوضح لكن بلا غناء ملفت. بطاقة الإغلاق: أدفأ وأبطأ حتى لا يبدو المكان متوترا. لا تبدأ بالأنواع الموسيقية وحدها؛ ابدأ بسلوك المكان. هل الزبائن يعملون على حواسيب؟ هل يريد العاملون طاقة بسيطة؟ هل توجد آلة قهوة أو مطبخ يصنع ضجيجا؟",
+        "## حول البطاقة إلى وصف صوتي قابل للتكرار",
+        "صيغة مفيدة: use case + energy + instruments + avoid list. مثال: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". إذا كان وصفك عاما جدا، اجمع مفردات للنوع والآلات والمزاج عبر [مولد أنماط الموسيقى](https://easymusic.ai/ar/tools/music-style-generator) ثم احذف أي كلمة لا تخدم المكان.",
+        "## اختبر السماعات لا سماعات الرأس فقط",
+        "المسار الذي يبدو جميلا في headphones قد يصبح حادا على سماعات رخيصة في زاوية محل. شغل المقطع بصوت منخفض، ثم تحدث مع شخص على بعد مترين. إذا بدأت ترفع صوتك، فالترتيب مزدحم أو الصوت عال. اختبر بداية المقطع ونهايته، لأن انتقالا مفاجئا كل دقيقتين يزعج المكان اكثر من لحن بسيط متكرر.",
+        "## لا تجعل AI بديلا عن مراجعة الحقوق",
+        "التوليد لا يعني تلقائيا أن الاستخدام العام آمن في كل بلد أو لكل خطة أو لكل حالة تجارية. احتفظ بملف صغير لكل مسار: prompt، التاريخ، الأداة، الإصدار إن وجد، مكان الاستخدام المقصود، ومن وافق على تشغيله. قبل تشغيل الموسيقى في مقهى أو متجر مفتوح للجمهور، راجع شروط الخدمة والمتطلبات المحلية أو استشر متخصصا إذا كان الاستخدام تجاريا مهما.",
+        "## ثلاث أفكار قابلة للاستخدام فورا",
+        "- أنشئ ثلاث مسودات قصيرة بدلا من playlist طويلة: morning, rush, closing.\n- استخدم no lead vocal وno sharp drops عندما تكون المحادثة جزءا من تجربة المكان.\n- اطلب من موظف وعميل موثوق تقييم الصوت من داخل المكان، لا من ملف mp3 فقط.",
+        "## FAQ",
+        "هل يكفي مسار واحد لكل اليوم؟ غالبا لا؛ تغير الطاقة يساعد المكان على الشعور بالطبيعية. هل أستخدم غناء؟ للمقاهي والمتاجر الصغيرة، instrumental عادة أقل إزعاجا. هل يمكن تشغيل المسار مباشرة بعد توليده؟ اختبره أولا وراجع شروط الاستخدام وأي متطلبات ترخيص عامة. ماذا أكتب في سجل الاستخدام؟ prompt، التاريخ، الأداة، النسخة النهائية، ومن وافق على التشغيل."
+      ]
+    },
+    "de": {
+      "title": "Ein AI-Musikpaket fuer Cafe oder Laden planen, bevor es im Raum laeuft",
+      "description": "Ein praktischer Workflow fuer Hintergrundmusik in kleinen Geschaeften: Dayparts, Prompts, Lautsprecher-Test und Rechtepruefung.",
+      "body": [
+        "Ein kleines Cafe braucht keine zufaellige Playlist, die Gespraeche uebertoent. Es braucht auch keinen Track, der sich wie eine Vorfuehrung in den Vordergrund draengt. Denke deshalb nicht an einen einzigen langen Song, sondern an ein kleines Paket: ruhiger Morgen, voller Mittagsbetrieb, waermerer Feierabend. Erste Skizzen kannst du im [AI Music Generator](https://easymusic.ai/de/ai-music-generator) testen; die Entscheidung fuer oeffentliche Wiedergabe bleibt aber eine eigene Rechte- und Kontextpruefung.",
+        "## Was ist EasyMusic.AI?",
+        "EasyMusic.AI ist eine Plattform zur KI-gestuetzten Musikerstellung aus Textbeschreibungen, Lyrics, Stilideen und Generierungsoptionen. Sie hilft, Klangrichtungen schnell zu testen, ersetzt aber keinen klaren Brief, keine menschliche Auswahl, kein Nutzungsprotokoll und keine Pruefung von Tool-Bedingungen oder Lizenzen vor dem Einsatz vor Kundschaft.",
+        "## Plane den Tag, bevor du den Prompt schreibst",
+        "Schreibe nur drei Karten. Morgen: mittellangsames Tempo, weiche Instrumente, Platz fuer Gespraech. Spitzenzeit: etwas klarerer Puls, aber keine aufdringliche Leadstimme. Abend: langsamer und waermer, damit der Raum nicht nervoes wirkt. Starte nicht mit Genre-Etiketten allein. Starte mit dem Verhalten im Raum: arbeiten Menschen dort, warten sie kurz, oder sitzen sie lange mit Freunden?",
+        "## Mach aus der Karte eine wiederholbare Klangbeschreibung",
+        "Eine stabile Formel ist: use case + energy + instruments + avoid list. Beispiel: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". Wenn dir die Worte fehlen, sammle mit dem [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) erst Genre-, Instrument- und Stimmungsbegriffe und streiche danach alles, was dem Raum nicht dient.",
+        "## Teste Lautsprecher, nicht nur Kopfhoerer",
+        "Ein Track kann im Kopfhoerer weich klingen und ueber kleine Deckenlautsprecher scharf werden. Spiele ihn leise ab und fuehre ein normales Gespraech mit zwei Metern Abstand. Wenn du lauter sprechen musst, ist das Arrangement zu dicht oder die Lautstaerke zu hoch. Pruefe besonders Anfang und Ende; ein harter Neustart alle zwei Minuten stoert mehr als ein einfacher, gut gemischter Loop.",
+        "## Behandle AI nicht als Abkuerzung bei Rechten",
+        "Generierung bedeutet nicht automatisch, dass jede oeffentliche oder kommerzielle Nutzung in jeder Region, jedem Plan oder jeder Situation geklaert ist. Lege fuer jeden Track eine kleine Karte ab: Prompt, Datum, Tool, ggf. Modellversion, geplanter Ort und Freigabe. Vor der Wiedergabe in einem oeffentlich zugaenglichen Cafe oder Laden solltest du die Nutzungsbedingungen und lokale Anforderungen pruefen oder bei wichtigem kommerziellem Einsatz fachlichen Rat einholen.",
+        "## Drei sofort nutzbare Ideen",
+        "- Erzeuge drei kurze Entwuerfe statt einer langen Playlist: morning, rush, closing.\n- Nutze no lead vocal und no sharp drops, wenn Gespraeche zum Erlebnis gehoeren.\n- Lass eine vertraute Person im echten Raum bewerten, nicht nur die exportierte Datei.",
+        "## FAQ",
+        "Reicht ein Track fuer den ganzen Tag? Meist nicht; wechselnde Energie wirkt natuerlicher. Sollte der Track Vocals haben? Fuer Cafes und kleine Laeden ist instrumental oft weniger stoerend. Kann ich sofort nach der Generierung abspielen? Erst testen und Bedingungen sowie moegliche Lizenzpflichten pruefen. Was gehoert ins Protokoll? Prompt, Datum, Tool, finale Datei und die Person, die die Nutzung freigegeben hat."
+      ]
+    },
+    "en": {
+      "title": "Make an AI Music Pack for a Cafe or Shop Before It Plays in the Room",
+      "description": "A practical workflow for small-business background music: daypart briefs, prompt cards, speaker tests, and rights-aware review.",
+      "body": [
+        "A small cafe does not need a random playlist fighting the espresso machine and every conversation. It also does not need a track that sounds like a product launch. Treat the job as a tiny music pack instead: morning calm, busy-hour lift, and warmer closing energy. You can draft those ideas in the [AI music generator](https://easymusic.ai/ai-music-generator), but public playback still needs its own rights and context check.",
+        "## What is EasyMusic.AI?",
+        "EasyMusic.AI is an AI music creation platform for making music from text prompts, lyrics, style ideas, and generation settings. It can help you test sound directions quickly, but it does not replace a clear brief, human listening, usage notes, tool-term review, or licensing checks before music is played for customers.",
+        "## Map the day before writing the prompt",
+        "Write three cards, not a full playlist. Morning: medium-slow tempo, soft instruments, room for conversation. Rush: a clearer pulse without a distracting lead vocal. Closing: slower and warmer so the space does not feel tense. Start with the room behavior, not only the genre. Are people working on laptops, waiting five minutes for pickup, or staying for a long chat? The answer changes the arrangement.",
+        "## Turn the card into a repeatable sound brief",
+        "A useful formula is: use case + energy + instruments + avoid list. Example: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". If your vocabulary is too vague, collect genre, instrument, mood, and texture words with the [Music Style Generator](https://easymusic.ai/tools/music-style-generator), then remove anything that does not serve the room.",
+        "## Test speakers, not just headphones",
+        "A draft that feels smooth in headphones can turn sharp through small ceiling speakers. Play it quietly, then hold a normal conversation two meters away. If you start raising your voice, the arrangement is too dense or the level is too high. Check the first ten seconds and the ending as well; a hard restart every two minutes can irritate a room more than a simple loop.",
+        "## Do not use AI as a rights shortcut",
+        "Generation does not automatically mean every public or commercial use is cleared in every country, subscription plan, or venue. Keep a small record for each track: prompt, date, tool, model version if visible, intended location, and who approved it. Before playing music in a public cafe or shop, review the service terms and local public-performance requirements, and get qualified advice when the use matters commercially.",
+        "## Three reusable ideas",
+        "- Make three short drafts instead of one long playlist: morning, rush, closing.\n- Use no lead vocal and no sharp drops when conversation is part of the room experience.\n- Ask one staff member and one trusted customer to judge the sound inside the actual space.",
+        "## FAQ",
+        "Is one track enough for the whole day? Usually no; daypart changes make the music feel less mechanical. Should cafe background music have vocals? Instrumental is often safer for conversation-heavy spaces. Can I play a generated track immediately? Test it first, then review tool terms and any public-playback licensing requirements. What should I save? The prompt, date, tool, final file, intended use, and approval note."
+      ]
+    },
+    "es": {
+      "title": "Crea un pack de musica IA para cafe o tienda antes de ponerlo en sala",
+      "description": "Un flujo practico para musica ambiental de pequenos negocios: franjas del dia, prompts, prueba con altavoces y revision de derechos.",
+      "body": [
+        "Un cafe pequeno no necesita una playlist aleatoria peleando con la maquina de espresso y las conversaciones. Tampoco necesita una pista que suene como un anuncio. Plantea el trabajo como un pack pequeno: calma de manana, impulso para la hora fuerte y un cierre mas calido. Puedes probar borradores en el [generador de musica con IA](https://easymusic.ai/es/ai-music-generator), pero la reproduccion publica requiere su propia revision de derechos y contexto.",
+        "## Que es EasyMusic.AI?",
+        "EasyMusic.AI es una plataforma de creacion musical con IA para hacer musica desde prompts, letras, ideas de estilo y ajustes de generacion. Ayuda a probar direcciones sonoras rapido, pero no sustituye un brief claro, escucha humana, notas de uso, revision de condiciones de la herramienta ni comprobaciones de licencia antes de poner musica para clientes.",
+        "## Mapea el dia antes de escribir el prompt",
+        "Escribe tres tarjetas, no una playlist completa. Manana: tempo medio-lento, instrumentos suaves, espacio para hablar. Hora punta: pulso mas claro sin voz principal que distraiga. Cierre: mas lento y calido para que el local no se sienta tenso. Empieza por el comportamiento del lugar, no solo por el genero. La gente trabaja, espera un pedido rapido o se queda conversando?",
+        "## Convierte la tarjeta en un brief sonoro repetible",
+        "Una formula util es: uso + energia + instrumentos + lista de evitar. Ejemplo: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". Si tu vocabulario es vago, recoge palabras de genero, instrumentos, mood y textura con el [generador de estilos musicales](https://easymusic.ai/es/tools/music-style-generator) y despues elimina lo que no sirva al espacio.",
+        "## Prueba altavoces, no solo auriculares",
+        "Un borrador agradable en auriculares puede sonar punzante en altavoces pequenos de techo. Ponlo bajo y habla con alguien a dos metros. Si empiezas a subir la voz, el arreglo esta demasiado lleno o el volumen es alto. Revisa tambien los primeros segundos y el final; un reinicio brusco cada dos minutos puede cansar mas que un loop sencillo.",
+        "## No uses la IA como atajo de derechos",
+        "Generar musica no significa automaticamente que todo uso publico o comercial este cubierto en cualquier pais, plan o local. Guarda una ficha por pista: prompt, fecha, herramienta, version visible del modelo, lugar previsto y persona que aprueba. Antes de reproducir musica en un cafe o tienda abierta al publico, revisa terminos del servicio y requisitos locales de ejecucion publica; pide asesoramiento si el uso es importante.",
+        "## Tres ideas reutilizables",
+        "- Crea tres borradores cortos en vez de una playlist larga: morning, rush, closing.\n- Usa no lead vocal y no sharp drops cuando la conversacion sea parte de la experiencia.\n- Pide a una persona del equipo y a un cliente de confianza que escuchen dentro del local real.",
+        "## Preguntas frecuentes",
+        "Una pista basta para todo el dia? Normalmente no; los cambios por franja suenan mas naturales. Conviene usar voces? En espacios de conversacion, instrumental suele funcionar mejor. Puedo poner la pista en cuanto se genera? Primero prueba, luego revisa terminos y requisitos de licencia. Que debo guardar? Prompt, fecha, herramienta, archivo final, uso previsto y nota de aprobacion."
+      ]
+    },
+    "fr": {
+      "title": "Creer un pack de musique IA pour cafe ou boutique avant diffusion",
+      "description": "Un workflow pratique pour musique d ambiance en petit commerce: moments de la journee, prompts, test haut-parleurs et droits.",
+      "body": [
+        "Un petit cafe n a pas besoin d une playlist au hasard qui lutte contre la machine a espresso et les conversations. Il n a pas non plus besoin d une piste qui prend toute la place. Pense plutot a un mini-pack: calme du matin, energie de l heure pleine, fermeture plus chaude. Tu peux tester ces brouillons dans le [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator), mais la diffusion publique demande toujours une verification separee des droits et du contexte.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "EasyMusic.AI est une plateforme de creation musicale par IA a partir de prompts, paroles, idees de style et reglages de generation. Elle aide a explorer vite des directions sonores, mais elle ne remplace pas un brief clair, une ecoute humaine, des notes d usage, la lecture des conditions de l outil ni les verifications de licence avant diffusion devant des clients.",
+        "## Cartographie la journee avant le prompt",
+        "Ecris trois fiches, pas une playlist complete. Matin: tempo moyen-lent, instruments doux, place pour parler. Rush: pulsation plus nette sans voix principale envahissante. Fermeture: plus lent et plus chaud pour eviter une ambiance nerveuse. Commence par le comportement du lieu, pas seulement par le genre. Les gens travaillent-ils, attendent-ils une commande, ou restent-ils longtemps a discuter?",
+        "## Transforme la fiche en brief sonore reproductible",
+        "Une formule solide: usage + energie + instruments + liste a eviter. Exemple: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". Si le vocabulaire manque, collecte des mots de genre, instruments, humeur et texture avec le [generateur de style musical](https://easymusic.ai/fr/tools/music-style-generator), puis retire ce qui n aide pas le lieu.",
+        "## Teste les haut-parleurs, pas seulement le casque",
+        "Un brouillon doux au casque peut devenir agressif sur de petits haut-parleurs de plafond. Lance-le a bas volume, puis parle normalement avec quelqu un a deux metres. Si tu forces la voix, l arrangement est trop dense ou le niveau trop haut. Verifie aussi les dix premieres secondes et la fin; un redemarrage brutal toutes les deux minutes fatigue plus qu une boucle simple.",
+        "## Ne fais pas de l IA un raccourci juridique",
+        "La generation ne signifie pas automatiquement que tout usage public ou commercial est autorise dans chaque pays, abonnement ou lieu. Garde une petite fiche par piste: prompt, date, outil, version du modele si visible, lieu prevu et personne qui valide. Avant de diffuser dans un cafe ou une boutique ouverte au public, relis les conditions du service et les obligations locales de diffusion publique; demande un avis qualifie si l usage compte.",
+        "## Trois idees reutilisables",
+        "- Cree trois brouillons courts au lieu d une longue playlist: morning, rush, closing.\n- Utilise no lead vocal et no sharp drops quand la conversation fait partie de l experience.\n- Demande a une personne de l equipe et a un client de confiance d ecouter dans le vrai lieu.",
+        "## FAQ",
+        "Une seule piste suffit-elle pour la journee? Rarement; les changements par moment sonnent plus naturels. Faut-il des voix? Pour un lieu de conversation, l instrumental est souvent plus discret. Peut-on diffuser juste apres generation? Teste d abord, puis verifie conditions et licences possibles. Que faut-il archiver? Prompt, date, outil, fichier final, usage prevu et validation."
+      ]
+    },
+    "it": {
+      "title": "Prepara un pack di musica AI per cafe o negozio prima di metterlo in sala",
+      "description": "Un workflow pratico per musica di sottofondo in piccoli locali: fasce orarie, prompt, prova altoparlanti e controllo diritti.",
+      "body": [
+        "Un piccolo cafe non ha bisogno di una playlist casuale che combatte con la macchina del caffe e le conversazioni. Non ha nemmeno bisogno di una traccia che sembri uno spot. Pensa invece a un mini pack: mattina calma, spinta per l ora piena, chiusura piu calda. Puoi provare le bozze nel [generatore di musica AI](https://easymusic.ai/it/ai-music-generator), ma la riproduzione pubblica richiede comunque una verifica separata di diritti e contesto.",
+        "## Che cos e EasyMusic.AI?",
+        "EasyMusic.AI e una piattaforma di creazione musicale con AI che parte da prompt testuali, testi, idee di stile e impostazioni di generazione. Aiuta a testare direzioni sonore in fretta, ma non sostituisce un brief chiaro, l ascolto umano, note d uso, revisione dei termini dello strumento o controlli di licenza prima di far ascoltare musica ai clienti.",
+        "## Mappa la giornata prima del prompt",
+        "Scrivi tre schede, non una playlist completa. Mattina: tempo medio-lento, strumenti morbidi, spazio per parlare. Ora di punta: pulsazione piu chiara senza voce solista invadente. Chiusura: piu lenta e calda, per non rendere il locale teso. Parti dal comportamento dello spazio, non solo dal genere. Le persone lavorano, aspettano un ordine veloce o restano a parlare a lungo?",
+        "## Trasforma la scheda in un brief sonoro ripetibile",
+        "Una formula utile e: uso + energia + strumenti + lista di cose da evitare. Esempio: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". Se il lessico e troppo vago, raccogli parole di genere, strumenti, mood e texture con il [generatore di stili musicali](https://easymusic.ai/it/tools/music-style-generator), poi elimina cio che non serve alla stanza.",
+        "## Prova gli altoparlanti, non solo le cuffie",
+        "Una bozza morbida in cuffia puo diventare tagliente su piccoli altoparlanti a soffitto. Riproducila a basso volume e parla normalmente con qualcuno a due metri. Se alzi la voce, l arrangiamento e troppo denso o il livello e troppo alto. Controlla anche i primi secondi e la fine; un riavvio brusco ogni due minuti stanca piu di un loop semplice.",
+        "## Non usare l AI come scorciatoia sui diritti",
+        "La generazione non significa automaticamente che ogni uso pubblico o commerciale sia coperto in ogni paese, piano o locale. Tieni una scheda per ogni traccia: prompt, data, strumento, versione del modello se visibile, luogo previsto e persona che approva. Prima di riprodurre musica in un cafe o negozio aperto al pubblico, controlla i termini del servizio e i requisiti locali di esecuzione pubblica; chiedi un parere qualificato se l uso conta.",
+        "## Tre idee riutilizzabili",
+        "- Crea tre bozze corte invece di una playlist lunga: morning, rush, closing.\n- Usa no lead vocal e no sharp drops quando la conversazione fa parte dell esperienza.\n- Fai giudicare il suono a una persona dello staff e a un cliente fidato dentro il locale reale.",
+        "## FAQ",
+        "Una traccia basta per tutto il giorno? Di solito no; le fasce orarie rendono l ascolto meno meccanico. Meglio con voce o strumentale? In spazi di conversazione, strumentale e spesso piu discreto. Posso riprodurla subito? Prima testa, poi verifica termini e possibili licenze. Cosa devo salvare? Prompt, data, strumento, file finale, uso previsto e approvazione."
+      ]
+    },
+    "ja": {
+      "title": "カフェや店舗で流す前にAI音楽パックを作る手順",
+      "description": "小さな店舗向けのBGMを、時間帯ブリーフ、プロンプト、スピーカーテスト、権利確認まで含めて整える実践ワークフローです。",
+      "body": [
+        "小さなカフェに必要なのは、エスプレッソマシンや会話と競い合うランダムなプレイリストではありません。主役になりすぎる派手な曲でもありません。朝の落ち着き、混雑時の軽い推進力、閉店前のあたたかさという小さな音楽パックとして考えます。下書きは[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)で試せますが、公共の場で流す前には権利と利用条件の確認が別に必要です。",
+        "## EasyMusic.AIとは？",
+        "EasyMusic.AIは、テキストプロンプト、歌詞、スタイル案、生成設定から音楽を作るAI音楽制作プラットフォームです。音の方向性を素早く試す助けになりますが、明確なブリーフ、人の耳での判断、使用メモ、ツール条件の確認、店舗で客に聴かせる前のライセンス確認を置き換えるものではありません。",
+        "## プロンプトの前に一日の流れを決める",
+        "まず3枚のカードを書きます。朝は中低速のテンポ、柔らかい楽器、会話の余白。混雑時は少し明確なビート。ただし目立つリードボーカルは避けます。閉店前は遅めで温かく、空間が緊張しないようにします。ジャンル名だけから始めず、店内の行動から始めます。客は仕事をしているのか、数分待つだけなのか、長く会話するのかで、必要な編曲は変わります。",
+        "## カードを再利用できる音のブリーフにする",
+        "使いやすい式は、用途 + エネルギー + 楽器 + 避けたい要素です。例: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\"。語彙がぼんやりしているなら、[音楽スタイルジェネレーター](https://easymusic.ai/ja/tools/music-style-generator)でジャンル、楽器、ムード、質感の言葉を集め、店に合わない語を削ります。",
+        "## ヘッドホンではなくスピーカーで確認する",
+        "ヘッドホンでは滑らかな曲でも、小さな天井スピーカーではきつく聞こえることがあります。小さめの音量で流し、2メートル離れた相手と普通に話します。声を上げ始めるなら、編曲が密すぎるか音量が高すぎます。最初の10秒と終わり方も確認します。2分ごとに急に戻る曲は、単純なループより店内で疲れやすいからです。",
+        "## AIを権利確認の近道にしない",
+        "生成されたことは、すべての国、プラン、店舗での公共利用や商用利用が自動的に許可されるという意味ではありません。各トラックに、プロンプト、日付、ツール、見える場合はモデル版、想定する場所、承認者を残します。カフェや店で客に向けて流す前に、サービス条件と地域の公共演奏に関する要件を確認し、重要な商用利用なら専門家に相談してください。",
+        "## すぐ使える3つの工夫",
+        "- 長いプレイリストではなく、morning、rush、closing の短い3案を作ります。\n- 会話が大切な空間では no lead vocal と no sharp drops を入れます。\n- 書き出した音源だけでなく、実際の店内でスタッフと信頼できる客に聴いてもらいます。",
+        "## FAQ",
+        "1曲で一日中使えますか？多くの場合は不自然です。時間帯で変えた方が機械的に聞こえません。ボーカルは入れるべきですか？会話の多い場所ではインストが扱いやすいです。生成後すぐ流せますか？まず音をテストし、条件と必要なライセンスを確認します。何を保存しますか？プロンプト、日付、ツール、最終ファイル、想定用途、承認メモです。"
+      ]
+    },
+    "ko": {
+      "title": "카페나 매장에서 틀기 전 AI 음악 팩을 만드는 방법",
+      "description": "작은 매장 배경음악을 시간대 브리프, 프롬프트 카드, 스피커 테스트, 권리 검토까지 포함해 준비하는 실전 흐름입니다.",
+      "body": [
+        "작은 카페에는 에스프레소 머신과 대화를 덮어 버리는 랜덤 플레이리스트가 필요하지 않습니다. 제품 발표처럼 앞에 나서는 음악도 필요하지 않습니다. 아침의 차분함, 붐비는 시간의 가벼운 리듬, 마감 전의 따뜻함을 담은 작은 음악 팩으로 생각하세요. 초안은 [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)에서 시험할 수 있지만, 공개된 매장에서 재생하기 전에는 별도의 권리와 이용 조건 확인이 필요합니다.",
+        "## EasyMusic.AI는 무엇인가요?",
+        "EasyMusic.AI는 텍스트 프롬프트, 가사, 스타일 아이디어, 생성 설정을 바탕으로 음악을 만드는 AI 음악 제작 플랫폼입니다. 소리의 방향을 빠르게 실험하는 데 도움이 되지만, 명확한 브리프, 사람의 청취 판단, 사용 기록, 도구 약관 검토, 고객에게 들려주기 전 라이선스 확인을 대신하지는 않습니다.",
+        "## 프롬프트보다 먼저 하루의 흐름을 나누기",
+        "전체 플레이리스트가 아니라 세 장의 카드를 씁니다. 아침: 중간보다 느린 템포, 부드러운 악기, 대화를 위한 여백. 피크 시간: 더 선명한 박자, 하지만 튀는 리드 보컬은 없음. 마감: 더 느리고 따뜻하게, 공간이 긴장하지 않도록. 장르명만 보지 말고 매장 안의 행동을 보세요. 사람들은 노트북으로 일하나요, 잠깐 픽업을 기다리나요, 오래 대화하나요?",
+        "## 카드를 반복 가능한 사운드 브리프로 바꾸기",
+        "쓸 만한 공식은 용도 + 에너지 + 악기 + 피해야 할 요소입니다. 예: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". 표현이 흐릿하다면 [음악 스타일 생성기](https://easymusic.ai/ko/tools/music-style-generator)로 장르, 악기, 무드, 질감 단어를 모은 뒤 공간에 맞지 않는 단어를 덜어내세요.",
+        "## 헤드폰이 아니라 스피커로 테스트하기",
+        "헤드폰에서는 부드러운 초안도 작은 천장 스피커에서는 날카롭게 들릴 수 있습니다. 낮은 볼륨으로 틀고 2미터 떨어진 사람과 평소처럼 대화해 보세요. 목소리를 높이게 된다면 편곡이 너무 촘촘하거나 소리가 큽니다. 첫 10초와 끝부분도 확인하세요. 2분마다 딱딱하게 다시 시작되는 곡은 단순한 루프보다 더 거슬릴 수 있습니다.",
+        "## AI를 권리 확인의 지름길로 쓰지 않기",
+        "생성했다는 사실이 모든 국가, 요금제, 매장에서의 공개 또는 상업적 이용을 자동으로 해결한다는 뜻은 아닙니다. 각 트랙마다 프롬프트, 날짜, 도구, 보이는 경우 모델 버전, 예정 장소, 승인자를 기록하세요. 카페나 매장에서 고객에게 들려주기 전에 서비스 조건과 지역의 공개 재생 요건을 확인하고, 중요한 상업적 사용이면 전문가에게 문의하세요.",
+        "## 바로 쓸 수 있는 세 가지",
+        "- 긴 플레이리스트 대신 morning, rush, closing 세 가지 짧은 초안을 만듭니다.\n- 대화가 중요한 공간에서는 no lead vocal 과 no sharp drops 를 넣습니다.\n- 파일만 듣지 말고 실제 매장에서 직원 한 명과 신뢰할 고객 한 명에게 평가를 받습니다.",
+        "## FAQ",
+        "하루 종일 한 곡이면 충분한가요? 보통은 아닙니다. 시간대 변화가 덜 기계적으로 들립니다. 보컬을 넣어도 되나요? 대화가 많은 공간에서는 인스트루멘털이 더 무난합니다. 생성 후 바로 틀어도 되나요? 먼저 소리 테스트를 하고 약관과 라이선스 요건을 확인하세요. 무엇을 저장하나요? 프롬프트, 날짜, 도구, 최종 파일, 사용 목적, 승인 메모입니다."
+      ]
+    },
+    "pt": {
+      "title": "Monte um pacote de musica IA para cafe ou loja antes de tocar no ambiente",
+      "description": "Um fluxo pratico para musica ambiente em pequenos negocios: partes do dia, prompts, teste em caixas e revisao de direitos.",
+      "body": [
+        "Um cafe pequeno nao precisa de uma playlist aleatoria brigando com a maquina de espresso e as conversas. Tambem nao precisa de uma faixa que pareca lancamento de produto. Trate o trabalho como um pacote pequeno: calma da manha, energia da hora cheia e fechamento mais quente. Voce pode rascunhar ideias no [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator), mas tocar em publico ainda exige uma checagem propria de direitos e contexto.",
+        "## O que e EasyMusic.AI?",
+        "EasyMusic.AI e uma plataforma de criacao musical com IA para fazer musica a partir de prompts, letras, ideias de estilo e configuracoes de geracao. Ela ajuda a testar direcoes sonoras rapidamente, mas nao substitui um brief claro, escuta humana, notas de uso, revisao dos termos da ferramenta nem verificacoes de licenca antes de tocar musica para clientes.",
+        "## Mapeie o dia antes de escrever o prompt",
+        "Escreva tres cartoes, nao uma playlist inteira. Manha: tempo medio-lento, instrumentos suaves, espaco para conversa. Pico: pulso mais claro sem vocal principal chamativo. Fechamento: mais lento e quente para o ambiente nao ficar tenso. Comece pelo comportamento no local, nao apenas pelo genero. As pessoas trabalham no notebook, esperam poucos minutos ou ficam conversando por muito tempo?",
+        "## Transforme o cartao em um brief sonoro repetivel",
+        "Uma formula util e: uso + energia + instrumentos + lista de evitar. Exemplo: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". Se o vocabulario estiver vago, junte palavras de genero, instrumentos, clima e textura com o [gerador de estilos musicais](https://easymusic.ai/pt/tools/music-style-generator), depois remova o que nao serve ao espaco.",
+        "## Teste caixas de som, nao so fones",
+        "Uma faixa suave no fone pode ficar cortante em caixas pequenas no teto. Toque baixo e converse normalmente com alguem a dois metros. Se voce comecar a levantar a voz, o arranjo esta denso demais ou o volume esta alto. Confira tambem os primeiros segundos e o final; um reinicio duro a cada dois minutos pode irritar mais que um loop simples.",
+        "## Nao use IA como atalho de direitos",
+        "Gerar musica nao significa automaticamente que todo uso publico ou comercial esteja resolvido em qualquer pais, plano ou estabelecimento. Guarde um registro por faixa: prompt, data, ferramenta, versao do modelo se visivel, local pretendido e pessoa que aprovou. Antes de tocar em um cafe ou loja aberta ao publico, revise os termos do servico e requisitos locais de execucao publica; busque orientacao qualificada se o uso for importante.",
+        "## Tres ideias reutilizaveis",
+        "- Faca tres rascunhos curtos em vez de uma playlist longa: morning, rush, closing.\n- Use no lead vocal e no sharp drops quando a conversa fizer parte da experiencia.\n- Peca a uma pessoa da equipe e a um cliente de confianca para avaliar dentro do espaco real.",
+        "## Perguntas frequentes",
+        "Uma faixa basta para o dia inteiro? Geralmente nao; mudar por periodo soa menos mecanico. Musica ambiente deve ter vocal? Em espacos de conversa, instrumental costuma ser melhor. Posso tocar logo depois de gerar? Teste primeiro, depois revise termos e possiveis licencas. O que devo salvar? Prompt, data, ferramenta, arquivo final, uso pretendido e nota de aprovacao."
+      ]
+    },
+    "ru": {
+      "title": "Подготовьте AI music pack для кафе или магазина до воспроизведения",
+      "description": "Практичный workflow для фоновой музыки в малом бизнесе: dayparts, prompts, тест колонок и проверка прав.",
+      "body": [
+        "Небольшому кафе не нужна случайная playlist, которая спорит с кофемашиной и разговорами. Не нужна и дорожка, звучащая как запуск продукта. Думайте о задаче как о маленьком music pack: спокойное утро, легкий подъем в час пик и более теплое закрытие. Черновики можно проверить в [AI music generator](https://easymusic.ai/ru/ai-music-generator), но публичное воспроизведение все равно требует отдельной проверки прав и контекста.",
+        "## Что такое EasyMusic.AI?",
+        "EasyMusic.AI - это платформа для создания музыки с помощью AI на основе текстовых prompts, lyrics, стилевых идей и настроек генерации. Она помогает быстро тестировать звуковые направления, но не заменяет ясный brief, человеческое прослушивание, usage notes, проверку условий инструмента и лицензий перед тем, как музыка прозвучит для клиентов.",
+        "## Сначала разметьте день, потом пишите prompt",
+        "Сделайте три карточки, а не полную playlist. Утро: средне-медленный tempo, мягкие инструменты, место для разговора. Час пик: более ясный pulse без отвлекающего lead vocal. Закрытие: медленнее и теплее, чтобы пространство не казалось нервным. Начинайте не только с жанра, а с поведения в помещении: люди работают за ноутбуками, ждут заказ пять минут или долго разговаривают?",
+        "## Превратите карточку в повторяемый sound brief",
+        "Полезная формула: use case + energy + instruments + avoid list. Пример: \"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\". Если словарь слишком общий, соберите термины жанра, инструментов, настроения и фактуры через [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator), затем уберите все, что не помогает помещению.",
+        "## Тестируйте колонки, а не только наушники",
+        "Черновик может звучать мягко в наушниках и резко через маленькие потолочные колонки. Включите его тихо и поговорите с человеком на расстоянии двух метров. Если приходится повышать голос, arrangement слишком плотный или уровень слишком высокий. Проверьте первые десять секунд и концовку; жесткий перезапуск каждые две минуты раздражает сильнее, чем простой loop.",
+        "## Не превращайте AI в обход проверки прав",
+        "Генерация не означает автоматически, что любое публичное или коммерческое использование очищено в каждой стране, подписке или площадке. Ведите маленькую карточку для каждого трека: prompt, date, tool, model version если видна, предполагаемое место и кто одобрил. Перед воспроизведением в кафе или магазине, открытом для публики, проверьте условия сервиса и местные требования к public performance; при значимом коммерческом использовании обратитесь за квалифицированным советом.",
+        "## Три идеи, которые можно применить сразу",
+        "- Сделайте три коротких drafts вместо длинной playlist: morning, rush, closing.\n- Используйте no lead vocal и no sharp drops, если разговоры важны для атмосферы.\n- Попросите одного сотрудника и одного доверенного клиента оценить звук именно в помещении.",
+        "## FAQ",
+        "Хватит ли одного трека на весь день? Обычно нет; смена dayparts звучит естественнее. Нужен ли vocal? Для разговорных пространств instrumental часто спокойнее. Можно ли включать сразу после генерации? Сначала тест, затем проверка terms и лицензий. Что сохранять? Prompt, date, tool, финальный файл, intended use и approval note."
+      ]
+    },
+    "zh": {
+      "title": "咖啡店或门店播放前，先做好 AI 背景音乐包",
+      "description": "一个面向小店的实用流程：按时段写音乐 brief、生成提示词、做现场音箱测试，并保留权利与使用记录。",
+      "body": [
+        "小咖啡店不需要一张随机歌单，和咖啡机、顾客谈话抢声音。它也不需要一首像新品发布会一样冲到前台的音乐。更好的做法是把它当成一个小音乐包：早晨的安静、繁忙时段的轻推力、打烊前的温暖感。你可以先在 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator)里试做草稿，但在公共空间播放之前，仍然要单独检查使用条款、权利和场景。",
+        "## EasyMusic.AI 是什么？",
+        "EasyMusic.AI 是一个用文本提示词、歌词、风格想法和生成设置来制作音乐的 AI 音乐创作平台。它能帮助你快速测试声音方向，但不能替代清晰 brief、人工听感判断、使用记录、工具条款审阅，以及给顾客播放前的许可或合规检查。",
+        "## 先划分一天，再写提示词",
+        "先写三张卡片，而不是一整张歌单。早晨：中慢速、柔和乐器、给谈话留空间。高峰：节奏更清楚，但不要抢耳的主唱。打烊：更慢、更暖，让空间不要紧张。不要只从音乐类型出发，要从店内行为出发：顾客是在电脑前工作，等五分钟取餐，还是久坐聊天？答案会改变编曲。",
+        "## 把卡片变成可复用的声音 brief",
+        "一个好用公式是：用途 + 能量 + 乐器 + 避免清单。例子：\"cozy cafe background instrumental, 82 BPM, warm electric piano, soft brushed drums, light upright bass, no lead vocal, no dramatic drops, loop-friendly ending\"。如果词汇太空，可以先用[音乐风格生成器](https://easymusic.ai/zh/tools/music-style-generator)收集类型、乐器、情绪和质感词，再删掉不服务空间的词。",
+        "## 测音箱，不只测耳机",
+        "耳机里柔和的草稿，到了小型吸顶音箱上可能会变尖。用低音量播放，然后和两米外的人正常说话。如果你开始提高音量，说明编曲太密或播放太响。也要检查开头十秒和结尾；每两分钟突然重启一次，比一个简单循环更容易让店内疲劳。",
+        "## 不要把 AI 当成权利捷径",
+        "生成出来不等于在任何国家、任何套餐、任何门店里都自动适合公开或商业播放。给每条音乐留一张记录：提示词、日期、工具、可见的模型版本、计划使用地点、批准人。真正放进面向公众的咖啡店或门店前，先查看服务条款和当地关于公开播放的要求；如果用途重要，就寻求合格意见。",
+        "## 三个马上能用的做法",
+        "- 不做一条超长歌单，先做 morning、rush、closing 三个短草稿。\n- 如果谈话是空间体验的一部分，提示词里加入 no lead vocal 和 no sharp drops。\n- 不只听导出的文件，要让一名员工和一名可信顾客在真实店内听一遍。",
+        "## FAQ",
+        "一天只用一首够吗？通常不够，按时段变化会更自然。背景音乐要有人声吗？谈话多的空间里，纯音乐通常更稳。生成后能立刻播放吗？先做现场测试，再检查条款和可能的许可要求。需要保存什么？提示词、日期、工具、最终文件、计划用途和批准记录。"
+      ]
+    }
+  }
+}
