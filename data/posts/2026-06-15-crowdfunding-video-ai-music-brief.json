@@ -1,0 +1,238 @@
+{
+  "date": "2026-06-15",
+  "slug": "crowdfunding-video-ai-music-brief",
+  "cluster": "crowdfunding-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب موجزا لموسيقى AI في فيديو التمويل الجماعي",
+      "description": "Workflow عملي لموسيقى فيديو حملة تمويل جماعي: بنية مبنية على الدليل، برومبت هادئ، اختبار تحت الصوت، وملاحظات استخدام.",
+      "body": [
+        "فيديو التمويل الجماعي له مهمة صعبة: يجب أن يشرح الفكرة، يثبت أن الفريق جاد، ويطلب الدعم من دون أن يبدو كإعلان مبالغ. الموسيقى تستطيع أن تساعد على الإيقاع، لكنها قد تضر بالثقة إذا جعلت نموذج المنتج يبدو منتهيا أكثر مما هو عليه. لذلك لا تبدأ بسؤال: أي موسيقى حماسية نحتاج؟ ابدأ بسؤال أدق: أين يحتاج المشاهد إلى الهدوء كي يفهم الدليل؟",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) منصة لإنشاء الموسيقى بالذكاء الاصطناعي تساعدك على توليد وتخصيص مقاطع من وصف نصي وأفكار أسلوبية وكلمات عند الحاجة. في فيديو حملة تمويل جماعي، استخدمها كأداة لصنع خيارات خلفية قصيرة حول القصة الحقيقية، بينما تبقى مراجعة الحقوق، شروط المنصة، وقرار النشر النهائي لدى فريقك.",
+        "## ابن الموسيقى على قوس الدليل",
+        "قسم الفيديو إلى ثلاث لحظات: المشكلة التي عاشها المستخدم، الدليل على أن الحل موجود أو قيد البناء، والطلب الواضح من الداعمين. اجعل الطاقة ترتفع فقط عندما يظهر دليل حقيقي: نموذج أولي يعمل، لقطة استخدام صادقة، أو شرح واضح لما سيموله المال. إذا كانت اللقطة مجرد وعد، فالموسيقى الهادئة أفضل من ضربة سينمائية ضخمة.",
+        "## اكتب برومبت يطلب الثقة لا الضخامة",
+        "افتح [مولد موسيقى AI](https://easymusic.ai/ar/ai-music-generator) بعد أن تعرف أين يتكلم المؤسس وأين تظهر لقطات المنتج. مثال عملي: خلفية لفيديو حملة تمويل جماعي مدته 90 ثانية، 86 BPM، بيانو دافئ، نبض خفيف، أوتار ناعمة جدا، بلا غناء، بلا drop كبير، تترك مساحة للصوت البشري، نهاية قصيرة وواثقة. إذا كانت كلمات مثل ملهم أو تقني واسعة جدا، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويلها إلى آلات، كثافة، tempo، وقائمة تجنب.",
+        "## اصنع ثلاث قطع لا أغنية كاملة",
+        "احتج غالبا إلى opener قصير، bed مستقر تحت الشرح، وخاتمة من خمس إلى ثماني ثوان عند ظهور النداء للدعم. اجعل كل قطعة قابلة للقص عند نهاية جملة. إذا كان الفيديو يعرض منتجا ماديا، اترك مساحة لأصوات حقيقية مثل نقرة زر، فتح صندوق، أو حركة آلية؛ هذه التفاصيل قد تبني ثقة أكثر من طبقة موسيقية مزدحمة.",
+        "## اختبر الموسيقى تحت الصوت والحقائق",
+        "شغل المسار تحت التعليق الحقيقي، لا وحده. إذا غطى رقم السعر، موعد الشحن المتوقع، المخاطر، أو شرح المكافآت، فهو يفشل في أهم لحظة. جرب نسخة أخف بلا drums أو بلا lead melody. وإذا كان الفيديو سيعاد نشره على YouTube أو منصات اجتماعية، احتفظ بملاحظات prompt والملف والنسخة لأن أنظمة المطابقة وحقوق الاستخدام قد تختلف حسب القناة.",
+        "## أفكار قابلة للتطبيق الآن",
+        "- اكتب بطاقة بثلاثة أسطر: problem, proof, ask، ثم اربط كل جزء بطاقة موسيقية.\n- ضع علامة QUIET فوق السعر، موعد الشحن، المخاطر، وشروط المكافآت.\n- ولد نسخة 86 BPM ونسخة 98 BPM ثم اختر التي تجعل الصوت أكثر صدقا.\n- احذف أي hit كبير إذا لم يظهر في اللقطة دليل ملموس.\n- صدر opener مدته 8 ثوان، bed مدته 60 ثانية، وclosing cue قصير بدلا من مسار واحد طويل.",
+        "## FAQ",
+        "هل يحتاج فيديو التمويل الجماعي إلى موسيقى؟ ليس دائما؛ إذا كانت القصة أو النموذج يحتاجان تركيزا، الصمت الجزئي مفيد. هل أستخدم غناء؟ غالبا لا، لأن الكلمات تنافس شرح المؤسس. ما أكثر خطأ شائع؟ موسيقى تبيع شعورا أكبر من حالة المنتج الفعلية. هل يمكن استخدام نفس الموسيقى في الإعلانات اللاحقة؟ راجع شروط الأداة والمنصة والاستخدام قبل إعادة النشر. كيف أعرف أن المسار مناسب؟ إذا فهم المشاهد المشكلة والدليل والطلب من أول مشاهدة، فالموسيقى تقوم بدورها."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer ein Crowdfunding-Video briefen",
+      "description": "Ein praktischer Workflow fuer Kampagnenvideo-Musik: Beweisbogen, ruhiger Prompt, Voiceover-Test, ehrliche Schnitte und Nutzungsnotizen.",
+      "body": [
+        "Ein Crowdfunding-Video muss mehr leisten als ein normaler Werbeclip. Es soll die Idee erklaeren, Vertrauen aufbauen und um Unterstuetzung bitten, ohne das Projekt groesser wirken zu lassen, als es ist. Musik kann Tempo und Haltung geben, aber sie kann auch Misstrauen ausloesen, wenn ein Prototyp ploetzlich wie ein fertiges Luxusprodukt klingt. Frage deshalb nicht zuerst nach epischer Musik. Frage, an welchen Stellen die Zuschauer Belege verstehen muessen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerstellung, mit der sich Musik aus Textprompts, Stilideen und bei Bedarf Lyrics erzeugen und anpassen laesst. Fuer ein Crowdfunding-Video ist sie ein Entwurfswerkzeug fuer kurze Hintergrundvarianten rund um echte Projektgeschichte; Rechtepruefung, Plattformbedingungen und finale Freigabe bleiben bei deinem Team.",
+        "## Baue die Musik um den Beweisbogen",
+        "Teile das Video in drei Momente: das Problem, den Beleg fuer die Loesung und die klare Bitte an Backer. Die Energie sollte nur dann steigen, wenn der Film echten Beleg zeigt: einen funktionierenden Prototyp, ehrliche Nutzung, eine nachvollziehbare Produktionsszene oder einen klaren Finanzierungszweck. Bei einem Versprechen ist Zurueckhaltung glaubwuerdiger als ein grosser Trailer-Hit.",
+        "## Prompte auf Vertrauen statt Groesse",
+        "Oeffne den [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator), wenn Sprecherstellen und Produktshots feststehen. Ein brauchbarer Prompt: Hintergrund fuer ein 90-Sekunden-Crowdfunding-Video, 86 BPM, warmes Piano, leichter Puls, sehr weiche Streicher, keine Vocals, kein grosser Drop, laesst viel Platz fuer Gruenderstimme, kurzer zuversichtlicher Schluss. Wenn Worte wie inspirierend oder tech zu breit sind, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) sie in Instrumente, Dichte, Tempo und Ausschluesse uebersetzen.",
+        "## Erzeuge drei Cues statt eines Songs",
+        "Meist reichen ein kurzer Opener, ein stabiles Bed unter Erklaerung und Proof sowie ein fuenf- bis achtsekundiger Schluss fuer den Call to Action. Jeder Cue sollte am Satzende schneidbar sein. Zeigt das Video ein physisches Produkt, lass Raum fuer echte Geraeusche: Klick, Material, Verpackung, Mechanik. Solche Details koennen mehr Vertrauen schaffen als eine volle Musikspur.",
+        "## Teste unter Stimme und Fakten",
+        "Bewerte die Musik nicht solo. Lege sie unter die echte Stimme. Wenn Preis, erwarteter Versand, Risiken, Belohnungsstufen oder Materialeinschraenkungen verdeckt werden, scheitert der Cue genau dort, wo Ehrlichkeit wichtig ist. Teste eine leichtere Version ohne Drums oder ohne Lead-Melodie. Wenn das Video spaeter auf YouTube oder Social-Plattformen landet, speichere Prompt, Datei und Versionsnotiz, weil Matching-Systeme und Nutzungsregeln je nach Kanal anders reagieren koennen.",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe eine Drei-Zeilen-Karte: problem, proof, ask, und gib jedem Teil eine eigene Energienotiz.\n- Setze QUIET-Marker ueber Preis, Versanddatum, Risiken und Reward-Regeln.\n- Generiere eine 86-BPM- und eine 98-BPM-Version und waehle die ehrlichere.\n- Entferne jeden grossen Hit, wenn im Bild kein konkreter Beleg erscheint.\n- Exportiere 8-Sekunden-Opener, 60-Sekunden-Bed und kurzen Closing-Cue statt nur eines langen Tracks.",
+        "## FAQ",
+        "Braucht jedes Crowdfunding-Video Musik? Nein. Bei komplexem Prototyp oder wichtigen Zahlen kann teilweise Stille besser sein. Sind Vocals sinnvoll? Meist nicht, weil Worte mit Gruenderstimme und Untertiteln konkurrieren. Was ist der haeufigste Fehler? Musik, die mehr verspricht als das Projekt zeigen kann. Darf dieselbe Musik spaeter in Ads laufen? Nur nach Pruefung von Toolbedingungen, Plattformregeln und geplanter Nutzung. Woran erkenne ich eine gute Spur? Problem, Beweis und Bitte bleiben beim ersten Ansehen klar."
+      ]
+    },
+    "en": {
+      "title": "Brief AI Music for a Crowdfunding Campaign Video",
+      "description": "A practical workflow for campaign-video music: proof-first structure, restrained prompts, voiceover tests, honest cuts, and usage notes.",
+      "body": [
+        "A crowdfunding video has a strange audio job. It has to explain the idea, prove the team is serious, and ask for support without making the project feel more finished than it is. Music can help the pace, but it can also make a prototype look suspiciously polished. Before asking for an inspiring backing track, ask where the viewer needs calm enough sound to understand the evidence.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music creation platform for generating and customizing music from text prompts, style ideas, and lyrics when needed. For a crowdfunding campaign video, treat it as a drafting tool for short background options around the real story, while rights review, platform terms, and final publishing decisions stay with your team.",
+        "## Build around the proof arc",
+        "Split the video into three moments: the problem, the proof that the solution exists or is being built, and the clear ask for backers. Let the music rise only when the picture shows real evidence: a working prototype, an honest use shot, a manufacturing step, or a plain explanation of what the funds cover. If the image is still a promise, restraint will usually feel more credible than a cinematic hit.",
+        "## Prompt for trust, not size",
+        "Open an [AI music generator](https://easymusic.ai/ai-music-generator) after the founder voiceover and product shots are mapped. A useful prompt might be: background bed for a 90-second crowdfunding campaign video, 86 BPM, warm piano, light pulse, very soft strings, no vocals, no big drop, leaves space for founder voice, short confident ending. If words like inspiring or tech feel too broad, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can turn them into instrument, density, tempo, and avoid-list notes.",
+        "## Make three cues instead of one song",
+        "You usually need a short opener, a steady bed under explanation and proof, and a five- to eight-second closing cue when the support ask appears. Every cue should be easy to cut at the end of a sentence. If the campaign shows a physical product, leave room for real sounds: a button click, a package opening, a motor starting, a material bend. Those small noises may build more trust than another layer of music.",
+        "## Test under voice and facts",
+        "Do not approve the track by itself. Put it under the real edit. If it covers the price, expected shipping window, risks, reward tiers, or limitation language, the cue is failing at the most important moment. Try a lighter version with no drums or no lead melody. If the same campaign video will be reposted to YouTube or social platforms, keep prompt, file, and version notes because matching systems and usage rules can behave differently by channel.",
+        "## Reusable ideas",
+        "- Write a three-line card: problem, proof, ask, then assign one music-energy note to each line.\n- Put QUIET markers over price, shipping date, risk language, and reward rules.\n- Generate an 86 BPM version and a 98 BPM version, then choose the one that makes the founder sound more believable.\n- Remove any big hit that is not matched by visible proof in the frame.\n- Export an 8-second opener, a 60-second bed, and a short closing cue instead of one long track only.",
+        "## FAQ",
+        "Does every crowdfunding video need music? No. If the prototype or numbers require focus, partial silence may work better. Should I use vocals? Usually not; lyrics compete with founder speech and captions. What is the biggest mistake? Music that sells a feeling the footage cannot support. Can I reuse the same cue in later ads? Check the tool terms, platform rules, and exact use before republishing. How do I know the music works? The viewer should understand the problem, proof, and ask on the first watch."
+      ]
+    },
+    "es": {
+      "title": "Prepara musica IA para un video de crowdfunding",
+      "description": "Workflow practico para musica de campaña: estructura basada en pruebas, prompt contenido, test con voz, cortes honestos y notas de uso.",
+      "body": [
+        "Un video de crowdfunding tiene una tarea sonora delicada. Debe explicar la idea, mostrar que el equipo es serio y pedir apoyo sin hacer que el proyecto parezca mas terminado de lo que esta. La musica puede ordenar el ritmo, pero tambien puede hacer que un prototipo parezca sospechosamente pulido. Antes de pedir una pista inspiradora, pregunta donde el espectador necesita calma para entender las pruebas.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de creacion musical con IA para generar y personalizar musica desde prompts, ideas de estilo y letras cuando hacen falta. En un video de campaña de crowdfunding, usala como herramienta de borrador para fondos cortos alrededor de la historia real; la revision de derechos, terminos de plataforma y decision final de publicacion siguen en manos del equipo.",
+        "## Construye alrededor del arco de prueba",
+        "Divide el video en tres momentos: el problema, la prueba de que la solucion existe o se esta construyendo y la peticion clara a los patrocinadores. Deja que la musica suba solo cuando la imagen muestra evidencia real: prototipo funcionando, uso honesto, paso de fabricacion o explicacion clara de para que se usara el dinero. Si la imagen todavia es una promesa, la contencion suele sonar mas creible que un golpe cinematografico.",
+        "## Pide confianza, no tamano",
+        "Abre un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator) cuando ya tengas marcados la voz del fundador y los planos del producto. Un prompt util: cama de fondo para video de campaña de crowdfunding de 90 segundos, 86 BPM, piano calido, pulso ligero, cuerdas muy suaves, sin voces, sin gran drop, deja espacio para voz de fundador, final corto y seguro. Si palabras como inspirador o tecnologico son demasiado amplias, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertirlas en instrumentos, densidad, tempo y lista de cosas a evitar.",
+        "## Crea tres cues en vez de una cancion",
+        "Normalmente necesitas una apertura corta, una cama estable bajo explicacion y prueba, y un cierre de cinco a ocho segundos cuando aparece la peticion de apoyo. Cada cue debe poder cortarse al final de una frase. Si la campaña muestra un producto fisico, deja espacio para sonidos reales: un boton, una caja, un motor, un material que se dobla. Esos detalles pequenos pueden generar mas confianza que otra capa musical.",
+        "## Prueba bajo la voz y los datos",
+        "No apruebes la pista sola. Ponla bajo el montaje real. Si tapa precio, ventana de envio prevista, riesgos, niveles de recompensa o limitaciones, falla justo en el momento importante. Prueba una version mas ligera sin bateria o sin melodia principal. Si el mismo video se publicara en YouTube o redes sociales, guarda prompt, archivo y version porque los sistemas de coincidencia y las reglas de uso pueden comportarse distinto por canal.",
+        "## Ideas reutilizables",
+        "- Escribe una tarjeta de tres lineas: problem, proof, ask, y asigna una nota de energia musical a cada una.\n- Pon marcadores QUIET sobre precio, fecha de envio, riesgos y reglas de recompensas.\n- Genera una version a 86 BPM y otra a 98 BPM; elige la que haga sonar mas creible al fundador.\n- Elimina cualquier golpe grande que no coincida con una prueba visible en pantalla.\n- Exporta una apertura de 8 segundos, una cama de 60 y un cierre corto en lugar de una pista larga.",
+        "## Preguntas frecuentes",
+        "Todo video de crowdfunding necesita musica? No. Si el prototipo o los numeros requieren concentracion, el silencio parcial puede funcionar mejor. Conviene usar voces? Normalmente no, porque las letras compiten con la voz y subtitulos. Cual es el mayor error? Musica que vende una emocion que el material no puede sostener. Puedo reutilizar el cue en anuncios posteriores? Revisa terminos de herramienta, reglas de plataforma y uso exacto antes de republicar. Como se si funciona? El espectador entiende problema, prueba y peticion en la primera vista."
+      ]
+    },
+    "fr": {
+      "title": "Briefer une musique IA pour une video de crowdfunding",
+      "description": "Workflow pratique pour musique de campagne: structure par preuve, prompt retenu, test sous voix, coupes honnetes et notes d'usage.",
+      "body": [
+        "Une video de crowdfunding a une mission sonore particuliere. Elle doit expliquer l'idee, montrer que l'equipe est serieuse et demander du soutien sans donner l'impression que le projet est plus fini qu'il ne l'est. La musique peut aider le rythme, mais elle peut aussi rendre un prototype trop lisse. Avant de demander une piste inspirante, demandez ou le public doit entendre assez de calme pour comprendre les preuves.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de creation musicale par IA qui permet de generer et personnaliser de la musique a partir de prompts, d'idees de style et de paroles si besoin. Pour une video de campagne crowdfunding, utilisez-la comme outil de brouillon pour des fonds courts autour de l'histoire reelle; la verification des droits, les conditions de plateforme et la decision finale restent a votre equipe.",
+        "## Construisez autour de l'arc de preuve",
+        "Decoupez la video en trois moments: le probleme, la preuve que la solution existe ou se construit, puis la demande claire aux contributeurs. Laissez la musique monter seulement quand l'image montre un vrai element: prototype fonctionnel, usage honnete, etape de fabrication ou explication simple de l'utilisation des fonds. Si l'image reste une promesse, la retenue parait souvent plus credible qu'un impact de bande-annonce.",
+        "## Promptez la confiance, pas la taille",
+        "Ouvrez un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator) une fois la voix du fondateur et les plans produit cartographies. Exemple utile: bed de fond pour video de campagne crowdfunding de 90 secondes, 86 BPM, piano chaud, pulse leger, cordes tres douces, sans voix, sans gros drop, laisse de la place a la voix du fondateur, fin courte et confiante. Si des mots comme inspirant ou tech sont trop larges, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut les traduire en instruments, densite, tempo et elements a eviter.",
+        "## Creez trois cues plutot qu'une chanson",
+        "Il faut souvent une ouverture courte, un bed stable sous l'explication et la preuve, puis un cue final de cinq a huit secondes quand la demande de soutien apparait. Chaque cue doit pouvoir se couper a la fin d'une phrase. Si la campagne montre un produit physique, laissez de la place aux sons reels: clic de bouton, ouverture d'emballage, moteur, matiere qui plie. Ces petits signes peuvent creer plus de confiance qu'une couche musicale de plus.",
+        "## Testez sous la voix et les faits",
+        "N'approuvez pas la piste seule. Placez-la sous le vrai montage. Si elle couvre le prix, la fenetre d'expedition prevue, les risques, les niveaux de recompense ou les limites, elle echoue au moment le plus important. Essayez une version plus legere sans batterie ou sans melodie principale. Si la video sera republicee sur YouTube ou les reseaux sociaux, gardez prompt, fichier et version, car les systemes de correspondance et les regles d'usage peuvent varier selon le canal.",
+        "## Idees reutilisables",
+        "- Ecrivez une carte en trois lignes: problem, proof, ask, puis donnez une note d'energie musicale a chacune.\n- Placez des marqueurs QUIET sur prix, date d'expedition, risques et regles de recompense.\n- Generez une version a 86 BPM et une a 98 BPM, puis gardez celle qui rend le fondateur plus credible.\n- Supprimez tout gros impact qui n'est pas accompagne d'une preuve visible.\n- Exportez une ouverture de 8 secondes, un bed de 60 secondes et une courte fin plutot qu'une seule longue piste.",
+        "## FAQ",
+        "Toute video de crowdfunding a-t-elle besoin de musique ? Non. Si le prototype ou les chiffres demandent de la concentration, un silence partiel peut mieux marcher. Faut-il des voix chantees ? Rarement, car les paroles concurrencent la voix et les sous-titres. Quelle est l'erreur principale ? Une musique qui vend une emotion que l'image ne prouve pas. Peut-on reutiliser le meme cue en publicite ? Verifiez les conditions de l'outil, les regles de plateforme et l'usage exact avant republication. Comment savoir si cela fonctionne ? Le public comprend probleme, preuve et demande au premier visionnage."
+      ]
+    },
+    "it": {
+      "title": "Prepara musica AI per un video di crowdfunding",
+      "description": "Workflow pratico per musica da campagna: struttura basata sulle prove, prompt contenuto, test con voce, tagli onesti e note d'uso.",
+      "body": [
+        "Un video di crowdfunding ha un compito sonoro delicato. Deve spiegare l'idea, far capire che il team e serio e chiedere sostegno senza far sembrare il progetto piu finito di quanto sia. La musica puo aiutare il ritmo, ma puo anche rendere un prototipo troppo patinato. Prima di chiedere una traccia ispirazionale, chiediti dove lo spettatore ha bisogno di calma per capire le prove.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di creazione musicale con IA che permette di generare e personalizzare musica da prompt testuali, idee di stile e testi quando servono. Per un video di campagna crowdfunding usala come strumento di bozza per brevi fondi intorno alla storia reale; revisione dei diritti, condizioni della piattaforma e pubblicazione finale restano al team.",
+        "## Costruisci intorno all'arco della prova",
+        "Dividi il video in tre momenti: il problema, la prova che la soluzione esiste o si sta costruendo, e la richiesta chiara ai sostenitori. Fai crescere la musica solo quando l'immagine mostra evidenza reale: prototipo funzionante, uso sincero, passaggio di produzione o spiegazione concreta di come saranno usati i fondi. Se l'immagine e ancora una promessa, la misura suona piu credibile di un colpo cinematografico.",
+        "## Chiedi fiducia, non grandezza",
+        "Apri un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator) dopo aver mappato voce del founder e inquadrature del prodotto. Prompt utile: fondo per video crowdfunding di 90 secondi, 86 BPM, piano caldo, pulsazione leggera, archi molto morbidi, niente voci, niente grande drop, lascia spazio alla voce del founder, finale breve e sicuro. Se parole come ispirante o tech sono troppo larghe, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformarle in strumenti, densita, tempo e lista di esclusioni.",
+        "## Crea tre cue invece di una canzone",
+        "Di solito servono un'apertura breve, un bed stabile sotto spiegazione e prova, e un cue finale di cinque-otto secondi quando appare la richiesta di supporto. Ogni cue deve tagliarsi bene a fine frase. Se la campagna mostra un prodotto fisico, lascia spazio ai suoni reali: clic di un pulsante, apertura di una confezione, motore, materiale che si piega. Quei dettagli possono costruire piu fiducia di un'altra linea musicale.",
+        "## Testa sotto voce e dati",
+        "Non approvare la traccia da sola. Mettila sotto il montaggio vero. Se copre prezzo, finestra di spedizione prevista, rischi, livelli di ricompensa o limiti, fallisce nel punto piu importante. Prova una versione piu leggera senza batteria o senza melodia principale. Se lo stesso video sara ripubblicato su YouTube o social, conserva prompt, file e note di versione, perche sistemi di matching e regole d'uso possono reagire diversamente per canale.",
+        "## Idee riutilizzabili",
+        "- Scrivi una scheda in tre righe: problem, proof, ask, poi assegna una nota di energia musicale a ciascuna.\n- Metti marker QUIET su prezzo, data di spedizione, rischi e regole delle ricompense.\n- Genera una versione a 86 BPM e una a 98 BPM, poi scegli quella che rende il founder piu credibile.\n- Elimina ogni grande hit se nel frame non c'e una prova visibile.\n- Esporta opener da 8 secondi, bed da 60 secondi e closing cue breve invece di una sola traccia lunga.",
+        "## FAQ",
+        "Ogni video crowdfunding ha bisogno di musica? No. Se prototipo o numeri richiedono concentrazione, il silenzio parziale puo funzionare meglio. Meglio usare voci? Di solito no, perche le parole competono con parlato e sottotitoli. Errore principale? Musica che vende un'emozione che il girato non sostiene. Posso riusare il cue in annunci futuri? Controlla condizioni dello strumento, regole della piattaforma e uso esatto prima di ripubblicare. Come capisco che funziona? Chi guarda capisce problema, prova e richiesta al primo passaggio."
+      ]
+    },
+    "ja": {
+      "title": "クラウドファンディング動画用AI音楽の作り方",
+      "description": "キャンペーン動画向け音楽の実践ワークフロー。証拠を中心に構成し、控えめなプロンプト、音声テスト、使用メモまで整理します。",
+      "body": [
+        "クラウドファンディング動画の音楽は、普通の広告より難しい役割を持ちます。アイデアを説明し、チームの本気度を見せ、支援をお願いする一方で、まだ未完成のプロジェクトを完成品のように見せすぎてはいけません。音楽はテンポを助けますが、プロトタイプを妙に立派に見せることもあります。まず考えるべきなのは、どこで視聴者が証拠を落ち着いて理解する必要があるかです。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja) は、テキストプロンプト、スタイルのアイデア、必要に応じた歌詞から音楽を生成し調整できるAI音楽作成プラットフォームです。クラウドファンディング動画では、実際のストーリーに合わせた短い背景音候補を作る下書きツールとして使い、権利確認、プラットフォーム条件、最終公開判断はチーム側で行います。",
+        "## 証拠の流れを中心に組む",
+        "動画を三つに分けます。問題、解決策が存在するまたは作られている証拠、そして支援者への明確なお願いです。音楽の熱量を上げるのは、動くプロトタイプ、正直な使用シーン、製造工程、資金の使い道など、画面に実際の根拠が出る場面だけにします。まだ約束に近い映像なら、大きな映画的ヒットよりも控えめな音の方が信頼されやすいです。",
+        "## 大きさより信頼をプロンプトにする",
+        "創業者のナレーションと製品カットの位置が決まってから [AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator) を開きます。例: 90秒のクラウドファンディング動画向け背景音、86 BPM、温かいピアノ、軽いパルス、ごく柔らかいストリングス、ボーカルなし、大きなdropなし、創業者の声を邪魔しない、短く自信のある終わり。inspiring や tech が広すぎる場合は、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で楽器、密度、テンポ、避けたい要素に分解してから試します。",
+        "## 一曲ではなく三つのcueを作る",
+        "多くの場合、短いオープナー、説明と証拠の下に置く安定したbed、支援のお願いが出る五から八秒の締めcueで十分です。各cueは文末で切れるようにします。物理プロダクトを見せる動画なら、ボタンのクリック、箱を開ける音、モーター音、素材のしなりなど、本物の音を残してください。その小さな音が、厚い音楽より信頼を作ることがあります。",
+        "## 声と事実の下でテストする",
+        "曲だけで判断しないで、実際の編集に重ねます。価格、出荷予定、リスク、リワード、制限説明が聞こえにくくなるなら、そのcueは大事な場面で失敗しています。ドラムなし、主旋律なしの軽い版も試します。同じ動画をYouTubeやSNSに再投稿するなら、プロンプト、ファイル、バージョンメモを残します。マッチングシステムや利用ルールはチャンネルごとに反応が変わることがあります。",
+        "## すぐ使えるアイデア",
+        "- problem, proof, ask の三行カードを書き、それぞれに音楽の熱量メモを付ける。\n- 価格、出荷日、リスク、リワード条件の上に QUIET マーカーを置く。\n- 86 BPM版と98 BPM版を作り、創業者の話がより信頼できる方を選ぶ。\n- 画面に具体的な証拠がない大きなヒットは削除する。\n- 長い一曲だけでなく、8秒のopener、60秒のbed、短いclosing cueを書き出す。",
+        "## FAQ",
+        "すべてのクラウドファンディング動画に音楽は必要ですか？いいえ。プロトタイプや数字に集中してほしい場面では、一部無音の方がよいことがあります。ボーカルは使うべきですか？通常は避けます。創業者の声や字幕とぶつかるからです。最大の失敗は？映像が証明できない感情を音楽で売ることです。後の広告にも使えますか？再利用前にツール条件、掲載先ルール、用途を確認してください。合っているかの判断は？初見で問題、証拠、お願いが伝わることです。"
+      ]
+    },
+    "ko": {
+      "title": "크라우드펀딩 영상용 AI 음악 브리프 작성법",
+      "description": "캠페인 영상 음악을 증거 중심 구조, 절제된 프롬프트, 보이스오버 테스트, 사용 기록까지 실무적으로 정리하는 방법.",
+      "body": [
+        "크라우드펀딩 영상의 음악은 일반 광고보다 더 조심스럽게 설계해야 합니다. 아이디어를 설명하고, 팀이 진지하다는 것을 보여 주고, 후원을 요청해야 하지만 아직 완성되지 않은 프로젝트를 완성품처럼 포장해서도 안 됩니다. 음악은 속도를 잡아 주지만, 프로토타입을 지나치게 매끈하게 보이게 만들 수도 있습니다. 먼저 물어볼 것은 멋진 배경음이 아니라, 시청자가 증거를 차분히 이해해야 하는 지점입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 텍스트 프롬프트, 스타일 아이디어, 필요할 때의 가사를 바탕으로 음악을 생성하고 조정할 수 있는 AI 음악 제작 플랫폼입니다. 크라우드펀딩 캠페인 영상에서는 실제 이야기 주변의 짧은 배경음 후보를 만드는 초안 도구로 쓰고, 권리 검토, 플랫폼 조건, 최종 게시 판단은 팀이 맡아야 합니다.",
+        "## 증거의 흐름을 기준으로 구성하기",
+        "영상을 세 순간으로 나누세요. 문제, 해결책이 존재하거나 만들어지고 있다는 증거, 후원자에게 하는 명확한 요청입니다. 음악의 에너지는 화면에 실제 증거가 나올 때만 올립니다. 작동하는 프로토타입, 솔직한 사용 장면, 제조 과정, 자금 사용 설명 같은 부분입니다. 화면이 아직 약속에 가깝다면 큰 영화식 히트보다 절제된 사운드가 더 믿을 만하게 들립니다.",
+        "## 크기보다 신뢰를 요청하기",
+        "창업자 음성 위치와 제품 컷을 정한 뒤 [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 여세요. 예시: 90초 크라우드펀딩 캠페인 영상 배경음, 86 BPM, 따뜻한 피아노, 가벼운 펄스, 매우 부드러운 스트링, 보컬 없음, 큰 drop 없음, 창업자 목소리를 위한 여백, 짧고 자신 있는 엔딩. inspiring 또는 tech 같은 말이 넓다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 악기, 밀도, 템포, 피해야 할 요소로 나누어 보세요.",
+        "## 한 곡 대신 세 개의 cue 만들기",
+        "대부분은 짧은 오프너, 설명과 증거 아래 깔리는 안정적인 bed, 후원 요청이 나올 때 쓰는 5-8초 closing cue면 충분합니다. 모든 cue는 문장 끝에서 잘릴 수 있어야 합니다. 물리적 제품을 보여 준다면 버튼 클릭, 포장 개봉, 모터 시작, 소재가 휘는 소리 같은 실제 소리를 남기세요. 그런 작은 소리가 음악 한 겹보다 신뢰를 더 만들 때가 있습니다.",
+        "## 목소리와 사실 아래에서 테스트하기",
+        "트랙만 따로 듣고 승인하지 마세요. 실제 편집본 아래에 깔아 봅니다. 가격, 예상 배송 시점, 위험 설명, 리워드 단계, 제한 사항이 묻힌다면 가장 중요한 순간에 실패한 것입니다. 드럼 없는 버전이나 리드 멜로디 없는 가벼운 버전도 시험하세요. 같은 영상을 YouTube나 소셜 플랫폼에 다시 올릴 계획이라면 프롬프트, 파일, 버전 메모를 남겨 두세요. 매칭 시스템과 사용 규칙은 채널마다 다르게 반응할 수 있습니다.",
+        "## 바로 쓸 수 있는 아이디어",
+        "- problem, proof, ask 세 줄 카드를 쓰고 각 줄에 음악 에너지 메모를 붙입니다.\n- 가격, 배송일, 위험 설명, 리워드 규칙 위에 QUIET 마커를 둡니다.\n- 86 BPM 버전과 98 BPM 버전을 만들고 창업자 말이 더 믿음직하게 들리는 쪽을 고릅니다.\n- 화면에 보이는 증거와 맞지 않는 큰 히트는 삭제합니다.\n- 긴 한 곡 대신 8초 opener, 60초 bed, 짧은 closing cue를 내보냅니다.",
+        "## FAQ",
+        "모든 크라우드펀딩 영상에 음악이 필요한가요? 아닙니다. 프로토타입이나 숫자 설명에 집중해야 한다면 일부 침묵이 더 좋을 수 있습니다. 보컬을 써도 되나요? 대개 피하는 편이 좋습니다. 가사가 창업자 음성과 자막을 방해합니다. 가장 큰 실수는 무엇인가요? 영상이 뒷받침하지 못하는 감정을 음악으로 파는 것입니다. 나중에 광고에도 쓸 수 있나요? 재게시 전 도구 조건, 플랫폼 규칙, 정확한 사용 맥락을 확인하세요. 좋은 음악인지 어떻게 알 수 있나요? 첫 시청에서 문제, 증거, 요청이 분명히 이해되어야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Prepare musica com IA para video de crowdfunding",
+      "description": "Fluxo pratico para musica de campanha: estrutura baseada em prova, prompt contido, teste com voz, cortes honestos e notas de uso.",
+      "body": [
+        "Um video de crowdfunding tem uma tarefa sonora delicada. Ele precisa explicar a ideia, mostrar que a equipe e seria e pedir apoio sem fazer o projeto parecer mais pronto do que esta. A musica pode ajudar o ritmo, mas tambem pode deixar um prototipo suspeitamente polido. Antes de pedir uma trilha inspiradora, pergunte onde o espectador precisa de calma para entender as provas.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de criacao musical com IA para gerar e personalizar musica a partir de prompts, ideias de estilo e letras quando necessario. Em um video de campanha de crowdfunding, use como ferramenta de rascunho para fundos curtos em torno da historia real; revisao de direitos, termos da plataforma e decisao final de publicacao continuam com a equipe.",
+        "## Construa em torno do arco de prova",
+        "Divida o video em tres momentos: o problema, a prova de que a solucao existe ou esta sendo construida, e o pedido claro aos apoiadores. Deixe a musica crescer apenas quando a imagem mostra evidencia real: prototipo funcionando, uso honesto, etapa de fabricacao ou explicacao simples do uso dos recursos. Se a imagem ainda e uma promessa, a contencao costuma soar mais confiavel do que um impacto cinematografico.",
+        "## Peça confianca, nao tamanho",
+        "Abra um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator) depois de mapear a voz do fundador e os takes do produto. Um prompt util: cama de fundo para video de campanha de crowdfunding de 90 segundos, 86 BPM, piano quente, pulso leve, cordas muito suaves, sem vocais, sem grande drop, deixa espaco para voz do fundador, final curto e confiante. Se palavras como inspirador ou tech forem amplas demais, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transforma-las em instrumentos, densidade, tempo e lista de evitar.",
+        "## Crie tres cues em vez de uma musica",
+        "Geralmente voce precisa de uma abertura curta, uma cama estavel sob explicacao e prova, e um fechamento de cinco a oito segundos quando o pedido de apoio aparece. Cada cue deve ser facil de cortar no fim de uma frase. Se a campanha mostra um produto fisico, deixe espaco para sons reais: clique de botao, abertura de embalagem, motor ligando, material dobrando. Esses pequenos sons podem gerar mais confianca que outra camada musical.",
+        "## Teste sob voz e fatos",
+        "Nao aprove a faixa sozinha. Coloque-a sob a edicao real. Se ela cobre preco, janela prevista de envio, riscos, niveis de recompensa ou limitacoes, falha no momento mais importante. Teste uma versao mais leve sem bateria ou sem melodia principal. Se o mesmo video sera republicado no YouTube ou em redes sociais, guarde prompt, arquivo e notas de versao, porque sistemas de correspondencia e regras de uso podem variar por canal.",
+        "## Ideias reutilizaveis",
+        "- Escreva um cartao de tres linhas: problem, proof, ask, e atribua uma nota de energia musical a cada uma.\n- Coloque marcadores QUIET sobre preco, data de envio, riscos e regras de recompensa.\n- Gere uma versao a 86 BPM e outra a 98 BPM, depois escolha a que torna a fala do fundador mais confiavel.\n- Remova qualquer grande impacto que nao corresponda a uma prova visivel no quadro.\n- Exporte uma abertura de 8 segundos, uma cama de 60 segundos e um fechamento curto em vez de uma faixa longa.",
+        "## FAQ",
+        "Todo video de crowdfunding precisa de musica? Nao. Se prototipo ou numeros exigem foco, silencio parcial pode funcionar melhor. Devo usar vocais? Normalmente nao; letras competem com fala e legendas. Qual e o maior erro? Musica que vende uma emocao que a imagem nao sustenta. Posso reutilizar o cue em anuncios depois? Verifique termos da ferramenta, regras da plataforma e uso exato antes de republicar. Como saber se funciona? O espectador entende problema, prova e pedido na primeira exibicao."
+      ]
+    },
+    "ru": {
+      "title": "Как подготовить AI-музыку для краудфандингового видео",
+      "description": "Практичный процесс для музыки в кампании: структура вокруг доказательств, сдержанный промпт, тест с голосом и заметки об использовании.",
+      "body": [
+        "У краудфандингового видео сложная звуковая задача. Оно должно объяснить идею, показать серьезность команды и попросить поддержку, но не сделать проект более готовым, чем он есть. Музыка помогает темпу, но может придать прототипу слишком рекламный блеск. Прежде чем просить вдохновляющий фон, спросите, где зрителю нужна спокойная звуковая среда, чтобы понять доказательства.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для создания музыки с помощью ИИ, где можно генерировать и настраивать музыку по текстовым промптам, идеям стиля и при необходимости текстам. Для видео краудфандинговой кампании используйте ее как инструмент черновых фоновых вариантов вокруг реальной истории; проверка прав, условия площадки и финальное решение о публикации остаются за командой.",
+        "## Стройте музыку вокруг дуги доказательств",
+        "Разделите видео на три момента: проблема, доказательство того, что решение существует или создается, и понятная просьба к поддерживающим. Поднимайте энергию музыки только там, где картинка показывает реальные основания: работающий прототип, честное использование, производственный шаг или ясное объяснение, на что пойдут средства. Если кадр пока остается обещанием, сдержанность обычно звучит надежнее большого кинематографического удара.",
+        "## Запрашивайте доверие, а не масштаб",
+        "Откройте [генератор музыки с ИИ](https://easymusic.ai/ru/ai-music-generator), когда уже размечены голос основателя и кадры продукта. Полезный промпт: фоновая музыка для 90-секундного видео краудфандинговой кампании, 86 BPM, теплое пианино, легкий пульс, очень мягкие струнные, без вокала, без большого drop, оставляет место для голоса основателя, короткий уверенный финал. Если слова вроде inspiring или tech слишком широкие, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить их в инструменты, плотность, темп и список того, чего избегать.",
+        "## Сделайте три cue вместо одной песни",
+        "Обычно нужны короткое вступление, стабильный bed под объяснение и доказательства, а также финальный cue на пять-восемь секунд, когда появляется просьба поддержать. Каждый cue должен легко обрезаться в конце фразы. Если кампания показывает физический продукт, оставьте место настоящим звукам: щелчок кнопки, открытие упаковки, запуск мотора, сгиб материала. Эти мелочи могут вызвать больше доверия, чем еще один музыкальный слой.",
+        "## Тестируйте под голосом и фактами",
+        "Не утверждайте трек отдельно от монтажа. Положите его под реальное видео. Если он закрывает цену, ожидаемый срок отправки, риски, уровни вознаграждений или ограничения, cue проваливается в самый важный момент. Попробуйте более легкую версию без барабанов или без ведущей мелодии. Если то же видео будет опубликовано на YouTube или социальных платформах, сохраните промпт, файл и заметки о версии: системы сопоставления и правила использования могут вести себя по-разному на разных каналах.",
+        "## Идеи, которые можно применить сразу",
+        "- Напишите карточку из трех строк: problem, proof, ask, и назначьте каждой строке музыкальную энергию.\n- Поставьте маркеры QUIET над ценой, датой отправки, рисками и правилами вознаграждений.\n- Создайте версию 86 BPM и версию 98 BPM, затем выберите ту, где основатель звучит убедительнее.\n- Удалите любой большой удар, если в кадре нет видимого доказательства.\n- Экспортируйте вступление 8 секунд, bed 60 секунд и короткий closing cue вместо одного длинного трека.",
+        "## FAQ",
+        "Нужна ли музыка каждому краудфандинговому видео? Нет. Если прототип или цифры требуют внимания, частичная тишина может работать лучше. Стоит ли использовать вокал? Обычно нет: слова конкурируют с речью и субтитрами. Главная ошибка? Музыка продает эмоцию, которую кадры не подтверждают. Можно ли потом использовать тот же cue в рекламе? Перед повторной публикацией проверьте условия инструмента, правила площадки и точный сценарий использования. Как понять, что музыка подходит? Зритель с первого просмотра понимает проблему, доказательство и просьбу."
+      ]
+    },
+    "zh": {
+      "title": "为众筹项目视频准备 AI 音乐 Brief",
+      "description": "一个实用流程：围绕证据设计众筹视频音乐，用克制提示词、旁白测试、诚实剪辑和使用记录降低误导风险。",
+      "body": [
+        "众筹视频的音乐任务很微妙。它要解释想法、证明团队认真、请求支持，但不能把还在开发中的项目包装得像已经成熟上市。音乐可以帮助节奏，也可能让原型显得过度精致。不要一开始就问要不要更燃的背景音乐，先问：哪些地方需要足够安静，让观众听清楚证据？",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐创作平台，可根据文本提示、风格想法以及需要时的歌词来生成和调整音乐。用于众筹项目视频时，它更适合作为围绕真实故事制作短背景音乐候选的草稿工具；版权审查、平台条款和最终发布判断仍应由团队负责。",
+        "## 围绕证据弧线设计音乐",
+        "把视频拆成三段：问题、解决方案已经存在或正在被制造的证据、对支持者的明确请求。只有当画面展示真实证据时，才让音乐能量上升，比如可运行的原型、真实使用镜头、生产步骤，或清楚说明资金用途。如果画面还只是承诺，克制的音乐通常比电影式重击更可信。",
+        "## 提示词要写信任感，而不是宏大感",
+        "在确定创始人旁白和产品镜头位置之后，再打开 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator)。一个可用提示可以是：90 秒众筹项目视频背景音乐，86 BPM，温暖钢琴，轻微脉冲，非常柔和的弦乐，无人声，无大 drop，为创始人旁白留空间，短而自信的结尾。如果 inspiring 或 tech 这类词太宽泛，可以先用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 拆成乐器、密度、速度和避免清单。",
+        "## 做三段 cue，而不是一整首歌",
+        "多数情况下，你只需要一个短开场、一个稳定铺在解释和证据下面的 bed，以及在请求支持出现时使用的五到八秒结尾 cue。每段都应该能在一句话结束处干净剪断。如果视频展示实体产品，要给真实声音留空间：按钮点击、打开包装、电机启动、材料弯折。这些小声音有时比再加一层音乐更能建立信任。",
+        "## 放在旁白和事实下面测试",
+        "不要单独听音乐就批准。把它放进真实剪辑里。如果它盖住价格、预计发货时间、风险说明、回报档位或限制条件，说明它在最重要的地方失败了。试一版没有鼓或没有主旋律的轻版本。如果同一个视频还会发布到 YouTube 或社交平台，保留提示词、文件名和版本记录，因为匹配系统和使用规则在不同渠道可能反应不同。",
+        "## 现在就能用的做法",
+        "- 写一张三行卡片：problem, proof, ask，并给每一行标注音乐能量。\n- 在价格、发货日期、风险说明和回报规则上方放 QUIET 标记。\n- 生成 86 BPM 和 98 BPM 两个版本，选择让创始人听起来更可信的那个。\n- 如果画面没有可见证据，删掉对应的大 hit。\n- 不只导出一条长音轨，而是导出 8 秒 opener、60 秒 bed 和短 closing cue。",
+        "## FAQ",
+        "每个众筹视频都需要音乐吗？不一定。原型展示或数字说明需要集中注意力时，部分留白可能更好。可以用人声吗？通常不建议，因为歌词会和创始人旁白、字幕抢空间。最大的错误是什么？用音乐卖出画面无法支撑的情绪。以后能把同一段音乐用到广告里吗？再次发布前要检查工具条款、平台规则和具体用途。怎么判断音乐是否合适？观众第一次观看就能听懂问题、证据和请求。"
+      ]
+    }
+  }
+}
