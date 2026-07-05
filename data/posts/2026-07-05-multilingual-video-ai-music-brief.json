@@ -1,0 +1,249 @@
+{
+  "date": "2026-07-05",
+  "slug": "multilingual-video-ai-music-brief",
+  "cluster": "localization-workflows",
+  "translations": {
+    "en": {
+      "title": "Brief AI Music for Multilingual Video Edits",
+      "description": "A practical workflow for keeping one music identity across translated ads, product demos, course clips, and social videos.",
+      "body": [
+        "A campaign that works in English can feel wrong after translation. The Spanish voiceover is a second longer, the Japanese edit needs more space before the logo, and the Arabic version reads from a different visual rhythm. If the music brief is only upbeat brand track, every localized cut becomes a guess. Before generating music in an [AI music generator](https://easymusic.ai/ai-music-generator), write a brief that protects the campaign identity while leaving room for each language.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai) is an AI music generation platform for creating and customizing music from prompts, lyrics, style ideas, and model choices. In a localization workflow, treat it as a drafting space for cue options, not as proof that every business, platform, or legal question is solved.",
+        "## Start with a nonverbal identity card",
+        "Do not define the track by country, accent, or a stereotype. Define the job the sound must do without words: confident but not aggressive, warm but not sentimental, light technology feel, no festival drop, no lead vocal, clear logo ending. Add two musical anchors that should stay across languages, such as a soft marimba pulse and rounded synth bass. Add two things that may change, such as intro length and ending density.",
+        "## Build a cue map before generating",
+        "- 0-2 seconds: small attention cue before the first spoken line.\n- Product explanation: thinner arrangement under speech.\n- Proof or feature moment: one lift, not a new song.\n- Price, deadline, or call to action: simpler rhythm and a clean stop.\n- Logo frame: one short sound mark that can survive every language edit.",
+        "A reusable prompt might be: 92 BPM warm electronic pop bed, soft mallet pulse, rounded synth bass, light hand percussion, no vocals, no famous song reference, clear space for translated narration, subtle lift at 12 seconds, short logo ending, same motif across 15-second and 30-second cuts. The point is not to make the prompt long; it is to make the editable decisions visible.",
+        "## Keep style words portable",
+        "Some words translate poorly in music briefs. Energetic may become too loud, premium may become glossy, and local flavor may invite cliches. Keep a small glossary with plain audio terms: tempo range, instrument family, density, mood, negative boundaries, and where speech needs room. If your team lacks vocabulary, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help expand genre, instrument, mood, and texture language before you choose the final prompt.",
+        "## Test against the longest language, not the easiest one",
+        "Make the first serious test with the version that has the tightest timing or the longest narration. If the music only works under the shortest language, it will probably fail elsewhere. Three quick checks help immediately: mute the voice and see whether the structure still matches the edit, play the voice at low volume and check consonant clarity, then cut five frames before and after the logo to see whether the ending still feels intentional.",
+        "## Keep a localization note",
+        "Save the prompt, date, chosen version, rejected versions, intended channels, and any known platform or client restrictions. This note is not legal clearance. It is a practical record that helps the next editor understand why the same motif, tempo, and ending were used across languages. If a market lead asks for a change, revise one layer at a time: timing first, density second, instruments last.",
+        "## FAQ",
+        "Should every language use the same track? Usually start from the same motif and tempo family, then change arrangement length or density only when the translated edit needs it. Can I add local instruments for each market? Yes, but only when someone with context approves the choice; otherwise neutral instrumentation is often safer. Should the music have vocals? For localized ads and demos, instrumental music is easier to adapt. How many versions should I generate? Two full directions and one backup are usually enough for a focused review. Can I promise the music is cleared for every channel? No. Check the current tool terms, client rules, and platform requirements before publishing."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer mehrsprachige Video-Edits briefen",
+      "description": "Ein praktischer Ablauf, um eine musikalische Identitaet ueber uebersetzte Ads, Produktdemos, Kursclips und Social Videos zu halten.",
+      "body": [
+        "Eine Kampagne, die auf Englisch funktioniert, kann nach der Uebersetzung ploetzlich falsch wirken. Die spanische Voiceover-Spur ist eine Sekunde laenger, der japanische Schnitt braucht mehr Luft vor dem Logo, und die arabische Version folgt einer anderen Leserichtung. Wenn im Musikbrief nur upbeat Brand Track steht, wird jeder Lokalisierungsschnitt geraten. Bevor du in einem [KI-Musikgenerator](https://easymusic.ai/de/ai-music-generator) arbeitest, schreibe ein Briefing, das die Kampagnenidentitaet schuetzt und jeder Sprache Platz laesst.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de) ist eine Plattform zur KI-gestuetzten Musikerzeugung, mit der Musik aus Prompts, Lyrics, Stilideen und Modellauswahl erstellt und angepasst werden kann. In der Lokalisierung ist sie vor allem ein Entwurfsraum fuer Cue-Optionen, nicht der Beweis, dass jede geschäftliche, plattformbezogene oder rechtliche Frage erledigt ist.",
+        "## Beginne mit einer nonverbalen Identitaetskarte",
+        "Definiere den Track nicht ueber Land, Akzent oder Klischee. Beschreibe die Aufgabe des Sounds ohne Worte: selbstbewusst, aber nicht aggressiv; warm, aber nicht sentimental; leichter Tech-Charakter; kein Festival-Drop; keine Lead-Vocals; klares Logo-Ende. Fuege zwei musikalische Anker hinzu, die in allen Sprachen bleiben sollen, etwa ein weicher Marimba-Puls und runder Synth-Bass. Fuege zwei Dinge hinzu, die sich aendern duerfen, etwa Intro-Laenge und Schlussdichte.",
+        "## Baue vor der Generierung eine Cue-Karte",
+        "- 0-2 Sekunden: kleiner Aufmerksamkeitscue vor der ersten gesprochenen Zeile.\n- Produkterklaerung: duennere Begleitung unter Sprache.\n- Beweis- oder Feature-Moment: ein Lift, kein neuer Song.\n- Preis, Frist oder Call to Action: einfacherer Rhythmus und sauberer Stopp.\n- Logo-Frame: kurzes Soundzeichen, das in jeder Sprachfassung funktioniert.",
+        "Ein wiederverwendbarer Prompt kann so aussehen: 92 BPM warmer Electronic-Pop-Bed, weicher Mallet-Puls, runder Synth-Bass, leichte Handpercussion, keine Vocals, keine bekannte Songreferenz, klarer Raum fuer uebersetzte Narration, dezenter Lift bei 12 Sekunden, kurzes Logo-Ende, gleiches Motiv fuer 15- und 30-Sekunden-Schnitte. Der Prompt muss nicht lang sein; die editierbaren Entscheidungen muessen sichtbar sein.",
+        "## Halte Stilwoerter uebertragbar",
+        "Manche Worte uebersetzen sich schlecht in Musikbriefs. Energetisch wird schnell zu laut, premium wird zu glaenzend, und lokales Flair kann Klischees einladen. Pflege ein kleines Glossar mit einfachen Audiobegriffen: Tempobereich, Instrumentenfamilie, Dichte, Stimmung, negative Grenzen und Stellen, an denen Sprache Platz braucht. Wenn dem Team Vokabular fehlt, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Genre, Instrumente, Stimmung und Textur vor dem finalen Prompt erweitern.",
+        "## Teste mit der laengsten Sprache, nicht mit der leichtesten",
+        "Mache den ersten ernsthaften Test mit der Fassung, die zeitlich am engsten ist oder die laengste Narration hat. Wenn die Musik nur unter der kuerzesten Sprache funktioniert, wird sie anderswo wahrscheinlich scheitern. Drei schnelle Pruefungen helfen sofort: Stimme stummschalten und sehen, ob die Struktur noch zum Schnitt passt; Stimme leise abspielen und Konsonantenklarheit pruefen; fuenf Frames vor und nach dem Logo schneiden und hoeren, ob der Schluss absichtlich wirkt.",
+        "## Fuehre eine Lokalisierungsnotiz",
+        "Speichere Prompt, Datum, gewaehlte Version, verworfene Versionen, geplante Kanaele und bekannte Plattform- oder Kundenregeln. Das ist keine rechtliche Freigabe. Es ist eine Produktionsspur, damit die naechste Editorin versteht, warum Motiv, Tempo und Schluss in allen Sprachen gleich bleiben. Wenn ein Marktteam eine Aenderung verlangt, aendere nur eine Ebene: zuerst Timing, dann Dichte, zuletzt Instrumente.",
+        "## FAQ",
+        "Soll jede Sprache denselben Track nutzen? Beginne meist mit demselben Motiv und derselben Tempofamilie, aendere aber Laenge oder Dichte, wenn der uebersetzte Schnitt es braucht. Darf ich lokale Instrumente einsetzen? Ja, aber nur mit Kontext und Freigabe; sonst ist neutrale Instrumentierung oft sauberer. Soll die Musik Vocals haben? Fuer lokalisierte Ads und Demos ist instrumental meist leichter anzupassen. Wie viele Versionen brauche ich? Zwei klare Richtungen und eine Reserve reichen oft. Darf ich sagen, die Musik sei fuer jeden Kanal geklaert? Nein. Pruefe aktuelle Tool-Bedingungen, Kundenregeln und Plattformanforderungen."
+      ]
+    },
+    "es": {
+      "title": "Brief de musica IA para videos multilingues",
+      "description": "Un flujo practico para mantener una identidad musical en anuncios traducidos, demos de producto, cursos y videos sociales.",
+      "body": [
+        "Una campana que funciona en ingles puede sentirse rara despues de traducirla. La voz en espanol dura un segundo mas, el corte japones necesita mas aire antes del logo y la version arabe lee la pantalla con otro ritmo visual. Si el brief musical solo dice pista de marca animada, cada version localizada se vuelve una apuesta. Antes de generar musica en un [generador de musica con IA](https://easymusic.ai/es/ai-music-generator), escribe un brief que proteja la identidad de la campana y deje espacio a cada idioma.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es) es una plataforma de generacion musical con IA para crear y personalizar musica a partir de prompts, letras, ideas de estilo y seleccion de modelo. En un flujo de localizacion conviene verla como un espacio de borradores para cues, no como prueba de que cada duda comercial, legal o de plataforma esta resuelta.",
+        "## Empieza con una tarjeta de identidad no verbal",
+        "No definas la pista por pais, acento o estereotipo. Define el trabajo del sonido sin palabras: seguro pero no agresivo, calido pero no sentimental, ligera sensacion tecnologica, sin drop de festival, sin voz principal, cierre claro para el logo. Agrega dos anclas musicales que deben mantenerse en todos los idiomas, como un pulso suave de marimba y bajo sintetico redondo. Agrega dos cosas que pueden cambiar, como la duracion de la intro y la densidad del final.",
+        "## Crea un mapa de cues antes de generar",
+        "- 0-2 segundos: pequeno cue de atencion antes de la primera frase hablada.\n- Explicacion del producto: arreglo mas fino debajo de la voz.\n- Momento de prueba o funcion: una subida, no una cancion nueva.\n- Precio, fecha limite o llamada a la accion: ritmo mas simple y parada limpia.\n- Plano de logo: marca sonora corta que sobreviva en todos los idiomas.",
+        "Un prompt reutilizable podria ser: cama electronica pop calida a 92 BPM, pulso suave de mallets, bajo sintetico redondo, percusion ligera de mano, sin voces, sin referencia a canciones famosas, espacio claro para narracion traducida, subida sutil en el segundo 12, cierre corto de logo, mismo motivo para cortes de 15 y 30 segundos. Lo importante no es alargar el prompt, sino mostrar las decisiones editables.",
+        "## Mantén portables las palabras de estilo",
+        "Algunas palabras se traducen mal en briefs musicales. Energetico puede volverse demasiado fuerte, premium puede sonar demasiado brillante y sabor local puede abrir la puerta a cliches. Mantén un pequeno glosario con terminos de audio simples: rango de tempo, familia de instrumentos, densidad, estado de animo, limites negativos y lugares donde la voz necesita espacio. Si falta vocabulario, el [generador de estilos musicales](https://easymusic.ai/es/tools/music-style-generator) puede ampliar genero, instrumentos, mood y textura antes del prompt final.",
+        "## Prueba con el idioma mas largo, no con el mas facil",
+        "Haz la primera prueba seria con la version de tiempo mas ajustado o con la narracion mas larga. Si la musica solo funciona debajo del idioma mas corto, probablemente fallara en otros cortes. Tres comprobaciones ayudan de inmediato: silencia la voz y mira si la estructura aun coincide con la edicion, reproduce la voz a bajo volumen y revisa consonantes, luego corta cinco fotogramas antes y despues del logo para saber si el cierre se siente intencional.",
+        "## Guarda una nota de localizacion",
+        "Guarda prompt, fecha, version elegida, versiones descartadas, canales previstos y restricciones conocidas de plataforma o cliente. No es una autorizacion legal. Es una huella de produccion para que el siguiente editor entienda por que se mantuvieron motivo, tempo y cierre en todos los idiomas. Si un responsable de mercado pide un cambio, revisa una capa por vez: primero timing, despues densidad y al final instrumentos.",
+        "## Preguntas frecuentes",
+        "Debe usar cada idioma la misma pista? Normalmente conviene partir del mismo motivo y familia de tempo, y cambiar longitud o densidad solo cuando la edicion traducida lo pida. Puedo sumar instrumentos locales? Si, pero con contexto y aprobacion; si no, una instrumentacion neutral suele ser mas segura. Conviene usar voces cantadas? Para anuncios y demos localizados, la musica instrumental se adapta mejor. Cuantas versiones genero? Dos direcciones completas y una reserva bastan para revisar. Puedo prometer que sirve para cualquier canal? No. Revisa terminos de la herramienta, reglas del cliente y requisitos de cada plataforma."
+      ]
+    },
+    "fr": {
+      "title": "Briefer une musique IA pour des videos multilingues",
+      "description": "Une methode pratique pour garder une identite musicale dans des publicites, demos produit, cours et videos sociales traduits.",
+      "body": [
+        "Une campagne qui fonctionne en anglais peut sonner faux apres traduction. La voix espagnole dure une seconde de plus, le montage japonais a besoin d air avant le logo, et la version arabe suit un autre rythme de lecture visuelle. Si le brief musical se limite a piste de marque dynamique, chaque version localisee devient un pari. Avant de generer dans un [generateur de musique IA](https://easymusic.ai/fr/ai-music-generator), ecris un brief qui garde l identite de campagne tout en laissant de la place a chaque langue.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr) est une plateforme de generation musicale par IA pour creer et personnaliser de la musique avec des prompts, des paroles, des idees de style et un choix de modele. Dans un flux de localisation, traite-la comme un espace de brouillon pour des cues, pas comme une preuve que toutes les questions business, legales ou de plateforme sont reglees.",
+        "## Commence par une carte d identite non verbale",
+        "Ne definis pas la piste par pays, accent ou stereotype. Definis le travail du son sans mots: confiant mais pas agressif, chaud mais pas sentimental, leger signe technologique, pas de drop festival, pas de voix lead, fin claire pour le logo. Ajoute deux ancres musicales qui restent dans toutes les langues, par exemple un doux pulse de marimba et une basse synth ronde. Ajoute deux elements modifiables, comme la duree d intro et la densite finale.",
+        "## Fais une carte de cues avant de generer",
+        "- 0-2 secondes: petit signal d attention avant la premiere phrase parlee.\n- Explication produit: arrangement plus fin sous la voix.\n- Moment preuve ou fonctionnalite: une montee, pas une nouvelle chanson.\n- Prix, date limite ou appel a l action: rythme plus simple et arret net.\n- Plan logo: marque sonore courte qui tient dans chaque langue.",
+        "Un prompt reutilisable peut etre: bed electro pop chaud a 92 BPM, pulse doux de mallets, basse synth ronde, percussion main legere, pas de voix, pas de reference a un morceau connu, espace clair pour narration traduite, petite montee a 12 secondes, fin logo courte, meme motif pour les formats 15 et 30 secondes. Le but n est pas d allonger le prompt, mais de rendre les decisions modifiables visibles.",
+        "## Garde des mots de style transportables",
+        "Certains mots passent mal dans un brief musical. Energique peut devenir trop fort, premium peut devenir trop brillant, et couleur locale peut ouvrir la porte aux cliches. Garde un petit glossaire avec des termes audio simples: plage de tempo, famille d instruments, densite, humeur, limites negatives et endroits ou la parole a besoin d espace. Si le vocabulaire manque, le [generateur de styles musicaux](https://easymusic.ai/fr/tools/music-style-generator) peut enrichir genre, instruments, humeur et texture avant le prompt final.",
+        "## Teste la langue la plus longue, pas la plus facile",
+        "Fais le premier test serieux avec la version la plus serree ou la narration la plus longue. Si la musique fonctionne seulement sous la langue la plus courte, elle risque d echouer ailleurs. Trois controles aident vite: couper la voix et voir si la structure colle encore au montage, jouer la voix a bas volume pour verifier les consonnes, puis couper cinq images avant et apres le logo pour entendre si la fin reste volontaire.",
+        "## Garde une note de localisation",
+        "Note le prompt, la date, la version choisie, les versions rejetees, les canaux prevus et les restrictions connues de plateforme ou de client. Ce n est pas une autorisation juridique. C est une trace de production qui aide l editeur suivant a comprendre pourquoi le meme motif, tempo et final ont ete gardes. Si un responsable local demande un changement, revise une couche a la fois: timing, puis densite, puis instruments.",
+        "## FAQ",
+        "Chaque langue doit-elle garder la meme piste? Commence souvent par le meme motif et la meme famille de tempo, puis change longueur ou densite si le montage traduit l exige. Peut-on ajouter des instruments locaux? Oui, avec contexte et validation; sinon une instrumentation neutre est souvent plus propre. Faut-il des voix chantees? Pour pubs et demos localisees, l instrumental s adapte plus facilement. Combien de versions generer? Deux directions completes et une reserve suffisent souvent. Peut-on promettre que la musique est valable sur tous les canaux? Non. Verifie les conditions de l outil, les regles client et les exigences de plateforme."
+      ]
+    },
+    "it": {
+      "title": "Brief per musica AI nei video multilingue",
+      "description": "Un workflow pratico per mantenere un'identita musicale in annunci tradotti, demo prodotto, corsi e video social.",
+      "body": [
+        "Una campagna che funziona in inglese puo sembrare sbagliata dopo la traduzione. La voce spagnola dura un secondo in piu, il montaggio giapponese ha bisogno di piu spazio prima del logo, e la versione araba segue un altro ritmo visivo. Se il brief musicale dice solo traccia brand vivace, ogni taglio localizzato diventa un tentativo. Prima di generare con un [generatore di musica AI](https://easymusic.ai/it/ai-music-generator), scrivi un brief che protegga l identita della campagna e lasci spazio a ogni lingua.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it) e una piattaforma di generazione musicale con IA per creare e personalizzare musica da prompt, testi, idee di stile e scelta del modello. In un processo di localizzazione va trattata come spazio di bozza per cue musicali, non come prova che ogni domanda commerciale, legale o di piattaforma sia gia risolta.",
+        "## Parti da una scheda di identita non verbale",
+        "Non definire la traccia tramite paese, accento o stereotipo. Definisci il lavoro del suono senza parole: sicuro ma non aggressivo, caldo ma non sentimentale, leggera sensazione tech, niente drop da festival, niente voce principale, chiusura chiara sul logo. Aggiungi due ancore musicali da mantenere in tutte le lingue, come un morbido impulso di marimba e un basso synth rotondo. Aggiungi due elementi che possono cambiare, come durata dell intro e densita finale.",
+        "## Crea una mappa dei cue prima di generare",
+        "- 0-2 secondi: piccolo cue di attenzione prima della prima frase parlata.\n- Spiegazione del prodotto: arrangiamento piu sottile sotto la voce.\n- Momento prova o feature: una salita, non una nuova canzone.\n- Prezzo, scadenza o invito all azione: ritmo piu semplice e stop pulito.\n- Frame logo: segno sonoro breve che regga in ogni lingua.",
+        "Un prompt riutilizzabile puo essere: bed elettronico pop caldo a 92 BPM, impulso morbido di mallet, basso synth rotondo, leggera percussione manuale, senza voci, senza riferimento a canzoni famose, spazio chiaro per narrazione tradotta, piccolo lift a 12 secondi, chiusura logo breve, stesso motivo per tagli da 15 e 30 secondi. Il punto non e scrivere tanto, ma rendere visibili le decisioni modificabili.",
+        "## Mantieni portabili le parole di stile",
+        "Alcune parole si traducono male nei brief musicali. Energico puo diventare troppo forte, premium troppo lucido, e sapore locale puo invitare cliche. Tieni un piccolo glossario con termini audio semplici: intervallo di tempo, famiglia di strumenti, densita, mood, limiti negativi e punti in cui la voce ha bisogno di spazio. Se mancano parole, il [generatore di stili musicali](https://easymusic.ai/it/tools/music-style-generator) puo ampliare genere, strumenti, atmosfera e texture prima del prompt finale.",
+        "## Testa la lingua piu lunga, non quella piu facile",
+        "Fai il primo test serio con la versione piu stretta nel timing o con la narrazione piu lunga. Se la musica funziona solo sotto la lingua piu breve, probabilmente fallira altrove. Tre controlli aiutano subito: silenzia la voce e guarda se la struttura segue ancora il montaggio, riproduci la voce a volume basso e controlla le consonanti, poi taglia cinque frame prima e dopo il logo per sentire se il finale sembra intenzionale.",
+        "## Conserva una nota di localizzazione",
+        "Salva prompt, data, versione scelta, versioni scartate, canali previsti e restrizioni note di piattaforma o cliente. Non e una liberatoria legale. E una traccia di produzione che aiuta il prossimo editor a capire perche motivo, tempo e chiusura sono rimasti uguali nelle lingue. Se un referente locale chiede un cambio, modifica un livello per volta: prima timing, poi densita, infine strumenti.",
+        "## FAQ",
+        "Ogni lingua deve usare la stessa traccia? Di solito parti dallo stesso motivo e dalla stessa famiglia di tempo, poi cambia lunghezza o densita se il montaggio tradotto lo richiede. Posso aggiungere strumenti locali? Si, ma con contesto e approvazione; altrimenti una strumentazione neutra e spesso piu sicura. Meglio usare voci cantate? Per annunci e demo localizzati, l strumentale si adatta meglio. Quante versioni generare? Due direzioni complete e una riserva bastano spesso. Posso promettere che va bene su ogni canale? No. Controlla termini dello strumento, regole cliente e requisiti di piattaforma."
+      ]
+    },
+    "ja": {
+      "title": "多言語動画向けAI音楽ブリーフの実践ガイド",
+      "description": "翻訳された広告、製品デモ、講座クリップ、SNS動画で、同じ音楽アイデンティティを保つための実践ワークフロー。",
+      "body": [
+        "英語ではうまく見えたキャンペーンが、翻訳版では急に合わなくなることがあります。スペイン語のナレーションは一秒長く、日本語版はロゴ前に少し余白が必要で、アラビア語版は視線の流れも違います。音楽ブリーフが明るいブランド曲だけだと、各ローカライズ版は勘に頼ることになります。[AI音楽ジェネレーター](https://easymusic.ai/ja/ai-music-generator)で作り始める前に、キャンペーンの同一感を守りつつ、各言語の余白を残すブリーフを書きます。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja)は、プロンプト、歌詞、スタイル案、モデル選択をもとに音楽を作成し、調整できるAI音楽生成プラットフォームです。ローカライズ制作では、音楽キューの候補を作る下書き場所として扱うのが現実的です。ビジネス、平台、法務の確認がすべて終わった証明にはなりません。",
+        "## 言葉に頼らない音の身分証を作る",
+        "国名、アクセント、ステレオタイプで曲を決めないようにします。音が果たす役割を言葉なしで書きます。自信はあるが攻撃的ではない、温かいが感傷的ではない、軽いテック感、大きなフェス系ドロップなし、リードボーカルなし、ロゴで短く止まる。全言語で残す音の軸を二つ決めます。たとえば柔らかいマリンバのパルスと丸いシンセベース。変えてよいものも二つ決めます。イントロの長さ、終盤の密度などです。",
+        "## 生成前にキュー地図を書く",
+        "- 0-2秒: 最初の話し始めの前に小さな注意喚起。\n- 製品説明: 声の下では薄い編曲。\n- 実績や機能の場面: 新しい曲ではなく、一度だけ持ち上げる。\n- 価格、期限、CTA: 単純なリズムときれいな停止。\n- ロゴ画面: どの言語版にも残せる短いサウンドマーク。",
+        "使い回せるプロンプトは、92 BPMの温かいエレクトロニックポップのベッド、柔らかいマレットのパルス、丸いシンセベース、軽いハンドパーカッション、ボーカルなし、有名曲参照なし、翻訳ナレーションのための余白、12秒で控えめに上がる、短いロゴエンド、15秒版と30秒版で同じモチーフ、のようにできます。長く書くことより、編集できる判断を見える形にすることが目的です。",
+        "## スタイル語を持ち運べる形にする",
+        "音楽ブリーフの言葉は翻訳でずれやすいです。エネルギッシュは大きすぎる音になり、プレミアムは光沢が強すぎる音になり、ローカル感は安易な記号に流れます。テンポ範囲、楽器の系統、密度、ムード、避ける条件、声に余白が必要な位置を、小さな用語表にします。語彙が足りない場合は、最終プロンプトの前に [Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) でジャンル、楽器、ムード、質感の言葉を増やせます。",
+        "## 一番長い言語でテストする",
+        "最初の本格テストは、時間が一番きつい版か、ナレーションが一番長い版で行います。最短の言語の下でしか機能しない音楽は、ほかの版で崩れやすいです。すぐできる確認は三つです。声をミュートしても構成が編集に合っているか見る、声を小さく再生して子音が聞こえるか確かめる、ロゴの前後を五フレームずつ切っても終わり方が意図的に聞こえるか確認することです。",
+        "## ローカライズメモを残す",
+        "プロンプト、日付、採用版、却下した版、予定チャンネル、分かっている平台やクライアントの制約を保存します。これは法的許諾ではありません。次の編集者が、なぜ同じモチーフ、テンポ、終わり方を各言語で使ったか理解するための制作記録です。地域担当者から変更依頼が来たら、一度に一層だけ直します。まずタイミング、次に密度、最後に楽器です。",
+        "## FAQ",
+        "すべての言語で同じ曲を使うべきですか。通常は同じモチーフとテンポの系統から始め、翻訳版の尺が必要なときだけ長さや密度を変えます。地域らしい楽器を入れてもよいですか。文脈を知る人が確認できるなら可能ですが、迷うなら中立的な楽器の方が安全です。歌声は入れるべきですか。ローカライズ広告やデモでは、インストの方が調整しやすいです。何案作りますか。明確な二方向と予備一つで十分なことが多いです。どのチャンネルでも使えると約束できますか。できません。ツールの条件、クライアント規則、平台要件を公開前に確認します。"
+      ]
+    },
+    "ko": {
+      "title": "다국어 영상용 AI 음악 브리프 작성법",
+      "description": "번역된 광고, 제품 데모, 강의 클립, 소셜 영상에서 하나의 음악 정체성을 유지하는 실무 흐름.",
+      "body": [
+        "영어 버전에서 잘 맞던 캠페인이 번역 후에는 어색해질 수 있습니다. 스페인어 내레이션은 1초 더 길고, 일본어 편집은 로고 앞에 여백이 더 필요하며, 아랍어 버전은 화면을 읽는 리듬도 다릅니다. 음악 브리프가 밝은 브랜드 트랙이라는 말뿐이면 각 현지화 버전은 추측이 됩니다. [AI 음악 생성기](https://easymusic.ai/ko/ai-music-generator)를 열기 전에 캠페인 정체성은 지키고 언어별 여백은 남기는 브리프를 쓰세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko)는 프롬프트, 가사, 스타일 아이디어, 모델 선택을 바탕으로 음악을 만들고 조정할 수 있는 AI 음악 생성 플랫폼입니다. 현지화 작업에서는 큐 후보를 만드는 초안 공간으로 보는 것이 좋습니다. 비즈니스, 플랫폼, 법적 질문이 모두 해결됐다는 증거는 아닙니다.",
+        "## 비언어적 정체성 카드부터 쓰기",
+        "국가, 억양, 고정관념으로 트랙을 정의하지 마세요. 소리가 해야 할 일을 말 없이 설명합니다. 자신감 있지만 공격적이지 않음, 따뜻하지만 감상적이지 않음, 가벼운 기술감, 페스티벌 드롭 없음, 리드 보컬 없음, 로고에서 깨끗한 끝. 모든 언어에서 유지할 음악 앵커 두 가지를 정합니다. 부드러운 마림바 펄스와 둥근 신스 베이스처럼요. 바뀔 수 있는 것도 두 가지 정합니다. 인트로 길이와 엔딩 밀도 같은 항목입니다.",
+        "## 생성 전에 큐 지도를 만들기",
+        "- 0-2초: 첫 문장 전 작은 주목 신호.\n- 제품 설명: 목소리 아래 얇은 편곡.\n- 증거 또는 기능 장면: 새 노래가 아니라 한 번의 상승.\n- 가격, 마감, 행동 유도: 더 단순한 리듬과 깨끗한 정지.\n- 로고 프레임: 모든 언어 편집에 남을 짧은 사운드 마크.",
+        "재사용 가능한 프롬프트는 이렇게 쓸 수 있습니다. 92 BPM 따뜻한 일렉트로닉 팝 베드, 부드러운 말렛 펄스, 둥근 신스 베이스, 가벼운 손 퍼커션, 보컬 없음, 유명곡 참조 없음, 번역 내레이션을 위한 명확한 공간, 12초에 은근한 상승, 짧은 로고 엔딩, 15초와 30초 컷에서 같은 모티프. 중요한 것은 길이가 아니라 수정할 결정을 보이게 만드는 것입니다.",
+        "## 스타일 단어를 옮기기 쉽게 만들기",
+        "음악 브리프의 단어는 번역에서 흔들리기 쉽습니다. 에너지 있다는 너무 큰 소리가 되고, 프리미엄은 지나치게 번쩍이는 소리가 되며, 현지 느낌은 진부한 기호로 흐를 수 있습니다. 템포 범위, 악기군, 밀도, 무드, 금지 조건, 말소리에 공간이 필요한 위치를 작은 용어집으로 정리하세요. 어휘가 부족하다면 최종 프롬프트 전에 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 장르, 악기, 무드, 질감 표현을 넓힐 수 있습니다.",
+        "## 가장 긴 언어로 테스트하기",
+        "첫 번째 진지한 테스트는 시간이 가장 빡빡하거나 내레이션이 가장 긴 버전으로 하세요. 음악이 가장 짧은 언어에서만 맞는다면 다른 편집에서는 무너질 가능성이 큽니다. 바로 해볼 수 있는 점검은 세 가지입니다. 목소리를 끄고 구조가 여전히 편집과 맞는지 보기, 목소리를 낮은 볼륨으로 재생해 자음이 선명한지 확인하기, 로고 앞뒤를 다섯 프레임씩 잘라도 끝이 의도적으로 들리는지 보기.",
+        "## 현지화 메모 남기기",
+        "프롬프트, 날짜, 선택한 버전, 버린 버전, 예정 채널, 알려진 플랫폼이나 클라이언트 제한을 저장합니다. 이것은 법적 허가가 아닙니다. 다음 편집자가 왜 같은 모티프, 템포, 엔딩을 언어별로 유지했는지 이해하도록 돕는 제작 기록입니다. 시장 담당자가 변경을 요청하면 한 번에 한 층만 고치세요. 먼저 타이밍, 다음은 밀도, 마지막은 악기입니다.",
+        "## FAQ",
+        "모든 언어가 같은 트랙을 써야 하나요? 보통 같은 모티프와 템포 계열에서 시작하고, 번역 편집이 필요할 때만 길이와 밀도를 바꿉니다. 현지 악기를 넣어도 되나요? 맥락을 아는 사람이 승인할 때는 가능합니다. 아니면 중립적인 악기가 더 안전합니다. 보컬이 있는 음악이 좋나요? 현지화 광고와 데모에는 인스트루멘털이 더 다루기 쉽습니다. 몇 가지 버전을 만들까요? 두 개의 명확한 방향과 예비 하나면 충분한 경우가 많습니다. 모든 채널에서 쓸 수 있다고 약속해도 되나요? 안 됩니다. 공개 전에 도구 조건, 클라이언트 규칙, 플랫폼 요구를 확인하세요."
+      ]
+    },
+    "pt": {
+      "title": "Brief de musica IA para videos multilingues",
+      "description": "Um fluxo pratico para manter uma identidade musical em anuncios traduzidos, demos de produto, aulas e videos sociais.",
+      "body": [
+        "Uma campanha que funciona em ingles pode soar estranha depois da traducao. A voz em espanhol dura um segundo a mais, a edicao japonesa precisa de mais respiro antes do logo, e a versao arabe segue outro ritmo visual. Se o brief musical diz apenas trilha de marca animada, cada corte localizado vira chute. Antes de gerar musica em um [gerador de musica com IA](https://easymusic.ai/pt/ai-music-generator), escreva um brief que proteja a identidade da campanha e deixe espaco para cada idioma.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt) e uma plataforma de geracao musical com IA para criar e personalizar musica a partir de prompts, letras, ideias de estilo e escolha de modelo. Em um fluxo de localizacao, trate a ferramenta como espaco de rascunho para cues, nao como prova de que toda questao comercial, legal ou de plataforma esta resolvida.",
+        "## Comece com um cartao de identidade nao verbal",
+        "Nao defina a faixa por pais, sotaque ou estereotipo. Defina o trabalho do som sem palavras: confiante mas nao agressivo, quente mas nao sentimental, leve sensacao tecnologica, sem drop de festival, sem vocal principal, final claro para o logo. Acrescente duas ancoras musicais que devem ficar em todos os idiomas, como pulso suave de marimba e baixo synth redondo. Acrescente duas coisas que podem mudar, como duracao da intro e densidade do final.",
+        "## Monte um mapa de cues antes de gerar",
+        "- 0-2 segundos: pequeno cue de atencao antes da primeira fala.\n- Explicacao do produto: arranjo mais fino embaixo da voz.\n- Momento de prova ou recurso: uma elevacao, nao uma nova musica.\n- Preco, prazo ou chamada para acao: ritmo mais simples e parada limpa.\n- Quadro do logo: marca sonora curta que funcione em todo idioma.",
+        "Um prompt reutilizavel pode ser: cama eletronica pop quente a 92 BPM, pulso suave de mallets, baixo synth redondo, percussao leve de mao, sem vocais, sem referencia a musica famosa, espaco claro para narracao traduzida, elevacao sutil aos 12 segundos, final curto de logo, mesmo motivo nos cortes de 15 e 30 segundos. O ponto nao e escrever muito, e deixar visiveis as decisoes editaveis.",
+        "## Mantenha palavras de estilo portaveis",
+        "Algumas palavras se traduzem mal em briefs musicais. Energetico pode virar alto demais, premium pode virar brilhante demais, e sabor local pode chamar cliches. Mantenha um pequeno glossario com termos simples de audio: faixa de tempo, familia de instrumentos, densidade, clima, limites negativos e pontos onde a fala precisa de espaco. Se faltar vocabulario, o [gerador de estilos musicais](https://easymusic.ai/pt/tools/music-style-generator) pode ampliar genero, instrumentos, clima e textura antes do prompt final.",
+        "## Teste com o idioma mais longo, nao com o mais facil",
+        "Faca o primeiro teste serio com a versao de timing mais apertado ou com a narracao mais longa. Se a musica so funciona embaixo do idioma mais curto, provavelmente falhara em outras edicoes. Tres checagens ajudam agora: silencie a voz e veja se a estrutura ainda combina com o corte, toque a voz em volume baixo e confira as consoantes, depois corte cinco quadros antes e depois do logo para saber se o final ainda parece intencional.",
+        "## Guarde uma nota de localizacao",
+        "Salve prompt, data, versao escolhida, versoes rejeitadas, canais previstos e restricoes conhecidas de plataforma ou cliente. Isso nao e liberacao legal. E um rastro de producao que ajuda o proximo editor a entender por que o mesmo motivo, tempo e final foram usados nos idiomas. Se um responsavel de mercado pedir mudanca, revise uma camada por vez: primeiro timing, depois densidade, por ultimo instrumentos.",
+        "## Perguntas frequentes",
+        "Todo idioma deve usar a mesma faixa? Normalmente comece pelo mesmo motivo e familia de tempo, mudando duracao ou densidade so quando a edicao traduzida exigir. Posso usar instrumentos locais? Sim, mas com contexto e aprovacao; sem isso, uma instrumentacao neutra costuma ser mais segura. A musica deve ter vocais? Para anuncios e demos localizados, instrumental e mais facil de adaptar. Quantas versoes gerar? Duas direcoes completas e uma reserva costumam bastar. Posso prometer que serve para qualquer canal? Nao. Verifique termos da ferramenta, regras do cliente e requisitos de plataforma antes de publicar."
+      ]
+    },
+    "ru": {
+      "title": "Бриф для AI-музыки в многоязычных видео",
+      "description": "Практический процесс для единой музыкальной идентичности в переведенных рекламных роликах, демо, курсах и соцвидео.",
+      "body": [
+        "Кампания, которая хорошо работает на английском, после перевода может ощущаться иначе. Испанская озвучка длится на секунду дольше, японскому монтажу нужен больший зазор перед логотипом, а арабская версия читается в другом визуальном ритме. Если музыкальный бриф звучит как бодрый бренд-трек, каждая локализованная версия становится догадкой. Перед работой в [AI music generator](https://easymusic.ai/ru/ai-music-generator) напишите бриф, который сохраняет идентичность кампании и оставляет место для каждого языка.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru) - это платформа для генерации и настройки музыки с помощью ИИ на основе промптов, текста, идей стиля и выбора модели. В локализации ее лучше воспринимать как место для черновых музыкальных cue, а не как доказательство, что все бизнес-, платформенные и юридические вопросы решены.",
+        "## Начните с невербальной карточки идентичности",
+        "Не определяйте трек через страну, акцент или стереотип. Опишите работу звука без слов: уверенно, но не агрессивно; тепло, но не сентиментально; легкое ощущение технологий; без фестивального drop; без ведущего вокала; чистая остановка на логотипе. Добавьте два музыкальных якоря, которые останутся во всех языках, например мягкий пульс маримбы и округлый synth bass. Добавьте два элемента, которые могут меняться, например длина вступления и плотность финала.",
+        "## Постройте карту cue до генерации",
+        "- 0-2 секунды: короткий сигнал внимания перед первой фразой.\n- Объяснение продукта: более тонкая аранжировка под речью.\n- Доказательство или функция: один подъем, не новая песня.\n- Цена, дедлайн или призыв к действию: более простой ритм и чистая остановка.\n- Кадр логотипа: короткий звуковой знак, который работает во всех языках.",
+        "Рабочий промпт может быть таким: теплый electronic pop bed 92 BPM, мягкий mallet pulse, округлый synth bass, легкая ручная перкуссия, без вокала, без ссылки на известную песню, ясное место для переведенной речи, небольшой подъем на 12 секунде, короткое окончание для логотипа, один мотив для 15- и 30-секундных версий. Важно не сделать промпт длинным, а показать редактируемые решения.",
+        "## Держите слова стиля переносимыми",
+        "Некоторые слова плохо переносятся между языками. Энергично может стать слишком громко, премиально - слишком глянцево, а местный колорит может привести к клише. Сделайте маленький глоссарий простых аудиотерминов: диапазон темпа, семейство инструментов, плотность, настроение, запреты и места, где речи нужно пространство. Если не хватает словаря, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет расширить жанр, инструменты, настроение и фактуру перед финальным промптом.",
+        "## Тестируйте на самом длинном языке",
+        "Первый серьезный тест делайте на версии с самым жестким таймингом или самой длинной озвучкой. Если музыка работает только под самым коротким языком, в других версиях она, скорее всего, развалится. Три проверки помогают сразу: выключите голос и посмотрите, совпадает ли структура с монтажом; включите голос тихо и проверьте ясность согласных; срежьте по пять кадров до и после логотипа и послушайте, звучит ли финал намеренно.",
+        "## Ведите заметку локализации",
+        "Сохраните промпт, дату, выбранную версию, отклоненные версии, планируемые каналы и известные ограничения платформы или клиента. Это не юридическое разрешение. Это производственный след, который помогает следующему редактору понять, почему мотив, темп и финал сохранены во всех языках. Если локальная команда просит изменить трек, правьте один слой за раз: сначала тайминг, затем плотность, затем инструменты.",
+        "## FAQ",
+        "Нужно ли всем языкам использовать один трек? Обычно стоит начать с одного мотива и одной темповой семьи, меняя длину или плотность только при необходимости. Можно ли добавить локальные инструменты? Да, если выбор подтвержден человеком с контекстом; иначе нейтральная инструментовка часто безопаснее. Нужен ли вокал? Для локализованной рекламы и демо инструментальная музыка адаптируется проще. Сколько версий генерировать? Двух ясных направлений и одного резерва часто достаточно. Можно ли обещать пригодность для любого канала? Нет. Перед публикацией проверьте условия инструмента, правила клиента и требования платформ."
+      ]
+    },
+    "zh": {
+      "title": "多语言视频的 AI 音乐 Brief 怎么写",
+      "description": "面向翻译广告、产品演示、课程片段和社交视频，用同一套音乐身份贯穿多语言版本的实用流程。",
+      "body": [
+        "一条英文版表现很好的广告，翻译后可能突然不对味。西班牙语旁白多出一秒，日语剪辑在标志出现前需要更多留白，阿拉伯语版本的视觉阅读节奏也不同。如果音乐 Brief 只写活泼的品牌配乐，每个本地化版本都只能靠猜。在使用 [AI 音乐生成器](https://easymusic.ai/zh/ai-music-generator) 之前，先写一份既保护 campaign 识别度、又给各语言留空间的音乐 Brief。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh) 是一个 AI 音乐生成平台，可以基于提示词、歌词、风格想法和模型选择来创建并调整音乐。在本地化流程里，更适合把它当成制作音乐 cue 候选的草稿空间，而不是商业、平台或法律问题已经全部解决的证明。",
+        "## 先写非语言身份卡",
+        "不要用国家、口音或刻板印象来定义曲子，而是写声音要完成的任务：有信心但不攻击，温暖但不煽情，有轻微科技感，不要 festival drop，不要主唱，人声下方要留白，标志处要干净收住。再写两个所有语言都要保留的音乐锚点，例如柔和的马林巴 pulse 和圆润的合成器贝斯。也写两个可以调整的项目，例如前奏长度和结尾密度。",
+        "## 生成前先画 cue 地图",
+        "- 0-2 秒：第一句旁白前的小注意力提示。\n- 产品解释：人声下方用更薄的编曲。\n- 证据或功能出现：只抬升一次，不换成另一首歌。\n- 价格、截止时间或行动号召：更简单的节奏和干净停止。\n- 标志画面：一个短声音标识，能放进所有语言版本。",
+        "一个可复用的提示词可以是：92 BPM 温暖电子流行 background bed，柔和 mallet pulse，圆润 synth bass，轻手鼓，没有人声，不参考知名歌曲，给翻译旁白留清晰空间，12 秒处轻微抬升，短 logo ending，15 秒和 30 秒剪辑使用同一 motif。重点不是把提示词写长，而是让可以编辑的决定变得清楚。",
+        "## 让风格词可以跨语言搬运",
+        "音乐 Brief 里的词很容易在翻译中跑偏。energetic 可能变成太吵，premium 可能变成太亮，local flavor 可能引出陈词滥调。准备一个小词表：速度范围、乐器家族、密度、情绪、负面边界，以及旁白需要留空间的位置。如果团队缺少音乐词汇，可以先用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 扩展类型、乐器、情绪和质感词，再决定最终提示词。",
+        "## 用最长的语言测试，不要只测最容易的版本",
+        "第一次认真测试，应选择时间最紧或旁白最长的语言版本。如果音乐只在最短语言下面成立，到了其他版本很可能失败。三个快速检查很有用：关掉人声，看音乐结构是否仍然贴合剪辑；把人声开小，检查辅音是否清楚；在 logo 前后各切掉五帧，听结尾是否仍然像有意安排。",
+        "## 留一份本地化记录",
+        "保存提示词、日期、采用版本、淘汰版本、计划渠道，以及已知的平台或客户限制。这不是法律授权，而是制作记录，方便下一位剪辑师理解为什么多个语言版本使用同一个 motif、速度和结尾。如果某个市场负责人要求修改，一次只改一层：先改 timing，再改密度，最后改乐器。",
+        "## FAQ",
+        "每种语言都要用同一首音乐吗？通常先从同一 motif 和同一速度家族开始，只有翻译剪辑需要时才调整长度或密度。可以加入本地乐器吗？可以，但最好由了解当地语境的人确认；不确定时，中性配器通常更稳。音乐要有人声吗？本地化广告和演示视频通常更适合器乐。要生成多少版本？两个明确方向加一个备用，往往足够评审。可以承诺所有渠道都能用吗？不可以。发布前要检查工具条款、客户规则和平台要求。"
+      ]
+    },
+    "ar": {
+      "title": "كيفية كتابة موجز موسيقى AI لفيديوهات متعددة اللغات",
+      "description": "سير عمل عملي للحفاظ على هوية موسيقية واحدة في الإعلانات المترجمة، عروض المنتج، مقاطع التعليم، وفيديوهات السوشيال.",
+      "body": [
+        "قد تعمل الحملة جيدا بالإنجليزية ثم تبدو غريبة بعد الترجمة. التعليق الإسباني أطول بثانية، والنسخة اليابانية تحتاج فراغا قبل الشعار، والنسخة العربية لها إيقاع قراءة بصري مختلف. إذا كان موجز الموسيقى يقول فقط مقطع علامة تجارية حيوي، فكل نسخة محلية تصبح تخمينا. قبل استخدام [مولد موسيقى بالذكاء الاصطناعي](https://easymusic.ai/ar/ai-music-generator)، اكتب موجزا يحافظ على هوية الحملة ويترك مساحة لكل لغة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar) هو منصة لتوليد الموسيقى بالذكاء الاصطناعي، تساعد على إنشاء وتخصيص الموسيقى من خلال المطالبات، الكلمات، أفكار الأسلوب، واختيار النموذج. في سير عمل التوطين، تعامل معه كمساحة مسودات لاختيارات موسيقية، وليس كدليل على أن كل سؤال تجاري أو قانوني أو متعلق بالمنصة قد حسم.",
+        "## ابدأ ببطاقة هوية غير لفظية",
+        "لا تعرف المقطع من خلال بلد أو لهجة أو صورة نمطية. عرف وظيفة الصوت بلا كلمات: واثق لكن غير هجومي، دافئ لكن غير عاطفي بزيادة، إحساس تقني خفيف، بلا drop مهرجاني، بلا صوت غناء رئيسي، ونهاية واضحة عند الشعار. أضف مرساتين موسيقيتين تبقيان في كل اللغات، مثل نبض ماريمبا ناعم وباس synth دائري. أضف أيضا عنصرين يمكن تغييرهما، مثل طول المقدمة وكثافة النهاية.",
+        "## ابن خريطة cue قبل التوليد",
+        "- 0-2 ثانية: إشارة انتباه صغيرة قبل أول جملة منطوقة.\n- شرح المنتج: توزيع أخف تحت الكلام.\n- لحظة إثبات أو ميزة: ارتفاع واحد، لا أغنية جديدة.\n- سعر أو موعد أو دعوة للفعل: إيقاع أبسط وتوقف نظيف.\n- لقطة الشعار: علامة صوتية قصيرة تعمل في كل نسخة لغوية.",
+        "يمكن أن يكون prompt قابلا لإعادة الاستخدام بهذا الشكل: خلفية electronic pop دافئة بسرعة 92 BPM، نبض mallet ناعم، باس synth دائري، إيقاع يدوي خفيف، بلا غناء، بلا مرجع لأغنية مشهورة، مساحة واضحة للسرد المترجم، ارتفاع بسيط عند الثانية 12، نهاية قصيرة للشعار، ونفس motif لنسخ 15 و30 ثانية. الهدف ليس إطالة prompt، بل جعل قرارات التحرير واضحة.",
+        "## اجعل كلمات الأسلوب قابلة للنقل",
+        "بعض الكلمات لا تنتقل جيدا في موجز موسيقي. كلمة حيوي قد تصبح صاخبة، وفاخر قد يصبح لامعا زيادة، ونكهة محلية قد تفتح الباب لكليشيهات. احتفظ بقاموس صغير فيه مصطلحات صوتية بسيطة: نطاق السرعة، عائلة الآلات، الكثافة، المزاج، الحدود السلبية، والأماكن التي يحتاج فيها الكلام مساحة. إذا كان الفريق يفتقر للمفردات، يمكن أن يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في توسيع كلمات النوع، الآلات، المزاج، والملمس قبل prompt النهائي.",
+        "## اختبر بأطول لغة لا بأسهل نسخة",
+        "اجعل أول اختبار جدي على النسخة صاحبة أضيق توقيت أو أطول تعليق. إذا كانت الموسيقى تعمل فقط تحت أقصر لغة، فقد تفشل في النسخ الأخرى. ثلاث فحوص سريعة تساعد مباشرة: اكتم الصوت الكلامي وانظر هل ما زالت البنية تناسب المونتاج، شغل الكلام بصوت منخفض وتحقق من وضوح الحروف، ثم اقطع خمس لقطات قبل الشعار وبعده واسمع هل ما زالت النهاية مقصودة.",
+        "## احتفظ بملاحظة توطين",
+        "احفظ prompt، التاريخ، النسخة المختارة، النسخ المرفوضة، القنوات المقصودة، وأي قيود معروفة من المنصة أو العميل. هذه ليست موافقة قانونية. إنها سجل إنتاج يساعد المحرر التالي على فهم سبب استخدام نفس motif والسرعة والنهاية في كل اللغات. إذا طلب مسؤول سوق تغييرا، عدل طبقة واحدة في كل مرة: التوقيت أولا، ثم الكثافة، ثم الآلات.",
+        "## FAQ",
+        "هل يجب أن تستخدم كل لغة نفس الموسيقى؟ ابدأ غالبا بنفس motif ونفس عائلة السرعة، ثم غير الطول أو الكثافة فقط إذا احتاجت النسخة المترجمة ذلك. هل يمكن إضافة آلات محلية؟ نعم، لكن مع سياق وموافقة من شخص يعرف السوق؛ وإلا فالتوزيع المحايد أكثر أمانا. هل نستخدم غناء؟ للفيديوهات المحلية والإعلانات، الموسيقى الآلية أسهل في التكيف. كم نسخة أحتاج؟ اتجاهان واضحان ونسخة احتياطية يكفون غالبا. هل يمكنني وعد العميل بأنها صالحة لكل قناة؟ لا. راجع شروط الأداة وقواعد العميل ومتطلبات المنصة قبل النشر."
+      ]
+    }
+  }
+}
