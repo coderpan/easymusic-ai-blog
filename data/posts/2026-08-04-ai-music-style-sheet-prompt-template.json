@@ -1,0 +1,238 @@
+{
+  "date": "2026-08-04",
+  "slug": "ai-music-style-sheet-prompt-template",
+  "cluster": "style-prompt-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب style sheet لموسيقى AI قبل اول توليد",
+      "description": "Template عملي يحول المزاج، النوع، السرعة، الصوت، وحدود الاستخدام الى prompt اوضح لمسودات موسيقى AI.",
+      "body": [
+        "تقول للفريق انك تريد موسيقى دافئة وحديثة للفيديو، فيرجع كل شخص بتوقع مختلف: احدهم يسمع بيانو هادئا، اخر يتخيل pop سريع، والمحرر يريد شيئا لا يغطي voiceover. اذا دخلت هذه الفوضى مباشرة في مولد الموسيقى، فالنتيجة غالبا ستكون prompt طويلا ومتناقضا. الحل ابسط: اكتب style sheet من صفحة واحدة قبل ان تولد اي نسخة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من وصف نصي، كلمات، وافكار اسلوبية. تفيد عندما تريد تجربة اتجاهات موسيقية بسرعة، لكن قرار الاسلوب، حدود النشر، ومراجعة الحقوق يجب ان تبقى مكتوبة بوضوح خارج الملف الصوتي.",
+        "## ابدأ بالاستخدام لا بالنوع الموسيقي",
+        "لا تبدأ بكلمة مثل cinematic او lo-fi وحدها. ابدأ بسؤال عملي: اين ستعيش الموسيقى؟ إعلان قصير مع captions؟ فيديو شرح فيه voiceover؟ مشهد افتتاحي للعبة؟ اكتب مدة تقريبية، وجود كلام فوق الموسيقى، مستوى الطاقة، وما يجب ان يلاحظه المشاهد. عندها يصبح النوع الموسيقي نتيجة منطقية، لا تخمينا.",
+        "## قالب style sheet من خمس خانات",
+        "- Role: ماذا تفعل الموسيقى داخل العمل، مثل تمهيد هادئ، دفع الايقاع، او ترك مساحة للكلام.\n- Palette: النوع، العصر، الآلات، والخامة الصوتية، مع كلمات قليلة لا قائمة ضخمة.\n- Motion: BPM تقريبي، groove، واماكن الصعود او الهدوء.\n- Space: هل توجد كلمات، مؤثرات، او صوت مقدم يحتاج مساحة؟\n- Limits: ما الذي يجب تجنبه، مثل غناء واضح، طبول ثقيلة، solo طويل، او نهاية مفاجئة.",
+        "## حول الورقة الى prompt قصير",
+        "بعد ملء الخانات، لا تنسخ كل شيء كما هو. اختر اقوى 2 او 3 تفاصيل: الدور، الخامة، والحركة. اذا كانت مفردات الاسلوب مبعثرة، يمكن استخدام [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لصياغة وصف اكثر اتزانا قبل العودة الى التوليد. الprompt الجيد لا يثبت كل قرار؛ يزيل الالتباس الاكبر.",
+        "## افصل الاسلوب عن مراجعة الاستخدام",
+        "اكتب في الstyle sheet اين سينشر العمل، هل هو تجاري، وهل يحتاج فحص منصة. لا تحول هذه النقاط الى وعد داخل الprompt. الموسيقى التي تبدو مناسبة لا تعني تلقائيا انها مناسبة لكل منصة او ترخيص. اجعل المراجعة خطوة مستقلة قبل approval او upload.",
+        "## افكار يمكن تطبيقها اليوم",
+        "- اكتب نسخة 20 كلمة من الstyle sheet قبل اي prompt طويل.\n- اجعل كلمة no-vocal او low-drums سببا واضحا، مثلا voiceover يحتاج مساحة.\n- اختبر نسختين فقط: نسخة ضيقة تتبع الورقة، ونسخة اوسع تسمح بمفاجأة.\n- لا تخلط ثلاث مشاعر متضادة في prompt واحد؛ اختر احساسا رئيسيا واحساسا ثانويا.\n- بعد اختيار draft، احفظ الstyle sheet مع الملف حتى يفهم الفريق سبب الاختيار.",
+        "## اسئلة شائعة",
+        "### هل استطيع استخدام genre واحد فقط؟\nنعم اذا كان المشروع بسيطا، لكن genre وحده لا يشرح الدور، السرعة، ولا مساحة الكلام.\n### هل يجب ذكر BPM؟\nاذكره كمدى تقريبي عندما يهم الايقاع. 90-110 BPM او medium pulse يكفي غالبا.\n### ماذا افعل اذا خرجت الموسيقى مزدحمة؟\nقلل الخانات، احذف الآلات غير الضرورية، واكتب حدين واضحين مثل no lead vocal وlight percussion.\n### هل هذه الورقة بديل عن المراجعة القانونية؟\nلا. هي اداة ابداع وتنظيم. الحقوق، التراخيص، وسياسات المنصة تحتاج فحصا منفصلا."
+      ]
+    },
+    "de": {
+      "title": "Ein Style Sheet schreiben, bevor die KI-Musik generiert wird",
+      "description": "Eine praktische Vorlage, die Mood, Genre, Tempo, Vocals und Nutzungsgrenzen in klarere KI-Musik-Prompts uebersetzt.",
+      "body": [
+        "Das Briefing klingt eindeutig, bis drei Personen es lesen. Warm und modern bedeutet fuer eine Person leises Piano, fuer eine andere schnellen Pop, und die Editorin denkt nur daran, dass die Stimme frei bleiben muss. Wenn diese Mischung direkt in den Generator geht, entsteht oft ein langer Prompt mit widerspruechlichen Wuenschen. Ein einseitiges Style Sheet vor der ersten Generierung spart mehr Zeit als die spaetere Suche nach der besten Datei.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform zur KI-Musikerstellung, die aus Textbeschreibungen, Lyrics und Stilideen Musikentwuerfe erzeugen kann. Sie hilft, musikalische Richtungen schnell zu testen; Stilentscheidung, Nutzungskontext und Rechtepruefung sollten trotzdem sauber ausserhalb der Audiodatei dokumentiert bleiben.",
+        "## Erst den Einsatz klaeren, dann das Genre",
+        "Beginnen Sie nicht nur mit cinematic oder lo-fi. Beginnen Sie mit der Frage, wo die Musik funktionieren muss: kurzer Clip mit Captions, Erklaervideo mit Voiceover, Game-Menu, Kampagnen-Teaser. Notieren Sie ungefaehre Laenge, Sprache ueber der Musik, Energiekurve und das, was der Zuschauer wahrnehmen soll. Danach wird das Genre zu einer begruendeten Entscheidung.",
+        "## Eine Vorlage mit fuenf Feldern",
+        "- Role: Welche Aufgabe hat die Musik, etwa ruhig einfuehren, Tempo geben oder Platz fuer Sprache lassen.\n- Palette: Genre, Zeitgefuehl, Instrumente und Klangfarbe, knapp statt ueberladen.\n- Motion: ungefaehres BPM, Groove und Stellen fuer Aufbau oder Ruecknahme.\n- Space: Gibt es Sprache, Effekte oder Naturton, der Platz braucht?\n- Limits: Was soll vermieden werden, etwa klare Lead-Vocals, schwere Drums, langes Solo oder harter Schluss.",
+        "## Aus dem Sheet einen kurzen Prompt machen",
+        "Kopieren Sie nicht die ganze Vorlage in das Promptfeld. Waehlen Sie die staerksten zwei oder drei Details: Aufgabe, Klangfarbe und Bewegung. Wenn die Stilwoerter noch unsortiert sind, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) helfen, Genre, Instrumente, Mood und Tempo zu einer ruhigeren Beschreibung zu formen. Ein guter Prompt legt nicht alles fest; er entfernt die groessten Missverstaendnisse.",
+        "## Stil und Nutzungspruefung trennen",
+        "Das Style Sheet sollte festhalten, wo der Track erscheinen soll, ob der Einsatz kommerziell ist und welche Plattformregeln geprueft werden muessen. Machen Sie daraus aber kein Versprechen im Prompt. Musik, die gut passt, ist nicht automatisch fuer jeden Kanal oder jede Lizenzfrage geklaert. Review und Approval bleiben eigene Schritte.",
+        "## Ideen fuer die sofortige Anwendung",
+        "- Schreiben Sie vor jedem langen Prompt eine 20-Wort-Version des Style Sheets.\n- Geben Sie no-vocal oder low-drums immer einen Grund, etwa Voiceover braucht Raum.\n- Testen Sie nur zwei Varianten: eine enge Version und eine etwas offenere.\n- Mischen Sie nicht drei widerspruechliche Stimmungen; waehlen Sie eine Hauptstimmung und eine Nebenfarbe.\n- Speichern Sie das Style Sheet beim gewaehlten Draft, damit das Team die Entscheidung spaeter versteht.",
+        "## FAQ",
+        "### Reicht ein einzelnes Genre?\nManchmal ja, aber ein Genre erklaert weder Aufgabe noch Tempo noch Sprachraum.\n### Muss ich BPM angeben?\nNur wenn Rhythmus wichtig ist. Ein Bereich wie 90-110 BPM oder medium pulse reicht oft.\n### Was tun, wenn der Track zu voll wird?\nReduzieren Sie die Instrumente, kuerzen Sie die Stilwoerter und setzen Sie klare Grenzen wie no lead vocal und light percussion.\n### Ersetzt das Style Sheet eine rechtliche Pruefung?\nNein. Es ist ein kreatives und organisatorisches Werkzeug. Rechte, Lizenzen und Plattformbedingungen muessen separat geprueft werden."
+      ]
+    },
+    "en": {
+      "title": "Build an AI Music Style Sheet Before You Generate the Track",
+      "description": "A practical style-prompt template for turning mood, genre, tempo, vocals, and usage limits into clearer AI music drafts.",
+      "body": [
+        "The brief sounds clear until three people read it. Warm and modern means quiet piano to one teammate, fast pop to another, and the editor only cares that the voiceover stays readable. If that mess goes straight into a generator, the prompt usually becomes long, crowded, and contradictory. A one-page style sheet before the first generation is a better way to make the musical target visible.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform that can turn text descriptions, lyrics, and style ideas into music drafts. It is useful for testing musical directions quickly, while style decisions, publishing context, and rights review remain things your team should document outside the audio file.",
+        "## Start With Use, Not Genre",
+        "Do not begin with cinematic or lo-fi alone. Begin with where the music has to work: a caption-heavy short, a narrated product walkthrough, a game menu, a campaign teaser. Write the rough length, whether speech sits above the track, the energy curve, and what the viewer should notice. After that, genre becomes a reasoned choice instead of a loose guess.",
+        "## Use a Five-Line Style Sheet",
+        "- Role: what the music is doing, such as easing in, driving pace, or staying under speech.\n- Palette: genre, era, instruments, and sound color, kept short instead of encyclopedic.\n- Motion: rough BPM, groove, and where the cue should rise or relax.\n- Space: voiceover, dialogue, captions, effects, or room tone that need room.\n- Limits: what to avoid, such as clear lead vocals, heavy drums, long solos, or an abrupt ending.",
+        "## Turn the Sheet Into a Short Prompt",
+        "Do not paste the whole sheet into the prompt box. Pick the strongest two or three details: role, palette, and motion. If the style words are still scattered, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn loose genre, instrument, mood, and tempo notes into a calmer description before you generate. A good prompt does not freeze every decision; it removes the biggest ambiguity.",
+        "## Keep Usage Review Outside the Prompt",
+        "The style sheet should say where the track may be published, whether the use is commercial, and which platform rules need checking. Do not turn those notes into a promise inside the prompt. Music that fits the edit is not automatically cleared for every channel or license question. Treat review and approval as separate steps before upload.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write a 20-word version of the style sheet before any long prompt.\n- Give limits a reason: no-vocal because the narrator must stay clear, or light-drums because captions carry the hook.\n- Test only two first drafts: one strict version and one slightly wider version.\n- Avoid three competing moods in one prompt; choose a primary emotion and one secondary color.\n- Save the style sheet with the chosen draft so the team can understand the decision later.",
+        "## FAQ",
+        "### Can I use one genre tag only?\nSometimes, but a genre does not explain the job, tempo, speech space, or ending.\n### Should I include BPM?\nInclude a range when rhythm matters. 90-110 BPM or medium pulse is often enough.\n### What if the result sounds too busy?\nRemove nonessential instruments, shorten the palette, and set two clear limits such as no lead vocal and light percussion.\n### Does a style sheet solve licensing questions?\nNo. It improves creative control and review traceability. Rights, licenses, and platform terms still need a separate check."
+      ]
+    },
+    "es": {
+      "title": "Crea una hoja de estilo para musica IA antes de generar la pista",
+      "description": "Plantilla practica para convertir mood, genero, tempo, voces y limites de uso en prompts mas claros para musica IA.",
+      "body": [
+        "El brief parece claro hasta que lo leen tres personas. Calido y moderno significa piano suave para una, pop rapido para otra, y la editora solo piensa en que el voiceover debe entenderse. Si esa mezcla entra directa al generador, el prompt acaba largo, cargado y contradictorio. Una hoja de estilo de una pagina antes de la primera generacion hace visible el objetivo musical.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA que puede convertir descripciones, letras e ideas de estilo en borradores musicales. Sirve para probar direcciones rapido, mientras las decisiones de estilo, el contexto de publicacion y la revision de derechos quedan documentados fuera del archivo de audio.",
+        "## Empieza por el uso, no por el genero",
+        "No empieces solo con cinematic o lo-fi. Empieza por el lugar donde la musica debe funcionar: short con muchas captions, demo narrada de producto, menu de juego, teaser de campana. Escribe duracion aproximada, si hay voz encima, curva de energia y que debe notar la audiencia. Despues, el genero deja de ser una apuesta vaga.",
+        "## Usa una hoja de cinco lineas",
+        "- Role: que hace la musica, como entrar suave, empujar ritmo o quedarse debajo de la voz.\n- Palette: genero, epoca, instrumentos y color sonoro, breve y no enciclopedico.\n- Motion: BPM aproximado, groove y donde debe subir o relajarse.\n- Space: voiceover, dialogo, captions, efectos o sonido ambiente que necesitan espacio.\n- Limits: que evitar, como voz principal clara, baterias pesadas, solos largos o final brusco.",
+        "## Convierte la hoja en un prompt corto",
+        "No pegues toda la hoja en el prompt. Elige los dos o tres detalles mas fuertes: rol, paleta y movimiento. Si las palabras de estilo siguen dispersas, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede ordenar genero, instrumentos, mood y tempo antes de generar. Un buen prompt no congela cada decision; quita la ambiguedad principal.",
+        "## Separa estilo y revision de uso",
+        "La hoja debe decir donde se publicara la pista, si el uso es comercial y que reglas de plataforma hay que revisar. Pero no conviertas eso en una promesa dentro del prompt. Que la musica encaje en el edit no significa que este resuelta para todos los canales o licencias. Revision y aprobacion son pasos aparte antes del upload.",
+        "## Ideas reutilizables para hoy",
+        "- Escribe una version de 20 palabras de la hoja antes de cualquier prompt largo.\n- Da motivo a los limites: no-vocal porque la narracion debe ser clara, o light-drums porque las captions llevan el hook.\n- Prueba solo dos borradores iniciales: uno estricto y otro algo mas abierto.\n- No juntes tres emociones que compiten; elige una emocion principal y un color secundario.\n- Guarda la hoja con el draft elegido para que el equipo entienda la decision despues.",
+        "## Preguntas frecuentes",
+        "### Puedo usar solo una etiqueta de genero?\nA veces, pero el genero no explica tarea, tempo, espacio para voz ni final.\n### Debo incluir BPM?\nIncluye un rango cuando el ritmo importe. 90-110 BPM o medium pulse suele bastar.\n### Que hago si suena demasiado lleno?\nQuita instrumentos no esenciales, acorta la paleta y fija dos limites claros como no lead vocal y light percussion.\n### La hoja resuelve licencias?\nNo. Mejora control creativo y trazabilidad de revision. Derechos, licencias y terminos de plataforma requieren otro control."
+      ]
+    },
+    "fr": {
+      "title": "Creer une fiche de style avant de generer une musique IA",
+      "description": "Modele pratique pour transformer humeur, genre, tempo, voix et limites d usage en prompts plus clairs pour la musique IA.",
+      "body": [
+        "Le brief parait clair jusqu a ce que trois personnes le lisent. Chaud et moderne veut dire piano discret pour l une, pop rapide pour l autre, et la monteuse pense surtout a garder la voix off lisible. Si tout part directement dans le generateur, le prompt devient long, charge et contradictoire. Une fiche de style d une page avant la premiere generation rend la cible musicale visible.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA capable de produire des brouillons a partir de descriptions, paroles et idees de style. Elle aide a tester vite plusieurs directions; decisions de style, contexte de publication et revue des droits doivent rester documentes hors du fichier audio.",
+        "## Commencer par l usage, pas par le genre",
+        "Ne commencez pas seulement par cinematic ou lo-fi. Commencez par l endroit ou la musique doit fonctionner: short avec beaucoup de captions, demo produit avec narration, menu de jeu, teaser de campagne. Notez la duree approximative, la presence de voix, la courbe d energie et ce que le public doit remarquer. Le genre devient ensuite une decision argumentee.",
+        "## Utiliser une fiche en cinq lignes",
+        "- Role: ce que fait la musique, par exemple installer doucement, pousser le rythme ou rester sous la voix.\n- Palette: genre, periode, instruments et couleur sonore, court plutot qu exhaustif.\n- Motion: BPM approximatif, groove et endroits ou monter ou se calmer.\n- Space: voix off, dialogue, captions, effets ou son direct qui demandent de la place.\n- Limits: ce qu il faut eviter, comme voix lead claire, batterie lourde, long solo ou fin brutale.",
+        "## Transformer la fiche en prompt court",
+        "Ne collez pas toute la fiche dans le champ du prompt. Choisissez deux ou trois details forts: role, palette et mouvement. Si les mots de style restent disperses, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut aider a organiser genre, instruments, humeur et tempo avant la generation. Un bon prompt ne fige pas tout; il retire la plus grande ambiguite.",
+        "## Garder la revue d usage hors du prompt",
+        "La fiche doit dire ou le morceau pourra etre publie, si l usage est commercial et quelles regles de plateforme doivent etre verifiees. Mais n en faites pas une promesse dans le prompt. Une musique qui colle au montage n est pas automatiquement reglee pour chaque canal ou question de licence. Revue et approbation restent des etapes separees avant l upload.",
+        "## Idees reutilisables aujourd hui",
+        "- Ecrivez une version de 20 mots de la fiche avant tout prompt long.\n- Donnez une raison aux limites: no-vocal car la narration doit rester claire, ou light-drums car les captions portent le hook.\n- Testez seulement deux premiers brouillons: un strict et un un peu plus ouvert.\n- N empilez pas trois emotions opposees; choisissez une emotion principale et une couleur secondaire.\n- Gardez la fiche avec le draft choisi pour que l equipe comprenne la decision plus tard.",
+        "## FAQ",
+        "### Une seule etiquette de genre suffit-elle?\nParfois, mais le genre n explique ni la fonction, ni le tempo, ni l espace pour la voix, ni la fin.\n### Faut-il indiquer le BPM?\nIndiquez une plage si le rythme compte. 90-110 BPM ou medium pulse suffit souvent.\n### Que faire si le resultat est trop charge?\nRetirez les instruments non essentiels, raccourcissez la palette et posez deux limites claires comme no lead vocal et light percussion.\n### La fiche resout-elle les licences?\nNon. Elle ameliore le controle creatif et la tracabilite. Droits, licences et conditions de plateforme demandent une verification separee."
+      ]
+    },
+    "it": {
+      "title": "Crea uno style sheet per musica AI prima di generare la traccia",
+      "description": "Template pratico per trasformare mood, genere, tempo, voci e limiti d uso in prompt piu chiari per bozze di musica AI.",
+      "body": [
+        "Il brief sembra chiaro finche lo leggono tre persone. Caldo e moderno per una persona significa piano leggero, per un altra pop veloce, mentre chi monta il video vuole solo che il voiceover resti leggibile. Se tutto entra subito nel generatore, il prompt diventa lungo, pieno e contraddittorio. Uno style sheet di una pagina prima della prima generazione rende visibile il bersaglio musicale.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con AI che puo trasformare descrizioni, testi e idee di stile in bozze musicali. Aiuta a provare direzioni rapidamente, mentre decisioni di stile, contesto di pubblicazione e revisione dei diritti restano documentati fuori dal file audio.",
+        "## Parti dall uso, non dal genere",
+        "Non iniziare solo con cinematic o lo-fi. Inizia da dove la musica deve funzionare: short pieno di captions, walkthrough narrato di un prodotto, menu di gioco, teaser di campagna. Scrivi durata approssimativa, presenza di parlato sopra la traccia, curva di energia e cosa deve notare il pubblico. Dopo, il genere diventa una scelta motivata.",
+        "## Usa uno sheet in cinque righe",
+        "- Role: cosa fa la musica, come entrare piano, spingere il ritmo o restare sotto la voce.\n- Palette: genere, epoca, strumenti e colore sonoro, breve invece che enciclopedico.\n- Motion: BPM approssimativo, groove e punti in cui salire o rilassarsi.\n- Space: voiceover, dialogo, captions, effetti o ambiente che hanno bisogno di spazio.\n- Limits: cosa evitare, come voce lead chiara, drum pesanti, solo lunghi o finale brusco.",
+        "## Trasforma lo sheet in un prompt breve",
+        "Non incollare tutto lo sheet nel campo prompt. Scegli i due o tre dettagli piu forti: ruolo, palette e movimento. Se le parole di stile sono ancora sparse, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo organizzare genere, strumenti, mood e tempo prima della generazione. Un buon prompt non blocca ogni decisione; rimuove l ambiguita principale.",
+        "## Tieni fuori dal prompt la revisione d uso",
+        "Lo style sheet dovrebbe dire dove la traccia sara pubblicata, se l uso e commerciale e quali regole di piattaforma vanno controllate. Non trasformare queste note in una promessa dentro il prompt. Una musica che funziona nel montaggio non e automaticamente pronta per ogni canale o licenza. Revisione e approvazione restano passaggi separati prima dell upload.",
+        "## Idee riutilizzabili da applicare subito",
+        "- Scrivi una versione di 20 parole dello sheet prima di ogni prompt lungo.\n- Dai un motivo ai limiti: no-vocal per lasciare chiara la narrazione, o light-drums per far leggere le captions.\n- Prova solo due prime bozze: una stretta e una leggermente piu aperta.\n- Non mescolare tre emozioni in conflitto; scegli un emozione principale e un colore secondario.\n- Salva lo sheet con il draft scelto, cosi il team capisce la decisione in seguito.",
+        "## FAQ",
+        "### Basta una sola etichetta di genere?\nA volte, ma il genere non spiega funzione, tempo, spazio per la voce o finale.\n### Devo inserire il BPM?\nInserisci un range quando il ritmo conta. 90-110 BPM o medium pulse spesso basta.\n### Cosa faccio se il risultato e troppo pieno?\nRimuovi strumenti non essenziali, accorcia la palette e imposta due limiti chiari come no lead vocal e light percussion.\n### Lo style sheet risolve le licenze?\nNo. Migliora controllo creativo e tracciabilita della review. Diritti, licenze e termini piattaforma richiedono un controllo separato."
+      ]
+    },
+    "ja": {
+      "title": "生成前にAI音楽のスタイルシートを一枚作る",
+      "description": "ムード、ジャンル、テンポ、ボーカル、利用上の注意を整理し、AI音楽のstyle promptを明確にする実務テンプレート。",
+      "body": [
+        "briefは明確に見えても、3人が読むと別の音になります。warm and modernを、ある人は静かなpiano、別の人は速いpop、編集者はvoiceoverを邪魔しない音として受け取ります。そのままgeneratorに入れると、promptは長く、重く、矛盾しがちです。最初の生成前に1ページのstyle sheetを作ると、狙う音が見えるようになります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、テキスト説明、歌詞、スタイル案から音楽の下書きを作れるAI音楽制作プラットフォームです。複数の方向をすばやく試すのに役立ちますが、styleの判断、公開先の文脈、rights reviewは音声ファイルの外で記録しておく必要があります。",
+        "## ジャンルではなく用途から始める",
+        "cinematicやlo-fiだけで始めないでください。まず、その音楽がどこで機能するのかを書きます。captionsが多いshort、ナレーション付きproduct walkthrough、game menu、campaign teaser。おおよその長さ、上に声が乗るか、energy curve、視聴者に何を感じてほしいかを決めます。そこからgenreを選ぶと、ただの当てずっぽうではなくなります。",
+        "## 5行のstyle sheetを使う",
+        "- Role: 音楽の役割。静かに導入する、paceを作る、speechの下に残るなど。\n- Palette: genre、時代感、楽器、音色。長い辞書ではなく短く。\n- Motion: おおよそのBPM、groove、盛り上げる場所と落とす場所。\n- Space: voiceover、dialogue、captions、効果音、room toneが必要とする余白。\n- Limits: 避けたいもの。clear lead vocal、heavy drums、long solo、abrupt endingなど。",
+        "## sheetを短いpromptに変える",
+        "sheet全体をprompt boxに貼り付けないでください。最も強い2つか3つを選びます。role、palette、motionです。style語がまだ散らかっている場合は、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) でgenre、instruments、mood、tempoを落ち着いた説明にできます。よいpromptは全てを固定するものではなく、大きな曖昧さを減らすものです。",
+        "## 利用確認はpromptの外に置く",
+        "style sheetには、公開先、commercial useかどうか、確認すべきplatform ruleを書きます。ただし、それをprompt内の約束にしないでください。編集に合う音楽でも、すべてのchannelやlicense問題が解決したとは限りません。upload前にreviewとapprovalを別工程として扱います。",
+        "## 今日使えるアイデア",
+        "- 長いpromptを書く前に、20語程度のstyle sheet版を作る。\n- limitには理由を書く。no-vocalはnarratorを聞かせるため、light-drumsはcaptionsを読ませるため。\n- 最初は2案だけ試す。sheetに忠実な案と、少し広めの案。\n- 競合する3つの感情を1つのpromptに入れない。主感情と副色を1つずつ選ぶ。\n- 選んだdraftと一緒にstyle sheetを保存し、後で判断理由を追えるようにする。",
+        "## FAQ",
+        "### genreタグ1つだけで十分ですか？\n場合によります。ただしgenreだけでは役割、tempo、声の余白、endingは説明できません。\n### BPMは入れるべきですか？\nリズムが重要なら範囲で入れます。90-110 BPMやmedium pulseで十分なことが多いです。\n### 結果が混みすぎたら？\n不要な楽器を消し、paletteを短くし、no lead vocalやlight percussionのようなlimitを2つだけ置きます。\n### style sheetでlicense問題は解決しますか？\nいいえ。creative controlとreviewの追跡を助けるだけです。rights、licenses、platform termsは別に確認します。"
+      ]
+    },
+    "ko": {
+      "title": "트랙을 생성하기 전에 AI 음악 스타일 시트 만들기",
+      "description": "mood, genre, tempo, vocal, usage limit을 정리해 더 명확한 AI 음악 style prompt로 바꾸는 실무 template.",
+      "body": [
+        "brief는 분명해 보이지만 세 사람이 읽으면 다른 음악이 됩니다. warm and modern을 한 사람은 조용한 piano로, 다른 사람은 빠른 pop으로, 편집자는 voiceover를 가리지 않는 음악으로 이해합니다. 이 상태를 바로 generator에 넣으면 prompt는 길고 복잡하며 서로 충돌하기 쉽습니다. 첫 generation 전에 한 페이지 style sheet를 만들면 목표 사운드가 보입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 텍스트 설명, 가사, 스타일 아이디어를 음악 초안으로 바꿀 수 있는 AI 음악 제작 플랫폼입니다. 여러 방향을 빠르게 시험하는 데 유용하지만 style decision, publishing context, rights review는 오디오 파일 밖에 따로 기록해야 합니다.",
+        "## genre보다 사용 장면부터 시작한다",
+        "cinematic이나 lo-fi만으로 시작하지 마세요. 음악이 어디서 작동해야 하는지 먼저 씁니다: captions가 많은 short, narration이 있는 product walkthrough, game menu, campaign teaser. 대략적인 길이, speech가 위에 놓이는지, energy curve, 시청자가 무엇을 느껴야 하는지를 정합니다. 그 다음 genre를 고르면 막연한 추측이 줄어듭니다.",
+        "## 다섯 줄 style sheet를 쓴다",
+        "- Role: 음악이 하는 일. 부드럽게 시작하기, pace 만들기, speech 아래에 머물기.\n- Palette: genre, era, instruments, sound color. 길게 나열하지 않고 짧게.\n- Motion: approximate BPM, groove, 올라가거나 내려가는 지점.\n- Space: voiceover, dialogue, captions, effects, room tone이 필요한 여백.\n- Limits: 피할 것. clear lead vocal, heavy drums, long solo, abrupt ending 등.",
+        "## sheet를 짧은 prompt로 바꾼다",
+        "sheet 전체를 prompt box에 붙여 넣지 마세요. 가장 강한 두세 가지를 고릅니다: role, palette, motion. style 단어가 흩어져 있다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 genre, instruments, mood, tempo를 차분한 설명으로 정리할 수 있습니다. 좋은 prompt는 모든 결정을 고정하지 않고 가장 큰 애매함을 줄입니다.",
+        "## usage review는 prompt 밖에 둔다",
+        "style sheet에는 track이 어디에 게시될지, commercial use인지, 확인해야 할 platform rule이 무엇인지 써야 합니다. 하지만 이것을 prompt 안의 약속으로 만들면 안 됩니다. 편집에 어울리는 음악이 모든 channel이나 license question에 자동으로 맞는 것은 아닙니다. upload 전 review와 approval을 별도 단계로 다루세요.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- 긴 prompt 전에 20-word style sheet를 먼저 씁니다.\n- limit에는 이유를 붙입니다: narrator가 또렷해야 해서 no-vocal, captions가 hook을 맡아서 light-drums.\n- 첫 draft는 두 개만 시험합니다: sheet를 엄격히 따른 버전과 조금 넓은 버전.\n- 서로 경쟁하는 mood 세 개를 넣지 말고 primary emotion 하나와 secondary color 하나를 고릅니다.\n- 선택한 draft와 style sheet를 함께 저장해 나중에 결정 이유를 추적합니다.",
+        "## FAQ",
+        "### genre tag 하나만 써도 되나요?\n때로는 됩니다. 하지만 genre는 역할, tempo, speech space, ending을 설명하지 못합니다.\n### BPM을 넣어야 하나요?\n리듬이 중요할 때 range로 넣으세요. 90-110 BPM이나 medium pulse면 충분한 경우가 많습니다.\n### 결과가 너무 복잡하면요?\n불필요한 악기를 빼고 palette를 줄이며 no lead vocal, light percussion 같은 limit 두 개를 둡니다.\n### style sheet가 license 문제를 해결하나요?\n아니요. creative control과 review traceability를 돕는 도구입니다. rights, licenses, platform terms는 별도로 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Crie uma folha de estilo para musica IA antes de gerar a faixa",
+      "description": "Template pratico para transformar mood, genero, tempo, vozes e limites de uso em prompts mais claros para musica IA.",
+      "body": [
+        "O brief parece claro ate tres pessoas lerem. Quente e moderno vira piano discreto para uma, pop rapido para outra, e a editora so quer que o voiceover continue legivel. Se essa mistura entra direto no gerador, o prompt costuma ficar longo, carregado e contraditorio. Uma folha de estilo de uma pagina antes da primeira geracao deixa o alvo musical visivel.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA que pode transformar descricoes, letras e ideias de estilo em rascunhos musicais. Ela ajuda a testar direcoes rapidamente, enquanto decisoes de estilo, contexto de publicacao e revisao de direitos ficam documentados fora do arquivo de audio.",
+        "## Comece pelo uso, nao pelo genero",
+        "Nao comece apenas com cinematic ou lo-fi. Comece pelo lugar onde a musica precisa funcionar: short cheio de captions, walkthrough narrado de produto, menu de jogo, teaser de campanha. Escreva duracao aproximada, se ha fala sobre a faixa, curva de energia e o que o publico deve notar. Depois disso, o genero vira uma escolha com motivo.",
+        "## Use uma folha de cinco linhas",
+        "- Role: o que a musica faz, como entrar suave, empurrar o ritmo ou ficar sob a fala.\n- Palette: genero, epoca, instrumentos e cor sonora, curta em vez de enciclopedica.\n- Motion: BPM aproximado, groove e pontos em que deve subir ou relaxar.\n- Space: voiceover, dialogo, captions, efeitos ou som ambiente que precisam de espaco.\n- Limits: o que evitar, como voz principal clara, bateria pesada, solos longos ou final brusco.",
+        "## Transforme a folha em um prompt curto",
+        "Nao cole a folha inteira no campo de prompt. Escolha os dois ou tres detalhes mais fortes: papel, paleta e movimento. Se as palavras de estilo ainda estiverem soltas, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode organizar genero, instrumentos, mood e tempo antes da geracao. Um bom prompt nao congela todas as decisoes; ele remove a maior ambiguidade.",
+        "## Mantenha a revisao de uso fora do prompt",
+        "A folha deve dizer onde a faixa sera publicada, se o uso e comercial e quais regras de plataforma precisam ser verificadas. Mas nao transforme isso em promessa dentro do prompt. Musica que encaixa no edit nao esta automaticamente resolvida para todo canal ou licenca. Trate revisao e aprovacao como etapas separadas antes do upload.",
+        "## Ideias reutilizaveis para hoje",
+        "- Escreva uma versao de 20 palavras da folha antes de qualquer prompt longo.\n- De motivo aos limites: no-vocal porque a narracao precisa ficar clara, ou light-drums porque captions carregam o hook.\n- Teste so dois primeiros rascunhos: um estrito e outro um pouco mais aberto.\n- Nao junte tres moods concorrentes; escolha uma emocao principal e uma cor secundaria.\n- Salve a folha com o draft escolhido para a equipe entender a decisao depois.",
+        "## Perguntas frequentes",
+        "### Posso usar apenas uma tag de genero?\nAs vezes, mas genero nao explica funcao, tempo, espaco para fala ou final.\n### Devo incluir BPM?\nInclua um intervalo quando o ritmo importa. 90-110 BPM ou medium pulse costuma bastar.\n### E se o resultado ficar cheio demais?\nRemova instrumentos nao essenciais, encurte a paleta e defina dois limites claros como no lead vocal e light percussion.\n### A folha resolve licencas?\nNao. Ela melhora controle criativo e rastreio de revisao. Direitos, licencas e termos de plataforma exigem verificacao separada."
+      ]
+    },
+    "ru": {
+      "title": "Сделайте style sheet для AI-музыки до первой генерации",
+      "description": "Практичный шаблон, который переводит mood, genre, tempo, vocal и ограничения использования в более ясный prompt для AI-музыки.",
+      "body": [
+        "Бриф кажется понятным, пока его не прочитают три человека. Warm and modern для одного означает тихое piano, для другого быстрый pop, а монтажер думает только о том, чтобы voiceover оставался разборчивым. Если сразу отправить эту смесь в генератор, prompt обычно становится длинным, перегруженным и противоречивым. Одна страница style sheet до первой генерации делает музыкальную цель видимой.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для создания AI-музыки, которая может превращать текстовые описания, lyrics и идеи стиля в музыкальные черновики. Она полезна для быстрой проверки направлений, но решения о стиле, контекст публикации и проверку прав лучше фиксировать отдельно от аудиофайла.",
+        "## Начните с применения, а не с жанра",
+        "Не начинайте только с cinematic или lo-fi. Сначала опишите, где музыка должна работать: short с большим количеством captions, product walkthrough с диктором, game menu, campaign teaser. Запишите примерную длину, будет ли поверх речь, кривую энергии и что зритель должен заметить. После этого genre становится обоснованным выбором, а не догадкой.",
+        "## Используйте пять строк",
+        "- Role: что делает музыка, например мягко вводит, держит pace или остается под речью.\n- Palette: genre, era, instruments и sound color, коротко, без огромного списка.\n- Motion: примерный BPM, groove и места, где cue должен подняться или успокоиться.\n- Space: voiceover, dialogue, captions, effects или room tone, которым нужно место.\n- Limits: чего избегать, например clear lead vocal, heavy drums, long solo или abrupt ending.",
+        "## Превратите sheet в короткий prompt",
+        "Не вставляйте весь sheet в поле prompt. Выберите два-три сильных элемента: role, palette и motion. Если слова стиля все еще разбросаны, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать genre, instruments, mood и tempo в более спокойное описание перед генерацией. Хороший prompt не фиксирует каждую деталь; он убирает главную неопределенность.",
+        "## Держите проверку использования отдельно",
+        "Style sheet должен указать, где трек может быть опубликован, коммерческое ли это использование и какие правила платформы надо проверить. Но не превращайте эти заметки в обещание внутри prompt. Музыка, которая подходит монтажу, не становится автоматически решенной для любого канала или лицензии. Review и approval остаются отдельными шагами перед upload.",
+        "## Идеи, которые можно применить сегодня",
+        "- Напишите версию style sheet на 20 слов до любого длинного prompt.\n- Давайте ограничениям причину: no-vocal, потому что narrator должен быть ясен, или light-drums, потому что captions несут hook.\n- Проверьте только два первых draft: строгий и немного более свободный.\n- Не смешивайте три конкурирующих настроения; выберите primary emotion и один secondary color.\n- Сохраните style sheet рядом с выбранным draft, чтобы команда позже понимала причину решения.",
+        "## FAQ",
+        "### Можно использовать один genre tag?\nИногда да, но genre не объясняет задачу, tempo, место для речи и ending.\n### Нужно ли указывать BPM?\nУкажите диапазон, если ритм важен. 90-110 BPM или medium pulse часто достаточно.\n### Что делать, если результат перегружен?\nУберите лишние инструменты, сократите palette и задайте два ясных ограничения, например no lead vocal и light percussion.\n### Решает ли style sheet вопросы лицензий?\nНет. Он помогает творческому контролю и отслеживанию review. Rights, licenses и platform terms нужно проверять отдельно."
+      ]
+    },
+    "zh": {
+      "title": "生成前先写一页 AI 音乐风格提示工作表",
+      "description": "一个实用模板，把 mood、genre、tempo、人声和使用限制整理成更清晰的 AI 音乐 style prompt。",
+      "body": [
+        "brief 看起来很清楚，直到三个人各自解读。warm and modern 对一个人是安静 piano，对另一个人是快节奏 pop，剪辑师只关心 voiceover 能不能听清。如果把这些想法直接塞进 generator，prompt 往往会变得很长、很挤、互相打架。第一次生成前先写一页 style sheet，能让音乐目标变得可见。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以把文字描述、歌词和风格想法变成音乐草稿。它适合快速测试多个音乐方向，但风格判断、发布场景和权利检查仍然应该记录在音频文件之外。",
+        "## 先写用途，不要先写 genre",
+        "不要只从 cinematic 或 lo-fi 开始。先写音乐需要服务的场景：caption 很多的 short、有旁白的 product walkthrough、game menu、campaign teaser。写下大概时长、是否有讲话压在音乐上、energy curve，以及观众应该注意什么。这样再选择 genre，就不是松散猜测。",
+        "## 使用五行 style sheet",
+        "- Role: 音乐在作品里做什么，例如柔和进入、推动 pace，或留在 speech 下方。\n- Palette: genre、era、instruments 和 sound color，保持简短，不要写成百科。\n- Motion: 大概 BPM、groove，以及应该上升或放松的位置。\n- Space: voiceover、dialogue、captions、effects 或 room tone 需要的空间。\n- Limits: 要避免的东西，例如 clear lead vocal、heavy drums、long solo 或 abrupt ending。",
+        "## 把表格变成短 prompt",
+        "不要把整张表直接贴进 prompt box。挑出最强的两三个信息：role、palette、motion。如果风格词还很散，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 先把 genre、instruments、mood 和 tempo 整理成更稳定的描述。好的 prompt 不是锁死每个决定，而是减少最大的模糊点。",
+        "## 把使用审核放在 prompt 外",
+        "style sheet 应该写明 track 可能发布在哪里、是否商业使用、需要检查哪些平台规则。但不要把这些说明变成 prompt 里的承诺。音乐适合剪辑，不代表它自动适合所有 channel 或 license 问题。upload 前把 review 和 approval 当作单独步骤处理。",
+        "## 今天就能用的做法",
+        "- 在任何长 prompt 之前，先写一个 20 词左右的 style sheet 版本。\n- 给 limit 一个理由：no-vocal 是为了 narrator 清楚，light-drums 是因为 captions 承担 hook。\n- 第一轮只测试两个 draft：一个严格跟随表格，一个稍微放宽。\n- 不要在一个 prompt 里塞三个互相竞争的 mood；选择一个 primary emotion 和一个 secondary color。\n- 把选中的 draft 和 style sheet 放在一起，方便团队之后理解为什么选它。",
+        "## FAQ",
+        "### 只写一个 genre tag 可以吗？\n有时可以，但 genre 不能说明任务、tempo、speech space 或 ending。\n### 需要写 BPM 吗？\n节奏重要时写一个范围。90-110 BPM 或 medium pulse 通常就够。\n### 如果结果太满怎么办？\n删掉不必要的乐器，缩短 palette，并设置两个清楚限制，例如 no lead vocal 和 light percussion。\n### style sheet 能解决授权问题吗？\n不能。它提升创作控制和 review 可追踪性。rights、licenses 和 platform terms 仍然需要单独检查。"
+      ]
+    }
+  }
+}
