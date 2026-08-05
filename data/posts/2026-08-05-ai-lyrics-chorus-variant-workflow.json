@@ -1,0 +1,238 @@
+{
+  "date": "2026-08-05",
+  "slug": "ai-lyrics-chorus-variant-workflow",
+  "cluster": "lyrics-revision-workflows",
+  "translations": {
+    "ar": {
+      "title": "اعد كتابة chorus بذكاء من دون ضياع hook",
+      "description": "Workflow عملي لصناعة بدائل lyrics للchorus مع تثبيت hook، الوزن، وجهة النظر، وحدود المراجعة قبل توليد الاغنية.",
+      "body": [
+        "المسودة الاولى قد تحتوي على جملة hook جيدة، لكن بقية الchorus تبدو عامة او مزدحمة. المشكلة ان الضغط على generate مرة اخرى غالبا يبدل كل شيء: زاوية الكلام، الوزن، وحتى الجملة التي احبها الفريق. لا تعالج chorus ضعيفا ببدء اغنية جديدة كل مرة. عالجه كنسخة قابلة للمقارنة: ثبت ما يجب ان يبقى، وغير شيئا واحدا في كل محاولة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من وصف نصي، lyrics، وافكار style. تفيد عندما تريد اختبار اتجاه غنائي او موسيقي بسرعة، لكن اختيار الكلمات النهائية، مراجعة الاستخدام، وسياق النشر يجب ان يظلوا قرارات بشرية موثقة خارج ملف الصوت.",
+        "## ثبت hook قبل طلب البدائل",
+        "اكتب الhook في سطر مستقل. لا تطلب تحسين chorus بالكامل قبل ان تعرف ما الذي لا يجوز تغييره. اذا كانت الجملة الاساسية هي عنوان الاغنية، ثبت موقعها: اول سطر، اخر سطر، او تكرار قصير مرتين. بعدها اكتب سبب التغيير: اوضح، اقل كليشيه، اسهل للغناء، او مناسب اكثر لمنتج قصير. السبب يمنع البدائل من الذهاب في اتجاه عشوائي.",
+        "## اصنع ثلاث نسخ لا عشر نسخ",
+        "اطلب من [AI Lyrics Generator](https://easymusic.ai/ar/tools/ai-lyrics-generator) ثلاث نسخ مختلفة فقط. Version A يحافظ على المعنى ويقلل الكلمات. Version B يغير زاوية المتكلم، مثلا من انا الى نحن. Version C يغير صورة واحدة مع بقاء الhook كما هو. اذا غيرت الوزن والقافية ووجهة النظر في الوقت نفسه، فلن تعرف ما الذي حسن النتيجة.",
+        "## راقب الوزن قبل الموسيقى",
+        "الchorus الجيد لا يعتمد على القافية وحدها. اقرأ كل نسخة بصوت عال، وضع علامة على الكلمات المشددة. اذا كانت نسخة عربية او مترجمة، انتبه الى طبيعة اللغة بدلا من اجبارها على ايقاع انجليزي. قرب عدد المقاطع في الاسطر المتكررة، واجعل كلمة الhook تقع في موضع قوي لا في نهاية ضعيفة.",
+        "## اختبر نسخة واحدة داخل الاغنية",
+        "بعد اختيار افضل chorus، لا تولد خمس اغنيات كاملة. استخدم نفس style note، نفس tempo التقريبي، ونفس structure tags قدر الامكان، ثم اختبر نسخة واحدة. اذا فشل الاداء، عدل lyric فقط قبل تغيير style. هذه الطريقة تبقي التشخيص واضحا: هل المشكلة في الكلمات، اللحن، الكثافة، ام المزج مع vocal؟",
+        "## افكار يمكن تطبيقها اليوم",
+        "- اكتب locked hook في اعلى الملف ولا تسمح للبدائل بتغييره.\n- اجعل كل نسخة تختبر متغيرا واحدا: اختصار، وجهة نظر، او صورة جديدة.\n- اقرأ الchorus مع metronome بطيء قبل التوليد حتى تظهر المقاطع الثقيلة.\n- احذف القوافي التي تبدو صحيحة على الورق لكنها لا تقال بشكل طبيعي.\n- احفظ النسخ المرفوضة مع سبب الرفض؛ قد تكون bridge او outro لاحقا.",
+        "## اسئلة شائعة",
+        "### هل يجب تكرار hook دائما؟\nلا، لكن التكرار يساعد عندما يكون الchorus قصيرا او مخصصا لفيديو قصير. كرره فقط اذا ظل طبيعيا.\n### هل اغير verse ايضا؟\nليس في الجولة نفسها. اصلح chorus اولا، ثم عدل verse اذا احتاج الى تمهيد اوضح.\n### ماذا لو كانت النسخ كلها عامة؟\nاضف موقفا حسيا واحدا، فعل محددا، او كلمة من عالم المشروع بدلا من طلب المزيد من العاطفة.\n### هل هذا يحل اسئلة الحقوق؟\nلا. هذه طريقة تحرير lyrics. الحقوق، التراخيص، وسياسات المنصة تحتاج مراجعة منفصلة قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "KI-Lyrics umschreiben, ohne den Chorus-Hook zu verlieren",
+      "description": "Ein praktischer Workflow fuer Chorus-Varianten, die Hook, Silben, Perspektive und Review-Grenzen sauber kontrollieren.",
+      "body": [
+        "Der erste Entwurf hat vielleicht eine brauchbare Hook-Zeile, aber der restliche Chorus klingt beliebig. Der riskante Reflex ist, einfach neu zu generieren. Dann aendert sich nicht nur die schwache Zeile, sondern auch Blickwinkel, Rhythmus, Reim und manchmal genau der Satz, den alle behalten wollten. Behandeln Sie den Chorus lieber wie eine Version, die gezielt verglichen wird.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die aus Textbeschreibungen, Lyrics und Stilideen musikalische Entwuerfe erzeugen kann. Sie ist nuetzlich, um lyrische und musikalische Richtungen schnell zu testen; finale Wortwahl, Nutzungskontext und Rechtepruefung bleiben trotzdem Teil Ihrer eigenen Redaktion.",
+        "## Die Hook vor der Variante festschreiben",
+        "Schreiben Sie die Hook als eigene Zeile. Fragen Sie nicht nach einem besseren Chorus, bevor klar ist, was unveraendert bleiben soll. Wenn die Hook der Titel ist, legen Sie ihre Position fest: erste Zeile, letzte Zeile oder kurze Wiederholung. Danach notieren Sie den Grund fuer die Revision: klarer, weniger Klischee, besser singbar oder passender fuer einen kurzen Clip.",
+        "## Drei Varianten reichen fuer die erste Runde",
+        "Bitten Sie den [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) um nur drei Alternativen. Variante A behaelt die Bedeutung und kuerzt. Variante B veraendert die Perspektive, etwa von ich zu wir. Variante C tauscht ein Bild aus, laesst die Hook aber stehen. Wenn Silbenzahl, Reim und Erzaehler gleichzeitig wechseln, wissen Sie nachher nicht, warum etwas besser wurde.",
+        "## Silben und Sprachstress pruefen",
+        "Ein Chorus wirkt nicht nur wegen Reim. Lesen Sie jede Variante laut und markieren Sie die betonten Woerter. Bei deutschen oder lokalisierten Lyrics sollte die natuerliche Betonung der Sprache wichtiger sein als ein englisches Muster. Wiederholte Zeilen brauchen aehnliche Laenge, und die Hook sollte auf einer starken Position landen.",
+        "## Erst eine Version im Song testen",
+        "Wenn eine Variante gewinnt, generieren Sie nicht sofort fuenf neue Songs. Halten Sie Style-Notiz, ungefaehres Tempo und Struktur-Tags so konstant wie moeglich und testen Sie eine Version. Wenn der Track scheitert, aendern Sie zuerst die Lyrics, nicht direkt das Genre. So bleibt sichtbar, ob das Problem im Text, in der Melodie, in der Dichte oder im Vocal liegt.",
+        "## Ideen fuer die sofortige Anwendung",
+        "- Schreiben Sie locked hook oben in die Arbeitsnotiz.\n- Jede Variante testet nur eine Sache: Kuerzung, Perspektive oder neues Bild.\n- Lesen Sie den Chorus langsam mit Metronom, bevor Sie generieren.\n- Streichen Sie Reime, die auf Papier stimmen, aber gesprochen steif wirken.\n- Speichern Sie abgelehnte Varianten mit Grund; manche werden spaeter Bridge oder Outro.",
+        "## FAQ",
+        "### Muss die Hook immer wiederholt werden?\nNein. Wiederholung hilft bei kurzen Chorussen und kurzen Videos, aber nur wenn sie natuerlich bleibt.\n### Soll ich die Verse gleichzeitig aendern?\nBesser nicht. Reparieren Sie zuerst den Chorus; danach kann der Vers klarer auf ihn vorbereiten.\n### Was tun, wenn alle Varianten generisch klingen?\nFuegen Sie eine konkrete Handlung, ein Sinnesdetail oder ein Wort aus dem Projektkontext hinzu.\n### Klaert dieser Workflow Rechtefragen?\nNein. Er verbessert die Lyric-Revision. Rechte, Lizenzen und Plattformregeln brauchen eine separate Pruefung."
+      ]
+    },
+    "en": {
+      "title": "Rewrite AI Lyrics Without Losing the Chorus Hook",
+      "description": "A practical chorus-variant workflow for keeping the hook, syllable shape, point of view, and review notes under control.",
+      "body": [
+        "The first draft has one line everyone likes, but the chorus around it feels padded. The risky move is to regenerate the whole lyric and hope the good line survives. It usually does not. The point of a chorus rewrite is not maximum novelty; it is controlled comparison. Lock what works, change one thing at a time, and make each variant easy to judge.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform that can turn text descriptions, lyrics, and style ideas into music drafts. It is useful for testing song directions quickly, while final wording, publishing context, usage review, and approval notes remain decisions your team should keep outside the audio file.",
+        "## Lock the Hook Before You Ask for Variants",
+        "Write the hook as a separate line before asking for help. If it is also the title, decide where it belongs: first line, last line, or a short repeat. Then write why the chorus needs revision. Maybe it is too vague, too long, too hard to sing, or too soft for a short-form clip. That reason matters because a vague request for better lyrics often changes the one line you meant to protect.",
+        "## Make Three Variants, Not Ten",
+        "Use the [AI Lyrics Generator](https://easymusic.ai/tools/ai-lyrics-generator) for a small set of alternatives. Version A keeps the meaning and reduces words. Version B changes the point of view, such as I to we or you to us. Version C changes one image while keeping the hook untouched. If every variable changes at once, you cannot tell whether the better result came from syllable count, rhyme, image, or emotional angle.",
+        "## Check Stress Before You Generate Music",
+        "A chorus can rhyme and still sing badly. Read each variant aloud and mark the words that naturally carry stress. Repeated lines should have roughly similar syllable weight, and the hook should land on a strong beat-like position. For localized lyrics, do not force English stress patterns onto another language. Natural speech rhythm usually makes a better vocal line than a clever rhyme that bends the sentence.",
+        "## Test One Winner Inside the Song",
+        "After choosing the best chorus, keep the style note, rough tempo, and structure labels as steady as possible. Generate or revise one version first. If it fails, change the lyric before changing the style. This keeps the diagnosis clean: the issue may be the words, the melody lift, the density of the arrangement, or the way the vocal sits in the track.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Put locked hook at the top of the draft note.\n- Give each variant one job: shorter, warmer, sharper, more direct, or easier to sing.\n- Read the chorus slowly with a metronome before generating.\n- Cut rhymes that look neat but sound unnatural when spoken.\n- Save rejected variants with a reason; a discarded chorus line may become a bridge or outro.",
+        "## FAQ",
+        "### Should the hook always repeat?\nNo. Repetition helps when the chorus is short or the song is made for a quick video, but forced repetition can feel childish.\n### Should I rewrite the verse at the same time?\nNot in the first pass. Fix the chorus, then adjust the verse only if it no longer sets up the payoff.\n### What if every variant sounds generic?\nAdd one concrete sensory detail, one specific action, or one phrase from the real project context.\n### Does this workflow answer licensing questions?\nNo. It is a lyric-editing method. Rights, licenses, platform terms, and client approvals still need a separate review."
+      ]
+    },
+    "es": {
+      "title": "Reescribe letras IA sin perder el hook del estribillo",
+      "description": "Workflow practico para crear variantes de chorus manteniendo hook, silabas, punto de vista y notas de revision bajo control.",
+      "body": [
+        "El primer borrador tiene una linea que gusta a todos, pero el resto del estribillo suena de relleno. El movimiento arriesgado es regenerar toda la letra y esperar que esa linea sobreviva. Muchas veces no ocurre. Reescribir un chorus no va de buscar novedad maxima; va de comparar cambios controlados. Conserva lo que funciona y cambia una cosa por version.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA que puede convertir descripciones, letras e ideas de estilo en borradores musicales. Sirve para probar direcciones rapido, mientras la redaccion final, el contexto de publicacion, la revision de uso y la aprobacion quedan fuera del archivo de audio.",
+        "## Bloquea el hook antes de pedir variantes",
+        "Escribe el hook como una linea separada. Si tambien es el titulo, decide donde debe aparecer: primera linea, ultima linea o repeticion corta. Luego escribe por que el chorus necesita revision. Puede ser demasiado vago, largo, dificil de cantar o suave para un video corto. Ese motivo evita que una peticion de mejores letras cambie justo la linea que querias proteger.",
+        "## Haz tres variantes, no diez",
+        "Usa el [AI Lyrics Generator](https://easymusic.ai/es/tools/ai-lyrics-generator) para un conjunto pequeno de alternativas. Version A mantiene el significado y reduce palabras. Version B cambia el punto de vista, por ejemplo de yo a nosotros. Version C cambia una imagen y deja intacto el hook. Si todo cambia a la vez, no sabras si mejora por silabas, rima, imagen o angulo emocional.",
+        "## Revisa acentos antes de generar musica",
+        "Un chorus puede rimar y aun asi cantarse mal. Lee cada variante en voz alta y marca las palabras que llevan el peso natural. Las lineas repetidas necesitan longitud parecida, y el hook debe caer en una posicion fuerte. En letras localizadas, no fuerces un ritmo ingles. La frase hablada con naturalidad suele dar mejor linea vocal que una rima brillante pero torcida.",
+        "## Prueba una ganadora dentro de la cancion",
+        "Cuando elijas el mejor chorus, mantén estable la nota de estilo, el tempo aproximado y las etiquetas de estructura. Genera o revisa una sola version primero. Si falla, cambia la letra antes de cambiar el estilo. Asi sabes si el problema esta en las palabras, el lift melodico, la densidad del arreglo o la ubicacion de la voz.",
+        "## Ideas reutilizables para hoy",
+        "- Pon locked hook arriba de la nota de trabajo.\n- Da a cada variante una tarea: mas corta, mas calida, mas directa o mas facil de cantar.\n- Lee el chorus despacio con metronomo antes de generar.\n- Corta rimas que se ven bien pero suenan raras al hablar.\n- Guarda variantes rechazadas con motivo; alguna linea puede servir para bridge u outro.",
+        "## Preguntas frecuentes",
+        "### El hook siempre debe repetirse?\nNo. La repeticion ayuda en chorus cortos o videos rapidos, pero forzarla puede sonar infantil.\n### Debo reescribir el verso al mismo tiempo?\nNo en la primera pasada. Arregla el chorus y luego ajusta el verso si ya no prepara bien el payoff.\n### Y si todas las variantes suenan genericas?\nAnade un detalle sensorial, una accion especifica o una frase del contexto real del proyecto.\n### Esto responde dudas de licencia?\nNo. Es un metodo de edicion de letra. Derechos, licencias, terminos de plataforma y aprobacion requieren revision aparte."
+      ]
+    },
+    "fr": {
+      "title": "Reecrire des paroles IA sans perdre le hook du refrain",
+      "description": "Workflow pratique pour creer des variantes de refrain en gardant hook, syllabes, point de vue et notes de revue sous controle.",
+      "body": [
+        "Le premier brouillon contient une ligne que tout le monde aime, mais le reste du refrain ressemble a du remplissage. Le reflexe dangereux consiste a regenerer toute la lyric en esperant que cette ligne survive. Souvent, elle disparait. Une reecriture de refrain ne cherche pas la nouveaute maximale; elle sert a comparer proprement. Gardez ce qui fonctionne et changez une seule chose par variante.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA capable de transformer descriptions, paroles et idees de style en brouillons musicaux. Elle aide a tester rapidement des directions, mais choix final des mots, contexte de publication, revue d usage et approbation restent a documenter hors du fichier audio.",
+        "## Verrouiller le hook avant les variantes",
+        "Ecrivez le hook sur une ligne separee. S il sert aussi de titre, choisissez sa place: premiere ligne, derniere ligne ou repetition courte. Puis notez pourquoi le refrain doit changer. Il est peut-etre trop vague, trop long, difficile a chanter ou trop doux pour un clip court. Cette raison protege la ligne que vous voulez garder.",
+        "## Faire trois variantes, pas dix",
+        "Utilisez le [AI Lyrics Generator](https://easymusic.ai/fr/tools/ai-lyrics-generator) pour un petit lot d alternatives. Version A garde le sens et coupe des mots. Version B change le point de vue, par exemple de je a nous. Version C remplace une image tout en gardant le hook intact. Si tout change en meme temps, vous ne saurez pas ce qui a vraiment ameliore le resultat.",
+        "## Verifier l accent avant la musique",
+        "Un refrain peut rimer et rester difficile a chanter. Lisez chaque variante a voix haute et marquez les mots naturellement accentues. Les lignes repetees doivent avoir un poids syllabique proche, et le hook doit tomber sur une position forte. Pour des paroles localisees, ne forcez pas un rythme anglais. Une phrase naturelle donne souvent une meilleure ligne vocale qu une rime elegante mais tordue.",
+        "## Tester une seule gagnante dans la chanson",
+        "Quand une variante gagne, gardez la note de style, le tempo approximatif et les balises de structure aussi constants que possible. Generez ou revisez une seule version d abord. Si elle echoue, changez la lyric avant de changer le style. Vous saurez mieux si le probleme vient des mots, de la montee melodique, de la densite de l arrangement ou de la voix.",
+        "## Idees reutilisables des aujourd hui",
+        "- Placez locked hook en haut de la note de travail.\n- Donnez une mission a chaque variante: plus courte, plus chaude, plus directe ou plus chantable.\n- Lisez le refrain lentement avec un metronome avant generation.\n- Supprimez les rimes jolies sur papier mais raides a l oral.\n- Gardez les variantes refusees avec la raison; une ligne peut devenir bridge ou outro.",
+        "## FAQ",
+        "### Le hook doit-il toujours se repeter ?\nNon. La repetition aide pour un refrain court ou une video rapide, mais elle doit rester naturelle.\n### Faut-il reecrire le couplet en meme temps ?\nPas au premier passage. Corrigez le refrain, puis ajustez le couplet s il ne prepare plus le payoff.\n### Et si toutes les variantes sont generiques ?\nAjoutez un detail sensoriel concret, une action precise ou une phrase issue du vrai contexte du projet.\n### Ce workflow regle-t-il les licences ?\nNon. C est une methode d edition des paroles. Droits, licences, conditions de plateforme et approvals demandent une revue separee."
+      ]
+    },
+    "it": {
+      "title": "Riscrivere lyrics AI senza perdere l hook del ritornello",
+      "description": "Workflow pratico per creare varianti di chorus mantenendo hook, sillabe, punto di vista e note di review sotto controllo.",
+      "body": [
+        "Il primo draft ha una riga che piace a tutti, ma il resto del ritornello sembra riempitivo. La mossa rischiosa e rigenerare tutta la lyric e sperare che quella riga resti. Spesso non resta. Riscrivere un chorus non significa cercare novita massima; significa confrontare cambiamenti controllati. Blocca cio che funziona e cambia una sola cosa per variante.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA che puo trasformare descrizioni, testi e idee di stile in bozze musicali. Aiuta a provare rapidamente direzioni di canzone, mentre wording finale, contesto di pubblicazione, review d uso e approvazione restano decisioni da tenere fuori dal file audio.",
+        "## Blocca l hook prima delle varianti",
+        "Scrivi l hook come riga separata. Se e anche il titolo, decidi dove deve stare: prima riga, ultima riga o breve ripetizione. Poi scrivi perche il chorus va rivisto. Forse e troppo vago, lungo, difficile da cantare o debole per un video breve. Quel motivo evita che una richiesta generica di lyrics migliori cambi proprio la riga da proteggere.",
+        "## Crea tre varianti, non dieci",
+        "Usa il [AI Lyrics Generator](https://easymusic.ai/it/tools/ai-lyrics-generator) per un set piccolo di alternative. Versione A mantiene il significato e taglia parole. Versione B cambia punto di vista, per esempio da io a noi. Versione C cambia un immagine e lascia intatto l hook. Se cambiano tutte le variabili insieme, non capirai cosa ha migliorato il risultato.",
+        "## Controlla accenti e sillabe prima della musica",
+        "Un chorus puo rimare e cantarsi male. Leggi ogni variante ad alta voce e marca le parole che portano l accento naturale. Le righe ripetute dovrebbero avere peso simile, e l hook dovrebbe cadere in una posizione forte. Nelle lyrics localizzate, non forzare un ritmo inglese. Una frase parlata in modo naturale spesso produce una linea vocale migliore di una rima elegante ma rigida.",
+        "## Prova una sola vincitrice nella canzone",
+        "Dopo aver scelto il chorus migliore, tieni stabile la nota di style, il tempo approssimativo e le structure tags. Genera o rivedi una sola versione prima. Se non funziona, cambia la lyric prima dello style. Cosi resta chiaro se il problema e nelle parole, nel lift melodico, nella densita dell arrangement o nel modo in cui la voce entra nel track.",
+        "## Idee riutilizzabili da applicare oggi",
+        "- Metti locked hook in cima alla nota di lavoro.\n- Dai a ogni variante un compito: piu corta, piu calda, piu diretta o piu cantabile.\n- Leggi il chorus lentamente con metronomo prima di generare.\n- Taglia rime ordinate sulla pagina ma innaturali quando le dici.\n- Salva le varianti scartate con motivo; una riga puo diventare bridge o outro.",
+        "## FAQ",
+        "### L hook deve sempre ripetersi?\nNo. La ripetizione aiuta nei ritornelli brevi o nei video rapidi, ma deve restare naturale.\n### Devo riscrivere anche la strofa?\nNon al primo passaggio. Sistema il chorus, poi modifica la strofa se non prepara piu bene il payoff.\n### E se tutte le varianti sono generiche?\nAggiungi un dettaglio sensoriale, un azione specifica o una frase dal contesto reale del progetto.\n### Questo workflow risolve le licenze?\nNo. E un metodo di editing lyrics. Diritti, licenze, termini piattaforma e approval richiedono review separata."
+      ]
+    },
+    "ja": {
+      "title": "AI歌詞を直してもchorus hookを失わない方法",
+      "description": "hook、音節感、視点、reviewメモを保ちながら、AI lyricsのchorus候補を比較しやすく作る実務workflow。",
+      "body": [
+        "最初のdraftに、全員が好きな一行だけあることがあります。でも周りのchorusは薄い。そこで全体をもう一度generateすると、その一行まで変わってしまいがちです。chorus rewriteの目的は、最大限に新しくすることではありません。よい部分を固定し、1回に1つだけ変えて、判断しやすい候補を作ることです。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、テキスト説明、lyrics、style案から音楽のdraftを作れるAI音楽制作プラットフォームです。曲の方向性を早く試すのに役立ちますが、最終的な言葉選び、公開文脈、usage review、approval noteは音声ファイルの外で管理する必要があります。",
+        "## まずhookを固定する",
+        "helpを求める前に、hookを独立した行として書きます。それがtitleでもあるなら、置き場所を決めます。最初の行、最後の行、短いrepeatのどれかです。次に、なぜchorusを直すのかを書きます。曖昧すぎる、長すぎる、歌いにくい、short videoには弱い。理由があると、守りたい一行を変えずにすみます。",
+        "## 候補は3つで十分",
+        "[AI Lyrics Generator](https://easymusic.ai/ja/tools/ai-lyrics-generator) を使うなら、小さな候補セットにします。Version Aは意味を保って短くする。Version BはIからweなど視点だけを変える。Version Cはhookを残したまま、比喩やsceneを1つだけ変える。すべてを同時に変えると、何が改善したのか分かりません。",
+        "## 生成前に言葉のstressを確認する",
+        "chorusは韻が合っていても歌いにくいことがあります。各候補を声に出し、自然に強く読む単語を印します。繰り返す行は重さをそろえ、hookは強い位置に置きます。日本語や翻訳歌詞では、英語のstress patternを無理に当てはめないでください。自然な話し言葉のリズムの方が、歌いやすいvocal lineにつながります。",
+        "## 選んだ1案だけを曲の中で試す",
+        "勝ち候補を選んだら、style note、おおよそのtempo、structure tagsをできるだけ固定します。まず1案だけgenerateまたはrevisionします。失敗したら、styleを変える前にlyricを調整します。そうすれば問題が言葉、melody lift、arrangementの密度、vocalの収まりのどこにあるか見えやすくなります。",
+        "## 今日使えるアイデア",
+        "- draft noteの先頭に locked hook と書いて固定する。\n- 各候補の目的を1つにする: 短く、暖かく、鋭く、直接的に、歌いやすく。\n- generate前にmetronomeをゆっくり鳴らしてchorusを読む。\n- 紙では整って見えても、話すと不自然なrhymeは削る。\n- rejected variantにも理由を残す。後でbridgeやoutroになることがあります。",
+        "## FAQ",
+        "### hookは必ずrepeatすべきですか？\n必ずではありません。短いchorusや短尺videoでは役立ちますが、不自然なrepeatは弱く聞こえます。\n### verseも同時に直すべきですか？\n最初はchorusだけにします。その後で、verseがpayoffを準備できていない場合に調整します。\n### どの候補もgenericなら？\n感覚的なdetail、具体的なaction、実際のproject contextの言葉を1つ足します。\n### このworkflowでlicense問題も解決しますか？\nいいえ。これはlyrics編集の方法です。rights、licenses、platform terms、client approvalは別に確認します。"
+      ]
+    },
+    "ko": {
+      "title": "AI 가사를 고쳐도 chorus hook을 잃지 않는 방법",
+      "description": "hook, syllable shape, point of view, review note를 유지하며 AI lyrics chorus 변형을 비교하는 실무 workflow.",
+      "body": [
+        "첫 draft에 모두가 좋아하는 한 줄이 있을 때가 있습니다. 그런데 그 주변 chorus는 밋밋합니다. 이때 전체 lyrics를 다시 generate하면 그 좋은 한 줄까지 사라질 수 있습니다. chorus rewrite의 목표는 완전히 새롭게 만드는 것이 아닙니다. 작동하는 부분을 잠그고, 한 번에 하나만 바꿔서 비교 가능한 variant를 만드는 것입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 텍스트 설명, lyrics, style idea를 음악 draft로 바꿀 수 있는 AI 음악 제작 플랫폼입니다. 곡 방향을 빠르게 시험하는 데 유용하지만 final wording, publishing context, usage review, approval note는 오디오 파일 밖에서 팀이 관리해야 합니다.",
+        "## variant를 만들기 전에 hook을 고정한다",
+        "도움을 요청하기 전에 hook을 별도 줄로 씁니다. 그 hook이 title이라면 위치를 정합니다: 첫 줄, 마지막 줄, 짧은 repeat. 그 다음 chorus를 왜 고쳐야 하는지 적습니다. 너무 흐릿한지, 긴지, 부르기 어려운지, short-form clip에 약한지. 이유가 있어야 보호하려던 한 줄을 AI가 바꾸지 않게 지시할 수 있습니다.",
+        "## 열 개보다 세 개가 낫다",
+        "[AI Lyrics Generator](https://easymusic.ai/ko/tools/ai-lyrics-generator)를 쓸 때는 작은 alternative set을 만듭니다. Version A는 의미를 유지하고 단어를 줄입니다. Version B는 I에서 we처럼 point of view만 바꿉니다. Version C는 hook을 그대로 두고 image 하나만 바꿉니다. 모든 변수를 한꺼번에 바꾸면 무엇이 좋아졌는지 알 수 없습니다.",
+        "## 음악 생성 전에 stress를 점검한다",
+        "chorus는 rhyme이 맞아도 부르기 어려울 수 있습니다. 각 variant를 소리 내어 읽고 자연스럽게 강세가 가는 단어를 표시합니다. 반복되는 줄은 syllable weight가 비슷해야 하고, hook은 강한 위치에 놓이는 편이 좋습니다. 한국어 또는 현지화된 lyrics에 영어 stress pattern을 억지로 적용하지 마세요. 자연스러운 말의 리듬이 더 좋은 vocal line이 되는 경우가 많습니다.",
+        "## 선택한 하나만 곡 안에서 시험한다",
+        "가장 나은 chorus를 고르면 style note, rough tempo, structure tags를 최대한 고정합니다. 먼저 한 version만 generate하거나 revise합니다. 실패하면 style을 바꾸기 전에 lyric을 조정합니다. 이렇게 하면 문제가 단어, melody lift, arrangement density, vocal 위치 중 어디에 있는지 더 분명해집니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- draft note 맨 위에 locked hook을 적습니다.\n- 각 variant의 역할을 하나로 둡니다: 짧게, 따뜻하게, 더 직접적으로, 더 부르기 쉽게.\n- generate 전에 느린 metronome에 맞춰 chorus를 읽습니다.\n- 종이에서는 좋아 보여도 말하면 어색한 rhyme은 지웁니다.\n- reject한 variant에도 이유를 남깁니다. 나중에 bridge나 outro가 될 수 있습니다.",
+        "## FAQ",
+        "### hook은 항상 반복해야 하나요?\n아니요. 짧은 chorus나 quick video에는 도움이 되지만 억지 반복은 약하게 들립니다.\n### verse도 동시에 고쳐야 하나요?\n첫 pass에서는 아닙니다. chorus를 먼저 고친 뒤, verse가 payoff를 준비하지 못하면 조정하세요.\n### 모든 variant가 generic하게 들리면요?\n구체적인 감각 detail, 실제 action 하나, project context의 phrase 하나를 넣으세요.\n### 이 workflow가 license 문제를 해결하나요?\n아니요. lyrics editing 방법입니다. rights, licenses, platform terms, client approval은 별도로 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Reescreva letras IA sem perder o hook do refrao",
+      "description": "Workflow pratico para criar variantes de chorus mantendo hook, silabas, ponto de vista e notas de revisao sob controle.",
+      "body": [
+        "O primeiro rascunho tem uma linha que todo mundo gosta, mas o resto do refrao parece enchimento. O risco e regenerar toda a letra e torcer para essa linha sobreviver. Muitas vezes ela some. Reescrever um chorus nao e buscar novidade maxima; e comparar mudancas controladas. Trave o que funciona, mude uma coisa por vez e deixe cada variante facil de julgar.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA que pode transformar descricoes, letras e ideias de estilo em rascunhos musicais. Ela ajuda a testar direcoes rapidamente, enquanto wording final, contexto de publicacao, revisao de uso e aprovacao continuam fora do arquivo de audio.",
+        "## Trave o hook antes das variantes",
+        "Escreva o hook como uma linha separada. Se ele tambem for o titulo, decida onde fica: primeira linha, ultima linha ou repeticao curta. Depois escreva por que o chorus precisa mudar. Talvez seja vago, longo, dificil de cantar ou fraco para um video curto. Esse motivo evita que um pedido generico por letras melhores altere justamente a linha que voce queria proteger.",
+        "## Faca tres variantes, nao dez",
+        "Use o [AI Lyrics Generator](https://easymusic.ai/pt/tools/ai-lyrics-generator) para um conjunto pequeno de alternativas. Versao A mantem o sentido e corta palavras. Versao B muda o ponto de vista, como eu para nos. Versao C troca uma imagem e deixa o hook intacto. Se tudo muda ao mesmo tempo, voce nao sabe se o ganho veio de silabas, rima, imagem ou angulo emocional.",
+        "## Confira acento antes de gerar musica",
+        "Um chorus pode rimar e ainda ser ruim de cantar. Leia cada variante em voz alta e marque as palavras com peso natural. Linhas repetidas precisam de peso parecido, e o hook deve cair em uma posicao forte. Em letras localizadas, nao force padrao de stress do ingles. Ritmo natural de fala costuma criar uma linha vocal melhor do que uma rima esperta que entorta a frase.",
+        "## Teste uma vencedora dentro da musica",
+        "Depois de escolher o melhor chorus, mantenha estaveis a nota de style, o tempo aproximado e as structure tags. Gere ou revise uma unica versao primeiro. Se falhar, mude a lyric antes de mudar o style. Assim o diagnostico fica limpo: o problema pode estar nas palavras, no lift melodico, na densidade do arranjo ou na posicao da voz.",
+        "## Ideias reutilizaveis para hoje",
+        "- Coloque locked hook no topo da nota de trabalho.\n- De a cada variante uma funcao: mais curta, mais quente, mais direta ou mais facil de cantar.\n- Leia o chorus devagar com metronomo antes de gerar.\n- Corte rimas bonitas no papel mas estranhas quando faladas.\n- Salve variantes rejeitadas com motivo; uma linha pode virar bridge ou outro.",
+        "## Perguntas frequentes",
+        "### O hook deve sempre se repetir?\nNao. Repeticao ajuda em refroes curtos ou videos rapidos, mas precisa soar natural.\n### Devo reescrever o verso junto?\nNao na primeira passada. Corrija o chorus, depois ajuste o verso se ele nao preparar mais o payoff.\n### E se todas as variantes forem genericas?\nInclua um detalhe sensorial, uma acao concreta ou uma frase do contexto real do projeto.\n### Isso resolve licencas?\nNao. E um metodo de edicao de letras. Direitos, licencas, termos de plataforma e aprovacao precisam de revisao separada."
+      ]
+    },
+    "ru": {
+      "title": "Перепишите AI-lyrics и не потеряйте hook припева",
+      "description": "Практический workflow для вариантов chorus: сохранить hook, слоговый рисунок, точку зрения и заметки review.",
+      "body": [
+        "В первом draft может быть одна строка, которая нравится всей команде, но остальной припев звучит как наполнитель. Опасный ход - сгенерировать весь текст заново и надеяться, что хорошая строка останется. Часто она исчезает. Переписывание chorus должно быть управляемым сравнением: фиксируем то, что работает, и меняем только один параметр за раз.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для создания AI-музыки, которая может превращать текстовые описания, lyrics и идеи стиля в музыкальные черновики. Она полезна для быстрой проверки направлений песни, но финальная формулировка, контекст публикации, usage review и approval notes остаются задачей вашей команды.",
+        "## Сначала закрепите hook",
+        "Запишите hook отдельной строкой. Если это еще и title, решите, где он должен стоять: первая строка, последняя строка или короткий повтор. Потом запишите причину правки. Chorus может быть слишком размытым, длинным, неудобным для пения или слабым для короткого видео. Такая причина защищает строку, которую вы не хотите потерять.",
+        "## Делайте три варианта, а не десять",
+        "Используйте [AI Lyrics Generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) для небольшого набора альтернатив. Version A сохраняет смысл и сокращает слова. Version B меняет точку зрения, например я на мы. Version C меняет один образ, оставляя hook нетронутым. Если меняется все сразу, вы не поймете, что именно улучшило результат: syllables, rhyme, image или emotional angle.",
+        "## Проверьте ударения до генерации музыки",
+        "Chorus может рифмоваться и все равно плохо петься. Прочитайте каждый вариант вслух и отметьте слова с естественным ударением. Повторяющиеся строки должны иметь похожий вес, а hook лучше ставить в сильную позицию. В локализованных lyrics не заставляйте язык следовать английскому stress pattern. Естественный ритм речи часто дает более удобную vocal line.",
+        "## Проверьте один выбранный вариант в песне",
+        "Когда вариант выбран, держите style note, примерный tempo и structure tags насколько возможно постоянными. Сначала generate или revise только одну версию. Если она не работает, меняйте lyric до смены style. Так проще понять, где проблема: в словах, melodic lift, плотности arrangement или посадке vocal.",
+        "## Идеи, которые можно применить сегодня",
+        "- Поставьте locked hook в начало рабочей заметки.\n- Дайте каждому варианту одну задачу: короче, теплее, прямее или легче для пения.\n- Прочитайте chorus медленно под metronome перед генерацией.\n- Удалите рифмы, которые красиво выглядят, но звучат неестественно.\n- Сохраняйте отклоненные варианты с причиной; строка может пригодиться для bridge или outro.",
+        "## FAQ",
+        "### Hook всегда должен повторяться?\nНет. Повтор помогает короткому chorus или быстрому видео, но он должен звучать естественно.\n### Нужно ли сразу переписывать verse?\nНе в первом проходе. Сначала исправьте chorus, затем настройте verse, если он хуже подводит к payoff.\n### Что делать, если все варианты generic?\nДобавьте конкретную деталь ощущения, одно действие или фразу из реального контекста проекта.\n### Решает ли workflow вопросы лицензий?\nНет. Это метод редактирования lyrics. Rights, licenses, platform terms и client approval требуют отдельной проверки."
+      ]
+    },
+    "zh": {
+      "title": "改写 AI 歌词时不要丢掉副歌 hook",
+      "description": "一个实用 workflow，用来生成和比较 chorus 变体，同时固定 hook、音节感、视角和 review 备注。",
+      "body": [
+        "第一版 draft 里可能有一句大家都喜欢的 hook，但副歌其他部分像填充。最危险的做法是把整段 lyrics 重新 generate，然后希望那句好词还能留下来。通常不会。改写 chorus 不是追求最大的新鲜感，而是做可比较的修改: 保住有效的部分，每次只改一个变量。",
+        "## EasyMusic.AI是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以把文字描述、lyrics 和 style 想法变成音乐 draft。它适合快速测试歌曲方向，但最终措辞、发布场景、usage review 和 approval note 仍然需要团队在音频文件之外记录。",
+        "## 先锁定 hook 再要变体",
+        "把 hook 单独写成一行。如果它也是 title，先决定位置: 第一行、最后一行，或短重复。然后写清楚为什么要改 chorus。可能是太空泛、太长、不好唱，或不适合短视频。这个原因很重要，因为一句模糊的改好一点，往往会改掉你本来想保护的那一行。",
+        "## 做三个变体，不要做十个",
+        "使用 [AI Lyrics Generator](https://easymusic.ai/zh/tools/ai-lyrics-generator) 时，先要小批量替代方案。Version A 保持意思并减少字数。Version B 改变视角，比如从我变成我们。Version C 只换一个画面，同时保持 hook 不变。如果所有变量同时变化，你就不知道结果变好是因为音节、押韵、意象还是情绪角度。",
+        "## 生成音乐前先检查重音",
+        "chorus 可能押韵，却不好唱。把每个变体读出来，标出自然用力的词。重复行的重量要接近，hook 最好落在强位置。中文或本地化 lyrics 不要硬套英文 stress pattern。自然说话的节奏，通常比为了押韵而扭曲的句子更容易形成好的 vocal line。",
+        "## 只把一个优胜版本放进歌里试",
+        "选出最好的 chorus 后，尽量保持 style note、近似 tempo 和 structure tags 不变。先 generate 或 revise 一个版本。如果失败，先改 lyric，再改 style。这样诊断更清楚: 问题可能在词、melody lift、arrangement 密度，或 vocal 在 track 里的位置。",
+        "## 今天就能用的做法",
+        "- 在 draft note 顶部写 locked hook。\n- 每个变体只承担一个任务: 更短、更温暖、更直接、更好唱。\n- 生成前用慢 metronome 读一遍 chorus。\n- 删除纸面上整齐、说出口却别扭的 rhyme。\n- 被否掉的 variant 也写下原因；某一句以后可能变成 bridge 或 outro。",
+        "## FAQ",
+        "### hook一定要重复吗？\n不一定。短 chorus 或短视频里，重复有帮助，但必须自然。\n### verse要一起改吗？\n第一轮不要。先修 chorus，再看 verse 是否需要更好地铺垫 payoff。\n### 所有变体都很 generic 怎么办？\n加入一个感官细节、一个具体动作，或一句来自真实 project context 的词。\n### 这个 workflow 能解决 license 问题吗？\n不能。它只是 lyrics 编辑方法。rights、licenses、platform terms 和 client approval 仍要单独检查。"
+      ]
+    }
+  }
+}
