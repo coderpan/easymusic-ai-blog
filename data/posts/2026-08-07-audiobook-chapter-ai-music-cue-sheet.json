@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-07",
+  "slug": "audiobook-chapter-ai-music-cue-sheet",
+  "cluster": "audiobook-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع cue sheet لموسيقى فصول audiobook بالذكاء الاصطناعي",
+      "description": "Workflow عملي لتخطيط موسيقى opening credits، فواصل الفصول، والmix حول صوت الراوي قبل نشر audiobook.",
+      "body": [
+        "تنتهي من تسجيل فصل audiobook جيد، ثم تشعر ان البداية عارية قليلا. تضيف موسيقى طويلة فتبدو القراءة بعيدة، وتضيف sting قوي فيتحول الكتاب الى trailer. موسيقى audiobook الناجحة ليست طبقة جميلة فقط؛ هي قرار صغير حول متى يدخل الصوت، متى يختفي، ومتى يجب ان يبقى الراوي وحده تماما.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من وصف نصي، lyrics، وافكار style. في عمل audiobook، يمكن استخدامها لاختبار theme قصير او bed هادئ، لكن اختيار النسخة، فحص الحقوق، ومتطلبات المنصة تبقى خطوات تحريرية منفصلة.",
+        "## ابدأ بcue sheet قبل الprompt",
+        "افتح جدول صغيرا قبل التوليد. اكتب لكل cue: مكانه، وظيفته، الطول، هل يلمس صوت الراوي، fade in، fade out، ونسخة احتياطية بلا موسيقى. مثال عملي: opening credits من 8-12 ثانية مع fade تحت العنوان؛ chapter sting من 2-4 ثوان بلا كلام؛ recap bed خفيف اذا كان هناك ملخص؛ closing credits اطول قليلا لكن لا يغطي عبارة النهاية.",
+        "## اكتب prompt يخدم السرد",
+        "لا تطلب cinematic audiobook فقط. اكتب تعليمات مثل: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. اذا كانت الكلمات الصوتية مبعثرة، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لترتيب genre، instruments، mood، وtempo في وصف اقصر قبل التوليد. داخل EasyMusic.AI، احفظ prompt واحدا للtheme ثم اصنع variations صغيرة بدلا من تغيير الهوية في كل فصل.",
+        "## امزج ضد الصوت لا ضد الموسيقى",
+        "اختبر الcue مع صوت الراوي عند volume الاستماع الحقيقي. اذا فهمت الموسيقى لكن فاتتك اول جملة، فالموسيقى فشلت. انتبه خصوصا للترددات التي تنافس consonants، piano bright، cymbals، وvocal textures. اترك نصف ثانية من room tone قبل الكلام عندما يحتاج المستمع الى orienting، ولا تجعل كل فصل يبدأ بالطاقة نفسها اذا كان الكتاب هادئا او تعليميا.",
+        "## افصل الابداع عن مراجعة النشر",
+        "منصات audiobook قد تملك متطلبات تقنية حول loudness، peak، spacing، صيغة الملف، ووجود narration بشرية. وبعضها يسمح بالموسيقى او المؤثرات فقط اذا لم تحجب narration. لذلك احفظ مع المشروع مصدر الصوت، prompt، تاريخ export، مكان استخدام الcue، ومن وافق عليه. لا تعامل الموسيقى المولدة كدليل تلقائي على clearance او قبول المنصة.",
+        "## افكار يمكن تطبيقها اليوم",
+        "- اصنع cue sheet بثلاثة اعمدة: purpose، duration، voice overlap.\n- اجعل opening theme اطول قليلا من chapter sting ولا تعكسهما.\n- اطلب نسخة no-vocal لكل cue قريب من narration.\n- راجع اول 60 ثانية كأنها retail sample؛ هل يدخل المستمع الى الكتاب ام الى اغنية؟\n- احتفظ بنسخة no-music من كل فصل قبل mastering النهائي.",
+        "## اسئلة شائعة\n### هل يحتاج كل فصل الى موسيقى مختلفة؟\nلا. motif واحد مع variations صغيرة عادة اوضح من 20 مقطعا غير مترابط.\n### كم يجب ان يكون طول chapter sting؟\nغالبا 2-4 ثوان تكفي. اذا انتظر المستمع انتهاء الموسيقى، فهي طويلة.\n### هل يمكن وضع موسيقى تحت narration؟\nنعم بحذر، لكن يجب الا تحجب الكلمات. جربها مع سماعات هاتف وليس studio monitors فقط.\n### هل الموسيقى المولدة تجعل التوزيع آمنا؟\nلا. راجع حقوق الاستخدام، شروط المنصة، publisher approval، ومتطلبات الملف قبل الرفع."
+      ]
+    },
+    "de": {
+      "title": "Ein Cue Sheet fuer KI-Musik in Audiobook-Kapiteln erstellen",
+      "description": "Ein praktischer Workflow fuer Opening Credits, Kapitel-Stings, leise Beds und Review-Schritte rund um die Erzaehlstimme.",
+      "body": [
+        "Die Aufnahme eines Audiobook-Kapitels ist fertig, aber der Anfang wirkt etwas nackt. Dann wird Musik darunter gelegt, und ploetzlich rueckt die Stimme nach hinten. Oder ein zu grosser Sting laesst das Buch wie einen Trailer starten. Gute Audiobook-Musik ist keine Dekoration. Sie entscheidet, wann ein Hoerer ankommt, wann die Stimme fuehrt und wann Stille besser ist.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform zur KI-Musikerstellung, die aus Textbeschreibungen, Lyrics und Stilideen Musikentwuerfe erzeugen kann. Fuer Audiobooks eignet sie sich, um kurze Themes oder ruhige Beds zu testen; finale Auswahl, Rechtepruefung und Plattformanforderungen bleiben aber separate redaktionelle Schritte.",
+        "## Vor dem Prompt ein Cue Sheet schreiben",
+        "Legen Sie vor der Generierung eine kleine Tabelle an. Notieren Sie pro Cue: Position, Zweck, Laenge, Beruehrung mit der Stimme, Fade-in, Fade-out und eine Version ohne Musik. Ein brauchbarer Plan kann so aussehen: Opening Credits 8-12 Sekunden mit Fade unter den Titel; Kapitel-Sting 2-4 Sekunden ohne Sprache; ein sehr leises Recap-Bed nur bei Bedarf; Closing Credits etwas laenger, aber nie ueber der Schlussformel.",
+        "## Prompts fuer die Stimme schreiben",
+        "Bitten Sie nicht nur um cinematic audiobook. Beschreiben Sie die Aufgabe: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. Wenn die Klangwoerter noch unsortiert sind, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Genre, Instrumente, Stimmung und Tempo in eine kuerzere Beschreibung bringen. In EasyMusic.AI ist ein Hauptprompt mit kleinen Variationen meist besser als fuer jedes Kapitel ein neuer Sound.",
+        "## Gegen die Stimme mischen, nicht gegen den Track",
+        "Testen Sie jeden Cue mit echter Narration bei normaler Hoerlautstaerke. Wenn die Musik klar ist, aber der erste Satz verloren geht, hat der Cue seine Aufgabe verfehlt. Achten Sie auf Frequenzen, die Konsonanten verdecken: helles Piano, Cymbals, gezupfte Gitarren oder vokalaehnliche Texturen. Eine halbe Sekunde Room Tone vor dem ersten Wort kann mehr helfen als ein weiterer Akkord.",
+        "## Kreativarbeit und Upload-Review trennen",
+        "Audiobook-Plattformen koennen technische Vorgaben fuer Loudness, Peaks, Spacing, Dateiformat und menschliche Narration haben. Manche erlauben Musik oder Effekte nur, wenn die Erzaehlung nicht verdeckt wird. Speichern Sie deshalb Audioquelle, Prompt, Exportdatum, Einsatzort des Cues und Freigabe neben dem Projekt. Generierte Musik ist kein automatischer Nachweis fuer Clearance oder Plattformannahme.",
+        "## Sofort nutzbare Ideen",
+        "- Erstellen Sie ein Cue Sheet mit purpose, duration und voice overlap.\n- Machen Sie das Opening Theme etwas laenger als den Kapitel-Sting.\n- Fordern Sie fuer alle Cues nahe an Narration eine no-vocal-Version an.\n- Pruefen Sie die ersten 60 Sekunden wie ein Retail Sample: Hoert man ins Buch hinein oder in einen Song?\n- Bewahren Sie vor dem Mastering eine no-music-Version jedes Kapitels auf.",
+        "## FAQ\n### Braucht jedes Kapitel eigene Musik?\nNein. Ein Motiv mit kleinen Variationen ist oft verstaendlicher als viele unverbundene Tracks.\n### Wie lang sollte ein Kapitel-Sting sein?\nOft reichen 2-4 Sekunden. Wenn man auf das Ende wartet, ist er zu lang.\n### Darf Musik unter Narration laufen?\nJa, vorsichtig. Sie darf die Worte nicht verdecken. Testen Sie auch auf Handy-Kopfhoerern, nicht nur auf Studiomonitoren.\n### Ist generierte Musik automatisch vertriebssicher?\nNein. Nutzungsrechte, Plattformbedingungen, Verlagsfreigabe und technische Dateivorgaben brauchen eine eigene Pruefung."
+      ]
+    },
+    "en": {
+      "title": "Build an AI Music Cue Sheet for Audiobook Chapter Openings",
+      "description": "A practical workflow for planning audiobook opening credits, chapter stings, narration beds, and platform review before final mastering.",
+      "body": [
+        "You finish a clean audiobook chapter, then the opening feels a little bare. Add too much music and the narrator suddenly sounds distant. Add a dramatic sting and the book starts to feel like a trailer. Audiobook music works best when it is treated as small architecture: a cue enters, supports orientation, and gets out before it competes with the voice.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform that can turn text descriptions, lyrics, and style ideas into music drafts. For audiobook work, it can help you test a short theme or quiet bed quickly, while final selection, rights review, platform requirements, and publisher approval stay separate from the audio draft.",
+        "## Write the Cue Sheet Before the Prompt",
+        "Create a small cue sheet before generation. For each cue, note where it appears, what it does, how long it lasts, whether it touches narration, the fade shape, and whether a no-music backup exists. A practical plan might be: opening credits at 8-12 seconds with a fade under the title; chapter stings at 2-4 seconds with no speech; a very light recap bed only when the book needs one; closing credits that feel final without covering the last spoken line.",
+        "## Prompt for Narration First",
+        "Do not ask only for cinematic audiobook music. Describe the job: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. If your style notes are scattered, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn genre, instrument, mood, and tempo ideas into a cleaner prompt. Inside EasyMusic.AI, keep one core theme prompt and make small variations instead of changing the identity of every chapter.",
+        "## Mix Against the Voice, Not the Track",
+        "Test each cue under real narration at normal listening volume. If you understand the music but miss the first sentence, the cue failed. Watch for frequencies that mask consonants: bright piano, cymbals, picked guitar, and vocal-like textures. A half second of room tone before the first word can do more for listener orientation than another chord. If the book is instructional, intimate, or literary, restraint is usually stronger than constant scoring.",
+        "## Keep Publishing Review Separate",
+        "Audiobook platforms may set technical requirements for loudness, peaks, spacing, file format, and human narration. Some allow music or sound effects only when they do not obscure narration. Keep a note with the audio source, prompt, export date, cue placement, intended platform, and approver. Generated music is not automatic proof of clearance, commercial suitability, or platform acceptance.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Build a three-column cue sheet: purpose, duration, voice overlap.\n- Make the opening theme slightly longer than the chapter sting, not the other way around.\n- Ask for one no-vocal version of every cue that sits near narration.\n- Review the first 60 seconds as if it were a retail sample: does it invite the listener into the book or into a song?\n- Keep a no-music export of each chapter before final mastering.",
+        "## FAQ\n### Does every audiobook chapter need different music?\nNo. One motif with small variations is usually clearer than many unrelated tracks.\n### How long should a chapter sting be?\nOften 2-4 seconds is enough. If the listener has to wait for the music to finish, it is too long.\n### Can music play under narration?\nYes, carefully, but it must not obscure the words. Test on phone earbuds as well as studio monitors.\n### Does generated music make audiobook distribution safe?\nNo. Treat usage rights, platform terms, publisher approval, and technical file checks as separate tasks before upload."
+      ]
+    },
+    "es": {
+      "title": "Crea un cue sheet de musica IA para capitulos de audiolibro",
+      "description": "Workflow practico para planear creditos, stings de capitulo, beds bajo narracion y revision antes del mastering final.",
+      "body": [
+        "Terminas un capitulo de audiolibro limpio y el inicio se siente un poco desnudo. Agregas demasiada musica y la voz del narrador se aleja. Agregas un sting dramatico y el libro parece un trailer. La musica de audiolibro funciona cuando se trata como arquitectura pequena: entra, orienta al oyente y sale antes de competir con la voz.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA que puede convertir descripciones, letras e ideas de estilo en borradores musicales. Para audiolibros sirve para probar rapido un tema corto o un bed suave, mientras seleccion final, revision de derechos, requisitos de plataforma y aprobacion editorial quedan como pasos aparte.",
+        "## Escribe el cue sheet antes del prompt",
+        "Crea una tabla pequena antes de generar. Para cada cue anota donde aparece, que hace, cuanto dura, si toca la narracion, como entra y sale, y si existe version sin musica. Un plan practico: creditos iniciales de 8-12 segundos con fade bajo el titulo; stings de capitulo de 2-4 segundos sin habla; bed de recap muy ligero solo si el libro lo necesita; creditos finales que indiquen cierre sin tapar la ultima linea.",
+        "## Escribe prompts pensando primero en la voz",
+        "No pidas solo cinematic audiobook. Describe la funcion: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. Si tus notas de estilo estan dispersas, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir genero, instrumentos, mood y tempo en un prompt mas claro. En EasyMusic.AI, guarda un tema central y crea variaciones pequenas en vez de cambiar la identidad de cada capitulo.",
+        "## Mezcla contra la voz, no contra el track",
+        "Prueba cada cue con narracion real al volumen normal de escucha. Si entiendes la musica pero pierdes la primera frase, el cue fallo. Vigila frecuencias que tapan consonantes: piano brillante, cymbals, guitarra punteada y texturas parecidas a voz. Medio segundo de room tone antes de la primera palabra puede orientar mejor que otro acorde. En libros intimos, literarios o didacticos, la moderacion suele ganar.",
+        "## Separa creatividad y revision de publicacion",
+        "Las plataformas de audiolibros pueden exigir loudness, peaks, spacing, formato de archivo y narracion humana. Algunas permiten musica o efectos solo si no ocultan la narracion. Guarda fuente del audio, prompt, fecha de export, ubicacion del cue, plataforma prevista y aprobador. La musica generada no prueba por si sola clearance, idoneidad comercial ni aceptacion de plataforma.",
+        "## Ideas reutilizables para hoy",
+        "- Crea un cue sheet de tres columnas: purpose, duration, voice overlap.\n- Haz el opening theme algo mas largo que el chapter sting, no al reves.\n- Pide una version no-vocal de cada cue cercano a narracion.\n- Revisa los primeros 60 segundos como si fueran una muestra de venta: invita al libro o a una cancion?\n- Conserva un export sin musica de cada capitulo antes del mastering final.",
+        "## Preguntas frecuentes\n### Cada capitulo necesita musica distinta?\nNo. Un motivo con pequenas variaciones suele ser mas claro que muchos tracks sin relacion.\n### Cuanto debe durar un chapter sting?\nA menudo 2-4 segundos bastan. Si el oyente debe esperar a que termine, es demasiado largo.\n### Puede sonar musica bajo la narracion?\nSi, con cuidado, pero no debe tapar palabras. Pruebala con auriculares de telefono y no solo en monitores.\n### La musica generada hace seguro distribuir el audiolibro?\nNo. Derechos de uso, terminos de plataforma, aprobacion editorial y checks tecnicos son tareas separadas antes de subir."
+      ]
+    },
+    "fr": {
+      "title": "Creer un cue sheet de musique IA pour chapitres d audiobook",
+      "description": "Workflow pratique pour credits, stings de chapitre, beds sous narration et revue plateforme avant mastering final.",
+      "body": [
+        "Vous terminez un chapitre d audiobook propre, puis le debut semble un peu nu. Ajoutez trop de musique et la voix recule. Ajoutez un sting dramatique et le livre ressemble a une bande-annonce. La musique d audiobook fonctionne mieux quand elle reste une petite architecture: elle entre, aide l auditeur a se situer, puis sort avant de rivaliser avec la voix.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui peut produire des brouillons a partir de descriptions, paroles et idees de style. Pour un audiobook, elle aide a tester rapidement un theme court ou un bed discret; choix final, revue des droits, exigences de plateforme et validation editeur restent separes du brouillon audio.",
+        "## Ecrire le cue sheet avant le prompt",
+        "Creez une petite table avant generation. Pour chaque cue, notez son emplacement, sa fonction, sa duree, son contact avec la narration, la forme du fade et l existence d une version sans musique. Plan utile: opening credits de 8-12 secondes avec fade sous le titre; chapter stings de 2-4 secondes sans parole; recap bed tres leger seulement si le livre en a besoin; closing credits qui ferment clairement sans couvrir la derniere phrase.",
+        "## Prompter pour la narration d abord",
+        "Ne demandez pas seulement cinematic audiobook. Decrivez le role: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. Si les notes de style sont dispersees, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut organiser genre, instruments, humeur et tempo en prompt plus net. Dans EasyMusic.AI, gardez un theme central et creez de petites variations plutot que changer d identite a chaque chapitre.",
+        "## Mixer contre la voix, pas contre le morceau",
+        "Testez chaque cue sous une vraie narration au volume d ecoute normal. Si la musique est claire mais la premiere phrase disparaît, le cue a rate. Surveillez les frequences qui masquent les consonnes: piano brillant, cymbales, guitare piquee et textures proches de la voix. Une demi-seconde de room tone avant le premier mot peut orienter mieux qu un accord de plus. Pour un livre intime, litteraire ou pedagogique, la retenue est souvent plus forte.",
+        "## Separer creation et revue de publication",
+        "Les plateformes d audiobook peuvent fixer des exigences de loudness, peaks, spacing, format de fichier et narration humaine. Certaines acceptent musique ou effets seulement s ils ne couvrent pas la narration. Gardez une note avec source audio, prompt, date d export, placement du cue, plateforme prevue et personne ayant valide. La musique generee ne prouve pas automatiquement clearance, adequation commerciale ou acceptation par la plateforme.",
+        "## Idees reutilisables des aujourd hui",
+        "- Creez un cue sheet a trois colonnes: purpose, duration, voice overlap.\n- Faites le theme d ouverture un peu plus long que le chapter sting, pas l inverse.\n- Demandez une version no-vocal pour chaque cue proche de la narration.\n- Ecoutez les 60 premieres secondes comme un extrait de vente: entre-t-on dans le livre ou dans une chanson?\n- Gardez un export sans musique de chaque chapitre avant le mastering final.",
+        "## FAQ\n### Chaque chapitre doit-il avoir une musique differente?\nNon. Un motif avec de petites variations est souvent plus clair que beaucoup de pistes sans lien.\n### Quelle duree pour un chapter sting?\nSouvent 2-4 secondes suffisent. Si l auditeur attend la fin de la musique, c est trop long.\n### Peut-on mettre de la musique sous la narration?\nOui, avec prudence, mais elle ne doit pas masquer les mots. Testez sur ecouteurs de telephone autant que sur moniteurs.\n### La musique generee rend-elle la distribution sure?\nNon. Droits d usage, conditions de plateforme, validation editeur et controles techniques restent des taches separees avant l upload."
+      ]
+    },
+    "it": {
+      "title": "Crea un cue sheet di musica AI per capitoli audiobook",
+      "description": "Workflow pratico per opening credits, stings di capitolo, beds sotto la narrazione e review piattaforma prima del mastering.",
+      "body": [
+        "Finisci un capitolo audiobook pulito, ma l apertura sembra un po vuota. Aggiungi troppa musica e la voce del narratore arretra. Aggiungi uno sting drammatico e il libro sembra un trailer. La musica per audiobook funziona quando viene trattata come piccola architettura: entra, orienta l ascoltatore e sparisce prima di competere con la voce.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA che puo trasformare descrizioni, testi e idee di stile in bozze musicali. Per un audiobook puo aiutare a provare rapidamente un tema breve o un bed discreto, mentre scelta finale, review dei diritti, requisiti piattaforma e approvazione editoriale restano passaggi separati.",
+        "## Scrivi il cue sheet prima del prompt",
+        "Crea una piccola tabella prima della generazione. Per ogni cue annota posizione, funzione, durata, se tocca la narrazione, forma del fade e presenza di una versione senza musica. Un piano pratico: opening credits da 8-12 secondi con fade sotto il titolo; chapter sting da 2-4 secondi senza parlato; recap bed molto leggero solo se serve; closing credits piu conclusivi ma non sopra l ultima frase.",
+        "## Scrivi prompt pensati per la voce",
+        "Non chiedere solo cinematic audiobook. Descrivi il lavoro: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. Se le note di stile sono sparse, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo ordinare genere, strumenti, mood e tempo in un prompt piu chiaro. In EasyMusic.AI, conserva un tema principale e crea variazioni leggere invece di cambiare identita a ogni capitolo.",
+        "## Mixa contro la voce, non contro il track",
+        "Prova ogni cue con narrazione reale al volume normale di ascolto. Se capisci la musica ma perdi la prima frase, il cue ha fallito. Controlla le frequenze che coprono le consonanti: piano brillante, cymbals, chitarra pizzicata e texture simili alla voce. Mezzo secondo di room tone prima della prima parola puo orientare meglio di un altro accordo. In libri intimi, letterari o didattici, la misura di solito vince.",
+        "## Tieni separata la review di pubblicazione",
+        "Le piattaforme audiobook possono avere requisiti per loudness, peaks, spacing, formato file e narrazione umana. Alcune permettono musica o effetti solo se non coprono la narrazione. Salva fonte audio, prompt, data export, posizione del cue, piattaforma prevista e approvatore. La musica generata non dimostra automaticamente clearance, idoneita commerciale o accettazione piattaforma.",
+        "## Idee riutilizzabili da applicare subito",
+        "- Crea un cue sheet a tre colonne: purpose, duration, voice overlap.\n- Rendi l opening theme un po piu lungo del chapter sting, non il contrario.\n- Chiedi una versione no-vocal per ogni cue vicino alla narrazione.\n- Riascolta i primi 60 secondi come sample di vendita: porta nel libro o in una canzone?\n- Conserva un export senza musica di ogni capitolo prima del mastering finale.",
+        "## FAQ\n### Ogni capitolo ha bisogno di musica diversa?\nNo. Un motivo con piccole variazioni e spesso piu chiaro di molti track scollegati.\n### Quanto deve durare un chapter sting?\nSpesso bastano 2-4 secondi. Se l ascoltatore deve aspettare la fine, e troppo lungo.\n### La musica puo stare sotto la narrazione?\nSi, con cautela, ma non deve coprire le parole. Provala anche su auricolari da telefono, non solo su monitor.\n### La musica generata rende sicura la distribuzione?\nNo. Diritti d uso, termini piattaforma, approvazione editoriale e controlli tecnici vanno verificati separatamente prima dell upload."
+      ]
+    },
+    "ja": {
+      "title": "audiobook chapter用AI音楽cue sheetの作り方",
+      "description": "opening credits、chapter sting、narration bed、platform reviewをfinal mastering前に整理する実務workflow。",
+      "body": [
+        "audiobookのchapterをきれいに録り終えたのに、冒頭だけ少し空いて聞こえることがあります。そこでmusicを足しすぎるとnarratorが遠くなり、dramaticなstingを入れると本がtrailerのように始まります。audiobook musicは飾りではありません。cueが入り、聞き手の位置を作り、voiceと競合する前に消える小さな設計です。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、テキスト説明、歌詞、スタイル案から音楽の下書きを作れるAI音楽制作プラットフォームです。audiobook制作では、短いthemeや静かなbedをすばやく試す助けになりますが、最終選択、rights review、platform requirements、publisher approvalは音声下書きとは別に扱います。",
+        "## promptの前にcue sheetを書く",
+        "生成前に小さな表を作ります。各cueについて、位置、役割、長さ、narrationと重なるか、fadeの形、no-music backupの有無を記録します。例: opening creditsは8-12秒でtitleの下へfade、chapter stingは2-4秒でspeechなし、recap bedは必要な本だけごく薄く、closing creditsは終わりを感じさせるが最後の言葉を隠さない。",
+        "## narration firstでpromptを書く",
+        "cinematic audiobookだけでは不十分です。役割を書きます: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration。style noteが散らかっている時は、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) でgenre、instruments、mood、tempoを短く整理できます。EasyMusic.AIでは、各chapterで別物にするより、core theme promptから小さなvariationを作る方が聞き手に伝わりやすいです。",
+        "## trackではなくvoiceに合わせてmixする",
+        "各cueを実際のnarrationの下で、普通のvolumeで確認します。musicは分かるのに最初の文を聞き落とすなら、そのcueは失敗です。bright piano、cymbals、picked guitar、vocal-like textureはconsonantsを隠しやすいので注意します。最初の言葉の前に0.5秒のroom toneを置く方が、もう1つchordを足すより聞き手を案内できることがあります。",
+        "## 公開前reviewを創作と分ける",
+        "audiobook platformにはloudness、peak、spacing、file format、人間のnarrationに関する要件がある場合があります。musicやsound effectsも、narrationを隠さないことが前提になることがあります。audio source、prompt、export date、cue placement、intended platform、approverを記録してください。generated musicはclearance、commercial suitability、platform acceptanceの自動証明ではありません。",
+        "## 今日使えるアイデア",
+        "- purpose、duration、voice overlapの3列でcue sheetを作る。\n- opening themeはchapter stingより少し長くし、逆にしない。\n- narrationに近いcueは必ずno-vocal versionを用意する。\n- 最初の60秒をretail sampleとして聞く。本に入れるか、曲を聞かせてしまうかを確認する。\n- final mastering前に各chapterのno-music exportを残す。",
+        "## FAQ\n### chapterごとに違う音楽が必要ですか？\nいいえ。小さなvariationを持つ1つのmotifの方が、多数の無関係なtrackより分かりやすいことが多いです。\n### chapter stingは何秒がよいですか？\n多くの場合2-4秒で十分です。聞き手が終わるのを待つなら長すぎます。\n### narrationの下にmusicを流してよいですか？\n慎重になら可能です。ただし言葉を隠してはいけません。studio monitorsだけでなくphone earbudsでも試します。\n### generated musicなら配信は安全ですか？\nいいえ。usage rights、platform terms、publisher approval、technical file checksはupload前に別途確認します。"
+      ]
+    },
+    "ko": {
+      "title": "audiobook chapter용 AI 음악 cue sheet 만들기",
+      "description": "opening credits, chapter sting, narration bed, platform review를 final mastering 전에 정리하는 실무 workflow.",
+      "body": [
+        "깨끗하게 녹음한 audiobook chapter인데 시작이 조금 비어 들릴 때가 있습니다. 음악을 많이 넣으면 narrator가 멀어지고, dramatic sting을 넣으면 책이 trailer처럼 시작됩니다. audiobook music은 장식이 아닙니다. cue가 들어와서 청자의 위치를 잡고, voice와 경쟁하기 전에 빠지는 작은 설계입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 텍스트 설명, 가사, 스타일 아이디어를 음악 초안으로 바꿀 수 있는 AI 음악 제작 플랫폼입니다. audiobook 작업에서는 짧은 theme이나 조용한 bed를 빠르게 시험하는 데 도움이 되지만 final selection, rights review, platform requirements, publisher approval은 오디오 초안과 따로 관리해야 합니다.",
+        "## prompt 전에 cue sheet를 쓴다",
+        "생성 전에 작은 표를 만드세요. 각 cue에 대해 위치, 목적, 길이, narration과 겹치는지, fade 모양, no-music backup 여부를 적습니다. 실용적인 계획은 이렇습니다: opening credits는 8-12초로 title 아래 fade, chapter sting은 2-4초로 말 없음, recap bed는 필요한 경우에만 아주 얇게, closing credits는 끝을 느끼게 하되 마지막 spoken line은 덮지 않기.",
+        "## narration first prompt를 쓴다",
+        "cinematic audiobook만 요청하지 마세요. 역할을 쓰세요: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. style note가 흩어져 있다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 genre, instruments, mood, tempo를 더 정돈된 prompt로 만들 수 있습니다. EasyMusic.AI에서는 chapter마다 정체성을 바꾸기보다 core theme prompt에서 작은 variation을 만드는 편이 더 선명합니다.",
+        "## track이 아니라 voice에 맞춰 mix한다",
+        "각 cue를 실제 narration 아래에서 정상 청취 volume으로 확인하세요. 음악은 잘 들리는데 첫 문장을 놓친다면 cue는 실패한 것입니다. bright piano, cymbals, picked guitar, vocal-like texture는 consonants를 가릴 수 있습니다. 첫 단어 전 0.5초 room tone이 chord 하나를 더하는 것보다 청자를 잘 안내할 때가 있습니다. 교육적이거나 문학적인 책에서는 절제가 더 강합니다.",
+        "## publishing review를 따로 둔다",
+        "audiobook platform은 loudness, peaks, spacing, file format, human narration에 대한 요구를 둘 수 있습니다. music이나 sound effects도 narration을 가리지 않을 때만 허용되는 경우가 있습니다. audio source, prompt, export date, cue placement, intended platform, approver를 기록하세요. generated music은 clearance, commercial suitability, platform acceptance를 자동으로 증명하지 않습니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- purpose, duration, voice overlap 세 열로 cue sheet를 만듭니다.\n- opening theme은 chapter sting보다 조금 길게 하고, 반대로 하지 않습니다.\n- narration 가까이에 놓이는 cue는 no-vocal version을 요청합니다.\n- 첫 60초를 retail sample처럼 들어보세요. 책으로 초대하는지, 노래를 들려주는지 확인합니다.\n- final mastering 전에 각 chapter의 no-music export를 보관합니다.",
+        "## FAQ\n### chapter마다 다른 음악이 필요한가요?\n아니요. 작은 variation이 있는 하나의 motif가 관련 없는 여러 track보다 더 명확한 경우가 많습니다.\n### chapter sting은 얼마나 길어야 하나요?\n보통 2-4초면 충분합니다. 청자가 음악이 끝나길 기다려야 한다면 깁니다.\n### narration 아래에 music을 깔아도 되나요?\n가능하지만 조심해야 합니다. 단어를 가리면 안 됩니다. studio monitors뿐 아니라 phone earbuds에서도 확인하세요.\n### generated music이면 audiobook distribution이 안전한가요?\n아니요. usage rights, platform terms, publisher approval, technical file checks는 upload 전에 따로 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Crie um cue sheet de musica IA para capitulos de audiobook",
+      "description": "Workflow pratico para creditos, stings de capitulo, beds sob narracao e revisao de plataforma antes do mastering final.",
+      "body": [
+        "Voce termina um capitulo de audiobook limpo, mas a abertura parece um pouco vazia. Coloca musica demais e o narrador fica distante. Coloca um sting dramatico e o livro passa a soar como trailer. Musica para audiobook funciona melhor como pequena arquitetura: entra, orienta o ouvinte e sai antes de competir com a voz.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA que pode transformar descricoes, letras e ideias de estilo em rascunhos musicais. Em audiobook, ela ajuda a testar rapido um tema curto ou bed discreto, enquanto escolha final, revisao de direitos, requisitos de plataforma e aprovacao editorial ficam como etapas separadas.",
+        "## Escreva o cue sheet antes do prompt",
+        "Crie uma tabela pequena antes da geracao. Para cada cue, anote onde aparece, o que faz, quanto dura, se encosta na narracao, o formato do fade e se existe backup sem musica. Um plano pratico: opening credits de 8-12 segundos com fade sob o titulo; chapter stings de 2-4 segundos sem fala; recap bed muito leve apenas quando o livro precisa; closing credits com sensacao final sem cobrir a ultima linha.",
+        "## Escreva prompts pensando primeiro na narracao",
+        "Nao peca apenas cinematic audiobook. Descreva a funcao: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. Se suas notas de estilo estiverem soltas, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode organizar genero, instrumentos, mood e tempo em um prompt mais claro. No EasyMusic.AI, mantenha um tema central e crie pequenas variacoes em vez de mudar a identidade de cada capitulo.",
+        "## Mixe contra a voz, nao contra o track",
+        "Teste cada cue sob narracao real no volume normal de escuta. Se voce entende a musica mas perde a primeira frase, o cue falhou. Observe frequencias que mascaram consoantes: piano brilhante, cymbals, guitarra dedilhada e texturas parecidas com voz. Meio segundo de room tone antes da primeira palavra pode orientar melhor do que outro acorde. Em livros intimos, literarios ou educativos, contencao costuma ser mais forte.",
+        "## Separe criacao e revisao de publicacao",
+        "Plataformas de audiobook podem definir requisitos de loudness, peaks, spacing, formato de arquivo e narracao humana. Algumas permitem musica ou efeitos apenas se nao esconderem a narracao. Guarde fonte do audio, prompt, data de export, posicao do cue, plataforma prevista e aprovador. Musica gerada nao prova automaticamente clearance, adequacao comercial nem aceitacao pela plataforma.",
+        "## Ideias reutilizaveis para hoje",
+        "- Monte um cue sheet de tres colunas: purpose, duration, voice overlap.\n- Deixe o opening theme um pouco mais longo que o chapter sting, nao o contrario.\n- Peca uma versao no-vocal de todo cue perto da narracao.\n- Revise os primeiros 60 segundos como se fossem uma amostra de venda: entra no livro ou numa musica?\n- Guarde um export sem musica de cada capitulo antes do mastering final.",
+        "## Perguntas frequentes\n### Todo capitulo precisa de musica diferente?\nNao. Um motivo com pequenas variacoes costuma ser mais claro que muitos tracks sem relacao.\n### Quanto deve durar um chapter sting?\nMuitas vezes 2-4 segundos bastam. Se o ouvinte precisa esperar a musica acabar, esta longo demais.\n### Posso colocar musica sob a narracao?\nSim, com cuidado, mas ela nao deve esconder palavras. Teste em fones de telefone e nao so em monitores.\n### Musica gerada torna a distribuicao segura?\nNao. Direitos de uso, termos de plataforma, aprovacao editorial e checks tecnicos devem ser verificados separadamente antes do upload."
+      ]
+    },
+    "ru": {
+      "title": "Создайте cue sheet для AI-музыки в главах audiobook",
+      "description": "Практический workflow для opening credits, chapter stings, beds под narration и проверки платформы перед final mastering.",
+      "body": [
+        "Вы закончили чистую запись главы audiobook, но начало кажется пустым. Добавляете слишком много музыки - narrator отступает назад. Добавляете драматичный sting - книга начинает звучать как trailer. Музыка для audiobook работает лучше как маленькая архитектура: cue входит, ориентирует слушателя и уходит до того, как начнет спорить с голосом.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для создания AI-музыки, которая может превращать текстовые описания, lyrics и идеи стиля в музыкальные черновики. В audiobook она помогает быстро проверить короткую тему или тихий bed, но финальный выбор, rights review, требования платформы и approval издателя остаются отдельными шагами.",
+        "## Сначала cue sheet, потом prompt",
+        "До генерации сделайте небольшую таблицу. Для каждого cue запишите место, задачу, длительность, пересекается ли он с narration, форму fade и наличие версии без музыки. Практичный план: opening credits 8-12 секунд с fade под название; chapter stings 2-4 секунды без речи; очень легкий recap bed только если он нужен книге; closing credits чуть длиннее, но не поверх последней фразы.",
+        "## Пишите prompt в пользу narration",
+        "Не просите просто cinematic audiobook. Опишите задачу: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration. Если style notes разбросаны, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать genre, instruments, mood и tempo в более чистый prompt. В EasyMusic.AI лучше держать один core theme prompt и делать малые variations, чем менять идентичность каждой главы.",
+        "## Микшируйте против голоса, а не против track",
+        "Проверяйте каждый cue под настоящей narration на обычной громкости. Если музыка понятна, а первая фраза теряется, cue не выполнил задачу. Следите за частотами, которые маскируют consonants: яркое piano, cymbals, picked guitar и вокалоподобные textures. Полсекунды room tone перед первым словом иногда лучше ориентируют слушателя, чем еще один аккорд. Для учебной, интимной или литературной книги сдержанность чаще сильнее.",
+        "## Отделите review публикации",
+        "Audiobook-платформы могут иметь требования к loudness, peaks, spacing, file format и человеческой narration. Музыка и sound effects иногда допустимы только если не закрывают narration. Сохраняйте audio source, prompt, export date, cue placement, intended platform и approver. Generated music не является автоматическим доказательством clearance, commercial suitability или platform acceptance.",
+        "## Идеи, которые можно применить сегодня",
+        "- Сделайте cue sheet из трех колонок: purpose, duration, voice overlap.\n- Пусть opening theme будет немного длиннее chapter sting, а не наоборот.\n- Для каждого cue рядом с narration попросите no-vocal version.\n- Проверьте первые 60 секунд как retail sample: слушатель входит в книгу или в песню?\n- До final mastering сохраните no-music export каждой главы.",
+        "## FAQ\n### Нужна ли каждой главе отдельная музыка?\nНет. Один motif с небольшими variations обычно яснее, чем много несвязанных tracks.\n### Какой длины должен быть chapter sting?\nЧасто достаточно 2-4 секунд. Если слушатель ждет конца музыки, она слишком длинная.\n### Можно ли пускать музыку под narration?\nДа, осторожно, но она не должна закрывать слова. Проверяйте на phone earbuds, а не только на studio monitors.\n### Generated music делает распространение audiobook безопасным?\nНет. Usage rights, platform terms, publisher approval и technical file checks нужно проверять отдельно до upload."
+      ]
+    },
+    "zh": {
+      "title": "为 audiobook chapter 制作 AI 音乐 cue sheet",
+      "description": "一个实用 workflow，在 final mastering 前规划 opening credits、chapter sting、narration bed 和平台 review。",
+      "body": [
+        "你完成了一章干净的 audiobook 录音，却觉得开头有点空。音乐加多了，narrator 会突然变远；加一个很戏剧化的 sting，整本书又像 trailer。audiobook music 最好被当成小型结构: cue 进入，帮助听众定位，然后在和 voice 竞争前退出。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以根据文字描述、歌词和风格想法生成音乐草稿。用于 audiobook 时，它可以帮助你快速测试短 theme 或安静的 bed，但最终选择、rights review、platform requirements 和 publisher approval 仍然要独立处理。",
+        "## 先写 cue sheet，再写 prompt",
+        "生成之前先做一张小表。每个 cue 记录位置、目的、长度、是否碰到 narration、fade 形状，以及有没有 no-music backup。一个实用计划可以是: opening credits 8-12 秒，淡出到书名下方；chapter sting 2-4 秒，不压人声；recap bed 只有书真的需要时才极轻使用；closing credits 有结束感，但不盖住最后一句话。",
+        "## 先为 narration 写 prompt",
+        "不要只写 cinematic audiobook。要写清楚任务: warm low piano, soft pad, no lead vocal, no sharp percussion, slow attack, gentle ending, leaves room for spoken narration。如果 style notes 很散，可以先用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把 genre、instruments、mood 和 tempo 整理成更清晰的 prompt。在 EasyMusic.AI 里，保留一个 core theme prompt，再做小 variation，通常比每章换一种身份更清楚。",
+        "## 按 voice 来 mix，而不是按 track",
+        "把每个 cue 放在真实 narration 下，用正常收听音量检查。如果音乐听清了，但第一句话漏了，这个 cue 就失败了。注意会遮住 consonants 的频段: 明亮 piano、cymbals、picked guitar 和接近人声的 texture。第一句话前 0.5 秒 room tone，有时比再加一个 chord 更能让听众进入状态。教学、文学或亲密叙述型书籍里，克制通常更有力量。",
+        "## 把发布 review 和创作分开",
+        "audiobook platform 可能会对 loudness、peaks、spacing、file format 和 human narration 提出要求。有些平台只在音乐或 sound effects 不遮住 narration 时才允许使用。请记录 audio source、prompt、export date、cue placement、intended platform 和 approver。generated music 不是 clearance、commercial suitability 或 platform acceptance 的自动证明。",
+        "## 今天就能应用的想法",
+        "- 用 purpose、duration、voice overlap 三列做 cue sheet。\n- 让 opening theme 比 chapter sting 稍长，而不是反过来。\n- 每个靠近 narration 的 cue 都准备 no-vocal version。\n- 把前 60 秒当作 retail sample 来听: 它是在邀请听众进入书，还是进入一首歌？\n- final mastering 前保留每章的 no-music export。",
+        "## FAQ\n### 每章都需要不同音乐吗？\n不需要。一个 motif 加少量 variation，通常比很多互不相关的 track 更清楚。\n### chapter sting 应该多长？\n通常 2-4 秒就够。如果听众要等音乐结束，它就太长了。\n### music 可以放在 narration 下面吗？\n可以，但要谨慎，不能遮住词句。除了 studio monitors，也要用 phone earbuds 测试。\n### generated music 会让 audiobook distribution 自动安全吗？\n不会。usage rights、platform terms、publisher approval 和 technical file checks 都要在 upload 前单独确认。"
+      ]
+    }
+  }
+}
