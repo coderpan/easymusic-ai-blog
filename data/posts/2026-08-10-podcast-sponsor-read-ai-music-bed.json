@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-10",
+  "slug": "podcast-sponsor-read-ai-music-bed",
+  "cluster": "podcast-ad-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط موسيقى AI تحت sponsor read في البودكاست بدون تغطية العرض",
+      "description": "Workflow عملي لصنع music bed خفيف لاعلان بودكاست مدته 30 او 60 ثانية مع بقاء الافصاح والصوت وCTA واضحين.",
+      "body": [
+        "sponsor read في البودكاست قد يفشل بسبب شيء صغير: موسيقى لطيفة لكنها اعلى من صوت المقدم، kick يقطع رقم الخصم، او melody تسرق الانتباه من جملة الافصاح. الاعلان الصوتي ليس trailer. المستمع جاء للثقة والصوت القريب، لذلك يجب ان تعمل الموسيقى كارضية هادئة لا كمشهد بطولي.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من وصف نصي، lyrics، وافكار style. يمكن ان تساعدك على اختبار اتجاهات قصيرة لاعلان صوتي او خلفية podcast، لكن وضوح الرسالة، الحقوق، شروط المنصة، وموافقة العميل تبقى مراجعات منفصلة.",
+        "## ابدأ بنص الاعلان لا بالموسيقى",
+        "اكتب script الاعلان اولا: جملة sponsor، المشكلة، سبب الاهتمام، العرض، CTA، واعادة قصيرة للرابط او الكود اذا كان ضروريا. حدد هل القراءة 15، 30، 45، او 60 ثانية. بعد ذلك ضع علامات على الكلمات التي لا يجوز تغطيتها: paid/sponsored line، اسم المنتج، السعر ان وجد، الكود، واي claim يحتاج موافقة. هذه العلامات تحدد اين يجب ان تنخفض الموسيقى او تختفي.",
+        "## صمم bed يخدم الصوت البشري",
+        "لاغلب sponsor reads، ابدأ بموسيقى بلا lyrics، tempo متوسط، drums ناعمة، وinstrumentation قليل. piano muted، warm pad، light percussion، او bass هادئ غالبا افضل من lead synth او guitar solo. اذا كانت ملاحظاتك مشتتة، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لترتيب genre، mood، instruments، tempo، وما يجب تجنبه في prompt اقصر.",
+        "## prompt قصير افضل من وصف عاطفي طويل",
+        "مثال عملي: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational male or female voice, gentle ending. داخل EasyMusic.AI، اطلب نسختين او ثلاثا بطول قريب من الاعلان بدلا من اغنية كاملة. سم كل draft باسم مثل sponsor-read-30s-soft-keys-a حتى يعرف الفريق ما الذي يراجعه.",
+        "## راجع الاعلان كملف كلام لا كأغنية",
+        "اسمع المزج على سماعة هاتف، لابتوب، وسماعات اذن رخيصة. اذا ضاعت كلمة واحدة من disclosure او CTA، اخفض الموسيقى او احذفها من تلك اللحظة. لا تجعل الموسيقى تبدأ بقوة قبل ان يفهم المستمع ان الفقرة اعلان. راجع ايضا شروط المنصة، موافقة العميل، ونطاق الاستخدام قبل upload، ولا تفترض ان اي draft مناسب لكل حملة.",
+        "## افكار يمكن تطبيقها اليوم",
+        "- ضع علامات حمراء على sponsor line، offer، URL، code، واي claim حساس قبل توليد الموسيقى.\n- اطلب نسخة no drums او low percussion لتسهيل ducking تحت الصوت.\n- اجعل اول ثانيتين موسيقى انتقالية فقط، ثم افتح مساحة للصوت.\n- اختبر نسخة بلا lyrics حتى لو اعجبتك نسخة vocal؛ الكلمات غالبا تزاحم الرسالة.\n- احفظ prompt، طول الاعلان، ملاحظات approval، وسبب اختيار النسخة في ملف handoff.",
+        "## اسئلة شائعة\n### هل يحتاج sponsor read الى موسيقى دائما؟\nلا. اذا كان host-read حميما او النص مليئا بتفاصيل مهمة، الصمت الخفيف قد يكون اوضح.\n### ما طول music bed المناسب؟\nابدأ بطول الاعلان الفعلي مع ثانية او ثانيتين للدخول والخروج. لا تمدده فقط لان الموسيقى جميلة.\n### هل يمكن استخدام اغنية ذات vocals منخفضة؟\nيفضل تجنبها في الاعلانات الصوتية القصيرة. حتى vocal بعيد قد ينافس اسم المنتج او CTA.\n### متى يجب حذف الموسيقى؟\nاحذفها او اخفضها عند الافصاح، الشروط، السعر، الكود، والرابط اذا لم تبق الكلمات واضحة."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer Podcast-Sponsor-Reads planen, ohne das Angebot zu verdecken",
+      "description": "Ein praktischer Ablauf fuer dezente Music Beds unter 30- oder 60-Sekunden-Podcast-Ads mit klarer Disclosure, Stimme und CTA.",
+      "body": [
+        "Ein Podcast-Sponsor-Read scheitert selten an einer grossen Idee. Oft ist es kleiner: ein nettes Musikbett liegt zu laut unter der Host-Stimme, die Snare trifft genau auf den Rabattcode, oder eine Melodie zieht mehr Aufmerksamkeit als der Hinweis auf die Werbung. Ein Audio-Ad ist kein Trailer. Die Musik muss Naehe und Verstaendlichkeit schuetzen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die aus Textbeschreibungen, Lyrics und Stilideen Musikentwuerfe erzeugen kann. Sie kann kurze Richtungen fuer Podcast-Werbung oder Background Beds testen; Rechtepruefung, Plattformregeln, Kundenzustimmung und finale Freigabe bleiben separate Aufgaben.",
+        "## Erst das Skript, dann die Musik",
+        "Schreiben Sie den Ad-Text zuerst: Sponsor-Signal, Problem, Nutzen, Angebot, CTA und eventuell eine kurze Wiederholung von URL oder Code. Legen Sie fest, ob der Read 15, 30, 45 oder 60 Sekunden dauert. Markieren Sie anschliessend alle Stellen, die nicht verdeckt werden duerfen: paid oder sponsored line, Produktname, Preis, Code, URL und Claims, die freigegeben werden muessen. Diese Markierungen bestimmen, wo Musik leiser wird oder ganz verschwindet.",
+        "## Ein Bed fuer die Stimme bauen",
+        "Fuer die meisten Sponsor-Reads ist ein instrumental, mittleres Tempo, weiche Drums und wenig Vordergrund die bessere Basis. Muted piano, warm pad, leichte Percussion oder ein ruhiger Bass funktionieren meist besser als Lead-Synth oder Gitarrensolo. Wenn Ihre Stilnotizen noch chaotisch sind, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Genre, Stimmung, Instrumente, Tempo und Avoid-Liste in einen kompakteren Prompt bringen.",
+        "## Der Prompt sollte praktisch sein",
+        "Ein brauchbarer Prompt lautet zum Beispiel: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending. In EasyMusic.AI lohnt es sich, zwei oder drei kurze Drafts in ungefaehrer Ad-Laenge zu erzeugen, statt sofort einen ganzen Song zu wollen. Benennen Sie sie wie sponsor-read-30s-soft-keys-a.",
+        "## Wie Sprache testen, nicht wie einen Song",
+        "Hoeren Sie den Mix auf Handy-Lautsprecher, Laptop und einfachen Kopfhoerern. Wenn ein Wort der Disclosure oder des CTAs verloren geht, ist die Musik zu laut oder zu aktiv. Lassen Sie die Musik nicht vor dem Sponsor-Hinweis gross aufgehen; der Hoerer soll sofort verstehen, dass der Abschnitt Werbung ist. Pruefen Sie vor Upload ausserdem Plattformregeln, Nutzungsrechte, Kundenzustimmung und Kontext.",
+        "## Sofort nutzbare Ideen",
+        "- Markieren Sie Sponsor-Zeile, Angebot, URL, Code und sensible Claims vor der Musikgenerierung.\n- Fordern Sie eine Version no drums oder low percussion an, damit Ducking einfacher wird.\n- Nutzen Sie die ersten ein bis zwei Sekunden nur als Uebergang und schaffen Sie dann Platz fuer die Stimme.\n- Testen Sie eine Version ohne Lyrics, auch wenn eine Vocal-Variante attraktiv klingt.\n- Speichern Sie Prompt, Ad-Laenge, Freigabenotiz und Auswahlgrund im Handoff.",
+        "## FAQ\n### Braucht jeder Sponsor-Read Musik?\nNein. Bei sehr persoenlichem Host-Read oder vielen Pflichtdetails kann fast keine Musik klarer sein.\n### Wie lang sollte das Music Bed sein?\nPlanen Sie die echte Ad-Laenge plus kurze Ein- und Ausblendung, nicht die Laenge des schoensten Drafts.\n### Sind leise Vocals okay?\nMeist nicht. Selbst entfernte Stimmen koennen Produktname, Code oder CTA stoeren.\n### Wann sollte Musik ganz weg?\nBei Disclosure, Bedingungen, Preis, Rabattcode und URL, wenn die Sprache sonst nicht eindeutig bleibt."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music Beds for Podcast Sponsor Reads Without Covering the Offer",
+      "description": "A practical cue workflow for subtle AI music under 30- and 60-second sponsor reads while keeping disclosure, voice, and CTA clear.",
+      "body": [
+        "A podcast sponsor read usually fails in small ways. The bed is pleasant but too loud under the host. A snare lands on the discount code. A catchy melody makes the listener remember the tune and miss the offer. Podcast advertising is built on trust and voice, so the music has a narrow job: signal a clean break, support the tone, and stay out of the sentence.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform that can turn text descriptions, lyrics, and style ideas into music drafts. It can help creators test short audio directions for podcast ads or background beds, but rights review, platform rules, sponsor approval, and final mix judgment still need separate human checks.",
+        "## Start With the Read, Not the Track",
+        "Write the sponsor script before you generate music. Mark the sponsor disclosure, the product name, the promise you are allowed to make, the offer, the URL or code, and the call to action. Decide whether the read is 15, 30, 45, or 60 seconds. Those marked words are your no-fail points. The music should dip, simplify, or disappear around them instead of asking the voice to fight.",
+        "## Build a Bed That Behaves Under Speech",
+        "For most sponsor reads, start with no lyrics, medium tempo, soft drums, a low melodic range, and a small instrument set. Muted keys, warm pads, light percussion, and a quiet bass are safer than lead synths, guitar solos, or busy cymbals. If your notes are scattered, use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) to turn genre, mood, instruments, tempo, and avoid-list into a tighter prompt before generating.",
+        "## Use a Prompt That Describes the Job",
+        "A practical prompt might read: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for a conversational voice, gentle ending. Inside EasyMusic.AI, generate two or three short drafts near the actual ad length instead of one full song. Name them by purpose, such as sponsor-read-30s-soft-keys-a, so review notes stay attached to the right file.",
+        "## Review It Like Spoken Audio",
+        "Listen on phone speaker, laptop speakers, and cheap earbuds. If one word of the disclosure, offer, or CTA gets lost, the bed is too active. Do not let the music swell before the listener knows the segment is sponsored. Keep a handoff note with the script version, music prompt, draft name, approval status, and any usage limits the team still needs to check before upload.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Mark the sponsor line, offer, URL, code, and sensitive claims before generating music.\n- Ask for one no-drums or low-percussion draft so the voice has more room.\n- Let the first one or two seconds act as a transition, then clear space for speech.\n- Test an instrumental version even if a vocal draft feels more memorable.\n- Save the prompt, ad length, review notes, and approval status with the delivered file.",
+        "## FAQ\n### Does every sponsor read need music?\nNo. If the host read is intimate or the message has many required details, a very small bed or no music may be clearer.\n### How long should the AI music bed be?\nMatch the actual ad length, then add a short entry and exit. Do not stretch the segment just because the draft is enjoyable.\n### Can I use quiet vocals under a sponsor read?\nUsually avoid them. Even distant vocal texture can compete with the product name, offer, or CTA.\n### When should the music disappear completely?\nMute or reduce it around disclosures, terms, prices, codes, and URLs whenever speech clarity is uncertain."
+      ]
+    },
+    "es": {
+      "title": "Planifica musica IA para sponsor reads de podcast sin tapar la oferta",
+      "description": "Workflow practico para crear un music bed discreto bajo anuncios de podcast de 30 o 60 segundos con disclosure, voz y CTA claros.",
+      "body": [
+        "Un sponsor read de podcast suele fallar por detalles pequenos. El music bed es agradable, pero queda demasiado alto debajo del host. La caja cae justo sobre el codigo de descuento. Una melodia pegadiza hace que el oyente recuerde el tema y no la oferta. En podcast, la confianza esta en la voz, asi que la musica tiene una tarea estrecha: marcar el corte, apoyar el tono y no pelear con la frase.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA que puede convertir descripciones, lyrics e ideas de estilo en borradores musicales. Puede ayudar a probar direcciones cortas para anuncios de podcast o beds de fondo, pero derechos, reglas de plataforma, aprobacion del sponsor y mezcla final requieren revision humana separada.",
+        "## Empieza con la lectura, no con el track",
+        "Escribe primero el guion del anuncio. Marca la disclosure de patrocinio, nombre del producto, promesa permitida, oferta, URL o codigo y call to action. Decide si la lectura dura 15, 30, 45 o 60 segundos. Esas palabras marcadas son los puntos que no pueden fallar. La musica debe bajar, simplificarse o desaparecer alrededor de ellas, no obligar a la voz a competir.",
+        "## Crea un bed que se comporte bajo la voz",
+        "Para la mayoria de sponsor reads, empieza sin lyrics, con tempo medio, drums suaves, registro melodico bajo y pocos instrumentos. Muted keys, warm pads, percusion ligera y bass tranquilo suelen ser mas seguros que lead synths, solos de guitarra o cymbals muy activos. Si tus notas estan dispersas, usa el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) para ordenar genero, mood, instrumentos, tempo y lista de avoid en un prompt mas firme.",
+        "## Usa un prompt que describa el trabajo",
+        "Un prompt practico podria ser: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending. En EasyMusic.AI, genera dos o tres borradores cortos cerca de la duracion real del anuncio en vez de una cancion completa. Nombralos por funcion, como sponsor-read-30s-soft-keys-a.",
+        "## Revisalo como audio hablado",
+        "Escucha en altavoz de movil, laptop y auriculares baratos. Si se pierde una palabra de la disclosure, oferta o CTA, el bed esta demasiado activo. No dejes que la musica crezca antes de que el oyente entienda que la seccion es patrocinada. Guarda una nota de handoff con version de guion, prompt, nombre del draft, estado de aprobacion y limites de uso pendientes.",
+        "## Ideas reutilizables para hoy",
+        "- Marca sponsor line, oferta, URL, codigo y claims sensibles antes de generar musica.\n- Pide una version no drums o low percussion para dejar mas espacio a la voz.\n- Usa el primer segundo o dos como transicion y despues despeja el centro.\n- Prueba una version instrumental aunque una vocal parezca mas recordable.\n- Guarda prompt, duracion, notas de revision y aprobacion junto al archivo final.",
+        "## Preguntas frecuentes\n### Todo sponsor read necesita musica?\nNo. Si el host read es muy cercano o tiene muchos detalles obligatorios, un bed minimo o silencio puede ser mas claro.\n### Cuanto debe durar el music bed?\nDebe coincidir con la duracion real del anuncio, con entrada y salida cortas. No alargues el segmento solo porque el draft suena bien.\n### Puedo usar vocals bajos debajo de la lectura?\nNormalmente conviene evitarlos. Incluso una voz lejana puede competir con producto, oferta o CTA.\n### Cuando debe desaparecer la musica?\nBajala o quitala en disclosures, terminos, precios, codigos y URLs si la claridad no es segura."
+      ]
+    },
+    "fr": {
+      "title": "Planifier une musique IA pour sponsor read de podcast sans couvrir l'offre",
+      "description": "Un workflow pratique pour creer un music bed discret sous une pub podcast de 30 ou 60 secondes avec disclosure, voix et CTA lisibles.",
+      "body": [
+        "Un sponsor read de podcast echoue rarement pour une grande raison. Le plus souvent, le bed est agreable mais trop fort sous la voix, une caisse claire tombe sur le code promo, ou une melodie prend la place de l'offre. La publicite audio dans un podcast repose sur la confiance et la voix. La musique doit donc signaler le passage sponsorise, soutenir le ton et rester derriere la phrase.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui peut transformer des descriptions texte, des lyrics et des idees de style en brouillons musicaux. Elle peut aider a tester des directions courtes pour une pub de podcast ou un fond sonore, mais droits, regles de plateforme, validation sponsor et mix final restent des controles humains separes.",
+        "## Commencer par la lecture, pas par le morceau",
+        "Redigez d'abord le script: mention du sponsor, probleme, benefice, offre, URL ou code, et call to action. Fixez la duree: 15, 30, 45 ou 60 secondes. Marquez les mots qui ne peuvent pas etre couverts: disclosure, nom du produit, prix, code, URL et toute promesse a valider. Ces marques indiquent ou la musique doit baisser, se simplifier ou disparaitre.",
+        "## Construire un bed qui respecte la parole",
+        "Pour la plupart des sponsor reads, partez sans lyrics, avec tempo moyen, drums doux, registre melodique bas et peu d'instruments. Muted keys, warm pad, percussion legere et bass discret sont souvent plus utiles qu'un lead synth, un solo guitare ou des cymbales chargees. Si vos notes de style sont dispersees, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut organiser genre, mood, instruments, tempo et avoid-list en prompt plus net.",
+        "## Un prompt doit decrire le role",
+        "Un prompt utile peut etre: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending. Dans EasyMusic.AI, genereez deux ou trois drafts courts proches de la duree reelle de la pub plutot qu'une chanson complete. Nommez-les par fonction, par exemple sponsor-read-30s-soft-keys-a.",
+        "## Tester comme de la parole",
+        "Ecoutez sur haut-parleur de telephone, ordinateur portable et ecouteurs basiques. Si un mot de la disclosure, de l'offre ou du CTA disparait, le bed est trop actif. Ne laissez pas la musique gonfler avant que l'auditeur comprenne que le passage est sponsorise. Gardez une note de handoff avec version du script, prompt, nom du draft, statut d'approbation et limites d'usage a verifier.",
+        "## Idees reutilisables des aujourd'hui",
+        "- Marquez sponsor line, offre, URL, code et claims sensibles avant generation.\n- Demandez une version no drums ou low percussion pour laisser la voix respirer.\n- Utilisez les une ou deux premieres secondes comme transition, puis liberez le centre.\n- Testez une version instrumentale meme si un draft vocal semble plus memorable.\n- Archivez prompt, duree, notes de review et validation avec le fichier livre.",
+        "## FAQ\n### Chaque sponsor read a-t-il besoin de musique ?\nNon. Si la lecture host-read est intime ou chargee de details obligatoires, un bed minuscule ou le silence peut etre plus clair.\n### Quelle duree pour le music bed ?\nSuivez la duree reelle de la pub, avec entree et sortie courtes. N'allongez pas parce que le draft est plaisant.\n### Peut-on utiliser des vocals tres bas ?\nMieux vaut eviter. Meme une voix lointaine peut concurrencer le nom du produit, l'offre ou le CTA.\n### Quand couper la musique ?\nBaissez-la ou retirez-la autour des disclosures, conditions, prix, codes et URLs si la parole n'est pas limpide."
+      ]
+    },
+    "it": {
+      "title": "Pianificare musica AI per sponsor read podcast senza coprire l'offerta",
+      "description": "Workflow pratico per un music bed leggero sotto spot podcast da 30 o 60 secondi, con disclosure, voce e CTA chiari.",
+      "body": [
+        "Uno sponsor read podcast raramente fallisce per una sola grande scelta. Spesso il problema e piccolo: il bed e piacevole ma troppo alto sotto la voce, un rullante copre il codice sconto, o una melodia resta in testa piu dell'offerta. Nel podcast la fiducia passa dalla voce. La musica deve indicare il cambio di sezione, sostenere il tono e togliersi dalla frase.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale AI che puo trasformare descrizioni testuali, lyrics e idee di stile in draft musicali. Puo aiutare a testare direzioni brevi per annunci podcast o background bed, ma revisione dei diritti, regole della piattaforma, approvazione sponsor e mix finale restano controlli separati.",
+        "## Parti dalla lettura, non dal brano",
+        "Scrivi prima lo script dello spot: disclosure dello sponsor, problema, beneficio, offerta, URL o codice e call to action. Decidi se la lettura dura 15, 30, 45 o 60 secondi. Poi marca le parole che non possono essere coperte: sponsor line, nome prodotto, prezzo, codice, URL e claim da approvare. Questi punti dicono dove la musica deve scendere, semplificarsi o sparire.",
+        "## Costruisci un bed che rispetta la voce",
+        "Per la maggior parte degli sponsor reads parti senza lyrics, con tempo medio, drums morbidi, registro melodico basso e pochi strumenti. Muted keys, warm pad, percussion leggera e bass tranquillo sono spesso piu adatti di lead synth, solo di chitarra o piatti molto attivi. Se le note di stile sono sparse, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo ordinare genre, mood, instruments, tempo e avoid-list in un prompt piu stretto.",
+        "## Usa un prompt che descrive il compito",
+        "Un prompt pratico puo essere: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending. In EasyMusic.AI, genera due o tre draft brevi vicini alla durata reale dello spot invece di una canzone completa. Nominali per funzione, come sponsor-read-30s-soft-keys-a.",
+        "## Fai review come audio parlato",
+        "Ascolta su speaker del telefono, laptop e auricolari economici. Se perdi una parola della disclosure, dell'offerta o del CTA, il bed e troppo attivo. Non far crescere la musica prima che l'ascoltatore capisca che la sezione e sponsorizzata. Conserva una nota di handoff con versione script, prompt, nome draft, stato di approvazione e limiti d'uso ancora da controllare.",
+        "## Idee riutilizzabili oggi",
+        "- Marca sponsor line, offerta, URL, codice e claim sensibili prima di generare musica.\n- Chiedi una versione no drums o low percussion per dare piu spazio alla voce.\n- Usa i primi uno o due secondi come transizione, poi libera il centro.\n- Prova una versione strumentale anche se un draft vocale sembra piu memorabile.\n- Salva prompt, durata, note di review e stato approval con il file consegnato.",
+        "## FAQ\n### Ogni sponsor read ha bisogno di musica?\nNo. Se l'host-read e intimo o pieno di dettagli obbligatori, un bed minimo o il silenzio puo essere piu chiaro.\n### Quanto deve durare il music bed?\nSegui la durata reale dello spot, con ingresso e uscita brevi. Non allungarlo solo perche il draft piace.\n### Posso usare vocals bassi sotto la voce?\nMeglio evitarli. Anche una voce lontana puo competere con prodotto, offerta o CTA.\n### Quando togliere del tutto la musica?\nAbbassala o rimuovila su disclosure, condizioni, prezzi, codici e URL quando la chiarezza e incerta."
+      ]
+    },
+    "ja": {
+      "title": "Podcast sponsor read 用の AI music bed を、offer を隠さず作る方法",
+      "description": "30秒や60秒の podcast ad で disclosure、voice、CTA を聞き取りやすく保つための AI music bed workflow。",
+      "body": [
+        "Podcast の sponsor read は、大きな失敗より小さな音の判断で崩れます。bed は感じが良いのに host の声より前に出る。discount code の上に snare が来る。melody が強くて offer より曲だけが残る。Podcast ad では信頼の中心は voice です。music の仕事は、区切りを示し、tone を支え、sentence の邪魔をしないことです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、text description、lyrics、style idea から music draft を作れる AI music creation platform です。podcast ad や background bed の短い方向性を試す助けになりますが、rights review、platform rules、sponsor approval、final mix の判断は別に人が確認する必要があります。",
+        "## track ではなく read から始める",
+        "music を作る前に sponsor script を書きます。sponsor disclosure、product name、許可された promise、offer、URL または code、call to action を mark します。read が 15、30、45、60 秒のどれかも先に決めます。mark した言葉は失敗できない点です。その周りでは music を下げる、薄くする、または消す設計にします。",
+        "## speech の下で動く bed にする",
+        "多くの sponsor read では、no lyrics、medium tempo、soft drums、低い melodic range、少ない instruments から始めるのが安全です。muted keys、warm pad、light percussion、quiet bass は、lead synth、guitar solo、busy cymbals より voice を邪魔しにくいです。style note が散らばっている場合は、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で genre、mood、instruments、tempo、avoid-list を短い prompt に整理します。",
+        "## prompt は役割を説明する",
+        "実用的な prompt は、understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending のように書けます。EasyMusic.AI では、full song ではなく、実際の ad length に近い短い draft を二、三個作ります。sponsor-read-30s-soft-keys-a のように purpose で名前を付けると review note が混ざりません。",
+        "## spoken audio として review する",
+        "phone speaker、laptop speaker、安い earbuds で聞きます。disclosure、offer、CTA の一語でも消えるなら bed は強すぎます。listener が sponsored section だと分かる前に music を大きくしないでください。script version、music prompt、draft name、approval status、upload 前に確認する usage limit を handoff note に残します。",
+        "## 今日すぐ使えるアイデア",
+        "- music 生成前に sponsor line、offer、URL、code、sensitive claim を mark する。\n- voice の余白を増やすため、no drums または low percussion の draft を一つ頼む。\n- 最初の一、二秒は transition にし、その後 speech の中央を空ける。\n- vocal draft が印象的でも instrumental version を必ず試す。\n- prompt、ad length、review note、approval status を納品 file と一緒に保存する。",
+        "## FAQ\n### sponsor read には必ず music が必要ですか？\nいいえ。host-read が近い声で、必須情報が多い場合は、ごく小さな bed や無音の方が明確です。\n### AI music bed の長さは？\n実際の ad length に短い entry と exit を足します。draft が気に入ったからといって伸ばしません。\n### 小さな vocals を下に入れてもよいですか？\n通常は避けます。遠い vocal texture でも product name、offer、CTA と競合します。\n### music を完全に消す場面は？\ndisclosure、terms、price、code、URL の周りで speech clarity が不安なら消すか下げます。"
+      ]
+    },
+    "ko": {
+      "title": "Podcast sponsor read용 AI music bed를 offer를 가리지 않게 만드는 법",
+      "description": "30초와 60초 podcast ad에서 disclosure, voice, CTA를 또렷하게 남기는 AI music bed 실무 workflow.",
+      "body": [
+        "Podcast sponsor read는 거창한 이유보다 작은 소리 판단 때문에 실패합니다. bed는 좋지만 host voice보다 앞에 나오고, snare가 discount code 위에 떨어지고, melody가 offer보다 더 기억됩니다. Podcast ad의 신뢰는 voice에 있습니다. music의 역할은 전환을 표시하고 tone을 받치며 문장을 방해하지 않는 것입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text description, lyrics, style idea를 music draft로 바꿀 수 있는 AI 음악 제작 플랫폼입니다. podcast ad나 background bed의 짧은 방향을 시험하는 데 도움이 되지만 rights review, platform rules, sponsor approval, final mix 판단은 별도로 사람이 확인해야 합니다.",
+        "## track보다 read에서 시작한다",
+        "music을 만들기 전에 sponsor script를 씁니다. sponsor disclosure, product name, 허용된 promise, offer, URL 또는 code, call to action을 표시하세요. read가 15, 30, 45, 60초 중 어디에 속하는지도 정합니다. 표시한 단어는 실패하면 안 되는 지점입니다. music은 그 주변에서 낮아지거나 단순해지거나 사라져야 합니다.",
+        "## speech 아래에서 얌전히 움직이는 bed를 만든다",
+        "대부분의 sponsor read는 no lyrics, medium tempo, soft drums, 낮은 melodic range, 작은 instrument set으로 시작하는 편이 안전합니다. muted keys, warm pad, light percussion, quiet bass는 lead synth, guitar solo, busy cymbals보다 voice를 덜 가립니다. style note가 흩어져 있다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 genre, mood, instruments, tempo, avoid-list를 더 짧은 prompt로 정리하세요.",
+        "## prompt는 music의 일을 설명해야 한다",
+        "실무 prompt는 understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending 처럼 쓸 수 있습니다. EasyMusic.AI에서는 full song 하나보다 실제 ad length에 가까운 짧은 draft 두세 개를 만드세요. sponsor-read-30s-soft-keys-a처럼 purpose가 보이는 이름을 붙이면 review note가 섞이지 않습니다.",
+        "## spoken audio처럼 review한다",
+        "phone speaker, laptop speaker, cheap earbuds로 들어 보세요. disclosure, offer, CTA의 한 단어라도 묻히면 bed가 너무 적극적입니다. listener가 sponsored section임을 알기 전에 music을 크게 키우지 마세요. script version, music prompt, draft name, approval status, upload 전에 확인할 usage limit를 handoff note에 남깁니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- music 생성 전에 sponsor line, offer, URL, code, sensitive claim을 표시합니다.\n- voice 공간을 위해 no drums 또는 low percussion draft를 하나 요청합니다.\n- 처음 1-2초는 transition으로 쓰고 그 뒤에는 speech 공간을 비웁니다.\n- vocal draft가 기억에 남아도 instrumental version을 시험합니다.\n- prompt, ad length, review notes, approval status를 delivered file과 함께 저장합니다.",
+        "## FAQ\n### 모든 sponsor read에 music이 필요한가요?\n아니요. host-read가 친밀하거나 필수 정보가 많다면 아주 작은 bed나 silence가 더 분명할 수 있습니다.\n### AI music bed 길이는 어느 정도가 좋나요?\n실제 ad length에 짧은 entry와 exit를 더합니다. draft가 좋다고 segment를 늘리지 마세요.\n### 조용한 vocals를 아래에 깔아도 되나요?\n대체로 피하는 편이 좋습니다. 먼 vocal texture도 product name, offer, CTA와 경쟁할 수 있습니다.\n### 언제 music을 완전히 빼야 하나요?\ndisclosure, terms, price, code, URL 주변에서 speech clarity가 불확실하면 낮추거나 제거하세요."
+      ]
+    },
+    "pt": {
+      "title": "Planeje musica IA para sponsor reads de podcast sem cobrir a oferta",
+      "description": "Workflow pratico para criar um music bed discreto em anuncios de podcast de 30 ou 60 segundos, mantendo disclosure, voz e CTA claros.",
+      "body": [
+        "Um sponsor read de podcast costuma falhar em detalhes pequenos. O bed e agradavel, mas fica alto demais sob a voz do host. A caixa cai em cima do codigo de desconto. Uma melodia marcante faz o ouvinte lembrar do tema e perder a oferta. Em podcast, a confianca esta na voz. A musica precisa marcar a transicao, apoiar o tom e sair do caminho da frase.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA que pode transformar descricoes, lyrics e ideias de estilo em rascunhos musicais. Ela ajuda a testar direcoes curtas para podcast ads ou background beds, mas revisao de direitos, regras de plataforma, aprovacao do sponsor e mix final continuam sendo checagens humanas separadas.",
+        "## Comece pela leitura, nao pelo track",
+        "Escreva o script do anuncio antes de gerar musica. Marque disclosure do sponsor, nome do produto, promessa permitida, oferta, URL ou codigo e call to action. Decida se a leitura tera 15, 30, 45 ou 60 segundos. Essas palavras marcadas sao pontos que nao podem falhar. A musica deve baixar, simplificar ou sumir ao redor delas, em vez de obrigar a voz a brigar.",
+        "## Crie um bed que se comporte sob a fala",
+        "Para a maioria dos sponsor reads, comece sem lyrics, com tempo medio, drums suaves, registro melodico baixo e poucos instrumentos. Muted keys, warm pads, percussao leve e bass calmo costumam ser mais seguros do que lead synths, guitar solos ou cymbals ocupados. Se suas notas estiverem soltas, use o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) para transformar genre, mood, instruments, tempo e avoid-list em um prompt mais fechado.",
+        "## Use um prompt que descreva a funcao",
+        "Um prompt pratico pode ser: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending. No EasyMusic.AI, gere dois ou tres drafts curtos perto da duracao real do anuncio, em vez de uma musica inteira. Nomeie por objetivo, como sponsor-read-30s-soft-keys-a.",
+        "## Revise como audio falado",
+        "Ouça no alto-falante do celular, no laptop e em fones simples. Se uma palavra de disclosure, oferta ou CTA se perder, o bed esta ativo demais. Nao deixe a musica crescer antes de o ouvinte entender que a secao e patrocinada. Mantenha uma nota de handoff com versao do script, prompt, nome do draft, status de aprovacao e limites de uso ainda pendentes.",
+        "## Ideias reutilizaveis para hoje",
+        "- Marque sponsor line, oferta, URL, codigo e claims sensiveis antes de gerar musica.\n- Peca um draft no drums ou low percussion para abrir mais espaco para a voz.\n- Use os primeiros um ou dois segundos como transicao e depois limpe o centro.\n- Teste uma versao instrumental mesmo que um draft vocal pareca mais marcante.\n- Salve prompt, duracao, notas de review e status de aprovacao com o arquivo entregue.",
+        "## Perguntas frequentes\n### Todo sponsor read precisa de musica?\nNao. Se o host-read e intimo ou tem muitos detalhes obrigatorios, um bed minimo ou silencio pode ser mais claro.\n### Quanto deve durar o music bed?\nSiga a duracao real do anuncio, com entrada e saida curtas. Nao estique so porque o draft ficou bom.\n### Posso usar vocals baixos sob a leitura?\nGeralmente evite. Mesmo uma voz distante pode competir com produto, oferta ou CTA.\n### Quando a musica deve sumir completamente?\nReduza ou remova em disclosure, termos, preco, codigo e URL quando a clareza da fala for incerta."
+      ]
+    },
+    "ru": {
+      "title": "Как спланировать AI music bed для podcast sponsor read и не закрыть offer",
+      "description": "Практический workflow для тихого music bed под podcast ad на 30 или 60 секунд, где disclosure, voice и CTA остаются понятными.",
+      "body": [
+        "Podcast sponsor read часто ломается не из-за идеи, а из-за мелочей. Bed приятный, но слишком громкий под голосом host. Snare попадает на discount code. Запоминающаяся melody отвлекает от offer. В podcast ad доверие держится на voice, поэтому задача музыки узкая: обозначить переход, поддержать tone и не мешать фразе.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, которая может превращать text descriptions, lyrics и style ideas в music drafts. Она помогает быстро тестировать короткие направления для podcast ads или background beds, но rights review, platform rules, sponsor approval и final mix остаются отдельными человеческими проверками.",
+        "## Начинайте с текста, а не с track",
+        "Сначала напишите script: sponsor disclosure, product name, разрешенное promise, offer, URL или code и call to action. Решите, длится ли read 15, 30, 45 или 60 секунд. Затем отметьте слова, которые нельзя закрыть: sponsored line, название продукта, цену, code, URL и claims, требующие approval. Вокруг этих мест музыка должна стать тише, проще или исчезнуть.",
+        "## Сделайте bed, который не спорит с речью",
+        "Для большинства sponsor reads лучше начать с no lyrics, medium tempo, soft drums, низкого melodic range и малого набора instruments. Muted keys, warm pad, light percussion и quiet bass обычно безопаснее, чем lead synth, guitar solo или busy cymbals. Если style notes разбросаны, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать genre, mood, instruments, tempo и avoid-list в более плотный prompt.",
+        "## Prompt должен описывать работу музыки",
+        "Практичный prompt может выглядеть так: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending. В EasyMusic.AI лучше создать два-три коротких draft близко к реальной длине рекламы, а не одну полную песню. Называйте их по назначению, например sponsor-read-30s-soft-keys-a.",
+        "## Проверяйте как spoken audio",
+        "Слушайте на динамике телефона, ноутбуке и простых наушниках. Если теряется хотя бы одно слово disclosure, offer или CTA, bed слишком активен. Не давайте музыке разгоняться до того, как слушатель понял, что это sponsored section. Сохраните handoff note: script version, music prompt, draft name, approval status и usage limits, которые еще нужно проверить.",
+        "## Идеи, которые можно применить сегодня",
+        "- До генерации отметьте sponsor line, offer, URL, code и sensitive claims.\n- Попросите один no drums или low percussion draft, чтобы голосу было больше места.\n- Первые одну-две секунды используйте как переход, затем освобождайте центр для речи.\n- Проверьте instrumental version, даже если vocal draft кажется более запоминающимся.\n- Храните prompt, ad length, review notes и approval status вместе с финальным файлом.",
+        "## FAQ\n### Каждому sponsor read нужна музыка?\nНет. Если host-read очень личный или содержит много обязательных деталей, минимальный bed или silence могут быть яснее.\n### Какой длины должен быть AI music bed?\nОн должен соответствовать реальной длине рекламы плюс короткий entry и exit. Не растягивайте segment только потому, что draft приятный.\n### Можно ли использовать тихие vocals под речь?\nОбычно лучше избегать. Даже далекая vocal texture может конкурировать с product name, offer или CTA.\n### Когда музыку надо убрать полностью?\nУбирайте или снижайте ее около disclosures, terms, prices, codes и URLs, если clarity речи под вопросом."
+      ]
+    },
+    "zh": {
+      "title": "为播客 sponsor read 规划 AI music bed，不盖住 offer",
+      "description": "一个实用 workflow，帮助你在 30 秒或 60 秒 podcast ad 中保持 disclosure、voice 和 CTA 清楚可听。",
+      "body": [
+        "Podcast sponsor read 常常不是因为大创意失败，而是被小声音问题拖垮。bed 很好听，但压过了 host voice。snare 正好打在 discount code 上。melody 太抓耳，听众记住了曲子，却错过 offer。Podcast ad 的信任来自 voice，所以 music 的任务很窄: 标出转场，支撑 tone，不挡住句子。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以把文字描述、lyrics 和 style idea 变成 music draft。它能帮助创作者快速测试 podcast ad 或 background bed 的短方向，但 rights review、platform rules、sponsor approval 和 final mix 判断仍然需要单独由人确认。",
+        "## 先写 read，不要先做 track",
+        "生成 music 之前先写 sponsor script。标出 sponsor disclosure、product name、允许使用的 promise、offer、URL 或 code，以及 call to action。再决定 read 是 15、30、45 还是 60 秒。被标出的词就是不能失败的点。music 应该在这些位置变低、变简单，或者暂时消失，而不是让 voice 去竞争。",
+        "## 做一个能待在 speech 下面的 bed",
+        "大多数 sponsor read 更适合从 no lyrics、medium tempo、soft drums、低 melodic range 和少量 instruments 开始。muted keys、warm pads、light percussion、quiet bass 通常比 lead synth、guitar solo 或 busy cymbals 更安全。如果 style note 很散，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把 genre、mood、instruments、tempo 和 avoid-list 整理成更紧的 prompt。",
+        "## prompt 要说明 music 的工作",
+        "实用 prompt 可以写成: understated podcast ad bed, 92 BPM, warm electric piano, soft brushed drums, low bass, no lead vocal, no lyrical hook, leaves room for conversational voice, gentle ending。在 EasyMusic.AI 里，与其生成一整首歌，不如做两三个接近真实 ad length 的短 draft。用 sponsor-read-30s-soft-keys-a 这种名字，review note 就不会跟错文件。",
+        "## 像检查 spoken audio 一样 review",
+        "用手机扬声器、笔记本扬声器和便宜耳机听。如果 disclosure、offer 或 CTA 的任何一个词被盖住，bed 就太活跃。不要在听众知道这是 sponsored section 之前让 music 膨胀。保留一条 handoff note: script version、music prompt、draft name、approval status，以及上传前还要确认的 usage limits。",
+        "## 今天就能用的想法",
+        "- 生成 music 前，标出 sponsor line、offer、URL、code 和 sensitive claim。\n- 要一版 no drums 或 low percussion，让 voice 有更多空间。\n- 前一到两秒只做 transition，随后把中频空间让给 speech。\n- 即使 vocal draft 更容易记住，也测试一版 instrumental version。\n- 把 prompt、ad length、review notes、approval status 和交付文件放在一起。",
+        "## FAQ\n### 每个 sponsor read 都需要 music 吗？\n不需要。如果 host-read 很亲近，或必须说明的细节很多，极小的 bed 或 silence 可能更清楚。\n### AI music bed 应该多长？\n匹配真实 ad length，再加短 entry 和 exit。不要只因为 draft 好听就拉长 segment。\n### 可以在下面放很小的 vocals 吗？\n通常不建议。很远的 vocal texture 也可能和 product name、offer 或 CTA 抢注意力。\n### 什么时候该完全去掉 music？\n在 disclosure、terms、price、code、URL 附近，只要 speech clarity 不确定，就降低或移除。"
+      ]
+    }
+  }
+}
