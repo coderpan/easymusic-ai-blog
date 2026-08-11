@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-11",
+  "slug": "ai-music-file-quality-upload-checklist",
+  "cluster": "post-production-workflows",
+  "translations": {
+    "ar": {
+      "title": "راجع ملفات موسيقى AI قبل الرفع حتى لا يفشل الصوت",
+      "description": "Checklist عملي لفحص format، loudness، loop، وhandoff notes قبل تسليم او رفع موسيقى مولدة بالذكاء الاصطناعي.",
+      "body": [
+        "المسار قد يبدو جاهزا داخل السماعات، ثم يفشل عند الرفع. المنصة تعيد ضغط الصوت، الintro يقطع اول كلمة في الفيديو، loop يعمل طقة صغيرة كل ثلاثين ثانية، او ملف WAV الضخم يرفضه نظام الاعلان. هذه ليست مشكلة ذوق فقط. جودة التسليم جزء من workflow الموسيقى، ويجب فحصها قبل ان تصل الى العميل او المنصة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من وصف نصي، lyrics، وافكار style. يمكن ان تساعدك في صنع اتجاهات موسيقية بسرعة، لكن اختيار format النهائي، مراجعة الحقوق، شروط المنصة، ومستوى الصوت المناسب تبقى قرارات منفصلة.",
+        "## اكتب وجهة الملف قبل التصدير",
+        "لا تصدر باسم final ثم تسأل اين سيذهب. اكتب وجهة واحدة: YouTube video، podcast ad، app preview، carousel ad، phone system، او ملف مراجعة داخلي. لكل وجهة اسئلة مختلفة: هل الصوت داخل فيديو ام ملف صوت مستقل؟ هل يوجد voiceover او captions؟ هل يحتاج loop نظيف؟ هل للمنصة مدة، حجم، codec، او loudness recommendation؟ اذا لم تعرف المواصفة، اترك master نظيفا واصنع نسخة upload بعد قراءة متطلبات الوجهة.",
+        "## افصل عيب الموسيقى عن عيب الملف",
+        "اذا كانت الموسيقى مزدحمة، لا يصلحها conversion. ارجع الى prompt واطلب مساحة اكبر للصوت، no lead vocal، percussion اخف، او نهاية ابسط. اذا كانت ملاحظات الاسلوب مبعثرة، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في ترتيب genre، mood، instruments، tempo، وما يجب تجنبه. اما اذا كانت المشكلة format او حجم الملف، فاستخدم صفحة [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) بعد الاحتفاظ بنسخة source غير مضغوطة قدر الامكان.",
+        "## افحص بثلاث مرات استماع",
+        "الاستماع الاول للموسيقى وحدها: هل يوجد clipping، fade مقطوع، او نهاية غريبة؟ الاستماع الثاني داخل الاستخدام الحقيقي: تحت voiceover، فوق video edit، او داخل ad preview. الاستماع الثالث على جهاز فقير: phone speaker، laptop، او earbuds رخيصة. اذا ضاعت كلمة مهمة او صار الbass غير مسموع او تحول الhi-hat الى خشخشة، فالملف يحتاج تعديل arrangement او mix، لا مجرد اسم جديد.",
+        "## اصنع بطاقة تسليم قصيرة",
+        "بطاقة التسليم يجب ان تكون مملة ومفيدة: filename، duration، source prompt، draft number، export format، target platform، who approved، واي usage question لم يغلق بعد. لا تكتب ان الملف مناسب تجاريا او مقبول في كل منصة ما لم تكن لديك مراجعة محددة. بطاقة كهذه تمنع الفريق من رفع نسخة preview او استخدام ملف خاطئ بعد اسبوع.",
+        "## افكار يمكن تطبيقها اليوم",
+        "- احتفظ بملف source نظيف واصنع منه نسخ upload منفصلة.\n- سم الملفات بالوجهة والمدة، مثل yt-30s-bed-v3.mp3 او review-master-v1.wav.\n- اختبر اول ثلاث ثوان واخر ثلاث ثوان؛ اغلب اخطاء التسليم تظهر هناك.\n- افحص الكلام الحساس تحت الموسيقى قبل فحص جمال المسار وحده.\n- اكتب status واضحا: draft، approved، uploaded، او rejected-by-format.",
+        "## اسئلة شائعة\n### هل يكفي MP3 واحد لكل المنصات؟\nلا غالبا. MP3 مفيد للمراجعة وبعض الوجهات، لكن كل منصة او نظام قد يطلب codec، حجم، او sample rate مختلفا.\n### هل يجب تطبيع loudness دائما؟\nلا تطبق رقما واحدا بلا سياق. اتبع مواصفة الوجهة واحتفظ بنسخة source حتى تستطيع اعادة التصدير.\n### ماذا افعل اذا بدا الصوت رديئا بعد الرفع؟\nقارن source بالنسخة المنشورة. اذا ظهر التشويه بعد transcode، جرب ملفا اعلى جودة او مستوى peak اهدأ.\n### هل conversion يحل مشكلة prompt سيئ؟\nلا. اذا كان اللحن مزدحما او vocal ينافس الكلام، عدل prompt او draft اولا."
+      ]
+    },
+    "de": {
+      "title": "KI-Musikdateien vor dem Upload pruefen, damit der Sound haelt",
+      "description": "Eine praktische Checkliste fuer Format, Loudness, Loop, Dateinamen und Handoff, bevor KI-Musik ausgeliefert oder hochgeladen wird.",
+      "body": [
+        "Der Track klingt im Kopfhoerer fertig, scheitert aber beim Upload. Die Plattform kodiert ihn neu, das Intro verschluckt das erste Wort im Video, der Loop klickt alle dreissig Sekunden, oder die grosse WAV-Datei wird vom Ad-System abgelehnt. Das ist nicht nur Geschmackssache. Auslieferungsqualitaet gehoert zum Musikworkflow, bevor Kunde oder Plattform die Datei sehen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die aus Textbeschreibungen, Lyrics und Stilideen Musikentwuerfe erzeugen kann. Sie hilft beim schnellen Testen von Richtungen; Endformat, Rechtepruefung, Plattformregeln und passende Lautheit bleiben separate Entscheidungen.",
+        "## Ziel vor Export notieren",
+        "Exportiere nicht als final und frage danach, wohin die Datei soll. Schreibe ein Ziel auf: YouTube video, podcast ad, app preview, carousel ad, phone system oder interner Review. Jedes Ziel stellt andere Fragen: Liegt die Musik in einem Video oder als Audiofile vor? Gibt es voiceover oder captions? Muss der Loop sauber laufen? Hat die Plattform Regeln zu Dauer, Dateigroesse, codec oder loudness? Wenn die Spezifikation fehlt, halte einen sauberen Master zurueck und erstelle die Upload-Version nach der Pruefung.",
+        "## Musikfehler und Dateifehler trennen",
+        "Wenn die Musik zu dicht ist, loest conversion das nicht. Gehe zum Prompt zurueck: mehr Raum fuer Sprache, no lead vocal, weichere percussion oder klareres Ende. Wenn die Stilnotizen unklar sind, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Genre, Stimmung, Instrumente, Tempo und Avoid-Liste sortieren. Wenn dagegen Format oder Dateigroesse das Problem sind, nutze den [Audio Converter](https://easymusic.ai/de/tools/audio-converter), nachdem eine moeglichst saubere Source-Datei gesichert ist.",
+        "## Drei Hoerdurchgaenge machen",
+        "Der erste Durchgang gilt der Musik allein: clipping, harter fade, seltsames Ende. Der zweite passiert im echten Einsatz: unter voiceover, im video edit oder im ad preview. Der dritte laeuft auf schwacher Hardware: phone speaker, laptop oder einfache earbuds. Wenn ein wichtiges Wort verschwindet, der bass leer wird oder die hi-hat kratzt, braucht die Datei Arrangement- oder Mixarbeit, nicht nur einen neuen Namen.",
+        "## Eine kleine Lieferkarte schreiben",
+        "Die Lieferkarte darf langweilig sein: filename, duration, source prompt, draft number, export format, target platform, who approved und offene usage questions. Beschreibe die Datei nicht als kommerziell passend oder ueberall akzeptiert, wenn keine konkrete Pruefung vorliegt. Diese Karte verhindert, dass spaeter eine Preview-Version hochgeladen oder die falsche Datei weitergegeben wird.",
+        "## Sofort nutzbare Ideen",
+        "- Bewahre einen sauberen Source-Master auf und erstelle daraus getrennte Upload-Versionen.\n- Benenne Dateien nach Ziel und Laenge, etwa yt-30s-bed-v3.mp3 oder review-master-v1.wav.\n- Pruefe die ersten und letzten drei Sekunden; dort zeigen sich viele Lieferfehler.\n- Teste wichtige Sprachstellen unter Musik, bevor du den Track allein bewertest.\n- Verwende klare Statuswoerter: draft, approved, uploaded oder rejected-by-format.",
+        "## FAQ\n### Reicht ein MP3 fuer alle Plattformen?\nMeist nicht. MP3 ist fuer Reviews und manche Ziele nuetzlich, aber Plattformen koennen eigene Vorgaben zu codec, Dateigroesse oder sample rate haben.\n### Sollte ich Loudness immer normalisieren?\nNein. Nutze keine einzelne Zahl ohne Kontext. Folge der Zielspezifikation und behalte eine Source-Version fuer erneuten Export.\n### Was tun, wenn der Sound nach dem Upload schlechter ist?\nVergleiche Source und veroeffentlichte Version. Wenn die Verzerrung erst nach dem Transcode entsteht, teste eine hochwertigere Datei oder mehr peak headroom.\n### Loest Conversion einen schlechten Prompt?\nNein. Wenn Melodie oder Vocal der Sprache im Weg stehen, ueberarbeite Prompt oder Draft zuerst."
+      ]
+    },
+    "en": {
+      "title": "Check AI Music Files Before Upload So the Sound Survives Delivery",
+      "description": "A practical checklist for format, loudness, loop points, filenames, and handoff notes before you deliver or upload AI-generated music.",
+      "body": [
+        "The track can sound finished in headphones and still fail at delivery. A video platform transcodes it. The intro cuts into the first spoken word. A loop clicks every thirty seconds. A huge WAV gets rejected by an ad or phone system. That is not a taste problem anymore; it is a file-readiness problem, and it belongs in the music workflow before a client or platform sees the upload.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform that can turn text descriptions, lyrics, and style ideas into music drafts. It can help you test directions quickly, but final format, rights review, platform rules, and loudness judgment still need separate checks.",
+        "## Name the Destination Before Export",
+        "Do not export something called final and then ask where it is going. Write one destination first: YouTube video, podcast ad, app preview, carousel ad, phone system, or internal review. Each destination asks different questions. Is the music embedded in a video or delivered as audio only? Is there voiceover or caption text? Does it need a clean loop? Does the platform specify duration, file size, codec, sample rate, or loudness? If the spec is unknown, keep a clean source master and make the upload copy only after checking the destination.",
+        "## Separate Music Problems From File Problems",
+        "If the cue is too busy, conversion will not fix it. Go back to the prompt and ask for more speech room, no lead vocal, lighter percussion, or a simpler ending. If your style notes are messy, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help organize genre, mood, instruments, tempo, and avoid-list before you generate again. If the issue is format or file size, use the [Audio Converter](https://easymusic.ai/tools/audio-converter) after saving the cleanest source file you have.",
+        "## Make Three Listening Passes",
+        "First, listen to the music alone for clipping, abrupt fades, noisy tails, or an awkward ending. Second, listen inside the real use case: under voiceover, inside the video edit, or in an ad preview. Third, listen on weak playback: phone speaker, laptop speakers, or cheap earbuds. If one important word disappears, the bass vanishes, or the hi-hat turns brittle, the file needs arrangement or mix work, not just a new filename.",
+        "## Write a Boring Handoff Card",
+        "The handoff card should be dull and useful: filename, duration, source prompt, draft number, export format, target platform, who approved it, and any usage question still open. Do not label a file as ready for every commercial channel unless a real review supports that. This small card prevents a team from uploading a preview copy or reusing the wrong file a week later.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Keep one clean source master and make separate upload copies from it.\n- Name files by destination and length, such as yt-30s-bed-v3.mp3 or review-master-v1.wav.\n- Check the first three seconds and last three seconds; delivery mistakes often appear there.\n- Test sensitive speech under the music before judging whether the track sounds good alone.\n- Use plain status labels: draft, approved, uploaded, or rejected-by-format.",
+        "## FAQ\n### Is one MP3 enough for every platform?\nUsually no. MP3 is useful for review and some destinations, but each platform or system may have its own codec, size, and sample-rate requirements.\n### Should I normalize loudness every time?\nNot blindly. Follow the destination spec and keep a source master so you can export again without stacking processing.\n### What if the uploaded version sounds worse than my file?\nCompare the source with the published version. If distortion appears after transcoding, try a higher-quality source or leave more peak headroom.\n### Can conversion fix a bad prompt?\nNo. If the melody is crowded or vocals fight speech, revise the prompt or draft before touching the file format."
+      ]
+    },
+    "es": {
+      "title": "Revisa archivos de musica IA antes del upload para que el sonido aguante",
+      "description": "Checklist practica de formato, loudness, loops, nombres y handoff antes de entregar o subir musica generada con IA.",
+      "body": [
+        "La pista puede sonar terminada en auriculares y fallar al entregarla. La plataforma la vuelve a codificar, el intro pisa la primera palabra hablada, el loop hace click cada treinta segundos o un WAV enorme es rechazado por el sistema de anuncios. Ya no es solo gusto musical: es preparacion de archivo, y debe revisarse antes de que el cliente o la plataforma vean el upload.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA que puede convertir descripciones, lyrics e ideas de estilo en borradores musicales. Ayuda a probar direcciones rapido, pero formato final, derechos, reglas de plataforma y loudness necesitan revision aparte.",
+        "## Define el destino antes de exportar",
+        "No exportes algo llamado final para preguntar despues donde va. Escribe un destino: YouTube video, podcast ad, app preview, carousel ad, phone system o revision interna. Cada destino cambia las preguntas: la musica va dentro de un video o como audio solo? Hay voiceover o captions? Necesita loop limpio? La plataforma pide duracion, peso, codec, sample rate o loudness? Si no sabes la especificacion, conserva un source master limpio y crea la copia de upload despues de revisar.",
+        "## Separa problemas musicales de problemas de archivo",
+        "Si el cue esta demasiado cargado, la conversion no lo arregla. Vuelve al prompt y pide mas espacio para voz, no lead vocal, percussion mas ligera o un final mas simple. Si tus notas de estilo estan desordenadas, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede ordenar genero, mood, instrumentos, tempo y avoid-list antes de generar otra vez. Si el problema es formato o tamano, usa el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) despues de guardar el source mas limpio posible.",
+        "## Haz tres pasadas de escucha",
+        "Primero escucha la musica sola: clipping, fades bruscos, colas ruidosas o final raro. Segundo, escuchala en el uso real: bajo voiceover, dentro del edit de video o en un preview de anuncio. Tercero, prueba reproduccion pobre: altavoz de movil, laptop o earbuds baratos. Si se pierde una palabra importante, el bass desaparece o el hi-hat se vuelve aspero, hace falta ajuste de arreglo o mix, no solo otro nombre de archivo.",
+        "## Escribe una ficha de entrega aburrida",
+        "La ficha debe ser aburrida y util: filename, duration, source prompt, draft number, export format, target platform, quien aprobo y que usage question sigue abierta. No marques una pista como lista para todo canal comercial si no existe una revision real. Esa pequena ficha evita que el equipo suba un preview o reutilice la version equivocada una semana despues.",
+        "## Ideas reutilizables para hoy",
+        "- Conserva un source master limpio y crea copias de upload separadas.\n- Nombra archivos por destino y duracion, como yt-30s-bed-v3.mp3 o review-master-v1.wav.\n- Revisa los primeros y ultimos tres segundos; muchos errores de entrega aparecen ahi.\n- Prueba frases sensibles bajo la musica antes de juzgar la pista sola.\n- Usa status simples: draft, approved, uploaded o rejected-by-format.",
+        "## Preguntas frecuentes\n### Un solo MP3 sirve para toda plataforma?\nNormalmente no. MP3 sirve para revision y algunos destinos, pero cada plataforma o sistema puede pedir codec, peso o sample rate propios.\n### Debo normalizar loudness siempre?\nNo a ciegas. Sigue la especificacion del destino y guarda un source master para exportar de nuevo sin acumular procesos.\n### Que hago si la version subida suena peor?\nCompara source y version publicada. Si la distorsion aparece despues del transcode, prueba un source de mas calidad o deja mas peak headroom.\n### La conversion arregla un mal prompt?\nNo. Si la melodia esta cargada o las voces compiten con el habla, revisa prompt o draft antes del formato."
+      ]
+    },
+    "fr": {
+      "title": "Verifier les fichiers de musique IA avant upload pour proteger le son",
+      "description": "Checklist pratique pour format, loudness, boucles, noms de fichiers et handoff avant de livrer ou publier une musique generee par IA.",
+      "body": [
+        "La piste peut sembler terminee au casque et rater la livraison. La plateforme la transcode, l intro coupe le premier mot parle, la boucle clique toutes les trente secondes, ou un gros WAV est refuse par un outil publicitaire. Ce n est plus seulement une question de gout. La preparation du fichier fait partie du workflow musical avant client, equipe ou plateforme.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui peut transformer des descriptions texte, des lyrics et des idees de style en brouillons musicaux. Elle aide a tester vite des directions, mais format final, droits, regles de plateforme et loudness restent des controles separes.",
+        "## Nommer la destination avant l export",
+        "N exportez pas un fichier nomme final avant de savoir ou il va. Notez une destination: YouTube video, podcast ad, app preview, carousel ad, phone system ou review interne. Chaque destination change les questions: la musique est-elle dans une video ou livree seule? Y a-t-il voiceover ou captions? Faut-il une boucle propre? La plateforme impose-t-elle duree, poids, codec, sample rate ou loudness? Si la spec manque, gardez un source master propre et creez la copie upload apres verification.",
+        "## Separer probleme musical et probleme de fichier",
+        "Si la cue est trop chargee, la conversion ne la sauvera pas. Revenez au prompt: plus d espace pour la voix, no lead vocal, percussion plus legere ou fin plus simple. Si vos notes de style sont confuses, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut organiser genre, mood, instruments, tempo et avoid-list avant une nouvelle generation. Si le souci vient du format ou du poids, utilisez l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) apres avoir conserve le meilleur fichier source.",
+        "## Faire trois ecoutes",
+        "D abord, ecoutez la musique seule: clipping, fade brutal, queue bruyante ou fin maladroite. Ensuite, ecoutez-la dans le cas reel: sous voiceover, dans le montage video ou dans un preview d ad. Enfin, testez une lecture faible: haut-parleur de telephone, laptop ou earbuds simples. Si un mot important disparait, si le bass s efface ou si le hi-hat devient cassant, il faut revoir arrangement ou mix, pas seulement renommer le fichier.",
+        "## Rediger une fiche de livraison",
+        "La fiche doit etre simple et utile: filename, duration, source prompt, draft number, export format, target platform, approver et usage questions encore ouvertes. Ne dites pas qu un fichier est pret pour tous les canaux commerciaux sans vraie verification. Cette fiche evite qu une equipe uploade un preview ou reutilise la mauvaise version plus tard.",
+        "## Idees reutilisables aujourd hui",
+        "- Gardez un source master propre et creez des copies upload separees.\n- Nommez les fichiers par destination et duree, par exemple yt-30s-bed-v3.mp3 ou review-master-v1.wav.\n- Verifiez les trois premieres et trois dernieres secondes; beaucoup d erreurs s y cachent.\n- Testez les phrases sensibles sous la musique avant de juger le morceau seul.\n- Utilisez des statuts clairs: draft, approved, uploaded ou rejected-by-format.",
+        "## FAQ\n### Un seul MP3 suffit-il pour toutes les plateformes?\nRarement. MP3 convient aux reviews et a certains usages, mais chaque plateforme ou systeme peut demander codec, poids ou sample rate different.\n### Faut-il toujours normaliser la loudness?\nPas automatiquement. Suivez la spec de destination et gardez un source master pour reexporter sans empiler les traitements.\n### Que faire si la version publiee sonne moins bien?\nComparez source et version publiee. Si la distortion apparait apres transcode, essayez un source de meilleure qualite ou plus de peak headroom.\n### La conversion corrige-t-elle un mauvais prompt?\nNon. Si la melodie est surchargee ou si les voix genent la parole, corrigez prompt ou draft avant le format."
+      ]
+    },
+    "it": {
+      "title": "Controlla i file di musica AI prima dell upload per proteggere il suono",
+      "description": "Checklist pratica per formato, loudness, loop, nomi file e handoff prima di consegnare o caricare musica generata con AI.",
+      "body": [
+        "La traccia puo sembrare finita in cuffia e fallire alla consegna. La piattaforma la ricodifica, l intro copre la prima parola parlata, il loop fa click ogni trenta secondi, oppure un WAV enorme viene rifiutato da un sistema advertising. Non e piu solo gusto musicale: e prontezza del file, e va controllata prima che cliente o piattaforma ricevano l upload.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale AI che puo trasformare descrizioni testuali, lyrics e idee di stile in bozze musicali. Aiuta a provare direzioni rapidamente, ma formato finale, diritti, regole di piattaforma e loudness restano controlli separati.",
+        "## Scrivi la destinazione prima dell export",
+        "Non esportare qualcosa chiamato final e poi chiedere dove andra. Scrivi una destinazione: YouTube video, podcast ad, app preview, carousel ad, phone system o review interna. Ogni destinazione cambia le domande: musica dentro un video o file audio separato? C e voiceover o captions? Serve un loop pulito? La piattaforma richiede durata, peso, codec, sample rate o loudness? Se la spec non e chiara, conserva un source master pulito e crea la copia upload dopo il controllo.",
+        "## Separa problemi musicali e problemi di file",
+        "Se il cue e troppo pieno, la conversione non lo aggiusta. Torna al prompt e chiedi piu spazio per la voce, no lead vocal, percussion piu leggera o finale piu semplice. Se le note di stile sono confuse, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo ordinare genre, mood, instruments, tempo e avoid-list prima di generare di nuovo. Se invece il problema e formato o peso, usa l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) dopo aver salvato il source piu pulito.",
+        "## Fai tre ascolti",
+        "Prima ascolta la musica da sola: clipping, fade tagliati, code rumorose o finali strani. Poi ascoltala nel caso reale: sotto voiceover, nel video edit o in un ad preview. Infine prova playback povero: speaker del telefono, laptop o earbuds economici. Se una parola importante sparisce, se il bass si svuota o l hi-hat diventa fragile, serve lavoro su arrangement o mix, non solo un nome nuovo.",
+        "## Scrivi una scheda di consegna",
+        "La scheda deve essere noiosa e utile: filename, duration, source prompt, draft number, export format, target platform, approver e usage question ancora aperte. Non indicare una traccia come pronta per ogni canale commerciale senza una review concreta. Questa scheda evita che il team carichi un preview o riusi il file sbagliato dopo una settimana.",
+        "## Idee riutilizzabili oggi",
+        "- Conserva un source master pulito e crea copie upload separate.\n- Nomina i file per destinazione e durata, come yt-30s-bed-v3.mp3 o review-master-v1.wav.\n- Controlla i primi e ultimi tre secondi; molti errori di consegna appaiono li.\n- Testa le frasi sensibili sotto la musica prima di giudicare la traccia da sola.\n- Usa status chiari: draft, approved, uploaded o rejected-by-format.",
+        "## FAQ\n### Un solo MP3 basta per tutte le piattaforme?\nDi solito no. MP3 e utile per review e alcune destinazioni, ma ogni piattaforma o sistema puo avere codec, peso e sample rate propri.\n### Devo normalizzare sempre la loudness?\nNon alla cieca. Segui la spec della destinazione e conserva un source master per riesportare senza accumulare processing.\n### Che fare se la versione caricata suona peggio?\nConfronta source e versione pubblicata. Se la distorsione appare dopo il transcode, prova un source migliore o lascia piu peak headroom.\n### La conversione sistema un prompt sbagliato?\nNo. Se melodia o vocal competono con la voce parlata, correggi prompt o draft prima del formato."
+      ]
+    },
+    "ja": {
+      "title": "Upload前にAI音楽ファイルを確認し、納品後の音崩れを防ぐ",
+      "description": "AI生成音楽を納品またはuploadする前に、format、loudness、loop、file name、handoff noteを確認する実務checklist。",
+      "body": [
+        "headphonesでは完成に聞こえるtrackでも、deliveryで失敗することがあります。platformが再encodeし、introが最初のspoken wordにかぶり、loopが30秒ごとにclickし、大きすぎるWAVがad systemに拒否される。これはtasteだけの問題ではありません。file readinessもmusic workflowの一部として、clientやplatformの前に確認する必要があります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、text description、lyrics、style ideaからmusic draftを作れるAI音楽制作platformです。方向性を素早く試す助けになりますが、final format、rights review、platform rules、loudness判断は別の確認として扱います。",
+        "## export前にdestinationを書く",
+        "finalという名前でexportしてから行き先を考えないでください。まずdestinationを一つ書きます: YouTube video、podcast ad、app preview、carousel ad、phone system、internal review。destinationごとに問いが違います。musicはvideo内かaudioだけか。voiceoverやcaptionsがあるか。clean loopが必要か。duration、file size、codec、sample rate、loudnessの指定があるか。specが不明なら、clean source masterを残し、upload copyは確認後に作ります。",
+        "## music problemとfile problemを分ける",
+        "cueが混みすぎているならconversionでは直りません。promptに戻り、speech roomを増やす、no lead vocal、lighter percussion、simple endingなどを指定します。style noteが散らかっている場合は、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator)でgenre、mood、instruments、tempo、avoid-listを整理してから再生成します。問題がformatやfile sizeなら、最もcleanなsourceを保存したあとで [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使います。",
+        "## 三回のlistening passを行う",
+        "一回目はmusicだけを聞き、clipping、急なfade、noisy tail、変なendingを確認します。二回目は実際の使い方で聞きます: voiceoverの下、video editの中、ad previewの中。三回目は弱い再生環境です: phone speaker、laptop speaker、安いearbuds。重要な一語が消える、bassがなくなる、hi-hatが硬くなるなら、file nameではなくarrangementやmixを直します。",
+        "## 地味なhandoff cardを書く",
+        "handoff cardは地味でよいです。filename、duration、source prompt、draft number、export format、target platform、approver、まだ開いているusage questionを書きます。具体的なreviewなしに、どのcommercial channelにもreadyとは書かないでください。この小さなcardが、preview fileのuploadや一週間後のwrong file reuseを防ぎます。",
+        "## 今日すぐ使えるアイデア",
+        "- clean source masterを一つ保管し、destination別のupload copyを作る。\n- file nameにdestinationとlengthを入れる。例: yt-30s-bed-v3.mp3、review-master-v1.wav。\n- 最初の3秒と最後の3秒を必ず確認する。delivery errorはそこに出やすい。\n- track単体の良さより先に、重要なspeechをmusic下で試す。\n- statusはdraft、approved、uploaded、rejected-by-formatのように明確にする。",
+        "## FAQ\n### 1つのMP3で全platformに足りますか？\n多くの場合足りません。MP3はreviewや一部のdestinationに便利ですが、platformやsystemごとにcodec、size、sample rate条件があります。\n### loudnessは毎回normalizeすべきですか？\n数字だけで決めないでください。destination specに従い、processingを重ねず再exportできるsource masterを残します。\n### upload後に音が悪くなったら？\nsourceとpublished versionを比べます。transcode後にdistortionが出るなら、より高品質のsourceか余裕のあるpeak headroomを試します。\n### conversionで悪いpromptは直りますか？\nいいえ。melodyが混む、vocalがspeechと競合する場合は、formatより先にpromptやdraftを直します。"
+      ]
+    },
+    "ko": {
+      "title": "Upload 전에 AI music file을 점검해 delivery 후 음질 문제를 줄이는 법",
+      "description": "AI generated music을 전달하거나 올리기 전에 format, loudness, loop, file name, handoff note를 확인하는 실무 checklist.",
+      "body": [
+        "헤드폰에서는 완성처럼 들리는 track도 delivery에서 실패할 수 있습니다. platform이 다시 encoding하고, intro가 첫 spoken word를 덮고, loop가 30초마다 click을 내고, 너무 큰 WAV가 ad system에서 거절됩니다. 이것은 취향 문제가 아니라 file readiness 문제입니다. client나 platform에 upload되기 전에 music workflow 안에서 확인해야 합니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text description, lyrics, style idea를 music draft로 바꿀 수 있는 AI 음악 제작 platform입니다. 빠르게 방향을 시험하는 데 도움이 되지만 final format, rights review, platform rules, loudness 판단은 별도로 확인해야 합니다.",
+        "## export 전에 destination을 적는다",
+        "final이라는 이름으로 export한 뒤 어디에 쓸지 묻지 마세요. 먼저 destination을 하나 적습니다: YouTube video, podcast ad, app preview, carousel ad, phone system, internal review. 목적지마다 질문이 다릅니다. music이 video 안에 들어가나요, audio file로 전달되나요? voiceover나 captions가 있나요? clean loop가 필요한가요? duration, file size, codec, sample rate, loudness 조건이 있나요? spec을 모르면 clean source master를 보관하고 upload copy는 확인 후 만드세요.",
+        "## music problem과 file problem을 나눈다",
+        "cue가 너무 복잡하면 conversion으로 해결되지 않습니다. prompt로 돌아가 speech room, no lead vocal, lighter percussion, simpler ending을 요청하세요. style note가 흩어져 있다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 genre, mood, instruments, tempo, avoid-list를 정리한 뒤 다시 생성합니다. 문제가 format이나 file size라면 가장 깨끗한 source를 저장한 후 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 사용하세요.",
+        "## 세 번의 listening pass를 한다",
+        "첫 pass는 music만 듣습니다: clipping, abrupt fade, noisy tail, awkward ending. 둘째 pass는 실제 사용 안에서 듣습니다: voiceover 아래, video edit 안, ad preview 안. 셋째 pass는 약한 재생 환경입니다: phone speaker, laptop speaker, cheap earbuds. 중요한 단어가 사라지거나 bass가 비거나 hi-hat이 날카로워지면 새 filename이 아니라 arrangement나 mix 수정이 필요합니다.",
+        "## 지루하지만 유용한 handoff card를 쓴다",
+        "handoff card에는 filename, duration, source prompt, draft number, export format, target platform, approver, 아직 남은 usage question을 씁니다. 구체적인 review 없이 모든 commercial channel에 ready라고 표시하지 마세요. 이 작은 card가 preview copy upload나 일주일 뒤 wrong file reuse를 막아 줍니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- clean source master 하나를 보관하고 destination별 upload copy를 만듭니다.\n- yt-30s-bed-v3.mp3, review-master-v1.wav처럼 destination과 length로 이름을 짓습니다.\n- 처음 3초와 마지막 3초를 확인합니다. delivery mistake가 자주 보이는 지점입니다.\n- track만 좋게 들리는지보다 sensitive speech가 music 아래에서 보존되는지 먼저 봅니다.\n- status는 draft, approved, uploaded, rejected-by-format처럼 분명히 표시합니다.",
+        "## FAQ\n### MP3 하나로 모든 platform에 충분한가요?\n대부분 아닙니다. MP3는 review와 일부 destination에 편하지만 platform이나 system마다 codec, size, sample rate 요구가 다를 수 있습니다.\n### loudness는 매번 normalize해야 하나요?\n무조건은 아닙니다. destination spec을 따르고, processing을 겹치지 않도록 source master를 보관하세요.\n### upload version이 원본보다 나쁘게 들리면?\nsource와 published version을 비교하세요. transcode 후 distortion이 생기면 더 높은 품질의 source나 더 넓은 peak headroom을 시험합니다.\n### conversion이 나쁜 prompt를 고칠 수 있나요?\n아니요. melody가 복잡하거나 vocal이 speech와 경쟁하면 format보다 prompt나 draft를 먼저 고치세요."
+      ]
+    },
+    "pt": {
+      "title": "Revise arquivos de musica IA antes do upload para o som sobreviver",
+      "description": "Checklist pratico de formato, loudness, loops, nomes de arquivo e handoff antes de entregar ou subir musica gerada com IA.",
+      "body": [
+        "A faixa pode soar pronta no fone e falhar na entrega. A plataforma recodifica o audio, o intro cobre a primeira palavra falada, o loop clica a cada trinta segundos, ou um WAV grande demais e rejeitado por um sistema de anuncios. Isso nao e mais so gosto musical: e readiness do arquivo, e precisa entrar no workflow antes de cliente ou plataforma verem o upload.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA que pode transformar descricoes, lyrics e ideias de estilo em rascunhos musicais. Ela ajuda a testar direcoes rapidamente, mas formato final, revisao de direitos, regras de plataforma e loudness continuam sendo checagens separadas.",
+        "## Nomeie o destino antes do export",
+        "Nao exporte algo chamado final para perguntar depois onde sera usado. Escreva um destino: YouTube video, podcast ad, app preview, carousel ad, phone system ou review interno. Cada destino muda as perguntas: a musica vai dentro de um video ou como audio separado? Ha voiceover ou captions? Precisa de loop limpo? A plataforma pede duracao, tamanho, codec, sample rate ou loudness? Se a spec nao estiver clara, mantenha um source master limpo e gere a copia de upload so depois de conferir.",
+        "## Separe problema musical de problema de arquivo",
+        "Se o cue esta carregado demais, conversion nao resolve. Volte ao prompt e peca mais espaco para fala, no lead vocal, percussion mais leve ou final mais simples. Se as notas de estilo estiverem soltas, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode organizar genre, mood, instruments, tempo e avoid-list antes de gerar de novo. Se o problema for formato ou tamanho, use o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) depois de salvar o source mais limpo.",
+        "## Faca tres passadas de escuta",
+        "Primeiro escute a musica sozinha: clipping, fades bruscos, tails ruidosos ou final estranho. Depois escute no uso real: sob voiceover, dentro do video edit ou em um ad preview. Por fim, teste playback fraco: alto-falante de celular, laptop ou earbuds baratos. Se uma palavra importante some, o bass desaparece ou o hi-hat fica quebradico, o arquivo precisa de arrangement ou mix, nao apenas novo nome.",
+        "## Escreva uma ficha de handoff",
+        "A ficha deve ser simples e util: filename, duration, source prompt, draft number, export format, target platform, approver e usage question ainda aberta. Nao marque uma faixa como pronta para todo canal comercial sem revisao concreta. Essa ficha evita que o time suba uma copia de preview ou reutilize o arquivo errado uma semana depois.",
+        "## Ideias reutilizaveis para hoje",
+        "- Guarde um source master limpo e crie copias de upload separadas.\n- Nomeie arquivos por destino e duracao, como yt-30s-bed-v3.mp3 ou review-master-v1.wav.\n- Confira os tres primeiros e os tres ultimos segundos; muitos erros de entrega aparecem ali.\n- Teste falas sensiveis sob a musica antes de julgar a faixa sozinha.\n- Use status claros: draft, approved, uploaded ou rejected-by-format.",
+        "## Perguntas frequentes\n### Um MP3 basta para toda plataforma?\nGeralmente nao. MP3 serve para review e alguns destinos, mas cada plataforma ou sistema pode ter regras proprias de codec, tamanho e sample rate.\n### Devo normalizar loudness sempre?\nNao automaticamente. Siga a spec do destino e mantenha um source master para reexportar sem acumular processamento.\n### E se a versao subida soar pior?\nCompare source e versao publicada. Se a distorcao aparece depois do transcode, tente um source de maior qualidade ou deixe mais peak headroom.\n### Conversion corrige prompt ruim?\nNao. Se melodia ou vocal competem com a fala, revise prompt ou draft antes do formato."
+      ]
+    },
+    "ru": {
+      "title": "Проверьте AI music files перед upload, чтобы звук пережил доставку",
+      "description": "Практический checklist для format, loudness, loop, filename и handoff перед передачей или upload музыки, созданной AI.",
+      "body": [
+        "Track может звучать готовым в наушниках и все равно провалиться при delivery. Платформа перекодирует audio, intro закрывает первое spoken word, loop щелкает каждые тридцать секунд, или огромный WAV отклоняется рекламной системой. Это уже не вопрос вкуса. File readiness должна быть частью music workflow до того, как клиент или платформа увидят upload.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, которая может превращать text descriptions, lyrics и style ideas в music drafts. Она помогает быстро тестировать направления, но final format, rights review, platform rules и loudness judgment остаются отдельными проверками.",
+        "## Назовите destination до export",
+        "Не экспортируйте файл с именем final, а потом не спрашивайте, куда он пойдет. Сначала запишите destination: YouTube video, podcast ad, app preview, carousel ad, phone system или internal review. У каждого назначения свои вопросы: музыка встроена в видео или доставляется как audio only? Есть voiceover или captions? Нужен clean loop? Есть требования к duration, file size, codec, sample rate или loudness? Если spec неизвестна, сохраните clean source master и делайте upload copy только после проверки.",
+        "## Разделите music problem и file problem",
+        "Если cue слишком плотная, conversion это не исправит. Вернитесь к prompt и попросите больше места для речи, no lead vocal, lighter percussion или simpler ending. Если style notes хаотичны, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать genre, mood, instruments, tempo и avoid-list перед новой генерацией. Если проблема в format или file size, используйте [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) после сохранения самого чистого source file.",
+        "## Сделайте три listening passes",
+        "Сначала слушайте музыку отдельно: clipping, резкий fade, noisy tail или странный ending. Затем слушайте в реальном контексте: под voiceover, внутри video edit или в ad preview. Третий проход - слабое воспроизведение: phone speaker, laptop speakers или дешевые earbuds. Если важное слово пропадает, bass исчезает или hi-hat становится ломким, нужен arrangement или mix work, а не новое имя файла.",
+        "## Напишите скучную handoff card",
+        "Handoff card должна быть скучной и полезной: filename, duration, source prompt, draft number, export format, target platform, who approved и открытые usage questions. Не помечайте файл как ready для каждого commercial channel без реальной проверки. Такая карточка мешает команде загрузить preview copy или через неделю взять wrong file.",
+        "## Идеи, которые можно применить сегодня",
+        "- Храните один clean source master и делайте отдельные upload copies.\n- Называйте файлы по destination и length, например yt-30s-bed-v3.mp3 или review-master-v1.wav.\n- Проверяйте первые и последние три секунды; delivery mistakes часто проявляются там.\n- Тестируйте sensitive speech под музыкой до оценки трека отдельно.\n- Используйте ясные статусы: draft, approved, uploaded или rejected-by-format.",
+        "## FAQ\n### Одного MP3 хватит для всех платформ?\nОбычно нет. MP3 полезен для review и некоторых целей, но каждая платформа или система может иметь свои codec, size и sample-rate requirements.\n### Нужно ли всегда normalise loudness?\nНе вслепую. Следуйте destination spec и храните source master, чтобы экспортировать заново без накопления processing.\n### Что делать, если uploaded version звучит хуже?\nСравните source и published version. Если distortion появляется после transcode, попробуйте source более высокого качества или больший peak headroom.\n### Conversion исправит плохой prompt?\nНет. Если melody перегружена или vocals спорят с speech, сначала исправьте prompt или draft."
+      ]
+    },
+    "zh": {
+      "title": "上传前检查 AI 音乐文件，避免交付后声音变差",
+      "description": "一个实用 checklist，帮助你在交付或上传 AI 生成音乐前检查 format、loudness、loop、文件命名和 handoff notes。",
+      "body": [
+        "一段 track 在耳机里听起来已经完成，交付时仍可能出问题。平台会重新编码，intro 压住视频第一句话，loop 每三十秒出现一次 click，或者太大的 WAV 被广告系统拒绝。这不只是审美问题，而是 file readiness 问题，应该在客户或平台看到 upload 之前进入 music workflow。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以把文字描述、lyrics 和 style idea 变成 music draft。它能帮助你快速测试方向，但 final format、rights review、platform rules 和 loudness 判断仍然需要单独检查。",
+        "## export 前先写 destination",
+        "不要先导出一个叫 final 的文件，再问它要去哪里。先写一个 destination: YouTube video、podcast ad、app preview、carousel ad、phone system 或 internal review。不同 destination 的问题不同: 音乐是嵌在 video 里，还是单独 audio file？有没有 voiceover 或 captions？需不需要 clean loop？平台是否要求 duration、file size、codec、sample rate 或 loudness？如果 spec 不清楚，先保留 clean source master，确认后再做 upload copy。",
+        "## 分开判断 music problem 和 file problem",
+        "如果 cue 太拥挤，conversion 不能解决。回到 prompt，要求更多 speech room、no lead vocal、lighter percussion 或 simpler ending。如果 style note 很乱，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 整理 genre、mood、instruments、tempo 和 avoid-list，再重新生成。如果问题是 format 或 file size，在保留最干净的 source file 后再使用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)。",
+        "## 做三次 listening pass",
+        "第一次只听 music: clipping、突然 fade、noisy tail 或奇怪 ending。第二次放进真实场景: voiceover 下面、video edit 里面，或 ad preview 里。第三次用较差的播放环境: phone speaker、laptop speaker 或便宜 earbuds。如果重要词被盖住，bass 消失，hi-hat 变刺耳，需要修改 arrangement 或 mix，而不是只改 file name。",
+        "## 写一张朴素的 handoff card",
+        "handoff card 可以很朴素，但必须有用: filename、duration、source prompt、draft number、export format、target platform、approver，以及还没关闭的 usage question。没有具体 review 时，不要标成适合所有 commercial channel。这张小卡能防止团队上传 preview copy，或一周后复用 wrong file。",
+        "## 今天就能复用的想法",
+        "- 保留一个 clean source master，再为不同 destination 制作 upload copy。\n- 用 destination 和 length 命名文件，例如 yt-30s-bed-v3.mp3 或 review-master-v1.wav。\n- 检查前三秒和后三秒，许多 delivery mistake 会出现在这里。\n- 先测试 sensitive speech 在 music 下是否清楚，再判断 track 单独好不好听。\n- 使用清楚 status: draft、approved、uploaded 或 rejected-by-format。",
+        "## FAQ\n### 一个 MP3 能适合所有平台吗？\n通常不能。MP3 对 review 和部分 destination 有用，但每个平台或系统可能有自己的 codec、size 和 sample rate 要求。\n### loudness 每次都要 normalize 吗？\n不要盲目套数字。按照 destination spec，并保留 source master，方便不叠加 processing 地重新导出。\n### upload 后声音比原文件差怎么办？\n比较 source 和 published version。如果 distortion 出现在 transcode 之后，试试更高质量的 source，或留出更多 peak headroom。\n### conversion 能修好糟糕 prompt 吗？\n不能。如果 melody 太拥挤，或 vocal 和 speech 竞争，要先改 prompt 或 draft，再处理 format。"
+      ]
+    }
+  }
+}

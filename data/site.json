@@ -72,6 +72,19 @@
       "ru": "https://easymusic.ai/ru/tools/music-style-generator",
       "zh": "https://easymusic.ai/zh/tools/music-style-generator"
     },
+    "audioConverter": {
+      "ar": "https://easymusic.ai/ar/tools/audio-converter",
+      "de": "https://easymusic.ai/de/tools/audio-converter",
+      "en": "https://easymusic.ai/tools/audio-converter",
+      "es": "https://easymusic.ai/es/tools/audio-converter",
+      "fr": "https://easymusic.ai/fr/tools/audio-converter",
+      "it": "https://easymusic.ai/it/tools/audio-converter",
+      "ja": "https://easymusic.ai/ja/tools/audio-converter",
+      "ko": "https://easymusic.ai/ko/tools/audio-converter",
+      "pt": "https://easymusic.ai/pt/tools/audio-converter",
+      "ru": "https://easymusic.ai/ru/tools/audio-converter",
+      "zh": "https://easymusic.ai/zh/tools/audio-converter"
+    },
     "aiMusicVideoGenerator": {
       "en": "https://easymusic.ai/ai-music-video-generator"
     },
