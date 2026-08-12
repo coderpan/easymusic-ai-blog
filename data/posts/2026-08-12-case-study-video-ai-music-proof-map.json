@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-12",
+  "slug": "case-study-video-ai-music-proof-map",
+  "cluster": "case-study-video-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط موسيقى AI لفيديو case study بدون تضخيم الدليل",
+      "description": "Workflow عملي لصنع proof map للموسيقى تحت customer story، interview، metrics، captions، ومراجعات النشر.",
+      "body": [
+        "فيديو case study ينهار عندما تبدو الموسيقى واثقة اكثر من الدليل. العميل يتحدث بهدوء عن مشكلة حقيقية، لكن الخلفية تصعد مثل trailer، فتبدو النتيجة وكأنها اعلان مبالغ فيه. وظيفة الموسيقى هنا ليست جعل كل جملة بطولية. وظيفتها ترتيب الانتباه: المشكلة واضحة، الحل مفهوم، والدليل مسموع.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من description، lyrics، وافكار style. يمكن استخدامها لاختبار اتجاهات صوتية بسرعة، لكن صدق testimonial، حقوق الاستخدام، disclosure، ومراجعة المنصة تبقى قرارات منفصلة يجب توثيقها.",
+        "## ابدأ بخريطة الدليل لا بخريطة المشاعر",
+        "اكتب اربع مراحل قبل اي prompt: المشكلة قبل المنتج، لحظة الاكتشاف، الدليل العملي، والخطوة التالية. لكل مرحلة حدد ما يجب ان يسمعه المشاهد. في المشكلة، اترك مساحة للصوت الطبيعي او الصمت. عند الدليل، استخدم lift قصيرا فقط اذا كان هناك رقم، لقطة منتج، او اقتباس واضح. عند CTA، اجعل النهاية نظيفة بدل build طويل ينافس الكلام.",
+        "## احم المقابلة والارقام",
+        "الصوت البشري هو اصل case study. اطلب music bed بلا lead vocal، بلا snare حاد تحت consonants، وبلا bass مزدحم عندما تظهر metrics على الشاشة. اذا كانت الكلمات الموسيقية غامضة، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل كلمات مثل trustworthy او warm الى tempo، instruments، density، وما يجب تجنبه. بعد ذلك اختبر المقطع بصوت منخفض؛ اذا ضاعت الجملة الاساسية، فالمسار ليس جاهزا.",
+        "## اكتب prompt يدل على proof لا hype",
+        "Prompt عملي: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. لا تستخدم اسم اغنية مشهورة كمرجع. لا تطلب victory anthem اذا كان الفيديو يعرض تعلم، تحسين، او قرار شراء منطقي.",
+        "## راجع النشر قبل التسليم",
+        "قبل نشر فيديو عميل، اسأل: هل التصريح من العميل يغطي هذا cut؟ هل يوجد material connection يحتاج disclosure؟ هل الارقام مثبتة؟ هل المنصة تطلب ملاحظة عن محتوى synthetic او music مولدة؟ هل الموسيقى موثقة في handoff card؟ EasyMusic.AI يمكن ان يساعد في المسودة، اما الموافقة النهائية فهي مزيج من client review، platform rules، وسياسة الفريق.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- ضع علامة music quiet zone فوق كل جملة يذكر فيها العميل رقما او نتيجة.\n- اصنع نسخة 45 ثانية بدون intro طويل حتى لا تتأخر المشكلة عن الظهور.\n- اكتب three-word reject list مثل heroic, luxury, aggressive قبل التوليد.\n- اجعل logo ending اقصر من ثانيتين اذا كان الفيديو سيعاد قصه لمنصات اجتماعية.\n- احفظ prompt، draft number، approver، وopen disclosure question في بطاقة واحدة.",
+        "## اسئلة شائعة\n### هل يحتاج case study موسيقى عاطفية؟\nليس غالبا. يحتاج موسيقى مستقرة تجعل الكلام اوضح ولا تدفع المشاهد للشعور بشيء غير مثبت.\n### هل استخدم نفس track للنسخة الطويلة والقصيرة؟\nابدأ من نفس الهوية، لكن اصنع نسخة اقصر بكثافة اقل حتى لا يبتلع الاختصار الاقتباسات.\n### اين ارفع الموسيقى؟\nاختبرها داخل الفيديو النهائي اولا، ثم راجع مواصفات المنصة والعميل قبل upload.\n### هل يمكنني القول ان المسار آمن تجاريا؟\nلا تكتب ذلك الا اذا راجعت شروط الخطة، التصاريح، وقواعد القناة المقصودة."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer Case-Study-Videos planen, ohne Beweise aufzublasen",
+      "description": "Ein praktischer Proof-Map-Workflow fuer Customer Story, Interview, Kennzahlen, Captions und Freigaben.",
+      "body": [
+        "Ein Case-Study-Video verliert Vertrauen, wenn die Musik sicherer klingt als der Beweis. Die Kundin beschreibt ruhig ein echtes Problem, aber darunter waechst ein Trailer-Build, und ploetzlich fuehlt sich die Geschichte wie uebertriebene Werbung an. Die Musik soll hier nicht jede Zeile gross machen. Sie soll Aufmerksamkeit ordnen: Problem klar, Loesung verstaendlich, Beleg hoerbar.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die aus Beschreibungen, Lyrics und Stilideen Musikentwuerfe erzeugen kann. Sie hilft, Richtungen schnell zu testen; Ehrlichkeit des Testimonials, Nutzungsrechte, Disclosure und Plattformpruefung bleiben separate Aufgaben.",
+        "## Mit einer Beweiskarte beginnen",
+        "Schreibe vor dem Prompt vier Stationen auf: Problem vor dem Produkt, Erkenntnismoment, praktischer Beweis und naechster Schritt. Fuer jede Station notierst du, was der Zuschauer wirklich hoeren muss. Beim Problem duerfen Raumton oder Stille bleiben. Beim Beweis reicht ein kurzer Lift, wenn eine Zahl, ein Produktbild oder ein klares Zitat erscheint. Beim CTA ist ein sauberer Schluss besser als ein langer Build unter Sprache.",
+        "## Interview und Zahlen schuetzen",
+        "Die menschliche Stimme ist das wertvollste Material der Case Study. Bitte um ein music bed ohne lead vocal, ohne scharfe snare unter Konsonanten und ohne dichten bass, wenn Kennzahlen im Bild stehen. Wenn die Stilwoerter zu weich sind, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Begriffe wie trustworthy oder warm in Tempo, Instrumente, Dichte und Avoid-Liste uebersetzen. Danach testest du leise. Wenn der Hauptsatz verschwindet, ist der Track nicht bereit.",
+        "## Einen Prompt fuer Proof statt Hype schreiben",
+        "Ein brauchbarer Prompt: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. Nutze keine bekannte Songreferenz. Bitte nicht um victory anthem, wenn das Video Lernen, Verbesserung oder eine nuechterne Kaufentscheidung zeigt.",
+        "## Vor der Auslieferung pruefen",
+        "Vor einem Kundenvideo klaerst du: Deckt die Freigabe diesen Schnitt ab? Gibt es eine Verbindung, die offengelegt werden muss? Sind Zahlen belegbar? Verlangt die Plattform einen Hinweis auf synthetisch erzeugte Inhalte oder Musik? Ist der Cue im Handoff dokumentiert? EasyMusic.AI kann beim Entwurf helfen; die Freigabe kommt aus Client Review, Plattformregeln und Team-Policy.",
+        "## Sofort nutzbare Ideen",
+        "- Markiere quiet zones ueber jedem Satz mit Zahl, Ergebnis oder Kundenzitat.\n- Erstelle eine 45-Sekunden-Fassung ohne langes Intro, damit das Problem frueh sichtbar bleibt.\n- Schreibe vor dem Generieren drei Ablehnungswoerter wie heroic, luxury, aggressive.\n- Halte das Logo-Ende unter zwei Sekunden, wenn Social Cuts geplant sind.\n- Speichere Prompt, draft number, approver und offene Disclosure-Frage auf einer Karte.",
+        "## FAQ\n### Braucht eine Case Study emotionale Musik?\nNicht zwingend. Sie braucht stabile Musik, die Sprache klar laesst und den Beweis nicht uebertreibt.\n### Kann dieselbe Spur lang und kurz funktionieren?\nBeginne mit derselben Identitaet, aber baue fuer kurze Fassungen weniger Dichte ein, damit Zitate erhalten bleiben.\n### Wann sollte ich die Musik pruefen?\nIm finalen Video, nicht nur allein. Erst dann zeigen sich Sprach- und Caption-Probleme.\n### Darf ich kommerzielle Sicherheit versprechen?\nNein. Pruefe Planbedingungen, Freigaben und Kanalregeln, bevor du so etwas behauptest."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Case Study Videos Without Overselling the Proof",
+      "description": "A practical proof-map workflow for using AI music under customer stories, interviews, metrics, captions, and approvals.",
+      "body": [
+        "A case study video starts to lose trust when the music sounds more certain than the evidence. The customer is calmly describing a real problem, but the bed underneath swells like a launch trailer, and the story suddenly feels pushed. The job of music in a proof-led video is not to make every sentence heroic. It is to organize attention so the problem is clear, the quote is audible, and the result can stand on its own.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform that can turn text descriptions, lyrics, and style ideas into music drafts. It can help you test soundtrack directions quickly, but testimonial accuracy, usage rights, disclosure, and platform review still need separate checks.",
+        "## Start With a Proof Map, Not a Mood Board",
+        "Before writing a prompt, mark four beats in the edit: the problem before the product, the discovery moment, the practical evidence, and the next step. For each beat, decide what the viewer must hear. The problem may need room tone or silence. The proof moment may need only a small lift when a metric, product screen, or specific quote appears. The call to action usually needs a clean ending more than a dramatic build.",
+        "## Protect the Interview and the Numbers",
+        "The human voice is the asset. Ask for a music bed with no lead vocal, no sharp snare under consonants, and no crowded bass when numbers appear on screen. If your style words are vague, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn words like trustworthy or warm into tempo, instrumentation, density, and avoid-list language. Then test the cue at low volume. If the core sentence disappears, the track is not ready.",
+        "## Prompt for Evidence, Not Hype",
+        "A reusable prompt might read: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. Do not use a famous song as a reference. Do not ask for a victory anthem when the video is really about learning, improvement, or a careful buying decision.",
+        "## Review Before Delivery",
+        "Before a customer story goes live, ask five plain questions: does the customer release cover this cut, does any material connection need disclosure, are the metrics substantiated, does the platform ask about synthetic or generated content, and is the music cue documented in the handoff card? EasyMusic.AI can support the draft stage, but final publication is a client, platform, and policy review.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Add a music quiet zone over every sentence that contains a number, result, or customer quote.\n- Make a 45-second cut with no long intro so the problem appears early.\n- Write a three-word reject list before generation, such as heroic, luxury, aggressive.\n- Keep the logo ending under two seconds if the video will be recut for social channels.\n- Save the prompt, draft number, approver, and open disclosure question in one handoff card.",
+        "## FAQ\n### Should case study music sound emotional?\nIt can have warmth, but it should not tell viewers to feel more than the evidence supports.\n### Can one track work for the long edit and short ad cut?\nStart from one identity, then make a lighter short version so quotes and captions survive compression.\n### Should I use lyrics in a customer story?\nUsually no. Lyrics compete with interview speech and caption reading.\n### Is AI-generated music automatically cleared for every business channel?\nNo. Check the current plan terms, customer permissions, and platform requirements before publishing."
+      ]
+    },
+    "es": {
+      "title": "Planifica musica IA para case studies sin exagerar la prueba",
+      "description": "Workflow practico para usar musica IA bajo customer stories, entrevistas, metricas, captions y aprobaciones.",
+      "body": [
+        "Un video de case study pierde confianza cuando la musica suena mas segura que la evidencia. El cliente explica con calma un problema real, pero la cama musical sube como trailer de lanzamiento y la historia empieza a sentirse forzada. La musica en un video basado en prueba no debe volver heroica cada frase. Debe ordenar la atencion: problema claro, cita audible y resultado capaz de sostenerse solo.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA que puede convertir descripciones, lyrics e ideas de estilo en borradores musicales. Ayuda a probar direcciones rapido, pero precision del testimonial, derechos de uso, disclosures y reglas de plataforma requieren revision aparte.",
+        "## Empieza con un proof map, no con un mood board",
+        "Antes del prompt, marca cuatro beats del edit: problema antes del producto, momento de descubrimiento, evidencia practica y siguiente paso. En cada beat decide que debe escuchar la audiencia. El problema puede necesitar sonido ambiente o silencio. El momento de prueba quizas solo necesite una pequena subida cuando aparece una metrica, pantalla de producto o frase concreta. El CTA suele necesitar final limpio mas que un build dramatico.",
+        "## Protege la entrevista y los numeros",
+        "La voz humana es el material principal. Pide una cama sin lead vocal, sin snare agresivo bajo consonantes y sin bass cargado cuando aparecen numeros en pantalla. Si tus palabras de estilo son vagas, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir trustworthy o warm en tempo, instrumentos, densidad y avoid-list. Luego prueba el cue a bajo volumen. Si desaparece la frase central, la pista no esta lista.",
+        "## Escribe prompts para prueba, no para hype",
+        "Un prompt reutilizable podria ser: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. No uses una cancion famosa como referencia. No pidas victory anthem si el video trata de aprendizaje, mejora o una decision de compra cuidadosa.",
+        "## Revisa antes de entregar",
+        "Antes de publicar una historia de cliente, haz cinco preguntas: el permiso del cliente cubre este corte? Hay una relacion material que deba explicarse? Las metricas estan respaldadas? La plataforma pregunta por contenido synthetic o generado? El cue esta documentado en el handoff? EasyMusic.AI puede apoyar el borrador, pero la publicacion final pertenece a cliente, plataforma y politica del equipo.",
+        "## Ideas reutilizables para hoy",
+        "- Marca music quiet zone sobre cada frase con numero, resultado o cita de cliente.\n- Haz un corte de 45 segundos sin intro larga para que el problema aparezca temprano.\n- Escribe tres palabras de rechazo antes de generar, como heroic, luxury, aggressive.\n- Mantén el final de logo por debajo de dos segundos si habra recortes sociales.\n- Guarda prompt, draft number, approver y disclosure question abierta en una sola ficha.",
+        "## Preguntas frecuentes\n### La musica de case study debe sonar emocional?\nPuede tener calidez, pero no debe pedir al espectador sentir mas de lo que la evidencia sostiene.\n### Sirve una pista para version larga y anuncio corto?\nEmpieza con una identidad comun y crea una version corta mas ligera para proteger citas y captions.\n### Conviene usar lyrics?\nNormalmente no. Las lyrics compiten con la entrevista y con la lectura de captions.\n### La musica IA queda autorizada para todo canal de negocio?\nNo. Revisa terminos de plan, permisos del cliente y requisitos de la plataforma."
+      ]
+    },
+    "fr": {
+      "title": "Planifier une musique IA pour case study sans grossir la preuve",
+      "description": "Workflow pratique pour placer une musique IA sous customer story, interview, chiffres, captions et validations.",
+      "body": [
+        "Une video de case study perd de la confiance quand la musique semble plus certaine que la preuve. Le client raconte calmement un vrai probleme, mais le bed sonore monte comme une bande-annonce, et l histoire parait poussee. Dans une video fondee sur la preuve, la musique ne doit pas rendre chaque phrase heroique. Elle doit organiser l attention: probleme lisible, citation audible, resultat capable de tenir seul.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui peut transformer descriptions, lyrics et idees de style en brouillons musicaux. Elle aide a tester vite des directions, mais exactitude du temoignage, droits d usage, disclosure et regles de plateforme restent des controles separes.",
+        "## Commencer par une proof map",
+        "Avant le prompt, marque quatre moments dans le montage: le probleme avant le produit, le moment de decouverte, la preuve pratique et l etape suivante. Pour chacun, decide ce que le spectateur doit entendre. Le probleme peut avoir besoin de son direct ou de silence. La preuve demande parfois une petite montee quand un chiffre, un ecran produit ou une citation precise apparait. L appel a l action demande souvent une fin nette plutot qu une grande montee.",
+        "## Proteger l interview et les chiffres",
+        "La voix humaine est l actif principal. Demande un music bed sans lead vocal, sans snare coupant sous les consonnes et sans basse dense quand des chiffres sont a l ecran. Si les mots de style restent vagues, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut convertir trustworthy ou warm en tempo, instruments, densite et avoid-list. Teste ensuite le cue a faible volume. Si la phrase cle disparait, la piste n est pas prete.",
+        "## Ecrire pour la preuve, pas pour le hype",
+        "Un prompt reutilisable: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. Ne prends pas une chanson connue comme reference. Ne demande pas victory anthem si la video parle surtout d apprentissage, d amelioration ou d achat raisonne.",
+        "## Relire avant livraison",
+        "Avant de publier une histoire client, pose cinq questions simples: l autorisation client couvre-t-elle ce montage? Un lien materiel doit-il etre signale? Les chiffres sont-ils justifies? La plateforme demande-t-elle une indication sur contenu synthetique ou genere? Le cue musical est-il note dans le handoff? EasyMusic.AI peut aider la phase brouillon; la publication finale depend du client, de la plateforme et de la politique d equipe.",
+        "## Idees utilisables aujourd'hui",
+        "- Ajoute une quiet zone musicale sur chaque phrase avec chiffre, resultat ou citation client.\n- Fais une version 45 secondes sans longue intro pour montrer le probleme tot.\n- Ecris trois mots a refuser avant generation, comme heroic, luxury, aggressive.\n- Garde la fin logo sous deux secondes si des formats sociaux sont prevus.\n- Sauve prompt, draft number, approver et question de disclosure ouverte sur une carte.",
+        "## FAQ\n### La musique doit-elle etre emotionnelle?\nElle peut etre chaleureuse, mais ne doit pas demander plus d emotion que la preuve ne permet.\n### Une seule piste suffit-elle pour long et court?\nPars d une meme identite, puis allege la version courte pour proteger citations et captions.\n### Faut-il des lyrics?\nSouvent non. Les lyrics rivalisent avec l interview et la lecture des captions.\n### La musique IA est-elle automatiquement valable partout?\nNon. Verifie conditions du plan, autorisations client et exigences de chaque plateforme."
+      ]
+    },
+    "it": {
+      "title": "Pianificare musica AI per case study senza gonfiare le prove",
+      "description": "Workflow pratico per usare musica AI sotto customer story, interviste, metriche, captions e approvazioni.",
+      "body": [
+        "Un video case study perde fiducia quando la musica suona piu sicura delle prove. Il cliente racconta con calma un problema reale, ma sotto parte un crescendo da trailer e la storia sembra spinta. In un video basato su evidenza, la musica non deve rendere eroica ogni frase. Deve ordinare l attenzione: problema chiaro, citazione udibile, risultato capace di reggersi da solo.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA che puo trasformare descrizioni, lyrics e idee di stile in bozze musicali. Aiuta a provare direzioni sonore rapidamente, ma accuratezza del testimonial, diritti d uso, disclosure e regole di piattaforma richiedono controlli separati.",
+        "## Parti da una proof map",
+        "Prima del prompt, segna quattro momenti nel montaggio: problema prima del prodotto, scoperta, prova pratica e prossimo passo. Per ognuno decidi cosa deve sentire lo spettatore. Il problema puo avere bisogno di suono ambiente o silenzio. La prova puo richiedere solo una piccola salita quando appare una metrica, una schermata prodotto o una citazione precisa. La call to action di solito vuole una fine pulita piu che un build drammatico.",
+        "## Proteggi intervista e numeri",
+        "La voce umana e l asset principale. Chiedi un music bed senza lead vocal, senza snare tagliente sotto le consonanti e senza bass affollato quando appaiono numeri. Se le parole di stile sono vaghe, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare trustworthy o warm in tempo, strumenti, densita e avoid-list. Poi prova il cue a volume basso. Se la frase centrale sparisce, la traccia non e pronta.",
+        "## Scrivi prompt per prova, non per hype",
+        "Un prompt riutilizzabile: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. Non usare una canzone famosa come riferimento. Non chiedere victory anthem se il video parla di apprendimento, miglioramento o decisione d acquisto prudente.",
+        "## Controlla prima della consegna",
+        "Prima di pubblicare una customer story, fai cinque domande: la liberatoria copre questo taglio? Esiste una relazione materiale da dichiarare? Le metriche sono documentate? La piattaforma chiede informazioni su contenuti sintetici o generati? Il cue e registrato nel handoff? EasyMusic.AI puo sostenere la fase di bozza; la pubblicazione finale dipende da cliente, piattaforma e policy del team.",
+        "## Idee riutilizzabili da applicare oggi",
+        "- Aggiungi una quiet zone musicale sopra ogni frase con numero, risultato o citazione cliente.\n- Crea un taglio da 45 secondi senza lunga intro, cosi il problema arriva presto.\n- Scrivi tre parole da evitare prima di generare, come heroic, luxury, aggressive.\n- Tieni il logo ending sotto due secondi se sono previsti tagli social.\n- Salva prompt, draft number, approver e domanda disclosure aperta in una scheda.",
+        "## FAQ\n### La musica di un case study deve essere emotiva?\nPuo essere calda, ma non deve chiedere piu emozione di quanto le prove sostengano.\n### Una traccia serve per lungo e corto?\nParti da una stessa identita, poi alleggerisci la versione breve per proteggere citazioni e captions.\n### Conviene usare lyrics?\nDi solito no. Le lyrics competono con intervista e lettura delle captions.\n### La musica AI e automaticamente pronta per ogni canale business?\nNo. Controlla termini del piano, permessi del cliente e requisiti della piattaforma."
+      ]
+    },
+    "ja": {
+      "title": "Case study動画のAI音楽を、証拠を盛りすぎずに設計する",
+      "description": "Customer story、interview、metrics、captions、approvalを守りながらAI音楽を入れるためのproof map workflow。",
+      "body": [
+        "Case study動画は、音楽が証拠より強く聞こえた瞬間に信頼を失います。顧客は実際の課題を落ち着いて話しているのに、下のmusic bedがlaunch trailerのように盛り上がると、話全体が押しつけがましく見えます。Proof-led videoでの音楽の役割は、すべての文をheroicにすることではありません。問題、quote、resultを聞き取りやすく並べることです。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、text description、lyrics、style ideaからmusic draftを作れるAI音楽制作platformです。方向性を早く試す助けになりますが、testimonialの正確性、usage rights、disclosure、platform reviewは別に確認する必要があります。",
+        "## Mood boardではなくproof mapから始める",
+        "Promptを書く前に、editの4つのbeatを決めます: product前のproblem、discovery moment、practical evidence、next step。各beatで、viewerが何を聞くべきかを一つずつ書きます。Problemにはroom toneやsilenceが必要なことがあります。Proof momentでは、metric、product screen、具体的なquoteが出る場所だけ小さくliftします。CTAではdramatic buildよりclean endingが役立ちます。",
+        "## Interviewと数字を守る",
+        "人の声がcase studyの中心素材です。Lead vocalなし、consonantの下で鋭いsnareなし、数字が出る場面で混んだbassなし、というbedを求めます。Style wordsが曖昧なときは、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) でtrustworthyやwarmをtempo、instruments、density、avoid-listに変換します。その後、低いvolumeで試聴します。中心の一文が消えるなら、そのtrackはまだreadyではありません。",
+        "## Hypeではなくevidence向けにpromptを書く",
+        "再利用できるprompt例: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. 有名曲をreferenceにしないでください。学び、改善、慎重な購買判断を伝える動画にvictory anthemを求めない方が安全です。",
+        "## Delivery前にreviewする",
+        "Customer storyを公開する前に5つ確認します。Customer releaseはこのcutを含むか。Material connectionのdisclosureが必要か。Metricsは根拠があるか。Platformはsyntheticまたはgenerated contentについて質問するか。Music cueはhandoff cardに記録したか。EasyMusic.AIはdraft stageを支えますが、final publicationはclient、platform、team policyのreviewです。",
+        "## 今日すぐ使えるアイデア",
+        "- Number、result、customer quoteを含むsentenceの上にmusic quiet zoneを置く。\n- Problemが早く出るよう、長いintroなしの45秒cutを作る。\n- Generation前にheroic、luxury、aggressiveのようなreject wordを3つ書く。\n- Social向けに切り直すならlogo endingは2秒未満にする。\n- Prompt、draft number、approver、open disclosure questionを一枚のhandoff cardに残す。",
+        "## FAQ\n### Case studyの音楽は感情的にすべきですか？\nWarmthはあってよいですが、evidence以上の感情をviewerに求める音楽は避けます。\n### Long editとshort adで同じtrackを使えますか？\n同じidentityから始め、short versionはlighterにしてquoteとcaptionsを守ります。\n### Lyricsは使うべきですか？\n多くの場合は不要です。Lyricsはinterview speechとcaption readingに競合します。\n### AI生成音楽は全business channelで自動的に使えますか？\nいいえ。Plan terms、customer permission、platform requirementsを確認してから公開します。"
+      ]
+    },
+    "ko": {
+      "title": "Case study video용 AI music을 proof를 과장하지 않게 설계하는 법",
+      "description": "Customer story, interview, metrics, captions, approval을 지키는 AI music proof-map workflow.",
+      "body": [
+        "Case study video는 music이 evidence보다 더 확신에 차 보일 때 신뢰를 잃습니다. 고객은 실제 문제를 차분히 말하는데, 아래 music bed가 launch trailer처럼 커지면 이야기가 과장된 광고처럼 느껴집니다. Proof-led video에서 music의 역할은 모든 문장을 heroic하게 만드는 것이 아닙니다. problem, quote, result가 또렷하게 들리도록 attention을 정리하는 것입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text description, lyrics, style idea를 music draft로 바꿀 수 있는 AI 음악 제작 platform입니다. Soundtrack direction을 빠르게 시험할 수 있지만 testimonial accuracy, usage rights, disclosure, platform review는 따로 확인해야 합니다.",
+        "## Mood board보다 proof map부터 만든다",
+        "Prompt 전에 edit의 네 beat를 표시합니다: product 전 problem, discovery moment, practical evidence, next step. 각 beat에서 viewer가 반드시 들어야 하는 것을 정합니다. Problem에는 room tone이나 silence가 필요할 수 있습니다. Proof moment는 metric, product screen, specific quote가 나오는 지점에만 작은 lift를 둡니다. CTA는 dramatic build보다 clean ending이 더 중요할 때가 많습니다.",
+        "## Interview와 숫자를 보호한다",
+        "사람의 voice가 case study의 핵심 asset입니다. Lead vocal 없는 music bed, consonants 아래 날카로운 snare 없음, 숫자가 보일 때 crowded bass 없음으로 요청하세요. Style words가 모호하면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 trustworthy나 warm을 tempo, instruments, density, avoid-list 언어로 바꿀 수 있습니다. 그런 다음 낮은 volume으로 테스트하세요. 핵심 문장이 사라지면 track은 ready가 아닙니다.",
+        "## Hype가 아니라 evidence를 위한 prompt",
+        "재사용 가능한 prompt 예: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. 유명한 song reference는 피하세요. 학습, 개선, 신중한 구매 결정을 다루는 video에 victory anthem을 요구하지 마세요.",
+        "## Delivery 전에 검토한다",
+        "Customer story를 공개하기 전에 다섯 가지를 묻습니다. Customer release가 이 cut을 포함하나요? Material connection disclosure가 필요한가요? Metrics가 substantiated되어 있나요? Platform이 synthetic 또는 generated content에 대해 묻나요? Music cue가 handoff card에 기록되어 있나요? EasyMusic.AI는 draft stage를 도울 수 있지만 final publication은 client, platform, team policy review입니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- Number, result, customer quote가 포함된 sentence 위에는 music quiet zone을 둡니다.\n- Problem이 일찍 보이도록 긴 intro 없는 45초 cut을 만듭니다.\n- 생성 전 heroic, luxury, aggressive 같은 reject word 세 개를 씁니다.\n- Social recut이 예정되어 있으면 logo ending을 2초 미만으로 둡니다.\n- Prompt, draft number, approver, open disclosure question을 handoff card 하나에 저장합니다.",
+        "## FAQ\n### Case study music은 감정적이어야 하나요?\nWarmth는 괜찮지만 evidence가 뒷받침하지 않는 감정을 요구하면 안 됩니다.\n### Long edit과 short ad에 같은 track을 쓸 수 있나요?\n같은 identity에서 시작하고 short version은 더 가볍게 만들어 quote와 captions를 보호합니다.\n### Lyrics를 써도 되나요?\n대부분은 피하는 편이 낫습니다. Lyrics는 interview speech와 caption reading과 경쟁합니다.\n### AI-generated music은 모든 business channel에서 자동으로 cleared인가요?\n아니요. Plan terms, customer permission, platform requirements를 확인한 뒤 publish하세요."
+      ]
+    },
+    "pt": {
+      "title": "Planeje musica IA para case studies sem inflar a prova",
+      "description": "Workflow pratico de proof map para usar musica IA sob customer stories, entrevistas, metricas, captions e aprovacoes.",
+      "body": [
+        "Um video de case study perde confianca quando a musica soa mais certa que a evidencia. O cliente descreve um problema real com calma, mas a trilha cresce como trailer de lancamento e a historia passa a parecer empurrada. Em um video guiado por prova, a musica nao deve tornar cada frase heroica. Ela deve organizar a atencao: problema claro, fala audivel e resultado capaz de se sustentar.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA que pode transformar descricoes, lyrics e ideias de estilo em rascunhos musicais. Ela ajuda a testar direcoes rapidamente, mas precisao do testimonial, direitos de uso, disclosure e regras de plataforma continuam sendo revisoes separadas.",
+        "## Comece com um proof map",
+        "Antes do prompt, marque quatro beats no edit: problema antes do produto, momento de descoberta, evidencia pratica e proximo passo. Para cada beat, defina o que o viewer precisa ouvir. O problema pode precisar de room tone ou silencio. A prova talvez precise so de um pequeno lift quando aparece uma metrica, tela de produto ou quote especifico. O CTA normalmente precisa de final limpo mais do que build dramatico.",
+        "## Proteja entrevista e numeros",
+        "A voz humana e o principal asset. Peca uma music bed sem lead vocal, sem snare agudo sob consoantes e sem bass cheio quando numeros aparecem na tela. Se as palavras de estilo estiverem vagas, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar trustworthy ou warm em tempo, instrumentos, densidade e avoid-list. Depois teste o cue em volume baixo. Se a frase central some, a faixa nao esta pronta.",
+        "## Escreva prompt para evidencia, nao hype",
+        "Um prompt reutilizavel: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. Nao use uma musica famosa como referencia. Nao peca victory anthem quando o video fala de aprendizado, melhoria ou decisao de compra cuidadosa.",
+        "## Revise antes da entrega",
+        "Antes de publicar uma customer story, faca cinco perguntas: a autorizacao do cliente cobre este corte? Existe material connection que precise disclosure? As metricas tem base? A plataforma pergunta sobre conteudo synthetic ou generated? O cue esta documentado no handoff? EasyMusic.AI pode apoiar a fase de rascunho, mas a publicacao final depende de cliente, plataforma e politica do time.",
+        "## Ideias reutilizaveis para hoje",
+        "- Coloque uma music quiet zone sobre toda frase com numero, resultado ou customer quote.\n- Faca um corte de 45 segundos sem intro longa para o problema aparecer cedo.\n- Escreva tres palavras de rejeicao antes de gerar, como heroic, luxury, aggressive.\n- Mantenha o logo ending abaixo de dois segundos se houver recortes sociais.\n- Salve prompt, draft number, approver e open disclosure question em um handoff card.",
+        "## Perguntas frequentes\n### Musica de case study deve ser emocional?\nPode ter calor, mas nao deve pedir mais emocao do que a evidencia sustenta.\n### Uma faixa serve para versao longa e curta?\nComece com a mesma identidade e faca uma versao curta mais leve para proteger quotes e captions.\n### Devo usar lyrics?\nGeralmente nao. Lyrics competem com fala da entrevista e leitura de captions.\n### Musica gerada por IA fica automaticamente liberada para todo canal business?\nNao. Confira termos do plano, permissoes do cliente e requisitos da plataforma."
+      ]
+    },
+    "ru": {
+      "title": "План AI music для case study video без преувеличения доказательств",
+      "description": "Практический proof map workflow для customer story, interview, metrics, captions и approvals.",
+      "body": [
+        "Case study video теряет доверие, когда музыка звучит увереннее, чем доказательства. Клиент спокойно говорит о реальной проблеме, а music bed снизу растет как launch trailer, и история начинает казаться навязанной. В proof-led video музыка не должна делать каждую фразу героической. Она должна организовать внимание: problem понятен, quote слышна, result держится сам.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, которая может превращать text descriptions, lyrics и style ideas в music drafts. Она помогает быстро тестировать soundtrack directions, но testimonial accuracy, usage rights, disclosure и platform review нужно проверять отдельно.",
+        "## Начните с proof map, а не mood board",
+        "До prompt отметьте четыре beat в edit: problem before product, discovery moment, practical evidence и next step. Для каждого beat решите, что зритель обязан услышать. Problem может требовать room tone или silence. Proof moment часто нуждается только в небольшом lift, когда появляется metric, product screen или точная quote. CTA обычно выигрывает от clean ending, а не от dramatic build.",
+        "## Защитите интервью и цифры",
+        "Human voice - главный asset case study. Попросите music bed без lead vocal, без sharp snare под consonants и без crowded bass, когда на экране metrics. Если style words слишком расплывчаты, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет перевести trustworthy или warm в tempo, instruments, density и avoid-list. Затем проверьте cue на низкой громкости. Если ключевая фраза исчезает, track не готов.",
+        "## Пишите prompt для evidence, не для hype",
+        "Практичный prompt: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo. Не используйте famous song reference. Не просите victory anthem, если видео о learning, improvement или careful buying decision.",
+        "## Проверьте перед delivery",
+        "Перед публикацией customer story задайте пять вопросов: release клиента покрывает этот cut? Есть material connection, который требует disclosure? Metrics substantiated? Платформа спрашивает о synthetic или generated content? Music cue записан в handoff card? EasyMusic.AI может помочь на draft stage, но final publication требует client, platform и team policy review.",
+        "## Идеи, которые можно применить сегодня",
+        "- Добавьте music quiet zone над каждой фразой с number, result или customer quote.\n- Сделайте 45-секундный cut без длинного intro, чтобы problem появился рано.\n- До generation напишите три reject words: heroic, luxury, aggressive.\n- Держите logo ending короче двух секунд, если будут social recuts.\n- Сохраните prompt, draft number, approver и open disclosure question в одной handoff card.",
+        "## FAQ\n### Нужна ли case study эмоциональная музыка?\nТепло допустимо, но музыка не должна требовать эмоции сильнее, чем позволяет evidence.\n### Один track подойдет для long edit и short ad?\nНачните с одной identity, затем сделайте short version легче, чтобы защитить quotes и captions.\n### Использовать lyrics?\nОбычно нет. Lyrics конкурируют с interview speech и чтением captions.\n### AI-generated music автоматически подходит для всех business channels?\nНет. Проверьте plan terms, customer permissions и platform requirements перед публикацией."
+      ]
+    },
+    "zh": {
+      "title": "为 case study 视频规划 AI 音乐，别让配乐盖过证据",
+      "description": "一个 proof map 工作流，帮助你在 customer story、interview、metrics、captions 和 approval 中使用 AI 音乐。",
+      "body": [
+        "Case study 视频最怕音乐听起来比证据更有把握。客户在平静地讲一个真实问题，但下面的 music bed 像 launch trailer 一样不断升高，故事就会显得被推着走。Proof-led video 里的音乐不是把每句话都变 heroic，而是整理注意力: problem 清楚，quote 听得见，result 能自己站住。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以把 text descriptions、lyrics 和 style ideas 变成 music drafts。它能帮助你快速测试 soundtrack direction，但 testimonial accuracy、usage rights、disclosure 和 platform review 仍然需要单独确认。",
+        "## 先做 proof map，而不是 mood board",
+        "写 prompt 之前，先在 edit 里标出四个 beat: product 出现前的 problem、discovery moment、practical evidence、next step。每个 beat 都写清楚观众必须听到什么。Problem 可能需要 room tone 或 silence。Proof moment 只需要在 metric、product screen 或具体 quote 出现时轻轻 lift。CTA 通常更需要 clean ending，而不是 dramatic build。",
+        "## 保护采访和数字",
+        "Human voice 是 case study 的核心 asset。要求 music bed 没有 lead vocal，consonants 下没有尖锐 snare，屏幕出现 metrics 时不要有 crowded bass。如果 style words 太虚，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把 trustworthy 或 warm 转成 tempo、instruments、density 和 avoid-list。之后用低音量测试 cue。如果核心句子消失，track 还没 ready。",
+        "## 写给 evidence，而不是 hype 的 prompt",
+        "可复用 prompt 示例: steady 96 BPM warm minimal electronic bed, soft pulse, light piano notes, no vocals, no big cinematic drums, lower density under interview, small lift at customer result, clean two-beat ending for logo。不要用知名歌曲做 reference。视频如果讲的是 learning、improvement 或 careful buying decision，就不要要求 victory anthem。",
+        "## Delivery 前做 review",
+        "Customer story 发布前问五个问题: customer release 是否覆盖这个 cut？是否有 material connection 需要 disclosure？metrics 是否有依据？platform 是否询问 synthetic 或 generated content？music cue 是否写进 handoff card？EasyMusic.AI 可以支持 draft stage，但 final publication 仍然是 client、platform 和 team policy review。",
+        "## 今天就能用的想法",
+        "- 每个包含 number、result 或 customer quote 的 sentence 上方都标出 music quiet zone。\n- 做一个没有长 intro 的 45 秒 cut，让 problem 更早出现。\n- 生成前写下三个 reject words，例如 heroic、luxury、aggressive。\n- 如果后续要剪 social version，把 logo ending 控制在两秒以内。\n- 把 prompt、draft number、approver 和 open disclosure question 放在一张 handoff card 里。",
+        "## FAQ\n### Case study 音乐需要很情绪化吗？\n可以有 warmth，但不要让音乐要求观众相信超过 evidence 支撑的情绪。\n### Long edit 和 short ad 能用同一条 track 吗？\n从同一个 identity 开始，然后为 short version 降低 density，保护 quotes 和 captions。\n### 要不要用 lyrics？\n通常不要。Lyrics 会和 interview speech 以及 caption reading 竞争。\n### AI-generated music 会自动适合所有 business channel 吗？\n不会。发布前要检查 plan terms、customer permission 和 platform requirements。"
+      ]
+    }
+  }
+}
