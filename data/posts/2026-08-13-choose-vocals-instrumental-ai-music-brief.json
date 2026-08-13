@@ -1,0 +1,249 @@
+{
+  "date": "2026-08-13",
+  "slug": "choose-vocals-instrumental-ai-music-brief",
+  "cluster": "vocal-instrumental-decision-workflows",
+  "translations": {
+    "ar": {
+      "title": "اختر vocals او instrumental قبل توليد موسيقى AI",
+      "description": "Brief عملي يحدد متى تحتاج vocals، instrumental، lyrics، ومراجعة disclosure قبل توليد مسودة AI music.",
+      "body": [
+        "اكثر قرار يربك مسودة موسيقى AI يحدث قبل الضغط على generate: هل تحتاج الاغنية الى صوت غنائي، ام تحتاج مسارا instrumental يترك مساحة للكلام والصورة؟ اذا اخترت vocals مبكرا من دون سبب واضح، قد تغطي الرسالة او تصنع التزاما لغويا لا تحتاجه. واذا اخترت instrumental دائما، قد تفقد hook قصيرا كان يمكن ان يجعل القطعة قابلة للتذكر.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من description، lyrics، style، وcontrols مثل vocal choice وstyle instructions. يمكن ان تساعدك على اختبار اتجاهات بسرعة، لكن قرار النشر، الحقوق، disclosure، ومراجعة الفريق تبقى خطوات منفصلة.",
+        "## ابدأ بوظيفة الصوت",
+        "اكتب وظيفة واحدة للمسار قبل اي prompt: song، bed، cue، loop، او sting. Song يمكن ان يحتمل vocals لان voice هي الرسالة. Bed تحت voiceover، training، demo، او interview يحتاج غالبا instrumental او vocal texture بلا كلمات واضحة. Cue قصير للشعار قد يستخدم syllable واحدا او chant صغيرا، لكن يجب ان يكون قابلا للقص من دون فقدان المعنى.",
+        "## عندما تختار vocals",
+        "اختر vocals عندما يحتاج المستمع الى عبارة يتذكرها، او عندما يكون المنتج نفسه اغنية، jingle، teaser، او demo لفنان. اكتب lyrics قصيرة ومقصودة بدلا من verse كامل غير مطلوب. اذا كان hook يحتاج صياغة، استخدم [AI Lyrics Generator](https://easymusic.ai/ar/tools/ai-lyrics-generator) لصنع بدائل قليلة، ثم احذف كل line لا تخدم الhook. لا تستخدم صوتا يحاكي شخصا حقيقيا او فنانا معروفا.",
+        "## عندما تختار instrumental",
+        "اختر instrumental عندما توجد narration، captions كثيفة، خطوات تعليمية، customer quote، او dialogue. في هذه الحالات، اطلب مساحة في منتصف الترددات، percussion ناعما، وغياب lead melody المزعجة. اذا احتجت الى جعل instrumental يحمل mood بدقة، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل كلمات مثل calm، urgent، أو handmade الى instruments، tempo، وdensity.",
+        "## اختبر نسختين فقط",
+        "لا تولد عشر نسخ عشوائية. اصنع اختبارا بسيطا: Vocal A فيه hook line واحدة، وInstrumental B بنفس tempo والgenre والطاقة. شغل كل نسخة تحت الصورة او السكربت لمدة 30 ثانية. اذا كان الكلام او caption ابطأ من القراءة، يفوز instrumental. اذا كان المشاهد يتذكر الhook بعد مرة واحدة من دون فقدان الرسالة، يمكن ان تكمل vocal direction.",
+        "## راجع السجل قبل النشر",
+        "اكتب في handoff card هل تم توليد lyrics، vocals، instrumental، او production بالذكاء الاصطناعي. بعض المنصات او distributors قد تسأل عن AI contributions، وبعض الفيديوهات قد تحتاج disclosure اذا كان المحتوى المولد يبدو واقعيا او مؤثرا في فهم المشاهد. لا تعد العميل بان الاختيار vocal او instrumental يجعل الاستخدام آمنا تلقائيا.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اذا كان في الفيديو voiceover مستمر، ابدأ instrumental ثم برر اي vocal لاحقا.\n- اذا احتجت hook، اجعله line واحدة يمكن كتمها من دون تدمير القطعة.\n- ضع كلمة ممنوعة: famous artist voice، known song، وcelebrity tone.\n- اختبر النسخة vocal على speaker هاتف صغير، لا على headphones فقط.\n- احفظ سبب القرار: vocals for memory او instrumental for clarity.",
+        "## اسئلة شائعة\n### هل vocals تجعل AI music افضل؟\nليس دائما. Vocals تفيد عندما تكون الكلمات جزءا من الرسالة، لكنها قد تضر عندما توجد narration او dialogue.\n### هل instrumental يبدو اقل تميزا؟\nليس اذا كان style، tempo، وinstrumentation محددين. يمكن للsignature rhythm او texture ان يصنع هوية من دون كلمات.\n### هل يمكنني توليد النسختين؟\nنعم، لكن اجعل الاختبار مضبوطا. غير vocal choice فقط، ولا تغير كل شيء في prompt.\n### هل يجب الافصاح عن AI vocals؟\nراجع قواعد المنصة او distributor. احتفظ بسجل واضح حتى لو لم يكن disclosure مطلوبا في كل حالة."
+      ]
+    },
+    "de": {
+      "title": "Vocals oder Instrumental vor der KI-Musik-Generierung waehlen",
+      "description": "Ein praktischer Brief fuer Vocals, Instrumentals, Lyrics, Klarheit, Review und Disclosure vor dem ersten AI music draft.",
+      "body": [
+        "Die wichtigste Entscheidung fuer einen KI-Musikentwurf passiert oft vor dem Generieren: Soll der Track eine Stimme haben, oder braucht er ein Instrumental, das Sprache und Bild frei laesst? Wer zu frueh Vocals waehlt, baut schnell eine Textpflicht ein. Wer immer Instrumental waehlt, verpasst vielleicht einen kleinen Hook, der das Stueck merkbar macht.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die aus Beschreibung, Lyrics, Stilideen und Steuerungen wie Vocal Choice oder Style Instructions Musikentwuerfe erzeugen kann. Sie hilft beim schnellen Testen von Richtungen; Veroeffentlichung, Rechte, Disclosure und Teamfreigabe bleiben separate Pruefungen.",
+        "## Mit der Aufgabe des Tons beginnen",
+        "Schreibe vor dem Prompt eine Aufgabe fuer den Track: song, bed, cue, loop oder sting. Ein Song kann Vocals tragen, weil die Stimme die Botschaft ist. Ein Bed unter Voiceover, Training, Demo oder Interview braucht meist Instrumental oder nur eine vokale Textur ohne klare Worte. Ein kurzer Logo Cue darf eine Silbe oder einen Chant haben, muss aber auch gekuerzt funktionieren.",
+        "## Wann Vocals sinnvoll sind",
+        "Waehle Vocals, wenn der Hoerer eine Phrase erinnern soll oder wenn das Ergebnis selbst ein Song, Jingle, Teaser oder Artist Demo ist. Schreibe kurze, absichtliche Lyrics statt eines ganzen Verses ohne Aufgabe. Wenn der Hook noch Form braucht, nutze den [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) fuer wenige Varianten und streiche jede Zeile, die dem Hook nicht hilft. Vermeide Stimmen, die echte Personen oder bekannte Artists nachahmen.",
+        "## Wann Instrumental besser ist",
+        "Waehle Instrumental, wenn es Narration, dichte Captions, Lernschritte, Kundenzitate oder Dialog gibt. Bitte in solchen Faellen um Platz in den Mitten, weiche Percussion und keine aufdringliche Lead Melody. Wenn das Instrumental trotzdem einen klaren Mood tragen soll, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Woerter wie calm, urgent oder handmade in Instrumente, Tempo und Dichte uebersetzen.",
+        "## Nur zwei Varianten testen",
+        "Erzeuge nicht zehn Zufallsrichtungen. Baue einen kontrollierten Test: Vocal A mit einer Hook Line und Instrumental B mit gleichem Tempo, Genre und Energielevel. Lege beide 30 Sekunden unter Bild oder Script. Wenn Sprache oder Captions langsamer lesbar werden, gewinnt das Instrumental. Wenn der Hook nach einem Durchgang haengen bleibt, ohne die Botschaft zu verdecken, kann die Vocal-Richtung weitergehen.",
+        "## Vor dem Publishing dokumentieren",
+        "Notiere im Handoff, ob Lyrics, Vocals, Instrumental oder Production mit KI erzeugt wurden. Manche Plattformen oder Distributoren fragen nach AI Contributions, und manche Videos brauchen Disclosure, wenn generierter Inhalt realistisch wirkt oder das Verstaendnis beeinflusst. Versprich nicht, dass Vocal oder Instrumental automatisch jede Nutzung absichert.",
+        "## Sofort nutzbare Ideen",
+        "- Bei durchgehendem Voiceover zuerst Instrumental waehlen und Vocals spaeter begruenden.\n- Wenn ein Hook noetig ist, nur eine Zeile schreiben, die man notfalls muten kann.\n- Drei No-Go-Hinweise setzen: famous artist voice, known song, celebrity tone.\n- Die Vocal-Version auch auf einem kleinen Handy-Lautsprecher testen.\n- Den Grund speichern: vocals for memory oder instrumental for clarity.",
+        "## FAQ\n### Sind Vocals immer besser fuer AI music?\nNein. Vocals helfen, wenn Worte die Botschaft tragen, stoeren aber oft bei Narration oder Dialog.\n### Klingt Instrumental weniger eigenstaendig?\nNicht zwingend. Rhythmus, Textur, Tempo und Instrumente koennen Identitaet ohne Worte schaffen.\n### Kann ich beide Versionen generieren?\nJa, aber kontrolliert. Aendere nur die Vocal-Entscheidung und nicht den ganzen Prompt.\n### Muss ich AI Vocals offenlegen?\nPruefe Plattform- oder Distributor-Regeln und dokumentiere die Entstehung, auch wenn nicht jede Nutzung Disclosure verlangt."
+      ]
+    },
+    "en": {
+      "title": "Choose Vocals or Instrumental Before You Generate AI Music",
+      "description": "A practical brief for deciding when an AI music draft needs vocals, an instrumental bed, lyrics, review notes, and disclosure checks.",
+      "body": [
+        "The most expensive AI music choice is often made before the first generation: do you need a voice, or do you need an instrumental track that leaves the words to the speaker, captions, or scene? Turn vocals on too early and you may create a lyric problem the project never needed. Default to instrumental every time and you may miss the one sung line that would make the track memorable.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for drafting music from descriptions, lyrics, style ideas, and controls such as vocal choice and style instructions. It can help test directions quickly, but publishing approval, usage rights, disclosure, and team review still need separate checks.",
+        "## Start With the Audio Job",
+        "Name the job before you write the prompt: song, bed, cue, loop, or sting. A song can carry vocals because the voice is the message. A bed under a voiceover, training video, product demo, or interview usually needs instrumental space or only a wordless vocal texture. A short logo cue might use one syllable or chant, but it should still survive if the edit needs to trim the ending.",
+        "## When to Choose Vocals",
+        "Choose vocals when the listener needs to remember a phrase, or when the asset itself is a song, jingle, teaser, or artist demo. Write fewer words than you think you need. If the hook is not settled, use the [AI Lyrics Generator](https://easymusic.ai/tools/ai-lyrics-generator) to create a small set of options, then delete every line that does not make the hook clearer. Do not ask for a voice that imitates a real person or a famous artist.",
+        "## When to Choose Instrumental",
+        "Choose instrumental when the project includes narration, dense captions, teaching steps, customer quotes, or dialogue. Ask for room in the midrange, soft percussion, and no busy lead melody under speech. If the instrumental needs to carry a specific feeling, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn words like calm, urgent, or handmade into instruments, tempo, and density language.",
+        "## Test Only Two Versions",
+        "Do not generate ten unrelated drafts. Make one controlled test: Vocal A with one hook line, and Instrumental B with the same tempo, genre, and energy. Put each under the real video, script, or landing-page cut for 30 seconds. If the viewer reads more slowly or the speaker feels smaller, the instrumental wins. If the hook is remembered after one play without covering the message, the vocal direction earns a second pass.",
+        "## Keep a Publishing Note",
+        "Write down whether lyrics, vocals, instrumentals, or production were AI-generated. Some platforms or distributors may ask about AI contributions, and some videos may need disclosure when generated content is realistic or changes what viewers think they are hearing. The vocal-versus-instrumental choice does not make a track automatically safe for every channel.",
+        "## Reusable Ideas You Can Apply Today",
+        "- If a video has continuous voiceover, start instrumental and make vocals prove their value.\n- If you need a hook, limit it to one line that can be muted without breaking the edit.\n- Add three prompt boundaries: no famous artist voice, no known song, no celebrity tone.\n- Test the vocal version on a phone speaker, not only headphones.\n- Save the decision reason as vocals for memory or instrumental for clarity.",
+        "## FAQ\n### Are vocals better for AI music?\nOnly when words are part of the job. Vocals can help a jingle or song, but they often compete with narration, dialogue, and captions.\n### Does instrumental music feel less distinctive?\nNot if the rhythm, texture, tempo, and instrumentation are specific. Identity does not require lyrics.\n### Should I generate both versions?\nYes, when the project is uncertain. Keep the prompt controlled so vocal choice is the main difference.\n### Do AI vocals require disclosure?\nCheck the rules for the platform or distributor. Keep a plain production note even when a disclosure is not required for every use."
+      ]
+    },
+    "es": {
+      "title": "Elige vocals o instrumental antes de generar musica IA",
+      "description": "Brief practico para decidir vocals, instrumental, lyrics, notas de revision y disclosure antes del primer draft.",
+      "body": [
+        "La decision mas cara de una musica IA suele ocurrir antes de generar: necesitas una voz o una pista instrumental que deje las palabras al speaker, captions o escena? Activar vocals demasiado pronto puede crear un problema de lyrics que el proyecto no necesitaba. Elegir siempre instrumental puede hacerte perder una frase cantada que volveria memorable la pieza.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para crear borradores desde descripciones, lyrics, ideas de style y controles como vocal choice o style instructions. Ayuda a probar direcciones rapido, pero aprobacion de publicacion, derechos de uso, disclosure y revision de equipo siguen siendo checks separados.",
+        "## Empieza por el trabajo del audio",
+        "Nombra la funcion antes del prompt: song, bed, cue, loop o sting. Una song puede llevar vocals porque la voice es el mensaje. Un bed bajo voiceover, training video, demo de producto o interview suele necesitar espacio instrumental o solo textura vocal sin palabras. Un logo cue corto puede usar una silaba o chant, pero debe sobrevivir si el edit corta el final.",
+        "## Cuando elegir vocals",
+        "Elige vocals cuando la audiencia deba recordar una frase o cuando el asset sea song, jingle, teaser o artist demo. Escribe menos palabras de las que crees. Si el hook no esta cerrado, usa el [AI Lyrics Generator](https://easymusic.ai/es/tools/ai-lyrics-generator) para crear pocas opciones y elimina cada line que no aclare el hook. No pidas una voz que imite a una persona real o artista famoso.",
+        "## Cuando elegir instrumental",
+        "Elige instrumental cuando el proyecto incluye narration, captions densas, pasos de aprendizaje, customer quotes o dialogue. Pide espacio en midrange, percussion suave y ninguna lead melody ocupada bajo speech. Si el instrumental debe cargar una sensacion precisa, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir calm, urgent o handmade en instrumentos, tempo y densidad.",
+        "## Prueba solo dos versiones",
+        "No generes diez drafts sin relacion. Haz un test controlado: Vocal A con una hook line, e Instrumental B con el mismo tempo, genre y energia. Pon cada uno bajo el video real, script o landing-page cut durante 30 segundos. Si el viewer lee mas lento o el speaker parece pequeno, gana instrumental. Si el hook se recuerda tras una escucha sin tapar el mensaje, vocals merece segunda pasada.",
+        "## Guarda una nota de publicacion",
+        "Anota si lyrics, vocals, instrumentals o production fueron generados con IA. Algunas plataformas o distributors pueden preguntar por AI contributions, y algunos videos pueden necesitar disclosure si el contenido generado parece realista o cambia lo que la audiencia cree oir. Elegir vocals o instrumental no vuelve una pista automaticamente segura para todo canal.",
+        "## Ideas reutilizables para hoy",
+        "- Si un video tiene voiceover continuo, empieza instrumental y haz que vocals demuestre su valor.\n- Si necesitas hook, limitalo a una line que pueda mutearse sin romper el edit.\n- Agrega tres limites al prompt: no famous artist voice, no known song, no celebrity tone.\n- Prueba la version vocal en un speaker de telefono, no solo en headphones.\n- Guarda el motivo: vocals for memory o instrumental for clarity.",
+        "## Preguntas frecuentes\n### Vocals son mejores para musica IA?\nSolo cuando las palabras son parte del trabajo. Ayudan a jingle o song, pero compiten con narration, dialogue y captions.\n### La musica instrumental suena menos distintiva?\nNo si rhythm, texture, tempo e instrumentation son especificos. La identidad no exige lyrics.\n### Debo generar ambas versiones?\nSi hay duda, si. Mantén controlado el prompt para que vocal choice sea la diferencia principal.\n### AI vocals requieren disclosure?\nRevisa reglas de plataforma o distributor. Conserva una production note clara aunque no todo uso requiera disclosure."
+      ]
+    },
+    "fr": {
+      "title": "Choisir vocals ou instrumental avant de generer une musique IA",
+      "description": "Brief pratique pour decider vocals, instrumental, lyrics, review notes et disclosure avant le premier draft.",
+      "body": [
+        "La decision la plus couteuse d une musique IA arrive souvent avant la generation: faut-il une voix, ou un instrumental qui laisse les mots au speaker, aux captions ou a la scene? Activer vocals trop tot cree parfois un probleme de lyrics inutile. Choisir toujours instrumental peut aussi faire perdre la petite ligne chantee qui rendrait le morceau memorable.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA pour brouillonner de la musique depuis descriptions, lyrics, idees de style et controles comme vocal choice ou style instructions. Elle aide a tester vite des directions, mais validation, droits d usage, disclosure et review d equipe restent des controles separes.",
+        "## Commencer par le role audio",
+        "Nomme le role avant le prompt: song, bed, cue, loop ou sting. Une song peut porter des vocals, car la voix est le message. Un bed sous voiceover, video de formation, demo produit ou interview demande souvent de l espace instrumental ou une texture vocale sans mots. Un logo cue court peut utiliser une syllabe ou un chant, mais doit survivre si le montage coupe la fin.",
+        "## Quand choisir vocals",
+        "Choisis vocals quand l auditeur doit retenir une phrase, ou quand l asset est lui-meme song, jingle, teaser ou artist demo. Ecris moins de mots que prevu. Si le hook n est pas fixe, utilise l [AI Lyrics Generator](https://easymusic.ai/fr/tools/ai-lyrics-generator) pour produire quelques options, puis supprime toute ligne qui ne clarifie pas le hook. Ne demande pas une voix qui imite une personne reelle ou un artiste connu.",
+        "## Quand choisir instrumental",
+        "Choisis instrumental quand le projet contient narration, captions denses, etapes pedagogiques, customer quotes ou dialogue. Demande de l espace dans les mediums, une percussion douce et pas de lead melody chargee sous la parole. Si l instrumental doit porter un sentiment precis, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer calm, urgent ou handmade en instruments, tempo et densite.",
+        "## Tester seulement deux versions",
+        "Ne genere pas dix drafts sans rapport. Fais un test controle: Vocal A avec une hook line, et Instrumental B avec le meme tempo, genre et niveau d energie. Place chaque version sous la vraie video, le script ou la landing-page cut pendant 30 secondes. Si le viewer lit moins vite ou si le speaker parait plus petit, l instrumental gagne. Si le hook reste apres une ecoute sans couvrir le message, la direction vocal merite une deuxieme passe.",
+        "## Garder une note de publication",
+        "Note si lyrics, vocals, instrumentals ou production ont ete generes par IA. Certaines plateformes ou distributors peuvent demander les AI contributions, et certaines videos peuvent exiger disclosure si le contenu genere parait realiste ou change ce que le public croit entendre. Le choix vocal ou instrumental ne rend pas une piste automatiquement sure pour tous les canaux.",
+        "## Idees utilisables aujourd'hui",
+        "- Si une video a un voiceover continu, commence instrumental et laisse vocals prouver son utilite.\n- Si tu as besoin d un hook, limite-le a une ligne que l on peut muter sans casser le montage.\n- Ajoute trois limites au prompt: no famous artist voice, no known song, no celebrity tone.\n- Teste la version vocale sur un haut-parleur de telephone, pas seulement au casque.\n- Garde la raison: vocals for memory ou instrumental for clarity.",
+        "## FAQ\n### Les vocals sont-ils meilleurs pour la musique IA ?\nSeulement si les mots font partie du travail. Ils aident un jingle ou une song, mais concurrencent narration, dialogue et captions.\n### Un instrumental est-il moins distinctif ?\nNon si rhythm, texture, tempo et instrumentation sont precis. L identite n exige pas de lyrics.\n### Faut-il generer les deux versions ?\nOui quand le projet est incertain. Garde le prompt controle pour que vocal choice soit la principale difference.\n### Les AI vocals demandent-ils disclosure ?\nVerifie les regles de la plateforme ou du distributor. Garde une production note meme si tous les usages ne demandent pas disclosure."
+      ]
+    },
+    "it": {
+      "title": "Scegli vocals o instrumental prima di generare musica IA",
+      "description": "Brief pratico per decidere vocals, instrumental, lyrics, review notes e disclosure prima del primo draft.",
+      "body": [
+        "La scelta piu costosa in una musica IA spesso arriva prima della generazione: serve una voce o una traccia instrumental che lasci le parole a speaker, captions o scena? Attivare vocals troppo presto puo creare un problema di lyrics che il progetto non aveva. Scegliere sempre instrumental puo farti perdere una frase cantata che renderebbe il brano memorabile.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per creare draft da descrizioni, lyrics, idee di style e controlli come vocal choice o style instructions. Aiuta a testare direzioni rapidamente, ma approvazione, diritti d uso, disclosure e review del team restano controlli separati.",
+        "## Parti dal lavoro dell'audio",
+        "Dai un ruolo alla traccia prima del prompt: song, bed, cue, loop o sting. Una song puo portare vocals perche la voce e il messaggio. Un bed sotto voiceover, training video, product demo o interview di solito richiede spazio instrumental o solo una texture vocale senza parole. Un logo cue corto puo usare una sillaba o chant, ma deve funzionare anche se il montaggio accorcia il finale.",
+        "## Quando scegliere vocals",
+        "Scegli vocals quando l ascoltatore deve ricordare una frase, o quando l asset e song, jingle, teaser o artist demo. Scrivi meno parole di quanto pensi. Se l hook non e chiaro, usa l [AI Lyrics Generator](https://easymusic.ai/it/tools/ai-lyrics-generator) per creare poche opzioni e cancella ogni line che non renda l hook piu chiaro. Non chiedere una voce che imiti una persona reale o un artista famoso.",
+        "## Quando scegliere instrumental",
+        "Scegli instrumental quando il progetto include narration, captions dense, passaggi didattici, customer quote o dialogue. Chiedi spazio nelle medie frequenze, percussion morbida e nessuna lead melody affollata sotto speech. Se l instrumental deve portare un feeling preciso, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare calm, urgent o handmade in strumenti, tempo e densita.",
+        "## Testa solo due versioni",
+        "Non generare dieci draft scollegati. Fai un test controllato: Vocal A con una hook line, e Instrumental B con stesso tempo, genre ed energia. Metti ciascuna sotto video reale, script o landing-page cut per 30 secondi. Se il viewer legge piu lentamente o lo speaker sembra piu piccolo, vince instrumental. Se l hook resta dopo un ascolto senza coprire il messaggio, vocals merita un secondo passaggio.",
+        "## Conserva una nota di pubblicazione",
+        "Scrivi se lyrics, vocals, instrumentals o production sono stati generati con IA. Alcune piattaforme o distributors possono chiedere AI contributions, e alcuni video possono richiedere disclosure se il contenuto generato sembra realistico o cambia cio che il pubblico pensa di sentire. La scelta vocal o instrumental non rende una traccia automaticamente sicura per ogni canale.",
+        "## Idee riutilizzabili oggi",
+        "- Se il video ha voiceover continuo, parti instrumental e lascia che vocals dimostri valore.\n- Se serve un hook, limitalo a una line che si possa mutare senza rompere l edit.\n- Aggiungi tre limiti al prompt: no famous artist voice, no known song, no celebrity tone.\n- Testa la versione vocal su speaker del telefono, non solo in headphones.\n- Salva il motivo: vocals for memory o instrumental for clarity.",
+        "## FAQ\n### Vocals sono migliori per la musica IA?\nSolo quando le parole sono parte del lavoro. Aiutano jingle o song, ma competono con narration, dialogue e captions.\n### Instrumental sembra meno distintivo?\nNo, se rhythm, texture, tempo e instrumentation sono specifici. L identita non richiede lyrics.\n### Devo generare entrambe le versioni?\nSi, se il progetto e incerto. Tieni il prompt controllato, cosi vocal choice e la differenza principale.\n### AI vocals richiedono disclosure?\nControlla le regole di piattaforma o distributor. Mantieni una production note anche quando non ogni uso richiede disclosure."
+      ]
+    },
+    "ja": {
+      "title": "AI音楽を生成する前にvocalsかinstrumentalを選ぶ",
+      "description": "Vocals、instrumental、lyrics、review notes、disclosureを決めるAI music draft前の実用brief。",
+      "body": [
+        "AI musicで一番大きな判断は、generate前に起きることがあります。Voiceが必要なのか、それともspeaker、captions、sceneに言葉を任せるinstrumentalが必要なのか。早すぎるvocalsは不要なlyrics問題を作ります。いつもinstrumentalにすると、trackを覚えやすくする一行のhookを逃すこともあります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、description、lyrics、style ideas、vocal choiceやstyle instructionsなどのcontrolsからmusic draftを作れるAI音楽制作platformです。方向性を早く試せますが、publishing approval、usage rights、disclosure、team reviewは別に確認する必要があります。",
+        "## まずaudioの仕事を決める",
+        "Promptを書く前に、trackのjobを一つ決めます: song、bed、cue、loop、sting。Songならvoiceがmessageになるためvocalsを使えます。Voiceover、training video、product demo、interviewの下に置くbedは、instrumental spaceまたはwordless vocal textureが向きます。短いlogo cueは一音節やchantを使えますが、editでendingを短くしても意味が残る必要があります。",
+        "## Vocalsを選ぶとき",
+        "Listenerにphraseを覚えてほしいとき、またはasset自体がsong、jingle、teaser、artist demoのときはvocalsが向きます。必要だと思うより少ないwordsで書きます。Hookが固まっていなければ、[AI Lyrics Generator](https://easymusic.ai/ja/tools/ai-lyrics-generator) で少数の案を作り、hookを明確にしないlineは削ります。実在人物や有名artistをまねるvoiceは求めないでください。",
+        "## Instrumentalを選ぶとき",
+        "Narration、dense captions、teaching steps、customer quotes、dialogueがあるprojectではinstrumentalを選びます。Speechの下にはmidrangeの余白、soft percussion、busy lead melodyなしを指定します。Instrumentalだけで特定のfeelingを運びたいなら、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) でcalm、urgent、handmadeなどをinstruments、tempo、densityに変換できます。",
+        "## 2つだけtestする",
+        "関係ないdraftを10個作らないでください。Controlled testを作ります: Hook lineが一つあるVocal A、同じtempo、genre、energyのInstrumental B。Real video、script、landing-page cutの下で30秒ずつ試します。Viewerの読む速度が落ちる、speakerが小さく感じるならinstrumentalが勝ちです。Hookが一回で残り、messageを覆わないならvocal directionを次に進めます。",
+        "## Publishing noteを残す",
+        "Lyrics、vocals、instrumentals、productionのどれがAI-generatedかをhandoffに書きます。PlatformやdistributorがAI contributionsを尋ねる場合があり、generated contentがrealisticに聞こえて理解に影響するvideoではdisclosureが必要になることもあります。Vocalかinstrumentalかの選択だけで、すべてのchannelで安全になるわけではありません。",
+        "## 今日すぐ使えるアイデア",
+        "- Continuous voiceoverがあるvideoではinstrumentalから始め、vocalsには価値を証明させる。\n- Hookが必要なら、muteしてもeditが壊れない一行に絞る。\n- Prompt boundaryを3つ入れる: no famous artist voice、no known song、no celebrity tone。\n- Vocal versionはheadphonesだけでなくphone speakerでも試す。\n- 理由を残す: vocals for memory または instrumental for clarity。",
+        "## FAQ\n### AI musicではvocalsの方が良いですか？\nWordsが役割の一部なら有効です。Jingleやsongには役立ちますが、narration、dialogue、captionsとは競合しやすいです。\n### Instrumentalは個性が弱いですか？\nいいえ。Rhythm、texture、tempo、instrumentationが具体的なら、lyricsなしでもidentityは作れます。\n### 両方生成すべきですか？\n迷う場合は有効です。ただしpromptを固定し、vocal choiceだけが主な違いになるようにします。\n### AI vocalsにはdisclosureが必要ですか？\nPlatformやdistributorのrulesを確認してください。必要ない場合でもproduction noteは残します。"
+      ]
+    },
+    "ko": {
+      "title": "AI music 생성 전에 vocals와 instrumental을 먼저 고르는 법",
+      "description": "Vocals, instrumental, lyrics, review notes, disclosure를 첫 AI music draft 전에 정하는 실무 brief.",
+      "body": [
+        "AI music에서 가장 큰 결정은 첫 generation 전에 일어납니다. Voice가 필요한가, 아니면 speaker, captions, scene에 words를 맡기는 instrumental track이 필요한가? Vocals를 너무 일찍 켜면 project에 없던 lyrics 문제가 생깁니다. 매번 instrumental만 고르면 기억에 남을 한 줄 hook을 놓칠 수 있습니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 description, lyrics, style ideas, vocal choice와 style instructions 같은 controls로 music draft를 만들 수 있는 AI 음악 제작 platform입니다. Direction을 빠르게 시험할 수 있지만 publishing approval, usage rights, disclosure, team review는 따로 확인해야 합니다.",
+        "## Audio job부터 정한다",
+        "Prompt 전에 track의 job을 정합니다: song, bed, cue, loop, sting. Song은 voice가 message이므로 vocals를 담을 수 있습니다. Voiceover, training video, product demo, interview 아래의 bed는 보통 instrumental space나 wordless vocal texture가 필요합니다. 짧은 logo cue는 한 syllable이나 chant를 쓸 수 있지만 edit가 ending을 자를 때도 의미가 남아야 합니다.",
+        "## Vocals를 선택할 때",
+        "Listener가 phrase를 기억해야 하거나 asset 자체가 song, jingle, teaser, artist demo일 때 vocals를 선택합니다. 필요하다고 생각하는 것보다 words를 적게 씁니다. Hook이 정리되지 않았다면 [AI Lyrics Generator](https://easymusic.ai/ko/tools/ai-lyrics-generator)로 몇 가지 option만 만들고 hook을 선명하게 하지 않는 line은 삭제하세요. 실제 사람이나 유명 artist를 흉내내는 voice는 요청하지 마세요.",
+        "## Instrumental을 선택할 때",
+        "Narration, dense captions, teaching steps, customer quotes, dialogue가 있으면 instrumental을 선택합니다. Speech 아래에는 midrange space, soft percussion, busy lead melody 없음이 필요합니다. Instrumental이 특정 feeling을 전달해야 한다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 calm, urgent, handmade 같은 말을 instruments, tempo, density로 바꿀 수 있습니다.",
+        "## 두 버전만 테스트한다",
+        "서로 다른 draft를 열 개 만들지 마세요. Controlled test를 만듭니다: Hook line 하나가 있는 Vocal A, 같은 tempo, genre, energy의 Instrumental B. 실제 video, script, landing-page cut 아래에서 각각 30초 들어봅니다. Viewer가 더 느리게 읽거나 speaker가 작아 보이면 instrumental이 이깁니다. Hook이 한 번에 기억되고 message를 덮지 않으면 vocal direction을 한 번 더 다듬습니다.",
+        "## Publishing note를 남긴다",
+        "Lyrics, vocals, instrumentals, production 중 무엇이 AI-generated인지 handoff에 적습니다. 일부 platform이나 distributor는 AI contributions를 물을 수 있고, generated content가 realistic하게 들려 viewer 이해에 영향을 주는 video는 disclosure가 필요할 수 있습니다. Vocal과 instrumental 중 하나를 골랐다고 모든 channel에서 자동으로 안전해지는 것은 아닙니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- Continuous voiceover가 있는 video는 instrumental부터 시작하고 vocals는 가치를 증명하게 합니다.\n- Hook이 필요하면 mute해도 edit가 망가지지 않는 한 line으로 제한합니다.\n- Prompt boundary 세 가지를 넣습니다: no famous artist voice, no known song, no celebrity tone.\n- Vocal version은 headphones뿐 아니라 phone speaker에서도 테스트합니다.\n- 이유를 저장합니다: vocals for memory 또는 instrumental for clarity.",
+        "## FAQ\n### AI music에는 vocals가 더 좋은가요?\nWords가 job의 일부일 때만 그렇습니다. Jingle이나 song에는 도움이 되지만 narration, dialogue, captions와 경쟁하기 쉽습니다.\n### Instrumental은 덜 distinctive한가요?\n아닙니다. Rhythm, texture, tempo, instrumentation이 구체적이면 lyrics 없이도 identity를 만들 수 있습니다.\n### 두 버전을 모두 생성해야 하나요?\nProject가 불확실하면 좋습니다. Prompt는 고정해 vocal choice가 주된 차이가 되게 하세요.\n### AI vocals는 disclosure가 필요한가요?\nPlatform이나 distributor rules를 확인하세요. 필요하지 않은 경우에도 production note는 남기는 편이 좋습니다."
+      ]
+    },
+    "pt": {
+      "title": "Escolha vocals ou instrumental antes de gerar musica IA",
+      "description": "Brief pratico para decidir vocals, instrumental, lyrics, review notes e disclosure antes do primeiro draft.",
+      "body": [
+        "A escolha mais cara em musica IA muitas vezes vem antes da primeira generation: voce precisa de uma voz ou de uma faixa instrumental que deixe as palavras para speaker, captions ou cena? Ligar vocals cedo demais pode criar um problema de lyrics que o projeto nem precisava. Escolher sempre instrumental pode fazer voce perder uma linha cantada que tornaria a faixa memoravel.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para rascunhar musica a partir de descricoes, lyrics, ideias de style e controles como vocal choice e style instructions. Ela ajuda a testar direcoes rapidamente, mas aprovacao de publicacao, direitos de uso, disclosure e review do time continuam separados.",
+        "## Comece pelo trabalho do audio",
+        "Nomeie a funcao antes do prompt: song, bed, cue, loop ou sting. Uma song pode carregar vocals porque a voice e a mensagem. Um bed sob voiceover, training video, product demo ou interview geralmente precisa de espaco instrumental ou so uma textura vocal sem palavras. Um logo cue curto pode usar uma silaba ou chant, mas deve sobreviver se o edit cortar o final.",
+        "## Quando escolher vocals",
+        "Escolha vocals quando o listener precisa lembrar uma frase, ou quando o asset e song, jingle, teaser ou artist demo. Escreva menos palavras do que voce acha necessario. Se o hook ainda nao esta claro, use o [AI Lyrics Generator](https://easymusic.ai/pt/tools/ai-lyrics-generator) para criar poucas opcoes e apague toda line que nao deixa o hook mais claro. Nao peca uma voz que imite pessoa real ou artista famoso.",
+        "## Quando escolher instrumental",
+        "Escolha instrumental quando o projeto inclui narration, captions densas, etapas didaticas, customer quotes ou dialogue. Peca espaco no midrange, percussion suave e nenhuma lead melody ocupada sob speech. Se o instrumental precisa carregar uma sensacao especifica, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar calm, urgent ou handmade em instrumentos, tempo e densidade.",
+        "## Teste so duas versoes",
+        "Nao gere dez drafts sem relacao. Faca um teste controlado: Vocal A com uma hook line, e Instrumental B com o mesmo tempo, genre e energia. Coloque cada um sob o video real, script ou landing-page cut por 30 segundos. Se o viewer le mais devagar ou o speaker parece menor, instrumental vence. Se o hook fica na memoria depois de uma escuta sem cobrir a mensagem, vocals merece segunda passada.",
+        "## Guarde uma nota de publicacao",
+        "Escreva se lyrics, vocals, instrumentals ou production foram gerados com IA. Algumas plataformas ou distributors podem perguntar sobre AI contributions, e certos videos podem exigir disclosure quando conteudo gerado parece realista ou muda o que o publico acha que esta ouvindo. A escolha vocal ou instrumental nao torna uma faixa automaticamente segura para todo canal.",
+        "## Ideias reutilizaveis para hoje",
+        "- Se o video tem voiceover continuo, comece instrumental e faca vocals provar valor.\n- Se precisa de hook, limite a uma line que possa ser mutada sem quebrar o edit.\n- Adicione tres limites ao prompt: no famous artist voice, no known song, no celebrity tone.\n- Teste a versao vocal no speaker do telefone, nao so em headphones.\n- Salve o motivo: vocals for memory ou instrumental for clarity.",
+        "## Perguntas frequentes\n### Vocals sao melhores para musica IA?\nSo quando words fazem parte do trabalho. Ajudam em jingle ou song, mas competem com narration, dialogue e captions.\n### Instrumental parece menos distinto?\nNao se rhythm, texture, tempo e instrumentation forem especificos. Identity nao exige lyrics.\n### Devo gerar as duas versoes?\nSim, quando o projeto esta incerto. Mantenha o prompt controlado para que vocal choice seja a principal diferenca.\n### AI vocals exigem disclosure?\nConfira regras da plataforma ou distributor. Guarde uma production note clara mesmo quando nem todo uso exige disclosure."
+      ]
+    },
+    "ru": {
+      "title": "Выберите vocals или instrumental до generation AI music",
+      "description": "Практический brief: когда нужны vocals, instrumental, lyrics, review notes и disclosure перед первым draft.",
+      "body": [
+        "Самое дорогое решение в AI music часто принимается до первой generation: нужна ли voice, или нужна instrumental track, которая оставит слова speaker, captions или scene? Если слишком рано включить vocals, можно создать lyric problem, которого project не требовал. Если всегда выбирать instrumental, можно упустить одну sung line, которая сделала бы track запоминающимся.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, где можно делать music drafts из descriptions, lyrics, style ideas и controls вроде vocal choice и style instructions. Она помогает быстро тестировать directions, но publishing approval, usage rights, disclosure и team review нужно проверять отдельно.",
+        "## Начните с audio job",
+        "Назовите роль track до prompt: song, bed, cue, loop или sting. Song может нести vocals, потому что voice и есть message. Bed под voiceover, training video, product demo или interview обычно требует instrumental space или только wordless vocal texture. Короткий logo cue может использовать один syllable или chant, но должен работать, даже если edit обрежет ending.",
+        "## Когда выбирать vocals",
+        "Выбирайте vocals, когда listener должен запомнить phrase, или когда asset сам является song, jingle, teaser или artist demo. Пишите меньше words, чем кажется нужным. Если hook не готов, используйте [AI Lyrics Generator](https://easymusic.ai/ru/tools/ai-lyrics-generator), чтобы получить несколько вариантов, и удалите каждую line, которая не делает hook яснее. Не просите voice, которая имитирует real person или famous artist.",
+        "## Когда выбирать instrumental",
+        "Выбирайте instrumental, когда в проекте есть narration, dense captions, teaching steps, customer quotes или dialogue. Попросите room in the midrange, soft percussion и без busy lead melody под speech. Если instrumental должен передать точное feeling, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет перевести calm, urgent или handmade в instruments, tempo и density.",
+        "## Тестируйте только две версии",
+        "Не создавайте десять unrelated drafts. Сделайте controlled test: Vocal A с одной hook line и Instrumental B с тем же tempo, genre и energy. Поставьте каждую версию под real video, script или landing-page cut на 30 секунд. Если viewer читает медленнее или speaker кажется меньше, побеждает instrumental. Если hook запомнился после одного прослушивания и не закрыл message, vocal direction заслуживает второй проход.",
+        "## Оставьте publishing note",
+        "Запишите, были ли lyrics, vocals, instrumentals или production AI-generated. Некоторые platforms или distributors могут спрашивать об AI contributions, а некоторые videos требуют disclosure, если generated content звучит realistic или меняет то, что audience думает услышать. Выбор vocal или instrumental не делает track автоматически безопасным для любого channel.",
+        "## Идеи, которые можно применить сегодня",
+        "- Если в video есть continuous voiceover, начните с instrumental и заставьте vocals доказать пользу.\n- Если нужен hook, ограничьте его одной line, которую можно mute без поломки edit.\n- Добавьте три prompt boundaries: no famous artist voice, no known song, no celebrity tone.\n- Проверьте vocal version на phone speaker, не только в headphones.\n- Сохраните причину: vocals for memory или instrumental for clarity.",
+        "## FAQ\n### Vocals лучше для AI music?\nТолько когда words являются частью задачи. Они помогают jingle или song, но часто конкурируют с narration, dialogue и captions.\n### Instrumental звучит менее отличимо?\nНет, если rhythm, texture, tempo и instrumentation конкретны. Identity не требует lyrics.\n### Генерировать обе версии?\nДа, если project uncertain. Держите prompt контролируемым, чтобы vocal choice был главным отличием.\n### AI vocals требуют disclosure?\nПроверьте rules платформы или distributor. Держите production note даже там, где disclosure требуется не всегда."
+      ]
+    },
+    "zh": {
+      "title": "生成 AI 音乐前，先选 vocals 还是 instrumental",
+      "description": "一个实用 brief，帮你在首个 AI music draft 前决定 vocals、instrumental、lyrics、review notes 和 disclosure。",
+      "body": [
+        "AI music 最关键的决定，常常发生在第一次 generation 之前: 你需要 voice，还是需要一条把 words 留给 speaker、captions 或 scene 的 instrumental track？太早打开 vocals，可能会制造项目本来不需要的 lyrics 问题。永远默认 instrumental，也可能错过让 track 被记住的一句 sung hook。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以根据 descriptions、lyrics、style ideas，以及 vocal choice、style instructions 等 controls 生成 music drafts。它能帮助你快速测试方向，但 publishing approval、usage rights、disclosure 和 team review 仍然需要单独确认。",
+        "## 先定义 audio job",
+        "写 prompt 前，先给 track 一个任务: song、bed、cue、loop 或 sting。Song 可以承载 vocals，因为 voice 就是 message。放在 voiceover、training video、product demo 或 interview 下面的 bed，通常需要 instrumental space，或没有清晰词语的 vocal texture。短 logo cue 可以用一个 syllable 或 chant，但 edit 需要剪短 ending 时也要能成立。",
+        "## 什么时候选 vocals",
+        "当 listener 必须记住某句 phrase，或者 asset 本身就是 song、jingle、teaser、artist demo 时，选择 vocals。写得比你以为需要的更少。如果 hook 还没定，可以用 [AI Lyrics Generator](https://easymusic.ai/zh/tools/ai-lyrics-generator) 生成少量选项，然后删掉所有不能让 hook 更清楚的 line。不要要求模仿真实人物或知名 artist 的 voice。",
+        "## 什么时候选 instrumental",
+        "当项目包含 narration、dense captions、teaching steps、customer quotes 或 dialogue 时，选择 instrumental。可以要求 midrange 留出空间、soft percussion、speech 下没有 busy lead melody。如果 instrumental 需要承载明确情绪，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 calm、urgent、handmade 这类词转成 instruments、tempo 和 density。",
+        "## 只测试两个版本",
+        "不要生成十个互不相关的 drafts。做一个 controlled test: Vocal A 只有一条 hook line，Instrumental B 保持相同 tempo、genre 和 energy。把两版分别放到真实 video、script 或 landing-page cut 下听 30 秒。如果 viewer 阅读变慢，或 speaker 显得更小，instrumental 胜出。如果 hook 一遍就记住，而且没有盖住 message，vocal direction 值得第二轮。",
+        "## 留下 publishing note",
+        "写清楚 lyrics、vocals、instrumentals 或 production 哪些部分由 AI-generated。某些 platforms 或 distributors 可能会询问 AI contributions；当 generated content 听起来 realistic 或改变观众理解时，某些 videos 可能需要 disclosure。选择 vocal 或 instrumental 并不会让 track 自动适合每个 channel。",
+        "## 今天就能用的想法",
+        "- 如果 video 有 continuous voiceover，先从 instrumental 开始，让 vocals 证明自己的价值。\n- 如果需要 hook，把它限制在一条可以 mute、但不破坏 edit 的 line。\n- 在 prompt 里加三条边界: no famous artist voice、no known song、no celebrity tone。\n- 用 phone speaker 测试 vocal version，不只用 headphones。\n- 保存决策原因: vocals for memory 或 instrumental for clarity。",
+        "## FAQ\n### AI music 用 vocals 更好吗？\n只有当 words 是任务的一部分时才是。Vocals 对 jingle 或 song 有帮助，但容易和 narration、dialogue、captions 竞争。\n### Instrumental 会不会不够有辨识度？\n不会，只要 rhythm、texture、tempo 和 instrumentation 足够具体。Identity 不一定需要 lyrics。\n### 应该两个版本都生成吗？\n项目不确定时可以。保持 prompt 受控，让 vocal choice 成为主要差异。\n### AI vocals 需要 disclosure 吗？\n检查 platform 或 distributor 的 rules。即使不是每种用途都要求 disclosure，也应保留清楚的 production note。"
+      ]
+    }
+  }
+}
