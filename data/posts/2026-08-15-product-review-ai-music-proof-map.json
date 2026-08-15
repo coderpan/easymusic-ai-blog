@@ -1,0 +1,249 @@
+{
+  "date": "2026-08-15",
+  "slug": "product-review-ai-music-proof-map",
+  "cluster": "product-review-video-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط موسيقى AI لمراجعة منتج من دون اخفاء الدليل",
+      "description": "خريطة عملية لاستخدام AI music في product review او unboxing مع وضوح الصوت، disclosure، وhandoff قبل النشر.",
+      "body": [
+        "في فيديو unboxing او product review، يمكن للموسيقى ان تساعد الايقاع، لكنها قد تفسد الثقة بسرعة. اذا غطت صوت الضغط على الزر، او جعلت تجربة عادية تبدو كاعلان مبالغ فيه، سيشعر المشاهد ان الدليل غير واضح. الهدف ليس ان تجعل كل لقطة اكبر؛ الهدف ان يسمع الناس الكلام، العيوب، والنتيجة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من descriptions وlyrics وstyle ideas. يمكن ان تساعدك على اختبار music beds لمراجعة منتج بسرعة، لكن disclosure، حقوق الاستخدام، موافقة العميل، وقواعد المنصة تبقى مراجعات منفصلة.",
+        "## اقسم المراجعة الى لحظات دليل",
+        "اكتب خمس لحظات قبل prompt: disclosure، first look، setup، test، verdict. لحظة disclosure تحتاج موسيقى هادئة لا تخفي العلاقة التجارية. First look يمكن ان يحمل نبضة خفيفة. Setup يحتاج مساحة للكلام. Test يجب ان يترك اصوات المنتج واضحة. Verdict يمكن ان يرتفع قليلا، لكن لا يحول رأيا محدودا الى وعد كبير.",
+        "## اكتب prompt محايدا لا يبيع اكثر من اللازم",
+        "ابدأ بجملة مثل: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. اذا كان المنتج handmade، tech، skincare، او kitchen tool، اطلب textures تناسب المادة لا hype عام. يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل كلمات مثل transparent، compact، أو practical الى tempo وinstrumentation وdensity. داخل EasyMusic.AI، اختبر bed هادئا ونسخة شبه جافة قبل اختيار الاتجاه.",
+        "## اترك مكانا لاصوات المنتج",
+        "اصوات click، zipper، fan، pour، brush، أو package tear ليست noise دائما؛ غالبا هي الدليل. ضع music bed اقل من voice، واخفضه اكثر اثناء لقطات الاختبار. اذا احتجت نسخة للمنصة ونسخة للارشيف، حافظ على ملف master واضح واصدر نسخا مضغوطة فقط عند الحاجة.",
+        "## لا تدفن disclosure تحت الموسيقى",
+        "اذا حصلت على payment، free product، affiliate commission، او brand direction، اجعل الافصاح واضحا قبل ان تبدو المراجعة كتوصية مستقلة. بعض المنصات توفر paid promotion او branded content controls، وبعضها يسأل عن محتوى مولد بالذكاء الاصطناعي. لا تستخدم music bed ليجعل العلاقة التجارية اقل وضوحا.",
+        "## حضر ملف التسليم",
+        "احفظ اسم prompt، سبب اختيار الموسيقى، ملاحظة disclosure، ونسخة الفيديو التي تم اختبارها. اذا طلبت منصة او محرر صيغة مختلفة، استخدم [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) لصنع copy مناسبة من دون تغيير قرار المراجعة نفسه. لا تعد بان اي تحويل او توليد يجعل الاستخدام آمنا تلقائيا.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- ضع marker عند كل لقطة proof، ثم اخفض الموسيقى قبلها بثانية.\n- اختبر 20 ثانية على speaker هاتف: هل تسمع click او texture؟\n- اكتب prompt boundary: no cinematic triumph، no luxury exaggeration، no famous brand sound.\n- استخدم music rise فقط عند الانتقال، لا فوق لحظة العيب.\n- احفظ سطر handoff يقول paid, gifted, affiliate, or independent.",
+        "## اسئلة شائعة\n### هل تحتاج مراجعة المنتج الى موسيقى؟\nليس دائما. اذا كان صوت المنتج هو الدليل، استخدم bed خفيفا او صمتا مؤقتا.\n### ما افضل نوع موسيقى للunboxing؟\nعادة rhythm ثابت، textures قليلة، وmelody بسيطة. تجنب risers التي تجعل فتح علبة عاديا يبدو دراميا.\n### هل يمكن استخدام AI music في مراجعة مدفوعة؟\nيمكن ان تكون جزءا من workflow، لكن يجب مراجعة شروط المنصة، العلاقة التجارية، والحقوق. لا تعتبرها ضمانا.\n### متى اخفض الموسيقى؟\nاخفضها عند disclosure، قياس الصوت، اختبار السرعة، ذكر العيوب، واي جملة تغير قرار الشراء."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer Produktreviews planen, ohne Beweise zu verdecken",
+      "description": "Ein praktischer Audio-Plan fuer Product Review und Unboxing mit AI music, klarer Sprache, Disclosure und Handoff.",
+      "body": [
+        "In einem Unboxing oder Product Review kann Musik Tempo geben, aber sie kann Vertrauen auch schnell beschaedigen. Wenn sie den Klick eines Schalters verdeckt oder einen normalen Test wie eine Werbekampagne wirken laesst, verliert der Zuschauer den Beweis. Die Musik soll nicht jede Szene groesser machen; sie soll Sprache, Details und Urteil lesbar halten.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kann. Sie kann helfen, Music Beds fuer Produktreviews schnell zu testen; Disclosure, Nutzungsrechte, Kundenfreigabe und Plattformregeln bleiben separate Checks.",
+        "## Das Review in Beweis-Momente teilen",
+        "Schreibe vor dem Prompt fuenf Momente auf: Disclosure, first look, setup, test, verdict. Disclosure braucht ruhige Musik, die die Beziehung nicht kaschiert. First look darf etwas Puls haben. Setup braucht Raum fuer Sprache. Test muss Produktgeraesche stehen lassen. Verdict darf leicht wachsen, aber ein begrenztes Urteil nicht wie ein grosses Versprechen klingen lassen.",
+        "## Einen neutralen Prompt schreiben",
+        "Starte mit einer Zeile wie: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. Bei handmade, tech, skincare oder kitchen tools sollten Texturen zum Material passen, nicht zu allgemeinem Hype. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann Woerter wie transparent, compact oder practical in Tempo, Instrumente und Dichte uebersetzen. Teste in EasyMusic.AI ein ruhiges Bed und eine fast trockene Version, bevor du die Richtung festlegst.",
+        "## Raum fuer Produktklaenge lassen",
+        "Click, zipper, fan, pour, brush oder package tear sind nicht immer Stoergeraeusche; oft sind sie der Beweis. Lege das Music Bed unter die Stimme und senke es bei Testshots weiter ab. Wenn du eine Plattformversion und eine Archivversion brauchst, behalte ein klares Master und exportiere komprimierte Kopien erst danach.",
+        "## Disclosure nicht unter Musik begraben",
+        "Wenn es payment, free product, affiliate commission oder brand direction gibt, muss der Hinweis sichtbar und frueh genug sein. Manche Plattformen haben paid promotion oder branded content controls, andere fragen nach AI-generated content. Nutze Musik nicht, um eine kommerzielle Beziehung weicher oder unklarer wirken zu lassen.",
+        "## Die Uebergabe vorbereiten",
+        "Speichere Prompt, Musikentscheidung, Disclosure-Notiz und die getestete Videoversion. Wenn eine Plattform oder ein Editor ein anderes Format verlangt, kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) eine passende Kopie erzeugen, ohne das Review selbst zu veraendern. Versprich nicht, dass eine Umwandlung oder Generierung jede Nutzung absichert.",
+        "## Sofort nutzbare Ideen",
+        "- Setze Marker auf jeden Proof Shot und senke die Musik eine Sekunde vorher.\n- Teste 20 Sekunden auf einem Handy-Lautsprecher: Hoerst du Klick oder Textur?\n- Schreibe Prompt-Grenzen: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Nutze einen Rise nur im Uebergang, nicht ueber einem Mangel.\n- Notiere im Handoff: paid, gifted, affiliate oder independent.",
+        "## FAQ\n### Braucht ein Produktreview Musik?\nNicht immer. Wenn der Produktklang der Beweis ist, nutze nur ein leises Bed oder kurze Stille.\n### Welche Musik passt zu Unboxing?\nMeist ein stabiler Rhythmus, wenige Texturen und eine einfache Melodie. Dramatische Risers machen banale Momente unglaubwuerdig.\n### Kann AI music in einem bezahlten Review genutzt werden?\nSie kann Teil des Workflows sein, aber Plattformregeln, Beziehung zum Brand und Rechte muessen geprueft werden.\n### Wann sollte die Musik leiser werden?\nBei Disclosure, Klangtests, Speedtests, Kritikpunkten und jeder Aussage, die Kaufentscheidungen beeinflusst."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Product Reviews Without Hiding the Proof",
+      "description": "A practical sound map for using AI music in product review and unboxing videos while keeping disclosure, product sounds, and verdicts clear.",
+      "body": [
+        "In a product review or unboxing video, music can keep the edit moving, but it can also make the review feel less trustworthy. If the track covers the click of a switch, the fan noise of a laptop, or the caveat in the verdict, the viewer loses the evidence. The job is not to make every shot feel premium; the job is to keep the proof audible.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for drafting music from descriptions, lyrics, and style ideas. It can help you test review-friendly music beds quickly, while disclosure, usage rights, client approval, and platform rules still need separate review.",
+        "## Map the Review Into Proof Moments",
+        "Write five moments before the prompt: disclosure, first look, setup, test, and verdict. Disclosure needs quiet music that does not blur the commercial relationship. First look can have a small pulse. Setup needs speech space. The test section must leave product sounds intact. The verdict can lift slightly, but it should not turn a limited opinion into a larger promise.",
+        "## Prompt for Neutral Support",
+        "Start with a line like: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. If the product is handmade, technical, skincare, or kitchen gear, ask for textures that match the material instead of generic hype. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn words like transparent, compact, or practical into tempo, instrumentation, and density language. In EasyMusic.AI, test one calm bed and one almost-dry version before choosing the direction.",
+        "## Leave Room for Product Sounds",
+        "Clicks, zippers, fan noise, pouring, brushing, and package tears are not always noise; in a review, they are often evidence. Keep the music bed below the voice and pull it down further under test shots. If you need a platform copy and an archive copy, keep one clear master and export compressed versions only after the review is approved.",
+        "## Do Not Bury Disclosure Under Music",
+        "If the video involves payment, a free product, an affiliate commission, or brand direction, make the relationship clear before the music makes the review feel independent. Some platforms provide paid promotion or branded content controls, and some may ask about AI-generated content. Do not use a polished music bed to make a commercial relationship harder to notice.",
+        "## Prepare the Delivery File",
+        "Save the prompt, the reason for the music choice, the disclosure note, and the video version you tested. If a platform or editor asks for a different audio format, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can make a delivery copy without changing the review decision. Do not promise that generation or conversion makes every use automatically safe.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Put a marker on every proof shot, then lower the music one second before it.\n- Test 20 seconds on a phone speaker: can you still hear the click, texture, or flaw?\n- Add prompt boundaries: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Use a rise only between sections, not over a defect or disclosure.\n- Keep a handoff line that says paid, gifted, affiliate, or independent.",
+        "## FAQ\n### Does a product review need background music?\nNot always. If product sound is part of the proof, use a light bed or a few seconds of silence.\n### What kind of music works for unboxing videos?\nA steady rhythm, sparse texture, and simple melody usually work better than dramatic risers or luxury cues.\n### Can I use AI music in a sponsored review?\nIt can be part of the workflow, but you still need to review platform rules, relationship disclosure, and rights before publishing.\n### When should the music get quieter?\nLower it during disclosure, sound tests, speed tests, flaws, price caveats, and any sentence that could change a buying decision."
+      ]
+    },
+    "es": {
+      "title": "Planifica musica IA para reviews sin tapar la prueba",
+      "description": "Mapa practico de audio para product review y unboxing con AI music, disclosure claro, sonidos del producto y entrega.",
+      "body": [
+        "En un product review o unboxing, la musica puede sostener el ritmo, pero tambien puede reducir la confianza. Si tapa el click de un boton, el ruido del ventilador o la advertencia del verdict, el viewer pierde la prueba. El trabajo no es hacer que cada toma parezca premium; es mantener audible lo que demuestra el producto.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para crear borradores desde descripciones, lyrics e ideas de style. Puede ayudarte a probar music beds para reviews rapido, mientras disclosure, derechos de uso, aprobacion del cliente y reglas de plataforma siguen siendo revisiones separadas.",
+        "## Divide la review en momentos de prueba",
+        "Escribe cinco momentos antes del prompt: disclosure, first look, setup, test y verdict. Disclosure necesita musica tranquila que no esconda la relacion comercial. First look puede tener pulso ligero. Setup necesita espacio para speech. Test debe dejar intactos los sonidos del producto. Verdict puede subir un poco, pero no convertir una opinion limitada en promesa grande.",
+        "## Escribe un prompt de apoyo neutral",
+        "Empieza con una linea como: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. Si el producto es handmade, tech, skincare o kitchen gear, pide textures que coincidan con el material en vez de hype generico. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir transparent, compact o practical en tempo, instruments y density. En EasyMusic.AI, prueba un bed calmado y una version casi seca antes de elegir direccion.",
+        "## Deja espacio para los sonidos del producto",
+        "Clicks, zippers, fan noise, pouring, brushing y package tears no siempre son ruido; en una review suelen ser evidencia. Mantén el bed por debajo de la voz y bajalo mas en las pruebas. Si necesitas una version de plataforma y otra de archivo, conserva un master claro y exporta copias comprimidas solo despues de aprobar la review.",
+        "## No entierres el disclosure bajo la musica",
+        "Si hay payment, free product, affiliate commission o brand direction, deja clara la relacion antes de que la musica haga sentir la review independiente. Algunas plataformas tienen controles de paid promotion o branded content, y algunas preguntan por AI-generated content. No uses un bed pulido para hacer menos visible una relacion comercial.",
+        "## Prepara el archivo de entrega",
+        "Guarda el prompt, el motivo de la musica, la nota de disclosure y la version del video probada. Si una plataforma o editor pide otro formato de audio, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede crear una copia de entrega sin cambiar la decision editorial. No prometas que generar o convertir vuelve seguro todo uso automaticamente.",
+        "## Ideas reutilizables para hoy",
+        "- Pon un marker en cada proof shot y baja la musica un segundo antes.\n- Prueba 20 segundos en speaker de telefono: aun se oye el click, texture o flaw?\n- Agrega limites al prompt: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Usa un rise solo entre secciones, no encima de un defecto o disclosure.\n- Conserva una linea de handoff: paid, gifted, affiliate o independent.",
+        "## Preguntas frecuentes\n### Una review de producto necesita musica?\nNo siempre. Si el sonido del producto es parte de la prueba, usa un bed ligero o unos segundos de silencio.\n### Que musica funciona para unboxing?\nUn ritmo estable, textura simple y melodia sencilla suelen funcionar mejor que risers dramaticos.\n### Puedo usar AI music en una review patrocinada?\nPuede ser parte del workflow, pero revisa reglas de plataforma, disclosure de la relacion y derechos antes de publicar.\n### Cuando debe bajar la musica?\nDurante disclosure, pruebas de sonido, pruebas de velocidad, defectos, precio y cualquier frase que afecte la compra."
+      ]
+    },
+    "fr": {
+      "title": "Planifier la musique IA d'un product review sans cacher la preuve",
+      "description": "Plan audio pratique pour product review et unboxing avec AI music, disclosure clair, sons du produit et livraison.",
+      "body": [
+        "Dans un product review ou une video d unboxing, la musique peut garder le montage vivant, mais elle peut aussi rendre l avis moins credible. Si elle couvre le clic d un bouton, le bruit d un ventilateur ou la reserve du verdict, le spectateur perd la preuve. Le but n est pas de rendre chaque plan plus premium; le but est de garder les faits audibles.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui permet de brouillonner de la musique depuis descriptions, lyrics et idees de style. Elle peut aider a tester vite des music beds pour review, mais disclosure, droits d usage, validation client et regles de plateforme restent des controles separes.",
+        "## Decouper la review en moments de preuve",
+        "Note cinq moments avant le prompt: disclosure, first look, setup, test et verdict. Disclosure demande une musique calme qui ne brouille pas la relation commerciale. First look peut avoir un petit pulse. Setup demande de la place pour la voix. Test doit garder les sons du produit. Verdict peut monter legerement, sans transformer une opinion limitee en grande promesse.",
+        "## Prompter un soutien neutre",
+        "Commence par une ligne comme: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. Si le produit est handmade, tech, skincare ou kitchen gear, demande des textures liees a la matiere plutot qu un hype generique. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut convertir transparent, compact ou practical en tempo, instrumentation et densite. Dans EasyMusic.AI, teste un bed calme et une version presque seche avant de choisir la direction.",
+        "## Laisser de la place aux sons du produit",
+        "Clicks, zippers, fan noise, pouring, brushing et package tears ne sont pas toujours du bruit; dans une review, ce sont souvent des preuves. Garde le bed sous la voix et baisse-le encore pendant les tests. Si tu as besoin d une version plateforme et d une version archive, garde un master clair et exporte les copies compressees apres validation.",
+        "## Ne pas cacher le disclosure sous la musique",
+        "S il y a payment, free product, affiliate commission ou brand direction, rends la relation claire avant que la musique donne a la review une impression independante. Certaines plateformes proposent des controles paid promotion ou branded content, et certaines demandent des informations sur AI-generated content. N utilise pas un bed poli pour rendre une relation commerciale moins visible.",
+        "## Preparer le fichier de livraison",
+        "Conserve le prompt, la raison du choix musical, la note de disclosure et la version video testee. Si une plateforme ou un editor demande un autre format audio, l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut creer une copie de livraison sans changer la decision editoriale. Ne promets pas que generation ou conversion rend chaque usage automatiquement sur.",
+        "## Idees reutilisables aujourd hui",
+        "- Place un marker sur chaque proof shot et baisse la musique une seconde avant.\n- Teste 20 secondes sur speaker de telephone: entends-tu encore le clic, la texture ou le defaut?\n- Ajoute des limites au prompt: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Utilise un rise seulement entre les sections, pas sur un defaut ou disclosure.\n- Garde une ligne handoff: paid, gifted, affiliate ou independent.",
+        "## FAQ\n### Un product review a-t-il besoin de musique?\nPas toujours. Si le son du produit fait partie de la preuve, utilise un bed leger ou quelques secondes de silence.\n### Quelle musique marche pour unboxing?\nUn rythme stable, une texture sobre et une melodie simple marchent mieux que des risers dramatiques.\n### Peut-on utiliser AI music dans une review sponsorisee?\nOui dans le workflow, mais il faut verifier les regles de plateforme, le disclosure et les droits avant publication.\n### Quand baisser la musique?\nPendant disclosure, tests sonores, tests de vitesse, defauts, reserves de prix et phrases qui peuvent changer l achat."
+      ]
+    },
+    "it": {
+      "title": "Pianifica musica IA per product review senza coprire le prove",
+      "description": "Mappa audio pratica per product review e unboxing con AI music, disclosure, suoni del prodotto e consegna.",
+      "body": [
+        "In un product review o unboxing, la musica puo tenere vivo il montaggio, ma puo anche ridurre la fiducia. Se copre il click di un interruttore, il rumore di una ventola o una riserva nel verdict, lo spettatore perde la prova. Il lavoro non e rendere ogni shot premium; e mantenere udibili dettagli, voce e giudizio.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per creare draft da descrizioni, lyrics e idee di style. Puo aiutare a testare rapidamente music beds per review, mentre disclosure, diritti d uso, approvazione cliente e regole di piattaforma restano controlli separati.",
+        "## Dividi la review in momenti di prova",
+        "Scrivi cinque momenti prima del prompt: disclosure, first look, setup, test e verdict. Disclosure richiede musica tranquilla che non renda confusa la relazione commerciale. First look puo avere un piccolo pulse. Setup ha bisogno di spazio per speech. Test deve lasciare i suoni del prodotto. Verdict puo crescere un poco, ma non trasformare un opinione limitata in promessa ampia.",
+        "## Scrivi un prompt neutrale",
+        "Parti da una linea come: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. Se il prodotto e handmade, tech, skincare o kitchen gear, chiedi textures legate al materiale invece di hype generico. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare transparent, compact o practical in tempo, instrumentation e density. In EasyMusic.AI, testa un bed calmo e una versione quasi asciutta prima di scegliere la direzione.",
+        "## Lascia spazio ai suoni del prodotto",
+        "Clicks, zippers, fan noise, pouring, brushing e package tears non sono sempre rumore; in una review spesso sono prova. Tieni il bed sotto la voce e abbassalo ancora durante i test. Se servono una versione piattaforma e una versione archivio, conserva un master chiaro ed esporta copie compresse solo dopo l approvazione.",
+        "## Non coprire disclosure con la musica",
+        "Se ci sono payment, free product, affiliate commission o brand direction, rendi la relazione chiara prima che la musica faccia sembrare la review indipendente. Alcune piattaforme hanno controlli paid promotion o branded content, e alcune chiedono informazioni su AI-generated content. Non usare un bed pulito per rendere meno visibile una relazione commerciale.",
+        "## Prepara il file di consegna",
+        "Salva prompt, motivo della scelta musicale, nota disclosure e versione video testata. Se una piattaforma o editor richiede un formato audio diverso, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo creare una copia di consegna senza cambiare la decisione editoriale. Non promettere che generation o conversion rendano ogni uso automaticamente sicuro.",
+        "## Idee riutilizzabili oggi",
+        "- Metti un marker su ogni proof shot e abbassa la musica un secondo prima.\n- Testa 20 secondi su speaker del telefono: senti ancora click, texture o flaw?\n- Aggiungi limiti al prompt: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Usa un rise solo tra sezioni, non sopra difetti o disclosure.\n- Conserva una riga handoff: paid, gifted, affiliate o independent.",
+        "## FAQ\n### Una product review ha bisogno di musica?\nNon sempre. Se il suono del prodotto e parte della prova, usa un bed leggero o pochi secondi di silenzio.\n### Che musica funziona per unboxing?\nRitmo stabile, texture sobria e melodia semplice funzionano meglio di risers drammatici.\n### Posso usare AI music in una review sponsorizzata?\nPuo far parte del workflow, ma controlla regole di piattaforma, disclosure e diritti prima di pubblicare.\n### Quando abbassare la musica?\nDurante disclosure, test sonori, test di velocita, difetti, caveat di prezzo e frasi che cambiano la decisione d acquisto."
+      ]
+    },
+    "ja": {
+      "title": "Product reviewで証拠を隠さないAI music設計",
+      "description": "Product reviewやunboxingでAI musicを使うためのsound map。Disclosure、product sounds、verdictを明確に保つ。",
+      "body": [
+        "Product reviewやunboxing videoでは、musicがeditを進める助けになります。しかし、switchのclick、laptopのfan noise、verdictのcaveatを隠すと、viewerは証拠を失います。すべてのshotを高級に見せることが目的ではありません。Proofを聞こえる状態に保つことが目的です。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、description、lyrics、style ideasからmusic draftを作れるAI音楽制作platformです。Review向けのmusic bedを素早く試せますが、disclosure、usage rights、client approval、platform rulesは別に確認する必要があります。",
+        "## Reviewをproof momentsに分ける",
+        "Promptの前に5つを書きます: disclosure、first look、setup、test、verdict。Disclosureではcommercial relationshipをぼかさない静かなmusicが必要です。First lookは小さなpulseで十分です。Setupはspeech spaceが必要です。Test sectionではproduct soundsを残します。Verdictは少し上げてもよいですが、limited opinionを大きなpromiseに変えないようにします。",
+        "## Neutral supportをpromptする",
+        "たとえば understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers から始めます。Productがhandmade、tech、skincare、kitchen gearなら、generic hypeではなくmaterialに合うtexturesを求めます。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) はtransparent、compact、practicalなどをtempo、instrumentation、densityの言葉に変える助けになります。EasyMusic.AIでは、calm bedとalmost-dry versionを試してから方向を選びます。",
+        "## Product soundsの場所を残す",
+        "Clicks、zippers、fan noise、pouring、brushing、package tearsは、いつもnoiseではありません。Reviewではevidenceになることが多いです。Music bedはvoiceより下に置き、test shotsではさらに下げます。Platform copyとarchive copyが必要なら、まずclear masterを残し、approval後にcompressed versionsを書き出します。",
+        "## Disclosureをmusicで隠さない",
+        "Payment、free product、affiliate commission、brand directionがある場合、musicがreviewをindependentに感じさせる前に関係を明確にします。Platformによってはpaid promotionやbranded content controlsがあり、AI-generated contentについて尋ねる場合もあります。Polished music bedでcommercial relationshipを見えにくくしないでください。",
+        "## Delivery fileを準備する",
+        "Prompt、music choiceの理由、disclosure note、testしたvideo versionを保存します。Platformやeditorが別のaudio formatを求める場合、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) でdelivery copyを作れますが、review decision自体は変えません。Generationやconversionだけで、すべてのuseが自動的に安全になるとは約束しないでください。",
+        "## 今日すぐ使えるアイデア",
+        "- すべてのproof shotにmarkerを置き、その1秒前にmusicを下げる。\n- Phone speakerで20秒testする: click、texture、flawがまだ聞こえるか。\n- Prompt boundariesを入れる: no cinematic triumph、no luxury exaggeration、no famous brand sound。\n- Riseはsection間だけに使い、defectやdisclosureの上に置かない。\n- Handoff lineを残す: paid、gifted、affiliate、independent。",
+        "## FAQ\n### Product reviewにbackground musicは必要ですか？\n必ずではありません。Product soundがproofの一部なら、light bedまたは数秒のsilenceを使います。\n### Unboxingに合うmusicは？\nSteady rhythm、sparse texture、simple melodyが、dramatic risersより信頼を保ちやすいです。\n### Sponsored reviewでAI musicを使えますか？\nWorkflowの一部にはできますが、platform rules、relationship disclosure、rightsをpublish前に確認してください。\n### いつmusicを下げるべきですか？\nDisclosure、sound test、speed test、flaw、price caveat、buying decisionに影響するsentenceの間です。"
+      ]
+    },
+    "ko": {
+      "title": "Product review에서 증거를 가리지 않는 AI music 설계",
+      "description": "Product review와 unboxing video에서 AI music을 쓰며 disclosure, product sounds, verdict를 지키는 sound map.",
+      "body": [
+        "Product review나 unboxing video에서 music은 edit 흐름을 살릴 수 있지만 신뢰를 줄일 수도 있습니다. Track이 switch click, laptop fan noise, verdict의 caveat를 덮으면 viewer는 evidence를 잃습니다. 모든 shot을 premium하게 보이게 하는 것이 아니라 proof가 들리게 두는 것이 목표입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 description, lyrics, style ideas로 music draft를 만들 수 있는 AI 음악 제작 platform입니다. Review에 맞는 music bed를 빠르게 시험할 수 있지만 disclosure, usage rights, client approval, platform rules는 따로 확인해야 합니다.",
+        "## Review를 proof moments로 나눈다",
+        "Prompt 전에 다섯 순간을 적습니다: disclosure, first look, setup, test, verdict. Disclosure에는 commercial relationship을 흐리지 않는 조용한 music이 필요합니다. First look은 작은 pulse면 충분합니다. Setup에는 speech space가 필요합니다. Test section은 product sounds를 살려야 합니다. Verdict는 조금 올라갈 수 있지만 제한된 opinion을 큰 promise로 바꾸면 안 됩니다.",
+        "## Neutral support를 prompt한다",
+        "understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers 같은 한 줄로 시작합니다. Product가 handmade, tech, skincare, kitchen gear라면 generic hype보다 material에 맞는 textures를 요청하세요. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 transparent, compact, practical 같은 말을 tempo, instrumentation, density 언어로 바꾸는 데 도움이 됩니다. EasyMusic.AI에서는 calm bed와 almost-dry version을 시험한 뒤 direction을 정하세요.",
+        "## Product sounds를 위한 자리를 남긴다",
+        "Clicks, zippers, fan noise, pouring, brushing, package tears는 항상 noise가 아닙니다. Review에서는 evidence인 경우가 많습니다. Music bed를 voice 아래에 두고 test shots에서는 더 낮춥니다. Platform copy와 archive copy가 모두 필요하면 clear master를 보관하고 approval 뒤에 compressed versions를 내보냅니다.",
+        "## Disclosure를 music 아래에 묻지 않는다",
+        "Payment, free product, affiliate commission, brand direction이 있으면 music이 review를 independent하게 느끼게 하기 전에 관계를 분명히 해야 합니다. 일부 platform에는 paid promotion이나 branded content controls가 있고, AI-generated content 여부를 묻는 경우도 있습니다. Polished music bed로 commercial relationship을 덜 보이게 만들지 마세요.",
+        "## Delivery file을 준비한다",
+        "Prompt, music choice의 이유, disclosure note, 테스트한 video version을 저장합니다. Platform이나 editor가 다른 audio format을 요구하면 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)로 delivery copy를 만들 수 있지만 review decision 자체를 바꾸지는 않습니다. Generation이나 conversion이 모든 use를 자동으로 안전하게 만든다고 약속하지 마세요.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- 모든 proof shot에 marker를 두고 1초 전에 music을 낮춥니다.\n- Phone speaker로 20초 테스트합니다: click, texture, flaw가 들리나요?\n- Prompt boundaries를 넣습니다: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Rise는 section 사이에만 쓰고 defect나 disclosure 위에는 두지 않습니다.\n- Handoff line을 남깁니다: paid, gifted, affiliate, independent.",
+        "## FAQ\n### Product review에 background music이 필요한가요?\n항상 필요하지는 않습니다. Product sound가 proof라면 light bed나 몇 초의 silence를 쓰세요.\n### Unboxing에는 어떤 music이 맞나요?\nSteady rhythm, sparse texture, simple melody가 dramatic risers보다 신뢰를 지키기 쉽습니다.\n### Sponsored review에 AI music을 쓸 수 있나요?\nWorkflow 일부로 쓸 수 있지만 platform rules, relationship disclosure, rights를 publish 전에 확인하세요.\n### 언제 music을 낮춰야 하나요?\nDisclosure, sound test, speed test, flaw, price caveat, buying decision에 영향을 주는 sentence에서 낮춥니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje musica IA para reviews sem esconder a prova",
+      "description": "Mapa pratico de som para product review e unboxing com AI music, disclosure claro, sons do produto e entrega.",
+      "body": [
+        "Em um product review ou unboxing, a musica pode manter o ritmo do edit, mas tambem pode reduzir a confianca. Se a faixa cobre o click de um botao, o ruido de uma ventoinha ou a ressalva do verdict, o viewer perde a prova. O objetivo nao e fazer todo shot parecer premium; e manter a evidencia audivel.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para criar rascunhos a partir de descricoes, lyrics e ideias de style. Ela pode ajudar a testar music beds para reviews rapidamente, enquanto disclosure, direitos de uso, aprovacao do cliente e regras de plataforma continuam revisoes separadas.",
+        "## Divida a review em momentos de prova",
+        "Escreva cinco momentos antes do prompt: disclosure, first look, setup, test e verdict. Disclosure precisa de musica calma que nao esconda a relacao comercial. First look pode ter um pulse pequeno. Setup precisa de espaco para speech. Test deve preservar os sons do produto. Verdict pode subir um pouco, mas nao transformar opiniao limitada em promessa maior.",
+        "## Escreva um prompt de apoio neutro",
+        "Comece com uma linha como: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. Se o produto e handmade, tech, skincare ou kitchen gear, peca textures ligadas ao material em vez de hype generico. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar transparent, compact ou practical em tempo, instrumentation e density. No EasyMusic.AI, teste um bed calmo e uma versao quase seca antes de escolher a direcao.",
+        "## Deixe espaco para sons do produto",
+        "Clicks, zippers, fan noise, pouring, brushing e package tears nem sempre sao ruido; em review muitas vezes sao evidencia. Mantenha o bed abaixo da voz e baixe ainda mais durante test shots. Se precisar de uma copia para plataforma e outra para arquivo, guarde um master claro e exporte versoes comprimidas apenas depois da aprovacao.",
+        "## Nao enterre disclosure sob a musica",
+        "Se houver payment, free product, affiliate commission ou brand direction, deixe a relacao clara antes que a musica faca a review parecer independente. Algumas plataformas oferecem controles paid promotion ou branded content, e algumas podem perguntar sobre AI-generated content. Nao use um bed polido para deixar uma relacao comercial menos visivel.",
+        "## Prepare o arquivo de entrega",
+        "Salve o prompt, o motivo da escolha musical, a nota de disclosure e a versao de video testada. Se uma plataforma ou editor pedir outro formato de audio, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode criar uma copia de entrega sem mudar a decisao editorial. Nao prometa que generation ou conversion tornam todo uso automaticamente seguro.",
+        "## Ideias reutilizaveis para hoje",
+        "- Coloque marker em cada proof shot e baixe a musica um segundo antes.\n- Teste 20 segundos no speaker do telefone: ainda da para ouvir click, texture ou flaw?\n- Adicione limites ao prompt: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Use rise apenas entre secoes, nao em cima de defeito ou disclosure.\n- Guarde uma linha de handoff: paid, gifted, affiliate ou independent.",
+        "## Perguntas frequentes\n### Product review precisa de musica de fundo?\nNem sempre. Se o som do produto faz parte da prova, use um bed leve ou alguns segundos de silencio.\n### Que musica funciona para unboxing?\nRhythm estavel, texture simples e melody discreta costumam funcionar melhor que risers dramaticos.\n### Posso usar AI music em uma review patrocinada?\nPode fazer parte do workflow, mas revise regras de plataforma, disclosure da relacao e direitos antes de publicar.\n### Quando a musica deve baixar?\nDurante disclosure, sound tests, speed tests, flaws, caveats de preco e frases que influenciam a compra."
+      ]
+    },
+    "ru": {
+      "title": "План AI music для product review без скрытия доказательств",
+      "description": "Практическая sound map для product review и unboxing: AI music, disclosure, product sounds, verdict и delivery.",
+      "body": [
+        "В product review или unboxing music может держать монтаж, но также может снизить доверие. Если track закрывает click переключателя, fan noise ноутбука или caveat в verdict, viewer теряет evidence. Задача не в том, чтобы каждый shot звучал premium; задача в том, чтобы proof оставался слышимым.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, где можно делать music drafts из descriptions, lyrics и style ideas. Она помогает быстро тестировать music beds для reviews, но disclosure, usage rights, client approval и platform rules нужно проверять отдельно.",
+        "## Разделите review на proof moments",
+        "До prompt запишите пять моментов: disclosure, first look, setup, test и verdict. Disclosure требует тихой music, которая не размывает commercial relationship. First look может иметь небольшой pulse. Setup требует speech space. Test должен оставить product sounds. Verdict может немного подняться, но не должен превращать limited opinion в большую promise.",
+        "## Напишите нейтральный prompt",
+        "Начните со строки: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers. Если product handmade, tech, skincare или kitchen gear, просите textures, связанные с материалом, а не generic hype. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает переводить transparent, compact или practical в tempo, instrumentation и density language. В EasyMusic.AI протестируйте calm bed и almost-dry version, прежде чем выбирать direction.",
+        "## Оставьте место для product sounds",
+        "Clicks, zippers, fan noise, pouring, brushing и package tears не всегда noise; в review это часто evidence. Держите music bed ниже voice и еще снижайте его под test shots. Если нужна platform copy и archive copy, сохраните clear master и экспортируйте compressed versions только после approval.",
+        "## Не прячьте disclosure под music",
+        "Если есть payment, free product, affiliate commission или brand direction, relationship должен быть понятен до того, как music сделает review похожим на independent opinion. Некоторые platforms имеют paid promotion или branded content controls, а некоторые спрашивают про AI-generated content. Не используйте polished music bed, чтобы commercial relationship было труднее заметить.",
+        "## Подготовьте delivery file",
+        "Сохраните prompt, причину music choice, disclosure note и протестированную video version. Если platform или editor просит другой audio format, [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может создать delivery copy без изменения editorial decision. Не обещайте, что generation или conversion автоматически делает любое use безопасным.",
+        "## Идеи, которые можно применить сегодня",
+        "- Поставьте marker на каждый proof shot и снизьте music за одну секунду до него.\n- Проверьте 20 секунд на phone speaker: слышны ли click, texture или flaw?\n- Добавьте prompt boundaries: no cinematic triumph, no luxury exaggeration, no famous brand sound.\n- Используйте rise только между sections, не поверх defect или disclosure.\n- Оставьте handoff line: paid, gifted, affiliate или independent.",
+        "## FAQ\n### Нужна ли product review background music?\nНе всегда. Если product sound является proof, используйте light bed или несколько секунд silence.\n### Какая music подходит для unboxing?\nSteady rhythm, sparse texture и simple melody обычно лучше, чем dramatic risers.\n### Можно ли использовать AI music в sponsored review?\nОна может быть частью workflow, но перед публикацией проверьте platform rules, disclosure и rights.\n### Когда music должна стать тише?\nВо время disclosure, sound tests, speed tests, flaws, price caveats и фраз, влияющих на buying decision."
+      ]
+    },
+    "zh": {
+      "title": "为产品评测视频规划AI音乐，不要遮住证据",
+      "description": "面向product review和unboxing的实用sound map，用AI music时保持disclosure、产品声音和结论清晰。",
+      "body": [
+        "在product review或unboxing video里，music可以让剪辑更顺，但也可能削弱信任。如果track盖住按钮的click、笔记本的fan noise，或结论里的caveat，viewer就失去了证据。目标不是让每个shot都显得高级，而是让proof仍然听得见。",
+        "## EasyMusic.AI是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个AI音乐创作platform，可以根据description、lyrics和style ideas生成music draft。它能帮助你快速测试适合评测的music bed，但disclosure、usage rights、client approval和platform rules仍然需要单独检查。",
+        "## 把review拆成proof moments",
+        "写prompt前先列五个时刻: disclosure、first look、setup、test、verdict。Disclosure需要安静music，不能模糊商业关系。First look可以有一点pulse。Setup要留出speech space。Test section必须保留product sounds。Verdict可以略微抬起，但不能把有限意见变成更大的承诺。",
+        "## 写一个中性的support prompt",
+        "可以从这一句开始: understated electronic bed, steady pulse, warm but factual, room for speech, no dramatic risers。如果产品是handmade、tech、skincare或kitchen gear，请要求贴合材质的textures，而不是generic hype。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把transparent、compact、practical等词转成tempo、instrumentation和density语言。在EasyMusic.AI里，先测试一个calm bed和一个almost-dry version，再决定方向。",
+        "## 给产品声音留位置",
+        "Clicks、zippers、fan noise、pouring、brushing、package tears不一定是noise。在review里，它们常常是evidence。让music bed低于voice，并在test shots下进一步降低。如果需要platform copy和archive copy，先保留clear master，approval之后再导出compressed versions。",
+        "## 不要用music掩盖disclosure",
+        "如果存在payment、free product、affiliate commission或brand direction，应在music让review显得independent之前，把关系说明清楚。一些platform有paid promotion或branded content controls，也可能询问AI-generated content。不要用polished music bed让商业关系更难被注意到。",
+        "## 准备delivery file",
+        "保存prompt、选择音乐的原因、disclosure note和测试过的video version。如果platform或editor要求不同audio format，可以用[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 制作delivery copy，但不要改变review decision本身。不要承诺generation或conversion会让所有use自动安全。",
+        "## 今天就能用的想法",
+        "- 在每个proof shot上放marker，并提前一秒降低music。\n- 用phone speaker测试20秒: 还能听见click、texture或flaw吗？\n- 加入prompt boundaries: no cinematic triumph、no luxury exaggeration、no famous brand sound。\n- Rise只放在section之间，不要压在defect或disclosure上。\n- 保留handoff line: paid、gifted、affiliate、independent。",
+        "## FAQ\n### Product review需要background music吗？\n不一定。如果product sound本身就是proof，用light bed或几秒silence更合适。\n### Unboxing适合什么music？\nSteady rhythm、sparse texture和simple melody通常比dramatic risers更稳妥。\n### Sponsored review可以用AI music吗？\n可以作为workflow的一部分，但publish前要检查platform rules、relationship disclosure和rights。\n### 什么时候应该降低music？\n在disclosure、sound test、speed test、flaw、price caveat，以及影响buying decision的句子里降低。"
+      ]
+    }
+  }
+}
