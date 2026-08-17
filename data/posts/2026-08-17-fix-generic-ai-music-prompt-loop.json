@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-17",
+  "slug": "fix-generic-ai-music-prompt-loop",
+  "cluster": "prompt-troubleshooting-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصلح prompt موسيقى AI عاما قبل ان تعيد التوليد",
+      "description": "طريقة عملية لتحويل AI music draft عام الى brief اوضح مع genre، role، instruments، vocals، وexclusions.",
+      "body": [
+        "تكتب prompt مثل upbeat cinematic pop for a product video، تحصل على track مقبول، ثم تشعر انه يمكن ان يستخدم في اي فيديو اخر. المشكلة ليست ان الفكرة سيئة؛ المشكلة ان prompt لا يقول ما يجب ان تفعله الموسيقى، ما يجب ان تتركه، او اي تفصيل يثبت الهوية. قبل reroll جديد، اصلح brief.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من descriptions وlyrics وstyle ideas. يمكن استخدامها لاختبار اتجاهات موسيقية بسرعة، لكن اختيار الحقوق، موافقة العميل، وقواعد النشر تبقى مراجعات منفصلة لا يحسمها prompt وحده.",
+        "## شخص المشكلة بدلا من اعادة المحاولة",
+        "استمع مرة واحدة واسأل: هل المشكلة في genre، energy، instruments، vocal choice، ام في وظيفة track داخل المشروع؟ اذا كانت الموسيقى generic لانها لا تملك دورا، اكتب الدور قبل الاسلوب: intro sting، calm voiceover bed، product test section، loop for menu، أو chorus lift. الدور يحد ما يجب ان يحدث وما يجب الا يحدث.",
+        "## استخدم بطاقة اصلاح من خمس خانات",
+        "اكتب خمس خانات قصيرة: job، genre family، motion، texture، boundary. مثال: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. اذا احتجت كلمات style ادق، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل mood عام الى language عن tempo وinstrumentation وdensity.",
+        "## غير متغيرا واحدا في كل test",
+        "لا تغير genre وtempo وvocals وdrums في نفس المحاولة. ابدأ بنسخة baseline، ثم اصنع test واحدا لكل تعديل: slower pulse، fewer drums، instrumental only، less glossy production، أو brighter chorus. داخل EasyMusic.AI، سم كل draft بسبب التغيير لا بسبب الرقم فقط: baseline-speech-bed، no-drums-test، chorus-lift-test.",
+        "## علامات ان prompt اصبح اوضح",
+        "النسخة الجيدة لا تحتاج وصفا طويلا لتبريرها. تسمع مكان voiceover، تعرف اين يرتفع chorus، وتعرف لماذا استبعدت element معينا. اذا ما زالت كل نسخة تبدو مثل trailer عام، قلل adjectives، ازل references المشهورة، واجعل prompt يصف وظيفة دقيقة لا هوية مزيفة.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- استبدل happy او epic بقرار قابل للسماع مثل steady 90 BPM أو dry drums.\n- اكتب no vocals اذا كان الكلام او captions اهم من hook.\n- احفظ سبب الرفض: too busy under speech، too cinematic، not enough pulse.\n- اطلب نسخة minus one element قبل تغيير genre كامل.\n- اجعل آخر prompt boundary، لا mood جديدا.",
+        "## اسئلة شائعة\n### لماذا تبدو AI music عامة؟\nغالبا لان prompt يحتوي mood واسع بدون role، instruments، tempo، او boundaries.\n### هل prompt الاطول افضل؟\nليس دائما. Prompt قصير ومنظم غالبا افضل من قائمة طويلة من styles متعارضة.\n### متى استخدم exclusions؟\nعندما تسمع مشكلة متكررة مثل choir، heavy drums، vocals، او dramatic risers. لا تستخدم exclusions كقائمة خوف طويلة.\n### هل يمكن ضمان النتيجة؟\nلا. فكر في العملية كتجارب منظمة، ثم راجع الاستخدام والحقوق والمنصة قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "Generische KI-Musik-Prompts reparieren, bevor du neu generierst",
+      "description": "Ein praktischer Troubleshooting-Loop fuer AI music Prompts mit Rolle, Genre, Instrumenten, Tempo, Vocals und Grenzen.",
+      "body": [
+        "Du schreibst einen Prompt wie upbeat cinematic pop for a product video, bekommst einen brauchbaren Track und merkst dann: Er koennte unter fast jedem Video liegen. Die Idee ist nicht zwingend falsch. Der Prompt sagt nur zu wenig darueber, welche Aufgabe die Musik hat, was sie frei lassen muss und welche Details sie erkennbar machen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kann. Sie kann beim schnellen Testen von Musikrichtungen helfen; Rechte, Kundenfreigabe, Disclosure und Plattformregeln bleiben eigene Pruefschritte.",
+        "## Erst die Ursache finden",
+        "Hoere einmal analytisch: Ist das Problem Genre, Energy, Instrumentierung, Vocal Choice oder die Rolle im Projekt? Wenn ein Track generisch klingt, fehlt oft die Rolle. Schreibe sie vor den Stil: intro sting, calm voiceover bed, product test section, loop for menu oder chorus lift. Die Rolle verhindert, dass der Prompt nur Stimmung behauptet.",
+        "## Die Reparaturkarte mit fuenf Feldern",
+        "Notiere fuenf kurze Felder: job, genre family, motion, texture, boundary. Beispiel: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. Wenn dir Style-Woerter fehlen, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) vage Mood-Woerter in Tempo, Instrumente und Dichte uebersetzen.",
+        "## Nur eine Variable pro Test aendern",
+        "Aendere nicht gleichzeitig Genre, Tempo, Vocals und Drums. Starte mit einer Baseline und teste dann gezielt: slower pulse, fewer drums, instrumental only, less glossy production oder brighter chorus. In EasyMusic.AI sollten Draft-Namen den Testgrund zeigen, nicht nur eine Nummer: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Woran du einen klareren Prompt erkennst",
+        "Ein besserer Draft braucht weniger Rechtfertigung. Du hoerst, wo die Stimme Platz hat, wo ein Chorus heben darf und warum ein Element ausgeschlossen wurde. Wenn alles weiter nach allgemeinem Trailer klingt, entferne Adjektive, meide bekannte Artist-Referenzen und beschreibe eine konkrete Aufgabe statt einer grossen Identitaet.",
+        "## Sofort nutzbare Ideen",
+        "- Ersetze happy oder epic durch hoerbare Entscheidungen wie steady 90 BPM oder dry drums.\n- Schreibe no vocals, wenn Sprache, Untertitel oder Produktklang wichtiger sind als ein Hook.\n- Speichere Ablehnungsgruende: too busy under speech, too cinematic, not enough pulse.\n- Fordere zuerst minus one element an, bevor du das Genre wechselst.\n- Lass den letzten Prompt-Teil eine Grenze sein, nicht ein neues Mood-Wort.",
+        "## FAQ\n### Warum klingt AI music generisch?\nMeist hat der Prompt eine breite Stimmung, aber keine Rolle, Instrumente, Tempo oder Grenzen.\n### Ist ein laengerer Prompt besser?\nNicht automatisch. Ein kurzer, geordneter Prompt ist oft staerker als eine lange Liste widerspruechlicher Styles.\n### Wann helfen Exclusions?\nWenn ein Stoerelement wiederholt auftaucht, etwa choir, heavy drums, vocals oder dramatic risers.\n### Kann der Workflow ein Ergebnis garantieren?\nNein. Er macht Tests nachvollziehbarer; Nutzung, Rechte und Plattformregeln musst du trotzdem pruefen."
+      ]
+    },
+    "en": {
+      "title": "Fix Generic AI Music Drafts Before You Reroll Again",
+      "description": "A practical troubleshooting loop for AI music prompts that sound too generic, with role, genre, instruments, tempo, vocals, and exclusions.",
+      "body": [
+        "You write a prompt like upbeat cinematic pop for a product video, get a usable track, and then notice the problem: it could sit under almost any product video. The idea is not necessarily bad. The prompt just does not say what the music is supposed to do, what it must leave alone, or which details make it belong to this project.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for drafting music from descriptions, lyrics, and style ideas. It can help you test directions quickly, while usage rights, client approval, disclosure, and platform rules still need separate review.",
+        "## Diagnose Before You Reroll",
+        "Listen once without fixing anything and name the weak point: genre, energy, instrumentation, vocal choice, tempo, or project role. Generic drafts often fail because the role is missing. Put the role before the style: intro sting, calm voiceover bed, product test section, menu loop, chorus lift, or end-card tag. A role turns a mood into a job.",
+        "## Use a Five-Field Repair Card",
+        "Write five short fields: job, genre family, motion, texture, boundary. Example: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. If your style vocabulary is thin, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn a vague mood into language about tempo, instrumentation, and density.",
+        "## Change One Variable Per Test",
+        "Do not change genre, tempo, vocals, and drums in the same retry. Keep one baseline, then test one edit at a time: slower pulse, fewer drums, instrumental only, less glossy production, or brighter chorus. In EasyMusic.AI, name each draft by the reason for the test, not by a number: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Know When the Prompt Is Clearer",
+        "A clearer draft needs less explanation. You can hear where the voiceover fits, where the chorus lifts, and why one element was excluded. If every version still sounds like a generic trailer, remove adjectives, avoid famous-artist references, and make the prompt describe a precise job instead of a fake identity.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Replace happy or epic with an audible decision such as steady 90 BPM or dry drums.\n- Add no vocals when speech, captions, or product sound matter more than a hook.\n- Save rejection notes: too busy under speech, too cinematic, not enough pulse.\n- Ask for minus one element before changing the whole genre.\n- Make the last prompt phrase a boundary, not another mood word.",
+        "## FAQ\n### Why does my AI music sound generic?\nUsually the prompt names a broad mood without a role, instrumentation, tempo, or boundaries.\n### Is a longer prompt better?\nNot always. A short ordered prompt often beats a long list of conflicting style words.\n### When should I use exclusions?\nUse them when the same unwanted element keeps appearing, such as choir, heavy drums, vocals, or dramatic risers.\n### Can this workflow guarantee the right result?\nNo. It makes testing more deliberate; you still need to review usage rights, approvals, and platform rules before publishing."
+      ]
+    },
+    "es": {
+      "title": "Arregla AI music generica antes de volver a generar",
+      "description": "Loop practico para prompts de AI music que suenan genericos, con rol, genero, instrumentos, tempo, voces y limites.",
+      "body": [
+        "Escribes un prompt como upbeat cinematic pop for a product video, recibes un track util y luego aparece el problema: podria servir para casi cualquier product video. La idea no siempre esta mal. El prompt solo no dice que debe hacer la musica, que debe dejar libre o que detalles la conectan con este proyecto.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para crear borradores desde descripciones, lyrics e ideas de style. Puede ayudarte a probar direcciones rapido, mientras derechos de uso, aprobacion del cliente, disclosure y reglas de plataforma siguen siendo revisiones separadas.",
+        "## Diagnostica antes de reroll",
+        "Escucha una vez sin corregir y nombra el punto debil: genre, energy, instrumentation, vocal choice, tempo o role en el proyecto. Muchos drafts genericos fallan porque falta el rol. Pon el rol antes del style: intro sting, calm voiceover bed, product test section, menu loop, chorus lift o end-card tag. El rol convierte un mood en una tarea.",
+        "## Usa una tarjeta de reparacion de cinco campos",
+        "Escribe cinco campos cortos: job, genre family, motion, texture, boundary. Ejemplo: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. Si te falta vocabulario, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood vago en lenguaje de tempo, instrumentation y density.",
+        "## Cambia una variable por test",
+        "No cambies genre, tempo, vocals y drums en el mismo intento. Conserva una baseline y prueba una edicion a la vez: slower pulse, fewer drums, instrumental only, less glossy production o brighter chorus. En EasyMusic.AI, nombra cada draft por la razon del test, no por numero: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Como saber que el prompt esta mas claro",
+        "Un draft mas claro necesita menos explicacion. Se oye donde entra la voiceover, donde sube el chorus y por que se excluyo un elemento. Si cada version sigue sonando a trailer generico, elimina adjectives, evita referencias a artistas famosos y haz que el prompt describa un trabajo preciso en vez de una identidad inventada.",
+        "## Ideas reutilizables para hoy",
+        "- Cambia happy o epic por una decision audible como steady 90 BPM o dry drums.\n- Agrega no vocals cuando speech, captions o product sound importan mas que el hook.\n- Guarda notas de rechazo: too busy under speech, too cinematic, not enough pulse.\n- Pide minus one element antes de cambiar todo el genre.\n- Haz que la ultima frase del prompt sea un limite, no otro mood.",
+        "## Preguntas frecuentes\n### Por que mi AI music suena generica?\nNormalmente el prompt usa un mood amplio sin rol, instrumentation, tempo o boundaries.\n### Un prompt mas largo es mejor?\nNo siempre. Un prompt corto y ordenado suele ganar a una lista larga de styles en conflicto.\n### Cuando debo usar exclusions?\nCuando el mismo elemento no deseado aparece varias veces, como choir, heavy drums, vocals o dramatic risers.\n### Este workflow garantiza el resultado correcto?\nNo. Hace las pruebas mas claras; aun debes revisar derechos, aprobaciones y reglas de plataforma antes de publicar."
+      ]
+    },
+    "fr": {
+      "title": "Corriger une AI music generique avant de relancer",
+      "description": "Boucle pratique pour reparer un prompt AI music trop generique avec role, genre, instruments, tempo, voix et limites.",
+      "body": [
+        "Tu ecris un prompt comme upbeat cinematic pop for a product video, tu obtiens un track utilisable, puis le doute arrive: il pourrait aller sous presque n importe quelle video produit. L idee n est pas forcement mauvaise. Le prompt ne dit simplement pas assez ce que la musique doit faire, ce qu elle doit laisser respirer et quel detail l attache au projet.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui permet de brouillonner de la musique depuis descriptions, lyrics et idees de style. Elle peut aider a tester vite des directions, tandis que droits d usage, validation client, disclosure et regles de plateforme restent a verifier separement.",
+        "## Diagnostiquer avant de relancer",
+        "Ecoute une fois sans corriger et nomme le point faible: genre, energy, instrumentation, vocal choice, tempo ou role dans le projet. Les drafts generiques echouent souvent parce que le role manque. Place le role avant le style: intro sting, calm voiceover bed, product test section, menu loop, chorus lift ou end-card tag. Le role transforme un mood en travail concret.",
+        "## Utiliser une carte de reparation en cinq champs",
+        "Ecris cinq champs courts: job, genre family, motion, texture, boundary. Exemple: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. Si le vocabulaire manque, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer une humeur vague en langage de tempo, instrumentation et density.",
+        "## Modifier une seule variable par test",
+        "Ne change pas genre, tempo, vocals et drums dans le meme essai. Garde une baseline, puis teste une modification: slower pulse, fewer drums, instrumental only, less glossy production ou brighter chorus. Dans EasyMusic.AI, nomme chaque draft par la raison du test, pas par un numero: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Reconnaitre un prompt plus clair",
+        "Un draft plus clair demande moins d explication. On entend ou la voiceover peut vivre, ou le chorus peut monter et pourquoi un element a ete exclu. Si chaque version sonne encore comme un trailer vague, retire des adjectifs, evite les references a artistes celebres et fais decrire au prompt une fonction precise plutot qu une identite artificielle.",
+        "## Idees reutilisables aujourd hui",
+        "- Remplace happy ou epic par une decision audible comme steady 90 BPM ou dry drums.\n- Ajoute no vocals quand speech, captions ou product sound comptent plus qu un hook.\n- Garde les notes de rejet: too busy under speech, too cinematic, not enough pulse.\n- Demande minus one element avant de changer tout le genre.\n- Fais de la derniere phrase du prompt une limite, pas un nouveau mood.",
+        "## FAQ\n### Pourquoi mon AI music sonne-t-elle generique ?\nSouvent, le prompt nomme une humeur large sans role, instrumentation, tempo ou limites.\n### Un prompt plus long est-il meilleur ?\nPas toujours. Un prompt court et ordonne vaut souvent mieux qu une longue liste de styles contradictoires.\n### Quand utiliser des exclusions ?\nQuand le meme element revient plusieurs fois: choir, heavy drums, vocals ou dramatic risers.\n### Ce workflow garantit-il le bon resultat ?\nNon. Il rend les tests plus lisibles; les droits, validations et regles de plateforme restent a verifier."
+      ]
+    },
+    "it": {
+      "title": "Correggi AI music generica prima di rigenerare",
+      "description": "Loop pratico per prompt AI music troppo generici, con ruolo, genere, strumenti, tempo, vocal e limiti.",
+      "body": [
+        "Scrivi un prompt come upbeat cinematic pop for a product video, ottieni un track utilizzabile e poi senti il problema: potrebbe stare sotto quasi qualunque product video. L idea non e per forza sbagliata. Il prompt non dice abbastanza cosa deve fare la musica, cosa deve lasciare libero o quale dettaglio la lega a questo progetto.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per creare bozze da descrizioni, lyrics e idee di style. Puo aiutare a testare direzioni rapidamente, mentre usage rights, approvazione cliente, disclosure e regole di piattaforma restano controlli separati.",
+        "## Diagnostica prima del reroll",
+        "Ascolta una volta senza correggere e nomina il punto debole: genre, energy, instrumentation, vocal choice, tempo o role nel progetto. I draft generici spesso falliscono perche manca il ruolo. Metti il ruolo prima dello style: intro sting, calm voiceover bed, product test section, menu loop, chorus lift o end-card tag. Il ruolo trasforma un mood in un lavoro.",
+        "## Usa una scheda di riparazione a cinque campi",
+        "Scrivi cinque campi brevi: job, genre family, motion, texture, boundary. Esempio: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. Se il vocabolario di style e debole, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood vago in parole su tempo, instrumentation e density.",
+        "## Cambia una sola variabile per test",
+        "Non cambiare genre, tempo, vocals e drums nello stesso tentativo. Tieni una baseline, poi prova una modifica alla volta: slower pulse, fewer drums, instrumental only, less glossy production o brighter chorus. In EasyMusic.AI, nomina ogni draft con il motivo del test, non con un numero: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Capire quando il prompt e piu chiaro",
+        "Un draft piu chiaro richiede meno spiegazioni. Senti dove puo stare la voiceover, dove il chorus sale e perche un elemento e stato escluso. Se ogni versione sembra ancora un trailer generico, togli aggettivi, evita riferimenti ad artisti famosi e fai descrivere al prompt una funzione precisa invece di una identita finta.",
+        "## Idee riutilizzabili oggi",
+        "- Sostituisci happy o epic con una decisione udibile come steady 90 BPM o dry drums.\n- Aggiungi no vocals quando speech, captions o product sound contano piu del hook.\n- Salva note di rifiuto: too busy under speech, too cinematic, not enough pulse.\n- Chiedi minus one element prima di cambiare tutto il genre.\n- Fai dell ultima frase del prompt un limite, non un nuovo mood.",
+        "## FAQ\n### Perche la mia AI music sembra generica?\nDi solito il prompt nomina un mood ampio senza role, instrumentation, tempo o boundaries.\n### Un prompt piu lungo e migliore?\nNon sempre. Un prompt corto e ordinato spesso batte una lunga lista di style in conflitto.\n### Quando usare exclusions?\nQuando lo stesso elemento indesiderato torna spesso, come choir, heavy drums, vocals o dramatic risers.\n### Questo workflow garantisce il risultato?\nNo. Rende i test piu controllati; rights, approvals e platform rules vanno comunque verificati."
+      ]
+    },
+    "ja": {
+      "title": "GenericなAI music draftをreroll前に直す方法",
+      "description": "Genericに聞こえるAI music promptを、role、genre、instruments、tempo、vocals、exclusionsで修正する実用的な手順。",
+      "body": [
+        "upbeat cinematic pop for a product video のようにpromptを書き、使えるtrackは出たのに、あとで気づきます。これはどのproduct videoにも置けそうだ、と。Ideaが悪いとは限りません。Promptが、musicのjob、残すべき余白、このprojectらしさを十分に言っていないだけです。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、description、lyrics、style ideasからmusic draftを作れるAI音楽制作platformです。方向性を素早く試せますが、usage rights、client approval、disclosure、platform rulesは別に確認する必要があります。",
+        "## Reroll前に原因を診断する",
+        "まず直さずに一度だけ聞き、弱い点を名付けます: genre、energy、instrumentation、vocal choice、tempo、project role。Genericなdraftは、roleが欠けていることが多いです。Styleの前にroleを書きます: intro sting、calm voiceover bed、product test section、menu loop、chorus lift、end-card tag。Roleはmoodをjobに変えます。",
+        "## 五つの修正カードを使う",
+        "短く五つを書きます: job、genre family、motion、texture、boundary。例: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference。Style語彙が足りないとき、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は曖昧なmoodをtempo、instrumentation、densityの言葉に変える助けになります。",
+        "## Testごとに一つだけ変える",
+        "同じretryでgenre、tempo、vocals、drumsを全部変えないでください。Baselineを残し、slower pulse、fewer drums、instrumental only、less glossy production、brighter chorusのように一つずつ試します。EasyMusic.AIでは、draft名を数字ではなくtest理由にします: baseline-speech-bed、no-drums-test、chorus-lift-test。",
+        "## Promptが明確になったサイン",
+        "よいdraftは説明が少なくて済みます。Voiceoverの場所、chorusが上がる場所、なぜあるelementを外したかが聞こえます。まだgeneric trailerに聞こえるなら、adjectivesを減らし、有名artist referenceを避け、偽のidentityではなく正確なjobをpromptに書かせます。",
+        "## 今日すぐ使えるアイデア",
+        "- happyやepicをsteady 90 BPMやdry drumsのような聞こえるdecisionに置き換える。\n- Speech、captions、product soundがhookより大事ならno vocalsを書く。\n- Rejection noteを残す: too busy under speech、too cinematic、not enough pulse。\n- Genre全体を変える前にminus one elementを試す。\n- Promptの最後は新しいmoodではなくboundaryにする。",
+        "## FAQ\n### なぜAI musicがgenericに聞こえるのですか？\n多くの場合、promptが広いmoodだけを書き、role、instrumentation、tempo、boundariesを書いていないからです。\n### 長いpromptの方が良いですか？\n常にそうではありません。短く順序のあるpromptは、矛盾するstyle語の長いlistより強いことがあります。\n### Exclusionsはいつ使いますか？\nChoir、heavy drums、vocals、dramatic risersなど同じ不要elementが繰り返し出るときです。\n### このworkflowで正解を保証できますか？\nいいえ。Testを整理する方法です。公開前にrights、approval、platform rulesは別に確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "Generic한 AI music draft를 reroll 전에 고치는 법",
+      "description": "Generic하게 들리는 AI music prompt를 role, genre, instruments, tempo, vocals, exclusions로 고치는 실전 루프.",
+      "body": [
+        "upbeat cinematic pop for a product video 같은 prompt를 쓰고 쓸 만한 track을 얻었는데, 곧 문제가 보입니다. 거의 어떤 product video에도 깔릴 수 있을 것 같습니다. Idea가 꼭 나쁜 것은 아닙니다. Prompt가 music의 job, 남겨야 할 공간, 이 project만의 detail을 충분히 말하지 않은 것입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 description, lyrics, style ideas로 music draft를 만들 수 있는 AI 음악 제작 platform입니다. 방향을 빠르게 테스트하는 데 도움이 되지만 usage rights, client approval, disclosure, platform rules는 별도로 확인해야 합니다.",
+        "## Reroll 전에 진단한다",
+        "아무것도 고치지 말고 한 번 듣고 약점을 이름 붙입니다: genre, energy, instrumentation, vocal choice, tempo, project role. Generic draft는 role이 빠져서 실패하는 경우가 많습니다. Style 앞에 role을 씁니다: intro sting, calm voiceover bed, product test section, menu loop, chorus lift, end-card tag. Role은 mood를 job으로 바꿉니다.",
+        "## 다섯 칸 repair card를 쓴다",
+        "짧게 다섯 칸을 씁니다: job, genre family, motion, texture, boundary. 예: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. Style vocabulary가 부족하면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)가 모호한 mood를 tempo, instrumentation, density 언어로 바꾸는 데 도움이 됩니다.",
+        "## Test마다 하나만 바꾼다",
+        "한 retry에서 genre, tempo, vocals, drums를 모두 바꾸지 마세요. Baseline을 남기고 slower pulse, fewer drums, instrumental only, less glossy production, brighter chorus처럼 하나씩 시험합니다. EasyMusic.AI에서는 draft 이름을 숫자가 아니라 test 이유로 정합니다: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Prompt가 더 분명해졌는지 확인한다",
+        "좋은 draft는 설명이 덜 필요합니다. Voiceover가 들어갈 자리, chorus가 올라갈 자리, 어떤 element를 제외한 이유가 들립니다. 계속 generic trailer처럼 들리면 adjectives를 줄이고 유명 artist reference를 피하며, prompt가 가짜 identity보다 정확한 job을 설명하게 하세요.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- happy나 epic을 steady 90 BPM, dry drums처럼 들리는 decision으로 바꿉니다.\n- Speech, captions, product sound가 hook보다 중요하면 no vocals를 씁니다.\n- Rejection note를 저장합니다: too busy under speech, too cinematic, not enough pulse.\n- Genre 전체를 바꾸기 전에 minus one element를 요청합니다.\n- Prompt의 마지막 phrase는 새 mood가 아니라 boundary로 둡니다.",
+        "## FAQ\n### 왜 AI music이 generic하게 들리나요?\n대개 prompt가 넓은 mood만 쓰고 role, instrumentation, tempo, boundaries를 쓰지 않기 때문입니다.\n### 긴 prompt가 더 좋나요?\n항상 그렇지는 않습니다. 짧고 순서 있는 prompt가 충돌하는 style list보다 나을 때가 많습니다.\n### Exclusions는 언제 쓰나요?\nChoir, heavy drums, vocals, dramatic risers처럼 원치 않는 element가 반복될 때 씁니다.\n### 이 workflow가 정답을 보장하나요?\n아니요. Test를 더 의도적으로 만드는 방법입니다. Publish 전 rights, approvals, platform rules는 따로 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Corrija AI music generica antes de gerar de novo",
+      "description": "Loop pratico para prompts de AI music genericos, com papel, genero, instrumentos, tempo, vocais e limites.",
+      "body": [
+        "Voce escreve um prompt como upbeat cinematic pop for a product video, recebe um track utilizavel e percebe o problema: ele poderia ficar em quase qualquer product video. A ideia nao esta necessariamente errada. O prompt apenas nao diz o que a musica deve fazer, o que precisa deixar livre ou que detalhes pertencem a este projeto.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para criar rascunhos a partir de descricoes, lyrics e ideias de style. Ela pode ajudar a testar direcoes rapidamente, enquanto direitos de uso, aprovacao do cliente, disclosure e regras de plataforma continuam revisoes separadas.",
+        "## Diagnostique antes do reroll",
+        "Ouça uma vez sem corrigir e nomeie o ponto fraco: genre, energy, instrumentation, vocal choice, tempo ou role no projeto. Drafts genericos muitas vezes falham porque falta o papel. Coloque o papel antes do style: intro sting, calm voiceover bed, product test section, menu loop, chorus lift ou end-card tag. O papel transforma mood em tarefa.",
+        "## Use um cartao de reparo com cinco campos",
+        "Escreva cinco campos curtos: job, genre family, motion, texture, boundary. Exemplo: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. Se faltar vocabulario, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar um mood vago em linguagem sobre tempo, instrumentation e density.",
+        "## Mude uma variavel por teste",
+        "Nao altere genre, tempo, vocals e drums no mesmo retry. Mantenha uma baseline e teste uma edicao por vez: slower pulse, fewer drums, instrumental only, less glossy production ou brighter chorus. No EasyMusic.AI, nomeie cada draft pelo motivo do teste, nao por numero: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Saiba quando o prompt ficou mais claro",
+        "Um draft mais claro precisa de menos explicacao. Voce ouve onde a voiceover cabe, onde o chorus sobe e por que um elemento foi excluido. Se toda versao ainda soa como trailer generico, remova adjectives, evite referencias a artistas famosos e faca o prompt descrever uma funcao precisa em vez de uma identidade falsa.",
+        "## Ideias reutilizaveis para hoje",
+        "- Troque happy ou epic por uma decisao audivel como steady 90 BPM ou dry drums.\n- Adicione no vocals quando speech, captions ou product sound importam mais que o hook.\n- Guarde notas de rejeicao: too busy under speech, too cinematic, not enough pulse.\n- Peca minus one element antes de mudar todo o genre.\n- Deixe a ultima frase do prompt como boundary, nao como outro mood.",
+        "## Perguntas frequentes\n### Por que minha AI music soa generica?\nGeralmente o prompt nomeia um mood amplo sem papel, instrumentation, tempo ou boundaries.\n### Um prompt maior e melhor?\nNem sempre. Um prompt curto e organizado costuma vencer uma longa lista de styles conflitantes.\n### Quando devo usar exclusions?\nQuando o mesmo elemento indesejado aparece varias vezes, como choir, heavy drums, vocals ou dramatic risers.\n### Este workflow garante o resultado certo?\nNao. Ele torna os testes mais intencionais; voce ainda deve revisar direitos, aprovacoes e regras de plataforma antes de publicar."
+      ]
+    },
+    "ru": {
+      "title": "Исправьте generic AI music prompt перед новым reroll",
+      "description": "Практический loop для AI music prompts: role, genre, instruments, tempo, vocals, exclusions и понятные тесты.",
+      "body": [
+        "Вы пишете prompt вроде upbeat cinematic pop for a product video, получаете пригодный track и замечаете проблему: он мог бы звучать почти под любым product video. Идея не обязательно плохая. Prompt просто не говорит, что music должна делать, что она должна оставить свободным и какие детали связывают ее с этим project.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, где можно делать music drafts из descriptions, lyrics и style ideas. Она помогает быстро тестировать направления, но usage rights, client approval, disclosure и platform rules нужно проверять отдельно.",
+        "## Диагностируйте до reroll",
+        "Прослушайте один раз без исправлений и назовите слабое место: genre, energy, instrumentation, vocal choice, tempo или project role. Generic drafts часто звучат пусто, потому что роли нет. Ставьте role перед style: intro sting, calm voiceover bed, product test section, menu loop, chorus lift или end-card tag. Role превращает mood в задачу.",
+        "## Используйте карту ремонта из пяти полей",
+        "Запишите пять коротких полей: job, genre family, motion, texture, boundary. Пример: job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference. Если не хватает словаря, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает перевести размытый mood в язык tempo, instrumentation и density.",
+        "## Меняйте одну переменную за тест",
+        "Не меняйте genre, tempo, vocals и drums в одной попытке. Оставьте baseline, затем тестируйте по одному изменению: slower pulse, fewer drums, instrumental only, less glossy production или brighter chorus. В EasyMusic.AI называйте draft по причине теста, а не номером: baseline-speech-bed, no-drums-test, chorus-lift-test.",
+        "## Как понять, что prompt стал яснее",
+        "Более ясный draft требует меньше объяснений. Слышно, где живет voiceover, где поднимается chorus и почему исключен конкретный element. Если все версии похожи на generic trailer, уберите adjectives, избегайте famous-artist references и заставьте prompt описывать точную функцию, а не выдуманную identity.",
+        "## Идеи, которые можно применить сегодня",
+        "- Замените happy или epic на слышимое решение: steady 90 BPM или dry drums.\n- Добавьте no vocals, если speech, captions или product sound важнее hook.\n- Сохраняйте причины отказа: too busy under speech, too cinematic, not enough pulse.\n- Просите minus one element перед полной сменой genre.\n- Пусть последняя phrase prompt будет boundary, а не новым mood.",
+        "## FAQ\n### Почему моя AI music звучит generic?\nОбычно prompt называет широкий mood без role, instrumentation, tempo или boundaries.\n### Длинный prompt лучше?\nНе всегда. Короткий упорядоченный prompt часто лучше длинного списка конфликтующих style words.\n### Когда использовать exclusions?\nКогда один и тот же нежелательный element повторяется: choir, heavy drums, vocals или dramatic risers.\n### Этот workflow гарантирует нужный результат?\nНет. Он делает тесты осознаннее; rights, approvals и platform rules все равно нужно проверять перед публикацией."
+      ]
+    },
+    "zh": {
+      "title": "在重新生成前修好泛泛的 AI music prompt",
+      "description": "一个实用的 AI music prompt 排查流程，用 role、genre、instruments、tempo、vocals 和 exclusions 缩小方向。",
+      "body": [
+        "你写下 upbeat cinematic pop for a product video，得到一个能用的 track，随后发现问题：它好像可以放在任何 product video 下面。创意未必错，问题常常是 prompt 没说清 music 要完成什么任务、必须留下什么空间，以及哪些细节属于这个 project。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。它适合快速测试方向，但 usage rights、client approval、disclosure 和 platform rules 仍然需要单独检查。",
+        "## 先诊断，再 reroll",
+        "先听一遍，不急着改，给弱点命名：genre、energy、instrumentation、vocal choice、tempo，还是 project role。Generic draft 常见问题是没有 role。把 role 放在 style 前面：intro sting、calm voiceover bed、product test section、menu loop、chorus lift、end-card tag。Role 会把 mood 变成 job。",
+        "## 用五栏修复卡",
+        "写五个短栏：job、genre family、motion、texture、boundary。例子：job: speech-friendly bed; genre family: warm indie electronic; motion: steady 92 BPM; texture: muted synth, soft bass, light percussion; boundary: no choir, no dramatic riser, no famous-artist reference。如果 style 词汇不够，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把模糊 mood 转成关于 tempo、instrumentation 和 density 的语言。",
+        "## 每次测试只改一个变量",
+        "不要在同一次 retry 里同时改 genre、tempo、vocals 和 drums。保留一个 baseline，然后一次只测试一个变化：slower pulse、fewer drums、instrumental only、less glossy production、brighter chorus。在 EasyMusic.AI 里，用测试原因命名 draft，而不是只写编号：baseline-speech-bed、no-drums-test、chorus-lift-test。",
+        "## 判断 prompt 是否更清楚",
+        "更清楚的 draft 不需要太多解释。你能听出 voiceover 放在哪里、chorus 何时抬起、为什么排除某个 element。如果每个版本仍像 generic trailer，就减少 adjectives，避开 famous-artist references，让 prompt 描述具体功能，而不是假装有独特身份。",
+        "## 今天就能用的做法",
+        "- 把 happy 或 epic 换成能听见的决定，例如 steady 90 BPM 或 dry drums。\n- 当 speech、captions 或 product sound 比 hook 更重要时，写 no vocals。\n- 保存拒绝原因：too busy under speech、too cinematic、not enough pulse。\n- 改整个 genre 前，先请求 minus one element。\n- 让 prompt 最后一段成为 boundary，而不是另一个 mood。",
+        "## FAQ\n### 为什么我的 AI music 听起来很 generic？\n通常是 prompt 只有宽泛 mood，没有 role、instrumentation、tempo 或 boundaries。\n### Prompt 越长越好吗？\n不一定。短而有顺序的 prompt，常常比一长串互相冲突的 style words 更好。\n### 什么时候使用 exclusions？\n当同一个不想要的 element 反复出现时，例如 choir、heavy drums、vocals 或 dramatic risers。\n### 这个 workflow 能保证结果吗？\n不能。它只是让测试更有方向；发布前仍要检查 rights、approvals 和 platform rules。"
+      ]
+    }
+  }
+}
