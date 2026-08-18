@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-18",
+  "slug": "video-outro-cta-ai-music-bed",
+  "cluster": "video-cta-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لآخر الفيديو من دون دفن CTA",
+      "description": "طريقة عملية لصناعة outro music bed يدعم subscribe، next video، او shop CTA من دون تغطية الصوت والنصوص.",
+      "body": [
+        "تصل الى آخر عشرين ثانية من الفيديو وتريد ان تقول للمشاهد: اشترك، شاهد الفيديو التالي، حمل الملف، او افحص المنتج. ثم تضع music bed كبيرا، فيصير آخر الكلام اقل وضوحا، وتبدو end card كأنها تقاتل track بدلا من ان تقود القرار. Outro الجيد لا يحتاج ذروة جديدة؛ يحتاج مساحة للطلب.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من descriptions وlyrics وstyle ideas. يمكن ان تساعدك على اختبار music beds قصيرة للفيديو، لكن حقوق الاستخدام، موافقة العميل، disclosure، وقواعد كل منصة تبقى مراجعات منفصلة قبل النشر.",
+        "## ابدأ من الطلب النهائي",
+        "اكتب call to action قبل prompt الموسيقى. هل تريد subscribe، comment، download، buy، أو watch next؟ لكل طلب مساحة مختلفة. Subscribe يحتاج نهاية هادئة وواثقة. Download يحتاج ايقاعا لا يغطي خطوات الشاشة. Shop CTA يحتاج صوتا نظيفا لا يجعل العرض يبدو اكبر من الدليل. اذا كنت تستخدم YouTube end screens، خطط منطقة 5-20 ثانية يمكن ان تعيش فيها العناصر البصرية والكلام معا.",
+        "## اجعل الموسيقى تهبط لا تكبر",
+        "اطلب حركة تستقر: gentle resolve، light pulse، soft ending tag، no final riser، no busy fill. الفكرة ليست ان تنهي الفيديو كtrailer؛ الفكرة ان يعرف المشاهد ماذا يفعل. اذا كان mood عاما جدا، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل كلمات مثل calm confidence او clean product close الى tempo وinstrumentation وdensity ادق.",
+        "## اترك نافذة للكلام والازرار",
+        "ارسم اخر 20 ثانية بثلاث خانات: proof close، ask، end-card hold. في proof close، لا تخف عينة الصوت او الجملة الاخيرة. في ask، اجعل drums اخف من الكلام. في hold، اترك loop قصيرا يمكن قصه اذا تغيرت منصة النشر. داخل EasyMusic.AI، اختبر نسخة instrumental ونسخة اقل percussion قبل اعتماد track.",
+        "## حضر نسخة النشر",
+        "استمع الى outro على speaker هاتف، ثم مع captions والازرار فوق الصورة. اذا احتجت نسخة MP3 او WAV او format آخر للتسليم، استخدم [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) كخطوة format بعد الموافقة على القرار الموسيقي. لا تفترض ان التحويل او التوليد يحل حقوق الاستخدام او متطلبات المنصة.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب CTA في سطر واحد قبل اي prompt: subscribe for weekly teardown، download the checklist، أو watch the full demo.\n- اخفض music قبل الكلام الاخير بثانية، لا بعده.\n- اطلب end-card hold بطول 8 ثوان مع no lead vocal.\n- اختبر outro مع العناصر البصرية ظاهرة، لا على timeline فارغ فقط.\n- سم الملف حسب الطلب: outro-watch-next-soft-pulse او cta-download-clean-bed.",
+        "## اسئلة شائعة\n### هل يحتاج outro الى موسيقى مختلفة؟\nليس دائما. احيانا يكفي قص track الحالي بهدوء. استخدم bed جديدا عندما يحتاج الطلب الاخير هوية او مدة مختلفة.\n### ما طول music bed المناسب؟\nابدأ ب20 ثانية، ثم اصنع قصات 15 و10 و6 ثوان حتى لا تتعطل نسخة short او ad.\n### هل اضع vocals في outro؟\nعادة لا، اذا كان هناك voiceover او نصوص مهمة. Hook vocal يمكن ان ينافس CTA.\n### هل AI music تضمن الموافقة على المنصة؟\nلا. راجع الحقوق، disclosures، وسياسات المنصة مثل اي ملف صوتي آخر."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer Video-Outros planen, ohne den CTA zu verdecken",
+      "description": "Ein praktischer Outro-Workflow fuer AI music Beds, die Subscribe, Next Video, Download oder Shop CTA klar lassen.",
+      "body": [
+        "Die letzten zwanzig Sekunden eines Videos wirken oft harmlos, bis Musik, Stimme, Untertitel und Endscreen gleichzeitig auftauchen. Der Sprecher sagt subscribe oder watch next, aber der Track baut noch einmal gross auf. Dann konkurriert die Musik mit der eigentlichen Handlung. Ein gutes Outro braucht nicht noch einen Hoehepunkt. Es braucht Platz fuer die Bitte.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kann. Sie kann helfen, kurze Music Beds fuer Video-Enden zu testen; Nutzungsrechte, Kundenfreigabe, Disclosure und Plattformregeln bleiben eigene Pruefschritte.",
+        "## Beim letzten Wunsch anfangen",
+        "Schreibe den Call to Action vor den Musikprompt. Geht es um subscribe, comment, download, buy oder watch next? Jede Bitte braucht eine andere Audiostufe. Subscribe darf ruhig und sicher enden. Download braucht Puls, der Bildschirmhinweise nicht verdeckt. Ein Shop CTA braucht neutralen Support, damit das Angebot nicht groesser klingt als der Beweis. Wenn du YouTube End Screens nutzt, plane eine Zone von 5-20 Sekunden, in der Overlays und Sprache nebeneinander Platz haben.",
+        "## Musik setzen lassen, nicht aufblasen",
+        "Prompte eine Landung: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. Das Ende soll nicht wie ein Trailer wirken; es soll die naechste Handlung lesbar machen. Wenn der Mood zu vage ist, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Woerter wie calm confidence oder clean product close in Tempo, Instrumente und Dichte uebersetzen.",
+        "## Fenster fuer Stimme und Buttons lassen",
+        "Skizziere die letzten 20 Sekunden in drei Feldern: proof close, ask, end-card hold. Beim proof close darf die letzte Aussage oder ein Produktklang nicht verdeckt werden. Beim ask muessen Drums unter der Stimme bleiben. Beim hold sollte der Loop kurz genug sein, um ihn fuer andere Plattformen zu kuerzen. Teste in EasyMusic.AI eine instrumentale Version und eine mit weniger Percussion, bevor du den Track freigibst.",
+        "## Die Publishing-Version vorbereiten",
+        "Hoere das Outro auf einem Handy-Lautsprecher und pruefe es mit eingeblendeten Captions und Buttons. Wenn der Editor oder eine Plattform MP3, WAV oder ein anderes Format verlangt, kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) nach der musikalischen Freigabe eine Lieferkopie erstellen. Die Umwandlung ersetzt keine Rechte- oder Plattformpruefung.",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe den CTA als eine Zeile vor den Prompt: subscribe for weekly teardown, download the checklist oder watch the full demo.\n- Senke die Musik eine Sekunde vor dem letzten Satz, nicht erst danach.\n- Fordere einen end-card hold von 8 Sekunden mit no lead vocal an.\n- Teste das Outro mit sichtbaren Overlays, nicht nur in einer leeren Timeline.\n- Benenne Dateien nach der Aktion: outro-watch-next-soft-pulse oder cta-download-clean-bed.",
+        "## FAQ\n### Braucht ein Outro eigene Musik?\nNicht immer. Manchmal reicht ein ruhiger Schnitt aus dem Haupttrack. Ein eigenes Bed lohnt sich, wenn der letzte CTA eine andere Laenge oder Funktion braucht.\n### Wie lang sollte das Music Bed sein?\nStarte mit 20 Sekunden und exportiere Varianten mit 15, 10 und 6 Sekunden.\n### Sind Vocals im Outro sinnvoll?\nMeist nicht, wenn Voiceover oder wichtige Texte vorkommen. Ein Vocal Hook kann den CTA verdecken.\n### Garantiert AI music die Plattformfreigabe?\nNein. Rechte, Disclosure und Plattformregeln muessen wie bei jedem Audiomaterial geprueft werden."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Video Outros Without Burying the Call to Action",
+      "description": "A practical workflow for making AI music beds that support subscribe, next-video, download, or shop CTAs without covering speech and end screens.",
+      "body": [
+        "The last twenty seconds of a video can get crowded fast. The host is asking viewers to subscribe, the editor has placed an end screen, captions are still on, and the music suddenly swells as if the story is not over. The result feels busy at the exact moment the viewer needs one clear next step. Outro music should not win the ending; it should make the ask easier to hear.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for drafting music from descriptions, lyrics, and style ideas. It can help you test short video music beds quickly, while usage rights, client approval, disclosure, and platform rules still need separate review before publishing.",
+        "## Start With the Final Ask",
+        "Write the call to action before the music prompt. Are you asking for subscribe, comment, download, buy, or watch next? Each action needs a different sound shape. Subscribe can close with calm confidence. A download ask needs steady timing that does not cover screen instructions. A shop CTA needs neutral support so the music does not oversell the proof. If you use YouTube end screens, plan a 5-20 second zone where overlays, speech, and music can coexist.",
+        "## Prompt for a Landing, Not a Bigger Peak",
+        "Ask for movement that settles: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. The point is not to make the end feel like a trailer. The point is to make the next action obvious. If your mood words are too broad, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn phrases like calm confidence or clean product close into tempo, instrumentation, and density language.",
+        "## Protect the Voice and the Buttons",
+        "Map the last 20 seconds into three blocks: proof close, ask, and end-card hold. In the proof close, do not cover the final evidence or the last sentence. In the ask, keep drums and melodic hooks below the voice. In the hold, keep the loop short enough to trim for another platform. In EasyMusic.AI, test one instrumental version and one lower-percussion version before you approve the track.",
+        "## Prepare the Publishing Copy",
+        "Listen to the outro on a phone speaker, then test it again with captions and end-screen elements visible. If an editor or platform needs MP3, WAV, or another delivery format, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help create a format copy after the music decision is approved. Do not assume generation or conversion settles usage rights, disclosure, or platform requirements.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write the CTA in one line before any prompt: subscribe for weekly teardown, download the checklist, or watch the full demo.\n- Lower the music one second before the final spoken sentence, not after it.\n- Ask for an 8-second end-card hold with no lead vocal.\n- Review the outro with visual overlays turned on, not only on an empty timeline.\n- Name the file after the action: outro-watch-next-soft-pulse or cta-download-clean-bed.",
+        "## FAQ\n### Does an outro need separate music?\nNot always. Sometimes a calm edit of the main track is enough. Use a separate bed when the final ask needs a different length, density, or emotional role.\n### How long should the music bed be?\nStart with 20 seconds, then cut 15, 10, and 6 second versions so the same idea can work across videos, shorts, and ads.\n### Should the outro have vocals?\nUsually no, if a host, caption, or button is carrying the call to action. A vocal hook can compete with the ask.\n### Does AI music guarantee platform approval?\nNo. Treat it like any other audio asset: review rights, disclosures, client approval, and platform rules before publishing."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para outros sin tapar el CTA",
+      "description": "Workflow practico para crear music beds de outro que apoyan subscribe, next video, download o shop CTA sin cubrir voz ni end screens.",
+      "body": [
+        "Los ultimos veinte segundos de un video se llenan rapido. La persona en camara pide subscribe, el editor pone end screen, siguen los captions y la musica sube como si faltara una escena mas. Justo cuando el viewer necesita una accion clara, todo compite. La musica de outro no debe ganar el final; debe hacer mas facil escuchar el pedido.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para crear borradores desde descripciones, lyrics e ideas de style. Puede ayudarte a probar music beds cortos para video, mientras derechos de uso, aprobacion del cliente, disclosure y reglas de plataforma siguen siendo revisiones separadas.",
+        "## Empieza por el pedido final",
+        "Escribe el call to action antes del prompt musical. Pides subscribe, comment, download, buy o watch next? Cada accion necesita una forma sonora distinta. Subscribe puede cerrar con calma. Download necesita timing estable que no cubra instrucciones de pantalla. Shop CTA necesita apoyo neutral para que la musica no venda mas que la prueba. Si usas YouTube end screens, planea una zona de 5-20 segundos donde overlays, speech y musica puedan convivir.",
+        "## Pide una llegada, no otro pico",
+        "Prompt de movimiento que se asienta: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. El objetivo no es que el final parezca trailer; es que la siguiente accion sea obvia. Si tus palabras de mood son vagas, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir calm confidence o clean product close en tempo, instrumentation y density.",
+        "## Protege la voz y los botones",
+        "Divide los ultimos 20 segundos en tres bloques: proof close, ask y end-card hold. En proof close, no tapes la evidencia final ni la ultima frase. En ask, mantén drums y hooks por debajo de la voz. En hold, deja un loop corto que puedas recortar para otra plataforma. En EasyMusic.AI, prueba una version instrumental y otra con menos percussion antes de aprobar el track.",
+        "## Prepara la copia de publicacion",
+        "Escucha el outro en un speaker de telefono y despues repitelo con captions y elementos de end screen visibles. Si un editor o plataforma pide MP3, WAV u otro formato, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede ayudar a crear una copia de formato despues de aprobar la musica. No asumas que generar o convertir resuelve derechos, disclosure o requisitos de plataforma.",
+        "## Ideas reutilizables para hoy",
+        "- Escribe el CTA en una linea antes del prompt: subscribe for weekly teardown, download the checklist o watch the full demo.\n- Baja la musica un segundo antes de la ultima frase hablada, no despues.\n- Pide un end-card hold de 8 segundos con no lead vocal.\n- Revisa el outro con overlays visibles, no solo en una timeline vacia.\n- Nombra el archivo por la accion: outro-watch-next-soft-pulse o cta-download-clean-bed.",
+        "## Preguntas frecuentes\n### Un outro necesita musica separada?\nNo siempre. A veces basta un corte tranquilo del track principal. Usa un bed separado si el pedido final necesita otra duracion, densidad o papel emocional.\n### Cuanto debe durar el music bed?\nEmpieza con 20 segundos y corta versiones de 15, 10 y 6 segundos para videos, shorts y ads.\n### Convienen vocals en el outro?\nNormalmente no, si host, captions o botones llevan el CTA. Un vocal hook puede competir con el pedido.\n### La AI music garantiza aprobacion de plataforma?\nNo. Tratala como cualquier audio: revisa derechos, disclosures, aprobacion del cliente y reglas de plataforma antes de publicar."
+      ]
+    },
+    "fr": {
+      "title": "Planifier une AI music d'outro sans couvrir le CTA",
+      "description": "Workflow pratique pour creer un music bed d'outro qui soutient subscribe, next video, download ou shop CTA sans masquer voix et end screens.",
+      "body": [
+        "Les vingt dernieres secondes d une video deviennent vite encombrees. La voix demande subscribe, l editeur ajoute un end screen, les captions restent visibles et la musique remonte comme si le recit continuait. Au moment ou le spectateur doit comprendre une seule action, tout se superpose. Une bonne musique d outro ne gagne pas la fin; elle rend la demande plus claire.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui permet de brouillonner de la musique depuis descriptions, lyrics et idees de style. Elle peut aider a tester rapidement des music beds courts pour video, tandis que droits d usage, validation client, disclosure et regles de plateforme restent a verifier.",
+        "## Commencer par la demande finale",
+        "Ecris le call to action avant le prompt musical. Veux-tu subscribe, comment, download, buy ou watch next? Chaque action demande une forme sonore differente. Subscribe peut finir avec une confiance calme. Download demande un tempo stable qui ne masque pas les consignes a l ecran. Un shop CTA demande un soutien neutre pour ne pas vendre plus que la preuve. Si tu utilises YouTube end screens, prevois une zone de 5-20 secondes ou overlays, voix et musique peuvent coexister.",
+        "## Demander une arrivee, pas un nouveau pic",
+        "Demande un mouvement qui se pose: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. Le but n est pas de faire sonner la fin comme un trailer. Le but est de rendre l action suivante evidente. Si les mots de mood sont trop larges, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer calm confidence ou clean product close en langage de tempo, instrumentation et density.",
+        "## Proteger la voix et les boutons",
+        "Cartographie les 20 dernieres secondes en trois blocs: proof close, ask et end-card hold. Dans proof close, ne couvre pas la derniere preuve ou la derniere phrase. Dans ask, garde drums et hooks sous la voix. Dans hold, garde une boucle courte que tu pourras raccourcir pour une autre plateforme. Dans EasyMusic.AI, teste une version instrumentale et une version avec moins de percussion avant d approuver le track.",
+        "## Preparer la copie de publication",
+        "Ecoute l outro sur un haut-parleur de telephone, puis teste-le avec captions et elements d end screen visibles. Si un editeur ou une plateforme demande MP3, WAV ou un autre format, le [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut aider a creer une copie apres validation musicale. Ne suppose pas que generation ou conversion regle droits, disclosure ou exigences de plateforme.",
+        "## Idees reutilisables aujourd hui",
+        "- Ecris le CTA en une ligne avant tout prompt: subscribe for weekly teardown, download the checklist ou watch the full demo.\n- Baisse la musique une seconde avant la derniere phrase parlee, pas apres.\n- Demande un end-card hold de 8 secondes avec no lead vocal.\n- Verifie l outro avec les overlays visibles, pas seulement sur une timeline vide.\n- Nomme le fichier selon l action: outro-watch-next-soft-pulse ou cta-download-clean-bed.",
+        "## FAQ\n### Un outro a-t-il besoin d une musique separee ?\nPas toujours. Un montage calme du track principal peut suffire. Utilise un bed separe si la demande finale exige une autre duree, densite ou fonction emotionnelle.\n### Quelle longueur pour le music bed ?\nCommence par 20 secondes, puis prepare des versions de 15, 10 et 6 secondes.\n### Faut-il des vocals dans l outro ?\nSouvent non, si la voix, les captions ou les boutons portent le CTA. Un vocal hook peut concurrencer la demande.\n### L AI music garantit-elle l approbation de la plateforme ?\nNon. Traite-la comme tout fichier audio: droits, disclosures, validation client et regles de plateforme restent a verifier."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per outro video senza coprire la CTA",
+      "description": "Workflow pratico per music bed di outro che sostengono subscribe, next video, download o shop CTA senza coprire voce ed end screen.",
+      "body": [
+        "Gli ultimi venti secondi di un video si riempiono in fretta. La voce chiede subscribe, l editor inserisce un end screen, i captions restano visibili e la musica cresce come se mancasse ancora una scena. Proprio quando il viewer deve capire una sola azione, tutto compete. La musica di outro non deve vincere il finale; deve rendere piu chiara la richiesta.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per generare bozze da descrizioni, lyrics e idee di style. Puo aiutare a testare rapidamente music beds brevi per video, mentre diritti d uso, approvazione cliente, disclosure e regole di piattaforma restano controlli separati.",
+        "## Parti dalla richiesta finale",
+        "Scrivi il call to action prima del prompt musicale. Vuoi subscribe, comment, download, buy o watch next? Ogni azione richiede una forma sonora diversa. Subscribe puo chiudere con calma. Download richiede timing stabile che non copra le istruzioni sullo schermo. Shop CTA richiede supporto neutro, cosi la musica non vende piu della prova. Se usi YouTube end screens, pianifica una zona di 5-20 secondi dove overlays, speech e musica possano convivere.",
+        "## Chiedi un atterraggio, non un nuovo picco",
+        "Prompta un movimento che si posa: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. Il punto non e far sembrare la fine un trailer; e rendere ovvia l azione successiva. Se le parole di mood sono troppo vaghe, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare calm confidence o clean product close in tempo, instrumentation e density.",
+        "## Proteggi voce e pulsanti",
+        "Mappa gli ultimi 20 secondi in tre blocchi: proof close, ask, end-card hold. Nel proof close non coprire l ultima evidenza o l ultima frase. Nell ask tieni drums e hook sotto la voce. Nell hold mantieni un loop abbastanza corto da tagliare per altre piattaforme. In EasyMusic.AI, testa una versione instrumental e una con meno percussion prima di approvare il track.",
+        "## Prepara la copia di pubblicazione",
+        "Ascolta l outro su speaker del telefono, poi riprovalo con captions ed elementi end screen visibili. Se editor o piattaforma chiedono MP3, WAV o altro formato, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo aiutare a creare una copia di formato dopo l approvazione musicale. Non presumere che generation o conversion risolvano diritti, disclosure o requisiti della piattaforma.",
+        "## Idee riutilizzabili oggi",
+        "- Scrivi la CTA in una riga prima del prompt: subscribe for weekly teardown, download the checklist o watch the full demo.\n- Abbassa la musica un secondo prima dell ultima frase parlata, non dopo.\n- Chiedi un end-card hold di 8 secondi con no lead vocal.\n- Rivedi l outro con overlays visibili, non solo su timeline vuota.\n- Nomina il file in base all azione: outro-watch-next-soft-pulse o cta-download-clean-bed.",
+        "## FAQ\n### Un outro ha bisogno di musica separata?\nNon sempre. A volte basta un taglio calmo del track principale. Usa un bed separato se la richiesta finale ha bisogno di altra durata, densita o ruolo emotivo.\n### Quanto deve durare il music bed?\nInizia con 20 secondi, poi crea versioni da 15, 10 e 6 secondi.\n### Servono vocals nell outro?\nDi solito no, se host, captions o pulsanti portano la CTA. Un vocal hook puo competere con la richiesta.\n### AI music garantisce approvazione della piattaforma?\nNo. Trattala come qualsiasi audio: controlla diritti, disclosures, approvazione cliente e regole di piattaforma prima di pubblicare."
+      ]
+    },
+    "ja": {
+      "title": "CTAを隠さないvideo outro向けAI music設計",
+      "description": "Subscribe、next video、download、shop CTAを支えながら、speechとend screenを邪魔しないAI music bedの作り方。",
+      "body": [
+        "Videoの最後20秒は、思ったより混み合います。Hostがsubscribeを頼み、editorがend screenを置き、captionsも残り、musicだけがもう一度大きく盛り上がる。Viewerが次の行動を一つだけ理解したい瞬間に、すべてが競合します。Outro musicの役目は終わりを支配することではなく、askを聞き取りやすくすることです。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、description、lyrics、style ideasからmusic draftを作れるAI音楽制作platformです。短いvideo music bedを素早く試せますが、usage rights、client approval、disclosure、platform rulesはpublish前に別途確認する必要があります。",
+        "## 最後のaskから始める",
+        "Music promptを書く前にcall to actionを書きます。Subscribe、comment、download、buy、watch nextのどれを求めていますか。Actionごとに必要なsound shapeは違います。Subscribeは落ち着いたconfidenceで終われます。Downloadはscreen instructionsを隠さないsteady timingが必要です。Shop CTAはproof以上に売っているように聞こえないneutral supportが合います。YouTube end screensを使うなら、overlays、speech、musicが共存できる5-20秒のzoneを先に作ります。",
+        "## 大きなpeakではなくlandingをpromptする",
+        "Settlingする動きを頼みます: gentle resolve、light pulse、soft ending tag、no final riser、no busy fill。Endをtrailerのようにするのではなく、次のactionを明確にするのが目的です。Mood wordsが広すぎるときは、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) がcalm confidenceやclean product closeをtempo、instrumentation、densityの言葉に変える助けになります。",
+        "## Voiceとbuttonsを守る",
+        "最後20秒を三つに分けます: proof close、ask、end-card hold。Proof closeでは最後のevidenceやsentenceを覆わない。Askではdrumsとmelodic hooksをvoiceより下に置く。Holdでは他platform用に短く切れるloopにする。EasyMusic.AIでは、approval前にinstrumental versionとlower-percussion versionを比べます。",
+        "## Publishing copyを準備する",
+        "Outroをphone speakerで聞き、captionsとend-screen elementsを表示した状態でもう一度確認します。EditorやplatformがMP3、WAV、別formatを求める場合、music decisionを承認したあとで [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) をformat copy作成に使えます。Generationやconversionだけでrights、disclosure、platform requirementsが解決すると考えないでください。",
+        "## 今日すぐ使えるアイデア",
+        "- Prompt前にCTAを一行で書く: subscribe for weekly teardown、download the checklist、watch the full demo。\n- 最後のspoken sentenceの後ではなく、1秒前にmusicを下げる。\n- 8秒のend-card holdをno lead vocalで頼む。\n- Empty timelineではなく、visual overlaysを表示してoutroを確認する。\n- File名をactionで付ける: outro-watch-next-soft-pulse、cta-download-clean-bed。",
+        "## FAQ\n### Outroに別musicは必要ですか？\n必ずではありません。Main trackを落ち着いて切るだけで十分なこともあります。Final askに別の長さ、density、emotional roleが必要なら別bedを使います。\n### Music bedは何秒がよいですか？\nまず20秒で作り、15秒、10秒、6秒版に切ると、video、shorts、adsで使いやすくなります。\n### Outroにvocalsは入れるべきですか？\nHost、caption、buttonがCTAを伝えるなら、多くの場合は不要です。Vocal hookはaskと競合します。\n### AI musicならplatform approvalは保証されますか？\nいいえ。ほかのaudio assetと同じように、rights、disclosures、client approval、platform rulesを確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "CTA를 가리지 않는 video outro용 AI music 설계",
+      "description": "Subscribe, next video, download, shop CTA를 살리면서 speech와 end screen을 덮지 않는 AI music bed workflow.",
+      "body": [
+        "Video의 마지막 20초는 금방 복잡해집니다. Host가 subscribe를 요청하고, editor는 end screen을 넣고, captions는 남아 있는데 music이 다시 크게 올라갑니다. Viewer가 다음 행동 하나를 이해해야 하는 순간에 모든 요소가 경쟁합니다. Outro music은 끝을 이기는 것이 아니라 ask를 더 잘 들리게 해야 합니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 description, lyrics, style ideas로 music draft를 만들 수 있는 AI 음악 제작 platform입니다. 짧은 video music bed를 빠르게 테스트하는 데 도움이 되지만 usage rights, client approval, disclosure, platform rules는 publish 전에 별도로 확인해야 합니다.",
+        "## 마지막 ask부터 정한다",
+        "Music prompt 전에 call to action을 씁니다. Subscribe, comment, download, buy, watch next 중 무엇을 요청하나요? Action마다 필요한 sound shape가 다릅니다. Subscribe는 calm confidence로 닫을 수 있습니다. Download ask는 screen instructions를 덮지 않는 steady timing이 필요합니다. Shop CTA는 proof보다 과장되어 들리지 않는 neutral support가 좋습니다. YouTube end screens를 쓴다면 overlays, speech, music이 함께 있을 5-20초 zone을 먼저 계획하세요.",
+        "## 더 큰 peak가 아니라 landing을 prompt한다",
+        "안착하는 움직임을 요청합니다: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. 끝을 trailer처럼 만드는 것이 아니라 다음 action을 분명히 하는 것이 목적입니다. Mood words가 너무 넓다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)가 calm confidence나 clean product close를 tempo, instrumentation, density 언어로 바꾸는 데 도움이 됩니다.",
+        "## Voice와 buttons를 보호한다",
+        "마지막 20초를 세 블록으로 나눕니다: proof close, ask, end-card hold. Proof close에서는 마지막 evidence나 sentence를 덮지 않습니다. Ask에서는 drums와 melodic hooks를 voice 아래에 둡니다. Hold에서는 다른 platform에 맞게 자를 수 있는 짧은 loop를 둡니다. EasyMusic.AI에서는 approval 전에 instrumental version과 lower-percussion version을 비교하세요.",
+        "## Publishing copy를 준비한다",
+        "Outro를 phone speaker로 듣고 captions와 end-screen elements를 켠 상태에서 다시 확인합니다. Editor나 platform이 MP3, WAV, 다른 delivery format을 요구하면 music decision 승인 뒤 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)로 format copy를 만들 수 있습니다. Generation이나 conversion이 usage rights, disclosure, platform requirements를 해결한다고 가정하지 마세요.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- Prompt 전에 CTA를 한 줄로 씁니다: subscribe for weekly teardown, download the checklist, watch the full demo.\n- 마지막 spoken sentence 뒤가 아니라 1초 전에 music을 낮춥니다.\n- 8초 end-card hold를 no lead vocal로 요청합니다.\n- Empty timeline만 보지 말고 visual overlays를 켠 상태에서 outro를 검토합니다.\n- File name을 action으로 정합니다: outro-watch-next-soft-pulse 또는 cta-download-clean-bed.",
+        "## FAQ\n### Outro에 별도 music이 필요한가요?\n항상 그렇지는 않습니다. Main track을 조용히 편집하는 것만으로 충분할 때도 있습니다. Final ask에 다른 length, density, emotional role이 필요하면 별도 bed를 씁니다.\n### Music bed는 얼마나 길어야 하나요?\n20초로 시작한 뒤 15초, 10초, 6초 version을 만들면 video, shorts, ads에 맞추기 쉽습니다.\n### Outro에 vocals를 넣어야 하나요?\nHost, captions, buttons가 CTA를 전달한다면 보통 넣지 않는 편이 낫습니다. Vocal hook은 ask와 경쟁할 수 있습니다.\n### AI music이면 platform approval이 보장되나요?\n아니요. 다른 audio asset처럼 rights, disclosures, client approval, platform rules를 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje AI music para outros sem esconder a CTA",
+      "description": "Workflow pratico para music beds de outro que apoiam subscribe, next video, download ou shop CTA sem cobrir fala e end screens.",
+      "body": [
+        "Os ultimos vinte segundos de um video ficam cheios depressa. A pessoa pede subscribe, o editor coloca end screen, captions continuam na tela e a musica cresce como se a historia ainda nao tivesse acabado. Exatamente quando o viewer precisa de uma proxima acao clara, tudo compete. A musica de outro nao deve vencer o final; deve deixar o pedido mais facil de ouvir.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para criar rascunhos a partir de descricoes, lyrics e ideias de style. Ela pode ajudar a testar music beds curtos para video rapidamente, enquanto direitos de uso, aprovacao do cliente, disclosure e regras de plataforma continuam revisoes separadas.",
+        "## Comece pelo pedido final",
+        "Escreva o call to action antes do prompt musical. Voce pede subscribe, comment, download, buy ou watch next? Cada acao precisa de uma forma sonora diferente. Subscribe pode fechar com calma e confianca. Download precisa de timing estavel que nao cubra instrucoes na tela. Shop CTA precisa de apoio neutro para a musica nao vender mais que a prova. Se usar YouTube end screens, planeje uma zona de 5-20 segundos onde overlays, speech e musica possam coexistir.",
+        "## Peca uma chegada, nao outro pico",
+        "Peça movimento que assenta: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. O objetivo nao e fazer o fim parecer trailer; e tornar a proxima acao obvia. Se suas palavras de mood sao amplas demais, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar calm confidence ou clean product close em linguagem de tempo, instrumentation e density.",
+        "## Proteja a voz e os botoes",
+        "Mapeie os ultimos 20 segundos em tres blocos: proof close, ask e end-card hold. No proof close, nao cubra a evidencia final nem a ultima frase. No ask, mantenha drums e hooks abaixo da voz. No hold, deixe o loop curto o bastante para cortar em outra plataforma. No EasyMusic.AI, teste uma versao instrumental e outra com menos percussion antes de aprovar o track.",
+        "## Prepare a copia de publicacao",
+        "Ouça o outro no speaker do telefone e depois teste com captions e elementos de end screen visiveis. Se editor ou plataforma pedir MP3, WAV ou outro formato, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode ajudar a criar uma copia de formato depois da aprovacao musical. Nao assuma que generation ou conversion resolvem direitos, disclosure ou requisitos de plataforma.",
+        "## Ideias reutilizaveis para hoje",
+        "- Escreva a CTA em uma linha antes do prompt: subscribe for weekly teardown, download the checklist ou watch the full demo.\n- Baixe a musica um segundo antes da ultima frase falada, nao depois.\n- Peca um end-card hold de 8 segundos com no lead vocal.\n- Revise o outro com overlays visuais ligados, nao apenas em timeline vazia.\n- Nomeie o arquivo pela acao: outro-watch-next-soft-pulse ou cta-download-clean-bed.",
+        "## Perguntas frequentes\n### Um outro precisa de musica separada?\nNem sempre. As vezes um corte calmo do track principal basta. Use um bed separado quando o pedido final precisa de outra duracao, densidade ou papel emocional.\n### Quanto deve durar o music bed?\nComece com 20 segundos e depois corte versoes de 15, 10 e 6 segundos para videos, shorts e ads.\n### Devo usar vocals no outro?\nGeralmente nao, se host, captions ou botoes carregam a CTA. Um vocal hook pode competir com o pedido.\n### AI music garante aprovacao de plataforma?\nNao. Trate como qualquer audio: revise direitos, disclosures, aprovacao do cliente e regras de plataforma antes de publicar."
+      ]
+    },
+    "ru": {
+      "title": "План AI music для video outro без скрытия CTA",
+      "description": "Практический workflow для outro music beds, которые поддерживают subscribe, next video, download или shop CTA и не закрывают voice.",
+      "body": [
+        "Последние двадцать секунд video быстро становятся перегруженными. Host просит subscribe, editor ставит end screen, captions еще видны, а music снова растет, будто история не закончилась. В момент, когда viewer должен понять один следующий шаг, все элементы спорят друг с другом. Outro music не должна выигрывать финал; она должна сделать просьбу слышнее.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, где можно делать music drafts из descriptions, lyrics и style ideas. Она помогает быстро тестировать короткие video music beds, но usage rights, client approval, disclosure и platform rules нужно проверять отдельно перед публикацией.",
+        "## Начните с финальной просьбы",
+        "Запишите call to action до music prompt. Вы просите subscribe, comment, download, buy или watch next? Каждому действию нужна своя sound shape. Subscribe может закрываться спокойно и уверенно. Download требует steady timing, чтобы не закрывать screen instructions. Shop CTA требует neutral support, чтобы music не продавала сильнее, чем proof. Если используются YouTube end screens, планируйте зону 5-20 секунд, где overlays, speech и music могут сосуществовать.",
+        "## Prompt для landing, а не нового peak",
+        "Просите движение, которое садится: gentle resolve, light pulse, soft ending tag, no final riser, no busy fill. Финал не должен звучать как trailer; он должен сделать next action очевидным. Если mood words слишком широкие, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает перевести calm confidence или clean product close в язык tempo, instrumentation и density.",
+        "## Защитите voice и buttons",
+        "Разделите последние 20 секунд на три блока: proof close, ask, end-card hold. В proof close не закрывайте последнюю evidence или sentence. В ask держите drums и melodic hooks ниже voice. В hold оставьте loop достаточно коротким, чтобы обрезать его под другую platform. В EasyMusic.AI протестируйте instrumental version и lower-percussion version перед approval.",
+        "## Подготовьте publishing copy",
+        "Прослушайте outro на phone speaker, затем проверьте его с включенными captions и end-screen elements. Если editor или platform просит MP3, WAV или другой delivery format, [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может помочь создать format copy после утверждения music decision. Не считайте, что generation или conversion решают usage rights, disclosure или platform requirements.",
+        "## Идеи, которые можно применить сегодня",
+        "- Запишите CTA одной строкой до prompt: subscribe for weekly teardown, download the checklist или watch the full demo.\n- Уменьшайте music за секунду до последней spoken sentence, а не после нее.\n- Просите 8-second end-card hold with no lead vocal.\n- Проверяйте outro с видимыми visual overlays, а не только на пустой timeline.\n- Называйте файл по действию: outro-watch-next-soft-pulse или cta-download-clean-bed.",
+        "## FAQ\n### Нужна ли outro отдельная music?\nНе всегда. Иногда достаточно спокойного edit основного track. Отдельный bed нужен, если final ask требует другой length, density или emotional role.\n### Какой длины должен быть music bed?\nНачните с 20 секунд, затем сделайте версии 15, 10 и 6 секунд для videos, shorts и ads.\n### Нужны ли vocals в outro?\nОбычно нет, если CTA несут host, captions или buttons. Vocal hook может конкурировать с просьбой.\n### Гарантирует ли AI music approval платформы?\nНет. Относитесь к ней как к любому audio asset: проверяйте rights, disclosures, client approval и platform rules перед публикацией."
+      ]
+    },
+    "zh": {
+      "title": "为 video outro 规划不遮挡 CTA 的 AI music",
+      "description": "一个实用 workflow：让 outro music bed 支持 subscribe、next video、download 或 shop CTA，同时不盖住 speech 和 end screen。",
+      "body": [
+        "Video 的最后 20 秒很容易变得拥挤。Host 在请求 subscribe，editor 放上 end screen，captions 还在，而 music 又突然升起来，好像故事还没有结束。观众最需要理解下一步的时候，所有元素反而在竞争。Outro music 不该抢走结尾，它应该让 ask 更容易被听见。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。它适合快速测试短 video music beds，但 usage rights、client approval、disclosure 和 platform rules 仍然需要在发布前单独检查。",
+        "## 从最后的 ask 开始",
+        "先写 call to action，再写 music prompt。你要观众 subscribe、comment、download、buy，还是 watch next？每个动作需要不同的 sound shape。Subscribe 可以用 calm confidence 收尾。Download 需要 steady timing，不能盖住屏幕说明。Shop CTA 需要 neutral support，避免 music 让承诺听起来大过证据。如果使用 YouTube end screens，先规划一个 5-20 秒区域，让 overlays、speech 和 music 可以共存。",
+        "## Prompt 一个 landing，而不是更大的 peak",
+        "要求 music 落稳：gentle resolve、light pulse、soft ending tag、no final riser、no busy fill。目的不是把结尾做成 trailer，而是让 next action 清楚。如果 mood words 太宽泛，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 calm confidence 或 clean product close 转成 tempo、instrumentation 和 density 语言。",
+        "## 保护 voice 和 buttons",
+        "把最后 20 秒分成三段：proof close、ask、end-card hold。Proof close 不要盖住最后的 evidence 或 sentence。Ask 阶段让 drums 和 melodic hooks 低于 voice。Hold 阶段保留足够短的 loop，方便给其他 platform 裁切。在 EasyMusic.AI 里，批准 track 前先比较 instrumental version 和 lower-percussion version。",
+        "## 准备 publishing copy",
+        "先用 phone speaker 听 outro，再打开 captions 和 end-screen elements 复查。如果 editor 或 platform 需要 MP3、WAV 或其他 delivery format，可以在 music decision 批准后用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 做 format copy。不要假设 generation 或 conversion 会解决 usage rights、disclosure 或 platform requirements。",
+        "## 今天就能使用的想法",
+        "- 在任何 prompt 前先写一行 CTA：subscribe for weekly teardown、download the checklist、watch the full demo。\n- 在最后一句 spoken sentence 前 1 秒降低 music，而不是说完以后才降。\n- 请求 8 秒 end-card hold，并写 no lead vocal。\n- 开着 visual overlays 检查 outro，不要只看空 timeline。\n- 用 action 命名文件：outro-watch-next-soft-pulse 或 cta-download-clean-bed。",
+        "## FAQ\n### Outro 需要单独的 music 吗？\n不一定。有时安静地剪主 track 就够了。如果 final ask 需要不同 length、density 或 emotional role，再用单独 bed。\n### Music bed 应该多长？\n先做 20 秒，然后裁出 15、10、6 秒版本，便于用于 videos、shorts 和 ads。\n### Outro 适合 vocals 吗？\n如果 host、captions 或 buttons 在传达 CTA，通常不适合。Vocal hook 可能和 ask 竞争。\n### AI music 会保证 platform approval 吗？\n不会。请像对待其他 audio asset 一样，发布前检查 rights、disclosures、client approval 和 platform rules。"
+      ]
+    }
+  }
+}
