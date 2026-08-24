@@ -1,0 +1,249 @@
+{
+  "date": "2026-08-24",
+  "slug": "app-notification-ai-music-cue-brief",
+  "cluster": "app-notification-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "صمم notification sounds بالذكاء الاصطناعي للتطبيق من دون ازعاج المستخدمين",
+      "description": "Workflow عملي لصناعة app notification cues قصيرة، واضحة، وقابلة للتحكم قبل تسليمها الى فريق mobile او web.",
+      "body": [
+        "Notification sound يبدو تفصيلا صغيرا حتى تسمعه عشرين مرة في يوم واحد. نسخة تبدو لطيفة في سماعات الاستوديو قد تبدو مثل alarm على speaker هاتف صغير. نسخة اخرى قد تضيع تماما في حقيبة او مكتب مزدحم. اذا كتبت prompt مثل cute app sound فقط، فغالبا ستحصل على mini song، لا cue يحترم وقت المستخدم وسياق الجهاز.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لانشاء مسودات موسيقية بالذكاء الاصطناعي من descriptions وlyrics وstyle ideas. يمكن استخدامها لاختبار musical cues قصيرة للتطبيقات، لكن اعدادات النظام، rights review، accessibility، وموافقة الفريق تبقى خطوات منفصلة قبل release.",
+        "## ابدأ بالوظيفة لا بالمزاج",
+        "اكتب نوع الحدث قبل اي style: login code arrived، upload complete، payment failed، calendar starting، أو teammate mentioned you. كل واحد يحتاج مستوى تدخل مختلفا. Reminder اختياري لا يجب ان يبدو مثل security alert. نجاح عملية يمكن ان يكون لطيفا وقصيرا. خطأ الدفع يحتاج وضوحا لا فزعة. اذا كان الحدث غير مهم، قد يكون الخيار الافضل no sound وvisual badge فقط.",
+        "## اجعل الصوت اشارة لا اغنية",
+        "Notification cue الجيد غالبا حركة واحدة يمكن تمييزها: two soft notes، warm pluck، muted bell، short rounded synth، او low chime. تجنب vocals، lyrics، long reverb tail، bass ضخم، riser درامي، وstart مفاجئ. في prompt، اطلب short app notification cue, under one breath, no vocal, no melody tail, soft attack. داخل EasyMusic.AI قارن نسخة لطيفة ونسخة اوضح، ثم اختر الاقل ازعاجا عند التكرار.",
+        "## ابن عائلة اصوات صغيرة",
+        "لا تصمم صوتا منفردا فقط. اصنع family: success، reminder، warning، وurgent، وكلها تشترك في palette واحدة. يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل كلمات مثل calm trust او crisp productivity الى instrumentation وtempo وdensity اوضح. بعدها اختصر الوصف الى cue prompt قصير، لان notification لا تحتاج arrangement كامل.",
+        "## احترم تحكم المستخدم",
+        "Mobile systems تعطي المستخدمين طرقا لكتم الصوت، تغيير channel، تقليل volume، او استخدام silent mode. لذلك لا تبن معنى المنتج على الصوت وحده. اجعل الرسالة مرئية ايضا، ولا تستخدم cue مهم بدون text، badge، vibration pattern، او state واضح في الواجهة. على web، اذا كان هناك audio يبدأ تلقائيا، يحتاج المستخدم الى طريقة واضحة لايقافه او التحكم به.",
+        "## سلم الملف مثل UX asset",
+        "اعط فريق التطبيق اسم الحدث، سبب الصوت، مستوى الالحاح، نسخة silent fallback، والformat المطلوب. اذا احتجت MP3 او WAV او OGG بعد الموافقة، يمكن استخدام [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) لصناعة نسخة تسليم. لا تجعل conversion يعوض اختبار speaker صغير، silent mode، screen reader، او سياسة notification في النظام.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- ابدأ filename باسم الحدث: upload-complete-soft-chime أو password-code-neutral-tap.\n- اطلب no vocal وno lyric حتى لا يبدو notification كجزء من song.\n- اصنع ladder: soft، normal، urgent، ثم احذف اي نسخة تبدو كalarm بلا سبب.\n- اختبر cue خمس مرات متتالية؛ اذا ازعجك في الاختبار، سيزعج المستخدم.\n- اكتب في handoff: sound is optional, message must remain visible.",
+        "## اسئلة شائعة\n### هل يحتاج كل notification الى sound؟\nلا. كثير من الحالات تعمل افضل مع badge، vibration، او رسالة صامتة، خصوصا اذا كانت غير عاجلة.\n### كم يجب ان يكون cue طويلا؟\nاجعله قصيرا جدا، بفكرة واحدة واضحة. كلما طال tail، زاد احتمال ان يزعج او يغطي صوتا اخر.\n### هل يمكن استخدام melody؟\nنعم اذا كانت دقيقة جدا. تجنب hook طويل، vocals، او جملة تشبه ringtone معروفا.\n### ماذا افحص قبل release؟\nافحص rights، settings، silent mode، notification channels، accessibility، وسلوك الصوت على هاتف حقيقي.\n### هل AI cue آمن تلقائيا للتطبيقات التجارية؟\nلا. راجع شروط الاداة، موافقة الفريق، واي متطلبات platform قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "KI-Notification-Sounds fuer Apps gestalten, ohne Nutzer zu nerven",
+      "description": "Ein praktischer Workflow fuer kurze App-Notification-Cues, die klar, kontrollierbar und bereit fuer Mobile- oder Web-Teams sind.",
+      "body": [
+        "Ein Notification-Sound wirkt klein, bis man ihn zwanzigmal am Tag hoert. Eine Version, die auf Studio-Kopfhoerern freundlich klingt, kann auf einem kleinen Telefonlautsprecher wie ein Alarm wirken. Eine andere verschwindet komplett in Tasche, Bahn oder Buero. Wer nur cute app sound promptet, bekommt leicht einen Mini-Song statt eines Signals, das Zeit, Aufmerksamkeit und Geraetekontext respektiert.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, die Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kann. Sie kann beim Testen kurzer musikalischer App-Cues helfen; Systemeinstellungen, Rechtepruefung, Accessibility und Teamfreigabe bleiben eigene Schritte vor dem Release.",
+        "## Mit der Aufgabe beginnen, nicht mit Mood",
+        "Schreibe zuerst das Ereignis auf: login code arrived, upload complete, payment failed, calendar starting oder teammate mentioned you. Jedes Ereignis braucht eine andere Eingriffstiefe. Eine optionale Erinnerung sollte nicht wie ein Security Alert klingen. Ein Erfolg darf freundlich und klein sein. Ein Zahlungsfehler braucht Klarheit, aber keinen Schreckmoment. Wenn das Ereignis unwichtig ist, kann no sound plus sichtbarer Status die bessere Entscheidung sein.",
+        "## Ein Signal statt eines Songs bauen",
+        "Ein guter Notification-Cue ist meist eine erkennbare Bewegung: two soft notes, warm pluck, muted bell, short rounded synth oder low chime. Vermeide vocals, lyrics, lange Hallfahnen, grossen Bass, dramatische Riser und harte Starts. Ein Prompt wie short app notification cue, under one breath, no vocal, no melody tail, soft attack ist hilfreicher als ein voller Musikstil. In EasyMusic.AI vergleiche eine angenehmere und eine deutlichere Version und waehle die, die bei Wiederholung weniger stoert.",
+        "## Eine kleine Klangfamilie entwerfen",
+        "Gestalte nicht nur einen einzelnen Ton. Erstelle eine Familie: success, reminder, warning und urgent mit gleicher Palette. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann Woerter wie calm trust oder crisp productivity in Instrumentation, Tempo und Dichte uebersetzen. Danach kuerzt du die Beschreibung wieder zu einem Cue-Prompt, denn eine Notification braucht kein ganzes Arrangement.",
+        "## Nutzerkontrolle respektieren",
+        "Mobile Systeme geben Menschen Moeglichkeiten, Sound stummzuschalten, Kanaele zu aendern, Lautstaerke zu senken oder Silent Mode zu nutzen. Deshalb darf die Produktbedeutung nicht nur am Ton haengen. Die Information sollte auch sichtbar sein, mit Text, Badge, Vibration Pattern oder klarem Interface-State. Im Web braucht automatisch startender Ton eine deutliche Moeglichkeit zum Stoppen oder Regeln.",
+        "## Die Datei wie ein UX-Asset uebergeben",
+        "Gib dem App-Team Ereignisname, Grund fuer den Sound, Dringlichkeit, stille Fallback-Version und benoetigtes Format. Wenn nach der Freigabe MP3, WAV oder OGG gebraucht wird, kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) eine Lieferkopie erstellen. Conversion ersetzt nicht den Test auf kleinem Speaker, im Silent Mode, mit Screenreader oder in den Notification-Regeln des Systems.",
+        "## Sofort nutzbare Ideen",
+        "- Beginne den Dateinamen mit dem Ereignis: upload-complete-soft-chime oder password-code-neutral-tap.\n- Fordere no vocal und no lyric an, damit der Cue nicht wie ein Songfragment wirkt.\n- Baue eine Leiter: soft, normal, urgent, und entferne alles, was ohne Grund nach Alarm klingt.\n- Spiele den Cue fuenfmal hintereinander ab; wenn er im Test nervt, nervt er spaeter auch.\n- Schreibe ins Handoff: sound is optional, message must remain visible.",
+        "## FAQ\n### Braucht jede Notification Sound?\nNein. Viele Ereignisse funktionieren besser mit Badge, Vibration oder stiller Nachricht, besonders wenn sie nicht dringend sind.\n### Wie lang sollte der Cue sein?\nSehr kurz, mit einer klaren Idee. Je laenger der Nachhall, desto eher stoert er oder ueberdeckt anderen Ton.\n### Darf ich Melodie verwenden?\nJa, aber nur als kleine Kontur. Vermeide lange Hooks, Vocals oder etwas, das an einen bekannten Ringtone erinnert.\n### Was pruefe ich vor dem Release?\nRechte, Einstellungen, Silent Mode, Notification Channels, Accessibility und echtes Telefonverhalten.\n### Ist ein AI Cue automatisch fuer kommerzielle Apps sicher?\nNein. Pruefe Tool-Bedingungen, Teamfreigabe und Plattformanforderungen separat."
+      ]
+    },
+    "en": {
+      "title": "Design AI Notification Sounds for Apps Without Annoying Users",
+      "description": "A practical workflow for making short app notification cues that stay clear, controlled, and ready for mobile or web handoff.",
+      "body": [
+        "A notification sound feels small until someone hears it twenty times in one day. One draft sounds friendly in studio headphones but turns into an alarm on a phone speaker. Another disappears in a bag, train, or busy office. If the prompt is only cute app sound, you may get a tiny song instead of a cue that respects attention, device settings, and repeat listening.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for drafting music from descriptions, lyrics, and style ideas. It can help you test short musical cues for app experiences, while operating-system settings, rights review, accessibility, and team approval still need separate checks before release.",
+        "## Start With the Event, Not the Mood",
+        "Name the event before you choose a sound: login code arrived, upload complete, payment failed, calendar starting, or teammate mentioned you. Each one deserves a different interruption level. An optional reminder should not sound like a security alert. A success event can be pleasant and tiny. A payment failure needs clarity without panic. If the event is not important enough to interrupt someone, no sound plus a visible badge may be the stronger UX choice.",
+        "## Make a Signal, Not a Song",
+        "A good notification cue is usually one recognizable gesture: two soft notes, a warm pluck, a muted bell, a short rounded synth, or a low chime. Avoid vocals, lyrics, long reverb tails, heavy bass, dramatic risers, and hard starts. A prompt such as short app notification cue, under one breath, no vocal, no melody tail, soft attack is more useful than a full music prompt. In EasyMusic.AI, compare one friendlier draft with one clearer draft, then choose the one that stays least irritating when repeated.",
+        "## Build a Small Sound Family",
+        "Do not design one cue in isolation. Build a family: success, reminder, warning, and urgent, all sharing the same palette. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn words like calm trust or crisp productivity into more concrete instrumentation, tempo, and density language. Then shorten the result into a cue prompt, because a notification does not need a complete arrangement.",
+        "## Respect User Control",
+        "Mobile systems give people ways to mute sounds, change channels, lower volume, and use silent mode. Do not make the product meaning depend on sound alone. The message should also be visible through text, a badge, a vibration pattern, or a clear interface state. On the web, any audio that starts automatically needs an obvious way to stop or control it.",
+        "## Hand Off the File Like a UX Asset",
+        "Give the app team the event name, reason for the sound, urgency level, silent fallback, and required format. If the team needs MP3, WAV, or OGG after approval, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help create a delivery copy. Format conversion does not replace testing on a small speaker, in silent mode, with screen-reader audio, or inside the notification rules of the target platform.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Start the filename with the event: upload-complete-soft-chime or password-code-neutral-tap.\n- Ask for no vocal and no lyric so the cue does not feel like a song fragment.\n- Build a ladder: soft, normal, urgent, then delete any version that sounds like an alarm without a reason.\n- Play the cue five times in a row; if it annoys you during review, it will annoy users later.\n- Add this handoff note: sound is optional, message must remain visible.",
+        "## FAQ\n### Does every notification need a sound?\nNo. Many events work better as a badge, vibration, or silent message, especially when they are not time-critical.\n### How long should the cue be?\nKeep it very short, with one clear idea. The longer the tail, the more likely it is to irritate people or cover other audio.\n### Can a notification use melody?\nYes, but use a tiny contour rather than a hook. Avoid vocals, long phrases, and anything that resembles a familiar ringtone.\n### What should I check before release?\nReview rights, settings, silent mode, notification channels, accessibility, and behavior on real devices.\n### Is an AI cue automatically safe for a commercial app?\nNo. Check the tool terms, team approval, and platform requirements before shipping."
+      ]
+    },
+    "es": {
+      "title": "Disena notification sounds con IA para apps sin molestar a usuarios",
+      "description": "Workflow practico para crear app notification cues cortos, claros y listos para entregar a equipos mobile o web.",
+      "body": [
+        "Un notification sound parece pequeno hasta que alguien lo oye veinte veces en un dia. Un draft suena amable en headphones de estudio, pero se vuelve alarma en el speaker del telefono. Otro desaparece en una mochila, tren u oficina ruidosa. Si el prompt dice solo cute app sound, puedes recibir una mini song, no una senal que respeta atencion, settings del dispositivo y escucha repetida.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para crear borradores desde descripciones, lyrics e ideas de style. Puede ayudar a probar musical cues cortos para experiencias de app, mientras operating-system settings, revision de derechos, accessibility y aprobacion del equipo siguen siendo checks separados antes del release.",
+        "## Empieza por el evento, no por el mood",
+        "Nombra el evento antes de elegir sonido: login code arrived, upload complete, payment failed, calendar starting o teammate mentioned you. Cada uno merece un nivel de interrupcion distinto. Un reminder opcional no debe sonar como security alert. Un success event puede ser amable y minimo. Un payment failure necesita claridad sin panico. Si el evento no justifica interrumpir a alguien, no sound mas un badge visible puede ser mejor UX.",
+        "## Haz una senal, no una cancion",
+        "Un buen notification cue suele ser un gesto reconocible: two soft notes, warm pluck, muted bell, short rounded synth o low chime. Evita vocals, lyrics, reverb tail largo, bass pesado, risers dramaticos y starts duros. Un prompt como short app notification cue, under one breath, no vocal, no melody tail, soft attack sirve mas que un prompt musical completo. En EasyMusic.AI, compara un draft mas amable con otro mas claro y elige el que moleste menos al repetirlo.",
+        "## Crea una pequena familia sonora",
+        "No disenes un cue aislado. Crea una family: success, reminder, warning y urgent, todos con la misma palette. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir calm trust o crisp productivity en lenguaje concreto de instrumentation, tempo y density. Luego acorta el resultado a un cue prompt, porque una notification no necesita un arrangement completo.",
+        "## Respeta el control del usuario",
+        "Los sistemas mobile dan a las personas formas de mutear sonidos, cambiar channels, bajar volumen y usar silent mode. No hagas que el significado del producto dependa solo del sonido. El mensaje tambien debe verse con text, badge, vibration pattern o estado claro de interfaz. En web, cualquier audio que empieza automaticamente necesita una forma obvia de detenerlo o controlarlo.",
+        "## Entrega el archivo como UX asset",
+        "Da al equipo de app el event name, razon del sonido, urgency level, silent fallback y required format. Si despues de aprobar se necesita MP3, WAV u OGG, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede crear una copia de entrega. Convertir formato no reemplaza probar en speaker pequeno, silent mode, audio de screen reader o reglas de notification de la plataforma objetivo.",
+        "## Ideas reutilizables para hoy",
+        "- Empieza el filename con el evento: upload-complete-soft-chime o password-code-neutral-tap.\n- Pide no vocal y no lyric para que el cue no parezca fragmento de cancion.\n- Crea una escala: soft, normal, urgent, y elimina lo que suene a alarm sin razon.\n- Reproduce el cue cinco veces seguidas; si molesta en review, molestara despues.\n- Agrega esta nota de handoff: sound is optional, message must remain visible.",
+        "## Preguntas frecuentes\n### Cada notification necesita sonido?\nNo. Muchos eventos funcionan mejor como badge, vibration o mensaje silencioso, sobre todo si no son urgentes.\n### Cuanto debe durar el cue?\nMuy poco, con una idea clara. Cuanto mas largo el tail, mas probable que irrite o cubra otro audio.\n### Puede tener melodia?\nSi, pero como contorno pequeno, no como hook. Evita vocals, frases largas y cualquier parecido con un ringtone familiar.\n### Que revisar antes del release?\nDerechos, settings, silent mode, notification channels, accessibility y comportamiento en dispositivos reales.\n### Un AI cue es automaticamente seguro para una app comercial?\nNo. Revisa terminos de la herramienta, aprobacion del equipo y requisitos de plataforma antes de publicar."
+      ]
+    },
+    "fr": {
+      "title": "Concevoir des notification sounds IA pour apps sans agacer les utilisateurs",
+      "description": "Workflow pratique pour creer de courts app notification cues, clairs, controles et prets pour une equipe mobile ou web.",
+      "body": [
+        "Un notification sound semble minuscule jusqu au moment ou quelqu un l entend vingt fois dans la meme journee. Un draft parait doux au casque de studio, puis sonne comme une alarme sur le haut-parleur du telephone. Un autre disparait dans un sac, un train ou un bureau bruyant. Si le prompt dit seulement cute app sound, tu risques d obtenir une mini song, pas un signal qui respecte attention, reglages appareil et ecoute repetee.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA pour brouillonner de la musique depuis descriptions, lyrics et idees de style. Elle peut aider a tester de courts musical cues pour experiences d app; reglages systeme, revue des droits, accessibility et validation equipe restent des checks separes avant release.",
+        "## Commencer par l evenement, pas par le mood",
+        "Nomme l evenement avant de choisir le son: login code arrived, upload complete, payment failed, calendar starting ou teammate mentioned you. Chacun merite un niveau d interruption different. Un reminder optionnel ne doit pas sonner comme une security alert. Un success event peut etre agreable et minuscule. Un payment failure demande de la clarte sans panique. Si l evenement ne merite pas d interrompre quelqu un, no sound plus un badge visible peut etre le meilleur choix UX.",
+        "## Faire un signal, pas une chanson",
+        "Un bon notification cue est souvent un geste reconnaissable: two soft notes, warm pluck, muted bell, short rounded synth ou low chime. Evite vocals, lyrics, longue reverb tail, bass lourd, risers dramatiques et starts durs. Un prompt comme short app notification cue, under one breath, no vocal, no melody tail, soft attack est plus utile qu un prompt musical complet. Dans EasyMusic.AI, compare un draft plus amical et un draft plus clair, puis garde celui qui devient le moins irritant en repetition.",
+        "## Construire une petite famille sonore",
+        "Ne cree pas un seul cue isole. Construis une family: success, reminder, warning et urgent, avec la meme palette. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer calm trust ou crisp productivity en langage plus concret d instrumentation, tempo et density. Ensuite raccourcis le resultat en cue prompt, car une notification n a pas besoin d un arrangement complet.",
+        "## Respecter le controle utilisateur",
+        "Les systemes mobile donnent aux personnes des moyens de couper le son, changer les channels, baisser le volume et utiliser silent mode. Ne fais pas dependre le sens produit du son seul. Le message doit aussi etre visible par text, badge, vibration pattern ou state clair dans l interface. Sur le web, tout audio qui demarre automatiquement demande une facon evidente de l arreter ou de le controler.",
+        "## Livrer le fichier comme un asset UX",
+        "Donne a l equipe app le event name, la raison du son, urgency level, silent fallback et format requis. Si MP3, WAV ou OGG est necessaire apres validation, l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut creer une copie de livraison. La conversion ne remplace pas un test sur petit speaker, en silent mode, avec audio screen reader ou dans les regles de notification de la plateforme cible.",
+        "## Idees reutilisables aujourd hui",
+        "- Commence le filename par l evenement: upload-complete-soft-chime ou password-code-neutral-tap.\n- Demande no vocal et no lyric pour que le cue ne ressemble pas a un fragment de chanson.\n- Cree une echelle: soft, normal, urgent, puis supprime tout ce qui sonne comme une alarm sans raison.\n- Joue le cue cinq fois de suite; s il agace en review, il agacera plus tard.\n- Ajoute cette note de handoff: sound is optional, message must remain visible.",
+        "## FAQ\n### Chaque notification a-t-elle besoin de son ?\nNon. Beaucoup d evenements marchent mieux avec badge, vibration ou message silencieux, surtout s ils ne sont pas urgents.\n### Quelle longueur pour le cue ?\nTres court, avec une idee claire. Plus la tail est longue, plus elle risque d irriter ou de couvrir un autre audio.\n### Peut-on utiliser une melodie ?\nOui, mais comme petite courbe, pas comme hook. Evite vocals, longues phrases et resemblance a un ringtone connu.\n### Que verifier avant release ?\nDroits, settings, silent mode, notification channels, accessibility et comportement sur vrais appareils.\n### Un AI cue est-il automatiquement sur pour une app commerciale ?\nNon. Verifie les conditions de l outil, la validation equipe et les exigences plateforme avant publication."
+      ]
+    },
+    "it": {
+      "title": "Progetta notification sounds AI per app senza infastidire gli utenti",
+      "description": "Workflow pratico per creare app notification cues brevi, chiari e pronti per il passaggio a team mobile o web.",
+      "body": [
+        "Un notification sound sembra piccolo finche qualcuno lo sente venti volte in un giorno. Un draft e gentile in cuffia da studio, ma sullo speaker del telefono diventa un allarme. Un altro sparisce in borsa, in treno o in ufficio. Se il prompt e solo cute app sound, potresti ottenere una mini song invece di un segnale che rispetta attenzione, impostazioni del dispositivo e ascolto ripetuto.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per creare draft da descrizioni, lyrics e idee di style. Puo aiutare a testare brevi musical cues per esperienze app, mentre impostazioni di sistema, review dei diritti, accessibility e approvazione del team restano controlli separati prima del release.",
+        "## Parti dall evento, non dal mood",
+        "Nomina l evento prima del suono: login code arrived, upload complete, payment failed, calendar starting o teammate mentioned you. Ognuno richiede un livello di interruzione diverso. Un reminder opzionale non deve sembrare una security alert. Un success event puo essere piacevole e piccolo. Un payment failure richiede chiarezza senza panico. Se l evento non merita di interrompere qualcuno, no sound piu badge visibile puo essere la scelta UX migliore.",
+        "## Crea un segnale, non una canzone",
+        "Un buon notification cue e spesso un gesto riconoscibile: two soft notes, warm pluck, muted bell, short rounded synth o low chime. Evita vocals, lyrics, long reverb tail, bass pesante, riser drammatici e hard starts. Un prompt come short app notification cue, under one breath, no vocal, no melody tail, soft attack e piu utile di un prompt musicale completo. In EasyMusic.AI, confronta un draft piu amichevole e uno piu chiaro, poi scegli quello che resta meno irritante in ripetizione.",
+        "## Costruisci una piccola famiglia sonora",
+        "Non progettare un cue isolato. Crea una family: success, reminder, warning e urgent, tutti con la stessa palette. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare calm trust o crisp productivity in parole concrete su instrumentation, tempo e density. Poi accorcia il risultato in un cue prompt, perche una notification non ha bisogno di un arrangement completo.",
+        "## Rispetta il controllo dell utente",
+        "I sistemi mobile danno alle persone modi per mutare suoni, cambiare channels, abbassare volume e usare silent mode. Non far dipendere il significato del prodotto solo dal sound. Il messaggio deve essere visibile anche con text, badge, vibration pattern o uno state chiaro nell interfaccia. Sul web, qualsiasi audio che parte automaticamente richiede un modo evidente per fermarlo o controllarlo.",
+        "## Passa il file come asset UX",
+        "Dai al team app event name, motivo del suono, urgency level, silent fallback e format richiesto. Se dopo approvazione servono MP3, WAV o OGG, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo creare una copia di consegna. La conversion non sostituisce test su piccolo speaker, silent mode, screen reader audio o regole notification della piattaforma target.",
+        "## Idee riutilizzabili oggi",
+        "- Inizia il filename con l evento: upload-complete-soft-chime o password-code-neutral-tap.\n- Chiedi no vocal e no lyric per evitare che il cue sembri un frammento di song.\n- Crea una scala: soft, normal, urgent, poi elimina cio che suona come alarm senza motivo.\n- Riproduci il cue cinque volte di fila; se irrita in review, irritera anche gli utenti.\n- Aggiungi questa nota di handoff: sound is optional, message must remain visible.",
+        "## FAQ\n### Ogni notification ha bisogno di sound?\nNo. Molti eventi funzionano meglio con badge, vibration o messaggio silenzioso, soprattutto se non sono urgenti.\n### Quanto deve durare il cue?\nMolto poco, con una sola idea chiara. Piu lunga e la tail, piu puo irritare o coprire altro audio.\n### Posso usare una melodia?\nSi, ma come piccolo contour, non come hook. Evita vocals, frasi lunghe e somiglianze con ringtone noti.\n### Cosa controllo prima del release?\nDiritti, settings, silent mode, notification channels, accessibility e comportamento su device reali.\n### Un AI cue e automaticamente sicuro per app commerciali?\nNo. Verifica termini dello strumento, approvazione del team e requisiti di piattaforma prima di pubblicare."
+      ]
+    },
+    "ja": {
+      "title": "ユーザーを疲れさせない app notification sound を AI で設計する",
+      "description": "Mobile や web team に渡せる、短く明確で control しやすい app notification cue を作るための実用 workflow。",
+      "body": [
+        "Notification sound は小さな detail に見えますが、1日に20回聞くと評価が変わります。Studio headphones ではやさしい draft が、phone speaker では alarm のように感じられることがあります。別の draft は bag、train、busy office の中で消えます。Prompt が cute app sound だけだと、attention、device settings、repeat listening を尊重する cue ではなく、mini song になりがちです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、description、lyrics、style ideas から music draft を作れる AI 音楽制作 platform です。App experience 用の短い musical cues を試す助けになりますが、operating-system settings、rights review、accessibility、team approval は release 前に別途確認する必要があります。",
+        "## Mood ではなく event から始める",
+        "Sound を選ぶ前に event を書きます: login code arrived、upload complete、payment failed、calendar starting、teammate mentioned you。必要な interruption level はそれぞれ違います。Optional reminder は security alert のように鳴るべきではありません。Success event は小さく pleasant で十分です。Payment failure は clarity が必要ですが panic は不要です。Interrupt するほど重要でない event なら、no sound と visible badge のほうがよい UX です。",
+        "## Song ではなく signal にする",
+        "よい notification cue は、多くの場合ひとつの認識しやすい gesture です: two soft notes、warm pluck、muted bell、short rounded synth、low chime。Vocals、lyrics、long reverb tail、heavy bass、dramatic riser、hard start は避けます。Prompt は full music prompt より short app notification cue, under one breath, no vocal, no melody tail, soft attack のほうが使いやすいです。EasyMusic.AI では friendlier draft と clearer draft を比べ、繰り返しても一番 irritate しないものを選びます。",
+        "## 小さな sound family を作る",
+        "Cue を単体で設計しないでください。Success、reminder、warning、urgent という family を作り、同じ palette を共有します。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は calm trust や crisp productivity を instrumentation、tempo、density の具体的な言葉に変える助けになります。その後、notification には complete arrangement が不要なので、cue prompt まで短くします。",
+        "## User control を尊重する",
+        "Mobile systems には、sound を mute する、channel を変える、volume を下げる、silent mode を使う方法があります。Product meaning を sound だけに依存させないでください。Message は text、badge、vibration pattern、clear interface state でも見える必要があります。Web では、自動で始まる audio には stop または control できる明確な方法が必要です。",
+        "## File を UX asset として渡す",
+        "App team には event name、sound の理由、urgency level、silent fallback、required format を渡します。Approval 後に MP3、WAV、OGG が必要なら、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) で delivery copy を作れます。Format conversion は small speaker、silent mode、screen-reader audio、target platform の notification rules での test の代わりにはなりません。",
+        "## 今日すぐ使えるアイデア",
+        "- Filename を event から始める: upload-complete-soft-chime、password-code-neutral-tap。\n- Cue が song fragment に聞こえないよう no vocal と no lyric を頼む。\n- Soft、normal、urgent の ladder を作り、理由なく alarm に聞こえる version を削除する。\n- Cue を5回連続で再生する。Review で気になるなら user にはもっと気になります。\n- Handoff note に sound is optional, message must remain visible と書く。",
+        "## FAQ\n### すべての notification に sound は必要ですか？\nいいえ。Time-critical でない event は、badge、vibration、silent message のほうが合うことが多いです。\n### Cue はどれくらい短くすべきですか？\nひとつの clear idea に絞り、とても短くします。Tail が長いほど irritate したり他の audio を覆いやすくなります。\n### Melody は使えますか？\n使えますが、小さな contour にします。Vocals、長い phrase、既存 ringtone に似た形は避けます。\n### Release 前に何を確認しますか？\nRights、settings、silent mode、notification channels、accessibility、real devices での behavior を確認します。\n### AI cue は commercial app に自動的に安全ですか？\nいいえ。Tool terms、team approval、platform requirements を publish 前に確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "사용자를 지치게 하지 않는 app notification sound를 AI로 설계하기",
+      "description": "Mobile 또는 web team에 넘길 수 있는 짧고 명확하며 control 가능한 app notification cue workflow.",
+      "body": [
+        "Notification sound는 작아 보이지만 하루에 스무 번 들으면 전혀 다르게 느껴집니다. Studio headphones에서 친절하던 draft가 phone speaker에서는 alarm처럼 들릴 수 있습니다. 다른 draft는 bag, train, busy office 안에서 사라집니다. Prompt가 cute app sound뿐이면 attention, device settings, repeat listening을 존중하는 cue가 아니라 mini song이 나오기 쉽습니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 description, lyrics, style ideas로 music draft를 만들 수 있는 AI 음악 제작 platform입니다. App experience용 짧은 musical cues를 테스트하는 데 도움이 되지만 operating-system settings, rights review, accessibility, team approval은 release 전에 별도로 확인해야 합니다.",
+        "## Mood가 아니라 event부터 쓴다",
+        "Sound를 고르기 전에 event를 적습니다: login code arrived, upload complete, payment failed, calendar starting, teammate mentioned you. 각각 필요한 interruption level이 다릅니다. Optional reminder가 security alert처럼 들리면 안 됩니다. Success event는 작고 pleasant하면 충분합니다. Payment failure는 clarity가 필요하지만 panic은 필요하지 않습니다. 누군가를 interrupt할 만큼 중요하지 않은 event라면 no sound와 visible badge가 더 나은 UX일 수 있습니다.",
+        "## Song이 아니라 signal을 만든다",
+        "좋은 notification cue는 보통 하나의 알아보기 쉬운 gesture입니다: two soft notes, warm pluck, muted bell, short rounded synth, low chime. Vocals, lyrics, long reverb tail, heavy bass, dramatic risers, hard starts를 피하세요. Full music prompt보다 short app notification cue, under one breath, no vocal, no melody tail, soft attack이 더 유용합니다. EasyMusic.AI에서는 더 friendly한 draft와 더 clear한 draft를 비교하고 반복해도 덜 irritating한 것을 선택합니다.",
+        "## 작은 sound family를 만든다",
+        "Cue 하나만 따로 설계하지 마세요. Success, reminder, warning, urgent가 같은 palette를 공유하는 family를 만듭니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 calm trust나 crisp productivity를 instrumentation, tempo, density 언어로 바꾸는 데 도움이 됩니다. 그다음 notification에는 complete arrangement가 필요 없으니 cue prompt로 줄입니다.",
+        "## User control을 존중한다",
+        "Mobile systems는 사람들이 sound를 mute하고, channel을 바꾸고, volume을 낮추고, silent mode를 쓰게 합니다. Product meaning을 sound 하나에만 의존시키지 마세요. Message는 text, badge, vibration pattern, clear interface state로도 보여야 합니다. Web에서 자동으로 시작하는 audio는 멈추거나 조절할 수 있는 명확한 방법이 필요합니다.",
+        "## File을 UX asset처럼 handoff한다",
+        "App team에 event name, sound reason, urgency level, silent fallback, required format을 전달합니다. Approval 뒤 MP3, WAV, OGG가 필요하면 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)로 delivery copy를 만들 수 있습니다. Format conversion은 small speaker, silent mode, screen-reader audio, target platform notification rules 테스트를 대체하지 않습니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- Filename을 event로 시작합니다: upload-complete-soft-chime 또는 password-code-neutral-tap.\n- Cue가 song fragment처럼 들리지 않게 no vocal과 no lyric을 요청합니다.\n- Soft, normal, urgent ladder를 만들고 이유 없이 alarm처럼 들리는 version을 삭제합니다.\n- Cue를 다섯 번 연속 재생합니다. Review에서 거슬리면 user에게도 거슬립니다.\n- Handoff note에 sound is optional, message must remain visible라고 적습니다.",
+        "## FAQ\n### 모든 notification에 sound가 필요한가요?\n아니요. Time-critical하지 않은 event는 badge, vibration, silent message가 더 잘 맞는 경우가 많습니다.\n### Cue는 얼마나 짧아야 하나요?\n하나의 clear idea에 집중하고 매우 짧게 만드세요. Tail이 길수록 사람을 irritate하거나 다른 audio를 덮기 쉽습니다.\n### Melody를 써도 되나요?\n가능하지만 작은 contour로 제한하세요. Vocals, 긴 phrase, 익숙한 ringtone과 비슷한 형태는 피합니다.\n### Release 전에 무엇을 확인하나요?\nRights, settings, silent mode, notification channels, accessibility, real devices behavior를 확인합니다.\n### AI cue는 commercial app에 자동으로 안전한가요?\n아니요. Tool terms, team approval, platform requirements를 publish 전에 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Desenhe notification sounds com IA para apps sem irritar usuarios",
+      "description": "Workflow pratico para criar app notification cues curtos, claros e prontos para handoff a equipes mobile ou web.",
+      "body": [
+        "Um notification sound parece pequeno ate alguem ouvi-lo vinte vezes no mesmo dia. Um draft soa amigavel em headphones de estudio, mas vira alarm no speaker do telefone. Outro some dentro de bolsa, trem ou escritorio cheio. Se o prompt diz apenas cute app sound, voce pode receber uma mini song, nao um cue que respeita atencao, device settings e repeat listening.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para criar rascunhos a partir de descricoes, lyrics e ideias de style. Ela pode ajudar a testar musical cues curtos para experiencias de app, enquanto operating-system settings, review de direitos, accessibility e aprovacao do time continuam checks separados antes do release.",
+        "## Comece pelo evento, nao pelo mood",
+        "Nomeie o evento antes do som: login code arrived, upload complete, payment failed, calendar starting ou teammate mentioned you. Cada um merece um interruption level diferente. Um reminder opcional nao deve soar como security alert. Um success event pode ser agradavel e minimo. Um payment failure precisa de clareza sem panico. Se o evento nao e importante o bastante para interromper alguem, no sound mais badge visivel pode ser melhor UX.",
+        "## Faca um sinal, nao uma musica",
+        "Um bom notification cue costuma ser um gesto reconhecivel: two soft notes, warm pluck, muted bell, short rounded synth ou low chime. Evite vocals, lyrics, reverb tail longo, bass pesado, risers dramaticos e hard starts. Um prompt como short app notification cue, under one breath, no vocal, no melody tail, soft attack e mais util que um prompt musical completo. No EasyMusic.AI, compare um draft mais amigavel com outro mais claro e escolha o que incomoda menos quando repetido.",
+        "## Construa uma pequena familia sonora",
+        "Nao desenhe um cue isolado. Crie uma family: success, reminder, warning e urgent, todos compartilhando a mesma palette. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar calm trust ou crisp productivity em linguagem concreta de instrumentation, tempo e density. Depois encurte o resultado em cue prompt, porque uma notification nao precisa de arrangement completo.",
+        "## Respeite o controle do usuario",
+        "Mobile systems dao as pessoas formas de mutar sons, mudar channels, baixar volume e usar silent mode. Nao faca o significado do produto depender apenas do sound. A mensagem tambem deve aparecer por text, badge, vibration pattern ou state claro na interface. Na web, qualquer audio que comeca automaticamente precisa de uma forma obvia de parar ou controlar.",
+        "## Entregue o arquivo como UX asset",
+        "Diga ao app team o event name, motivo do som, urgency level, silent fallback e required format. Se depois da aprovacao forem necessarios MP3, WAV ou OGG, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode criar uma copia de entrega. Format conversion nao substitui testes em speaker pequeno, silent mode, screen-reader audio ou regras de notification da plataforma alvo.",
+        "## Ideias reutilizaveis para hoje",
+        "- Comece o filename pelo evento: upload-complete-soft-chime ou password-code-neutral-tap.\n- Peca no vocal e no lyric para o cue nao parecer fragmento de song.\n- Crie uma escala: soft, normal, urgent, e apague tudo que soe como alarm sem motivo.\n- Toque o cue cinco vezes seguidas; se irrita no review, irritara usuarios depois.\n- Adicione esta nota de handoff: sound is optional, message must remain visible.",
+        "## Perguntas frequentes\n### Toda notification precisa de sound?\nNao. Muitos eventos funcionam melhor como badge, vibration ou mensagem silenciosa, especialmente se nao sao urgentes.\n### Qual deve ser a duracao do cue?\nBem curto, com uma ideia clara. Quanto maior a tail, maior a chance de irritar ou cobrir outro audio.\n### Posso usar melodia?\nSim, mas como pequeno contour, nao como hook. Evite vocals, frases longas e qualquer coisa parecida com ringtone familiar.\n### O que revisar antes do release?\nDireitos, settings, silent mode, notification channels, accessibility e comportamento em devices reais.\n### Um AI cue e automaticamente seguro para app comercial?\nNao. Revise os termos da ferramenta, aprovacao do time e requisitos de plataforma antes de publicar."
+      ]
+    },
+    "ru": {
+      "title": "Создавайте AI notification sounds для приложений без раздражения пользователей",
+      "description": "Практический workflow для коротких app notification cues, которые понятны, управляемы и готовы к handoff в mobile или web team.",
+      "body": [
+        "Notification sound кажется мелочью, пока человек не услышит его двадцать раз за день. Один draft звучит дружелюбно в studio headphones, но на phone speaker превращается в alarm. Другой исчезает в сумке, поезде или шумном офисе. Если prompt звучит только как cute app sound, легко получить mini song вместо cue, который уважает attention, device settings и repeat listening.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, где можно делать music drafts из descriptions, lyrics и style ideas. Она может помочь тестировать короткие musical cues для app experiences, но operating-system settings, rights review, accessibility и team approval нужно проверять отдельно перед release.",
+        "## Начните с event, а не с mood",
+        "Назовите event до выбора sound: login code arrived, upload complete, payment failed, calendar starting или teammate mentioned you. Каждому нужен свой interruption level. Optional reminder не должен звучать как security alert. Success event может быть приятным и маленьким. Payment failure требует ясности без паники. Если event недостаточно важен, чтобы interrupt пользователя, no sound плюс visible badge могут быть лучшим UX решением.",
+        "## Делайте signal, а не song",
+        "Хороший notification cue обычно один узнаваемый gesture: two soft notes, warm pluck, muted bell, short rounded synth или low chime. Избегайте vocals, lyrics, long reverb tail, heavy bass, dramatic risers и hard starts. Prompt short app notification cue, under one breath, no vocal, no melody tail, soft attack полезнее полного music prompt. В EasyMusic.AI сравните более friendly draft и более clear draft, затем выберите тот, который меньше раздражает при повторении.",
+        "## Соберите маленькую sound family",
+        "Не проектируйте один cue отдельно. Сделайте family: success, reminder, warning и urgent с одной palette. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает перевести calm trust или crisp productivity в конкретный язык instrumentation, tempo и density. Затем сократите результат до cue prompt, потому что notification не нужен complete arrangement.",
+        "## Уважайте user control",
+        "Mobile systems дают людям способы mute sounds, менять channels, снижать volume и использовать silent mode. Не заставляйте product meaning зависеть только от sound. Message также должно быть видно через text, badge, vibration pattern или понятный interface state. На web любой audio, который стартует автоматически, требует очевидного способа stop или control.",
+        "## Передайте файл как UX asset",
+        "Дайте app team event name, причину sound, urgency level, silent fallback и required format. Если после approval нужны MP3, WAV или OGG, [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может создать delivery copy. Format conversion не заменяет тесты на small speaker, в silent mode, со screen-reader audio или внутри notification rules целевой platform.",
+        "## Идеи, которые можно применить сегодня",
+        "- Начинайте filename с event: upload-complete-soft-chime или password-code-neutral-tap.\n- Просите no vocal и no lyric, чтобы cue не звучал как fragment song.\n- Создайте ladder: soft, normal, urgent, и удалите все, что звучит как alarm без причины.\n- Проиграйте cue пять раз подряд; если он раздражает на review, он будет раздражать users.\n- Добавьте handoff note: sound is optional, message must remain visible.",
+        "## FAQ\n### Нужен ли sound каждой notification?\nНет. Многие events лучше работают как badge, vibration или silent message, особенно если они не time-critical.\n### Какой длины должен быть cue?\nОчень короткий, с одной clear idea. Чем длиннее tail, тем выше шанс раздражения или перекрытия другого audio.\n### Можно ли использовать melody?\nДа, но как маленький contour, не как hook. Избегайте vocals, длинных phrases и сходства со знакомым ringtone.\n### Что проверить перед release?\nRights, settings, silent mode, notification channels, accessibility и behavior на real devices.\n### AI cue автоматически безопасен для commercial app?\nНет. Проверьте tool terms, team approval и platform requirements перед publication."
+      ]
+    },
+    "zh": {
+      "title": "用 AI 设计不打扰用户的 app notification sound",
+      "description": "一个实用 workflow：制作短、清楚、可控，并能交给 mobile 或 web team 的 app notification cues。",
+      "body": [
+        "Notification sound 看起来只是小细节，直到一个人一天听到二十次。一个 draft 在 studio headphones 里很友好，到了 phone speaker 上可能像 alarm。另一个 draft 会在 bag、train、busy office 里完全消失。如果 prompt 只是 cute app sound，你可能得到一段 mini song，而不是尊重 attention、device settings 和 repeat listening 的 cue。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。它可以帮助测试 app experience 里的短 musical cues，但 operating-system settings、rights review、accessibility 和 team approval 仍然需要在 release 前单独检查。",
+        "## 先写 event，不要先写 mood",
+        "在选择 sound 之前先命名 event：login code arrived、upload complete、payment failed、calendar starting、teammate mentioned you。每个 event 的 interruption level 都不同。Optional reminder 不应该像 security alert。Success event 可以 pleasant 且很小。Payment failure 需要 clarity，不需要 panic。如果这个 event 不值得 interrupt 用户，no sound 加 visible badge 可能是更好的 UX。",
+        "## 做 signal，不是 song",
+        "好的 notification cue 通常是一个可识别 gesture：two soft notes、warm pluck、muted bell、short rounded synth、low chime。避免 vocals、lyrics、long reverb tail、heavy bass、dramatic risers 和 hard starts。比起完整 music prompt，short app notification cue, under one breath, no vocal, no melody tail, soft attack 更有用。在 EasyMusic.AI 里，比较一个更 friendly 的 draft 和一个更 clear 的 draft，然后选择重复播放时最不 irritate 的版本。",
+        "## 建立一个小 sound family",
+        "不要只单独设计一个 cue。建立一个 family：success、reminder、warning、urgent，并共享同一套 palette。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 calm trust 或 crisp productivity 转成更具体的 instrumentation、tempo 和 density 语言。然后把结果缩短成 cue prompt，因为 notification 不需要 complete arrangement。",
+        "## 尊重 user control",
+        "Mobile systems 会让用户 mute sounds、change channels、lower volume、使用 silent mode。不要让 product meaning 只依赖 sound。Message 也应该通过 text、badge、vibration pattern 或 clear interface state 被看见。在 web 上，任何自动开始的 audio 都需要明显的 stop 或 control 方法。",
+        "## 像 UX asset 一样 handoff 文件",
+        "给 app team event name、sound reason、urgency level、silent fallback 和 required format。Approval 之后如果需要 MP3、WAV 或 OGG，可以用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 做 delivery copy。Format conversion 不能替代 small speaker、silent mode、screen-reader audio 或 target platform notification rules 的测试。",
+        "## 今天就能复用的想法",
+        "- Filename 从 event 开始：upload-complete-soft-chime 或 password-code-neutral-tap。\n- 请求 no vocal 和 no lyric，避免 cue 听起来像 song fragment。\n- 做一个 ladder：soft、normal、urgent，然后删除任何没有理由却像 alarm 的版本。\n- 连续播放 cue 五次；如果 review 时已经烦，用户以后也会烦。\n- 在 handoff note 写：sound is optional, message must remain visible.",
+        "## FAQ\n### 每个 notification 都需要 sound 吗？\n不需要。很多 event 更适合 badge、vibration 或 silent message，尤其是不紧急的时候。\n### Cue 应该多长？\n很短，并且只有一个 clear idea。Tail 越长，越可能 irritate 用户或盖住其他 audio。\n### 可以使用 melody 吗？\n可以，但要像小 contour，不要像 hook。避免 vocals、长 phrase，以及类似熟悉 ringtone 的形状。\n### Release 前要检查什么？\n检查 rights、settings、silent mode、notification channels、accessibility，以及 real devices 上的 behavior。\n### AI cue 会自动适合 commercial app 吗？\n不会。发布前请检查 tool terms、team approval 和 platform requirements。"
+      ]
+    }
+  }
+}
