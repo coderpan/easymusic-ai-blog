@@ -1,0 +1,249 @@
+{
+  "date": "2026-08-28",
+  "slug": "clean-ai-song-ending-prompt-workflow",
+  "cluster": "song-ending-workflows",
+  "translations": {
+    "ar": {
+      "title": "اجعل اغنية AI تنتهي بوضوح بدلا من الدوران",
+      "description": "Workflow عملي لكتابة final chorus وoutro وclean stop حتى لا تنتهي اغنية AI بقطع مفاجئ او loop طويل.",
+      "body": [
+        "تحب الverse، الhook يعمل، والarrangement بدأ يجد شكله. ثم تخونك اخر عشرين ثانية: false ending، وبعده يبدأ groove جديد، او fade لا يصل الى نهاية، او cut قاس يجعل الاغنية تبدو كأنها demo غير مقفلة. لا تعالج النهاية بعشر rerolls عشوائية. اكتب ending brief منفصل.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة انشاء موسيقى AI تساعدك على توليد drafts من description وlyrics وstyle ideas. يمكن استخدامها لاختبار song endings متعددة، لكن حقوق الاستخدام، credits، مصادر الكلمات، وقواعد المنصة تبقى مراجعات منفصلة قبل اي نشر.",
+        "## اختر نوع النهاية اولا",
+        "كلمة better ending ليست قرارا موسيقيا. اختر واحدا من ثلاثة انواع: final statement يعيد الhook مع سطر واحد محسوم، receding outro يسحب drums وbass تدريجيا، او clean stop ينهي على chord او hit واضح. الاختيار يحدد lyrics، density، وطريقة طلب الarrangement. اذا تركت النهاية غامضة، سيحاول النموذج اكمال اغنية جديدة بدلا من اغلاق الحالية.",
+        "## اكتب اخر ثلاثين ثانية كbrief منفصل",
+        "استخدم خمس خانات قصيرة: entry point، final section، lyric action، arrangement motion، stop cue. مثال: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. هذا يجعل الending قابلا للمراجعة بدل ان يكون املا عاما.",
+        "## دع lyrics تغلق القصة",
+        "النهاية النظيفة لا تعتمد على tag وحده. قلل الكلمات الجديدة، اعد الhook بفرق صغير، واجعل السطر الاخير قصيرا بما يكفي ليغنى بوضوح. اذا كنت تجرب عبارات نهاية متعددة، يمكن ان يساعد [AI Lyrics Generator](https://easymusic.ai/ar/tools/ai-lyrics-generator) في صنع variants للhook او refrain، ثم تختار انت السطر الذي يخدم المعنى ولا يفتح قصة جديدة.",
+        "## لا تجعل style prompt يعاكس الoutro",
+        "اذا قال الstyle energetic, rising, festival drop بينما تطلب fade out، فانت تعطي امرين متعارضين. احتفظ بgenre family، لكن اضف حركة ending محددة: reduce percussion, thinner bass, warmer final chord, no new build. اذا نقصت الكلمات الصوتية الدقيقة، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لايجاد language عن texture وmotion قبل generation.",
+        "## استعمل extension بعقل لا كزر نجاة",
+        "عندما تكون الاغنية قوية لكن النهاية تفشل، لا ترم كل شيء. داخل EasyMusic.AI او اي workflow فيه extension، ابدأ من نقطة نظيفة قبل false ending: اخر line كاملة، downbeat قبل outro، او قبل تغيير energy غير مرغوب. اكتب فقط المادة التي تأتي بعد تلك النقطة. بعد assembly، اسمع العبور والنهاية معا، لا النهاية وحدها.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب ending type في اول note: final statement، receding outro، او clean stop.\n- اجعل اخر lyric line اقل من سبع كلمات اذا اردت stop واضحا.\n- اطلب no new verse عندما تظهر عادة اعادة تشغيل الاغنية.\n- قارن نسختين فقط: fade version وclean-hit version.\n- احفظ prompt، edit notes، ومصدر اي lyric قبل ارسال الملف للعميل او المنصة.",
+        "## اسئلة شائعة\n### هل يكفي tag مثل [Outro]؟\nلا. الtag يساعد كاشارة، لكن lyrics، style، وطول section يجب ان يدعموا نفس القرار.\n### لماذا تبدأ الاغنية من جديد بعد النهاية؟\nغالبا لان الprompt يترك طاقة او cycle غير محسوم. اختصر الoutro واطلب no new verse او held final chord.\n### هل fade out افضل من clean stop؟\nيعتمد على الاستخدام. Fade يناسب mood هادئ او montage، وclean stop يناسب hook قوي او نهاية فيديو تحتاج cut واضح.\n### هل النهاية الجيدة تجعل الاغنية جاهزة للنشر؟\nليس وحدها. راجع شروط الاداة، credits، lyrics sources، وقواعد المنصة قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "Lass einen KI-Song sauber enden, statt weiterzulaufen",
+      "description": "Ein praktischer Workflow fuer Final Chorus, Outro, Fade und Clean Stop, wenn AI music am Ende neu startet oder hart abbricht.",
+      "body": [
+        "Die Strophe sitzt, der Hook funktioniert, und das Arrangement bekommt Form. Dann verraten dich die letzten zwanzig Sekunden: ein falsches Ende, danach ein neuer Groove, ein Fade ohne Ziel oder ein harter Schnitt, der nach unfertigem Demo klingt. Behandle das Ende nicht mit zehn blinden Rerolls. Schreibe ein eigenes Ending Brief.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibung, Lyrics und Style-Ideen generieren kannst. Sie eignet sich zum Testen mehrerer Song-Enden; Nutzungsrechte, Credits, Textquellen und Plattformregeln bleiben aber eigene Pruefschritte vor einer Veroeffentlichung.",
+        "## Erst die Art des Endes waehlen",
+        "Better ending ist keine musikalische Entscheidung. Waehle eine von drei Formen: final statement wiederholt den Hook mit einer geloesten Zeile, receding outro nimmt Drums und Bass schrittweise weg, clean stop endet auf einem klaren Akkord oder Hit. Diese Wahl steuert Lyrics, Dichte und Arrangement. Wenn das Ende vage bleibt, versucht das Modell oft, den Song weiterzuerzaehlen.",
+        "## Die letzten dreissig Sekunden separat briefen",
+        "Nutze fuenf Felder: entry point, final section, lyric action, arrangement motion, stop cue. Beispiel: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. So wird das Ende pruefbar.",
+        "## Lass die Lyrics die Geschichte schliessen",
+        "Ein sauberes Ende entsteht nicht durch ein Tag allein. Fuehre weniger neue Woerter ein, wiederhole den Hook mit einer kleinen Aenderung und mache die letzte Zeile kurz genug, damit sie klar gesungen werden kann. Wenn du mehrere Schlusszeilen testen willst, kann der [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) Hook- oder Refrain-Varianten liefern; die Auswahl muss aber die Bedeutung schuetzen.",
+        "## Das Style Prompt darf dem Outro nicht widersprechen",
+        "Wenn dein Style energetic, rising, festival drop sagt, waehrend du fade out verlangst, gibst du widerspruechliche Signale. Behalte die Genre-Familie, aber formuliere die Endbewegung: reduce percussion, thinner bass, warmer final chord, no new build. Wenn dir die Begriffe fehlen, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Sprache fuer Texture und Motion vorbereiten.",
+        "## Extension nicht als Notknopf benutzen",
+        "Wenn der Song stark ist, aber das Ende scheitert, wirf nicht alles weg. In EasyMusic.AI oder einem anderen Workflow mit Extension startest du vor dem falschen Ende: nach der letzten kompletten Zeile, auf dem Downbeat vor dem Outro oder vor dem unerwuenschten Energiewechsel. Schreibe nur das Material, das danach kommen soll. Hoere spaeter Uebergang und Ende zusammen.",
+        "## Sofort nutzbare Ideen",
+        "- Notiere zuerst den ending type: final statement, receding outro oder clean stop.\n- Halte die letzte Lyric-Zeile unter sieben Woertern, wenn du einen klaren Stop willst.\n- Schreibe no new verse, wenn der Song nach dem Outro neu startet.\n- Vergleiche nur zwei Versionen: fade version und clean-hit version.\n- Speichere Prompt, Edit Notes und Quellen jeder Lyric vor Client- oder Plattformabgabe.",
+        "## FAQ\n### Reicht ein Tag wie [Outro]?\nNein. Das Tag hilft als Signal, aber Lyrics, Style und Abschnittslaenge muessen dieselbe Entscheidung tragen.\n### Warum startet der Song nach dem Ende wieder?\nOft laesst der Prompt noch Energie oder einen Zyklus offen. Kuerze das Outro und verlange no new verse oder held final chord.\n### Ist fade out besser als clean stop?\nDas haengt vom Einsatz ab. Fade passt zu ruhigen Montagen, clean stop zu starkem Hook oder einem klaren Videoschnitt.\n### Macht ein gutes Ende den Song release-fertig?\nNicht allein. Pruefe Tool-Bedingungen, Credits, Textquellen und Plattformregeln."
+      ]
+    },
+    "en": {
+      "title": "Make an AI Song End Cleanly Instead of Looping Again",
+      "description": "A practical workflow for prompting a final chorus, outro, fade, or clean stop when an AI song keeps restarting or cuts off awkwardly.",
+      "body": [
+        "The verse works, the hook lands, and the arrangement finally has a shape. Then the last twenty seconds betray the song: a false ending, a new groove after the supposed close, a fade that never quite arrives, or a hard cut that sounds like an unfinished demo. Do not spend ten blind rerolls chasing a lucky ending. Write an ending brief.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. It can help you test several song endings, while usage rights, credits, lyric sources, and platform rules still need separate review before release.",
+        "## Choose the Ending Type First",
+        "A better ending is not a musical decision. Pick one of three shapes: final statement repeats the hook with one resolved line, receding outro removes drums and bass in stages, or clean stop lands on a clear chord or hit. That choice controls lyric density, arrangement motion, and what you ask the model to avoid. If the ending stays vague, the draft may try to start the song again.",
+        "## Brief the Last Thirty Seconds Separately",
+        "Use five short fields: entry point, final section, lyric action, arrangement motion, stop cue. Example: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. Now the ending is something you can review, not just a wish.",
+        "## Make the Lyrics Do Closing Work",
+        "A clean ending does not come from a tag alone. Introduce fewer new words, repeat the hook with one small change, and make the final line short enough to sing clearly. If you are testing final-hook variants, the [AI Lyrics Generator](https://easymusic.ai/tools/ai-lyrics-generator) can help draft options for a refrain or last line; the human edit should choose the line that closes the meaning instead of opening a new story.",
+        "## Keep the Style Prompt From Fighting the Outro",
+        "If the style says energetic, rising, festival drop while the lyric asks for fade out, the prompt is arguing with itself. Keep the genre family, then describe the ending motion: reduce percussion, thinner bass, warmer final chord, no new build. When your vocabulary feels too broad, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn a vague mood into texture and movement language before generation.",
+        "## Use Extension as Editing, Not Rescue",
+        "When the song is strong but the close fails, do not throw away the whole draft. In EasyMusic.AI or any workflow with extension, start from a clean point before the false ending: the last complete lyric line, the downbeat before an outro, or the moment before an unwanted energy change. Write only the material that should come next. After assembly, listen across the join and the ending together.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write the ending type first: final statement, receding outro, or clean stop.\n- Keep the last lyric line under seven words when you want a decisive stop.\n- Add no new verse when drafts keep restarting after the outro.\n- Compare only two ending tests: fade version and clean-hit version.\n- Save the prompt, edit notes, and lyric source notes before sending the track to a client or platform.",
+        "## FAQ\n### Is an [Outro] tag enough?\nNo. The tag can signal intent, but the lyrics, style prompt, and section length need to support the same ending.\n### Why does my AI song start again after the ending?\nOften the prompt leaves too much unresolved energy or an unfinished cycle. Shorten the outro and ask for no new verse or a held final chord.\n### Is a fade out better than a clean stop?\nIt depends on the use. Fade works for quiet mood or montage; clean stop works when the hook is strong or a video edit needs a clear cut.\n### Does a good ending make the song ready to publish?\nNot by itself. Review tool terms, credits, lyric sources, and platform rules before publishing."
+      ]
+    },
+    "es": {
+      "title": "Haz que una cancion IA termine limpia en vez de volver a empezar",
+      "description": "Workflow practico para pedir final chorus, outro, fade o clean stop cuando una cancion IA se reinicia o corta mal.",
+      "body": [
+        "El verso funciona, el hook entra bien y el arrangement por fin tiene forma. Entonces los ultimos veinte segundos arruinan la cancion: un falso final, un groove nuevo despues del cierre, un fade que nunca llega o un corte duro que suena a demo sin terminar. No gastes diez rerolls a ciegas esperando suerte. Escribe un ending brief.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar drafts desde descripciones, lyrics e ideas de style. Puede ayudarte a probar varios finales de cancion, mientras derechos de uso, credits, fuentes de lyrics y reglas de plataforma siguen siendo revisiones separadas antes del release.",
+        "## Elige primero el tipo de final",
+        "Better ending no es una decision musical. Elige una forma: final statement repite el hook con una linea resuelta, receding outro quita drums y bass por etapas, o clean stop cae en un chord o hit claro. Esa decision controla lyric density, arrangement motion y lo que pides evitar. Si el final queda vago, el draft puede intentar empezar otra cancion.",
+        "## Escribe los ultimos treinta segundos aparte",
+        "Usa cinco campos cortos: entry point, final section, lyric action, arrangement motion, stop cue. Ejemplo: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. Asi el final se puede revisar.",
+        "## Haz que la letra cierre la historia",
+        "Un final limpio no sale solo de un tag. Introduce menos palabras nuevas, repite el hook con un cambio pequeno y haz que la ultima linea sea corta para cantarse con claridad. Si pruebas variantes de hook final, el [AI Lyrics Generator](https://easymusic.ai/es/tools/ai-lyrics-generator) puede crear opciones de refrain o last line; la edicion humana debe elegir la que cierra el sentido.",
+        "## Evita que el style prompt pelee con el outro",
+        "Si el style dice energetic, rising, festival drop mientras la letra pide fade out, el prompt se contradice. Mantén la familia de genre y describe el movimiento final: reduce percussion, thinner bass, warmer final chord, no new build. Si te falta vocabulario, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood vago en lenguaje de texture y movement.",
+        "## Usa extension como edicion, no rescate",
+        "Cuando la cancion es fuerte pero falla el cierre, no tires todo. En EasyMusic.AI o en cualquier workflow con extension, empieza desde un punto limpio antes del falso final: la ultima linea completa, el downbeat antes del outro o el momento previo a un cambio de energy no deseado. Escribe solo lo que debe venir despues. Luego escucha la union y el final juntos.",
+        "## Ideas reutilizables para hoy",
+        "- Escribe primero el ending type: final statement, receding outro o clean stop.\n- Deja la ultima lyric line por debajo de siete palabras si quieres un stop decisivo.\n- Agrega no new verse cuando los drafts se reinician tras el outro.\n- Compara solo dos tests: fade version y clean-hit version.\n- Guarda prompt, edit notes y fuentes de lyrics antes de enviarlo a cliente o plataforma.",
+        "## Preguntas frecuentes\n### Basta un tag como [Outro]?\nNo. El tag senala intencion, pero lyrics, style prompt y largo de section deben apoyar el mismo final.\n### Por que mi cancion IA vuelve a empezar despues del final?\nA menudo el prompt deja demasiada energia o un ciclo incompleto. Acorta el outro y pide no new verse o held final chord.\n### Es mejor fade out o clean stop?\nDepende del uso. Fade sirve para mood tranquilo o montage; clean stop funciona con hook fuerte o corte claro de video.\n### Un buen final hace que la cancion este lista para publicar?\nNo por si solo. Revisa terminos de herramienta, credits, fuentes de lyrics y reglas de plataforma."
+      ]
+    },
+    "fr": {
+      "title": "Faire finir une chanson IA proprement au lieu de la relancer",
+      "description": "Workflow pratique pour demander final chorus, outro, fade ou clean stop quand une chanson IA redemarre ou coupe mal.",
+      "body": [
+        "Le couplet tient, le hook fonctionne et l arrangement prend enfin forme. Puis les vingt dernieres secondes trahissent la chanson: faux final, nouveau groove apres la cloture, fade qui n arrive jamais ou coupe dure qui sonne comme une demo non finie. Ne depense pas dix rerolls aveugles pour chercher la chance. Ecris un brief de fin.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA pour generer des drafts depuis descriptions, lyrics et idees de style. Elle peut aider a tester plusieurs fins de chanson, tandis que droits d usage, credits, sources des paroles et regles de plateforme restent a verifier avant publication.",
+        "## Choisir d abord le type de fin",
+        "Better ending n est pas une decision musicale. Choisis une forme: final statement repete le hook avec une ligne resolue, receding outro retire drums et bass par etapes, ou clean stop tombe sur un accord ou hit clair. Ce choix guide lyric density, arrangement motion et les limites a demander. Si la fin reste vague, le draft peut relancer la chanson.",
+        "## Briefer les trente dernieres secondes a part",
+        "Utilise cinq champs courts: entry point, final section, lyric action, arrangement motion, stop cue. Exemple: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. La fin devient alors evaluable.",
+        "## Faire fermer l histoire par les paroles",
+        "Une fin propre ne vient pas d un tag seul. Ajoute moins de mots nouveaux, repete le hook avec une petite variation et garde la derniere ligne assez courte pour etre chantee clairement. Si tu testes plusieurs dernieres phrases, le [AI Lyrics Generator](https://easymusic.ai/fr/tools/ai-lyrics-generator) peut proposer des refrains ou last lines; l edit humain doit choisir celle qui ferme le sens.",
+        "## Eviter que le style prompt contredise l outro",
+        "Si le style dit energetic, rising, festival drop pendant que les lyrics demandent fade out, le prompt se dispute lui-meme. Garde la famille de genre, puis decris le mouvement final: reduce percussion, thinner bass, warmer final chord, no new build. Si le vocabulaire manque, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer une humeur vague en langage de texture et de movement.",
+        "## Utiliser l extension comme montage, pas comme secours",
+        "Quand la chanson est forte mais que la fin echoue, ne jette pas tout. Dans EasyMusic.AI ou tout workflow avec extension, pars d un point propre avant le faux final: derniere ligne complete, downbeat avant l outro ou moment avant un changement d energy indesirable. Ecris seulement ce qui doit suivre. Ensuite, ecoute la jonction et la fin ensemble.",
+        "## Idees reutilisables aujourd hui",
+        "- Ecris d abord le ending type: final statement, receding outro ou clean stop.\n- Garde la derniere lyric line sous sept mots pour un stop net.\n- Ajoute no new verse quand les drafts redemarrent apres l outro.\n- Compare seulement deux tests: fade version et clean-hit version.\n- Garde prompt, edit notes et sources de lyrics avant envoi au client ou a la plateforme.",
+        "## FAQ\n### Un tag comme [Outro] suffit-il ?\nNon. Le tag signale l intention, mais lyrics, style prompt et longueur de section doivent soutenir la meme fin.\n### Pourquoi ma chanson IA redemarre apres la fin ?\nSouvent, le prompt laisse trop d energie ou un cycle inacheve. Raccourcis l outro et demande no new verse ou held final chord.\n### Fade out ou clean stop ?\nCela depend de l usage. Fade convient a une humeur calme ou un montage; clean stop convient a un hook fort ou une coupe video nette.\n### Une bonne fin rend-elle la chanson publiable ?\nPas seule. Verifie conditions de l outil, credits, sources des paroles et regles de plateforme."
+      ]
+    },
+    "it": {
+      "title": "Fai finire una canzone AI in modo pulito invece di farla ripartire",
+      "description": "Workflow pratico per chiedere final chorus, outro, fade o clean stop quando una canzone AI si riavvia o taglia male.",
+      "body": [
+        "La strofa funziona, il hook arriva, e l arrangement finalmente ha una forma. Poi gli ultimi venti secondi tradiscono la canzone: falso finale, nuovo groove dopo la chiusura, fade che non arriva mai o taglio brusco da demo incompleta. Non consumare dieci reroll alla cieca sperando nel caso. Scrivi un ending brief.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con AI per generare draft da descrizioni, lyrics e idee di style. Puo aiutarti a provare piu finali di canzone, mentre usage rights, credits, fonti delle lyrics e regole di piattaforma restano controlli separati prima della pubblicazione.",
+        "## Scegli prima il tipo di finale",
+        "Better ending non e una decisione musicale. Scegli una forma: final statement ripete il hook con una riga risolta, receding outro toglie drums e bass a tappe, oppure clean stop chiude su chord o hit netto. Questa scelta guida lyric density, arrangement motion e cio che chiedi di evitare. Se il finale resta vago, il draft puo ripartire.",
+        "## Scrivi separatamente gli ultimi trenta secondi",
+        "Usa cinque campi brevi: entry point, final section, lyric action, arrangement motion, stop cue. Esempio: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. Il finale diventa qualcosa da valutare.",
+        "## Fai chiudere la storia alle lyrics",
+        "Un finale pulito non nasce da un tag soltanto. Introduci meno parole nuove, ripeti il hook con una piccola variazione e rendi l ultima riga abbastanza corta da essere cantata chiaramente. Se provi varianti di hook finale, il [AI Lyrics Generator](https://easymusic.ai/it/tools/ai-lyrics-generator) puo proporre refrain o last line; l edit umano deve scegliere la frase che chiude il senso.",
+        "## Non lasciare che lo style prompt combatta l outro",
+        "Se lo style dice energetic, rising, festival drop mentre le lyrics chiedono fade out, il prompt si contraddice. Mantieni la famiglia di genre, poi descrivi il movimento finale: reduce percussion, thinner bass, warmer final chord, no new build. Se ti mancano termini precisi, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood vago in linguaggio di texture e movement.",
+        "## Usa extension come editing, non come salvataggio",
+        "Quando la canzone e forte ma il finale fallisce, non buttare via tutto. In EasyMusic.AI o in qualunque workflow con extension, parti da un punto pulito prima del falso finale: ultima riga completa, downbeat prima dell outro o momento prima di un cambio di energy indesiderato. Scrivi solo cio che deve venire dopo. Poi ascolta insieme giunzione e finale.",
+        "## Idee riutilizzabili per oggi",
+        "- Scrivi prima l ending type: final statement, receding outro o clean stop.\n- Tieni l ultima lyric line sotto sette parole se vuoi uno stop deciso.\n- Aggiungi no new verse quando i draft ripartono dopo l outro.\n- Confronta solo due test: fade version e clean-hit version.\n- Salva prompt, edit notes e fonti delle lyrics prima di inviare a client o piattaforma.",
+        "## FAQ\n### Basta un tag come [Outro]?\nNo. Il tag segnala intenzione, ma lyrics, style prompt e durata della section devono sostenere lo stesso finale.\n### Perche la mia canzone AI riparte dopo la fine?\nSpesso il prompt lascia troppa energia o un ciclo non concluso. Accorcia l outro e chiedi no new verse o held final chord.\n### Meglio fade out o clean stop?\nDipende dall uso. Fade va bene per mood quieti o montage; clean stop va bene con hook forte o taglio video netto.\n### Un buon finale rende la canzone pronta alla pubblicazione?\nNon da solo. Controlla termini dello strumento, credits, fonti delle lyrics e regole di piattaforma."
+      ]
+    },
+    "ja": {
+      "title": "AI song を再開させずに clean に終わらせる",
+      "description": "AI song が再開したり急に切れたりするときに、final chorus、outro、fade、clean stop を指定する実用 workflow。",
+      "body": [
+        "Verse は機能し、hook も届き、arrangement に形が見えます。ところが最後の二十秒で崩れます。False ending のあとに新しい groove が始まる、fade が終点に届かない、hard cut で未完成 demo のように聞こえる。幸運な ending を待って blind reroll を重ねるより、ending brief を書きます。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は descriptions、lyrics、style ideas から music draft を生成できる AI music creation platform です。複数の song ending を試す助けになりますが、usage rights、credits、lyric sources、platform rules は release 前に別で確認する必要があります。",
+        "## まず ending type を選ぶ",
+        "Better ending は musical decision ではありません。三つから選びます。Final statement は hook を一度戻して解決した line を置く。Receding outro は drums と bass を段階的に減らす。Clean stop は明確な chord や hit で止める。この選択が lyric density、arrangement motion、避けるべき動きを決めます。曖昧なままだと、draft は song を再開しがちです。",
+        "## 最後の三十秒を別 brief にする",
+        "五つの短い field を使います: entry point、final section、lyric action、arrangement motion、stop cue。Example: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse。これで ending を評価できます。",
+        "## Lyrics に closure をさせる",
+        "Clean ending は tag だけでは作れません。新しい words を減らし、hook を小さく変えて繰り返し、最後の line を短くして clear に歌えるようにします。Final-hook variants を試すなら、[AI Lyrics Generator](https://easymusic.ai/ja/tools/ai-lyrics-generator) は refrain や last line の案出しに使えます。ただし final edit は story を開く line ではなく、意味を閉じる line を選びます。",
+        "## Style prompt と outro を矛盾させない",
+        "Style が energetic, rising, festival drop と言い、lyrics が fade out を求めると、prompt が自分でぶつかります。Genre family は保ちつつ ending motion を書きます: reduce percussion, thinner bass, warmer final chord, no new build。語彙が広すぎるときは、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で texture と movement の言葉を準備します。",
+        "## Extension は rescue ではなく editing として使う",
+        "Song が強いのに close だけ失敗したら、全体を捨てないでください。EasyMusic.AI や extension のある workflow では、false ending の前の clean point から始めます。最後の complete lyric line、outro 前の downbeat、不要な energy change の直前などです。次に来る material だけを書き、assembly 後は join と ending を続けて聞きます。",
+        "## 今日すぐ使えるアイデア",
+        "- 最初に ending type を書く: final statement、receding outro、clean stop。\n- Decisive stop が欲しいときは最後の lyric line を七語未満にする。\n- Outro 後に draft が再開するなら no new verse を加える。\n- Fade version と clean-hit version の二つだけを比べる。\n- Client や platform に送る前に prompt、edit notes、lyric source notes を保存する。",
+        "## FAQ\n### [Outro] tag だけで十分ですか？\nいいえ。Tag は intent を示しますが、lyrics、style prompt、section length が同じ ending を支える必要があります。\n### なぜ AI song が ending 後にまた始まりますか？\nPrompt に energy や cycle が残っていることが多いです。Outro を短くし、no new verse や held final chord を指定します。\n### Fade out と clean stop はどちらが良いですか？\n用途次第です。Fade は quiet mood や montage に、clean stop は強い hook や明確な video cut に合います。\n### 良い ending なら publish できますか？\nそれだけでは足りません。Tool terms、credits、lyric sources、platform rules を確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "AI song이 다시 시작하지 않게 깔끔히 끝내는 법",
+      "description": "AI song이 재시작하거나 어색하게 끊길 때 final chorus, outro, fade, clean stop을 지정하는 실용 workflow.",
+      "body": [
+        "Verse는 괜찮고 hook도 살아 있으며 arrangement도 모양이 잡힙니다. 그런데 마지막 20초가 문제입니다. False ending 뒤에 새 groove가 시작되거나, fade가 끝까지 가지 않거나, hard cut 때문에 unfinished demo처럼 들립니다. 운 좋은 ending을 기다리며 blind reroll을 반복하지 말고 ending brief를 따로 쓰세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music draft를 생성할 수 있는 AI 음악 제작 platform입니다. 여러 song endings를 테스트하는 데 도움이 될 수 있지만 usage rights, credits, lyric sources, platform rules는 release 전에 따로 검토해야 합니다.",
+        "## 먼저 ending type을 고른다",
+        "Better ending은 musical decision이 아닙니다. 세 가지 중 하나를 고릅니다. Final statement는 hook을 다시 부르고 resolved line 하나를 둡니다. Receding outro는 drums와 bass를 단계적으로 줄입니다. Clean stop은 명확한 chord나 hit로 멈춥니다. 이 선택이 lyric density, arrangement motion, 피해야 할 동작을 정합니다. Ending이 vague하면 draft는 song을 다시 시작할 수 있습니다.",
+        "## 마지막 30초를 별도 brief로 쓴다",
+        "짧은 다섯 field를 씁니다: entry point, final section, lyric action, arrangement motion, stop cue. Example: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. 이제 ending을 검토할 수 있습니다.",
+        "## Lyrics가 이야기를 닫게 한다",
+        "Clean ending은 tag만으로 나오지 않습니다. 새 words를 줄이고 hook을 작은 변화와 함께 반복하며, 마지막 line은 명확히 부를 만큼 짧게 만듭니다. Final-hook variants를 시험한다면 [AI Lyrics Generator](https://easymusic.ai/ko/tools/ai-lyrics-generator)가 refrain이나 last line 아이디어를 줄 수 있습니다. 하지만 final edit은 새 story를 여는 line이 아니라 의미를 닫는 line을 골라야 합니다.",
+        "## Style prompt가 outro와 싸우지 않게 한다",
+        "Style이 energetic, rising, festival drop이라고 말하는데 lyrics는 fade out을 요구하면 prompt가 스스로 충돌합니다. Genre family는 유지하고 ending motion을 씁니다: reduce percussion, thinner bass, warmer final chord, no new build. Vocabulary가 너무 넓으면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 texture와 movement 언어를 먼저 준비하세요.",
+        "## Extension은 rescue가 아니라 editing으로 쓴다",
+        "Song은 강한데 close만 실패했다면 전체를 버리지 마세요. EasyMusic.AI나 extension이 있는 workflow에서는 false ending 전의 clean point에서 시작합니다. 마지막 complete lyric line, outro 전 downbeat, 원치 않는 energy change 직전 같은 지점입니다. 그 뒤에 와야 할 material만 쓰고, assembly 뒤에는 join과 ending을 함께 들어봅니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- 먼저 ending type을 씁니다: final statement, receding outro, clean stop.\n- Decisive stop이 필요하면 마지막 lyric line을 일곱 단어 미만으로 둡니다.\n- Outro 뒤 draft가 재시작하면 no new verse를 넣습니다.\n- 두 test만 비교합니다: fade version과 clean-hit version.\n- Client나 platform에 보내기 전에 prompt, edit notes, lyric source notes를 저장합니다.",
+        "## FAQ\n### [Outro] tag만 있으면 충분한가요?\n아니요. Tag는 intent를 알리지만 lyrics, style prompt, section length가 같은 ending을 지지해야 합니다.\n### 왜 AI song이 ending 후 다시 시작하나요?\nPrompt에 해결되지 않은 energy나 cycle이 남아 있는 경우가 많습니다. Outro를 짧게 하고 no new verse나 held final chord를 요청하세요.\n### Fade out과 clean stop 중 무엇이 낫나요?\n용도에 따라 다릅니다. Fade는 quiet mood나 montage에, clean stop은 강한 hook이나 명확한 video cut에 맞습니다.\n### 좋은 ending이면 바로 publish할 수 있나요?\n그것만으로는 부족합니다. Tool terms, credits, lyric sources, platform rules를 확인하세요."
+      ]
+    },
+    "pt": {
+      "title": "Faca uma musica IA terminar limpa em vez de recomecar",
+      "description": "Workflow pratico para pedir final chorus, outro, fade ou clean stop quando uma musica IA reinicia ou corta mal.",
+      "body": [
+        "O verso funciona, o hook encaixa e o arrangement finalmente ganha forma. Entao os ultimos vinte segundos entregam o problema: falso final, novo groove depois do fechamento, fade que nunca chega ou corte duro com som de demo inacabada. Nao gaste dez rerolls cegos esperando sorte. Escreva um ending brief.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar drafts a partir de descricoes, lyrics e ideias de style. Ela pode ajudar a testar varios finais de musica, enquanto direitos de uso, credits, fontes das lyrics e regras de plataforma continuam revisoes separadas antes do release.",
+        "## Escolha primeiro o tipo de final",
+        "Better ending nao e uma decisao musical. Escolha uma forma: final statement repete o hook com uma linha resolvida, receding outro remove drums e bass aos poucos, ou clean stop cai em um chord ou hit claro. Essa escolha controla lyric density, arrangement motion e o que voce pede para evitar. Se o final fica vago, o draft pode tentar recomecar a musica.",
+        "## Escreva os ultimos trinta segundos separadamente",
+        "Use cinco campos curtos: entry point, final section, lyric action, arrangement motion, stop cue. Exemplo: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. Assim o final pode ser revisado.",
+        "## Faca a letra fechar a historia",
+        "Um final limpo nao vem de um tag sozinho. Introduza menos palavras novas, repita o hook com uma pequena mudanca e deixe a ultima linha curta o bastante para ser cantada claramente. Se voce testar variantes de hook final, o [AI Lyrics Generator](https://easymusic.ai/pt/tools/ai-lyrics-generator) pode sugerir refrain ou last line; o edit humano deve escolher a linha que fecha o sentido.",
+        "## Nao deixe o style prompt brigar com o outro",
+        "Se o style diz energetic, rising, festival drop enquanto a lyric pede fade out, o prompt esta se contradizendo. Mantenha a familia de genre e descreva o movimento final: reduce percussion, thinner bass, warmer final chord, no new build. Quando o vocabulario parecer amplo demais, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar mood vago em linguagem de texture e movement.",
+        "## Use extension como edicao, nao resgate",
+        "Quando a musica e forte mas o fechamento falha, nao jogue tudo fora. No EasyMusic.AI ou em qualquer workflow com extension, comece de um ponto limpo antes do falso final: a ultima lyric line completa, o downbeat antes do outro ou o momento antes de uma mudanca de energy indesejada. Escreva apenas o material que vem depois. Depois, ouca a emenda e o final juntos.",
+        "## Ideias reutilizaveis para hoje",
+        "- Escreva primeiro o ending type: final statement, receding outro ou clean stop.\n- Deixe a ultima lyric line com menos de sete palavras se quiser um stop decisivo.\n- Adicione no new verse quando drafts recomecam depois do outro.\n- Compare apenas dois testes: fade version e clean-hit version.\n- Salve prompt, edit notes e fontes das lyrics antes de enviar ao cliente ou plataforma.",
+        "## Perguntas frequentes\n### Um tag como [Outro] basta?\nNao. O tag sinaliza intencao, mas lyrics, style prompt e tamanho da section precisam sustentar o mesmo final.\n### Por que minha musica IA recomeca depois do fim?\nMuitas vezes o prompt deixa energia ou ciclo sem resolver. Encurte o outro e peca no new verse ou held final chord.\n### Fade out e melhor que clean stop?\nDepende do uso. Fade funciona para mood calmo ou montage; clean stop funciona com hook forte ou corte claro de video.\n### Um bom final deixa a musica pronta para publicar?\nNao sozinho. Revise termos da ferramenta, credits, fontes das lyrics e regras de plataforma."
+      ]
+    },
+    "ru": {
+      "title": "Завершите AI song чисто, а не новым кругом",
+      "description": "Практический workflow для final chorus, outro, fade и clean stop, когда AI song перезапускается или обрывается.",
+      "body": [
+        "Verse работает, hook звучит убедительно, arrangement наконец получил форму. Но последние двадцать секунд ломают впечатление: false ending, затем новый groove, fade без настоящей точки или hard cut, из-за которого track похож на незаконченный demo. Не тратьте десять blind rerolls на удачу. Напишите отдельный ending brief.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, где можно создавать music drafts из descriptions, lyrics и style ideas. Она помогает тестировать разные song endings, но usage rights, credits, lyric sources и platform rules нужно проверять отдельно перед release.",
+        "## Сначала выберите тип финала",
+        "Better ending - не музыкальное решение. Выберите одну форму: final statement повторяет hook с одной resolved line, receding outro постепенно убирает drums и bass, clean stop заканчивает на ясном chord или hit. Этот выбор задает lyric density, arrangement motion и ограничения. Если финал расплывчатый, draft может начать song заново.",
+        "## Опишите последние тридцать секунд отдельно",
+        "Используйте пять коротких полей: entry point, final section, lyric action, arrangement motion, stop cue. Пример: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse. Теперь ending можно оценивать.",
+        "## Пусть lyrics закрывают историю",
+        "Чистый финал не рождается от одного tag. Добавляйте меньше новых words, повторите hook с небольшим изменением и сделайте последнюю line достаточно короткой для ясного вокала. Если нужны варианты final-hook, [AI Lyrics Generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) может помочь с refrain или last line; human edit должен выбрать строку, которая закрывает смысл, а не открывает новую историю.",
+        "## Не заставляйте style prompt спорить с outro",
+        "Если style говорит energetic, rising, festival drop, а lyrics просят fade out, prompt спорит сам с собой. Оставьте genre family, затем опишите ending motion: reduce percussion, thinner bass, warmer final chord, no new build. Если словарь слишком общий, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет подобрать язык texture и movement до generation.",
+        "## Используйте extension как editing, а не спасение",
+        "Если song силен, но close не работает, не выбрасывайте весь draft. В EasyMusic.AI или любом workflow с extension начните с clean point перед false ending: последняя complete lyric line, downbeat перед outro или момент до нежелательного energy change. Напишите только материал, который должен идти дальше. После assembly слушайте переход и финал вместе.",
+        "## Идеи, которые можно применить сегодня",
+        "- Сначала запишите ending type: final statement, receding outro или clean stop.\n- Для decisive stop оставьте последнюю lyric line короче семи слов.\n- Добавьте no new verse, если draft перезапускается после outro.\n- Сравните только два теста: fade version и clean-hit version.\n- Сохраните prompt, edit notes и lyric source notes перед отправкой клиенту или платформе.",
+        "## FAQ\n### Достаточно ли tag вроде [Outro]?\nНет. Tag показывает намерение, но lyrics, style prompt и длина section должны поддерживать тот же финал.\n### Почему AI song снова начинается после ending?\nЧасто prompt оставляет нерешенную energy или незавершенный cycle. Сократите outro и попросите no new verse или held final chord.\n### Fade out лучше clean stop?\nЗависит от задачи. Fade подходит для тихого mood или montage; clean stop подходит для сильного hook или четкого video cut.\n### Хороший ending делает song готовым к публикации?\nНе сам по себе. Проверьте tool terms, credits, lyric sources и platform rules."
+      ]
+    },
+    "zh": {
+      "title": "让 AI 歌曲干净结束，而不是重新开始循环",
+      "description": "当 AI song 结尾重启、假结尾或硬切时，用 final chorus、outro、fade 和 clean stop 写清 ending brief。",
+      "body": [
+        "Verse 能用，hook 也抓人，arrangement 终于有了形状。可最后二十秒突然出问题：false ending 之后又进了新 groove，fade 迟迟不到终点，或者 hard cut 听起来像没完成的 demo。不要用十次 blind reroll 赌一个好结尾。先写 ending brief。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI 音乐创作平台，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。它可以帮助测试多个 song endings，但 usage rights、credits、lyric sources 和 platform rules 仍然要在 release 前单独检查。",
+        "## 先选择 ending type",
+        "Better ending 不是音乐决定。先选一种形状：final statement 用一个 resolved line 再唱一次 hook；receding outro 分阶段移走 drums 和 bass；clean stop 落在清楚的 chord 或 hit 上。这个选择会决定 lyric density、arrangement motion 和要避免的动作。如果结尾含糊，draft 很容易把 song 又启动一遍。",
+        "## 把最后三十秒单独写成 brief",
+        "用五个短栏：entry point、final section、lyric action、arrangement motion、stop cue。Example: entry point: after second chorus; final section: short final chorus then outro; lyric action: repeat the hook once with one resolved line; arrangement motion: drums fall away, piano and close vocal stay; stop cue: held chord, no new verse。这样 ending 就可以被 review。",
+        "## 让 lyrics 完成 closure",
+        "干净结尾不靠一个 tag 自动出现。减少新 words，带一个小变化重复 hook，并让最后一行足够短，能被清楚唱出。如果你要测试 final-hook variants，[AI Lyrics Generator](https://easymusic.ai/zh/tools/ai-lyrics-generator) 可以帮助起草 refrain 或 last line；人工 edit 要选择能关闭意义的句子，而不是打开新故事。",
+        "## 不要让 style prompt 和 outro 打架",
+        "如果 style 写着 energetic, rising, festival drop，而 lyrics 要求 fade out，prompt 自己就在冲突。保留 genre family，然后写清 ending motion：reduce percussion, thinner bass, warmer final chord, no new build。当词汇太宽泛时，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以先把 vague mood 转成 texture 和 movement 语言。",
+        "## 把 extension 当 editing，而不是救命按钮",
+        "如果 song 本身强，只是 close 失败，不要丢掉整个 draft。在 EasyMusic.AI 或任何带 extension 的 workflow 里，从 false ending 前的 clean point 开始：最后一个 complete lyric line、outro 前的 downbeat，或不想要的 energy change 之前。只写接下来应该出现的 material。Assembly 后，要把 join 和 ending 连在一起听。",
+        "## 今天就能使用的想法",
+        "- 先写 ending type：final statement、receding outro、clean stop。\n- 如果想要 decisive stop，让最后一行 lyric 少于七个词。\n- Draft 总在 outro 后重启时，加入 no new verse。\n- 只比较两个测试：fade version 和 clean-hit version。\n- 发给 client 或 platform 前，保存 prompt、edit notes 和 lyric source notes。",
+        "## FAQ\n### 只写 [Outro] tag 够吗？\n不够。Tag 可以说明 intent，但 lyrics、style prompt 和 section length 都要支持同一种 ending。\n### 为什么 AI song 在 ending 后又开始？\n通常是 prompt 还留下未解决的 energy 或 cycle。缩短 outro，并要求 no new verse 或 held final chord。\n### Fade out 比 clean stop 更好吗？\n看用途。Fade 适合 quiet mood 或 montage；clean stop 适合强 hook 或需要明确 video cut 的场景。\n### 好 ending 就能直接 publish 吗？\n不能单靠这个。发布前要检查 tool terms、credits、lyric sources 和 platform rules。"
+      ]
+    }
+  }
+}
