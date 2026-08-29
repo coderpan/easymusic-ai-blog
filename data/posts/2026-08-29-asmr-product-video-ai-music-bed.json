@@ -1,0 +1,249 @@
+{
+  "date": "2026-08-29",
+  "slug": "asmr-product-video-ai-music-bed",
+  "cluster": "asmr-product-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط موسيقى AI لفيديو ASMR منتج من دون دفن الملمس",
+      "description": "Workflow عملي لصنع bed موسيقي هادئ حول tapping وpackaging وwhispers من دون تغطية الصوت الحسي او قواعد النشر.",
+      "body": [
+        "تصور close-up لعلبة تفتح ببطء. الورق يصدر crinkle صغيرا، الظفر يلمس الزجاج، والمنتج يبدو افضل عندما تسمع خامته. ثم تضيف موسيقى جميلة لكنها تملأ كل الفراغ، فتختفي التفاصيل التي جعلت الفيديو ASMR اصلا. الحل ليس دائما موسيقى اهدأ؛ احيانا هو brief يبدأ من الصمت.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة انشاء موسيقى AI تساعدك على توليد drafts من description وlyrics وstyle ideas. في فيديو ASMR للمنتج يمكن استخدامها لاختبار beds موسيقية رقيقة حول الاصوات المسجلة، لكن حقوق الاستخدام، مصادر الاصوات، وسياسات المنصة تحتاج مراجعة منفصلة قبل النشر.",
+        "## ابدأ بخريطة الاصوات لا بالgenre",
+        "اكتب جدول بثلاث خانات: hero sound، supporting sound، forbidden mask. Hero sound قد يكون tap على غطاء معدني، brush على قماش، peel لملصق، او whisper قصير. Supporting sound يمكن ان يكون room tone ناعم او breath طبيعي. Forbidden mask هو ما لا تريد للموسيقى ان تفعله: no bright hi-hats over tapping، no vocal pad under whisper، no bass swell during package crinkle. عندما تعرف ما يجب ان يبقى مسموعا، يصبح prompt الموسيقى ادق.",
+        "## قرر هل يحتاج المشهد موسيقى اصلا",
+        "فيديو ASMR لا يفشل اذا كان بلا موسيقى. اذا كان trigger وحده يحمل الايقاع، اتركه يعمل. استخدم bed موسيقي فقط عندما يوجد فراغ طويل، transition بصري، او reveal يحتاج دفعة خفيفة. جملة prompt مفيدة: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## اجعل style prompt يحمي التفاصيل",
+        "بدلا من calm and relaxing فقط، صف density وattack وfrequency space. اطلب sparse، rounded transients، low-mid warmth، وhigh frequencies free for texture sounds. اذا نقصت المفردات، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل mood عام الى لغة ادق عن instruments وtempo وtexture قبل ان تولد المسار الكامل.",
+        "## اختبر المزيج بثلاث تمريرات",
+        "استمع مرة على سماعات، مرة على speaker هاتف، ومرة بصوت منخفض جدا. اذا فقدت crinkle او brush على الهاتف، فالموسيقى عالية او كثيفة. اذا احتجت رفع الفيديو كله حتى تسمع whisper، فهناك مشكلة noise او balance. احتفظ بنسخة music-off، ونسخة low-bed، ونسخة transition-only حتى لا تحبس نفسك في قرار واحد.",
+        "## جهز التسليم بدون وعود قانونية",
+        "عند الانتهاء، صدر ملف review قصير وملف master منفصل، وسجل prompt، مصدر تسجيل الاصوات، واي مواد خارجية. اذا احتجت تحويل format بعد التحرير، استخدم اداة مثل [AI Audio Converter](https://easymusic.ai/ar/tools/audio-converter) فقط مع الملفات التي تملك حق معالجتها. هذا لا يحل حقوق الاستخدام او متطلبات المنصة وحده.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب hero sound واحدا لكل shot بدلا من قائمة triggers طويلة.\n- اترك نصف ثانية صمت قبل cue حسي مهم اذا كان الedit يسمح.\n- اطلب instrumental only عندما يوجد whisper او caption يحتاج قراءة.\n- جرب music only في transitions، وليس تحت كل ثانية من الفيديو.\n- احفظ نسخة من الفيديو بلا موسيقى لمراجعة masking والموافقات.",
+        "## اسئلة شائعة\n### هل يحتاج فيديو ASMR الى موسيقى؟\nليس دائما. اذا كانت taps او fabric او packaging تحمل الاحساس، قد يكون الصمت افضل من bed مستمر.\n### ما نوع الموسيقى المناسب؟\nابدأ بbed instrumental قليل الكثافة، attack ناعم، وبدون vocals او percussion حاد. ثم احكم من الصوت الحقيقي لا من الوصف.\n### كيف اعرف ان الموسيقى تغطي التفاصيل؟\nاذا اختفى hero sound على speaker الهاتف او عند مستوى صوت منخفض، اخفض الموسيقى او احذف طبقات عالية.\n### هل يمكن نشره كاعلان؟\nراجع شروط الاداة والمنصة وحقوق كل عنصر صوتي. لا تفترض ان ملفا مولدا او محولا مناسب تجاريا تلقائيا."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer ASMR-Produktvideos planen, ohne Textur zu verdecken",
+      "description": "Ein praktischer Workflow fuer leise Musikbeds rund um Tapping, Verpackung, Whisper und Produktdetails.",
+      "body": [
+        "Du hast eine Nahaufnahme, in der eine Box langsam aufgeht. Papier knistert, ein Fingernagel tippt auf Glas, und das Produkt wirkt erst richtig, weil man seine Oberflaeche hoert. Dann legst du ein schoenes Musikbett darunter, und genau diese kleinen Details verschwinden. Die Loesung ist nicht nur leisere Musik. Der Brief muss mit Stille beginnen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen generieren kannst. Fuer ein ASMR-Produktvideo kannst du damit feine instrumentale Beds testen; Nutzungsrechte, Tonquellen und Plattformregeln musst du aber separat pruefen.",
+        "## Erst die Soundkarte, dann das Genre",
+        "Schreibe drei Felder: hero sound, supporting sound, forbidden mask. Hero sound ist vielleicht ein Metalldeckel, Stoffreibung, das Ablosen eines Stickers oder ein kurzer Whisper. Supporting sound kann Raumton oder natuerlicher Atem sein. Forbidden mask beschreibt, was die Musik nicht verdecken darf: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. So entsteht ein Prompt, der den echten Ton respektiert.",
+        "## Entscheide, ob die Szene ueberhaupt Musik braucht",
+        "Ein ASMR-Clip ist nicht unvollstaendig, nur weil keine Musik laeuft. Wenn der Trigger allein Rhythmus und Naehe traegt, lass ihn stehen. Nutze ein Musikbed nur fuer lange Leere, visuelle Uebergaenge oder einen Reveal, der sanft gehoben werden soll. Ein brauchbarer Prompt: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Style-Woerter muessen Details schuetzen",
+        "Schreibe nicht nur calm and relaxing. Beschreibe Dichte, Attack und Frequenzraum: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. Wenn dir Vokabular fehlt, hilft der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), aus einer groben Stimmung konkrete Sprache fuer Instrumente, Tempo und Textur zu machen.",
+        "## Teste den Mix in drei Durchgaengen",
+        "Hoere einmal mit Kopfhoerern, einmal ueber einen Handy-Lautsprecher und einmal sehr leise. Wenn Crinkle oder Brush auf dem Handy verschwinden, ist das Bed zu laut oder zu dicht. Wenn du den ganzen Clip anheben musst, um den Whisper zu verstehen, liegt das Problem eher in Noise oder Balance. Behalte eine Version ohne Musik, eine Low-bed-Version und eine Transition-only-Version.",
+        "## Uebergabe ohne falsche Rechtsversprechen",
+        "Exportiere am Ende eine kurze Review-Datei und einen separaten Master. Notiere Prompt, Quelle der Originalgeraeusche und externe Materialien. Wenn du nach dem Schnitt ein anderes Format brauchst, nutze ein Tool wie den [AI Audio Converter](https://easymusic.ai/de/tools/audio-converter) nur fuer Dateien, die du bearbeiten darfst. Das ersetzt keine Rechte- oder Plattformpruefung.",
+        "## Sofort nutzbare Ideen",
+        "- Benenne pro Shot nur einen hero sound statt eine lange Trigger-Liste.\n- Lass vor einem wichtigen Taktilsound eine halbe Sekunde Luft, wenn der Schnitt es erlaubt.\n- Nutze instrumental only, sobald Whisper oder wichtige Captions vorkommen.\n- Teste Musik nur in Transitions statt unter jeder Sekunde.\n- Speichere eine musikfreie Version fuer Masking- und Freigabepruefung.",
+        "## FAQ\n### Braucht ein ASMR-Video Musik?\nNicht immer. Wenn Taps, Stoff oder Verpackung die Wirkung tragen, kann Stille besser sein als ein permanentes Bed.\n### Welche Musik passt?\nStarte mit einem duennen instrumentalen Bed, weichem Attack und ohne Vocals oder scharfe Percussion. Entscheide nach dem echten Ton.\n### Woran merke ich, dass Musik Details verdeckt?\nWenn der hero sound auf dem Handy oder bei niedriger Lautstaerke verschwindet, senke das Bed oder entferne hohe Schichten.\n### Kann ich den Clip als Anzeige posten?\nPruefe Tool-Bedingungen, Plattformregeln und Rechte an jedem Tonelement. Ein generierter oder konvertierter Track ist nicht automatisch fuer jede Nutzung frei."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for ASMR Product Videos Without Masking the Texture",
+      "description": "A practical workflow for quiet music beds around tapping, packaging, whispers, and tactile product-detail videos.",
+      "body": [
+        "A close-up product shot can live or die on a tiny sound: paper crinkling, a fingernail tapping glass, a sticker peeling cleanly, a soft brush across fabric. Then a pretty music bed arrives and smears over the very detail that made the clip satisfying. The answer is not simply make the music quieter. Start with a silence-first brief.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. For an ASMR product video, it can help you draft quiet instrumental options around recorded texture sounds, while usage rights, source audio, and platform rules still need separate review before publishing.",
+        "## Map the Sounds Before the Genre",
+        "Write three fields before you write the prompt: hero sound, supporting sound, forbidden mask. The hero sound might be a metal lid tap, fabric brush, package crinkle, liquid pour, or short whisper. The supporting sound might be room tone or natural breath. The forbidden mask says what the music must not cover: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. Once the real sound has a job, the music prompt gets stricter in the right way.",
+        "## Decide Whether the Scene Needs Music",
+        "An ASMR clip does not fail because it has no soundtrack. If the trigger already carries rhythm and closeness, leave it alone. Use a bed only when there is a long visual gap, a transition, or a reveal that needs a small lift. A reusable prompt frame: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Make the Style Prompt Protect Detail",
+        "Calm and relaxing is too broad. Name density, attack, and frequency space: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. If your vocabulary is thin, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn a vague mood into usable instrument, tempo, and texture language before you generate the full bed.",
+        "## Review the Mix Three Ways",
+        "Listen once on headphones, once through a phone speaker, and once at very low volume. If the crinkle or brush disappears on the phone, the bed is too loud or too dense. If you need to raise the whole clip just to hear the whisper, the problem may be noise floor or balance, not the music draft. Keep three review versions: music off, low bed, and transition-only.",
+        "## Prepare Delivery Without Rights Guesswork",
+        "At handoff, export a short review file and a separate master. Save the prompt, source notes for recorded sounds, and any outside material used in the edit. If you need a different format after editing, a tool such as the [AI Audio Converter](https://easymusic.ai/tools/audio-converter) is useful only for files you own or are authorized to process. It does not replace a rights or platform-policy review.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Name one hero sound per shot instead of listing every trigger.\n- Leave half a second of air before the most satisfying tactile cue when the edit allows it.\n- Ask for instrumental only when whispers, captions, or product claims need attention.\n- Try music only in transitions instead of under the entire clip.\n- Keep a no-music export for masking checks and client approval.",
+        "## FAQ\n### Does every ASMR product video need music?\nNo. If the tactile sound already carries the feeling, silence or room tone may be stronger than a continuous bed.\n### What kind of AI music works best?\nStart with a sparse instrumental bed, soft attacks, little high-frequency movement, and no vocals. Judge it against the recorded texture, not by how it sounds alone.\n### How do I know the bed is masking the product sound?\nIf the hero sound disappears on a phone speaker or at low volume, lower the bed, remove bright layers, or use music only in transitions.\n### Can I use the finished clip in an ad?\nReview the tool terms, platform rules, and rights for every sound element. Do not assume a generated or converted file is automatically cleared for every commercial context."
+      ]
+    },
+    "es": {
+      "title": "Planifica musica IA para videos ASMR de producto sin tapar la textura",
+      "description": "Workflow practico para beds musicales discretos alrededor de tapping, packaging, whispers y detalles tactiles.",
+      "body": [
+        "Un plano cercano de producto puede depender de un sonido minimo: papel que cruje, una una tocando vidrio, una etiqueta que se despega limpia, un cepillo suave sobre tela. Luego entra una musica bonita y cubre justo el detalle que hacia satisfactorio el clip. La respuesta no es solo bajar volumen. Empieza con un brief que primero protege el silencio.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar drafts desde descripciones, lyrics e ideas de style. En un video ASMR de producto puede ayudarte a probar opciones instrumentales suaves alrededor de sonidos grabados, mientras derechos de uso, audio fuente y reglas de plataforma se revisan aparte.",
+        "## Mapea los sonidos antes del genero",
+        "Escribe tres campos antes del prompt: hero sound, supporting sound, forbidden mask. El hero sound puede ser tapa metalica, tela, packaging, liquido o whisper corto. Supporting sound puede ser room tone o respiracion natural. Forbidden mask dice lo que la musica no debe cubrir: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. Cuando el sonido real tiene trabajo, el prompt musical se vuelve mas util.",
+        "## Decide si la escena necesita musica",
+        "Un clip ASMR no falla por no tener soundtrack. Si el trigger ya lleva ritmo y cercania, dejalo respirar. Usa bed solo cuando hay un hueco visual largo, una transicion o un reveal que necesita un impulso pequeno. Marco reutilizable: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Haz que el style prompt proteja detalles",
+        "Calm and relaxing es demasiado amplio. Nombra density, attack y frequency space: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. Si te faltan palabras, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood vago en lenguaje de instrumentos, tempo y textura antes de generar el bed completo.",
+        "## Revisa la mezcla de tres maneras",
+        "Escucha con audifonos, con speaker de telefono y a volumen muy bajo. Si el crinkle o brush desaparece en el telefono, el bed esta alto o denso. Si necesitas subir todo el clip para entender el whisper, puede ser problema de noise floor o balance. Conserva tres versiones: sin musica, low bed y solo transiciones.",
+        "## Prepara entrega sin adivinar derechos",
+        "Al entregar, exporta un archivo corto de revision y un master separado. Guarda prompt, notas de origen de sonidos grabados y cualquier material externo. Si necesitas otro format tras editar, una herramienta como [AI Audio Converter](https://easymusic.ai/es/tools/audio-converter) sirve solo con archivos que posees o puedes procesar. No sustituye la revision de derechos ni de plataforma.",
+        "## Ideas reutilizables para hoy",
+        "- Nombra un hero sound por shot en vez de listar todos los triggers.\n- Deja medio segundo de aire antes del cue tactil mas importante si el edit lo permite.\n- Pide instrumental only cuando haya whispers, captions o claims de producto.\n- Prueba musica solo en transiciones, no bajo todo el clip.\n- Guarda un export sin musica para revisar masking y aprobacion.",
+        "## Preguntas frecuentes\n### Todo video ASMR de producto necesita musica?\nNo. Si el sonido tactil ya sostiene la sensacion, silence o room tone puede ser mas fuerte que un bed continuo.\n### Que tipo de musica IA funciona mejor?\nEmpieza con un bed instrumental sparse, ataques suaves, poco movimiento brillante y sin voces. Juzgalo contra la textura grabada.\n### Como se si el bed tapa el sonido del producto?\nSi el hero sound desaparece en speaker de telefono o a volumen bajo, baja el bed, quita capas agudas o usa musica solo en transiciones.\n### Puedo usar el clip final en un anuncio?\nRevisa terminos de la herramienta, reglas de plataforma y derechos de cada sonido. No asumas autorizacion automatica para todo uso comercial."
+      ]
+    },
+    "fr": {
+      "title": "Planifier une musique IA pour video ASMR produit sans masquer la texture",
+      "description": "Workflow pratique pour des beds discrets autour du tapping, du packaging, des whispers et des details tactiles.",
+      "body": [
+        "Un gros plan produit peut tenir a un son minuscule: papier qui froisse, ongle sur verre, etiquette qui se decolle, brosse douce sur tissu. Puis une jolie musique arrive et recouvre justement ce detail satisfaisant. La solution n est pas seulement de baisser le volume. Le brief doit commencer par ce qu il faut laisser presque nu.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA pour generer des drafts depuis descriptions, lyrics et idees de style. Pour une video ASMR produit, elle peut aider a tester des options instrumentales discretes autour de sons enregistres; droits d usage, sources audio et regles de plateforme restent a verifier a part.",
+        "## Cartographier les sons avant le genre",
+        "Ecris trois champs avant le prompt: hero sound, supporting sound, forbidden mask. Le hero sound peut etre un couvercle metal, un froissement, une brosse sur tissu, un liquide verse ou un whisper court. Supporting sound peut etre le room tone. Forbidden mask dit ce que la musique ne doit pas couvrir: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. Le son reel devient la contrainte centrale.",
+        "## Decider si la scene a besoin de musique",
+        "Un clip ASMR n echoue pas parce qu il n a pas de soundtrack. Si le trigger porte deja rythme et proximite, laisse-le respirer. Utilise un bed seulement pour un vide visuel, une transition ou un reveal qui demande un petit lift. Cadre de prompt: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Faire proteger les details par le style prompt",
+        "Calm and relaxing est trop large. Nomme density, attack et frequency space: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. Si le vocabulaire manque, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer une humeur floue en langage utilisable sur instruments, tempo et texture avant la generation.",
+        "## Ecouter le mix de trois manieres",
+        "Ecoute au casque, sur haut-parleur de telephone et a tres bas volume. Si le crinkle ou le brush disparait sur telephone, le bed est trop fort ou trop dense. Si tu dois monter tout le clip pour entendre le whisper, le probleme vient peut-etre du noise floor ou de l equilibre. Garde trois exports de review: sans musique, low bed et transition-only.",
+        "## Preparer la livraison sans supposer les droits",
+        "A la fin, exporte un fichier court de validation et un master separe. Garde le prompt, les notes de source des sons enregistres et les materiaux externes. Si un autre format est necessaire apres montage, un outil comme [AI Audio Converter](https://easymusic.ai/fr/tools/audio-converter) sert seulement pour les fichiers que tu as le droit de traiter. Il ne remplace pas la verification juridique ou plateforme.",
+        "## Idees reutilisables aujourd hui",
+        "- Nomme un seul hero sound par shot au lieu de lister tous les triggers.\n- Laisse une demi-seconde d air avant le cue tactile le plus fort si le montage le permet.\n- Demande instrumental only quand whispers, captions ou claims produit comptent.\n- Essaie la musique seulement dans les transitions.\n- Conserve un export sans musique pour verifier le masking et les validations.",
+        "## FAQ\n### Toute video ASMR produit a-t-elle besoin de musique ?\nNon. Si le son tactile porte deja l emotion, le silence ou le room tone peut etre plus fort qu un bed continu.\n### Quel type de musique IA fonctionne ?\nCommence par un bed instrumental sparse, attaques douces, peu de mouvement aigu et sans voix. Juge-le contre la texture enregistree.\n### Comment savoir si la musique masque le produit ?\nSi le hero sound disparait sur telephone ou a bas volume, baisse le bed, retire les couches brillantes ou limite la musique aux transitions.\n### Puis-je utiliser le clip en publicite ?\nVerifie les conditions de l outil, les regles de plateforme et les droits de chaque son. Ne suppose pas qu un fichier genere ou converti couvre tout usage commercial."
+      ]
+    },
+    "it": {
+      "title": "Pianifica musica AI per video ASMR di prodotto senza coprire la texture",
+      "description": "Workflow pratico per music bed discreti intorno a tapping, packaging, whisper e dettagli tattili.",
+      "body": [
+        "Un close-up di prodotto puo dipendere da un suono minuscolo: carta che fruscia, un unghia sul vetro, un adesivo che si stacca, una spazzola su tessuto. Poi arriva una musica piacevole e copre proprio il dettaglio che rendeva il clip soddisfacente. La risposta non e solo abbassare il volume. Il brief deve partire dal silenzio da proteggere.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con AI per generare draft da descrizioni, lyrics e idee di style. Per un video ASMR di prodotto puo aiutarti a provare bed strumentali sottili intorno ai suoni registrati, mentre diritti d uso, fonti audio e regole di piattaforma restano controlli separati.",
+        "## Mappa i suoni prima del genre",
+        "Scrivi tre campi prima del prompt: hero sound, supporting sound, forbidden mask. Hero sound puo essere tappo metallico, brush su tessuto, package crinkle, liquido versato o whisper breve. Supporting sound puo essere room tone o respiro naturale. Forbidden mask dice cosa la musica non deve coprire: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. Cosi il prompt rispetta il suono reale.",
+        "## Decidi se la scena ha bisogno di musica",
+        "Un clip ASMR non fallisce perche non ha soundtrack. Se il trigger porta gia ritmo e vicinanza, lascialo respirare. Usa un bed solo per un vuoto visivo lungo, una transizione o un reveal che richiede un lift minimo. Prompt riutilizzabile: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Fai proteggere i dettagli allo style prompt",
+        "Calm and relaxing e troppo largo. Nomina density, attack e frequency space: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. Se mancano parole precise, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood vago in linguaggio per strumenti, tempo e texture prima della generazione completa.",
+        "## Riascolta il mix in tre modi",
+        "Ascolta in cuffia, dallo speaker del telefono e a volume molto basso. Se crinkle o brush sparisce sul telefono, il bed e troppo forte o denso. Se devi alzare tutto il clip per sentire il whisper, il problema puo essere noise floor o balance. Tieni tre versioni: no music, low bed e transition-only.",
+        "## Prepara la consegna senza indovinare i diritti",
+        "Alla consegna esporta un file breve per review e un master separato. Salva prompt, note sui suoni registrati e materiali esterni. Se dopo l editing serve un altro formato, uno strumento come [AI Audio Converter](https://easymusic.ai/it/tools/audio-converter) e utile solo per file che possiedi o sei autorizzato a processare. Non sostituisce una verifica di diritti o policy.",
+        "## Idee riutilizzabili per oggi",
+        "- Nomina un hero sound per shot invece di elencare tutti i triggers.\n- Lascia mezzo secondo di aria prima del cue tattile piu soddisfacente se il montaggio lo permette.\n- Chiedi instrumental only quando ci sono whispers, captions o claim di prodotto.\n- Prova musica solo nelle transizioni, non sotto tutto il clip.\n- Conserva un export senza musica per controllare masking e approvazioni.",
+        "## FAQ\n### Ogni video ASMR di prodotto ha bisogno di musica?\nNo. Se il suono tattile porta gia la sensazione, silenzio o room tone possono essere piu forti di un bed continuo.\n### Che tipo di musica AI funziona meglio?\nParti da un bed strumentale sparse, attacchi morbidi, poco movimento brillante e niente voci. Giudicalo contro la texture registrata.\n### Come capisco se il bed copre il prodotto?\nSe il hero sound sparisce sul telefono o a volume basso, abbassa il bed, elimina layer acuti o usa musica solo nelle transizioni.\n### Posso usare il clip in un annuncio?\nControlla termini dello strumento, regole di piattaforma e diritti di ogni elemento sonoro. Non presumere autorizzazione automatica per ogni uso commerciale."
+      ]
+    },
+    "ja": {
+      "title": "ASMR product video の質感を隠さない AI music bed の作り方",
+      "description": "Tapping、packaging、whisper、触感のある商品 close-up を邪魔しない静かな music bed の実用 workflow。",
+      "body": [
+        "Product close-up は小さな音で決まることがあります。紙の crinkle、glass を叩く fingernail、sticker がはがれる音、fabric を brush する音。そこにきれいな music bed を足すと、clip を気持ちよくしていた detail そのものが消えることがあります。答えは単に音量を下げることではありません。まず silence-first brief を作ります。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は descriptions、lyrics、style ideas から music draft を生成できる AI music creation platform です。ASMR product video では、録音した texture sounds の周りに置く静かな instrumental options を試す助けになりますが、usage rights、source audio、platform rules は公開前に別で確認します。",
+        "## Genre より先に sound map を作る",
+        "Prompt の前に三つを書きます: hero sound、supporting sound、forbidden mask。Hero sound は metal lid tap、fabric brush、package crinkle、liquid pour、short whisper などです。Supporting sound は room tone や natural breath。Forbidden mask は music が隠してはいけないものです: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle。Real sound の役割が決まると prompt が強くなります。",
+        "## その scene に music が必要か決める",
+        "ASMR clip は soundtrack がないから失敗するわけではありません。Trigger だけで rhythm と closeness が出ているなら、そのまま残します。長い visual gap、transition、少しだけ lift が必要な reveal にだけ bed を使います。使える prompt frame: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise。",
+        "## Style prompt で detail を守る",
+        "Calm and relaxing だけでは広すぎます。Density、attack、frequency space を指定します: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds。語彙が足りないときは、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で instrument、tempo、texture の言葉を作ってから full bed を生成します。",
+        "## Mix を三つの環境で確認する",
+        "Headphones、phone speaker、very low volume の三回で聴きます。Phone で crinkle や brush が消えるなら、bed が大きすぎるか密度が高すぎます。Whisper を聞くために clip 全体を上げる必要があるなら、music draft ではなく noise floor や balance の問題かもしれません。Music off、low bed、transition-only の三つを残します。",
+        "## Rights を推測せずに納品する",
+        "Handoff では短い review file と separate master を書き出します。Prompt、録音 sound の source notes、外部 material を保存します。編集後に別 format が必要なら、[AI Audio Converter](https://easymusic.ai/ja/tools/audio-converter) のような tool は、自分が所有または処理許可を持つ file にだけ使います。Rights や platform-policy review の代わりにはなりません。",
+        "## 今日すぐ使えるアイデア",
+        "- Shot ごとに hero sound を一つだけ決める。\n- Edit が許すなら、一番気持ちよい tactile cue の前に半秒の空白を残す。\n- Whisper、captions、product claims があるときは instrumental only を指定する。\n- Clip 全体ではなく transitions だけに music を試す。\n- Masking check と client approval 用に no-music export を残す。",
+        "## FAQ\n### ASMR product video には必ず music が必要ですか？\nいいえ。Tactile sound が十分に感覚を作っているなら、silence や room tone の方が強いことがあります。\n### どんな AI music が合いますか？\nSparse な instrumental bed、soft attack、少ない high-frequency movement、no vocals から始めます。単体の良さではなく録音 texture と比べます。\n### Bed が product sound を隠しているかどう判断しますか？\nPhone speaker や low volume で hero sound が消えるなら、bed を下げる、明るい layer を抜く、music を transitions だけにします。\n### 完成 clip を広告に使えますか？\nTool terms、platform rules、すべての sound element の権利を確認してください。Generated file や converted file が自動的に全 commercial context で使えるとは限りません。"
+      ]
+    },
+    "ko": {
+      "title": "ASMR 제품 영상의 질감을 가리지 않는 AI music bed 설계",
+      "description": "Tapping, packaging, whisper, tactile product close-up을 덮지 않는 조용한 music bed workflow.",
+      "body": [
+        "제품 close-up은 아주 작은 소리로 살아납니다. 종이 crinkle, 유리를 두드리는 손톱, sticker가 떨어지는 소리, fabric을 스치는 brush 같은 소리입니다. 그런데 예쁜 music bed를 깔면 바로 그 만족스러운 detail이 사라질 수 있습니다. 답은 단순히 music을 작게 만드는 것이 아닙니다. 먼저 silence-first brief를 써야 합니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music draft를 생성할 수 있는 AI 음악 제작 platform입니다. ASMR product video에서는 녹음된 texture sounds 주변에 둘 조용한 instrumental options를 테스트하는 데 도움이 될 수 있지만 usage rights, source audio, platform rules는 publish 전에 따로 확인해야 합니다.",
+        "## Genre보다 sound map이 먼저다",
+        "Prompt 전에 세 field를 씁니다: hero sound, supporting sound, forbidden mask. Hero sound는 metal lid tap, fabric brush, package crinkle, liquid pour, short whisper가 될 수 있습니다. Supporting sound는 room tone이나 natural breath입니다. Forbidden mask는 music이 덮으면 안 되는 것들입니다: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. Real sound의 역할이 정해지면 music prompt가 더 정확해집니다.",
+        "## Scene에 music이 필요한지 결정한다",
+        "ASMR clip은 soundtrack이 없다고 실패하지 않습니다. Trigger만으로 rhythm과 closeness가 충분하면 그대로 두세요. 긴 visual gap, transition, 작은 lift가 필요한 reveal에서만 bed를 씁니다. 재사용 가능한 prompt: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Style prompt가 detail을 보호하게 한다",
+        "Calm and relaxing만으로는 너무 넓습니다. Density, attack, frequency space를 쓰세요: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. Vocabulary가 부족하면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 instrument, tempo, texture 언어를 만든 뒤 full bed를 생성하세요.",
+        "## Mix를 세 가지 방식으로 듣는다",
+        "Headphones, phone speaker, very low volume으로 각각 들어봅니다. Phone에서 crinkle이나 brush가 사라지면 bed가 크거나 dense합니다. Whisper를 듣기 위해 clip 전체를 올려야 한다면 music draft보다 noise floor나 balance 문제일 수 있습니다. Music off, low bed, transition-only 세 review version을 남기세요.",
+        "## Rights를 추측하지 않고 전달한다",
+        "Handoff 때는 짧은 review file과 separate master를 export합니다. Prompt, 녹음 sound의 source notes, 외부 material을 저장합니다. 편집 뒤 다른 format이 필요하면 [AI Audio Converter](https://easymusic.ai/ko/tools/audio-converter) 같은 tool은 소유하거나 처리 권한이 있는 file에만 쓰세요. 이것이 rights나 platform-policy review를 대신하지 않습니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- Shot마다 hero sound를 하나만 정합니다.\n- Edit가 허용하면 가장 만족스러운 tactile cue 앞에 반초의 공간을 둡니다.\n- Whisper, captions, product claims가 있으면 instrumental only를 요청합니다.\n- 전체 clip 아래가 아니라 transitions에서만 music을 테스트합니다.\n- Masking check와 client approval을 위해 no-music export를 보관합니다.",
+        "## FAQ\n### ASMR product video에는 항상 music이 필요한가요?\n아니요. Tactile sound가 이미 느낌을 만들면 silence나 room tone이 continuous bed보다 나을 수 있습니다.\n### 어떤 AI music이 잘 맞나요?\nSparse instrumental bed, soft attacks, 적은 high-frequency movement, no vocals부터 시작하세요. 단독으로 듣지 말고 recorded texture와 비교하세요.\n### Bed가 product sound를 가리는지 어떻게 알 수 있나요?\nPhone speaker나 low volume에서 hero sound가 사라지면 bed를 낮추거나 밝은 layer를 빼거나 music을 transitions에만 쓰세요.\n### 완성 clip을 광고에 써도 되나요?\nTool terms, platform rules, 모든 sound element의 rights를 확인하세요. Generated 또는 converted file이 모든 commercial context에 자동으로 허용된다고 보면 안 됩니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje musica IA para video ASMR de produto sem cobrir a textura",
+      "description": "Workflow pratico para music beds discretos em torno de tapping, embalagem, whispers e detalhes tateis.",
+      "body": [
+        "Um close-up de produto pode depender de um som pequeno: papel amassando, unha tocando vidro, adesivo saindo limpo, escova passando no tecido. Entao entra uma musica bonita e cobre justamente o detalhe que fazia o clip ser satisfatorio. A resposta nao e apenas baixar o volume. Comece com um brief que protege o silencio.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar drafts a partir de descricoes, lyrics e ideias de style. Em um video ASMR de produto, ela pode ajudar a testar opcoes instrumentais discretas ao redor de sons gravados, enquanto direitos de uso, audio fonte e regras de plataforma precisam de revisao separada.",
+        "## Mapeie os sons antes do genero",
+        "Escreva tres campos antes do prompt: hero sound, supporting sound, forbidden mask. O hero sound pode ser tampa metalica, tecido, package crinkle, liquido ou whisper curto. Supporting sound pode ser room tone ou respiracao natural. Forbidden mask diz o que a musica nao pode cobrir: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. Quando o som real tem funcao, o prompt musical fica mais preciso.",
+        "## Decida se a cena precisa de musica",
+        "Um clip ASMR nao falha por nao ter soundtrack. Se o trigger ja carrega ritmo e proximidade, deixe respirar. Use bed apenas quando houver vazio visual longo, transicao ou reveal que precisa de um pequeno lift. Prompt reutilizavel: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Faca o style prompt proteger detalhes",
+        "Calm and relaxing e amplo demais. Nomeie density, attack e frequency space: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. Se faltarem palavras, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar um mood vago em linguagem de instrumentos, tempo e textura antes de gerar o bed completo.",
+        "## Revise a mixagem de tres formas",
+        "Ouça com fones, no speaker do telefone e em volume muito baixo. Se o crinkle ou brush some no telefone, o bed esta alto ou denso. Se voce precisa subir o clip inteiro para ouvir o whisper, talvez o problema seja noise floor ou balance. Guarde tres versoes: sem musica, low bed e transition-only.",
+        "## Prepare a entrega sem adivinhar direitos",
+        "Na entrega, exporte um arquivo curto de review e um master separado. Salve prompt, notas de origem dos sons gravados e qualquer material externo. Se precisar de outro formato depois da edicao, uma ferramenta como [AI Audio Converter](https://easymusic.ai/pt/tools/audio-converter) e util apenas para arquivos que voce possui ou pode processar. Ela nao substitui revisao de direitos ou plataforma.",
+        "## Ideias reutilizaveis para hoje",
+        "- Nomeie um hero sound por shot em vez de listar todos os triggers.\n- Deixe meio segundo de ar antes do cue tatil mais satisfatorio se o edit permitir.\n- Peça instrumental only quando houver whispers, captions ou claims de produto.\n- Teste musica apenas nas transicoes, nao em todo o clip.\n- Guarde um export sem musica para checar masking e aprovacao.",
+        "## Perguntas frequentes\n### Todo video ASMR de produto precisa de musica?\nNao. Se o som tatil ja sustenta a sensacao, silence ou room tone pode ser mais forte que um bed continuo.\n### Que tipo de musica IA funciona melhor?\nComece com bed instrumental sparse, ataques suaves, pouco movimento agudo e sem vozes. Julgue contra a textura gravada.\n### Como sei que o bed cobre o som do produto?\nSe o hero sound desaparece no telefone ou em volume baixo, reduza o bed, remova camadas brilhantes ou use musica so em transicoes.\n### Posso usar o clip final em anuncio?\nRevise termos da ferramenta, regras de plataforma e direitos de cada elemento sonoro. Nao presuma liberacao automatica para todo uso comercial."
+      ]
+    },
+    "ru": {
+      "title": "Спланируйте AI music для ASMR видео продукта без маскировки текстуры",
+      "description": "Практический workflow для тихого music bed вокруг tapping, packaging, whisper и тактильных деталей продукта.",
+      "body": [
+        "Крупный план продукта часто держится на маленьком звуке: бумага шуршит, ноготь касается стекла, наклейка отходит чисто, кисть проходит по ткани. Потом появляется красивый music bed и закрывает именно ту деталь, ради которой clip был ASMR. Решение не только в том, чтобы сделать музыку тише. Начните с brief, где тишина защищена.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа для AI music creation, где можно создавать music drafts из descriptions, lyrics и style ideas. Для ASMR product video она помогает тестировать тихие instrumental options вокруг записанных texture sounds, но usage rights, source audio и platform rules нужно проверять отдельно перед публикацией.",
+        "## Сначала карта звуков, потом genre",
+        "Перед prompt запишите три поля: hero sound, supporting sound, forbidden mask. Hero sound может быть metal lid tap, fabric brush, package crinkle, liquid pour или short whisper. Supporting sound - room tone или natural breath. Forbidden mask говорит, что музыка не должна закрывать: no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle. Когда реальный звук получает роль, music prompt становится точнее.",
+        "## Решите, нужна ли сцене музыка",
+        "ASMR clip не проваливается только потому, что в нем нет soundtrack. Если trigger уже дает rhythm и closeness, оставьте его. Используйте bed только для длинной визуальной паузы, transition или reveal, которому нужен легкий lift. Полезный prompt: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise.",
+        "## Пусть style prompt защищает детали",
+        "Calm and relaxing слишком широко. Укажите density, attack и frequency space: sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds. Если не хватает словаря, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить общий mood в язык instruments, tempo и texture до генерации полного bed.",
+        "## Проверьте микс тремя способами",
+        "Послушайте в наушниках, через динамик телефона и на очень низкой громкости. Если crinkle или brush исчезает на телефоне, bed слишком громкий или плотный. Если приходится поднимать весь clip ради whisper, проблема может быть в noise floor или balance, а не в music draft. Сохраните три версии: music off, low bed и transition-only.",
+        "## Готовьте передачу без догадок о правах",
+        "На handoff экспортируйте короткий review file и отдельный master. Сохраните prompt, source notes для записанных звуков и внешние материалы. Если после монтажа нужен другой format, такой инструмент, как [AI Audio Converter](https://easymusic.ai/ru/tools/audio-converter), полезен только для файлов, которыми вы владеете или которые вам разрешено обрабатывать. Это не заменяет проверку rights или platform policy.",
+        "## Идеи, которые можно применить сегодня",
+        "- Назовите один hero sound для каждого shot вместо списка всех triggers.\n- Оставьте полсекунды воздуха перед самым важным tactile cue, если монтаж позволяет.\n- Просите instrumental only, когда есть whispers, captions или product claims.\n- Тестируйте музыку только в transitions, а не под всем clip.\n- Храните no-music export для проверки masking и согласования.",
+        "## FAQ\n### Каждому ASMR product video нужна музыка?\nНет. Если tactile sound уже несет ощущение, silence или room tone могут быть сильнее постоянного bed.\n### Какая AI music подходит лучше?\nНачните с sparse instrumental bed, мягких атак, малого high-frequency movement и no vocals. Оценивайте против записанной texture.\n### Как понять, что bed маскирует звук продукта?\nЕсли hero sound исчезает на телефоне или низкой громкости, уменьшите bed, уберите яркие layers или оставьте музыку только в transitions.\n### Можно использовать готовый clip в рекламе?\nПроверьте tool terms, platform rules и права на каждый sound element. Не считайте generated или converted file автоматически разрешенным для любого commercial context."
+      ]
+    },
+    "zh": {
+      "title": "为 ASMR 产品视频规划 AI 音乐，别盖住质感",
+      "description": "一个实用 workflow，用很轻的 music bed 配合 tapping、包装声、whisper 和产品细节。",
+      "body": [
+        "产品 close-up 常常靠一个很小的声音成立：纸张 crinkle、指甲轻敲玻璃、贴纸被干净撕开、刷子划过布料。然后你加上一段好听的 music bed，结果正好把让 clip 令人满足的细节盖住了。解决办法不只是把音乐调小，而是先写一个 silence-first brief。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。做 ASMR 产品视频时，它可以帮助你测试围绕录音 texture sounds 的低密度 instrumental options，但 usage rights、source audio 和 platform rules 仍然需要在发布前单独检查。",
+        "## 先做 sound map，再谈 genre",
+        "写 prompt 前先写三项：hero sound、supporting sound、forbidden mask。Hero sound 可能是 metal lid tap、fabric brush、package crinkle、liquid pour 或 short whisper。Supporting sound 可以是 room tone 或 natural breath。Forbidden mask 写音乐不能遮住什么：no bright hi-hats over tapping, no vocal pad under whisper, no bass swell during package crinkle。真实声音有了任务，music prompt 才会更准。",
+        "## 判断这个 scene 是否真的需要音乐",
+        "ASMR clip 没有 soundtrack 并不等于失败。如果 trigger 本身已经有 rhythm 和 closeness，就让它独立存在。只有在 visual gap 很长、transition 需要连接、reveal 需要轻微 lift 时才加 bed。可复用 prompt: quiet instrumental bed for product ASMR, slow pulse, soft felt piano, airy pad, leaves tapping and packaging sounds in front, no vocals, no sharp percussion, no sudden rise。",
+        "## 让 style prompt 保护细节",
+        "Calm and relaxing 太笼统。请写 density、attack 和 frequency space：sparse, rounded transients, low-mid warmth, high frequencies free for texture sounds。如果缺少词汇，可以先用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把模糊 mood 变成 instrument、tempo 和 texture 语言，再生成完整 bed。",
+        "## 用三种方式检查 mix",
+        "分别用 headphones、phone speaker 和 very low volume 听一遍。如果 crinkle 或 brush 在手机外放上消失，说明 bed 太响或太密。如果必须把整个 clip 抬高才能听清 whisper，问题可能是 noise floor 或 balance，而不是 music draft。保留三个 review versions：music off、low bed、transition-only。",
+        "## 交付时不要猜测权利",
+        "Handoff 时导出一个短 review file 和单独 master。保存 prompt、录音 sound 的 source notes，以及任何外部 material。剪辑后如果需要转换 format，像 [AI Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 这样的工具只应用在你拥有或有权处理的文件上。它不能替代 rights 或 platform-policy review。",
+        "## 今天就能使用的想法",
+        "- 每个 shot 只指定一个 hero sound，不要列出所有 triggers。\n- 如果 edit 允许，在最重要的 tactile cue 前留半秒空气。\n- 有 whisper、captions 或 product claims 时，要求 instrumental only。\n- 只在 transitions 里测试音乐，不要铺满整个 clip。\n- 保留 no-music export，用来检查 masking 和审批。",
+        "## FAQ\n### 每个 ASMR 产品视频都需要音乐吗？\n不需要。如果 tactile sound 已经撑起感觉，silence 或 room tone 可能比连续 bed 更好。\n### 什么 AI music 更适合？\n从 sparse instrumental bed、soft attacks、少量 high-frequency movement、no vocals 开始。不要只听音乐单独好不好，要和 recorded texture 对照。\n### 怎么判断 bed 盖住了产品声音？\n如果 hero sound 在 phone speaker 或 low volume 下消失，就降低 bed、删掉明亮 layers，或只在 transitions 里使用音乐。\n### 完成 clip 可以用作广告吗？\n检查 tool terms、platform rules，以及每个 sound element 的 rights。不要默认 generated 或 converted file 自动适用于所有 commercial context。"
+      ]
+    }
+  }
+}
