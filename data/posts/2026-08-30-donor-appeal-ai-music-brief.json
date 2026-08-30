@@ -1,0 +1,249 @@
+{
+  "date": "2026-08-30",
+  "slug": "donor-appeal-ai-music-brief",
+  "cluster": "nonprofit-fundraising-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب brief موسيقى AI لفيديو تبرعات من دون مبالغة في الطلب",
+      "description": "Workflow عملي لموسيقى فيديو donor appeal تحمي الصوت، الارقام، الكرامة، ونداء التبرع.",
+      "body": [
+        "فيديو التبرعات القصير غالبا يحمل اشياء حساسة في وقت قليل: شخص يشرح الحاجة، رقم يجب ان يفهمه المشاهد، صورة ميدانية، ثم طلب واضح للتبرع او المشاركة. اذا دخلت موسيقى بطولية اكثر من اللازم، قد يبدو الفيديو ضاغطا. واذا كانت الموسيقى كثيفة، يضيع السبب والنداء. الحل هو brief صوتي يحدد دور الموسيقى قبل ان تطلب اي mood.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة انشاء موسيقى AI تساعدك على توليد drafts من description وlyrics وstyle ideas. في فيديو nonprofit fundraising يمكن استخدامها كمساحة تجربة لخيارات instrumental، لكن صحة الادعاءات، موافقات الظهور، حقوق الملفات، وقواعد المنصة تحتاج مراجعة منفصلة قبل النشر.",
+        "## حدد وظيفة الموسيقى لا الشعور فقط",
+        "لا تكتب make people donate. اكتب وظيفة قابلة للمراجعة: keep attention under narration، mark the scene change، او resolve gently after the ask. اختر وظيفة واحدة لكل قسم. افتتاح المشكلة يحتاج غالبا ثباتا لا crescendo. صوت المستفيد او المتطوع قد يحتاج bed منخفضا جدا او صمتا. لحظة الطلب يمكن ان ترتفع بعد انتهاء الجملة، لا فوقها.",
+        "## ابن خريطة donor appeal قبل التوليد",
+        "قسم الفيديو الى اربع خانات: need، human voice، proof، ask. في need استخدم نبضا بسيطا ولا تجعل الالم يبدو دراميا. في human voice اترك الكلام في المقدمة. في proof اعط الارقام والصور مساحة حتى لا تبدو الموسيقى كأنها تثبت ما لا يثبته النص. في ask اترك ذيلا موسيقيا قصيرا يكفي لقراءة الرابط او QR او end screen.",
+        "## اكتب prompt يحمي الثقة",
+        "Prompt عملي يمكن تعديله: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. اذا احتجت لغة ادق للايقاع والالات، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل mood عام الى style description صالح للتجربة.",
+        "## اختبر الكلام والارقام اولا",
+        "شاهد الفيديو مرة بعينيك على captions ومرة بعيدا عن الشاشة بالصوت فقط. اذا لم تسمع اسم المنظمة او لم تفهم كيف ستستخدم الاموال، فالموسيقى او المكساج يضران بالثقة. اجعل bed تحت الكلام منخفضا بوضوح، واترك مساحة قبل الارقام، ولا تضف cymbal او rise فوق الجملة التي تطلب الفعل.",
+        "## سلم الملفات مع ملاحظات واضحة",
+        "احفظ prompt، النسخة التي اختيرت، سبب اختيارها، واي ملفات خارجية استعملت في المونتاج. اذا احتجت MP3 سريع للمراجعة او WAV للتحرير، فاستخدم اداة مثل [AI Audio Converter](https://easymusic.ai/ar/tools/audio-converter) فقط مع ملفات تملك حق معالجتها. التحويل لا يحل وحده حقوق الاستخدام او سياسات جمع التبرعات.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب وظيفة موسيقية واحدة لكل قسم: attention، transition، او ask support.\n- اوقف الموسيقى او اخفضها عند الاسماء، المبالغ، المواعيد، وشرح استخدام الاموال.\n- اكتب forbidden emotion words مثل no tragedy swell وno victory fanfare اذا كان الموضوع حساسا.\n- اجعل اخر ثلاث ثوان هادئة حتى يقرأ المشاهد CTA او QR.\n- صدر نسخة no-music لمراجعة الوضوح والموافقات.",
+        "## اسئلة شائعة\n### هل يجب ان تكون موسيقى فيديو التبرع حزينة؟\nلا. الحزن الزائد قد يبدو ضغطا عاطفيا. غالبا الافضل bed صادق، محدود، ويترك القصة تتكلم.\n### متى ارفع الموسيقى؟\nارفعها فقط بعد انتهاء الجملة المهمة او عند انتقال بصري. لا تجعلها تغطي الرقم او الطلب.\n### ماذا اراجع قبل النشر؟\nراجع صحة الادعاءات، موافقات الاشخاص الظاهرين، حقوق الصوت والصورة، ومتطلبات المنصة او الجهة المنظمة.\n### هل يمكن استخدام نفس المسار لكل حملات التبرع؟\nيمكن استخدام style قريب، لكن راجع النغمة لكل قضية. بعض القصص تحتاج دفئا هادئا، لا نفس الاندفاع في كل مرة."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik fuer Spendenvideos briefen, ohne den Appell zu ueberziehen",
+      "description": "Ein praktischer Workflow fuer Musik in Donor-Appeal-Videos, damit Stimme, Zahlen und Vertrauen klar bleiben.",
+      "body": [
+        "Ein kurzes Spendenvideo traegt oft viel Gewicht: eine Person erklaert den Bedarf, eine Zahl muss verstanden werden, ein Feldbild schafft Kontext, und am Ende steht eine Bitte um Spende oder Teilen. Wird die Musik zu heldenhaft, wirkt der Appell schnell manipulativ. Ist sie zu dicht, gehen Grund und Call to Action verloren. Deshalb beginnt der Musikbrief mit der Aufgabe der Musik, nicht mit einem grossen Gefuehl.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform zur KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen generieren kannst. Fuer ein Nonprofit-Fundraising-Video kann sie als Skizzenraum fuer instrumentale Optionen dienen; Faktenpruefung, Einverstaendnisse, Dateirechte und Plattformregeln bleiben separate Arbeit vor der Veroeffentlichung.",
+        "## Definiere die Aufgabe, nicht nur die Stimmung",
+        "Schreibe nicht make people donate. Schreibe eine pruefbare Funktion: keep attention under narration, mark the scene change oder resolve gently after the ask. Pro Abschnitt reicht eine Funktion. Der Einstieg in das Problem braucht oft Stabilitaet statt Crescendo. Eine Stimme von Betroffenen, Mitarbeitenden oder Freiwilligen braucht ein sehr leises Bed oder gar keines. Der Spendenaufruf darf musikalisch erst nach der gesprochenen Zeile atmen.",
+        "## Baue zuerst eine Donor-Appeal-Karte",
+        "Teile das Video in vier Felder: need, human voice, proof, ask. Bei need hilft ein ruhiger Puls, ohne Leid zu dramatisieren. Bei human voice gehoert die Stimme nach vorn. Bei proof brauchen Zahlen, Namen und Belege Platz, damit die Musik nicht groesser klingt als die Aussage. Bei ask bleibt ein kurzer musikalischer Ausklang, damit Link, QR-Code oder Endscreen lesbar sind.",
+        "## Schreibe einen Prompt, der Vertrauen schuetzt",
+        "Ein brauchbarer Prompt: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. Wenn dir praezise Woerter fuer Instrumente, Tempo und Textur fehlen, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) aus einer groben Stimmung eine testbare Style-Beschreibung machen.",
+        "## Pruefe zuerst Sprache und Zahlen",
+        "Sieh das Video einmal mit Captions und hoere es einmal ohne Bild. Wenn Organisationsname, Verwendung der Mittel oder Betrag nicht klar ankommen, schadet die Musik dem Vertrauen. Halte das Bed unter Sprache deutlich niedriger, lass Raum vor Zahlen und setze keine Cymbals oder Rises genau auf die Zeile, die zur Handlung auffordert.",
+        "## Uebergabe mit klaren Notizen",
+        "Speichere Prompt, gewaehlt Variante, Begruendung und externe Dateien aus dem Schnitt. Wenn du fuer Review ein MP3 oder fuer die Bearbeitung ein WAV brauchst, nutze ein Tool wie den [AI Audio Converter](https://easymusic.ai/de/tools/audio-converter) nur fuer Dateien, die du besitzen oder verarbeiten darfst. Formatkonvertierung ersetzt keine Rechte- oder Fundraising-Policy-Pruefung.",
+        "## Sofort nutzbare Ideen",
+        "- Gib jedem Abschnitt nur eine Musikfunktion: attention, transition oder ask support.\n- Senke oder mute Musik bei Namen, Betraegen, Daten und der Erklaerung, wofuer Geld genutzt wird.\n- Schreibe forbidden emotion words wie no tragedy swell und no victory fanfare bei sensiblen Themen.\n- Halte die letzten drei Sekunden ruhig, damit CTA oder QR-Code gelesen werden koennen.\n- Exportiere eine no-music-Version fuer Verstaendlichkeit und Freigabe.",
+        "## FAQ\n### Muss Musik in einem Spendenvideo traurig sein?\nNein. Zu viel Traurigkeit kann wie Druck wirken. Oft ist ein ehrliches, begrenztes Bed staerker.\n### Wann darf die Musik groesser werden?\nErst nach einer wichtigen gesprochenen Zeile oder bei einem visuellen Wechsel. Zahlen und Bitte bleiben vorne.\n### Was sollte vor der Veroeffentlichung geprueft werden?\nPruefe Aussagen, Einverstaendnisse der gezeigten Personen, Rechte an Bild und Ton sowie Plattform- und Spendenregeln.\n### Kann derselbe Track fuer jede Kampagne funktionieren?\nEin aehnlicher Stil kann helfen, aber jede Sache braucht eine eigene Tonpruefung. Nicht jede Geschichte vertraegt denselben Lift."
+      ]
+    },
+    "en": {
+      "title": "Brief AI Music for Donor Appeal Videos Without Overplaying the Ask",
+      "description": "A practical workflow for nonprofit fundraising video music that keeps speech, proof, dignity, and the donation CTA clear.",
+      "body": [
+        "A short fundraising video has to carry a lot: one person explaining the need, a number the viewer must understand, a field image, and a direct request to donate or share. If the music turns too heroic, the appeal can feel pushed. If the bed is too busy, the reason and the call to action disappear. Start by briefing the job of the music before you ask for a mood.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. For a nonprofit fundraising video, it can act as a sketchpad for instrumental options while factual claims, participant permissions, file rights, and platform rules still need separate review before publishing.",
+        "## Define the Job, Not Just the Feeling",
+        "Do not brief make people donate. Brief a reviewable job: keep attention under narration, mark the scene change, or resolve gently after the ask. Give each section one job. The opening problem often needs steadiness, not a swelling score. A beneficiary, staff, or volunteer voice may need a very low bed or silence. The donation line can get a small lift after the sentence ends, not over it.",
+        "## Build a Donor Appeal Map First",
+        "Split the video into four columns: need, human voice, proof, ask. In the need section, use a restrained pulse without making hardship theatrical. In the human voice section, keep speech in front. In the proof section, leave room for numbers, names, locations, and how funds will be used, so the music does not sound more certain than the evidence. In the ask section, leave a short tail for the link, QR code, or end screen.",
+        "## Write a Prompt That Protects Trust",
+        "A reusable prompt frame: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. If you need sharper vocabulary for instruments, tempo, or texture, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can turn a broad mood into a style description you can actually test.",
+        "## Test Speech and Numbers Before Taste",
+        "Watch the cut once with captions and listen once without looking at the screen. If you miss the organization name, the donation amount, or the explanation of how funds will be used, the music is hurting trust. Keep the bed clearly below speech, leave space before numbers, and avoid cymbals or rises on the exact line that asks the viewer to act.",
+        "## Handoff Without Guesswork",
+        "Save the prompt, selected draft, why it was chosen, and any outside files used in the edit. If you need an MP3 for review or a WAV for editing, a tool such as the [AI Audio Converter](https://easymusic.ai/tools/audio-converter) is useful only for files you own or are authorized to process. Conversion does not replace rights, consent, or fundraising-policy review.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Give each video section one music job: attention, transition, or ask support.\n- Drop or mute the bed under names, dollar amounts, dates, and fund-use details.\n- Add forbidden emotion words to the prompt, such as no tragedy swell and no victory fanfare.\n- Keep the last three seconds calm enough for the CTA or QR code to be read.\n- Export a no-music version for clarity checks and stakeholder approval.",
+        "## FAQ\n### Should fundraising video music sound sad?\nNot by default. Heavy sadness can feel like emotional pressure. A restrained bed that lets the story speak is usually more trustworthy.\n### When should the music get bigger?\nOnly after an important spoken line or during a visual transition. The number, proof, and ask should stay in front.\n### What should I review before posting?\nReview factual claims, permissions from people shown or heard, rights for every media element, and the relevant platform or fundraising rules.\n### Can one track work across every campaign?\nA consistent style can help a brand, but each cause needs its own tone check. Some stories need quiet warmth, not the same lift every time."
+      ]
+    },
+    "es": {
+      "title": "Brief de musica IA para videos de donacion sin exagerar el pedido",
+      "description": "Workflow practico para musica en fundraising videos que mantiene claras la voz, las pruebas, la dignidad y el CTA.",
+      "body": [
+        "Un video corto de recaudacion carga mucho peso: una persona explica la necesidad, un numero debe entenderse, una imagen de campo da contexto y al final aparece una peticion para donar o compartir. Si la musica se vuelve demasiado heroica, el appeal puede sentirse forzado. Si el bed esta muy lleno, desaparecen la razon y el call to action. Empieza por definir el trabajo de la musica antes de pedir un mood.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar drafts desde descripciones, lyrics e ideas de style. En un video nonprofit fundraising puede servir como espacio de prueba para opciones instrumentales, mientras claims, permisos de participantes, derechos de archivos y reglas de plataforma se revisan aparte antes de publicar.",
+        "## Define el trabajo, no solo la emocion",
+        "No escribas make people donate. Escribe una funcion revisable: keep attention under narration, mark the scene change o resolve gently after the ask. Da a cada seccion una funcion. El problema inicial suele necesitar estabilidad, no un swell enorme. La voz de beneficiario, equipo o voluntario puede necesitar un bed muy bajo o silencio. La linea de donacion puede respirar despues de la frase, no encima.",
+        "## Crea primero un mapa del donor appeal",
+        "Divide el video en cuatro columnas: need, human voice, proof, ask. En need usa un pulso contenido sin teatralizar la dificultad. En human voice deja la voz delante. En proof da espacio a numeros, nombres, lugares y uso de fondos, para que la musica no suene mas segura que la evidencia. En ask deja una cola corta para leer link, QR o end screen.",
+        "## Escribe un prompt que proteja la confianza",
+        "Prompt reutilizable: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. Si necesitas vocabulario mas preciso para instrumentos, tempo o textura, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood amplio en una descripcion de style que puedas probar.",
+        "## Prueba voz y numeros antes que gusto",
+        "Mira el corte una vez con captions y escuchalo una vez sin mirar la pantalla. Si pierdes el nombre de la organizacion, el monto o la explicacion de como se usaran los fondos, la musica esta danando la confianza. Mantén el bed claramente debajo de la voz, deja espacio antes de los numeros y evita cymbals o rises en la frase exacta del pedido.",
+        "## Entrega sin adivinar",
+        "Guarda el prompt, draft elegido, razon de la eleccion y archivos externos usados en el edit. Si necesitas MP3 para review o WAV para editar, una herramienta como [AI Audio Converter](https://easymusic.ai/es/tools/audio-converter) sirve solo con archivos que posees o puedes procesar. Convertir formato no reemplaza revision de derechos, consentimientos ni reglas de fundraising.",
+        "## Ideas reutilizables para hoy",
+        "- Da a cada seccion un solo trabajo musical: attention, transition o ask support.\n- Baja o mutea el bed bajo nombres, montos, fechas y detalles de uso de fondos.\n- Agrega forbidden emotion words al prompt, como no tragedy swell y no victory fanfare.\n- Mantén los ultimos tres segundos calmados para leer CTA o QR.\n- Exporta una version sin musica para revisar claridad y aprobaciones.",
+        "## Preguntas frecuentes\n### La musica de fundraising debe sonar triste?\nNo por defecto. La tristeza pesada puede sentirse como presion emocional. Un bed contenido que deja hablar la historia suele generar mas confianza.\n### Cuando debe crecer la musica?\nSolo despues de una linea hablada importante o durante una transicion visual. El numero, la prueba y el pedido deben quedar delante.\n### Que revisar antes de publicar?\nClaims factuales, permisos de personas vistas u oidas, derechos de cada elemento de media y reglas de plataforma o recaudacion.\n### Sirve una sola pista para toda campana?\nUn style consistente ayuda a la marca, pero cada causa necesita revisar tono. Algunas historias piden calidez tranquila, no el mismo lift siempre."
+      ]
+    },
+    "fr": {
+      "title": "Briefer une musique IA pour appel aux dons sans surjouer la demande",
+      "description": "Workflow pratique pour une musique de video fundraising qui garde clairs la voix, les preuves, la dignite et le CTA.",
+      "body": [
+        "Une courte video d appel aux dons porte beaucoup de choses: une personne explique le besoin, un chiffre doit etre compris, une image de terrain donne du contexte, puis vient une demande de don ou de partage. Si la musique devient trop heroique, l appel peut sembler force. Si le bed est trop dense, la raison et le call to action disparaissent. Commence donc par definir le role de la musique avant de demander une ambiance.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui genere des drafts a partir de descriptions, lyrics et idees de style. Pour une video de nonprofit fundraising, elle peut servir de carnet d essais pour des options instrumentales, tandis que les claims, autorisations, droits des fichiers et regles de plateforme restent a verifier separement avant publication.",
+        "## Definis la fonction, pas seulement l emotion",
+        "Ne briefe pas make people donate. Briefe une fonction observable: keep attention under narration, mark the scene change ou resolve gently after the ask. Donne une seule fonction a chaque section. L ouverture sur le besoin demande souvent de la stabilite, pas un crescendo. Une voix de beneficiaire, membre d equipe ou volontaire peut demander un bed tres bas ou le silence. La ligne de don peut recevoir un petit lift apres la phrase, pas pendant.",
+        "## Construis d abord une carte donor appeal",
+        "Divise la video en quatre colonnes: need, human voice, proof, ask. Dans need, utilise une pulsation retenue sans dramatiser la difficulte. Dans human voice, garde la parole devant. Dans proof, laisse de l espace aux chiffres, noms, lieux et usages des fonds, afin que la musique ne paraisse pas plus certaine que la preuve. Dans ask, garde une courte queue sonore pour lire le lien, le QR code ou l end screen.",
+        "## Ecris un prompt qui protege la confiance",
+        "Cadre de prompt reutilisable: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. Si tu manques de vocabulaire pour instruments, tempo ou texture, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer une ambiance vague en description de style testable.",
+        "## Teste la parole et les chiffres avant le gout",
+        "Regarde le montage une fois avec captions, puis ecoute-le sans regarder l ecran. Si tu rates le nom de l organisation, le montant ou l explication d usage des fonds, la musique affaiblit la confiance. Garde le bed clairement sous la voix, laisse de l air avant les chiffres et evite cymbals ou rises sur la phrase qui demande l action.",
+        "## Transmets sans supposer",
+        "Archive le prompt, le draft choisi, la raison du choix et les fichiers externes utilises au montage. Si tu as besoin d un MP3 pour review ou d un WAV pour le montage, un outil comme [AI Audio Converter](https://easymusic.ai/fr/tools/audio-converter) n est utile que pour des fichiers que tu possedes ou peux traiter. La conversion ne remplace pas la verification des droits, consentements ou regles de collecte.",
+        "## Idees reutilisables aujourd hui",
+        "- Donne une seule fonction musicale a chaque section: attention, transition ou ask support.\n- Baisse ou coupe le bed sous les noms, montants, dates et details d utilisation des fonds.\n- Ajoute des forbidden emotion words au prompt, comme no tragedy swell et no victory fanfare.\n- Garde les trois dernieres secondes assez calmes pour lire le CTA ou le QR.\n- Exporte une version sans musique pour verifier clarte et approbations.",
+        "## FAQ\n### La musique d appel aux dons doit-elle etre triste ?\nPas par defaut. Une tristesse lourde peut ressembler a une pression emotionnelle. Un bed retenu qui laisse parler l histoire est souvent plus fiable.\n### Quand la musique peut-elle grandir ?\nApres une phrase parlee importante ou pendant une transition visuelle. Le chiffre, la preuve et la demande restent devant.\n### Que verifier avant publication ?\nLes claims factuels, les autorisations des personnes vues ou entendues, les droits de chaque media et les regles de plateforme ou de collecte.\n### Une meme piste convient-elle a toutes les campagnes ?\nUn style coherent peut aider la marque, mais chaque cause demande un controle de ton. Certaines histoires ont besoin de chaleur calme, pas du meme lift."
+      ]
+    },
+    "it": {
+      "title": "Brief per musica AI in video di donazione senza caricare troppo la richiesta",
+      "description": "Workflow pratico per musica in video fundraising che lascia chiari voce, prove, dignita e call to action.",
+      "body": [
+        "Un breve video di raccolta fondi deve sostenere molte cose: una persona spiega il bisogno, un numero deve essere capito, un immagine di campo da contesto e alla fine arriva la richiesta di donare o condividere. Se la musica diventa troppo eroica, l appello puo sembrare spinto. Se il bed e troppo pieno, spariscono la ragione e il call to action. Parti dal lavoro della musica, non solo dal mood.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con AI che genera draft da descrizioni, lyrics e idee di style. Per un video nonprofit fundraising puo funzionare come spazio di prova per opzioni strumentali, mentre claim, permessi delle persone, diritti dei file e regole di piattaforma vanno controllati separatamente prima della pubblicazione.",
+        "## Definisci il lavoro, non solo l emozione",
+        "Non scrivere make people donate. Scrivi una funzione verificabile: keep attention under narration, mark the scene change oppure resolve gently after the ask. Dai una sola funzione a ogni sezione. L apertura sul bisogno spesso richiede stabilita, non un grande swell. La voce di beneficiario, staff o volontario puo richiedere un bed molto basso o silenzio. La frase di donazione puo avere un piccolo lift dopo, non sopra.",
+        "## Costruisci prima una mappa donor appeal",
+        "Dividi il video in quattro colonne: need, human voice, proof, ask. In need usa un pulse trattenuto senza rendere teatrale la difficolta. In human voice tieni la voce davanti. In proof lascia spazio a numeri, nomi, luoghi e uso dei fondi, cosi la musica non sembra piu certa delle prove. In ask lascia una breve coda per leggere link, QR code o end screen.",
+        "## Scrivi un prompt che protegga fiducia",
+        "Prompt riutilizzabile: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. Se ti servono parole piu precise per strumenti, tempo o texture, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood largo in una descrizione di style testabile.",
+        "## Testa voce e numeri prima del gusto",
+        "Guarda il cut una volta con captions e ascoltalo una volta senza guardare lo schermo. Se perdi il nome dell organizzazione, l importo o la spiegazione dell uso dei fondi, la musica sta danneggiando la fiducia. Tieni il bed chiaramente sotto la voce, lascia aria prima dei numeri ed evita cymbals o rises sulla frase esatta che chiede l azione.",
+        "## Consegna senza supposizioni",
+        "Salva prompt, draft scelto, ragione della scelta e file esterni usati nell edit. Se ti serve un MP3 per review o un WAV per montare, uno strumento come [AI Audio Converter](https://easymusic.ai/it/tools/audio-converter) e utile solo per file che possiedi o puoi processare. La conversione non sostituisce controllo di diritti, consenso o regole di fundraising.",
+        "## Idee riutilizzabili oggi",
+        "- Dai a ogni sezione un solo lavoro musicale: attention, transition o ask support.\n- Abbassa o muta il bed sotto nomi, importi, date e dettagli sull uso dei fondi.\n- Aggiungi forbidden emotion words al prompt, come no tragedy swell e no victory fanfare.\n- Tieni gli ultimi tre secondi calmi per leggere CTA o QR.\n- Esporta una versione senza musica per controlli di chiarezza e approvazione.",
+        "## FAQ\n### La musica di fundraising deve essere triste?\nNon per forza. Una tristezza pesante puo sembrare pressione emotiva. Un bed misurato che lascia parlare la storia e spesso piu credibile.\n### Quando puo crescere la musica?\nSolo dopo una frase importante o durante una transizione visiva. Numero, prova e richiesta devono restare davanti.\n### Cosa controllare prima di pubblicare?\nClaim fattuali, permessi delle persone viste o sentite, diritti di ogni elemento media e regole di piattaforma o raccolta fondi.\n### Una traccia va bene per ogni campagna?\nUno style coerente puo aiutare il brand, ma ogni causa richiede un controllo del tono. Alcune storie chiedono calore quieto, non lo stesso lift."
+      ]
+    },
+    "ja": {
+      "title": "寄付動画の ask を強く見せすぎない AI music brief の作り方",
+      "description": "Nonprofit fundraising video で声、根拠、尊厳、donation CTA を守る music bed workflow。",
+      "body": [
+        "短い fundraising video には多くの情報が入ります。必要性を語る人、理解されるべき数字、現場の image、そして donate や share の request。Music が hero すぎると appeal が押しつけに見えます。Bed が忙しすぎると、理由と call to action が消えます。まず mood ではなく、music の仕事を brief します。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は descriptions、lyrics、style ideas から music draft を生成できる AI music creation platform です。Nonprofit fundraising video では instrumental options を試す sketchpad として使えますが、factual claims、出演許可、file rights、platform rules は公開前に別で確認します。",
+        "## Feeling ではなく job を決める",
+        "make people donate と書かないでください。Review できる job にします: keep attention under narration、mark the scene change、resolve gently after the ask。Section ごとに job は一つ。Problem の opening には大きな swell より steadiness が合うことがあります。Beneficiary、staff、volunteer の voice には very low bed か silence が必要です。Donation line は文の上ではなく、文が終わった後に少しだけ lift します。",
+        "## 先に donor appeal map を作る",
+        "Video を四つに分けます: need、human voice、proof、ask。Need では hardship を theatrical にしすぎず restrained pulse を使います。Human voice では speech を前に置きます。Proof では numbers、names、locations、fund-use details の余白を残し、music が evidence より確信しているように聞こえないようにします。Ask では link、QR code、end screen を読む短い tail を残します。",
+        "## Trust を守る prompt を書く",
+        "使える prompt frame: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear。Instrument、tempo、texture の語彙が足りない場合は、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で broad mood を test できる style description に変えます。",
+        "## Taste より先に speech と numbers を確認する",
+        "Cut を captions ありで一回見て、画面を見ずに一回聴きます。Organization name、donation amount、funds will be used の説明を聞き逃すなら、music は trust を弱めています。Bed は speech より明らかに低くし、numbers の前に space を置き、viewer に action を頼む行の上で cymbals や rises を鳴らさないようにします。",
+        "## Guesswork なしで handoff する",
+        "Prompt、selected draft、選んだ理由、edit で使った outside files を保存します。Review 用 MP3 や編集用 WAV が必要なら、[AI Audio Converter](https://easymusic.ai/ja/tools/audio-converter) のような tool は、自分が所有または処理許可を持つ file にだけ使います。Conversion は rights、consent、fundraising-policy review の代わりにはなりません。",
+        "## 今日すぐ使えるアイデア",
+        "- Section ごとに music job を一つだけ決める: attention、transition、ask support。\n- Names、amounts、dates、fund-use details の下では bed を下げるか mute する。\n- Prompt に no tragedy swell、no victory fanfare など forbidden emotion words を入れる。\n- CTA や QR code を読めるように最後の三秒を落ち着かせる。\n- Clarity check と approval 用に no-music version を export する。",
+        "## FAQ\n### Fundraising video の music は悲しくするべきですか？\n標準ではありません。Heavy sadness は emotional pressure に見えることがあります。Story を前に出す restrained bed の方が信頼されやすいです。\n### いつ music を大きくできますか？\n重要な spoken line の後、または visual transition だけです。Number、proof、ask は常に前に置きます。\n### 公開前に何を確認しますか？\nFactual claims、見える人や聞こえる人の permission、すべての media element の rights、platform や fundraising rules を確認します。\n### 一つの track を全 campaign に使えますか？\nConsistent style は brand に役立ちますが、cause ごとに tone check が必要です。すべての story に同じ lift は合いません。"
+      ]
+    },
+    "ko": {
+      "title": "기부 요청 영상을 과장하지 않는 AI music brief 작성법",
+      "description": "Nonprofit fundraising video에서 speech, proof, dignity, donation CTA를 지키는 music bed workflow.",
+      "body": [
+        "짧은 fundraising video에는 많은 것이 들어갑니다. 필요를 설명하는 사람, 시청자가 이해해야 하는 숫자, 현장 이미지, 그리고 donate나 share 요청입니다. Music이 너무 영웅적으로 들리면 appeal이 밀어붙이는 느낌이 됩니다. Bed가 너무 바쁘면 이유와 call to action이 사라집니다. Mood를 쓰기 전에 music의 job을 먼저 brief하세요.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music draft를 생성할 수 있는 AI 음악 제작 platform입니다. Nonprofit fundraising video에서는 instrumental options를 시험하는 sketchpad로 쓸 수 있지만 factual claims, participant permissions, file rights, platform rules는 publish 전에 별도로 확인해야 합니다.",
+        "## Feeling보다 job을 정한다",
+        "make people donate라고 쓰지 마세요. Review 가능한 job을 씁니다: keep attention under narration, mark the scene change, resolve gently after the ask. Section마다 job은 하나면 충분합니다. 문제를 여는 장면은 큰 swell보다 steadiness가 필요할 때가 많습니다. Beneficiary, staff, volunteer voice는 very low bed 또는 silence가 맞을 수 있습니다. Donation line은 문장 위가 아니라 끝난 뒤에 작게 lift합니다.",
+        "## Donor appeal map을 먼저 만든다",
+        "Video를 네 칸으로 나눕니다: need, human voice, proof, ask. Need에서는 hardship을 theatrical하게 만들지 말고 restrained pulse를 씁니다. Human voice에서는 speech를 앞에 둡니다. Proof에서는 numbers, names, locations, fund-use details가 들리고 보이게 공간을 남깁니다. 그래야 music이 evidence보다 더 확신하는 것처럼 들리지 않습니다. Ask에서는 link, QR code, end screen을 읽을 짧은 tail을 둡니다.",
+        "## Trust를 보호하는 prompt를 쓴다",
+        "재사용 가능한 prompt: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. Instrument, tempo, texture vocabulary가 부족하면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)가 broad mood를 test 가능한 style description으로 바꾸는 데 도움이 됩니다.",
+        "## Taste보다 speech와 numbers를 먼저 테스트한다",
+        "Cut을 captions와 함께 한 번 보고, 화면을 보지 않고 한 번 듣습니다. Organization name, donation amount, funds will be used 설명을 놓치면 music이 trust를 해치고 있는 것입니다. Bed는 speech보다 분명히 낮추고, numbers 앞에는 space를 두며, viewer에게 action을 요청하는 정확한 line 위에 cymbals나 rises를 올리지 마세요.",
+        "## Guesswork 없이 handoff한다",
+        "Prompt, selected draft, 선택 이유, edit에 사용한 outside files를 저장합니다. Review용 MP3나 editing용 WAV가 필요하면 [AI Audio Converter](https://easymusic.ai/ko/tools/audio-converter) 같은 tool은 소유하거나 처리 권한이 있는 file에만 사용하세요. Conversion은 rights, consent, fundraising-policy review를 대신하지 않습니다.",
+        "## 바로 적용할 수 있는 아이디어",
+        "- Section마다 music job을 하나만 둡니다: attention, transition, ask support.\n- Names, amounts, dates, fund-use details 아래에서는 bed를 낮추거나 mute합니다.\n- Prompt에 no tragedy swell, no victory fanfare 같은 forbidden emotion words를 넣습니다.\n- CTA나 QR code를 읽을 수 있게 마지막 3초를 차분하게 둡니다.\n- Clarity check와 approval을 위해 no-music version을 export합니다.",
+        "## FAQ\n### Fundraising video music은 슬퍼야 하나요?\n기본값은 아닙니다. Heavy sadness는 emotional pressure처럼 느껴질 수 있습니다. Story가 말하게 두는 restrained bed가 보통 더 신뢰를 줍니다.\n### Music은 언제 커져도 되나요?\n중요한 spoken line 뒤나 visual transition에서만 키우세요. Number, proof, ask는 앞에 남아야 합니다.\n### Publish 전에 무엇을 확인해야 하나요?\nFactual claims, 보이거나 들리는 사람의 permission, 모든 media element의 rights, platform 또는 fundraising rules를 확인하세요.\n### 한 track을 모든 campaign에 써도 되나요?\nConsistent style은 brand에 도움이 되지만 cause마다 tone check가 필요합니다. 모든 story에 같은 lift가 맞지는 않습니다."
+      ]
+    },
+    "pt": {
+      "title": "Brief de musica IA para videos de doacao sem exagerar o pedido",
+      "description": "Workflow pratico para musica em fundraising videos que preserva voz, provas, dignidade e CTA de doacao.",
+      "body": [
+        "Um video curto de arrecadacao precisa carregar muita coisa: uma pessoa explica a necessidade, um numero deve ser entendido, uma imagem de campo da contexto e no final vem o pedido para doar ou compartilhar. Se a musica fica heroica demais, o appeal pode parecer forçado. Se o bed esta cheio demais, a razao e o call to action somem. Comece definindo o trabalho da musica antes de pedir um mood.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar drafts a partir de descricoes, lyrics e ideias de style. Em um nonprofit fundraising video, ela pode servir como espaco de rascunho para opcoes instrumentais, enquanto claims factuais, permissoes de participantes, direitos de arquivos e regras de plataforma precisam de revisao separada antes da publicacao.",
+        "## Defina o trabalho, nao so o sentimento",
+        "Nao escreva make people donate. Escreva uma funcao revisavel: keep attention under narration, mark the scene change ou resolve gently after the ask. Cada secao deve ter uma funcao. A abertura do problema muitas vezes precisa de estabilidade, nao de um grande swell. A voz de beneficiario, equipe ou voluntario pode precisar de bed muito baixo ou silencio. A linha de doacao pode receber um pequeno lift depois da frase, nao por cima dela.",
+        "## Crie primeiro um mapa de donor appeal",
+        "Divida o video em quatro colunas: need, human voice, proof, ask. Em need, use um pulso contido sem teatralizar a dificuldade. Em human voice, deixe a fala na frente. Em proof, dê espaco para numeros, nomes, locais e uso dos fundos, para que a musica nao soe mais certa que a evidencia. Em ask, deixe uma cauda curta para leitura de link, QR code ou end screen.",
+        "## Escreva um prompt que proteja confianca",
+        "Prompt reutilizavel: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. Se precisar de vocabulario mais preciso para instrumentos, tempo ou textura, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar um mood amplo em uma descricao de style testavel.",
+        "## Teste fala e numeros antes do gosto",
+        "Assista ao corte uma vez com captions e escute uma vez sem olhar a tela. Se voce perde o nome da organizacao, o valor ou a explicacao de como o dinheiro sera usado, a musica esta prejudicando a confianca. Mantenha o bed claramente abaixo da fala, deixe espaco antes dos numeros e evite cymbals ou rises na frase exata que pede acao.",
+        "## Entregue sem adivinhar",
+        "Salve prompt, draft escolhido, motivo da escolha e arquivos externos usados no edit. Se precisar de MP3 para review ou WAV para edicao, uma ferramenta como [AI Audio Converter](https://easymusic.ai/pt/tools/audio-converter) e util apenas para arquivos que voce possui ou pode processar. Conversao nao substitui revisao de direitos, consentimento ou regras de fundraising.",
+        "## Ideias reutilizaveis para hoje",
+        "- Dê a cada secao um trabalho musical: attention, transition ou ask support.\n- Baixe ou mute o bed sob nomes, valores, datas e detalhes de uso dos fundos.\n- Adicione forbidden emotion words ao prompt, como no tragedy swell e no victory fanfare.\n- Deixe os ultimos tres segundos calmos para leitura do CTA ou QR.\n- Exporte uma versao sem musica para checar clareza e aprovacao.",
+        "## Perguntas frequentes\n### Musica de video de doacao deve soar triste?\nNao por padrao. Tristeza pesada pode parecer pressao emocional. Um bed contido que deixa a historia falar costuma ser mais confiavel.\n### Quando a musica deve crescer?\nApenas depois de uma frase falada importante ou durante uma transicao visual. Numero, prova e pedido devem ficar na frente.\n### O que revisar antes de publicar?\nClaims factuais, permissoes das pessoas vistas ou ouvidas, direitos de cada elemento de media e regras de plataforma ou arrecadacao.\n### Uma pista serve para toda campanha?\nUm style consistente ajuda a marca, mas cada causa precisa de revisao de tom. Algumas historias pedem calor tranquilo, nao o mesmo lift sempre."
+      ]
+    },
+    "ru": {
+      "title": "Бриф для AI music в видео сбора пожертвований без давления на зрителя",
+      "description": "Практический workflow для музыки в fundraising video, где речь, факты, достоинство и CTA остаются ясными.",
+      "body": [
+        "Короткое видео сбора пожертвований несет много задач: человек объясняет потребность, зритель должен понять сумму, кадр с места дает контекст, а в конце звучит просьба пожертвовать или поделиться. Если музыка становится слишком героической, appeal может выглядеть навязчиво. Если bed слишком плотный, причина и call to action теряются. Поэтому начните не с mood, а с роли музыки.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа AI music creation, где можно создавать music drafts из descriptions, lyrics и style ideas. Для nonprofit fundraising video она может быть рабочим sketchpad для instrumental options, но factual claims, participant permissions, file rights и platform rules нужно проверять отдельно до публикации.",
+        "## Определите задачу, а не только эмоцию",
+        "Не пишите make people donate. Пишите проверяемую задачу: keep attention under narration, mark the scene change или resolve gently after the ask. У каждого раздела должна быть одна задача. Начало с проблемой часто требует устойчивости, а не большого swell. Голос beneficiary, staff или volunteer может нуждаться в очень тихом bed или тишине. Строка donation может получить небольшой lift после фразы, а не поверх нее.",
+        "## Сначала сделайте donor appeal map",
+        "Разделите видео на четыре колонки: need, human voice, proof, ask. В need используйте restrained pulse, не превращая трудность в театр. В human voice оставьте речь впереди. В proof оставьте место для numbers, names, locations и fund-use details, чтобы музыка не звучала увереннее доказательств. В ask оставьте короткий tail для link, QR code или end screen.",
+        "## Напишите prompt, который защищает доверие",
+        "Рабочая рамка: restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear. Если не хватает слов для instruments, tempo или texture, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить широкий mood в style description, который можно тестировать.",
+        "## Проверяйте речь и числа раньше вкуса",
+        "Посмотрите монтаж один раз с captions и послушайте один раз без экрана. Если теряется название организации, сумма donation или объяснение how funds will be used, музыка снижает доверие. Держите bed явно ниже речи, оставляйте пространство перед числами и не ставьте cymbals или rises на фразу, где зрителя просят действовать.",
+        "## Передавайте материалы без догадок",
+        "Сохраните prompt, selected draft, причину выбора и outside files, использованные в edit. Если нужен MP3 для review или WAV для монтажа, такой инструмент, как [AI Audio Converter](https://easymusic.ai/ru/tools/audio-converter), полезен только для файлов, которыми вы владеете или которые вам разрешено обрабатывать. Conversion не заменяет проверку rights, consent или fundraising policy.",
+        "## Идеи, которые можно применить сегодня",
+        "- Дайте каждому разделу одну музыкальную задачу: attention, transition или ask support.\n- Уменьшайте или выключайте bed под names, amounts, dates и fund-use details.\n- Добавьте forbidden emotion words в prompt, например no tragedy swell и no victory fanfare.\n- Оставьте последние три секунды спокойными, чтобы CTA или QR читались.\n- Экспортируйте no-music version для проверки ясности и согласования.",
+        "## FAQ\n### Должна ли музыка для fundraising video быть грустной?\nНе обязательно. Тяжелая грусть может ощущаться как emotional pressure. Сдержанный bed, который дает истории говорить, часто вызывает больше доверия.\n### Когда музыка может стать больше?\nТолько после важной spoken line или во время visual transition. Number, proof и ask должны оставаться впереди.\n### Что проверить перед публикацией?\nFactual claims, permissions людей в кадре или голосе, rights каждого media element и platform или fundraising rules.\n### Подойдет ли один track для каждой кампании?\nConsistent style помогает brand, но каждой cause нужна tone check. Некоторым историям нужно тихое тепло, а не один и тот же lift."
+      ]
+    },
+    "zh": {
+      "title": "为募捐视频写 AI 音乐 brief，别让请求显得过度煽情",
+      "description": "一个实用 workflow，帮助 nonprofit fundraising video 保住人声、证据、尊重感和 donation CTA。",
+      "body": [
+        "一条很短的募捐视频往往要承载很多内容：有人说明真实需求，一个数字必须被听清，一段现场画面提供背景，最后还要请观众 donate 或 share。如果音乐太英雄化，appeal 会显得在推着观众做决定；如果 bed 太满，原因和 call to action 会被埋掉。所以先写清音乐的工作，而不是先写 mood。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以用 descriptions、lyrics 和 style ideas 生成 music drafts。对于 nonprofit fundraising video，它可以作为测试 instrumental options 的草稿空间，但事实陈述、出镜许可、file rights 和 platform rules 仍然需要在发布前单独确认。",
+        "## 先定义 job，不只定义 feeling",
+        "不要写 make people donate。写一个可以 review 的 job：keep attention under narration、mark the scene change，或者 resolve gently after the ask。每个 section 只给一个 job。开头说明问题时，常常需要 steadiness，而不是很大的 swell。Beneficiary、staff 或 volunteer 的 voice 可能需要 very low bed，甚至 silence。Donation line 可以在句子结束后轻轻抬一下，而不是盖在句子上。",
+        "## 先做 donor appeal map",
+        "把视频分成四栏：need、human voice、proof、ask。Need 里用克制的 pulse，不要把困难拍成戏剧效果。Human voice 里让 speech 在最前面。Proof 里给 numbers、names、locations 和 fund-use details 留空间，避免音乐听起来比证据更肯定。Ask 里留一小段 tail，让 link、QR code 或 end screen 有时间被读到。",
+        "## 写一个保护 trust 的 prompt",
+        "可复用的 prompt frame：restrained warm instrumental bed for nonprofit donor appeal, soft piano, muted strings, light pulse around 82 BPM, hopeful but not triumphant, no choir, no huge cinematic swell, no busy percussion, leaves narration and donation call to action clear。如果你缺少描述 instruments、tempo 或 texture 的词，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把宽泛 mood 变成更容易测试的 style description。",
+        "## 先测 speech 和 numbers，再谈 taste",
+        "先带 captions 看一遍剪辑，再不看屏幕听一遍。如果 organization name、donation amount，或者 how funds will be used 的说明听不清，音乐就在伤害 trust。让 bed 明显低于 speech，在数字前留一点空间，不要把 cymbals 或 rises 放在请求观众行动的那一句上。",
+        "## 交付时不要靠猜",
+        "保存 prompt、selected draft、选择理由，以及 edit 里用到的 outside files。如果需要 review 用 MP3 或 editing 用 WAV，像 [AI Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 这样的工具只适合处理你拥有或有权限处理的 file。Conversion 不能替代 rights、consent 或 fundraising-policy review。",
+        "## 今天就能用的想法",
+        "- 每个 section 只给一个 music job：attention、transition 或 ask support。\n- 在 names、amounts、dates 和 fund-use details 下方降低或 mute bed。\n- 在 prompt 里加入 forbidden emotion words，比如 no tragedy swell 和 no victory fanfare。\n- 让最后三秒足够平静，方便观众读 CTA 或 QR。\n- 导出一个 no-music version，用来检查清晰度和审批。",
+        "## FAQ\n### 募捐视频音乐一定要悲伤吗？\n不一定。Heavy sadness 可能像 emotional pressure。让故事自己说话的 restrained bed 通常更可信。\n### 什么时候可以让音乐变大？\n只在重要 spoken line 之后，或 visual transition 期间。Number、proof 和 ask 应该始终在前面。\n### 发布前要检查什么？\n检查 factual claims、画面或声音中人物的 permission、每个 media element 的 rights，以及相关 platform 或 fundraising rules。\n### 一首 track 能用于所有 campaign 吗？\nConsistent style 对 brand 有帮助，但每个 cause 都需要 tone check。有些故事需要安静的温度，而不是每次同样的 lift。"
+      ]
+    }
+  }
+}
