@@ -1,0 +1,249 @@
+{
+  "date": "2026-08-31",
+  "slug": "ai-music-tempo-groove-prompt-workflow",
+  "cluster": "prompt-workflow-guidance",
+  "translations": {
+    "ar": {
+      "title": "اكتب tempo prompt لموسيقى AI لا يشعر بسرعة خاطئة",
+      "description": "Workflow عملي لاستخدام BPM وgroove density وhalf-time feel حتى لا تبدو موسيقى AI اسرع او ابطأ من المطلوب.",
+      "body": [
+        "تكتب 100 BPM because the edit is calm، ثم تسمع draft يبدو مستعجلا. او تكتب energetic 140 BPM، فيخرج track ثقيل وكأنه يتحرك بنصف السرعة. المشكلة ليست الرقم وحده. في الموسيقى، ما يشعر به المستمع يتأثر بموضع snare، كثافة hi-hats، طول النوتات، سرعة الlyrics، وعدد الاشياء التي تحدث في كل bar. لذلك يحتاج tempo prompt الى اكثر من BPM.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة انشاء موسيقى AI تساعدك على توليد music drafts من descriptions وlyrics وstyle ideas. عند العمل على tempo، استخدمها كمساحة لاختبار اتجاهات مختلفة، لكن لا تفترض ان رقم BPM وحده سيجعل كل draft يشعر بالطاقة نفسها.",
+        "## افصل بين tempo وfeel",
+        "اكتب ثلاثة اسطر في brief: clock tempo، felt tempo، edit energy. Clock tempo هو الرقم مثل 92 BPM. Felt tempo يشرح هل الtrack يمشي half-time، full-time، او double-time. Edit energy يشرح ما يجب ان يخدمه الصوت: calm narration، product reveal، running montage، او chorus lift. هذه الاسطر تمنع prompt مثل 120 BPM upbeat من ان يصبح غامضا جدا.",
+        "## استخدم groove density لا adjectives فقط",
+        "كلمة slow لا تكفي. اكتب low drum density، sparse eighth-note pulse، no sixteenth-note hi-hat runs اذا كان الtrack يجب ان يبدو هادئا. اذا احتجت طاقة من دون رفع الرقم، اكتب steady kick, light syncopated bass, full-time chorus feel. هذه التفاصيل تعطي model معلومات عن عدد الاحداث داخل كل bar، لا عن السرعة الرياضية فقط.",
+        "## Prompt frame قابل للتعديل",
+        "مثال: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. اذا احتجت مفردات ادق للايقاع والالات، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل mood عام الى style description اكثر قابلية للاختبار.",
+        "## راقب lyrics cadence",
+        "اذا كانت الاغنية تحتوي كلمات، فسرعة المقاطع قد تجعل 88 BPM يبدو سريعا جدا. قبل توليد النسخة النهائية، اقرأ chorus بصوت عال مع metronome تقريبي. اذا ازدحمت الكلمات، قلل syllables، زد pauses، او اطلب vocal delivery wider and less syllable-dense. عند تعديل نص الاغنية، يمكن استخدام [AI Lyrics Generator](https://easymusic.ai/ar/tools/ai-lyrics-generator) كمسودة، لكن راجع الوزن والمعنى بنفسك.",
+        "## اختبر الشعور لا الرقم فقط",
+        "شغل اول 20 ثانية واضرب بيدك على pulse الذي تشعر به. اذا كنت تضرب نصف الرقم المكتوب، فالdraft يعطي half-time feel. اذا وجدت نفسك تضرب بسرعة مضاعفة، فالكثافة عالية. ضع marker عند section الذي يجب ان يرفع الطاقة واسأل: هل ارتفع arrangement فعلا، ام زادت الضوضاء فقط؟",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب BPM مع felt tempo: 100 BPM, relaxed half-time feel.\n- حدد subdivision: quarter pulse، eighth pulse، او no sixteenth-note percussion.\n- اطلب chorus lift بزيادة width او harmony بدلا من doubling drums فقط.\n- اختبر الdraft بالتصفيق او العد قبل الحكم على mix quality.\n- احفظ سبب رفض كل draft: too dense، too sleepy، rushed vocals، او weak lift.",
+        "## اسئلة شائعة\n### هل يكفي ان اكتب BPM في prompt؟\nلا غالبا. BPM يساعد، لكن groove density وdrum placement يغيران احساس السرعة.\n### ماذا يعني half-time feel؟\nهو ان يبقى الرقم كما هو تقريبا، لكن توزيع snare وrhythm يجعل الtrack يشعر كأنه ابطأ.\n### كيف اجعل chorus اكبر من دون ان يبدو اسرع؟\nاطلب harmonies اوسع، bass اوضح، وtexture اعرض، مع منع hi-hat runs او drum doubling.\n### هل يجب تغيير BPM اذا لم يعجبني الاحساس؟\nجرب اولا تقليل density او توضيح half-time/full-time. بعدها جرب نسخة برقم مختلف اذا بقي الاحساس خاطئا."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik-Tempo prompten, damit der Track nicht falsch schnell wirkt",
+      "description": "Ein Workflow fuer BPM, Groove-Dichte, Half-Time-Feel und Lyrics-Cadence, wenn KI-Musik zu gehetzt oder zu traege klingt.",
+      "body": [
+        "Du schreibst 100 BPM, weil der Schnitt ruhig wirken soll, und der Entwurf klingt trotzdem gehetzt. Oder du schreibst energetic 140 BPM, aber der Track fuehlt sich schwer und halb so schnell an. Das Problem ist selten nur die Zahl. Tempo-Gefuehl entsteht auch durch Snare-Platzierung, Hi-Hat-Dichte, Notenlaengen, Lyrics-Cadence und wie viel in jedem Takt passiert. Ein guter Tempo-Prompt braucht deshalb mehr als BPM.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform zur KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen generieren kannst. Beim Arbeiten mit Tempo eignet sie sich als Testraum fuer verschiedene Richtungen; eine BPM-Zahl allein sorgt aber nicht dafuer, dass jeder Entwurf die gleiche Energie hat.",
+        "## Trenne Tempo und Feel",
+        "Schreibe drei Zeilen in den Brief: clock tempo, felt tempo, edit energy. Clock tempo ist die Zahl, zum Beispiel 92 BPM. Felt tempo sagt, ob der Track half-time, full-time oder double-time wirken soll. Edit energy beschreibt, was der Klang tragen muss: ruhige Erklaerung, Product Reveal, Laufmontage oder Chorus-Lift. So wird 120 BPM upbeat weniger schwammig.",
+        "## Nutze Groove-Dichte statt nur Adjektive",
+        "Slow reicht nicht. Schreibe low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs, wenn der Track ruhig bleiben soll. Wenn du Energie ohne hoehere BPM brauchst, schreibe steady kick, light syncopated bass, full-time chorus feel. Diese Details sagen etwas ueber die Anzahl der Ereignisse im Takt, nicht nur ueber mathematische Geschwindigkeit.",
+        "## Ein anpassbarer Prompt-Frame",
+        "Beispiel: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Wenn dir genauere Woerter fuer Rhythmus und Instrumente fehlen, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) aus einer groben Stimmung eine besser pruefbare Style-Beschreibung machen.",
+        "## Achte auf Lyrics-Cadence",
+        "Wenn der Song Text hat, kann Silbendichte 88 BPM ploetzlich schnell wirken lassen. Lies den Chorus vor dem finalen Generieren laut mit einem ungefaehren Metronom. Wenn die Worte gedrueckt klingen, kuerze Silben, setze Pausen oder brief vocal delivery wider and less syllable-dense. Beim Ueberarbeiten von Text kann der [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) als Entwurf dienen; Gewichtung und Sinn pruefst du selbst.",
+        "## Teste das Gefuehl, nicht nur die Zahl",
+        "Spiele die ersten 20 Sekunden und klopfe den Puls, den du tatsaechlich fuehlst. Wenn du halb so schnell klopfst wie die Zahl, liefert der Entwurf half-time feel. Wenn du doppelt so schnell klopfst, ist die Dichte zu hoch. Setze einen Marker an der Stelle, die Energie heben soll, und frage: Wurde das Arrangement groesser, oder nur lauter und voller?",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe BPM plus felt tempo: 100 BPM, relaxed half-time feel.\n- Benenne die Subdivision: quarter pulse, eighth pulse oder no sixteenth-note percussion.\n- Bitte um Chorus-Lift durch width oder harmony, nicht nur durch doubling drums.\n- Klatsche oder zaehle zum Entwurf, bevor du die Mixqualitaet bewertest.\n- Notiere, warum du Versionen ablehnst: too dense, too sleepy, rushed vocals oder weak lift.",
+        "## FAQ\n### Reicht eine BPM-Angabe im Prompt?\nMeist nicht. BPM hilft, aber Groove-Dichte und Drum-Platzierung veraendern das Tempo-Gefuehl stark.\n### Was bedeutet half-time feel?\nDie Zahl bleibt ungefaehr gleich, aber Snare und Rhythmus lassen den Track langsamer wirken.\n### Wie wird ein Chorus groesser, ohne schneller zu klingen?\nBitte um breitere Harmonien, klareren Bass und mehr Textur, waehrend du hi-hat runs oder drum doubling begrenzt.\n### Soll ich sofort die BPM aendern?\nErst Dichte reduzieren oder half-time/full-time klaeren. Wenn das Gefuehl dann noch falsch ist, teste eine andere Zahl."
+      ]
+    },
+    "en": {
+      "title": "Write AI Music Tempo Prompts That Do Not Feel Too Fast or Too Slow",
+      "description": "A practical workflow for using BPM, groove density, half-time feel, and lyric cadence when AI music drafts miss the intended pace.",
+      "body": [
+        "You ask for 100 BPM because the edit should feel calm, then the draft comes back rushed. Or you ask for energetic 140 BPM and the track lumbers along as if it is moving at half speed. The number is only part of the problem. Perceived pace also comes from snare placement, hi-hat density, note length, lyric cadence, and how many events happen inside each bar. A useful tempo prompt gives the model more than a BPM.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. When you are working on tempo, treat it as a sketchpad for controlled variations, while remembering that a BPM number alone will not make every draft feel equally fast.",
+        "## Separate Tempo From Feel",
+        "Write three lines before you generate: clock tempo, felt tempo, edit energy. Clock tempo is the number, such as 92 BPM. Felt tempo explains whether the track should read as half-time, full-time, or double-time. Edit energy explains what the music has to support: calm narration, a product reveal, a running montage, or a chorus lift. Those three lines make 120 BPM upbeat much less vague.",
+        "## Brief Groove Density, Not Just Adjectives",
+        "Slow is not specific enough. If the track should feel relaxed, write low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs. If you need energy without changing the BPM, write steady kick, light syncopated bass, full-time chorus feel. These details tell the system how crowded each bar should feel, which is often what listeners hear as speed.",
+        "## A Reusable Prompt Frame",
+        "Try a prompt like: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. If the vocabulary for rhythm and instrumentation is hard to pin down, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can turn a broad mood into a clearer style description you can test.",
+        "## Watch the Lyric Cadence",
+        "For songs with vocals, syllable density can make 88 BPM feel surprisingly fast. Before generating the final version, read the chorus aloud with a rough metronome. If the words crowd the beat, cut syllables, add pauses, or brief vocal delivery wider and less syllable-dense. When revising text, the [AI Lyrics Generator](https://easymusic.ai/tools/ai-lyrics-generator) can help draft options, but you still need to check stress, meaning, and singability.",
+        "## Test the Feel, Not Just the Number",
+        "Play the first 20 seconds and tap the pulse you actually feel. If you tap at half the requested BPM, the draft is giving you half-time feel. If your hand wants to double the pulse, the arrangement is too dense. Put a marker at the section that should lift and ask a plain question: did the arrangement get bigger, or did it only get busier?",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write BPM plus felt tempo: 100 BPM, relaxed half-time feel.\n- Name the subdivision: quarter pulse, eighth pulse, or no sixteenth-note percussion.\n- Ask for chorus lift through width or harmony instead of only doubling drums.\n- Clap or count over the draft before judging the mix quality.\n- Keep rejection notes for each draft: too dense, too sleepy, rushed vocals, or weak lift.",
+        "## FAQ\n### Is writing the BPM enough in an AI music prompt?\nUsually not. BPM helps, but groove density and drum placement can make the same number feel relaxed, urgent, or heavy.\n### What does half-time feel mean?\nThe tempo number may stay the same, but the rhythm placement makes the music feel as if it is moving more slowly.\n### How do I make a chorus bigger without making it faster?\nAsk for wider harmony, clearer bass, and broader texture while blocking hi-hat runs or drum doubling.\n### Should I change the BPM when the draft feels wrong?\nFirst adjust density and half-time or full-time language. If the feel still misses, then test a nearby BPM."
+      ]
+    },
+    "es": {
+      "title": "Escribe prompts de tempo para musica IA que no se sienta mal de ritmo",
+      "description": "Workflow practico para usar BPM, groove density, half-time feel y cadencia de lyrics cuando la musica IA no cae al paso.",
+      "body": [
+        "Pides 100 BPM porque el edit debe sentirse tranquilo y el draft vuelve apurado. O pides energetic 140 BPM y la pista camina pesada, casi a media velocidad. El numero es solo una parte. La velocidad percibida tambien depende de donde cae la snare, cuanta densidad tienen los hi-hats, la duracion de las notas, la cadencia de lyrics y cuantos eventos pasan en cada bar. Un buen tempo prompt da mas informacion que BPM.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar drafts desde descripciones, lyrics e ideas de style. Cuando trabajas el tempo, usala como sketchpad para variaciones controladas, recordando que un numero BPM no hace que todos los drafts se sientan igual de rapidos.",
+        "## Separa tempo de feel",
+        "Escribe tres lineas antes de generar: clock tempo, felt tempo, edit energy. Clock tempo es el numero, por ejemplo 92 BPM. Felt tempo explica si la pista debe leerse como half-time, full-time o double-time. Edit energy dice que debe sostener la musica: narracion tranquila, product reveal, running montage o chorus lift. Esas tres lineas hacen que 120 BPM upbeat sea mucho menos vago.",
+        "## Brief de groove density, no solo adjetivos",
+        "Slow no es suficiente. Si la pista debe sentirse relajada, escribe low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs. Si necesitas energia sin cambiar BPM, escribe steady kick, light syncopated bass, full-time chorus feel. Estos detalles explican cuan lleno se siente cada bar, que muchas veces es lo que el oyente interpreta como velocidad.",
+        "## Prompt frame reutilizable",
+        "Prueba algo asi: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Si cuesta encontrar vocabulario de ritmo e instrumentos, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood amplio en una descripcion de style mas clara para probar.",
+        "## Vigila la cadencia de lyrics",
+        "En canciones con voz, la densidad de silabas puede hacer que 88 BPM se sienta sorprendentemente rapido. Antes de generar la version final, lee el chorus en voz alta con un metronome aproximado. Si las palabras se amontonan, corta silabas, agrega pausas o pide vocal delivery wider and less syllable-dense. Para revisar texto, el [AI Lyrics Generator](https://easymusic.ai/es/tools/ai-lyrics-generator) puede proponer borradores, pero debes revisar acento, significado y cantabilidad.",
+        "## Prueba el feel, no solo el numero",
+        "Reproduce los primeros 20 segundos y marca con la mano el pulse que realmente sientes. Si marcas la mitad del BPM pedido, el draft esta dando half-time feel. Si tu mano quiere duplicar el pulse, el arreglo esta demasiado denso. Pon un marker en la seccion que debe levantar y pregunta: el arrangement crecio, o solo se lleno de ruido?",
+        "## Ideas reutilizables para hoy",
+        "- Escribe BPM mas felt tempo: 100 BPM, relaxed half-time feel.\n- Nombra la subdivision: quarter pulse, eighth pulse o no sixteenth-note percussion.\n- Pide chorus lift con width o harmony, no solo duplicando drums.\n- Aplaude o cuenta encima del draft antes de juzgar la calidad del mix.\n- Guarda notas de rechazo por draft: too dense, too sleepy, rushed vocals o weak lift.",
+        "## Preguntas frecuentes\n### Basta con escribir BPM en un prompt de musica IA?\nNormalmente no. BPM ayuda, pero groove density y drum placement pueden cambiar mucho la sensacion.\n### Que significa half-time feel?\nEl numero de tempo puede quedarse igual, pero la colocacion ritmica hace que la musica parezca mas lenta.\n### Como hago un chorus mas grande sin hacerlo mas rapido?\nPide armonia mas amplia, bass mas claro y textura mas abierta, limitando hi-hat runs o drum doubling.\n### Debo cambiar BPM cuando el draft se siente mal?\nPrimero ajusta density y lenguaje half-time o full-time. Si sigue fallando, prueba un BPM cercano."
+      ]
+    },
+    "fr": {
+      "title": "Ecrire des prompts de tempo IA qui ne sonnent ni trop vite ni trop lent",
+      "description": "Workflow pratique pour BPM, groove density, half-time feel et cadence de paroles quand une musique IA rate le rythme voulu.",
+      "body": [
+        "Tu demandes 100 BPM parce que le montage doit rester calme, puis le draft revient presse. Ou tu demandes energetic 140 BPM et le morceau avance lourdement, comme a mi-vitesse. Le chiffre n'est qu'une partie du probleme. La vitesse percue vient aussi de la place de la snare, de la densite des hi-hats, de la longueur des notes, de la cadence des paroles et du nombre d'evenements dans chaque bar. Un bon prompt de tempo donne plus qu'un BPM.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui genere des brouillons musicaux a partir de descriptions, lyrics et idees de style. Pour travailler le tempo, utilise-la comme espace de variations controlees, tout en gardant en tete qu'un nombre de BPM ne suffit pas a donner la meme vitesse ressentie a chaque draft.",
+        "## Separrer tempo et feel",
+        "Ecris trois lignes avant de generer : clock tempo, felt tempo, edit energy. Clock tempo est le nombre, par exemple 92 BPM. Felt tempo dit si le morceau doit etre percu half-time, full-time ou double-time. Edit energy precise ce que la musique soutient : narration calme, product reveal, running montage ou chorus lift. Ces trois lignes rendent 120 BPM upbeat beaucoup moins vague.",
+        "## Briefer la groove density",
+        "Slow n'est pas assez precis. Si le morceau doit rester detendu, ecris low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs. Si tu veux de l'energie sans changer le BPM, ecris steady kick, light syncopated bass, full-time chorus feel. Ces details indiquent combien le bar doit etre rempli, ce que l'auditeur entend souvent comme vitesse.",
+        "## Prompt frame reutilisable",
+        "Essaie ceci : warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Si le vocabulaire rythmique ou instrumental manque, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer un mood large en description de style plus claire a tester.",
+        "## Surveiller la cadence des lyrics",
+        "Dans une chanson avec voix, la densite de syllabes peut rendre 88 BPM etonnamment rapide. Avant de generer la version finale, lis le chorus a voix haute avec un metronome approximatif. Si les mots se bousculent, coupe des syllabes, ajoute des pauses ou demande vocal delivery wider and less syllable-dense. Pour reviser le texte, le [AI Lyrics Generator](https://easymusic.ai/fr/tools/ai-lyrics-generator) peut fournir des pistes, mais accent, sens et chantabilite restent a verifier.",
+        "## Tester le ressenti, pas seulement le chiffre",
+        "Lance les 20 premieres secondes et tape le pulse que tu ressens vraiment. Si tu tapes a la moitie du BPM demande, le draft donne un half-time feel. Si ta main veut doubler le pulse, l'arrangement est trop dense. Place un marker a la section qui doit monter et pose la question simple : l'arrangement a-t-il grandi, ou s'est-il seulement rempli?",
+        "## Idees applicables aujourd'hui",
+        "- Ecris BPM plus felt tempo : 100 BPM, relaxed half-time feel.\n- Nomme la subdivision : quarter pulse, eighth pulse ou no sixteenth-note percussion.\n- Demande un chorus lift par width ou harmony plutot que par drum doubling.\n- Tape ou compte sur le draft avant de juger la qualite du mix.\n- Garde des notes de rejet : too dense, too sleepy, rushed vocals ou weak lift.",
+        "## FAQ\n### Le BPM suffit-il dans un prompt de musique IA ?\nRarement. Le BPM aide, mais la groove density et le placement de batterie changent beaucoup la vitesse percue.\n### Que veut dire half-time feel ?\nLe nombre de tempo peut rester le meme, mais le placement rythmique fait sentir le morceau plus lent.\n### Comment agrandir un chorus sans l'accelerer ?\nDemande des harmonies plus larges, une basse plus lisible et une texture ouverte, tout en limitant hi-hat runs et drum doubling.\n### Faut-il changer le BPM quand le draft rate ?\nClarifie d'abord density et langage half-time ou full-time. Si le ressenti reste faux, teste un BPM voisin."
+      ]
+    },
+    "it": {
+      "title": "Scrivi prompt di tempo per musica AI che non sembri troppo veloce",
+      "description": "Workflow pratico per BPM, groove density, half-time feel e cadenza dei lyrics quando una bozza AI sbaglia passo.",
+      "body": [
+        "Chiedi 100 BPM perche il montaggio deve restare calmo, ma il draft torna affrettato. Oppure chiedi energetic 140 BPM e la traccia sembra pesante, quasi a meta velocita. Il numero e solo una parte. La velocita percepita dipende anche da dove cade la snare, dalla densita degli hi-hats, dalla lunghezza delle note, dalla cadenza dei lyrics e da quanti eventi stanno in ogni bar. Un buon tempo prompt offre piu di un BPM.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA che genera draft musicali da descriptions, lyrics e style ideas. Quando lavori sul tempo, usala come spazio per variazioni controllate, ricordando che il numero BPM da solo non fa sentire ogni bozza con la stessa energia.",
+        "## Separa tempo e feel",
+        "Scrivi tre righe prima di generare: clock tempo, felt tempo, edit energy. Clock tempo e il numero, per esempio 92 BPM. Felt tempo spiega se la traccia deve leggere come half-time, full-time o double-time. Edit energy spiega cosa deve sostenere la musica: calm narration, product reveal, running montage o chorus lift. Queste tre righe rendono 120 BPM upbeat molto meno vago.",
+        "## Descrivi groove density, non solo aggettivi",
+        "Slow non basta. Se la traccia deve sembrare rilassata, scrivi low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs. Se serve energia senza cambiare BPM, scrivi steady kick, light syncopated bass, full-time chorus feel. Questi dettagli indicano quanto deve essere pieno ogni bar, che spesso e cio che l'ascoltatore percepisce come velocita.",
+        "## Prompt frame riutilizzabile",
+        "Prova cosi: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Se il vocabolario di ritmo e strumenti non e preciso, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood ampio in una descrizione di style piu chiara da testare.",
+        "## Controlla la cadenza dei lyrics",
+        "Nelle canzoni con voce, la densita sillabica puo far sembrare 88 BPM sorprendentemente veloce. Prima di generare la versione finale, leggi il chorus ad alta voce con un metronome approssimativo. Se le parole affollano il beat, taglia sillabe, aggiungi pause o chiedi vocal delivery wider and less syllable-dense. Per rivedere il testo, l'[AI Lyrics Generator](https://easymusic.ai/it/tools/ai-lyrics-generator) puo aiutare con bozze, ma stress, senso e cantabilita vanno controllati.",
+        "## Testa il feel, non solo il numero",
+        "Riproduci i primi 20 secondi e batti il pulse che senti davvero. Se batti a meta del BPM richiesto, il draft sta dando half-time feel. Se la mano vuole raddoppiare il pulse, l'arrangiamento e troppo denso. Metti un marker nella sezione che deve salire e chiediti: l'arrangement e diventato piu grande o solo piu affollato?",
+        "## Idee riutilizzabili per oggi",
+        "- Scrivi BPM piu felt tempo: 100 BPM, relaxed half-time feel.\n- Nomina la subdivision: quarter pulse, eighth pulse o no sixteenth-note percussion.\n- Chiedi chorus lift tramite width o harmony, non solo doubling drums.\n- Batti le mani o conta sul draft prima di giudicare il mix.\n- Salva note di rifiuto per ogni draft: too dense, too sleepy, rushed vocals o weak lift.",
+        "## FAQ\n### Basta scrivere BPM in un prompt di musica AI?\nDi solito no. BPM aiuta, ma groove density e drum placement cambiano molto la velocita percepita.\n### Che cosa significa half-time feel?\nIl numero del tempo puo restare uguale, ma la posizione ritmica fa sembrare la musica piu lenta.\n### Come rendo un chorus piu grande senza accelerarlo?\nChiedi harmony piu ampia, bass piu chiaro e texture piu larga, limitando hi-hat runs o drum doubling.\n### Devo cambiare BPM quando il draft non funziona?\nPrima regola density e linguaggio half-time o full-time. Se il feel resta sbagliato, prova un BPM vicino."
+      ]
+    },
+    "ja": {
+      "title": "速すぎず遅すぎない AI music tempo prompt の書き方",
+      "description": "BPM、groove density、half-time feel、lyric cadence を使い、AI music draft の pace ずれを直す workflow。",
+      "body": [
+        "Edit を calm にしたいので 100 BPM と書いたのに、draft は急いで聞こえる。逆に energetic 140 BPM と書いたのに、track は重く half speed のように動く。問題は数字だけではありません。Perceived pace は snare placement、hi-hat density、note length、lyric cadence、そして 1 bar の中で何が起きるかで変わります。Useful tempo prompt には BPM 以上の情報が必要です。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、descriptions、lyrics、style ideas から music drafts を生成できる AI music creation platform です。Tempo を扱うときは、controlled variations を試す sketchpad として使えます。ただし BPM number だけで、すべての draft が同じ速さに感じるわけではありません。",
+        "## Tempo と feel を分ける",
+        "Generate 前に三つの line を書きます: clock tempo、felt tempo、edit energy。Clock tempo は 92 BPM のような数字です。Felt tempo は track が half-time、full-time、double-time のどれとして聞こえるべきかを示します。Edit energy は music が支えるものを説明します: calm narration、product reveal、running montage、chorus lift。これで 120 BPM upbeat が曖昧でなくなります。",
+        "## Adjective ではなく groove density を brief する",
+        "Slow だけでは足りません。Relaxed にしたいなら low drum density、sparse eighth-note pulse、no sixteenth-note hi-hat runs と書きます。BPM を変えずに energy が必要なら steady kick、light syncopated bass、full-time chorus feel と書きます。これらは各 bar がどれだけ混むかを伝え、listener が speed として感じる部分に効きます。",
+        "## 使い回せる prompt frame",
+        "例: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Rhythm や instrumentation の語彙が曖昧なときは、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で broad mood を test しやすい style description にできます。",
+        "## Lyric cadence を見る",
+        "Vocals がある song では、syllable density によって 88 BPM でも意外に速く感じます。Final version を生成する前に、rough metronome に合わせて chorus を声に出して読みます。Words が beat に詰まるなら、syllables を削り、pauses を足し、vocal delivery wider and less syllable-dense と brief します。Text revision では [AI Lyrics Generator](https://easymusic.ai/ja/tools/ai-lyrics-generator) を draft 作りに使えますが、stress、meaning、singability は自分で確認します。",
+        "## Number ではなく feel を test する",
+        "最初の 20 秒を再生し、自分が実際に感じる pulse を手で叩きます。Requested BPM の半分で叩くなら draft は half-time feel です。手が倍の pulse を叩きたくなるなら arrangement が dense すぎます。Lift すべき section に marker を置き、単純に確認します: arrangement が大きくなったのか、busy になっただけなのか。",
+        "## 今日すぐ使える ideas",
+        "- BPM と felt tempo を一緒に書く: 100 BPM, relaxed half-time feel。\n- Subdivision を指定する: quarter pulse、eighth pulse、no sixteenth-note percussion。\n- Chorus lift は drum doubling だけでなく width や harmony で頼む。\n- Mix quality を判断する前に、draft に合わせて clap または count する。\n- 各 draft の rejection notes を残す: too dense、too sleepy、rushed vocals、weak lift。",
+        "## FAQ\n### AI music prompt に BPM を書けば十分ですか？\n多くの場合は不十分です。BPM は役立ちますが、groove density と drum placement が速さの感じ方を大きく変えます。\n### Half-time feel とは何ですか？\nTempo number は同じでも、rhythm placement によって music がゆっくり動いているように感じることです。\n### Chorus を速くせず大きくするには？\nWider harmony、clearer bass、broader texture を頼み、hi-hat runs や drum doubling を抑えます。\n### Draft の feel が違う時は BPM を変えるべきですか？\nまず density と half-time/full-time language を直します。それでも外れるなら近い BPM を試します。"
+      ]
+    },
+    "ko": {
+      "title": "너무 빠르거나 느리게 느껴지지 않는 AI music tempo prompt",
+      "description": "BPM, groove density, half-time feel, lyric cadence로 AI music draft의 pace 문제를 줄이는 practical workflow.",
+      "body": [
+        "Edit이 calm해야 해서 100 BPM을 썼는데 draft는 rushed하게 들립니다. 또는 energetic 140 BPM을 요청했는데 track은 half speed처럼 무겁게 움직입니다. 문제는 숫자만이 아닙니다. Perceived pace는 snare placement, hi-hat density, note length, lyric cadence, 그리고 각 bar 안에서 일어나는 event 수에 따라 달라집니다. 좋은 tempo prompt에는 BPM 이상의 정보가 필요합니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music drafts를 만들 수 있는 AI music creation platform입니다. Tempo를 다룰 때는 controlled variations를 시험하는 sketchpad로 쓰되, BPM number 하나가 모든 draft를 같은 속도감으로 만들지는 않는다는 점을 전제로 두세요.",
+        "## Tempo와 feel을 분리한다",
+        "Generate 전에 세 줄을 씁니다: clock tempo, felt tempo, edit energy. Clock tempo는 92 BPM 같은 숫자입니다. Felt tempo는 track이 half-time, full-time, double-time 중 어떻게 들려야 하는지 설명합니다. Edit energy는 music이 무엇을 받쳐야 하는지 말합니다: calm narration, product reveal, running montage, chorus lift. 이 세 줄이 120 BPM upbeat 같은 vague prompt를 줄입니다.",
+        "## Adjectives보다 groove density를 brief한다",
+        "Slow만으로는 부족합니다. Track이 relaxed해야 한다면 low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs라고 씁니다. BPM을 바꾸지 않고 energy가 필요하면 steady kick, light syncopated bass, full-time chorus feel이라고 씁니다. 이런 세부 사항은 각 bar가 얼마나 crowded하게 느껴질지 알려 주며, listener가 speed로 받아들이는 부분에 영향을 줍니다.",
+        "## 재사용 가능한 prompt frame",
+        "예시: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Rhythm과 instrumentation vocabulary가 잘 떠오르지 않으면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)가 broad mood를 test 가능한 style description으로 바꾸는 데 도움이 됩니다.",
+        "## Lyric cadence를 확인한다",
+        "Vocals가 있는 song에서는 syllable density 때문에 88 BPM도 놀랄 만큼 빠르게 느껴질 수 있습니다. Final version을 만들기 전에 rough metronome에 맞춰 chorus를 소리 내어 읽으세요. Words가 beat를 밀어내면 syllables를 줄이고 pauses를 넣거나 vocal delivery wider and less syllable-dense라고 brief하세요. Text revision에는 [AI Lyrics Generator](https://easymusic.ai/ko/tools/ai-lyrics-generator)를 draft 도구로 쓸 수 있지만 stress, meaning, singability는 직접 확인해야 합니다.",
+        "## Number가 아니라 feel을 test한다",
+        "처음 20초를 재생하고 실제로 느껴지는 pulse를 손으로 쳐 보세요. Requested BPM의 절반으로 치게 되면 draft는 half-time feel을 주고 있습니다. 손이 두 배 pulse를 치고 싶으면 arrangement가 너무 dense합니다. Lift가 필요한 section에 marker를 두고 간단히 묻습니다: arrangement가 커졌나, 아니면 busier해졌을 뿐인가?",
+        "## 오늘 바로 적용할 수 있는 ideas",
+        "- BPM과 felt tempo를 함께 씁니다: 100 BPM, relaxed half-time feel.\n- Subdivision을 지정합니다: quarter pulse, eighth pulse, no sixteenth-note percussion.\n- Chorus lift는 drum doubling뿐 아니라 width나 harmony로 요청합니다.\n- Mix quality를 판단하기 전에 draft 위에 clap하거나 count합니다.\n- 각 draft의 rejection notes를 남깁니다: too dense, too sleepy, rushed vocals, weak lift.",
+        "## FAQ\n### AI music prompt에 BPM만 쓰면 충분한가요?\n대부분 충분하지 않습니다. BPM은 도움이 되지만 groove density와 drum placement가 속도감을 크게 바꿉니다.\n### Half-time feel은 무엇인가요?\nTempo number는 그대로여도 rhythm placement 때문에 music이 더 느리게 움직이는 듯 느껴지는 것입니다.\n### Chorus를 더 빠르게 만들지 않고 크게 하려면?\nWider harmony, clearer bass, broader texture를 요청하고 hi-hat runs나 drum doubling은 제한하세요.\n### Draft feel이 틀리면 BPM부터 바꿔야 하나요?\n먼저 density와 half-time/full-time language를 조정하세요. 그래도 맞지 않으면 가까운 BPM을 테스트합니다."
+      ]
+    },
+    "pt": {
+      "title": "Escreva prompts de tempo para musica IA sem errar a sensacao",
+      "description": "Workflow pratico para usar BPM, groove density, half-time feel e cadence de lyrics quando o draft IA soa rapido ou lento demais.",
+      "body": [
+        "Voce pede 100 BPM porque o edit deve parecer calmo, mas o draft volta apressado. Ou pede energetic 140 BPM e a faixa anda pesada, como se estivesse em meia velocidade. O numero e so parte do problema. A velocidade percebida tambem vem de snare placement, hi-hat density, tamanho das notas, lyric cadence e quantos eventos acontecem dentro de cada bar. Um bom tempo prompt precisa de mais que BPM.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar music drafts a partir de descricoes, lyrics e ideias de style. Ao trabalhar tempo, use a ferramenta como sketchpad para variacoes controladas, lembrando que um numero BPM sozinho nao faz todo draft parecer igualmente rapido.",
+        "## Separe tempo de feel",
+        "Escreva tres linhas antes de gerar: clock tempo, felt tempo, edit energy. Clock tempo e o numero, como 92 BPM. Felt tempo explica se a faixa deve soar half-time, full-time ou double-time. Edit energy explica o que a musica precisa sustentar: calm narration, product reveal, running montage ou chorus lift. Essas tres linhas tornam 120 BPM upbeat bem menos vago.",
+        "## Use groove density, nao so adjetivos",
+        "Slow nao e especifico. Se a faixa deve parecer relaxada, escreva low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs. Se voce precisa de energia sem mudar o BPM, escreva steady kick, light syncopated bass, full-time chorus feel. Esses detalhes dizem quao cheio cada bar deve parecer, que muitas vezes e o que o ouvinte entende como velocidade.",
+        "## Prompt frame reutilizavel",
+        "Experimente: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Se faltar vocabulario para ritmo e instrumentos, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar um mood amplo em uma descricao de style mais clara para testar.",
+        "## Observe a cadence dos lyrics",
+        "Em songs com voz, syllable density pode fazer 88 BPM soar surpreendentemente rapido. Antes de gerar a versao final, leia o chorus em voz alta com um metronome aproximado. Se as palavras apertam o beat, corte silabas, adicione pausas ou peca vocal delivery wider and less syllable-dense. Para revisar texto, o [AI Lyrics Generator](https://easymusic.ai/pt/tools/ai-lyrics-generator) pode ajudar com drafts, mas stress, significado e cantabilidade ficam sob sua revisao.",
+        "## Teste o feel, nao so o numero",
+        "Toque os primeiros 20 segundos e bata o pulse que voce realmente sente. Se bater na metade do BPM pedido, o draft esta em half-time feel. Se sua mao quiser dobrar o pulse, o arrangement esta denso demais. Coloque um marker na secao que deve subir e pergunte de forma simples: o arrangement cresceu, ou apenas ficou mais cheio?",
+        "## Ideias reutilizaveis para hoje",
+        "- Escreva BPM mais felt tempo: 100 BPM, relaxed half-time feel.\n- Nomeie a subdivision: quarter pulse, eighth pulse ou no sixteenth-note percussion.\n- Peca chorus lift por width ou harmony, nao apenas doubling drums.\n- Bata palmas ou conte sobre o draft antes de julgar a qualidade do mix.\n- Guarde notas de rejeicao por draft: too dense, too sleepy, rushed vocals ou weak lift.",
+        "## Perguntas frequentes\n### Escrever BPM basta em um prompt de musica IA?\nGeralmente nao. BPM ajuda, mas groove density e drum placement mudam muito a sensacao de velocidade.\n### O que significa half-time feel?\nO numero de tempo pode ficar igual, mas o rhythm placement faz a musica parecer mais lenta.\n### Como deixar um chorus maior sem acelerar?\nPeca harmony mais ampla, bass mais claro e texture mais aberta, limitando hi-hat runs ou drum doubling.\n### Devo mudar o BPM quando o draft parece errado?\nPrimeiro ajuste density e linguagem half-time ou full-time. Se ainda nao funcionar, teste um BPM proximo."
+      ]
+    },
+    "ru": {
+      "title": "Пишите AI music tempo prompts, которые не звучат слишком быстро или медленно",
+      "description": "Практический workflow для BPM, groove density, half-time feel и lyric cadence, когда AI music draft промахивается по темпу.",
+      "body": [
+        "Вы просите 100 BPM, потому что монтаж должен быть спокойным, а draft звучит торопливо. Или просите energetic 140 BPM, но track идет тяжело, будто в половину скорости. Число - только часть задачи. Perceived pace зависит от snare placement, hi-hat density, длины нот, lyric cadence и количества событий в каждом bar. Полезный tempo prompt дает модели больше, чем BPM.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа AI music creation, где можно создавать music drafts из descriptions, lyrics и style ideas. Когда вы работаете с темпом, используйте ее как sketchpad для controlled variations, но помните: BPM number сам по себе не заставит каждый draft ощущаться одинаково быстрым.",
+        "## Разделите tempo и feel",
+        "Перед генерацией напишите три строки: clock tempo, felt tempo, edit energy. Clock tempo - это число, например 92 BPM. Felt tempo объясняет, должен ли track восприниматься как half-time, full-time или double-time. Edit energy описывает, что поддерживает музыка: calm narration, product reveal, running montage или chorus lift. Эти три строки делают 120 BPM upbeat намного менее расплывчатым.",
+        "## Брифуйте groove density, а не только adjectives",
+        "Slow недостаточно конкретно. Если track должен быть расслабленным, пишите low drum density, sparse eighth-note pulse, no sixteenth-note hi-hat runs. Если нужна энергия без смены BPM, пишите steady kick, light syncopated bass, full-time chorus feel. Эти детали показывают, насколько заполненным должен быть каждый bar, а слушатель часто воспринимает это как скорость.",
+        "## Рабочий prompt frame",
+        "Попробуйте: warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending. Если трудно подобрать слова для rhythm и instrumentation, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить широкий mood в более ясное style description для теста.",
+        "## Следите за lyric cadence",
+        "В songs с вокалом syllable density может сделать 88 BPM неожиданно быстрым. Перед финальной генерацией прочитайте chorus вслух под примерный metronome. Если words теснят beat, сократите syllables, добавьте pauses или укажите vocal delivery wider and less syllable-dense. При правке текста [AI Lyrics Generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) может помочь с drafts, но stress, meaning и singability нужно проверять самому.",
+        "## Тестируйте feel, а не только число",
+        "Включите первые 20 секунд и отбейте pulse, который реально чувствуете. Если вы стучите вдвое медленнее запрошенного BPM, draft дает half-time feel. Если рука хочет удвоить pulse, arrangement слишком dense. Поставьте marker на section, где нужен lift, и спросите просто: arrangement стал больше или только более загруженным?",
+        "## Идеи, которые можно применить сегодня",
+        "- Пишите BPM вместе с felt tempo: 100 BPM, relaxed half-time feel.\n- Называйте subdivision: quarter pulse, eighth pulse или no sixteenth-note percussion.\n- Просите chorus lift через width или harmony, а не только doubling drums.\n- Хлопайте или считайте поверх draft перед оценкой mix quality.\n- Ведите rejection notes: too dense, too sleepy, rushed vocals или weak lift.",
+        "## FAQ\n### Достаточно ли указать BPM в AI music prompt?\nОбычно нет. BPM помогает, но groove density и drum placement сильно меняют ощущение скорости.\n### Что значит half-time feel?\nTempo number может остаться прежним, но rhythm placement заставляет музыку ощущаться медленнее.\n### Как сделать chorus больше, не ускоряя его?\nПросите wider harmony, clearer bass и broader texture, ограничивая hi-hat runs или drum doubling.\n### Нужно ли менять BPM, если draft не попал?\nСначала уточните density и half-time/full-time language. Если feel все еще неверный, протестируйте близкий BPM."
+      ]
+    },
+    "zh": {
+      "title": "写出不会过快或过慢的 AI 音乐 tempo prompt",
+      "description": "一个实用 workflow，用 BPM、groove density、half-time feel 和 lyric cadence 修正 AI music draft 的 pace 偏差。",
+      "body": [
+        "你写 100 BPM，是因为剪辑应该 calm，可 draft 听起来很 rushed。或者你写 energetic 140 BPM，结果 track 像 half speed 一样沉。问题不只在数字。Perceived pace 还取决于 snare placement、hi-hat density、note length、lyric cadence，以及每个 bar 里发生多少事件。一个有用的 tempo prompt 不能只写 BPM。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以用 descriptions、lyrics 和 style ideas 生成 music drafts。处理 tempo 时，可以把它当成测试 controlled variations 的 sketchpad，但不要以为 BPM number 本身会让每个 draft 都有同样的速度感。",
+        "## 把 tempo 和 feel 分开",
+        "生成前先写三行：clock tempo、felt tempo、edit energy。Clock tempo 是数字，比如 92 BPM。Felt tempo 说明 track 应该听起来是 half-time、full-time 还是 double-time。Edit energy 说明音乐要服务什么：calm narration、product reveal、running montage 或 chorus lift。这三行能让 120 BPM upbeat 不再那么含糊。",
+        "## Brief groove density，而不只写 adjectives",
+        "Slow 不够具体。如果 track 要 relaxed，写 low drum density、sparse eighth-note pulse、no sixteenth-note hi-hat runs。如果你需要 energy 但不想改 BPM，写 steady kick、light syncopated bass、full-time chorus feel。这些细节告诉系统每个 bar 要多拥挤，而这往往就是听众感到快慢的来源。",
+        "## 可复用的 prompt frame",
+        "可以这样写：warm indie pop instrumental at 96 BPM, relaxed felt tempo, light eighth-note guitar pulse, no busy sixteenth hats, snare stays soft, chorus feels wider without doubling the drum speed, natural ending。如果 rhythm 和 instrumentation 的词不好拿捏，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 broad mood 变成更容易测试的 style description。",
+        "## 注意 lyric cadence",
+        "有 vocals 的 song 里，syllable density 会让 88 BPM 也显得意外地快。生成 final version 前，先跟着 rough metronome 把 chorus 读出来。如果 words 挤着 beat，删 syllables、加 pauses，或者 brief vocal delivery wider and less syllable-dense。改歌词时，[AI Lyrics Generator](https://easymusic.ai/zh/tools/ai-lyrics-generator) 可以帮助起草 options，但 stress、meaning 和 singability 仍然要自己检查。",
+        "## Test feel，而不只看数字",
+        "播放前 20 秒，用手敲出你真实感到的 pulse。如果你敲的是 requested BPM 的一半，draft 给的是 half-time feel。如果手想敲两倍 pulse，arrangement 就太 dense。把 marker 放在需要 lift 的 section，然后问一个朴素的问题：arrangement 是变大了，还是只是更 busy？",
+        "## 今天就能用的 ideas",
+        "- 把 BPM 和 felt tempo 写在一起：100 BPM, relaxed half-time feel。\n- 指定 subdivision：quarter pulse、eighth pulse、no sixteenth-note percussion。\n- 让 chorus lift 来自 width 或 harmony，而不是只靠 doubling drums。\n- 在判断 mix quality 前，先跟着 draft clap 或 count。\n- 给每个被拒绝的 draft 留 rejection notes：too dense、too sleepy、rushed vocals、weak lift。",
+        "## FAQ\n### AI music prompt 里只写 BPM 够吗？\n通常不够。BPM 有帮助，但 groove density 和 drum placement 会显著改变速度感。\n### Half-time feel 是什么意思？\nTempo number 可能不变，但 rhythm placement 会让 music 听起来走得更慢。\n### 怎样让 chorus 更大但不更快？\n请求 wider harmony、clearer bass 和 broader texture，同时限制 hi-hat runs 或 drum doubling。\n### Draft feel 不对时应该先改 BPM 吗？\n先调整 density 和 half-time/full-time language。如果仍然不对，再测试附近的 BPM。"
+      ]
+    }
+  }
+}
