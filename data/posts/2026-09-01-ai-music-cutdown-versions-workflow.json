@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-01",
+  "slug": "ai-music-cutdown-versions-workflow",
+  "cluster": "video-cutdown-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع نسخ AI music بطول 6 و15 و30 ثانية من دون خسارة الhook",
+      "description": "Workflow عملي لتخطيط music cutdowns لاعلانات وفيديوهات قصيرة بحيث تبقى الhook والvoiceover والCTA واضحة.",
+      "body": [
+        "تملك track يعمل جيدا تحت فيديو 30 ثانية. عند قصه الى 15 ثانية يختفي الhook، وعند ضغطه الى 6 ثوان يصبح كأنه intro مقطوع قبل ان يبدأ. المشكلة ان short version ليست نسخة مقصوصة فقط. كل مدة تحتاج وظيفة مختلفة: تذكير سريع، عرض فكرة واحدة، او قصة قصيرة لها rise وending.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على توليد music drafts من descriptions وlyrics وstyle ideas. في cutdown workflow، استخدمها لاختبار اتجاه صوتي واضح ثم ابني منه نسخا اقصر، مع مراجعة الحقوق والمنصة بنفسك قبل النشر.",
+        "## ابدأ بخريطة مدد لا بملف واحد",
+        "اكتب خريطة بسيطة قبل التوليد: 6s تحمل memory cue واحدا، 15s تعرض problem ثم product ثم CTA، و30s تسمح باثنين او ثلاثة beats. لا تطلب من الموسيقى ان تقول كل شيء في كل مدة. في 6 ثوان، قد يكفي hit نظيف، texture مميزة، وtail لا يبتلع logo. في 30 ثانية، يمكنك ترك مساحة لصوت المتحدث ثم lift قرب العرض او الدليل.",
+        "## اطلب parent track قابل للقص",
+        "Prompt جيد للنسخة الطويلة يقول: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. اذا كان style language فضفاضا، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويل mood مثل confident launch او calm proof الى وصف ادق للالات والطاقة.",
+        "## اكتب briefs منفصلة لكل cutdown",
+        "للنسخة 6s، اطلب logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. للنسخة 15s، اطلب hook at second 1, small lift at second 8, clean stop before CTA. للنسخة 30s، اطلب intro short, quieter middle for voiceover, lift after proof, natural tail. هكذا تقيم كل مدة حسب وظيفتها بدلا من مقارنة كل شيء بالملف الطويل.",
+        "## راجع الصوت مع الصورة والكلام",
+        "شاهد الفيديو muted اولا. اذا كانت الرسالة لا تفهم من الصورة والنص، فالموسيقى لن تنقذه. ثم شغله بالصوت واسأل: هل snare تضرب فوق اهم كلمة؟ هل riser يغطي السعر او الرقم؟ هل الtail يستمر بعد CTA فيضعف النهاية؟ في المقاطع التي تحتوي speech، اجعل music bed منخفضة بما يكفي ليبقى الكلام واضحا؛ 20 dB تحت الصوت الامامي مرجع محافظ عندما تكون الوضوح اولوية.",
+        "## سلّم ملفات يسهل اختبارها",
+        "بعد اختيار النسخ، سم الملفات بطريقة عملية: brand_offer_06s_9x16_music-low_2026-09-01.mp4، brand_offer_15s_square_voiceup.wav، brand_offer_30s_16x9_fullmix.wav. اذا احتجت صيغة صوت مختلفة للhandoff، استخدم [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) بعد الموافقة على النسخة، لا قبلها، حتى لا تختبر ملفات كثيرة بلا سبب.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اجعل نسخة 6s تحمل فكرة واحدة فقط: hit، motif، او ending tag.\n- ضع marker للصورة التي يجب ان تلتقي مع الhook قبل توليد الموسيقى.\n- امنع long intro في prompt اذا كانت اول ثانية حاسمة.\n- اكتب music-low وvoice-up في اسم الملف حتى لا يختار الفريق mix خاطئا.\n- احتفظ بنسخة speech-only او lower-bed عندما تكون الرسالة منطوقة.",
+        "## اسئلة شائعة\n### هل يمكن قص track واحد الى كل المدد؟\nممكن احيانا، لكن النتيجة غالبا تبدو مقطوعة. الافضل تخطيط family من النسخ حول motif واحد.\n### هل تحتاج نسخة 6 ثوان الى intro؟\nنادرا. ابدأ بالعلامة الصوتية او الحركة الاساسية، ثم اترك tail قصيرا وواضحا.\n### ماذا افعل اذا كان voiceover يختفي؟\nخفض الكثافة، ازل lead متحركا، او اطلب نسخة music bed بلا fill عند الكلمات المهمة.\n### هل يضمن هذا قبول المنصات؟\nلا. راجع مواصفات المنصة، سياسات الاعلان، واي متطلبات حقوق قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "KI-Musik-Versionen fuer 6, 15 und 30 Sekunden ohne verlorenen Hook",
+      "description": "Ein praktischer Workflow fuer AI music cutdowns, damit Hook, Voiceover und Call to Action in kurzen Videos klar bleiben.",
+      "body": [
+        "Der 30-Sekunden-Track funktioniert unter dem Video. Die 15-Sekunden-Fassung verliert den Hook, und die 6-Sekunden-Fassung klingt wie ein abgeschnittener Anfang. Das liegt daran, dass eine Kurzversion nicht nur ein gekuerzter Export ist. Jede Dauer hat eine andere Aufgabe: erinnern, eine Idee verkaufen oder eine kleine Story mit sauberem Ende tragen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kannst. In einem Cutdown-Workflow eignet sie sich als Raum, um eine klare Klangrichtung zu testen und daraus kuerzere Varianten abzuleiten; Rechte, Plattformregeln und Freigaben pruefst du trotzdem selbst.",
+        "## Plane erst die Laengen, nicht den einen Master",
+        "Schreibe vor dem Generieren eine Dauerkarte: 6s traegt einen Memory Cue, 15s zeigt Problem, Produkt und Call to Action, 30s darf zwei oder drei Beats aufbauen. Musik muss nicht in jeder Laenge alles leisten. Bei sechs Sekunden reichen oft ein sauberer Hit, eine erkennbare Textur und ein Tail, der das Logo nicht verdeckt. Bei 30 Sekunden brauchst du eher Platz fuer Sprache und einen Lift beim Beweis oder Angebot.",
+        "## Fordere einen schneidbaren Parent Track an",
+        "Ein guter Prompt fuer die lange Richtung sagt: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. Wenn die Style-Sprache zu breit ist, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) einen Mood wie confident launch oder calm proof in eine pruefbare Beschreibung von Instrumenten und Energie uebersetzen.",
+        "## Schreibe eigene Briefs fuer jeden Cutdown",
+        "Fuer 6s: logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. Fuer 15s: hook at second 1, small lift at second 8, clean stop before CTA. Fuer 30s: short intro, quieter middle for voiceover, lift after proof, natural tail. So bewertest du jede Version nach ihrer Funktion, nicht danach, wie viel vom langen Track noch uebrig ist.",
+        "## Pruefe Ton zusammen mit Bild und Sprache",
+        "Sieh das Video zuerst stumm an. Wenn Botschaft und Bild ohne Ton nicht lesbar sind, rettet Musik den Schnitt nicht. Dann hoere mit Ton: Schlaegt die Snare auf das wichtigste Wort? Verdeckt ein Riser eine Zahl oder einen Preis? Laeuft der Tail nach dem Call to Action weiter und nimmt Druck heraus? Bei Sprachpassagen sollte das Musikbett deutlich niedriger liegen; 20 dB unter der Vordergrundstimme ist ein konservativer Referenzwert, wenn Verstaendlichkeit Prioritaet hat.",
+        "## Liefere Dateien, die man testen kann",
+        "Nach der Auswahl sollten Dateinamen die Entscheidung tragen: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. Wenn du fuer den Handoff ein anderes Audioformat brauchst, nutze den [Audio Converter](https://easymusic.ai/de/tools/audio-converter) nach der Freigabe, nicht davor, damit nicht unnoetig viele Zwischenversionen entstehen.",
+        "## Sofort nutzbare Ideen",
+        "- Die 6s-Version bekommt nur eine Idee: Hit, Motiv oder Ending Tag.\n- Setze einen Marker auf das Bild, das mit dem Hook zusammentreffen muss.\n- Verbiete long intro im Prompt, wenn die erste Sekunde wichtig ist.\n- Schreibe music-low oder voice-up in den Dateinamen, damit niemand den falschen Mix waehlt.\n- Behalte eine speech-only oder lower-bed Version, wenn die Aussage gesprochen wird.",
+        "## FAQ\n### Kann ich einen Track einfach auf alle Laengen schneiden?\nManchmal ja, aber oft klingt es abgehackt. Plane besser eine Variantenfamilie um ein gemeinsames Motiv.\n### Braucht eine 6-Sekunden-Version ein Intro?\nSelten. Starte mit dem Wiedererkennungszeichen oder der Hauptbewegung und beende klar.\n### Was, wenn das Voiceover untergeht?\nSenke die Dichte, entferne bewegliche Lead-Linien oder fordere ein Musikbett ohne Fill an den wichtigen Woertern an.\n### Garantiert der Workflow Plattformfreigabe?\nNein. Pruefe Spezifikationen, Anzeigenregeln und Rechteanforderungen vor der Veroeffentlichung."
+      ]
+    },
+    "en": {
+      "title": "Make 6, 15, and 30 Second AI Music Versions Without Losing the Hook",
+      "description": "A practical workflow for AI music cutdowns so short video versions keep the hook, voiceover, proof point, and call to action clear.",
+      "body": [
+        "The 30-second music bed works under the edit. Then the 15-second version loses the hook, and the 6-second version sounds like an intro chopped off before it says anything. A cutdown is not just a shorter export. Each length has a different job: remind, sell one idea, or support a small story with a clean ending.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. In a cutdown workflow, use it to test one clear sound direction and then build shorter variants from that direction, while still checking rights, platform rules, and approvals before release.",
+        "## Map the Lengths Before You Generate",
+        "Write a duration map first: 6s carries one memory cue, 15s covers problem, product, and call to action, and 30s can hold two or three story beats. Do not ask every version to do everything. In six seconds, a clean hit, a recognizable texture, and a short tail may be enough. In 30 seconds, you can leave more room for voiceover and let the lift arrive near the proof point or offer.",
+        "## Prompt a Parent Track That Can Be Cut",
+        "A useful long-form prompt might say: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. If the style language is too broad, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can turn a mood such as confident launch or calm proof into a more testable description of instruments and energy.",
+        "## Write Separate Briefs for Each Cutdown",
+        "For 6s, ask for logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. For 15s, ask for hook at second 1, small lift at second 8, clean stop before CTA. For 30s, ask for short intro, quieter middle for voiceover, lift after proof, natural tail. This makes each version succeed on its own job instead of being judged by how much of the long track survived.",
+        "## Review the Sound With Picture and Speech",
+        "Watch the video muted first. If the message is not clear from image and text, music will not fix the edit. Then turn the sound on and ask: does the snare land on the most important word? Does a riser cover a number or price? Does the tail keep going after the call to action and weaken the ending? For speech-led clips, keep the music bed far enough below the foreground voice; 20 dB lower is a conservative reference when intelligibility matters.",
+        "## Deliver Files That Are Easy to Test",
+        "After you choose the versions, name files around the decision: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. If the handoff needs another audio format, use the [Audio Converter](https://easymusic.ai/tools/audio-converter) after creative approval, not before, so the team is not testing unnecessary intermediate files.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Give the 6s version one job: hit, motif, or ending tag.\n- Mark the exact visual frame that must meet the hook before generating music.\n- Block long intro language when the first second matters.\n- Put music-low or voice-up in filenames so reviewers pick the right mix.\n- Keep a speech-only or lower-bed version when the message is spoken.",
+        "## FAQ\n### Can I cut one AI music track into every length?\nSometimes, but it often sounds abrupt. It is usually better to plan a family of versions around one motif.\n### Should a 6-second version have an intro?\nRarely. Start with the sonic identifier or main movement, then leave a short and clear tail.\n### What if the voiceover disappears under the music?\nLower density, remove moving lead parts, or ask for a bed version with no fill under important words.\n### Does this guarantee platform approval?\nNo. Check each platform's specs, ad policies, and rights requirements before publishing."
+      ]
+    },
+    "es": {
+      "title": "Crea versiones de musica IA de 6, 15 y 30 segundos sin perder el hook",
+      "description": "Workflow practico para AI music cutdowns que mantienen claro el hook, el voiceover, la prueba y el CTA en videos cortos.",
+      "body": [
+        "La musica de 30 segundos funciona bajo el edit. Luego la version de 15 segundos pierde el hook, y la de 6 segundos suena como una intro cortada antes de decir algo. Un cutdown no es solo un export mas corto. Cada duracion tiene un trabajo distinto: recordar, vender una idea o sostener una historia breve con final limpio.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar music drafts desde descripciones, lyrics e ideas de style. En un workflow de cutdowns, usala para probar una direccion sonora clara y crear variantes mas cortas desde esa direccion, revisando aparte derechos, reglas de plataforma y aprobaciones.",
+        "## Mapea las duraciones antes de generar",
+        "Escribe primero un mapa: 6s lleva un memory cue, 15s cubre problem, product y call to action, y 30s puede sostener dos o tres beats de historia. No pidas que todas las versiones hagan todo. En seis segundos, un hit limpio, una textura reconocible y un tail corto pueden bastar. En 30 segundos puedes dejar mas espacio para voiceover y hacer que el lift llegue cerca de la prueba o la oferta.",
+        "## Pide un parent track que se pueda cortar",
+        "Un prompt util para la version larga puede decir: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. Si el lenguaje de style queda amplio, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood como confident launch o calm proof en una descripcion mas testeable de instrumentos y energia.",
+        "## Escribe briefs separados para cada cutdown",
+        "Para 6s, pide logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. Para 15s, pide hook at second 1, small lift at second 8, clean stop before CTA. Para 30s, pide short intro, quieter middle for voiceover, lift after proof, natural tail. Asi cada version se evalua por su propia funcion, no por cuanto sobrevivio del track largo.",
+        "## Revisa sonido, imagen y habla juntos",
+        "Mira el video en mute primero. Si el mensaje no se entiende por imagen y texto, la musica no arreglara el edit. Luego activa el sonido y pregunta: la snare cae sobre la palabra mas importante? Un riser cubre un numero o precio? El tail sigue despues del CTA y debilita el final? En clips con speech, deja el music bed bastante por debajo de la voz; 20 dB menos es una referencia conservadora cuando la inteligibilidad importa.",
+        "## Entrega archivos faciles de probar",
+        "Despues de elegir las versiones, nombra los archivos segun la decision: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. Si el handoff necesita otro formato de audio, usa el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) despues de aprobar la creatividad, no antes, para evitar pruebas con archivos intermedios innecesarios.",
+        "## Ideas reutilizables para hoy",
+        "- Dale a la version 6s una sola tarea: hit, motif o ending tag.\n- Marca el frame exacto que debe coincidir con el hook antes de generar musica.\n- Bloquea long intro en el prompt cuando importa el primer segundo.\n- Escribe music-low o voice-up en el filename para que el equipo elija el mix correcto.\n- Conserva una version speech-only o lower-bed cuando el mensaje sea hablado.",
+        "## Preguntas frecuentes\n### Puedo cortar un solo track de musica IA a todas las duraciones?\nA veces, pero suele sonar abrupto. Es mejor planear una familia de versiones alrededor de un motif.\n### Una version de 6 segundos necesita intro?\nRara vez. Empieza con la identidad sonora o el movimiento principal y deja un tail corto y claro.\n### Que hago si el voiceover desaparece bajo la musica?\nBaja la densidad, quita leads en movimiento o pide una bed version sin fills bajo palabras importantes.\n### Esto garantiza aprobacion de plataformas?\nNo. Revisa specs, politicas publicitarias y requisitos de derechos antes de publicar."
+      ]
+    },
+    "fr": {
+      "title": "Creer des versions de musique IA de 6, 15 et 30 secondes sans perdre le hook",
+      "description": "Workflow pratique pour des AI music cutdowns qui gardent hook, voix, preuve et appel a l'action lisibles.",
+      "body": [
+        "La musique de 30 secondes fonctionne sous le montage. Puis la version de 15 secondes perd le hook, et la version de 6 secondes sonne comme une intro coupee avant d'avoir commence. Un cutdown n'est pas seulement un export plus court. Chaque duree a son role: rappeler, vendre une idee, ou soutenir une petite histoire avec une fin nette.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui genere des brouillons a partir de descriptions, lyrics et idees de style. Dans un workflow de cutdown, utilise-la pour tester une direction sonore claire puis construire des variantes plus courtes, tout en verifiant toi-meme droits, regles de plateforme et validations.",
+        "## Cartographie les durees avant de generer",
+        "Ecris d'abord une carte de durees: 6s porte un memory cue, 15s couvre problem, product et call to action, 30s peut contenir deux ou trois beats narratifs. Ne demande pas a chaque version de tout faire. En six secondes, un hit propre, une texture reconnaissable et un tail court peuvent suffire. En 30 secondes, tu peux laisser plus de place a la voix et placer le lift pres de la preuve ou de l'offre.",
+        "## Demande un parent track facile a couper",
+        "Un prompt utile pour la version longue peut dire: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. Si le vocabulaire de style reste trop large, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer un mood comme confident launch ou calm proof en description plus testable des instruments et de l'energie.",
+        "## Redige un brief pour chaque cutdown",
+        "Pour 6s: logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. Pour 15s: hook at second 1, small lift at second 8, clean stop before CTA. Pour 30s: short intro, quieter middle for voiceover, lift after proof, natural tail. Tu juges ainsi chaque version par sa fonction, pas par la quantite de long track qui reste.",
+        "## Verifie le son avec l'image et la parole",
+        "Regarde d'abord la video sans son. Si le message n'est pas clair avec l'image et le texte, la musique ne reparera pas le montage. Ensuite ecoute: la snare tombe-t-elle sur le mot le plus important? Un riser couvre-t-il un chiffre ou un prix? Le tail continue-t-il apres l'appel a l'action et affaiblit-il la fin? Pour les clips guides par la parole, garde le music bed assez bas; 20 dB sous la voix est un repere prudent quand l'intelligibilite compte.",
+        "## Livre des fichiers faciles a tester",
+        "Apres selection, nomme les fichiers autour de la decision: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. Si le handoff demande un autre format audio, utilise l'[Audio Converter](https://easymusic.ai/fr/tools/audio-converter) apres validation creative, pas avant, pour eviter de tester des intermediaires inutiles.",
+        "## Idees reutilisables aujourd'hui",
+        "- Donne a la version 6s une seule mission: hit, motif ou ending tag.\n- Marque l'image exacte qui doit rencontrer le hook avant de generer.\n- Interdis long intro dans le prompt quand la premiere seconde compte.\n- Mets music-low ou voice-up dans le nom du fichier pour eviter le mauvais mix.\n- Garde une version speech-only ou lower-bed quand le message est parle.",
+        "## FAQ\n### Puis-je couper un seul track IA pour toutes les durees?\nParfois, mais le resultat sonne souvent abrupt. Mieux vaut creer une famille de versions autour d'un meme motif.\n### Une version de 6 secondes a-t-elle besoin d'une intro?\nRarement. Commence par l'identifiant sonore ou le mouvement principal, puis termine court et clair.\n### Que faire si la voix disparait sous la musique?\nReduis la densite, retire les leads mobiles ou demande une version bed sans fill sous les mots importants.\n### Ce workflow garantit-il l'approbation des plateformes?\nNon. Verifie les specs, les regles publicitaires et les exigences de droits avant publication."
+      ]
+    },
+    "it": {
+      "title": "Crea versioni di musica AI da 6, 15 e 30 secondi senza perdere l'hook",
+      "description": "Workflow pratico per AI music cutdowns che mantengono chiari hook, voiceover, proof point e call to action.",
+      "body": [
+        "La musica da 30 secondi funziona sotto il montaggio. Poi la versione da 15 secondi perde l'hook, e quella da 6 secondi sembra un'intro tagliata prima di dire qualcosa. Un cutdown non e solo un export piu corto. Ogni durata ha un compito diverso: ricordare, vendere un'idea o sostenere una piccola storia con un finale pulito.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation per generare music drafts da descrizioni, lyrics e idee di style. In un workflow di cutdown, usala per testare una direzione sonora chiara e costruire varianti piu brevi, mentre controlli separatamente diritti, regole della piattaforma e approvazioni.",
+        "## Mappa le durate prima di generare",
+        "Scrivi prima una duration map: 6s porta un memory cue, 15s copre problem, product e call to action, 30s puo tenere due o tre story beats. Non chiedere a ogni versione di fare tutto. In sei secondi possono bastare un hit pulito, una texture riconoscibile e un tail corto. In 30 secondi puoi lasciare spazio al voiceover e far arrivare il lift vicino alla prova o all'offerta.",
+        "## Chiedi un parent track facile da tagliare",
+        "Un prompt utile per la versione lunga puo dire: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. Se il linguaggio di style e troppo ampio, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood come confident launch o calm proof in una descrizione piu testabile di strumenti ed energia.",
+        "## Scrivi brief separati per ogni cutdown",
+        "Per 6s, chiedi logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. Per 15s, chiedi hook at second 1, small lift at second 8, clean stop before CTA. Per 30s, chiedi short intro, quieter middle for voiceover, lift after proof, natural tail. Cosi ogni versione viene giudicata sul suo lavoro, non su quanto del track lungo e rimasto.",
+        "## Rivedi il suono con immagine e parlato",
+        "Guarda prima il video muted. Se il messaggio non si capisce da immagine e testo, la musica non correggera il montaggio. Poi ascolta: la snare cade sulla parola piu importante? Un riser copre un numero o un prezzo? Il tail continua dopo la call to action e indebolisce il finale? Nei clip con speech, tieni il music bed abbastanza sotto la voce; 20 dB piu basso e un riferimento prudente quando l'intelligibilita conta.",
+        "## Consegna file facili da testare",
+        "Dopo aver scelto le versioni, nomina i file intorno alla decisione: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. Se l'handoff richiede un altro formato audio, usa l'[Audio Converter](https://easymusic.ai/it/tools/audio-converter) dopo l'approvazione creativa, non prima, cosi il team non testa file intermedi inutili.",
+        "## Idee riutilizzabili per oggi",
+        "- Dai alla versione 6s un solo compito: hit, motif o ending tag.\n- Segna il frame visivo che deve incontrare l'hook prima di generare musica.\n- Blocca long intro nel prompt quando conta il primo secondo.\n- Scrivi music-low o voice-up nel filename per evitare il mix sbagliato.\n- Mantieni una versione speech-only o lower-bed quando il messaggio e parlato.",
+        "## FAQ\n### Posso tagliare un solo track AI in tutte le durate?\nA volte, ma spesso suona brusco. Di solito conviene creare una famiglia di versioni intorno a un motif.\n### Una versione da 6 secondi deve avere un'intro?\nRaramente. Parti dall'identita sonora o dal movimento principale e chiudi con un tail corto.\n### Cosa faccio se il voiceover sparisce sotto la musica?\nAbbassa la densita, togli lead mobili o chiedi una bed version senza fill sotto le parole importanti.\n### Questo garantisce l'approvazione della piattaforma?\nNo. Controlla specs, politiche pubblicitarie e requisiti sui diritti prima della pubblicazione."
+      ]
+    },
+    "ja": {
+      "title": "Hook を失わずに 6秒、15秒、30秒の AI music version を作る",
+      "description": "Short video 用の AI music cutdown workflow。hook、voiceover、proof point、CTA を短い尺でも明確に保つ。",
+      "body": [
+        "30 秒の music bed は edit に合っているのに、15 秒版では hook が消え、6 秒版では何かを言う前に intro が切られたように聞こえる。Cutdown は短い export ではありません。各 length には別の役割があります。思い出させる、ひとつの idea を伝える、小さな story を clean ending まで支える、という違いです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は descriptions、lyrics、style ideas から music drafts を生成できる AI music creation platform です。Cutdown workflow では、ひとつの明確な sound direction を試し、そこから短い variants を作る場所として使えます。ただし release 前の rights、platform rules、approval は自分で確認します。",
+        "## Generate 前に length map を作る",
+        "まず duration map を書きます。6s は one memory cue、15s は problem、product、call to action、30s は 2 つか 3 つの story beats。すべての version に全部を求めないことが大事です。6 秒なら clean hit、recognizable texture、logo を邪魔しない short tail で十分なことがあります。30 秒なら voiceover の余白を作り、proof point や offer 近くで lift を置けます。",
+        "## Cut しやすい parent track を prompt する",
+        "長い方向性の prompt にはこう書けます: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover。Style language が広すぎるときは、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で confident launch や calm proof のような mood を、instrumentation と energy の test しやすい description にできます。",
+        "## Cutdown ごとに別 brief を書く",
+        "6s には logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word。15s には hook at second 1, small lift at second 8, clean stop before CTA。30s には short intro, quieter middle for voiceover, lift after proof, natural tail。これで各 version を、長い track がどれだけ残ったかではなく、その役割で判断できます。",
+        "## Picture と speech と一緒に確認する",
+        "まず video を muted で見ます。Image と text だけで message が読めないなら、music は edit を直せません。次に sound を出して確認します。Snare が一番大事な word に重なっていないか。Riser が number や price を隠していないか。Tail が CTA のあとまで続き、ending を弱くしていないか。Speech-led clip では music bed を foreground voice より十分低く保ちます。Intelligibility が重要なら 20 dB lower は保守的な目安です。",
+        "## Test しやすい file で渡す",
+        "Version を選んだら、decision がわかる file name にします: brand_offer_06s_9x16_music-low_2026-09-01.mp4、brand_offer_15s_square_voiceup.wav、brand_offer_30s_16x9_fullmix.wav。Handoff に別の audio format が必要な場合は、creative approval の後に [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使います。先に変換しすぎると、不要な intermediate files を test することになります。",
+        "## 今日すぐ使える ideas",
+        "- 6s version の仕事をひとつに絞る: hit、motif、ending tag。\n- Music を生成する前に、hook と合う exact visual frame に marker を置く。\n- First second が重要なら prompt で long intro を避ける。\n- Reviewer が mix を間違えないよう、filename に music-low や voice-up を入れる。\n- Spoken message があるときは speech-only または lower-bed version を残す。",
+        "## FAQ\n### ひとつの AI music track を全尺に切れますか？\n可能な場合もありますが、abrupt に聞こえがちです。ひとつの motif を中心に version family を作る方が安定します。\n### 6 秒版に intro は必要ですか？\n多くの場合は不要です。Sonic identifier か main movement から始め、short and clear tail で終えます。\n### Voiceover が music に埋もれるときは？\nDensity を下げ、moving lead を外し、重要な words の下に fill がない bed version を頼みます。\n### Platform approval は保証されますか？\nいいえ。公開前に各 platform の specs、ad policies、rights requirements を確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "Hook을 잃지 않는 6초, 15초, 30초 AI music version 만들기",
+      "description": "Short video용 AI music cutdown workflow로 hook, voiceover, proof point, CTA를 명확하게 유지하는 방법.",
+      "body": [
+        "30초 music bed는 edit 아래에서 잘 맞습니다. 그런데 15초 version은 hook을 잃고, 6초 version은 무언가 말하기 전에 intro가 잘린 것처럼 들립니다. Cutdown은 단순히 짧은 export가 아닙니다. 각 length에는 다른 일이 있습니다. 기억시키기, 하나의 idea 전달하기, 작은 story를 clean ending까지 받치기입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music drafts를 만들 수 있는 AI music creation platform입니다. Cutdown workflow에서는 하나의 분명한 sound direction을 시험하고 그 방향에서 짧은 variants를 만들 수 있습니다. 다만 release 전 rights, platform rules, approval은 별도로 확인해야 합니다.",
+        "## Generate 전에 length map을 만든다",
+        "먼저 duration map을 씁니다. 6s는 one memory cue, 15s는 problem, product, call to action, 30s는 두세 개의 story beats를 담습니다. 모든 version에 모든 일을 시키지 마세요. 6초에서는 clean hit, recognizable texture, logo를 방해하지 않는 short tail만으로 충분할 수 있습니다. 30초에서는 voiceover 공간을 두고 proof point나 offer 근처에 lift를 둘 수 있습니다.",
+        "## 자르기 쉬운 parent track을 prompt한다",
+        "긴 방향의 prompt는 이렇게 쓸 수 있습니다: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. Style language가 너무 넓으면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 confident launch 또는 calm proof 같은 mood를 instrumentation과 energy가 더 분명한 description으로 바꿔 test하세요.",
+        "## Cutdown마다 brief를 따로 쓴다",
+        "6s에는 logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. 15s에는 hook at second 1, small lift at second 8, clean stop before CTA. 30s에는 short intro, quieter middle for voiceover, lift after proof, natural tail. 이렇게 하면 긴 track이 얼마나 남았는지가 아니라 각 version의 역할로 판단할 수 있습니다.",
+        "## Picture와 speech와 함께 sound를 검토한다",
+        "먼저 video를 muted로 봅니다. Image와 text만으로 message가 읽히지 않으면 music이 edit을 고치지 못합니다. 그다음 sound를 켜고 확인하세요. Snare가 가장 중요한 word에 겹치나요? Riser가 number나 price를 가리나요? Tail이 CTA 뒤까지 이어져 ending을 약하게 만드나요? Speech-led clip에서는 music bed를 foreground voice보다 충분히 낮게 두세요. Intelligibility가 중요하다면 20 dB lower는 보수적인 기준입니다.",
+        "## Test하기 쉬운 file로 전달한다",
+        "Versions를 고른 뒤에는 decision이 보이는 filename을 쓰세요: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. Handoff에 다른 audio format이 필요하면 creative approval 후 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 사용하세요. 먼저 너무 많이 변환하면 불필요한 intermediate files까지 test하게 됩니다.",
+        "## 오늘 바로 적용할 수 있는 ideas",
+        "- 6s version의 일을 하나로 제한합니다: hit, motif, ending tag.\n- Music 생성 전에 hook과 만나야 하는 exact visual frame에 marker를 둡니다.\n- 첫 1초가 중요하면 prompt에서 long intro를 막습니다.\n- Reviewer가 mix를 헷갈리지 않도록 filename에 music-low 또는 voice-up을 넣습니다.\n- Spoken message가 있으면 speech-only 또는 lower-bed version을 남깁니다.",
+        "## FAQ\n### AI music track 하나를 모든 길이로 잘라도 되나요?\n가능할 때도 있지만 대개 abrupt하게 들립니다. 하나의 motif를 중심으로 version family를 계획하는 편이 낫습니다.\n### 6초 version에 intro가 필요한가요?\n드뭅니다. Sonic identifier나 main movement로 시작하고 짧고 분명한 tail로 끝내세요.\n### Voiceover가 music 아래로 사라지면 어떻게 하나요?\nDensity를 낮추고 moving lead를 제거하거나 중요한 words 아래 fill이 없는 bed version을 요청하세요.\n### Platform approval을 보장하나요?\n아니요. 공개 전에 각 platform specs, ad policies, rights requirements를 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Crie versoes de musica IA de 6, 15 e 30 segundos sem perder o hook",
+      "description": "Workflow pratico para AI music cutdowns que mantem hook, voiceover, prova e chamada para acao claros.",
+      "body": [
+        "A musica de 30 segundos funciona bem sob o edit. Depois, a versao de 15 segundos perde o hook, e a de 6 segundos parece uma intro cortada antes de dizer algo. Um cutdown nao e apenas um export menor. Cada duracao tem uma tarefa: lembrar, vender uma ideia ou apoiar uma pequena historia com final limpo.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar music drafts a partir de descricoes, lyrics e ideias de style. Em um workflow de cutdown, use-a para testar uma direcao sonora clara e criar variantes mais curtas a partir dela, enquanto voce verifica direitos, regras de plataforma e aprovacoes antes do release.",
+        "## Mapeie as duracoes antes de gerar",
+        "Escreva primeiro um duration map: 6s carrega um memory cue, 15s cobre problem, product e call to action, e 30s pode sustentar dois ou tres story beats. Nao faca cada versao tentar tudo. Em seis segundos, um hit limpo, uma texture reconhecivel e um tail curto podem bastar. Em 30 segundos, voce pode deixar mais espaco para voiceover e colocar o lift perto da prova ou da oferta.",
+        "## Peca um parent track facil de cortar",
+        "Um prompt util para a versao longa pode dizer: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. Se o language de style estiver amplo demais, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar um mood como confident launch ou calm proof em uma descricao mais testavel de instrumentos e energia.",
+        "## Escreva briefs separados para cada cutdown",
+        "Para 6s, peca logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. Para 15s, peca hook at second 1, small lift at second 8, clean stop before CTA. Para 30s, peca short intro, quieter middle for voiceover, lift after proof, natural tail. Assim cada versao e julgada pela propria funcao, nao por quanto do track longo sobrou.",
+        "## Revise som com imagem e fala",
+        "Assista ao video muted primeiro. Se a mensagem nao fica clara por imagem e texto, a musica nao vai consertar o edit. Depois ligue o som e pergunte: a snare cai sobre a palavra mais importante? Um riser cobre numero ou preco? O tail continua depois da call to action e enfraquece o final? Em clips guiados por speech, mantenha o music bed bem abaixo da voz; 20 dB lower e uma referencia conservadora quando inteligibilidade importa.",
+        "## Entregue arquivos faceis de testar",
+        "Depois de escolher as versoes, nomeie os arquivos em torno da decisao: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. Se o handoff precisar de outro formato de audio, use o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) depois da aprovacao criativa, nao antes, para o time nao testar arquivos intermediarios sem necessidade.",
+        "## Ideias reutilizaveis para hoje",
+        "- De a versao 6s uma unica tarefa: hit, motif ou ending tag.\n- Marque o frame visual que deve encontrar o hook antes de gerar musica.\n- Bloqueie long intro no prompt quando o primeiro segundo importa.\n- Coloque music-low ou voice-up no filename para evitar o mix errado.\n- Guarde uma versao speech-only ou lower-bed quando a mensagem for falada.",
+        "## Perguntas frequentes\n### Posso cortar um unico AI music track em todos os tamanhos?\nAs vezes, mas costuma soar abrupto. Normalmente e melhor planejar uma familia de versoes em torno de um motif.\n### Uma versao de 6 segundos precisa de intro?\nRaramente. Comece pela identidade sonora ou movimento principal e termine com tail curto e claro.\n### E se o voiceover sumir sob a musica?\nReduza densidade, remova leads em movimento ou peca uma bed version sem fills sob palavras importantes.\n### Isso garante aprovacao da plataforma?\nNao. Confira specs, politicas de anuncio e requisitos de direitos antes de publicar."
+      ]
+    },
+    "ru": {
+      "title": "Сделайте AI music версии на 6, 15 и 30 секунд без потери hook",
+      "description": "Практический workflow для AI music cutdowns, чтобы hook, voiceover, proof point и CTA оставались понятными.",
+      "body": [
+        "Музыка на 30 секунд хорошо работает под монтажом. Потом версия на 15 секунд теряет hook, а версия на 6 секунд звучит как intro, которое обрезали до смысла. Cutdown - это не просто более короткий export. У каждой длины своя задача: напомнить, продать одну идею или поддержать маленькую историю с чистым финалом.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа AI music creation, где можно создавать music drafts из descriptions, lyrics и style ideas. В cutdown workflow используйте ее, чтобы протестировать одно ясное sound direction и построить короткие variants от него, но права, правила платформы и approvals перед релизом проверяйте отдельно.",
+        "## Сначала сделайте карту длин",
+        "Перед генерацией напишите duration map: 6s несет один memory cue, 15s покрывает problem, product и call to action, 30s может держать два или три story beats. Не заставляйте каждую версию делать все. За шесть секунд часто достаточно чистого hit, узнаваемой texture и короткого tail, который не мешает logo. В 30 секундах можно оставить место для voiceover и поставить lift около proof point или offer.",
+        "## Запросите parent track, который легко резать",
+        "Полезный prompt для длинной версии: clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover. Если style language слишком широк, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить mood вроде confident launch или calm proof в более проверяемое description инструментов и энергии.",
+        "## Пишите отдельные briefs для каждого cutdown",
+        "Для 6s: logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word. Для 15s: hook at second 1, small lift at second 8, clean stop before CTA. Для 30s: short intro, quieter middle for voiceover, lift after proof, natural tail. Так каждая версия оценивается по своей функции, а не по тому, сколько длинного track осталось.",
+        "## Проверяйте звук вместе с картинкой и речью",
+        "Сначала посмотрите video muted. Если message не читается по image и text, музыка не исправит edit. Затем включите звук и спросите: snare попадает на самое важное word? Riser закрывает number или price? Tail продолжается после call to action и ослабляет ending? В speech-led clips держите music bed заметно ниже foreground voice; 20 dB lower - осторожный ориентир, когда важна intelligibility.",
+        "## Передавайте файлы, которые легко тестировать",
+        "После выбора версий называйте файлы по решению: brand_offer_06s_9x16_music-low_2026-09-01.mp4, brand_offer_15s_square_voiceup.wav, brand_offer_30s_16x9_fullmix.wav. Если для handoff нужен другой audio format, используйте [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) после creative approval, а не до него, чтобы команда не тестировала лишние intermediate files.",
+        "## Идеи, которые можно применить сегодня",
+        "- Дайте версии 6s одну задачу: hit, motif или ending tag.\n- До генерации отметьте visual frame, который должен совпасть с hook.\n- Запрещайте long intro в prompt, если важна первая секунда.\n- Пишите music-low или voice-up в filename, чтобы reviewers не выбрали неправильный mix.\n- Сохраняйте speech-only или lower-bed version, когда message произносится голосом.",
+        "## FAQ\n### Можно ли разрезать один AI music track на все длины?\nИногда можно, но часто звучит резко. Лучше планировать family of versions вокруг одного motif.\n### Нужна ли версии на 6 секунд intro?\nРедко. Начинайте с sonic identifier или main movement, затем оставляйте короткий clear tail.\n### Что делать, если voiceover пропадает под музыкой?\nСнизьте density, уберите moving leads или запросите bed version без fills под важными words.\n### Гарантирует ли это approval платформы?\nНет. Перед публикацией проверьте specs, ad policies и rights requirements каждой платформы."
+      ]
+    },
+    "zh": {
+      "title": "制作 6 秒、15 秒和 30 秒 AI 音乐版本时不要丢掉 hook",
+      "description": "一个实用的 AI music cutdown workflow，帮助短视频版本保留 hook、旁白、证明点和 CTA。",
+      "body": [
+        "30 秒的 music bed 放在剪辑下面很好听。可是一剪成 15 秒，hook 不见了；压到 6 秒，又像 intro 还没说明白就被切掉。Cutdown 不是把同一个文件导出得更短。每个长度都有不同任务：提醒观众、讲清一个想法，或支撑一个有干净结尾的小故事。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。在 cutdown workflow 里，你可以用它先测试一个明确的 sound direction，再从这个方向做更短的 variants；但发布前的 rights、platform rules 和 approval 仍然需要自己确认。",
+        "## 生成前先画 length map",
+        "先写一个 duration map：6s 只承载 one memory cue，15s 覆盖 problem、product 和 call to action，30s 可以容纳两三个 story beats。不要让每个版本承担所有信息。6 秒里，一个 clean hit、一个 recognizable texture、一个不盖住 logo 的 short tail 可能就够了。30 秒里，可以给 voiceover 留空间，并把 lift 放在 proof point 或 offer 附近。",
+        "## Prompt 一个容易剪的 parent track",
+        "长版本方向可以这样写：clear hook within first 2 seconds, simple four-bar phrase, low vocal-like lead, no long intro, clean ending tail, room for voiceover。如果 style language 太宽泛，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 confident launch 或 calm proof 这样的 mood，变成更容易测试的 instrumentation 和 energy description。",
+        "## 给每个 cutdown 写单独 brief",
+        "6s 版本可以写 logo sting feel, one melodic cell, fast but not frantic, no busy drums under final word。15s 版本写 hook at second 1, small lift at second 8, clean stop before CTA。30s 版本写 short intro, quieter middle for voiceover, lift after proof, natural tail。这样评估每个 version 时，看的是它有没有完成自己的任务，而不是长 track 剩下多少。",
+        "## 把声音和画面、speech 一起审",
+        "先静音看 video。如果 image 和 text 本身讲不清 message，music 不能修好这个 edit。再打开声音检查：snare 有没有压在最重要的 word 上？riser 有没有盖住 number 或 price？tail 是否在 call to action 后还拖着，让 ending 变弱？如果 clip 以 speech 为主，music bed 要明显低于 foreground voice；当 intelligibility 很重要时，20 dB lower 是一个保守参考。",
+        "## 交付容易测试的文件",
+        "选好版本后，用文件名记录决策：brand_offer_06s_9x16_music-low_2026-09-01.mp4、brand_offer_15s_square_voiceup.wav、brand_offer_30s_16x9_fullmix.wav。如果 handoff 需要其他 audio format，可以在 creative approval 后用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)，不要太早转换，免得团队测试一堆没必要的 intermediate files。",
+        "## 今天就能使用的 ideas",
+        "- 让 6s version 只做一件事：hit、motif 或 ending tag。\n- 生成 music 前，标出必须和 hook 对齐的 exact visual frame。\n- 如果第一秒很关键，在 prompt 里避免 long intro。\n- 在 filename 里写 music-low 或 voice-up，减少 reviewer 选错 mix 的概率。\n- 当 message 主要靠说话表达时，保留 speech-only 或 lower-bed version。",
+        "## FAQ\n### 能把一条 AI music track 剪成所有长度吗？\n有时可以，但经常会显得突然。更稳妥的做法，是围绕同一个 motif 规划一组 version family。\n### 6 秒版本需要 intro 吗？\n通常不需要。直接从 sonic identifier 或 main movement 开始，然后用短而清楚的 tail 结束。\n### Voiceover 被 music 盖住怎么办？\n降低 density，去掉移动明显的 lead，或者要求生成一个重要 words 下没有 fill 的 bed version。\n### 这样能保证平台审核通过吗？\n不能。发布前仍要检查每个平台的 specs、ad policies 和 rights requirements。"
+      ]
+    }
+  }
+}
