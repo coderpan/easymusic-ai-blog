@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-02",
+  "slug": "ai-music-weirdness-style-influence-workflow",
+  "cluster": "feature-education",
+  "translations": {
+    "ar": {
+      "title": "استخدم Weirdness وStyle Influence في AI music من دون التخمين",
+      "description": "Workflow عملي لاختبار Weirdness وStyle Influence في AI music prompts مع الحفاظ على الbrief والstyle والhook.",
+      "body": [
+        "تكتب prompt واضحا، ثم تحصل على draft مطيع لكنه مسطح. ترفع slider عشوائيا، فيخرج draft ممتع لكنه نسي الgenre. تغير prompt والlyrics والsettings معا، وبعد اربع محاولات لا تعرف ما الذي اصلح المشكلة. Controls مثل Weirdness وStyle Influence مفيدة فقط عندما تعاملها كاختبار صغير، لا كزر جودة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على توليد music drafts من descriptions وlyrics وstyle ideas. في Advanced Mode، تعامل مع controls مثل Weirdness وStyle Influence كجزء من workflow منظم: اكتب brief واضحا، غير عاملا واحدا، ثم احكم على النتيجة داخل use case حقيقي.",
+        "## اعط كل slider وظيفة واحدة",
+        "Style Influence يجيب عن سؤال: الى اي درجة يجب ان يتبع الناتج style description؟ اذا كتبت instruments وtempo وmood بدقة، ارفعه تدريجيا عندما يتجاهل الdraft هذه الاشارات. Weirdness يجيب عن سؤال مختلف: كم مساحة التجريب التي تسمح بها؟ ارفعه عندما يكون الprompt صحيحا لكن النتيجة generic، واخفضه عندما يبدأ hook او groove او structure بالانزلاق.",
+        "## اصلح الكلمات قبل الslider",
+        "لا تستخدم slider لانقاذ prompt متناقض. Lo-fi bedroom recording وpristine arena mix في الجملة نفسها قد يصنعان ارتباكا. Epic, emotional, modern لا تكفي وحدها. قبل لمس settings، اكتب عناصر يمكن سماعها: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements, song job. اذا احتجت vocabulary ادق، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويل mood واسع الى instruments وdensity وavoid-list.",
+        "## اختبر اربع نسخ لا عشرين تخمينا",
+        "ثبت title وlyrics وstyle prompt وmodel. Generate A بالsettings الحالية. Generate B بنفس كل شيء لكن Style Influence اعلى قليلا. Generate C ارجع Style Influence كما كان وارفع Weirdness قليلا. Generate D اخفض Weirdness. استمع لسؤال واحد في كل مرة: هل ظهر instrument المطلوب؟ هل بقي chorus مستقرا؟ هل اصبحت transition اغرب من اللازم؟ لا تغير كلمتين وslider في نفس الجولة.",
+        "## اختر البداية حسب وظيفة المسار",
+        "Background bed لفيديو تعليمي او اعلان هادئ يحتاج غالبا Weirdness منخفضا وStyle Influence متوسطا او عاليا اذا كان الstyle prompt محددا. Songwriting sketch قد يتحمل Weirdness اعلى لاكتشاف texture او rhythm غير متوقع. Track لclient review يحتاج تغييرات اصغر وسجل قرارات اوضح. اذا كان الهدف اصلاح tempo او حذف vocal chop، اعد كتابة الprompt او exclude list بدلا من رفع slider عشوائيا.",
+        "## سجل ما تعلمته قبل التصدير",
+        "اكتب مع كل keeper: prompt, Style Influence direction, Weirdness direction, why it won, what still failed. بعد approval، اذا احتجت MP3 او WAV او OGG للhandoff، استخدم [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) لصناعة نسخة تسليم. Conversion لا يصلح prompt سيئا ولا يمنح ضمانات حقوق او قبول منصة.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- غير slider واحدا فقط في كل round.\n- ارفع Style Influence عندما يكون الprompt دقيقا لكن الdraft يتجاهله.\n- ارفع Weirdness فقط بعد ان يصبح الdraft coherent لكنه ممل.\n- اخفض Weirdness اذا بدأ الhook او groove او ending يفقد الاستقرار.\n- لا تستخدم sliders لحل كلمات متناقضة؛ اصلح الbrief اولا.\n- احفظ keeper log حتى تبني preset عملي لنوع المحتوى نفسه.",
+        "## اسئلة شائعة\n### هل Weirdness اعلى يعني موسيقى افضل؟\nلا. يعني غالبا نتيجة اقل توقعا. قد تكون مفيدة للتجريب، وقد تفسد structure اذا كان المشروع يحتاج وضوحا.\n### متى ارفع Style Influence؟\nارفعه عندما يكون style prompt محددا والنتيجة لا تتبع instruments او mood او energy التي كتبتها.\n### هل اغير prompt والsliders معا؟\nلا في الاختبار الاول. غير شيئا واحدا حتى تعرف السبب. بعد فهم الاتجاه، يمكنك صياغة prompt جديد.\n### هل هذه الطريقة تضمن نتيجة جاهزة للنشر؟\nلا. هي تقلل التخمين فقط. راجع الجودة والحقوق ومتطلبات المنصة قبل استخدام اي ملف علنا."
+      ]
+    },
+    "de": {
+      "title": "Weirdness und Style Influence in KI-Musik nutzen, ohne zu raten",
+      "description": "Ein praktischer Workflow zum Testen von Weirdness und Style Influence, ohne Brief, Style oder Hook aus den Augen zu verlieren.",
+      "body": [
+        "Du schreibst einen klaren Prompt und bekommst einen folgsamen, aber flachen Draft. Dann schiebst du einen Slider hoch, und der naechste Draft ist spannend, vergisst aber das Genre. Du aenderst Prompt, Lyrics und Settings gleichzeitig, und nach vier Versuchen weisst du nicht, was geholfen hat. Controls wie Weirdness und Style Influence sind nur nuetzlich, wenn du sie als kleine Tests behandelst, nicht als Qualitaetsknopf.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kannst. In Advanced Mode solltest du Controls wie Weirdness und Style Influence als Teil eines geordneten Workflows nutzen: klares Brief schreiben, eine Variable aendern, Ergebnis im echten Use Case bewerten.",
+        "## Gib jedem Slider eine Aufgabe",
+        "Style Influence beantwortet: Wie eng soll das Ergebnis deiner Style Description folgen? Wenn du Instrumente, Tempo und Mood genau beschrieben hast, erhoehe ihn schrittweise, wenn der Draft diese Hinweise ignoriert. Weirdness beantwortet eine andere Frage: Wie viel Experiment erlaubst du? Erhoehe sie, wenn der Prompt stimmt, das Ergebnis aber generic klingt; senke sie, wenn Hook, Groove oder Struktur wegdriften.",
+        "## Repariere zuerst die Worte",
+        "Nutze keinen Slider, um einen widerspruechlichen Prompt zu retten. Lo-fi bedroom recording und pristine arena mix in einem Satz koennen Verwirrung erzeugen. Epic, emotional, modern reichen allein nicht. Bevor du Settings bewegst, schreibe hoerbare Elemente: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements, song job. Wenn dir Vokabular fehlt, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) einen breiten Mood in Instrumente, Dichte und Avoid-Liste uebersetzen.",
+        "## Teste vier Takes statt zwanzig Vermutungen",
+        "Fixiere Title, Lyrics, Style Prompt und Model. Generate A mit den aktuellen Settings. Generate B mit allem gleich, nur Style Influence etwas hoeher. Generate C mit Style Influence zurueck und Weirdness etwas hoeher. Generate D mit niedrigerer Weirdness. Hoere jeweils auf eine Frage: Erscheint das genannte Instrument? Bleibt der Chorus stabil? Wird die Transition zu seltsam? Aendere nicht zwei Woerter und einen Slider im selben Durchgang.",
+        "## Starte nach der Aufgabe des Tracks",
+        "Ein Background Bed fuer Erklaervideo oder ruhige Anzeige braucht oft niedrige Weirdness und mittlere bis hohe Style Influence, wenn der Style Prompt praezise ist. Ein Songwriting Sketch vertraegt mehr Weirdness, um unerwartete Textur oder Rhythmik zu finden. Ein Track fuer Client Review braucht kleinere Schritte und klarere Entscheidungsnotizen. Wenn du Tempo korrigieren oder einen Vocal Chop entfernen willst, schreibe Prompt oder Exclude List neu, statt blind Slider zu bewegen.",
+        "## Notiere das Gelernte vor dem Export",
+        "Schreibe zu jedem Keeper: prompt, Style Influence direction, Weirdness direction, why it won, what still failed. Nach der Freigabe kannst du den [Audio Converter](https://easymusic.ai/de/tools/audio-converter) nutzen, wenn MP3, WAV oder OGG fuer den Handoff gebraucht werden. Conversion repariert keinen schlechten Prompt und erzeugt keine Rechte- oder Plattformgarantie.",
+        "## Sofort nutzbare Ideen",
+        "- Aendere pro Runde nur einen Slider.\n- Erhoehe Style Influence, wenn der Prompt praezise ist, aber ignoriert wird.\n- Erhoehe Weirdness erst, wenn der Draft coherent, aber langweilig ist.\n- Senke Weirdness, wenn Hook, Groove oder Ending instabil werden.\n- Loese Widersprueche im Brief, nicht mit Slidern.\n- Fuehre ein Keeper Log, um praktische Presets fuer wiederkehrende Content-Typen aufzubauen.",
+        "## FAQ\n### Bedeutet hoehere Weirdness bessere Musik?\nNein. Sie bedeutet meist weniger Vorhersehbarkeit. Das kann beim Suchen helfen, kann aber Struktur zerstoeren, wenn Klarheit wichtig ist.\n### Wann sollte ich Style Influence erhoehen?\nWenn dein Style Prompt konkret ist und das Ergebnis Instrumente, Mood oder Energy nicht beachtet.\n### Sollte ich Prompt und Slider gleichzeitig aendern?\nNicht im ersten Test. Aendere eine Sache, damit du die Ursache erkennst. Danach kannst du einen neuen Prompt formulieren.\n### Garantiert dieser Workflow einen releasefertigen Track?\nNein. Er reduziert nur Raten. Pruefe Qualitaet, Rechte und Plattformanforderungen vor oeffentlicher Nutzung."
+      ]
+    },
+    "en": {
+      "title": "Use Weirdness and Style Influence in AI Music Without Guessing",
+      "description": "A practical workflow for testing Weirdness and Style Influence controls while keeping the brief, style, hook, and review notes intact.",
+      "body": [
+        "You write a clear prompt and get a draft that follows directions but feels flat. You move a slider, and the next draft is more interesting but forgets the genre. Then you rewrite the prompt, change the lyrics, move both controls, and have no idea which decision helped. Weirdness and Style Influence are useful only when you treat them as small tests, not quality buttons.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. In Advanced Mode, treat controls such as Weirdness and Style Influence as part of a disciplined workflow: write a clear brief, change one variable, then judge the result inside a real use case.",
+        "## Give Each Slider One Job",
+        "Style Influence answers one question: how closely should the result follow your style description? If you named instruments, tempo, and mood with care, raise it gradually when the draft ignores those signals. Weirdness answers a different question: how much room should the model have to experiment? Raise it when the prompt is right but the result feels generic; lower it when the hook, groove, or structure starts drifting.",
+        "## Fix the Words Before the Slider",
+        "Do not use a slider to rescue a contradictory prompt. Lo-fi bedroom recording and pristine arena mix in the same sentence can confuse the target. Epic, emotional, modern is not enough either. Before you touch settings, write audible details: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements, and song job. If your vocabulary is thin, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can turn a broad mood into clearer instrument, density, and avoid-list notes.",
+        "## Test Four Takes, Not Twenty Guesses",
+        "Lock the title, lyrics, style prompt, and model. Generate A at the current settings. Generate B with only Style Influence raised a little. Generate C with Style Influence back where it was and Weirdness raised a little. Generate D with Weirdness lowered. Listen for one question at a time: did the named instrument appear? Did the chorus stay stable? Did the transition become too strange? Do not change two words and a slider in the same pass.",
+        "## Choose a Starting Point by Track Job",
+        "A background bed for an explainer video or calm ad usually wants low Weirdness and medium-to-high Style Influence if the style prompt is specific. A songwriting sketch can tolerate more Weirdness while you hunt for an unexpected texture or rhythm. A track for client review needs smaller moves and clearer decision notes. If the problem is wrong tempo or an unwanted vocal chop, rewrite the prompt or exclude list instead of pushing a slider at random.",
+        "## Log What You Learned Before Export",
+        "For each keeper, write prompt, Style Influence direction, Weirdness direction, why it won, and what still failed. After approval, use the [Audio Converter](https://easymusic.ai/tools/audio-converter) only when the team needs MP3, WAV, or OGG for handoff. Conversion does not fix a bad prompt or create a rights or platform guarantee.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Change only one slider per round.\n- Raise Style Influence when a precise prompt is being ignored.\n- Raise Weirdness only after the draft is coherent but dull.\n- Lower Weirdness when the hook, groove, or ending loses stability.\n- Do not use sliders to solve contradictory words; fix the brief first.\n- Keep a keeper log so repeated content formats become easier to brief.",
+        "## FAQ\n### Does higher Weirdness mean better music?\nNo. It usually means less predictable music. That can help exploration, but it can also damage structure when the project needs clarity.\n### When should I raise Style Influence?\nRaise it when the style prompt is specific and the output is not following the instruments, mood, or energy you wrote.\n### Should I rewrite the prompt and move sliders together?\nNot for the first test. Change one thing so you know what caused the shift. After you understand the direction, write a cleaner prompt.\n### Does this workflow guarantee a release-ready result?\nNo. It reduces guessing. You still need to review quality, rights, client needs, and platform requirements before using the file publicly."
+      ]
+    },
+    "es": {
+      "title": "Usa Weirdness y Style Influence en musica IA sin adivinar",
+      "description": "Workflow practico para probar Weirdness y Style Influence sin perder el brief, el style, el hook ni las notas de revision.",
+      "body": [
+        "Escribes un prompt claro y recibes un draft obediente pero plano. Mueves un slider, y el siguiente draft es mas interesante pero olvida el genre. Luego reescribes el prompt, cambias lyrics, mueves dos controls, y ya no sabes que decision ayudo. Weirdness y Style Influence sirven cuando los tratas como pruebas pequenas, no como botones de calidad.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar music drafts desde descripciones, lyrics e ideas de style. En Advanced Mode, trata controls como Weirdness y Style Influence como parte de un workflow disciplinado: escribe un brief claro, cambia una variable y juzga el resultado dentro de un use case real.",
+        "## Dale una tarea a cada slider",
+        "Style Influence responde una pregunta: que tan cerca debe seguir el resultado tu style description? Si nombraste instruments, tempo y mood con cuidado, subelo poco a poco cuando el draft ignore esas senales. Weirdness responde otra: cuanto espacio de experimentacion quieres permitir? Subelo cuando el prompt esta bien pero el resultado suena generic; bajalo cuando hook, groove o structure empiezan a desviarse.",
+        "## Arregla las palabras antes del slider",
+        "No uses un slider para rescatar un prompt contradictorio. Lo-fi bedroom recording y pristine arena mix en la misma frase pueden confundir el objetivo. Epic, emotional, modern tampoco basta. Antes de tocar settings, escribe detalles audibles: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements y song job. Si te falta vocabulario, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood amplio en notas mas claras de instruments, density y avoid-list.",
+        "## Prueba cuatro takes, no veinte apuestas",
+        "Bloquea title, lyrics, style prompt y model. Genera A con los settings actuales. Genera B cambiando solo Style Influence un poco hacia arriba. Genera C devolviendo Style Influence y subiendo un poco Weirdness. Genera D bajando Weirdness. Escucha una pregunta por vez: aparecio el instrument nombrado? El chorus se mantuvo estable? La transition se volvio demasiado rara? No cambies dos palabras y un slider en la misma pasada.",
+        "## Elige el inicio segun el trabajo del track",
+        "Un background bed para explainer video o ad tranquilo suele pedir Weirdness bajo y Style Influence medio o alto si el style prompt es especifico. Un songwriting sketch puede tolerar mas Weirdness mientras buscas texture o rhythm inesperado. Un track para client review necesita movimientos pequenos y notas de decision claras. Si el problema es tempo incorrecto o un vocal chop no deseado, reescribe prompt o exclude list en vez de mover sliders al azar.",
+        "## Registra lo aprendido antes del export",
+        "Para cada keeper, escribe prompt, Style Influence direction, Weirdness direction, why it won y what still failed. Despues de aprobar, usa el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) solo si el equipo necesita MP3, WAV u OGG para handoff. Conversion no arregla un mal prompt ni crea garantia de derechos o plataforma.",
+        "## Ideas reutilizables para hoy",
+        "- Cambia solo un slider por round.\n- Sube Style Influence cuando un prompt preciso se ignora.\n- Sube Weirdness solo cuando el draft ya es coherent pero aburrido.\n- Baja Weirdness cuando hook, groove o ending pierden estabilidad.\n- No uses sliders para resolver palabras contradictorias; arregla primero el brief.\n- Guarda un keeper log para que formatos repetidos sean mas faciles de briefear.",
+        "## Preguntas frecuentes\n### Weirdness mas alto significa mejor musica?\nNo. Normalmente significa musica menos predecible. Puede ayudar a explorar, pero tambien puede danar structure cuando el proyecto necesita claridad.\n### Cuando debo subir Style Influence?\nCuando el style prompt es especifico y el output no sigue los instruments, mood o energy que escribiste.\n### Debo reescribir prompt y mover sliders juntos?\nNo en el primer test. Cambia una cosa para saber que causo el cambio. Despues de entender la direccion, escribe un prompt mas limpio.\n### Este workflow garantiza un resultado listo para publicar?\nNo. Reduce la adivinanza. Aun debes revisar calidad, derechos, necesidades del cliente y requisitos de plataforma."
+      ]
+    },
+    "fr": {
+      "title": "Utiliser Weirdness et Style Influence en musique IA sans deviner",
+      "description": "Workflow pratique pour tester Weirdness et Style Influence tout en gardant brief, style, hook et notes de review.",
+      "body": [
+        "Tu ecris un prompt clair et tu obtiens un draft obeissant mais plat. Tu pousses un slider, le draft suivant est plus interessant mais oublie le genre. Puis tu changes le prompt, les lyrics, deux controls, et tu ne sais plus quelle decision a aide. Weirdness et Style Influence sont utiles seulement si tu les traites comme de petits tests, pas comme des boutons de qualite.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui genere des brouillons a partir de descriptions, lyrics et idees de style. En Advanced Mode, considere Weirdness et Style Influence comme une partie d'un workflow discipline: ecrire un brief clair, changer une variable, puis juger le resultat dans un vrai use case.",
+        "## Donne un role a chaque slider",
+        "Style Influence repond a une question: a quel point le resultat doit-il suivre ta style description? Si tu as nomme instruments, tempo et mood avec precision, augmente-le progressivement quand le draft ignore ces signaux. Weirdness repond a une autre question: quelle place laisses-tu a l'experimentation? Augmente-le quand le prompt est bon mais que le resultat sonne generic; baisse-le quand hook, groove ou structure commencent a deriver.",
+        "## Corrige les mots avant le slider",
+        "N'utilise pas un slider pour sauver un prompt contradictoire. Lo-fi bedroom recording et pristine arena mix dans la meme phrase peuvent brouiller la cible. Epic, emotional, modern ne suffit pas non plus. Avant de toucher aux settings, ecris des details audibles: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements et song job. Si ton vocabulaire manque de precision, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer un mood large en notes plus claires sur instruments, density et avoid-list.",
+        "## Teste quatre takes, pas vingt suppositions",
+        "Verrouille title, lyrics, style prompt et model. Genere A avec les settings actuels. Genere B en augmentant seulement Style Influence. Genere C en remettant Style Influence et en augmentant un peu Weirdness. Genere D en baissant Weirdness. Ecoute une question a la fois: l'instrument nomme apparait-il? Le chorus reste-t-il stable? La transition devient-elle trop etrange? Ne change pas deux mots et un slider dans le meme passage.",
+        "## Choisis le depart selon le role du track",
+        "Un background bed pour explainer video ou ad calme demande souvent une Weirdness basse et une Style Influence moyenne a haute si le style prompt est precis. Un songwriting sketch peut tolerer plus de Weirdness pour chercher une texture ou un rhythm inattendu. Un track pour client review demande des mouvements plus petits et des notes de decision plus claires. Si le probleme est un tempo faux ou un vocal chop non voulu, reecris le prompt ou l'exclude list au lieu de pousser un slider au hasard.",
+        "## Note ce que tu apprends avant l'export",
+        "Pour chaque keeper, ecris prompt, Style Influence direction, Weirdness direction, why it won et what still failed. Apres validation, utilise l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) seulement si l'equipe a besoin de MP3, WAV ou OGG pour le handoff. La conversion ne repare pas un mauvais prompt et ne cree pas de garantie de droits ou de plateforme.",
+        "## Idees reutilisables aujourd'hui",
+        "- Change un seul slider par round.\n- Augmente Style Influence quand un prompt precis est ignore.\n- Augmente Weirdness seulement quand le draft est coherent mais terne.\n- Baisse Weirdness quand hook, groove ou ending perdent leur stabilite.\n- Ne resous pas des mots contradictoires avec des sliders; corrige d'abord le brief.\n- Garde un keeper log pour rendre les formats repetes plus faciles a briefer.",
+        "## FAQ\n### Une Weirdness plus haute signifie-t-elle meilleure musique ?\nNon. Elle signifie souvent une musique moins previsible. Cela peut aider l'exploration, mais abimer la structure quand le projet demande de la clarte.\n### Quand augmenter Style Influence ?\nQuand le style prompt est specifique et que l'output ne suit pas les instruments, le mood ou l'energy que tu as ecrits.\n### Faut-il reecrire le prompt et bouger les sliders ensemble ?\nPas au premier test. Change une chose pour connaitre la cause. Ensuite, quand tu comprends la direction, ecris un prompt plus propre.\n### Ce workflow garantit-il un resultat pret a publier ?\nNon. Il reduit les devinettes. Il faut encore verifier qualite, droits, besoins client et exigences de plateforme avant usage public."
+      ]
+    },
+    "it": {
+      "title": "Usa Weirdness e Style Influence nella musica AI senza indovinare",
+      "description": "Workflow pratico per testare Weirdness e Style Influence mantenendo brief, style, hook e note di revisione sotto controllo.",
+      "body": [
+        "Scrivi un prompt chiaro e ottieni un draft obbediente ma piatto. Muovi uno slider, e il draft successivo e piu interessante ma dimentica il genre. Poi riscrivi prompt, cambi lyrics, muovi due controls, e non sai piu quale decisione ha aiutato. Weirdness e Style Influence servono solo quando li tratti come piccoli test, non come pulsanti di qualita.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA che genera bozze musicali da descriptions, lyrics e style ideas. In Advanced Mode, considera controls come Weirdness e Style Influence parte di un workflow disciplinato: scrivi un brief chiaro, cambia una variabile, poi giudica il risultato dentro un use case reale.",
+        "## Dai a ogni slider un lavoro",
+        "Style Influence risponde a una domanda: quanto da vicino il risultato deve seguire la tua style description? Se hai scritto instruments, tempo e mood con cura, alzalo gradualmente quando il draft ignora quei segnali. Weirdness risponde a un'altra domanda: quanto spazio vuoi lasciare all'esperimento? Alzalo quando il prompt e giusto ma il risultato sembra generic; abbassalo quando hook, groove o structure iniziano a spostarsi.",
+        "## Sistema le parole prima dello slider",
+        "Non usare uno slider per salvare un prompt contraddittorio. Lo-fi bedroom recording e pristine arena mix nella stessa frase possono confondere il target. Epic, emotional, modern non basta. Prima di toccare settings, scrivi dettagli udibili: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements e song job. Se il vocabolario e debole, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood largo in note piu chiare su instruments, density e avoid-list.",
+        "## Prova quattro takes, non venti ipotesi",
+        "Blocca title, lyrics, style prompt e model. Genera A con i settings attuali. Genera B cambiando solo Style Influence un po' verso l'alto. Genera C riportando Style Influence com'era e alzando un poco Weirdness. Genera D abbassando Weirdness. Ascolta una domanda alla volta: e apparso l'instrument nominato? Il chorus resta stabile? La transition diventa troppo strana? Non cambiare due parole e uno slider nello stesso passaggio.",
+        "## Scegli il punto di partenza dal lavoro del track",
+        "Un background bed per explainer video o ad calmo di solito vuole Weirdness bassa e Style Influence media o alta se il style prompt e specifico. Un songwriting sketch puo tollerare piu Weirdness mentre cerchi texture o rhythm inattesi. Un track per client review richiede mosse piu piccole e note di decisione piu chiare. Se il problema e tempo sbagliato o un vocal chop indesiderato, riscrivi prompt o exclude list invece di spingere slider a caso.",
+        "## Registra cio che impari prima dell'export",
+        "Per ogni keeper, scrivi prompt, Style Influence direction, Weirdness direction, why it won e what still failed. Dopo l'approvazione, usa l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) solo se il team ha bisogno di MP3, WAV o OGG per il handoff. La conversion non ripara un cattivo prompt e non crea garanzie sui diritti o sulla piattaforma.",
+        "## Idee riutilizzabili oggi",
+        "- Cambia un solo slider per round.\n- Alza Style Influence quando un prompt preciso viene ignorato.\n- Alza Weirdness solo dopo che il draft e coherent ma spento.\n- Abbassa Weirdness quando hook, groove o ending perdono stabilita.\n- Non usare slider per risolvere parole contraddittorie; sistema prima il brief.\n- Tieni un keeper log, cosi i formati ricorrenti diventano piu facili da briefare.",
+        "## FAQ\n### Weirdness piu alta significa musica migliore?\nNo. Di solito significa musica meno prevedibile. Puo aiutare l'esplorazione, ma puo danneggiare la structure quando serve chiarezza.\n### Quando dovrei alzare Style Influence?\nQuando il style prompt e specifico e l'output non segue instruments, mood o energy che hai scritto.\n### Dovrei riscrivere prompt e muovere sliders insieme?\nNon nel primo test. Cambia una cosa per capire la causa. Dopo aver capito la direzione, scrivi un prompt piu pulito.\n### Questo workflow garantisce un risultato pronto al release?\nNo. Riduce solo il guessing. Devi ancora controllare qualita, diritti, bisogni del cliente e requisiti della piattaforma."
+      ]
+    },
+    "ja": {
+      "title": "AI music の Weirdness と Style Influence を当てずっぽうで使わない",
+      "description": "Brief、style、hook、review notes を保ちながら Weirdness と Style Influence をテストする実用 workflow。",
+      "body": [
+        "Clear prompt を書いたのに、directions には従うけれど平たい draft が出ます。Slider を動かすと、次の draft は面白いけれど genre を忘れます。さらに prompt を書き換え、lyrics も変え、controls も動かすと、何が効いたのか分からなくなります。Weirdness と Style Influence は quality buttons ではありません。小さな test として扱うと役に立ちます。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、descriptions、lyrics、style ideas から music drafts を生成できる AI music creation platform です。Advanced Mode では、Weirdness や Style Influence などの controls を disciplined workflow の一部として扱います。Clear brief を書き、one variable だけを変え、real use case の中で結果を判断します。",
+        "## 各 slider に一つの job を与える",
+        "Style Influence は、result が style description にどれだけ近く従うべきかを決める問いです。Instruments、tempo、mood を丁寧に書いたのに draft が無視するなら、少しずつ上げます。Weirdness は別の問いです。Model にどれだけ experiment の余地を与えるか。Prompt は正しいのに generic に聞こえるなら上げ、hook、groove、structure が drift し始めたら下げます。",
+        "## Slider の前に言葉を直す",
+        "Contradictory prompt を slider で救おうとしないでください。Lo-fi bedroom recording と pristine arena mix を同じ文に入れると target が濁ります。Epic, emotional, modern だけでも足りません。Settings を触る前に、聞こえる details を書きます: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements, song job。Vocabulary が薄いときは、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で broad mood を instruments、density、avoid-list に変えます。",
+        "## 20 の guesses ではなく 4 takes を test する",
+        "Title、lyrics、style prompt、model を固定します。A は current settings。B は Style Influence だけを少し上げる。C は Style Influence を戻し、Weirdness を少し上げる。D は Weirdness を下げる。Listen する question は一つずつです。Named instrument は出たか。Chorus は stable か。Transition は strange すぎないか。同じ pass で二つの words と slider を同時に変えないでください。",
+        "## Track job から starting point を選ぶ",
+        "Explainer video や calm ad の background bed は、style prompt が具体的なら low Weirdness と medium-to-high Style Influence から始めることが多いです。Songwriting sketch は unexpected texture や rhythm を探すために more Weirdness を許容できます。Client review 用 track は smaller moves と clearer decision notes が必要です。Wrong tempo や unwanted vocal chop が問題なら、slider ではなく prompt や exclude list を直します。",
+        "## Export 前に学んだことを記録する",
+        "各 keeper に prompt, Style Influence direction, Weirdness direction, why it won, what still failed を残します。Approval 後、handoff に MP3、WAV、OGG が必要なときだけ [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使います。Conversion は bad prompt を直さず、rights や platform の guarantee も作りません。",
+        "## 今日すぐ使える ideas",
+        "- 1 round で変える slider は一つだけにします。\n- Precise prompt が無視されるとき Style Influence を上げます。\n- Draft が coherent だが dull なときだけ Weirdness を上げます。\n- Hook、groove、ending が不安定なら Weirdness を下げます。\n- Contradictory words を slider で解かず、brief を先に直します。\n- Keeper log を残し、繰り返す content format を brief しやすくします。",
+        "## FAQ\n### Weirdness を上げるほど music は良くなりますか？\nいいえ。多くの場合、less predictable になるだけです。Exploration には役立ちますが、clarity が必要な project では structure を壊すことがあります。\n### Style Influence はいつ上げますか？\nStyle prompt が具体的なのに、output が instruments、mood、energy に従わないときです。\n### Prompt rewrite と slider move を一緒にしてよいですか？\n最初の test では避けます。原因を知るために一つだけ変えます。方向が見えた後で cleaner prompt を書きます。\n### この workflow は release-ready result を保証しますか？\nいいえ。Guessing を減らすだけです。公開前に quality、rights、client needs、platform requirements を確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "AI music의 Weirdness와 Style Influence를 추측 없이 쓰는 법",
+      "description": "Brief, style, hook, review notes를 유지하면서 Weirdness와 Style Influence controls를 테스트하는 workflow.",
+      "body": [
+        "Clear prompt를 썼는데 directions는 따르지만 flat한 draft가 나옵니다. Slider를 움직이면 다음 draft는 더 흥미롭지만 genre를 잊습니다. 그다음 prompt를 고치고, lyrics를 바꾸고, controls 두 개를 같이 움직이면 어떤 결정이 도움이 됐는지 알 수 없습니다. Weirdness와 Style Influence는 quality buttons가 아닙니다. 작은 test로 다룰 때 쓸모가 있습니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music drafts를 만들 수 있는 AI music creation platform입니다. Advanced Mode에서는 Weirdness, Style Influence 같은 controls를 disciplined workflow의 일부로 보세요. Clear brief를 쓰고, one variable만 바꾼 뒤, real use case 안에서 결과를 판단합니다.",
+        "## 각 slider에 job을 하나만 준다",
+        "Style Influence는 result가 style description을 얼마나 가깝게 따라야 하는지에 대한 질문입니다. Instruments, tempo, mood를 신중히 썼는데 draft가 그 신호를 무시하면 조금씩 올립니다. Weirdness는 다른 질문입니다. Model이 얼마나 experiment할 수 있게 둘 것인가입니다. Prompt는 맞는데 result가 generic하면 올리고, hook, groove, structure가 drift하기 시작하면 낮춥니다.",
+        "## Slider 전에 words를 고친다",
+        "Contradictory prompt를 slider로 구하지 마세요. Lo-fi bedroom recording과 pristine arena mix가 같은 문장에 있으면 target이 흐려질 수 있습니다. Epic, emotional, modern만으로도 부족합니다. Settings를 만지기 전에 들리는 details를 씁니다: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements, song job. Vocabulary가 약하면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 broad mood를 instruments, density, avoid-list로 바꾸세요.",
+        "## 스무 번의 guessing 대신 네 takes를 test한다",
+        "Title, lyrics, style prompt, model을 잠급니다. A는 current settings. B는 Style Influence만 조금 올립니다. C는 Style Influence를 되돌리고 Weirdness를 조금 올립니다. D는 Weirdness를 낮춥니다. 한 번에 한 질문만 듣습니다. Named instrument가 나왔나요? Chorus가 stable한가요? Transition이 너무 strange해졌나요? 같은 pass에서 words 두 개와 slider 하나를 동시에 바꾸지 마세요.",
+        "## Track job으로 starting point를 고른다",
+        "Explainer video나 calm ad의 background bed는 style prompt가 구체적이면 low Weirdness와 medium-to-high Style Influence가 맞는 경우가 많습니다. Songwriting sketch는 unexpected texture나 rhythm을 찾기 위해 Weirdness를 더 허용할 수 있습니다. Client review용 track은 smaller moves와 clearer decision notes가 필요합니다. 문제가 wrong tempo나 unwanted vocal chop이라면 slider를 밀지 말고 prompt나 exclude list를 다시 쓰세요.",
+        "## Export 전에 배운 것을 기록한다",
+        "각 keeper에 prompt, Style Influence direction, Weirdness direction, why it won, what still failed를 남깁니다. Approval 뒤 handoff에 MP3, WAV, OGG가 필요할 때만 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 사용하세요. Conversion은 bad prompt를 고치지 않고 rights나 platform guarantee도 만들지 않습니다.",
+        "## 오늘 바로 적용할 수 있는 ideas",
+        "- Round마다 slider 하나만 바꿉니다.\n- Precise prompt가 무시될 때 Style Influence를 올립니다.\n- Draft가 coherent하지만 dull할 때만 Weirdness를 올립니다.\n- Hook, groove, ending이 unstable하면 Weirdness를 낮춥니다.\n- Contradictory words를 slider로 해결하지 말고 brief를 먼저 고칩니다.\n- Keeper log를 남겨 반복되는 content format을 더 쉽게 brief합니다.",
+        "## FAQ\n### Weirdness가 높으면 music이 더 좋아지나요?\n아니요. 보통 less predictable해진다는 뜻입니다. Exploration에는 도움 되지만 clarity가 필요한 project에서는 structure를 망칠 수 있습니다.\n### Style Influence는 언제 올리나요?\nStyle prompt가 구체적인데 output이 instruments, mood, energy를 따르지 않을 때입니다.\n### Prompt rewrite와 slider move를 같이 해도 되나요?\n첫 test에서는 피하세요. 원인을 알기 위해 하나만 바꿉니다. 방향을 이해한 뒤 cleaner prompt를 쓰세요.\n### 이 workflow가 release-ready result를 보장하나요?\n아니요. Guessing을 줄일 뿐입니다. 공개 전에 quality, rights, client needs, platform requirements를 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Use Weirdness e Style Influence em musica IA sem adivinhar",
+      "description": "Workflow pratico para testar Weirdness e Style Influence mantendo brief, style, hook e notas de revisao sob controle.",
+      "body": [
+        "Voce escreve um prompt claro e recebe um draft obediente, mas sem vida. Move um slider, e o proximo draft fica mais interessante, mas esquece o genre. Depois voce reescreve prompt, muda lyrics, mexe em dois controls e nao sabe qual decisao ajudou. Weirdness e Style Influence so servem bem quando sao tratados como pequenos testes, nao como botoes de qualidade.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar music drafts a partir de descricoes, lyrics e ideias de style. No Advanced Mode, trate controls como Weirdness e Style Influence como parte de um workflow disciplinado: escreva um brief claro, mude uma variavel e julgue o resultado dentro de um use case real.",
+        "## De um trabalho para cada slider",
+        "Style Influence responde uma pergunta: quao de perto o resultado deve seguir sua style description? Se voce nomeou instruments, tempo e mood com cuidado, aumente aos poucos quando o draft ignora esses sinais. Weirdness responde outra pergunta: quanto espaco de experimentacao o model pode ter? Aumente quando o prompt esta certo mas o resultado soa generic; reduza quando hook, groove ou structure comecam a sair do eixo.",
+        "## Corrija as palavras antes do slider",
+        "Nao use slider para salvar um prompt contraditorio. Lo-fi bedroom recording e pristine arena mix na mesma frase podem confundir o target. Epic, emotional, modern tambem nao basta. Antes de mexer em settings, escreva detalhes audiveis: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements e song job. Se faltar vocabulario, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode converter um mood amplo em notas mais claras de instruments, density e avoid-list.",
+        "## Teste quatro takes, nao vinte palpites",
+        "Trave title, lyrics, style prompt e model. Gere A com os settings atuais. Gere B apenas com Style Influence um pouco mais alto. Gere C voltando Style Influence e subindo um pouco Weirdness. Gere D baixando Weirdness. Escute uma pergunta por vez: o instrument nomeado apareceu? O chorus ficou stable? A transition ficou estranha demais? Nao mude duas palavras e um slider na mesma passada.",
+        "## Escolha o inicio pelo trabalho do track",
+        "Um background bed para explainer video ou ad calmo geralmente pede Weirdness baixa e Style Influence medio ou alto se o style prompt e especifico. Um songwriting sketch pode tolerar mais Weirdness enquanto voce procura texture ou rhythm inesperado. Um track para client review precisa de movimentos menores e notas de decisao mais claras. Se o problema e tempo errado ou vocal chop indesejado, reescreva prompt ou exclude list em vez de empurrar slider ao acaso.",
+        "## Registre o que aprendeu antes do export",
+        "Para cada keeper, escreva prompt, Style Influence direction, Weirdness direction, why it won e what still failed. Depois da aprovacao, use o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) so quando o time precisar de MP3, WAV ou OGG para handoff. Conversion nao conserta prompt ruim nem cria garantia de direitos ou plataforma.",
+        "## Ideias reutilizaveis para hoje",
+        "- Mude apenas um slider por round.\n- Aumente Style Influence quando um prompt preciso e ignorado.\n- Aumente Weirdness so depois que o draft estiver coherent mas dull.\n- Reduza Weirdness quando hook, groove ou ending perderem estabilidade.\n- Nao use sliders para resolver palavras contraditorias; corrija o brief primeiro.\n- Mantenha um keeper log para facilitar briefs de formatos repetidos.",
+        "## Perguntas frequentes\n### Weirdness mais alto significa musica melhor?\nNao. Normalmente significa musica menos previsivel. Pode ajudar na exploracao, mas tambem pode danificar structure quando o projeto precisa de clareza.\n### Quando devo aumentar Style Influence?\nQuando o style prompt e especifico e o output nao segue os instruments, mood ou energy que voce escreveu.\n### Devo reescrever prompt e mover sliders juntos?\nNao no primeiro teste. Mude uma coisa para saber a causa. Depois de entender a direcao, escreva um prompt mais limpo.\n### Esse workflow garante um resultado pronto para publicar?\nNao. Ele reduz adivinhacao. Voce ainda precisa revisar qualidade, direitos, necessidades do cliente e requisitos da plataforma."
+      ]
+    },
+    "ru": {
+      "title": "Используйте Weirdness и Style Influence в AI music без угадывания",
+      "description": "Практический workflow для проверки Weirdness и Style Influence без потери brief, style, hook и review notes.",
+      "body": [
+        "Вы пишете ясный prompt и получаете draft, который слушается, но звучит плоско. Двигаете slider, и следующий draft интереснее, но забывает genre. Потом вы переписываете prompt, меняете lyrics, двигаете два controls и уже не понимаете, что помогло. Weirdness и Style Influence полезны только тогда, когда вы относитесь к ним как к маленьким тестам, а не как к кнопкам качества.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это платформа AI music creation, где можно создавать music drafts из descriptions, lyrics и style ideas. В Advanced Mode рассматривайте controls вроде Weirdness и Style Influence как часть дисциплинированного workflow: напишите ясный brief, измените одну переменную, затем оцените результат в реальном use case.",
+        "## Дайте каждому slider одну задачу",
+        "Style Influence отвечает на вопрос: насколько близко result должен следовать вашей style description? Если вы точно назвали instruments, tempo и mood, повышайте его постепенно, когда draft игнорирует эти сигналы. Weirdness отвечает на другой вопрос: сколько места model получает для experiment? Повышайте, когда prompt верный, но result звучит generic; снижайте, когда hook, groove или structure начинают drift.",
+        "## Сначала исправьте слова",
+        "Не используйте slider, чтобы спасти противоречивый prompt. Lo-fi bedroom recording и pristine arena mix в одном предложении могут сбить target. Epic, emotional, modern тоже недостаточно. До настроек напишите слышимые details: genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements и song job. Если словаря не хватает, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить широкий mood в более точные notes об instruments, density и avoid-list.",
+        "## Тестируйте четыре takes, а не двадцать догадок",
+        "Зафиксируйте title, lyrics, style prompt и model. Generate A на текущих settings. Generate B - только с немного повышенным Style Influence. Generate C - верните Style Influence и слегка повысьте Weirdness. Generate D - снизьте Weirdness. Слушайте один вопрос за раз: появился ли названный instrument? Остался ли chorus stable? Не стала ли transition слишком strange? Не меняйте два words и slider в одном проходе.",
+        "## Выбирайте старт по задаче track",
+        "Background bed для explainer video или спокойной ad обычно требует low Weirdness и medium-to-high Style Influence, если style prompt конкретный. Songwriting sketch может выдержать больше Weirdness, пока вы ищете unexpected texture или rhythm. Track для client review требует smaller moves и более ясных decision notes. Если проблема в wrong tempo или unwanted vocal chop, перепишите prompt или exclude list, а не двигайте slider наугад.",
+        "## Запишите выводы до export",
+        "Для каждого keeper напишите prompt, Style Influence direction, Weirdness direction, why it won и what still failed. После approval используйте [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) только если команде нужны MP3, WAV или OGG для handoff. Conversion не исправляет bad prompt и не создает rights или platform guarantee.",
+        "## Идеи, которые можно применить сегодня",
+        "- Меняйте только один slider за round.\n- Повышайте Style Influence, когда precise prompt игнорируется.\n- Повышайте Weirdness только после того, как draft стал coherent, но dull.\n- Снижайте Weirdness, когда hook, groove или ending теряют стабильность.\n- Не решайте contradictory words слайдерами; сначала исправьте brief.\n- Ведите keeper log, чтобы повторяющиеся content formats было легче описывать.",
+        "## FAQ\n### Более высокий Weirdness означает лучшую музыку?\nНет. Обычно это значит менее предсказуемую музыку. Это может помочь exploration, но может повредить structure, если проекту нужна clarity.\n### Когда повышать Style Influence?\nКогда style prompt конкретный, а output не следует instruments, mood или energy, которые вы написали.\n### Стоит ли одновременно переписывать prompt и двигать sliders?\nНе в первом тесте. Меняйте одну вещь, чтобы понять причину. Когда направление ясно, напишите cleaner prompt.\n### Этот workflow гарантирует release-ready result?\nНет. Он только снижает угадывание. Все равно нужно проверить quality, rights, client needs и platform requirements перед публичным использованием."
+      ]
+    },
+    "zh": {
+      "title": "不要靠猜来使用 AI music 的 Weirdness 和 Style Influence",
+      "description": "一个实用 workflow，帮助你测试 Weirdness 和 Style Influence，同时保住 brief、style、hook 和 review notes。",
+      "body": [
+        "你写了一个清楚的 prompt，得到的 draft 很听话，但有点平。你移动一个 slider，下一版更有意思，却忘了 genre。接着你又改 prompt、改 lyrics、同时移动两个 controls，四次之后完全不知道哪一步真的有用。Weirdness 和 Style Influence 只有在被当成小测试时才有价值，它们不是质量按钮。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。在 Advanced Mode 里，把 Weirdness 和 Style Influence 这样的 controls 当成 disciplined workflow 的一部分：先写清楚 brief，只改变 one variable，再放进真实 use case 里判断结果。",
+        "## 给每个 slider 一个 job",
+        "Style Influence 回答一个问题：result 应该多严格地跟随你的 style description？如果你认真写了 instruments、tempo 和 mood，但 draft 忽略这些信号，就逐步调高。Weirdness 回答另一个问题：model 可以有多少 experiment 空间？当 prompt 是对的但 result 太 generic，可以调高；当 hook、groove 或 structure 开始 drift，就调低。",
+        "## 先修正 words，再碰 slider",
+        "不要用 slider 拯救矛盾 prompt。Lo-fi bedroom recording 和 pristine arena mix 放在同一句里，可能让 target 变浑。Epic, emotional, modern 也不够。动 settings 之前，先写能听见的 details：genre family, tempo range, lead instrument, drum density, vocal choice, forbidden elements, song job。如果 vocabulary 太薄，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把 broad mood 转成更清楚的 instruments、density 和 avoid-list notes。",
+        "## 测四个 takes，不要做二十次 guesses",
+        "锁定 title、lyrics、style prompt 和 model。A 用 current settings。B 只把 Style Influence 稍微调高。C 把 Style Influence 还原，只把 Weirdness 稍微调高。D 把 Weirdness 调低。每次只听一个问题：named instrument 出现了吗？Chorus 稳定吗？Transition 有没有变得太 strange？不要在同一轮里同时改两个 words 和一个 slider。",
+        "## 按 track job 选择起点",
+        "Explainer video 或 calm ad 的 background bed，如果 style prompt 很具体，通常适合 low Weirdness 和 medium-to-high Style Influence。Songwriting sketch 可以允许更多 Weirdness，用来寻找 unexpected texture 或 rhythm。给 client review 的 track 需要 smaller moves 和更清楚的 decision notes。如果问题是 wrong tempo 或 unwanted vocal chop，应该重写 prompt 或 exclude list，而不是随便推 slider。",
+        "## Export 前记录你学到了什么",
+        "每个 keeper 都写下 prompt, Style Influence direction, Weirdness direction, why it won, what still failed。Approval 之后，只有在 handoff 需要 MP3、WAV 或 OGG 时，才使用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)。Conversion 不能修复 bad prompt，也不会产生 rights 或 platform guarantee。",
+        "## 今天就能使用的 ideas",
+        "- 每个 round 只改变一个 slider。\n- 当 precise prompt 被忽略时，提高 Style Influence。\n- 只有 draft 已经 coherent 但 dull 时，再提高 Weirdness。\n- Hook、groove 或 ending 失去稳定时，降低 Weirdness。\n- 不要用 sliders 解决 contradictory words；先修 brief。\n- 保留 keeper log，让重复 content formats 更容易 brief。",
+        "## FAQ\n### Weirdness 越高，music 越好吗？\n不是。它通常只是让 music 更 less predictable。这有助于 exploration，但当 project 需要 clarity 时，也可能破坏 structure。\n### 什么时候提高 Style Influence？\n当 style prompt 很具体，而 output 没有跟随你写的 instruments、mood 或 energy 时。\n### 可以同时 rewrite prompt 和移动 sliders 吗？\n第一次 test 不建议。一次只改一件事，才能知道变化来自哪里。理解方向后，再写 cleaner prompt。\n### 这个 workflow 能保证 release-ready result 吗？\n不能。它只是减少 guessing。公开使用前仍要检查 quality、rights、client needs 和 platform requirements。"
+      ]
+    }
+  }
+}
