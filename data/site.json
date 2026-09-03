@@ -85,6 +85,19 @@
       "ru": "https://easymusic.ai/ru/tools/audio-converter",
       "zh": "https://easymusic.ai/zh/tools/audio-converter"
     },
+    "googleLyria": {
+      "ar": "https://easymusic.ai/ar/google-lyria-ai-music-generator",
+      "de": "https://easymusic.ai/de/google-lyria-ai-music-generator",
+      "en": "https://easymusic.ai/google-lyria-ai-music-generator",
+      "es": "https://easymusic.ai/es/google-lyria-ai-music-generator",
+      "fr": "https://easymusic.ai/fr/google-lyria-ai-music-generator",
+      "it": "https://easymusic.ai/it/google-lyria-ai-music-generator",
+      "ja": "https://easymusic.ai/ja/google-lyria-ai-music-generator",
+      "ko": "https://easymusic.ai/ko/google-lyria-ai-music-generator",
+      "pt": "https://easymusic.ai/pt/google-lyria-ai-music-generator",
+      "ru": "https://easymusic.ai/ru/google-lyria-ai-music-generator",
+      "zh": "https://easymusic.ai/zh/google-lyria-ai-music-generator"
+    },
     "aiMusicVideoGenerator": {
       "en": "https://easymusic.ai/ai-music-video-generator"
     },
