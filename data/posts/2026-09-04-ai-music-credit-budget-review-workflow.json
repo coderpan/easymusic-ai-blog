@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-04",
+  "slug": "ai-music-credit-budget-review-workflow",
+  "cluster": "credit-planning-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music credits قبل ان تبدأ جولة review",
+      "description": "Workflow عملي لتقسيم AI music credits بين exploration وkeeper takes وexports من دون حرق الميزانية على rerolls عشوائية.",
+      "body": [
+        "المشكلة لا تظهر في اول prompt. تظهر بعد take خامس، عندما يطلب العميل نسخة اهدأ، وتحتاج انت export للedit، ثم تكتشف ان معظم credits ذهبت الى تجارب لم تجب عن سؤال واضح. Credit budget ليس موضوعا ماليا فقط؛ انه طريقة لاجبار جلسة AI music على اتخاذ قرارات مبكرة.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على توليد music drafts من descriptions وlyrics وstyle ideas. استخدمها كمكان لتطوير اتجاهات صوتية قابلة للمراجعة، لكن لا تجعل اي draft بديلا عن موافقة العميل، شروط الاداة، او review الخاص بالقناة التي ستنشر عليها.",
+        "## ابدأ بسؤال واحد لا بقائمة امنيات",
+        "قبل توليد اي شيء، اكتب job واحدا: intro مدته ثماني ثوان، bed منخفض تحت voiceover، hook للاعلان، او loop للصفحة. ثم اختر معيارين فقط للنجاح، مثل وضوح الكلام وظهور motif خلال 10 ثوان. كل prompt اضافي يجب ان يجيب عن هذا السؤال. اذا اصبح السؤال style وlength وlyrics وmix وplatform في الوقت نفسه، فستصرف credits على الغموض.",
+        "## اقسم الجلسة الى اربع خانات",
+        "ضع جدول عمل بسيطا: Explore, Choose, Polish, Export. Explore يعني نسخ قصيرة ورخيصة القرار، لا ملفات نهائية. Choose يعني مقارنة takeين او ثلاثة فقط. Polish يعني تعديل واحد معروف السبب. Export يعني تنزيل او تحويل بعد ان يعرف الجميع اي نسخة ستستخدم. صفحة [Credits Usage Rules](https://easymusic.ai/ar/credits-explanation) تعرض كيف تختلف تكلفة generation وextension وedit وdownload وبعض video outputs؛ انسخ الارقام الحالية قبل الجلسة بدلا من الاعتماد على ذاكرة قديمة.",
+        "## لا تطلب نسخة طويلة قبل ان يثبت الاتجاه",
+        "النسخة الطويلة تبدو جادة، لكنها تضخم تكلفة القرار الخاطئ. اختبر style وtempo وvocal choice في pass قصير اولا. اذا احتجت لغة style ادق، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويل كلمة واسعة مثل warm او cinematic الى instruments وtexture وdensity. بعد ذلك احذف اي كلمة لا تساعدك على الاختيار.",
+        "## اعط المراجع حزمة صغيرة",
+        "لا ترسل ستة ملفات متشابهة. ارسل winner وbackup وreject واضحا مع notes: why kept, why rejected, open question. اطلب من المراجع الاختيار بين اتجاهين، لا بين كل احتمال. بهذه الطريقة تكون الجولة التالية polish وليست start over. اذا احتاج الفريق تغييرا كبيرا، افتح خانة Explore جديدة بدلا من تدمير keeper الحالي.",
+        "## افصل credits عن الحقوق",
+        "Credit planning يحسن الانضباط، لكنه لا يثبت ان الناتج مناسب لكل استخدام. احتفظ بملاحظة منفصلة عن source material، uploaded voices، lyrics، names، platform disclosure، وتوقعات العميل. اذا كان الاستخدام اعلانيا او تجاريا، لا تكتب cleared في اسم الملف فقط لان النسخة اعجبت الفريق.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- حدد سقفا مسبقا: مثلا ثلاث محاولات Explore قبل اي edit.\n- لا تطلب export حتى يختار شخص واحد keeper.\n- سم كل ملف بالهدف لا بالمزاج: ad-hook-v01 افضل من amazing-final.\n- اكتب سبب الرفض حتى لا تعيد prompt نفسه غدا.\n- راجع جدول credits الحالي قبل جلسة العميل.\n- اترك review الحقوق والمنصة خارج حساب credits.",
+        "## اسئلة شائعة\n### هل اقل عدد من takes يعني نتيجة اضعف؟\nلا. القيد الجيد يجعل كل take يجيب عن سؤال. الضعف يأتي من قبول اول نتيجة، لا من تقليل الفوضى.\n### متى انفق credits على edit بدلا من reroll؟\nعندما تكون المشكلة محددة: intro طويل، drum كثيف، chorus متأخر. اذا كانت المشكلة هي direction كله، عد الى Explore.\n### هل يجب ان اري العميل كل drafts؟\nعادة لا. ارسل اختيارين مع سبب واضح. كثرة الملفات تنقل عبء القرار الى شخص لا يعرف تاريخ prompts.\n### هل credit budget يحل مخاطر الاستخدام؟\nلا. راجع terms، input permissions، platform rules، والسياق القانوني او التجاري قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "Plane KI-Musik-Credits vor der Review-Runde",
+      "description": "Ein praktischer Workflow, der KI-Musik-Credits zwischen Exploration, Keeper-Takes, Edits und Exporten sinnvoll aufteilt.",
+      "body": [
+        "Das Problem taucht selten beim ersten Prompt auf. Es kommt nach dem fuenften Take, wenn der Kunde eine ruhigere Version will, der Cutter einen Export braucht und du merkst, dass fast alle Credits in Entwuerfe geflossen sind, die keine klare Frage beantwortet haben. Ein Credit-Budget ist kein reines Kostenthema. Es zwingt eine KI-Musik-Session dazu, frueher Entscheidungen zu treffen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kannst. Nutze sie, um hoerbare Richtungen fuer Review zu entwickeln, waehrend Kundenfreigabe, Tool-Bedingungen und Kanalregeln eigene Entscheidungen bleiben.",
+        "## Starte mit einer Frage, nicht mit einer Wunschliste",
+        "Schreibe vor der ersten Generierung eine Aufgabe: acht Sekunden Intro, leises Bed unter Voiceover, Hook fuer einen Ad, oder Loop fuer eine Seite. Danach reichen zwei Erfolgskriterien, etwa Sprachverstaendlichkeit und Motiv innerhalb von zehn Sekunden. Jeder weitere Prompt sollte diese Frage beantworten. Wenn die Frage gleichzeitig Style, Laenge, Lyrics, Mix und Plattform lautet, verbrennst du Credits fuer Unklarheit.",
+        "## Teile die Session in vier Faecher",
+        "Nutze eine einfache Tabelle: Explore, Choose, Polish, Export. Explore bedeutet kurze Entscheidungstests, keine finalen Dateien. Choose heisst zwei oder drei Takes vergleichen. Polish heisst eine begruendete Aenderung. Export kommt erst, wenn alle wissen, welche Version verwendet wird. Die Seite [Credits Usage Rules](https://easymusic.ai/de/credits-explanation) zeigt, dass Generation, Extension, Edit, Downloads und bestimmte Video-Outputs unterschiedlich Credits verbrauchen; kopiere die aktuellen Werte vor der Session, statt alte Zahlen zu raten.",
+        "## Frag nicht zu frueh nach der langen Version",
+        "Eine lange Version wirkt ernsthaft, macht aber eine falsche Richtung teurer. Teste Style, Tempo und Vocal Choice kurz, bevor du Struktur bestellst. Wenn die Style-Sprache zu weich ist, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) breite Worte wie warm oder cinematic in Instrumente, Textur und Dichte uebersetzen. Streiche danach alles, was deine Entscheidung nicht schaerft.",
+        "## Gib Reviewern ein kleines Paket",
+        "Schicke nicht sechs fast gleiche Dateien. Schicke Winner, Backup und einen klaren Reject mit Notizen: why kept, why rejected, open question. Bitte den Reviewer, zwischen Richtungen zu entscheiden, nicht zwischen jedem moeglichen Draft. Die naechste Runde wird dann Polish statt Neustart. Wenn das Team eine andere Richtung will, oeffne ein neues Explore-Fach, statt den Keeper zu zerlegen.",
+        "## Trenne Credits von Rechten",
+        "Credit-Planung macht die Arbeit disziplinierter, beweist aber nicht, dass ein Output fuer jeden Zweck geeignet ist. Fuehre separate Notizen zu Source Material, uploaded voices, Lyrics, Namen, Plattformdisclosure und Kundenerwartungen. Bei Werbung oder kommerziellen Projekten sollte kein Dateiname cleared sagen, nur weil der Take gut ankommt.",
+        "## Sofort nutzbare Ideen",
+        "- Setze vorab ein Limit, etwa drei Explore-Takes vor jedem Edit.\n- Exportiere erst, wenn ein Keeper gewaehlt wurde.\n- Benenne Dateien nach Aufgabe, nicht nach Stimmung: ad-hook-v01 ist besser als amazing-final.\n- Notiere den Ablehnungsgrund, damit du morgen nicht denselben Prompt wiederholst.\n- Pruefe die aktuelle Credit-Tabelle vor einer Kundenrunde.\n- Halte Rechte- und Plattformreview ausserhalb des Credit-Budgets.",
+        "## FAQ\n### Fuehren weniger Takes zu schlechterer Musik?\nNein. Eine gute Begrenzung zwingt jeden Take zu einer Frage. Schwach wird es, wenn du die erste Version akzeptierst, nicht wenn du Chaos reduzierst.\n### Wann lohnt sich ein Edit statt eines Rerolls?\nWenn das Problem genau benannt ist: Intro zu lang, Drums zu dicht, Chorus zu spaet. Wenn die ganze Richtung falsch ist, gehe zurueck zu Explore.\n### Soll der Kunde alle Drafts sehen?\nMeist nicht. Schicke zwei Optionen mit klarer Begruendung. Zu viele Dateien uebergeben die Entscheidung an jemanden, der die Prompt-Geschichte nicht kennt.\n### Loest ein Credit-Budget Nutzungsrisiken?\nNein. Pruefe Terms, Input-Rechte, Plattformregeln und den rechtlichen oder kommerziellen Kontext separat."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music Credits Before a Review Round Starts",
+      "description": "A practical workflow for budgeting AI music credits across exploration, keeper drafts, edits, exports, and client feedback.",
+      "body": [
+        "The problem rarely shows up on the first prompt. It shows up after take five, when the client asks for a calmer version, the editor needs an export, and you realize most of the credits went into drafts that did not answer a clear question. A credit budget is not just a spending control. It is a way to make an AI music session make decisions earlier.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. Use it to develop reviewable sound directions, while client approval, tool terms, channel rules, and usage checks remain separate decisions.",
+        "## Start With One Question, Not a Wish List",
+        "Before you generate anything, give the track one job: eight-second intro, quiet bed under voiceover, ad hook, product-loop background, or chorus sketch. Then choose two success criteria, such as speech clarity and motif arrival within ten seconds. Every extra prompt should answer that question. If the question becomes style, length, lyrics, mix, and platform all at once, you are spending credits on fog.",
+        "## Split the Session Into Four Buckets",
+        "Use a small table: Explore, Choose, Polish, Export. Explore means short decision tests, not final files. Choose means comparing two or three takes. Polish means one justified change. Export happens after everyone knows which version is going forward. The [Credits Usage Rules](https://easymusic.ai/credits-explanation) page lists how generation, extension, editing, downloads, and some video outputs can use different credit amounts; copy the current numbers before the session instead of trusting yesterday's chart.",
+        "## Do Not Ask for the Long Version Too Early",
+        "A long draft feels serious, but it makes a wrong direction more expensive. Test style, tempo, and vocal choice in a short pass before asking for structure. If the style language is vague, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can turn broad words such as warm or cinematic into clearer instrument, texture, and density language. After that, remove anything that does not help you choose.",
+        "## Send a Smaller Review Packet",
+        "Do not send six almost-identical files. Send a winner, a backup, and one clear reject with notes: why kept, why rejected, open question. Ask the reviewer to choose between directions, not every possibility. That makes the next round a polish round instead of another blank start. If the team wants a major change, open a new Explore bucket rather than tearing apart the keeper.",
+        "## Keep Credits Separate From Clearance",
+        "Credit planning makes the workflow more disciplined, but it does not prove that an output is appropriate for every use. Keep separate notes for source material, uploaded voices, lyrics, names, platform disclosure, and client expectations. For advertising or commercial delivery, do not write cleared in the file name just because the team likes the take.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Set a cap before you start, such as three Explore attempts before any edit.\n- Do not export until one person has chosen a keeper.\n- Name files by job, not excitement: ad-hook-v01 beats amazing-final.\n- Save rejection reasons so tomorrow's prompt does not repeat today's miss.\n- Check the current credit table before a client session.\n- Keep rights, terms, and platform review outside the credit budget.",
+        "## FAQ\n### Does using fewer takes mean weaker music?\nNo. A good limit makes each take answer a question. The weak move is accepting the first draft, not reducing random retries.\n### When should I spend credits on an edit instead of a reroll?\nWhen the problem is specific: intro too long, drums too dense, chorus too late. If the whole direction is wrong, return to Explore.\n### Should clients see every draft?\nUsually no. Send two options with reasons. Too many files move the decision burden to someone who did not see the prompt history.\n### Does a credit budget solve usage risk?\nNo. Review tool terms, input permissions, platform rules, and the legal or commercial context before publishing or delivering."
+      ]
+    },
+    "es": {
+      "title": "Planifica credits de musica IA antes del review",
+      "description": "Workflow practico para repartir credits de musica IA entre exploracion, keeper drafts, edits, exports y feedback de cliente.",
+      "body": [
+        "El problema casi nunca aparece en el primer prompt. Aparece despues del quinto take, cuando el cliente pide una version mas tranquila, el editor necesita un export y notas que la mayoria de credits se fueron en drafts que no respondian una pregunta clara. Un credit budget no es solo control de gasto. Es una forma de obligar a la sesion de musica IA a decidir antes.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar music drafts desde descripciones, lyrics e ideas de style. Usala para desarrollar direcciones sonoras revisables, mientras aprobacion de cliente, terminos de la herramienta, reglas del canal y chequeos de uso siguen siendo decisiones separadas.",
+        "## Empieza con una pregunta, no con una lista de deseos",
+        "Antes de generar, dale al track un trabajo: intro de ocho segundos, bed bajo voiceover, hook de anuncio, loop de producto o sketch de chorus. Luego elige dos criterios de exito, como claridad de voz y motif antes de diez segundos. Cada prompt extra debe responder esa pregunta. Si la pregunta se vuelve style, length, lyrics, mix y plataforma a la vez, estas gastando credits en niebla.",
+        "## Divide la sesion en cuatro buckets",
+        "Usa una tabla pequena: Explore, Choose, Polish, Export. Explore significa pruebas cortas para decidir, no archivos finales. Choose significa comparar dos o tres takes. Polish significa un cambio justificado. Export ocurre despues de saber que version avanza. La pagina [Credits Usage Rules](https://easymusic.ai/es/credits-explanation) muestra que generation, extension, editing, downloads y algunos video outputs pueden consumir cantidades distintas de credits; copia los numeros actuales antes de la sesion en vez de confiar en una tabla vieja.",
+        "## No pidas la version larga demasiado pronto",
+        "Un draft largo parece serio, pero encarece una direccion equivocada. Prueba style, tempo y vocal choice en una pasada corta antes de pedir estructura. Si el lenguaje de style es vago, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir palabras amplias como warm o cinematic en instrumentos, texture y density mas claras. Despues elimina lo que no ayude a elegir.",
+        "## Envia un paquete de review mas pequeno",
+        "No envies seis archivos casi iguales. Envia un winner, un backup y un reject claro con notes: why kept, why rejected, open question. Pide al reviewer elegir entre direcciones, no entre todas las posibilidades. Asi la siguiente ronda es polish y no empezar de cero. Si el equipo quiere un cambio grande, abre un bucket Explore nuevo en lugar de romper el keeper.",
+        "## Separa credits de clearance",
+        "Planificar credits disciplina el workflow, pero no prueba que un output sirva para todo uso. Mantén notas separadas sobre source material, uploaded voices, lyrics, names, platform disclosure y expectativas del cliente. Para publicidad o entrega comercial, no pongas cleared en el nombre del archivo solo porque al equipo le gusto el take.",
+        "## Ideas reutilizables para hoy",
+        "- Define un limite antes de empezar, por ejemplo tres intentos Explore antes de cualquier edit.\n- No exportes hasta que una persona elija un keeper.\n- Nombra archivos por trabajo, no por entusiasmo: ad-hook-v01 gana a amazing-final.\n- Guarda motivos de rechazo para no repetir manana el prompt fallido.\n- Revisa la tabla actual de credits antes de una sesion con cliente.\n- Mantén derechos, terminos y review de plataforma fuera del credit budget.",
+        "## Preguntas frecuentes\n### Menos takes significan musica mas debil?\nNo. Un buen limite hace que cada take responda una pregunta. Lo debil es aceptar el primer draft, no reducir rerolls aleatorios.\n### Cuando conviene gastar credits en edit y no en reroll?\nCuando el problema es especifico: intro largo, drums densos, chorus tarde. Si toda la direccion falla, vuelve a Explore.\n### El cliente debe ver todos los drafts?\nNormalmente no. Envia dos opciones con razones. Demasiados archivos trasladan la carga de decision a alguien que no vio la historia de prompts.\n### Un credit budget resuelve riesgos de uso?\nNo. Revisa terminos, permisos de inputs, reglas de plataforma y contexto legal o comercial antes de publicar o entregar."
+      ]
+    },
+    "fr": {
+      "title": "Planifie les credits de musique IA avant le review",
+      "description": "Workflow pratique pour repartir les credits de musique IA entre exploration, keeper drafts, edits, exports et retours client.",
+      "body": [
+        "Le probleme arrive rarement au premier prompt. Il arrive au cinquieme take, quand le client demande une version plus calme, que le monteur veut un export, et que tu vois que la plupart des credits ont finance des drafts sans question claire. Un credit budget n'est pas seulement une limite de depense. C'est une maniere de forcer une session de musique IA a decider plus tot.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale avec IA qui genere des music drafts depuis des descriptions, des lyrics et des idees de style. Utilise-la pour developper des directions sonores faciles a revoir, tandis que validation client, conditions de l'outil, regles de canal et controle d'usage restent des decisions separees.",
+        "## Commence par une question, pas une liste de souhaits",
+        "Avant de generer, donne au track une seule mission: intro de huit secondes, bed discret sous voiceover, hook publicitaire, loop de produit ou sketch de chorus. Choisis ensuite deux criteres de succes, comme clarte de la voix et motif avant dix secondes. Chaque prompt supplementaire doit repondre a cette question. Si la question devient style, longueur, lyrics, mix et plateforme en meme temps, tu depenses des credits dans le flou.",
+        "## Separe la session en quatre cases",
+        "Utilise une petite table: Explore, Choose, Polish, Export. Explore veut dire tests courts pour decider, pas fichiers finals. Choose veut dire comparer deux ou trois takes. Polish veut dire un changement justifie. Export arrive quand tout le monde sait quelle version avance. La page [Credits Usage Rules](https://easymusic.ai/fr/credits-explanation) montre que generation, extension, editing, downloads et certains video outputs peuvent consommer des montants differents; copie les chiffres actuels avant la session au lieu de te fier a une ancienne note.",
+        "## Ne demande pas la version longue trop tot",
+        "Un long draft parait serieux, mais il rend une mauvaise direction plus couteuse. Teste style, tempo et vocal choice dans une passe courte avant de demander une structure. Si la langue de style reste vague, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut changer des mots larges comme warm ou cinematic en instruments, texture et density plus nets. Ensuite, retire ce qui n'aide pas a choisir.",
+        "## Envoie un paquet de review plus petit",
+        "N'envoie pas six fichiers presque identiques. Envoie un winner, un backup et un reject clair avec notes: why kept, why rejected, open question. Demande au reviewer de choisir entre directions, pas entre toutes les possibilites. La prochaine ronde devient polish au lieu d'un nouveau depart. Si l'equipe veut un grand changement, ouvre une nouvelle case Explore plutot que de demonter le keeper.",
+        "## Separe credits et clearance",
+        "La planification des credits discipline le workflow, mais elle ne prouve pas qu'un output convient a tout usage. Garde des notes separees pour source material, uploaded voices, lyrics, names, platform disclosure et attentes client. Pour publicite ou livraison commerciale, n'ecris pas cleared dans le nom de fichier simplement parce que l'equipe aime le take.",
+        "## Idees reutilisables aujourd'hui",
+        "- Fixe une limite avant de commencer, par exemple trois essais Explore avant tout edit.\n- N'exporte pas tant qu'une personne n'a pas choisi un keeper.\n- Nomme les fichiers par mission, pas par enthousiasme: ad-hook-v01 vaut mieux que amazing-final.\n- Note les raisons de rejet pour ne pas repeter demain le prompt rate.\n- Verifie la table de credits actuelle avant une session client.\n- Garde droits, conditions et review plateforme hors du credit budget.",
+        "## FAQ\n### Moins de takes donne-t-il une musique plus faible ?\nNon. Une bonne limite fait repondre chaque take a une question. Le mauvais reflexe est d'accepter le premier draft, pas de reduire les rerolls aleatoires.\n### Quand depenser des credits sur un edit plutot qu'un reroll ?\nQuand le probleme est precis: intro trop longue, drums trop denses, chorus trop tardif. Si toute la direction est fausse, retourne a Explore.\n### Le client doit-il voir tous les drafts ?\nSouvent non. Envoie deux options avec raisons. Trop de fichiers transfere la charge de decision a quelqu'un qui n'a pas vu l'historique des prompts.\n### Un credit budget resout-il les risques d'usage ?\nNon. Verifie terms, permissions d'input, regles de plateforme et contexte legal ou commercial avant publication ou livraison."
+      ]
+    },
+    "it": {
+      "title": "Pianifica i credit della musica AI prima della review",
+      "description": "Workflow pratico per dividere i credit della musica AI tra exploration, keeper drafts, edits, exports e feedback del cliente.",
+      "body": [
+        "Il problema raramente appare al primo prompt. Arriva al quinto take, quando il cliente chiede una versione piu calma, l editor vuole un export e ti accorgi che molti credit sono finiti in drafts che non rispondevano a una domanda chiara. Un credit budget non e solo controllo della spesa. E un modo per far decidere prima una sessione di musica AI.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per generare music drafts da descrizioni, lyrics e idee di style. Usala per sviluppare direzioni sonore revisionabili, mentre approvazione del cliente, termini dello strumento, regole del canale e controlli d'uso restano decisioni separate.",
+        "## Parti da una domanda, non da una lista dei desideri",
+        "Prima di generare, dai al track un solo lavoro: intro di otto secondi, bed discreto sotto voiceover, hook per un annuncio, product-loop background o sketch di chorus. Poi scegli due criteri di successo, per esempio chiarezza del parlato e motif entro dieci secondi. Ogni prompt in piu deve rispondere a quella domanda. Se la domanda diventa style, length, lyrics, mix e platform insieme, stai spendendo credit nella nebbia.",
+        "## Dividi la sessione in quattro bucket",
+        "Usa una piccola tabella: Explore, Choose, Polish, Export. Explore significa test brevi per decidere, non file finali. Choose significa confrontare due o tre takes. Polish significa una modifica motivata. Export arriva dopo che tutti sanno quale versione prosegue. La pagina [Credits Usage Rules](https://easymusic.ai/it/credits-explanation) mostra che generation, extension, editing, downloads e alcuni video outputs possono consumare quantita diverse di credit; copia i numeri attuali prima della sessione, non una tabella ricordata a memoria.",
+        "## Non chiedere la versione lunga troppo presto",
+        "Un draft lungo sembra serio, ma rende piu costosa una direzione sbagliata. Testa style, tempo e vocal choice con un pass breve prima di chiedere struttura. Se il linguaggio di style e vago, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare parole ampie come warm o cinematic in instruments, texture e density piu chiari. Dopo, elimina cio che non aiuta a scegliere.",
+        "## Invia un pacchetto review piu piccolo",
+        "Non inviare sei file quasi uguali. Invia un winner, un backup e un reject chiaro con notes: why kept, why rejected, open question. Chiedi al reviewer di scegliere fra direzioni, non fra tutte le possibilita. Il round successivo diventa polish, non un nuovo inizio. Se il team vuole un cambiamento grande, apri un nuovo bucket Explore invece di smontare il keeper.",
+        "## Tieni separati credit e clearance",
+        "Pianificare i credit rende il workflow piu disciplinato, ma non prova che un output sia adatto a ogni uso. Mantieni note separate per source material, uploaded voices, lyrics, names, platform disclosure e aspettative del cliente. Per pubblicita o consegna commerciale, non scrivere cleared nel nome file solo perche il take piace al team.",
+        "## Idee riutilizzabili per oggi",
+        "- Stabilisci un limite prima di iniziare, per esempio tre tentativi Explore prima di qualunque edit.\n- Non esportare finche una persona non ha scelto un keeper.\n- Nomina i file per job, non per entusiasmo: ad-hook-v01 batte amazing-final.\n- Salva i motivi di scarto per non ripetere domani il prompt mancato.\n- Controlla la tabella credit attuale prima di una sessione cliente.\n- Tieni diritti, termini e review piattaforma fuori dal credit budget.",
+        "## FAQ\n### Meno takes significano musica piu debole?\nNo. Un buon limite fa rispondere ogni take a una domanda. La scelta debole e accettare il primo draft, non ridurre i rerolls casuali.\n### Quando usare credit su un edit invece di un reroll?\nQuando il problema e specifico: intro troppo lunga, drums troppo densi, chorus troppo tardi. Se l'intera direzione e sbagliata, torna a Explore.\n### Il cliente deve vedere tutti i drafts?\nDi solito no. Invia due opzioni con ragioni. Troppi file spostano il peso della decisione su chi non ha visto la storia dei prompts.\n### Un credit budget risolve i rischi d'uso?\nNo. Verifica terms, permessi sugli input, regole di piattaforma e contesto legale o commerciale prima di pubblicare o consegnare."
+      ]
+    },
+    "ja": {
+      "title": "Review 前に AI music credits を計画する",
+      "description": "AI music credits を exploration、keeper drafts、edits、exports、client feedback に分けて使うための実用 workflow。",
+      "body": [
+        "問題は最初の prompt ではあまり見えません。五つ目の take の後で、client が calmer version を求め、editor が export を必要とし、clear question に答えない drafts に credits を多く使ったと気づく時に見えます。Credit budget は支出管理だけではありません。AI music session に早めの decision をさせるための仕組みです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、descriptions、lyrics、style ideas から music drafts を生成できる AI music creation platform です。Review しやすい sound direction を作る場として使い、client approval、tool terms、channel rules、usage checks は別の decision として扱います。",
+        "## Wish list ではなく一つの question から始める",
+        "生成前に track の job を一つ決めます: eight-second intro、voiceover 下の quiet bed、ad hook、product-loop background、chorus sketch。次に success criteria を二つだけ選びます。たとえば speech clarity と motif が十秒以内に来ることです。追加の prompt はその question に答えるべきです。Style、length、lyrics、mix、platform を一度に聞くと、credits を曖昧さに使うことになります。",
+        "## Session を四つの bucket に分ける",
+        "小さな table を作ります: Explore, Choose, Polish, Export。Explore は final file ではなく短い decision test。Choose は二つか三つの takes の比較。Polish は理由のある一つの変更。Export は、どの version を進めるか全員が分かった後です。[Credits Usage Rules](https://easymusic.ai/ja/credits-explanation) page では、generation、extension、editing、downloads、一部 video outputs が異なる credit amounts を使うことが分かります。古い記憶ではなく、session 前に current numbers を写します。",
+        "## Long version を早く求めすぎない",
+        "Long draft は本格的に見えますが、wrong direction を高くします。Structure を求める前に、short pass で style、tempo、vocal choice を試します。Style language が曖昧なら、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で warm や cinematic のような広い words を instruments、texture、density にします。その後、choice に役立たない言葉は削ります。",
+        "## Review packet を小さくする",
+        "ほぼ同じ six files を送らないでください。Winner、backup、clear reject を送り、notes に why kept、why rejected、open question を残します。Reviewer には全 possibilities ではなく directions を選んでもらいます。そうすると次の round は polish になり、blank start になりません。Team が大きな変更を求めるなら、keeper を壊すより新しい Explore bucket を開きます。",
+        "## Credits と clearance を分ける",
+        "Credit planning は workflow を disciplined にしますが、output があらゆる use に適する証明ではありません。Source material、uploaded voices、lyrics、names、platform disclosure、client expectations は別 notes にします。Advertising や commercial delivery では、team が take を好んだだけで file name に cleared と書かないでください。",
+        "## 今日すぐ使える ideas",
+        "- 開始前に cap を決めます。たとえば edit 前の Explore attempts は三つまで。\n- 一人が keeper を選ぶまで export しません。\n- File name は興奮ではなく job で付けます。amazing-final より ad-hook-v01。\n- Rejection reason を保存し、明日同じ miss を繰り返さない。\n- Client session 前に current credit table を確認します。\n- Rights、terms、platform review は credit budget の外に置きます。",
+        "## FAQ\n### Takes を減らすと音楽は弱くなりますか？\nいいえ。良い limit は各 take に question を答えさせます。弱いのは first draft をそのまま受け入れることです。\n### Reroll ではなく edit に credits を使う時は？\nProblem が specific な時です。Intro が長すぎる、drums が密すぎる、chorus が遅いなど。Direction 全体が違うなら Explore に戻ります。\n### Client に全 drafts を見せるべきですか？\n通常は違います。Reasons 付きで二つの options を送ります。多すぎる files は、prompt history を知らない人へ decision burden を移します。\n### Credit budget は usage risk を解決しますか？\nいいえ。公開や納品前に tool terms、input permissions、platform rules、legal/commercial context を確認します。"
+      ]
+    },
+    "ko": {
+      "title": "Review 전에 AI music credits를 계획하세요",
+      "description": "AI music credits를 exploration, keeper drafts, edits, exports, client feedback 사이에 나누는 실용 workflow.",
+      "body": [
+        "문제는 첫 prompt에서 잘 보이지 않습니다. 다섯 번째 take 뒤에 client가 calmer version을 요구하고, editor가 export를 필요로 하며, clear question에 답하지 않은 drafts에 credits를 많이 썼다는 사실을 알 때 드러납니다. Credit budget은 단순한 비용 관리가 아닙니다. AI music session이 더 일찍 decision을 내리게 만드는 방법입니다.",
+        "## EasyMusic.AI란 무엇인가요?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music drafts를 만들 수 있는 AI music creation platform입니다. Review 가능한 sound direction을 만들 때 쓰되, client approval, tool terms, channel rules, usage checks는 별도 decision으로 남겨야 합니다.",
+        "## Wish list가 아니라 하나의 question으로 시작한다",
+        "생성 전에 track의 job을 하나만 정합니다: eight-second intro, voiceover 아래 quiet bed, ad hook, product-loop background, chorus sketch. 그다음 success criteria 두 개만 고릅니다. 예를 들면 speech clarity와 motif가 10초 안에 도착하는 것입니다. 추가 prompt는 그 question에 답해야 합니다. Style, length, lyrics, mix, platform을 동시에 묻는다면 credits를 안개에 쓰는 셈입니다.",
+        "## Session을 네 bucket으로 나눈다",
+        "작은 table을 쓰세요: Explore, Choose, Polish, Export. Explore는 final files가 아니라 짧은 decision tests입니다. Choose는 두세 takes 비교입니다. Polish는 이유가 있는 한 가지 수정입니다. Export는 어떤 version이 앞으로 갈지 모두가 안 뒤에 합니다. [Credits Usage Rules](https://easymusic.ai/ko/credits-explanation) page는 generation, extension, editing, downloads, 일부 video outputs가 다른 credit amounts를 쓸 수 있음을 보여줍니다. 오래된 기억 대신 session 전에 current numbers를 복사하세요.",
+        "## Long version을 너무 일찍 요청하지 않는다",
+        "Long draft는 진지해 보이지만 wrong direction을 더 비싸게 만듭니다. Structure를 요청하기 전에 short pass로 style, tempo, vocal choice를 시험하세요. Style language가 흐리면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 warm이나 cinematic 같은 넓은 words를 instruments, texture, density 언어로 바꿀 수 있습니다. 그런 다음 선택에 도움이 되지 않는 말은 지우세요.",
+        "## Review packet을 작게 보낸다",
+        "거의 같은 six files를 보내지 마세요. Winner, backup, clear reject를 보내고 notes에 why kept, why rejected, open question을 적습니다. Reviewer에게 모든 possibilities가 아니라 directions 중에서 고르게 하세요. 그러면 다음 round는 blank start가 아니라 polish가 됩니다. Team이 큰 변화를 원하면 keeper를 뜯어고치기보다 새 Explore bucket을 엽니다.",
+        "## Credits와 clearance를 분리한다",
+        "Credit planning은 workflow를 더 disciplined하게 만들지만 output이 모든 use에 적합하다는 증거는 아닙니다. Source material, uploaded voices, lyrics, names, platform disclosure, client expectations를 별도 notes로 남기세요. Advertising이나 commercial delivery에서는 team이 take를 좋아했다는 이유만으로 file name에 cleared라고 쓰지 마세요.",
+        "## 오늘 바로 적용할 수 있는 ideas",
+        "- 시작 전에 cap을 정합니다. 예: edit 전 Explore attempts 세 번.\n- 한 사람이 keeper를 고르기 전에는 export하지 않습니다.\n- File name은 흥분이 아니라 job으로 붙입니다. amazing-final보다 ad-hook-v01.\n- Rejection reason을 저장해 내일 같은 miss를 반복하지 않습니다.\n- Client session 전에 current credit table을 확인합니다.\n- Rights, terms, platform review는 credit budget 밖에 둡니다.",
+        "## FAQ\n### Takes를 줄이면 음악이 약해지나요?\n아니요. 좋은 limit은 각 take가 question에 답하게 합니다. 약한 선택은 first draft를 그대로 받는 것이지 random retries를 줄이는 것이 아닙니다.\n### Reroll 대신 edit에 credits를 쓸 때는 언제인가요?\nProblem이 specific할 때입니다. Intro가 너무 길거나, drums가 너무 dense하거나, chorus가 늦는 경우입니다. 전체 direction이 틀렸다면 Explore로 돌아가세요.\n### Client에게 모든 drafts를 보여줘야 하나요?\n보통은 아닙니다. Reasons가 있는 두 options를 보내세요. Files가 너무 많으면 prompt history를 모르는 사람에게 decision burden이 넘어갑니다.\n### Credit budget이 usage risk를 해결하나요?\n아니요. Publish나 delivery 전에 tool terms, input permissions, platform rules, legal/commercial context를 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje credits de musica AI antes do review",
+      "description": "Workflow pratico para dividir credits de musica AI entre exploration, keeper drafts, edits, exports e feedback do cliente.",
+      "body": [
+        "O problema quase nunca aparece no primeiro prompt. Ele aparece depois do quinto take, quando o cliente pede uma versao mais calma, o editor precisa de um export e voce percebe que muitos credits foram gastos em drafts que nao respondiam a uma pergunta clara. Um credit budget nao e so controle de gasto. E uma forma de fazer a sessao de musica AI decidir mais cedo.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar music drafts a partir de descricoes, lyrics e ideias de style. Use-a para desenvolver direcoes sonoras revisaveis, enquanto aprovacao do cliente, termos da ferramenta, regras do canal e checagens de uso continuam como decisoes separadas.",
+        "## Comece com uma pergunta, nao uma lista de desejos",
+        "Antes de gerar, de ao track um trabalho: intro de oito segundos, bed baixo sob voiceover, ad hook, product-loop background ou sketch de chorus. Depois escolha dois criterios de sucesso, como clareza da fala e motif chegando em ate dez segundos. Cada prompt extra deve responder essa pergunta. Se a pergunta vira style, length, lyrics, mix e plataforma ao mesmo tempo, voce esta gastando credits em neblina.",
+        "## Divida a sessao em quatro buckets",
+        "Use uma tabela pequena: Explore, Choose, Polish, Export. Explore quer dizer testes curtos para decidir, nao arquivos finais. Choose quer dizer comparar dois ou tres takes. Polish quer dizer uma mudanca justificada. Export acontece depois que todos sabem qual versao avanca. A pagina [Credits Usage Rules](https://easymusic.ai/pt/credits-explanation) mostra que generation, extension, editing, downloads e alguns video outputs podem usar quantidades diferentes de credits; copie os numeros atuais antes da sessao em vez de confiar numa tabela antiga.",
+        "## Nao peca a versao longa cedo demais",
+        "Um draft longo parece serio, mas torna uma direcao errada mais cara. Teste style, tempo e vocal choice em uma passada curta antes de pedir estrutura. Se a linguagem de style estiver vaga, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar palavras amplas como warm ou cinematic em instruments, texture e density mais claros. Depois remova o que nao ajuda a escolher.",
+        "## Envie um pacote de review menor",
+        "Nao envie seis arquivos quase iguais. Envie um winner, um backup e um reject claro com notes: why kept, why rejected, open question. Peca ao reviewer para escolher entre direcoes, nao entre todas as possibilidades. Assim o proximo round vira polish, nao comeco do zero. Se o time quiser uma mudanca grande, abra um novo bucket Explore em vez de desmontar o keeper.",
+        "## Separe credits de clearance",
+        "Planejar credits deixa o workflow mais disciplinado, mas nao prova que um output serve para todo uso. Guarde notas separadas sobre source material, uploaded voices, lyrics, names, platform disclosure e expectativas do cliente. Em publicidade ou entrega comercial, nao escreva cleared no nome do arquivo so porque o time gostou do take.",
+        "## Ideias reutilizaveis para hoje",
+        "- Defina um limite antes de comecar, por exemplo tres tentativas Explore antes de qualquer edit.\n- Nao exporte ate uma pessoa escolher um keeper.\n- Nomeie arquivos pelo job, nao pela empolgacao: ad-hook-v01 vence amazing-final.\n- Salve motivos de rejeicao para nao repetir amanha o prompt que falhou.\n- Confira a tabela atual de credits antes de uma sessao com cliente.\n- Mantenha direitos, termos e review de plataforma fora do credit budget.",
+        "## Perguntas frequentes\n### Menos takes significam musica mais fraca?\nNao. Um bom limite faz cada take responder uma pergunta. O movimento fraco e aceitar o primeiro draft, nao reduzir rerolls aleatorios.\n### Quando gastar credits em edit em vez de reroll?\nQuando o problema e especifico: intro longo, drums densos, chorus tarde. Se a direcao inteira esta errada, volte para Explore.\n### O cliente deve ver todos os drafts?\nNormalmente nao. Envie duas opcoes com razoes. Arquivos demais transferem a decisao para alguem que nao viu o historico de prompts.\n### Credit budget resolve risco de uso?\nNao. Revise terms, permissoes de input, regras de plataforma e contexto legal ou comercial antes de publicar ou entregar."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music credits до review-раунда",
+      "description": "Практический workflow для распределения AI music credits между exploration, keeper drafts, edits, exports и feedback клиента.",
+      "body": [
+        "Проблема редко видна на первом prompt. Она появляется после пятого take, когда клиент просит более спокойную версию, editor требует export, а вы понимаете, что большая часть credits ушла на drafts без ясного вопроса. Credit budget - это не только контроль расходов. Это способ заставить AI music session принимать решения раньше.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform для генерации music drafts из descriptions, lyrics и style ideas. Используйте ее для подготовки sound directions, которые можно обсуждать, но client approval, tool terms, channel rules и usage checks оставляйте отдельными решениями.",
+        "## Начните с одного вопроса, а не со списка желаний",
+        "До генерации задайте track одну задачу: eight-second intro, quiet bed под voiceover, ad hook, product-loop background или chorus sketch. Затем выберите два критерия успеха, например speech clarity и появление motif за первые десять секунд. Каждый новый prompt должен отвечать на этот вопрос. Если вопрос одновременно про style, length, lyrics, mix и platform, credits уходят в туман.",
+        "## Разделите сессию на четыре корзины",
+        "Сделайте маленькую таблицу: Explore, Choose, Polish, Export. Explore - короткие тесты для решения, не финальные файлы. Choose - сравнение двух или трех takes. Polish - одно обоснованное изменение. Export начинается после того, как понятно, какая version идет дальше. Страница [Credits Usage Rules](https://easymusic.ai/ru/credits-explanation) показывает, что generation, extension, editing, downloads и некоторые video outputs могут тратить разное количество credits; перед сессией перепишите актуальные числа, а не вспоминайте старую таблицу.",
+        "## Не просите длинную версию слишком рано",
+        "Long draft выглядит серьезно, но делает неверное направление дороже. Сначала проверьте style, tempo и vocal choice коротким pass. Если style language слишком расплывчатый, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) может превратить широкие слова вроде warm или cinematic в более ясные instruments, texture и density. После этого удалите все, что не помогает выбрать.",
+        "## Отправляйте меньший review packet",
+        "Не отправляйте шесть почти одинаковых файлов. Отправьте winner, backup и один clear reject с notes: why kept, why rejected, open question. Просите reviewer выбирать между направлениями, а не между всеми возможностями. Тогда следующий round станет polish, а не новым стартом. Если команде нужен крупный поворот, откройте новую корзину Explore, а не разбирайте keeper.",
+        "## Отделяйте credits от clearance",
+        "Credit planning дисциплинирует workflow, но не доказывает, что output подходит для любого использования. Ведите отдельные notes по source material, uploaded voices, lyrics, names, platform disclosure и client expectations. Для рекламы или commercial delivery не пишите cleared в имени файла только потому, что take понравился команде.",
+        "## Идеи, которые можно применить сегодня",
+        "- Заранее поставьте лимит, например три Explore attempts до любого edit.\n- Не делайте export, пока один человек не выбрал keeper.\n- Называйте файлы по задаче, а не по восторгу: ad-hook-v01 лучше, чем amazing-final.\n- Сохраняйте reasons for rejection, чтобы завтра не повторить тот же prompt.\n- Проверяйте текущую таблицу credits перед клиентской сессией.\n- Держите rights, terms и platform review за пределами credit budget.",
+        "## FAQ\n### Меньше takes означает более слабую музыку?\nНет. Хороший лимит заставляет каждый take отвечать на вопрос. Слабый ход - принять первый draft, а не сократить случайные rerolls.\n### Когда тратить credits на edit вместо reroll?\nКогда проблема конкретна: intro слишком длинное, drums слишком плотные, chorus приходит поздно. Если неверно все направление, вернитесь к Explore.\n### Нужно ли показывать клиенту все drafts?\nОбычно нет. Отправьте две options с reasons. Слишком много файлов переносит decision burden на человека, который не видел историю prompts.\n### Credit budget решает usage risk?\nНет. Перед публикацией или передачей проверьте tool terms, input permissions, platform rules и legal/commercial context."
+      ]
+    },
+    "zh": {
+      "title": "在 review 前规划 AI music credits",
+      "description": "一个实用 workflow，帮助把 AI music credits 分配到 exploration、keeper drafts、edits、exports 和客户反馈中。",
+      "body": [
+        "问题通常不在第一个 prompt 出现，而是在第五个 take 之后出现：客户要更平静的版本，剪辑师要 export，你才发现大部分 credits 都花在没有回答清楚问题的 drafts 上。Credit budget 不只是控制花费，它会迫使一次 AI music session 更早做决定。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。你可以用它制作便于 review 的 sound directions，但 client approval、tool terms、channel rules 和 usage checks 仍然是独立决定。",
+        "## 先问一个 question，而不是列愿望清单",
+        "生成前，先给 track 一个 job：eight-second intro、voiceover 下的 quiet bed、ad hook、product-loop background，或 chorus sketch。然后只选两个 success criteria，例如 speech clarity，以及 motif 是否在十秒内出现。每个额外 prompt 都应该回答这个 question。如果问题同时变成 style、length、lyrics、mix 和 platform，你是在把 credits 花在模糊上。",
+        "## 把 session 分成四个 bucket",
+        "用一个小表：Explore, Choose, Polish, Export。Explore 是短的 decision tests，不是 final files。Choose 是比较两到三个 takes。Polish 是一个有理由的修改。Export 要等到大家都知道哪一个 version 会继续后再做。[Credits Usage Rules](https://easymusic.ai/zh/credits-explanation) page 显示 generation、extension、editing、downloads 以及部分 video outputs 可能消耗不同数量的 credits；开工前复制当前数字，不要相信旧表格。",
+        "## 不要太早要求 long version",
+        "Long draft 看起来更正式，但会让 wrong direction 更贵。先用 short pass 测试 style、tempo 和 vocal choice，再要求完整结构。如果 style language 很空， [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 warm 或 cinematic 这类宽泛 words 变成更清楚的 instruments、texture 和 density。之后删掉不能帮助选择的词。",
+        "## 发送更小的 review packet",
+        "不要发送六个几乎一样的 files。发送一个 winner、一个 backup、一个 clear reject，并附上 notes：why kept、why rejected、open question。让 reviewer 在 directions 之间选择，而不是在所有可能性之间选择。这样下一轮是 polish，不是 blank start。如果团队要大改，开一个新的 Explore bucket，而不是拆掉 keeper。",
+        "## 把 credits 和 clearance 分开",
+        "Credit planning 会让 workflow 更有纪律，但不能证明 output 适合所有用途。把 source material、uploaded voices、lyrics、names、platform disclosure 和 client expectations 另做 notes。用于 advertising 或 commercial delivery 时，不要只因为团队喜欢某个 take，就在文件名里写 cleared。",
+        "## 今天可以直接使用的 ideas",
+        "- 开始前设定 cap，例如任何 edit 前最多三次 Explore attempts。\n- 只有一个人选定 keeper 后再 export。\n- 用 job 命名文件，不用兴奋情绪命名：ad-hook-v01 好过 amazing-final。\n- 保存 rejection reasons，避免明天重复今天失败的 prompt。\n- 客户 session 前检查当前 credit table。\n- 把 rights、terms 和 platform review 放在 credit budget 外。",
+        "## FAQ\n### 减少 takes 会让音乐更弱吗？\n不会。好的 limit 会让每个 take 回答一个 question。真正弱的做法是直接接受 first draft，而不是减少 random retries。\n### 什么时候该把 credits 花在 edit 而不是 reroll？\n当问题很 specific 时：intro 太长、drums 太密、chorus 来得太晚。如果整个 direction 都错了，就回到 Explore。\n### 客户需要看到所有 drafts 吗？\n通常不需要。发送两个 options，并说明 reasons。太多 files 会把 decision burden 转给没有看过 prompt history 的人。\n### Credit budget 能解决 usage risk 吗？\n不能。发布或交付前，要检查 tool terms、input permissions、platform rules 和 legal/commercial context。"
+      ]
+    }
+  }
+}

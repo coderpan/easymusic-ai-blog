@@ -113,6 +113,19 @@
       "pt": "https://easymusic.ai/pt/pricing",
       "ru": "https://easymusic.ai/ru/pricing",
       "zh": "https://easymusic.ai/zh/pricing"
+    },
+    "creditsExplanation": {
+      "ar": "https://easymusic.ai/ar/credits-explanation",
+      "de": "https://easymusic.ai/de/credits-explanation",
+      "en": "https://easymusic.ai/credits-explanation",
+      "es": "https://easymusic.ai/es/credits-explanation",
+      "fr": "https://easymusic.ai/fr/credits-explanation",
+      "it": "https://easymusic.ai/it/credits-explanation",
+      "ja": "https://easymusic.ai/ja/credits-explanation",
+      "ko": "https://easymusic.ai/ko/credits-explanation",
+      "pt": "https://easymusic.ai/pt/credits-explanation",
+      "ru": "https://easymusic.ai/ru/credits-explanation",
+      "zh": "https://easymusic.ai/zh/credits-explanation"
     }
   }
 }
