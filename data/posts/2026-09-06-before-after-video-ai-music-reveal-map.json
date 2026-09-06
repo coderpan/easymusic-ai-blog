@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-06",
+  "slug": "before-after-video-ai-music-reveal-map",
+  "cluster": "before-after-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لفيديو before and after من دون تضخيم الreveal",
+      "description": "Workflow عملي لبناء موسيقى AI حول before, process, reveal, وproof shot من دون اخفاء الصوت او المبالغة في النتيجة.",
+      "body": [
+        "لقطة before تبدو صادقة، ولقطة after قوية، لكن الموسيقى تجعل الفيديو كله كأنه اعلان مبالغ فيه. يدخل drum fill قبل ان يرى المشاهد الدليل، او يغطي bass صوت الاداة، او يبدو reveal اكبر من التغيير الحقيقي. في فيديو before and after، وظيفة الموسيقى ليست ان تصرخ. وظيفتها ان تنظم الانتباه.",
+        "## ما هو EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على توليد music drafts من descriptions وlyrics وstyle ideas. استخدمها لتجربة اتجاهات صوتية قابلة للمراجعة، مع بقاء الحقوق، موافقة العميل، قواعد المنصة، ودقة الادعاءات خارج حكمك الاول على جمال الtake.",
+        "## ارسم reveal map قبل الprompt",
+        "اكتب خمس نقاط زمنية قبل توليد اي شيء: before, setup, process, reveal, proof hold. تحت كل نقطة اكتب ما يجب ان يلاحظه المشاهد. في before قد تكون الخدوش، الفوضى، او اللون القديم. في process قد تكون اليد، الاداة، او السرعة. في reveal تحتاج لحظة رفع، لكن proof hold يحتاج مساحة هادئة كي يرى الناس النتيجة. اذا لم يكن الmap واضحا، سيحاول الprompt حل مشكلة تحريرية بالموسيقى.",
+        "## لا تجعل الموسيقى تثبت ما لا تثبته الصورة",
+        "الموسيقى العالية تستطيع جعل تغيير صغير يبدو ضخما. هذا ممتع لكنه خطر في beauty, fitness, home repair, fundraising, وproduct claims. اترك التحول نفسه يقوم بالعمل. اطلب energy rise او cleaner rhythm بدلا من miracle feel. اذا احتاجت النتيجة الى caption يشرح القيود، فاكتب ذلك في الفيديو بدلا من دفعه بموجة صوتية مبالغ فيها.",
+        "## اكتب style حول الحركة لا حول الضجيج",
+        "بدلا من cinematic epic reveal، اكتب وصفا مرتبطا بالفعل: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. اذا احتجت صياغة ادق، استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويل mood العام الى كلمات عن tempo, density, instruments, وspace. بعدها اختصرها الى prompt يمكن اختباره.",
+        "## احم صوت الادوات والvoiceover",
+        "في before-and-after clips، الصوت الواقعي قد يكون هو الدليل: مقص، فرشاة، باب خزانة، تمرين تنفس، او صوت المنتج وهو يعمل. لا تدفن هذه الاصوات تحت pad عريض. اذا يوجد voiceover، اجعل bed اخف عند الجمل التي تحتوي ارقام، قياسات، او شرط مهم. نسخة صامتة مع captions يجب ان تبقى مفهومة ايضا، لان بعض المشاهدين سيرون الفيديو بلا صوت.",
+        "## راجع ثلاث نسخ قصيرة",
+        "لا تبدأ بtrack كامل. اطلب ثلاث drafts قصيرة: understated, medium lift, وhigh-energy. داخل workflow EasyMusic.AI، احتفظ بنفس reveal map وغيّر متغيرا واحدا فقط. بعد اختيار take، جرّب export مناسب للمنصة، ويمكن استخدام [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) عندما تحتاج صيغة مختلفة للمراجعة او التسليم.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب reveal map من خمس خانات قبل الprompt.\n- ضع marker قبل الreveal بنصف ثانية بدلا من hit ضخم على اول frame.\n- اترك proof hold هادئا كي يرى المشاهد التفاصيل.\n- احفظ اصوات العملية اذا كانت جزءا من الدليل.\n- قارن understated وmedium وhigh-energy بنفس الفيديو.\n- افصل ملاحظات الحقوق والمنصة عن رأيك في الصوت.",
+        "## اسئلة شائعة\n### هل يجب ان تضرب الموسيقى بقوة عند after shot؟\nليس دائما. في كثير من الحالات يكفي lift قصير ثم مساحة للنظر. الضربة الكبيرة قد تجعل النتيجة تبدو اقل ثقة.\n### ماذا لو كان الفيديو بلا voiceover؟\nاستخدم captions واضحة وابق الموسيقى منظمة حول cuts. لا تعتمد على الصوت وحده لشرح الفرق بين before وafter.\n### هل يمكن استخدام style prompt نفسه لكل reveal؟\nابدأ من template واحد، لكن عدل density وtempo حسب نوع التغيير. تنظيف غرفة يحتاج نفسا مختلفا عن تغيير لون شعر او اصلاح منتج.\n### ماذا يجب ان اراجع قبل النشر؟\nراجع الحقوق، قواعد المنصة، موافقة الشخص او العميل، واي ادعاء قابل للقياس. الموسيقى الجيدة لا تعوض claim غير واضح."
+      ]
+    },
+    "de": {
+      "title": "Plane KI-Musik fuer Vorher-Nachher-Videos ohne ueberzogenen Reveal",
+      "description": "Ein praktischer Workflow fuer AI Music rund um Before, Process, Reveal und Proof Shot, ohne Stimme oder Beweise zu verdecken.",
+      "body": [
+        "Das Vorher-Bild wirkt ehrlich, das Nachher-Bild ist stark, aber die Musik macht den ganzen Clip zu gross. Ein Drum Fill kommt, bevor der Beweis sichtbar ist, der Bass verdeckt das Werkzeug, oder der Reveal klingt groesser als die Veraenderung. In einem Vorher-Nachher-Video soll Musik nicht schreien. Sie soll Aufmerksamkeit sortieren.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI-Musikerstellung, mit der du Musikentwuerfe aus Beschreibungen, Lyrics und Style-Ideen erzeugen kannst. Nutze sie, um hoerbare Richtungen zu testen, waehrend Rechte, Kundenfreigabe, Plattformregeln und sachliche Aussagen separat geprueft werden.",
+        "## Zeichne zuerst eine Reveal Map",
+        "Schreibe vor dem Prompt fuenf Zeitpunkte auf: before, setup, process, reveal, proof hold. Unter jeden Punkt kommt, was die Zuschauer sehen muessen. Im before sind es Kratzer, Unordnung oder die alte Farbe. Im process sind es Hand, Werkzeug oder Tempo. Beim reveal darf es einen Lift geben, aber der proof hold braucht Ruhe, damit Details lesbar bleiben. Ohne diese Map versucht der Prompt ein Schnittproblem mit Musik zu loesen.",
+        "## Lass Musik nicht beweisen, was das Bild nicht beweist",
+        "Laute Musik kann eine kleine Veraenderung riesig wirken lassen. Das ist wirksam, aber riskant bei Beauty, Fitness, Reparatur, Spendenclips und Produktversprechen. Lass die Veraenderung selbst tragen. Bitte um energy rise oder cleaner rhythm statt miracle feel. Wenn das Ergebnis eine Einschraenkung braucht, schreibe sie als Caption, statt sie mit Sound zu ueberreden.",
+        "## Schreibe den Style nach Bewegung, nicht nach Laerm",
+        "Statt cinematic epic reveal ist ein genauer Arbeitsbezug besser: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. Wenn du praezisere Sprache brauchst, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) eine grobe Stimmung in Tempo, Dichte, Instrumente und Raum uebersetzen. Danach kuerzt du es zu einem testbaren Prompt.",
+        "## Schuetze Werkzeugton und Voiceover",
+        "Bei Vorher-Nachher-Clips ist der echte Ton oft Teil des Beweises: Schere, Pinsel, Schranktuer, Atemuebung oder ein Produktgeraesch. Begrabe ihn nicht unter einem breiten Pad. Wenn ein Voiceover spricht, halte das Bed bei Zahlen, Messwerten und Bedingungen niedriger. Eine stumme Version mit Captions sollte ebenfalls verstaendlich bleiben, weil viele den Clip ohne Ton pruefen.",
+        "## Pruefe drei kurze Versionen",
+        "Starte nicht mit einem ganzen Track. Erzeuge drei kurze Richtungen: understated, medium lift und high-energy. Im EasyMusic.AI-Workflow bleibt die Reveal Map gleich, waehrend du nur eine Variable aenderst. Nach der Auswahl pruefst du das passende Exportformat; fuer Review oder Uebergabe kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) helfen, wenn eine andere Dateiart gebraucht wird.",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe eine Reveal Map mit fuenf Feldern vor dem Prompt.\n- Setze den Marker eine halbe Sekunde vor den Reveal, nicht als riesigen Hit auf das erste Frame.\n- Lass den Proof Hold ruhiger, damit Details sichtbar bleiben.\n- Bewahre Prozessgeraeusche, wenn sie Beweiswert haben.\n- Vergleiche understated, medium und high-energy auf demselben Video.\n- Trenne Rechte- und Plattformnotizen vom reinen Hoereindruck.",
+        "## FAQ\n### Muss die Musik beim After Shot gross einschlagen?\nNicht immer. Oft reicht ein kurzer Lift mit anschliessendem Raum zum Schauen. Ein zu grosser Hit kann weniger glaubwuerdig wirken.\n### Was, wenn der Clip kein Voiceover hat?\nNutze klare Captions und ordne die Musik um die Schnitte. Verlasse dich nicht nur auf Ton, um before und after zu erklaeren.\n### Kann derselbe Style Prompt fuer jeden Reveal funktionieren?\nAls Vorlage ja, aber Dichte und Tempo sollten zum Wandel passen. Ein Zimmer-Reset braucht anderes Gewicht als Haarfarbe oder Produktreparatur.\n### Was pruefe ich vor dem Posten?\nRechte, Plattformregeln, Zustimmung von Person oder Kunde und messbare Claims. Gute Musik ersetzt keine klare Aussage."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Before-and-After Videos Without Overselling the Reveal",
+      "description": "A practical workflow for scoring before-and-after videos around setup, process, reveal, and proof without covering the real evidence.",
+      "body": [
+        "The before shot feels honest and the after shot looks strong, but the music makes the whole edit feel inflated. A drum fill lands before the proof is visible, the bass covers the tool sound, or the reveal sounds bigger than the change on screen. In a before-and-after video, music should not shout. It should organize attention.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from descriptions, lyrics, and style ideas. Use it to test reviewable audio directions, while rights, client approval, platform rules, and factual claims stay outside the first feeling that a take sounds good.",
+        "## Draw the Reveal Map First",
+        "Before writing a prompt, mark five beats: before, setup, process, reveal, proof hold. Under each beat, write what the viewer must notice. The before beat might show scratches, clutter, or the old color. The process beat might show the hand, tool, or pace. The reveal can lift, but the proof hold needs room so people can inspect the result. Without the map, the prompt tries to solve an editing problem with music.",
+        "## Do Not Let Music Prove What the Picture Does Not",
+        "Big music can make a small change feel huge. That may feel exciting, but it is risky for beauty, fitness, repair, fundraising, and product claims. Let the transformation carry its own weight. Ask for an energy rise or cleaner rhythm instead of a miracle feel. If the result needs a limitation in the caption, write the limitation instead of pushing it with sound.",
+        "## Describe Movement, Not Hype",
+        "Replace cinematic epic reveal with language tied to action: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. If your wording is too broad, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn a general mood into tempo, density, instruments, and space. Then shorten it to a prompt you can actually test.",
+        "## Protect Real Sound and Voiceover",
+        "In before-and-after clips, real sound may be part of the evidence: scissors, brush strokes, a cabinet door, breathing, or a product working. Do not bury it under a wide pad. If there is voiceover, lower the bed under numbers, measurements, and conditions. A muted version with captions should still make sense, because some reviewers and viewers will watch without sound.",
+        "## Review Three Short Versions",
+        "Do not start with a full track. Generate three short directions: understated, medium lift, and high-energy. Inside an EasyMusic.AI workflow, keep the same reveal map and change only one variable. After you pick a take, check the file format for the platform or editor; the [Audio Converter](https://easymusic.ai/tools/audio-converter) is useful when a review or handoff needs a different audio format.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write a five-beat reveal map before the music prompt.\n- Put the musical marker half a second before the reveal instead of slamming the first after frame.\n- Keep the proof hold quieter so viewers can inspect details.\n- Preserve process sounds when they are part of the evidence.\n- Compare understated, medium, and high-energy versions against the same cut.\n- Keep rights and platform notes separate from taste notes.",
+        "## FAQ\n### Should the music hit hard on the after shot?\nNot always. Many edits need a small lift followed by space to look. A huge hit can make a credible result feel less trustworthy.\n### What if the video has no voiceover?\nUse clear captions and let the music follow the cuts. Do not rely on audio alone to explain the difference between before and after.\n### Can one style prompt fit every reveal?\nUse a template, but adjust density and tempo to the type of change. A room reset, hair color change, and product repair should not all carry the same weight.\n### What should I check before publishing?\nReview rights, platform rules, consent from the person or client, and any measurable claim. Good music does not fix an unclear claim."
+      ]
+    },
+    "es": {
+      "title": "Planifica musica IA para videos antes y despues sin exagerar el reveal",
+      "description": "Workflow practico para musicalizar videos antes y despues alrededor de setup, proceso, reveal y prueba real.",
+      "body": [
+        "La toma de antes se siente honesta y la de despues se ve fuerte, pero la musica infla todo el edit. Un drum fill llega antes de que la prueba aparezca, el bass tapa el sonido de la herramienta, o el reveal suena mas grande que el cambio en pantalla. En un video antes y despues, la musica no debe gritar. Debe ordenar la atencion.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar music drafts desde descripciones, lyrics e ideas de style. Usala para probar direcciones de audio revisables, mientras derechos, aprobacion del cliente, reglas de plataforma y claims factuales quedan fuera de la primera impresion de que un take suena bien.",
+        "## Dibuja primero el reveal map",
+        "Antes de escribir el prompt, marca cinco momentos: before, setup, process, reveal, proof hold. Debajo de cada uno escribe que debe notar el espectador. El before puede mostrar rayones, desorden o el color viejo. El process puede mostrar mano, herramienta o ritmo. El reveal puede subir, pero el proof hold necesita espacio para inspeccionar el resultado. Sin ese mapa, el prompt intenta resolver un problema de edicion con musica.",
+        "## No dejes que la musica pruebe lo que la imagen no prueba",
+        "La musica grande puede hacer que un cambio pequeno parezca enorme. Puede emocionar, pero es delicado en beauty, fitness, reparaciones, fundraising y product claims. Deja que la transformacion cargue su propio peso. Pide energy rise o cleaner rhythm en vez de miracle feel. Si el resultado necesita una limitacion en caption, escribela en vez de empujarla con sonido.",
+        "## Describe movimiento, no hype",
+        "Cambia cinematic epic reveal por lenguaje unido a la accion: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. Si tu frase es demasiado amplia, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir un mood general en tempo, density, instrumentos y space. Luego reducelo a un prompt que puedas probar.",
+        "## Protege el sonido real y el voiceover",
+        "En clips antes y despues, el sonido real puede ser parte de la prueba: tijeras, pinceladas, una puerta, respiracion o un producto funcionando. No lo entierres bajo un pad ancho. Si hay voiceover, baja el bed en numeros, medidas y condiciones. Una version muted con captions tambien debe entenderse, porque algunos revisores y espectadores miraran sin sonido.",
+        "## Revisa tres versiones cortas",
+        "No empieces con un track completo. Genera tres direcciones breves: understated, medium lift y high-energy. Dentro de un workflow de EasyMusic.AI, conserva el mismo reveal map y cambia solo una variable. Cuando elijas un take, revisa el formato para la plataforma o el editor; el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) sirve cuando una revision o entrega necesita otro formato de audio.",
+        "## Ideas reutilizables para hoy",
+        "- Escribe un reveal map de cinco momentos antes del prompt.\n- Pon el marker musical medio segundo antes del reveal, no como golpe enorme en el primer frame after.\n- Deja el proof hold mas quieto para que se vean los detalles.\n- Conserva sonidos del proceso cuando son parte de la prueba.\n- Compara understated, medium y high-energy contra el mismo corte.\n- Separa notas de derechos y plataforma de notas de gusto.",
+        "## Preguntas frecuentes\n### La musica debe golpear fuerte en la toma after?\nNo siempre. Muchos edits necesitan una subida pequena y luego espacio para mirar. Un golpe gigante puede volver menos creible un resultado real.\n### Y si el video no tiene voiceover?\nUsa captions claros y deja que la musica siga los cortes. No dependas solo del audio para explicar la diferencia entre before y after.\n### Un mismo style prompt sirve para todos los reveals?\nPuede servir como plantilla, pero ajusta density y tempo al tipo de cambio. Un cuarto ordenado, un cambio de cabello y una reparacion de producto no pesan igual.\n### Que debo revisar antes de publicar?\nDerechos, reglas de plataforma, consentimiento de la persona o cliente y cualquier claim medible. Buena musica no arregla una afirmacion confusa."
+      ]
+    },
+    "fr": {
+      "title": "Planifie la musique IA d'un avant-apres sans gonfler le reveal",
+      "description": "Workflow pratique pour scorer une video avant-apres autour du setup, du process, du reveal et de la preuve visible.",
+      "body": [
+        "Le plan avant semble honnete et le plan apres fonctionne, mais la musique grossit tout le montage. Un drum fill arrive avant que la preuve soit visible, la basse couvre l'outil, ou le reveal parait plus grand que le changement a l'image. Dans une video avant-apres, la musique ne doit pas crier. Elle doit organiser l'attention.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale avec IA qui genere des music drafts a partir de descriptions, de lyrics et d'idees de style. Utilise-la pour tester des directions audio revisables, tandis que droits, validation client, regles de plateforme et affirmations factuelles restent des controles separes.",
+        "## Dessine d'abord la reveal map",
+        "Avant le prompt, note cinq temps: before, setup, process, reveal, proof hold. Sous chacun, ecris ce que le spectateur doit remarquer. Le before peut montrer rayures, desordre ou ancienne couleur. Le process peut montrer main, outil ou vitesse. Le reveal peut monter, mais le proof hold a besoin d'air pour inspecter le resultat. Sans cette map, le prompt essaie de regler un probleme de montage avec de la musique.",
+        "## Ne laisse pas la musique prouver ce que l'image ne prouve pas",
+        "Une musique enorme peut faire paraitre un petit changement immense. C'est tentant, mais delicat en beaute, fitness, reparation, fundraising et product claims. Laisse la transformation porter son propre poids. Demande energy rise ou cleaner rhythm plutot que miracle feel. Si le resultat exige une limite en caption, ecris-la au lieu de la pousser avec le son.",
+        "## Decris le mouvement, pas le hype",
+        "Remplace cinematic epic reveal par une phrase liee a l'action: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. Si ta formulation est trop large, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut convertir une humeur generale en tempo, densite, instruments et espace. Ensuite, reduis-la a un prompt testable.",
+        "## Protege le son reel et la voix off",
+        "Dans les clips avant-apres, le son reel peut faire partie de la preuve: ciseaux, pinceau, porte de placard, respiration ou produit en fonctionnement. Ne l'enterre pas sous un pad large. S'il y a une voix off, baisse le bed sous les chiffres, mesures et conditions. Une version muette avec captions doit aussi rester claire, car certains viewers regarderont sans son.",
+        "## Compare trois versions courtes",
+        "Ne commence pas par un track entier. Genere trois directions courtes: understated, medium lift et high-energy. Dans un workflow EasyMusic.AI, garde la meme reveal map et ne change qu'une variable. Apres le choix d'un take, verifie le format pour la plateforme ou le monteur; l'[Audio Converter](https://easymusic.ai/fr/tools/audio-converter) aide quand la review ou la livraison demande un autre format audio.",
+        "## Idees reutilisables aujourd'hui",
+        "- Ecris une reveal map en cinq temps avant le prompt.\n- Place le marker musical une demi-seconde avant le reveal, pas comme un hit massif sur le premier frame apres.\n- Garde le proof hold plus calme pour laisser voir les details.\n- Conserve les sons de process quand ils prouvent quelque chose.\n- Compare understated, medium et high-energy sur le meme cut.\n- Separe notes de droits et plateforme des notes de gout.",
+        "## FAQ\n### La musique doit-elle frapper fort sur le plan apres ?\nPas toujours. Beaucoup de montages ont besoin d'un petit lift puis d'espace pour regarder. Un hit enorme peut rendre un resultat credible moins fiable.\n### Et si la video n'a pas de voix off ?\nUtilise des captions claires et fais suivre la musique aux cuts. Ne compte pas seulement sur l'audio pour expliquer before et after.\n### Un seul style prompt suffit-il pour tous les reveals ?\nIl peut servir de base, mais ajuste densite et tempo au type de changement. Ranger une piece, changer une couleur de cheveux et reparer un produit ne demandent pas le meme poids.\n### Que verifier avant publication ?\nDroits, regles de plateforme, consentement de la personne ou du client et tout claim mesurable. Une bonne musique ne corrige pas une affirmation floue."
+      ]
+    },
+    "it": {
+      "title": "Pianifica musica AI per video prima-dopo senza gonfiare il reveal",
+      "description": "Workflow pratico per segnare video prima-dopo intorno a setup, processo, reveal e prova visibile.",
+      "body": [
+        "La ripresa prima sembra onesta e quella dopo funziona, ma la musica ingrandisce tutto il montaggio. Un drum fill arriva prima che la prova sia visibile, il basso copre il suono dello strumento, oppure il reveal suona piu grande del cambiamento sullo schermo. In un video prima-dopo, la musica non deve urlare. Deve organizzare l'attenzione.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per generare music drafts da descrizioni, lyrics e idee di style. Usala per testare direzioni audio revisionabili, mentre diritti, approvazione del cliente, regole di piattaforma e claim fattuali restano controlli separati.",
+        "## Disegna prima la reveal map",
+        "Prima del prompt, segna cinque momenti: before, setup, process, reveal, proof hold. Sotto ciascuno scrivi cosa deve notare chi guarda. Il before puo mostrare graffi, disordine o il vecchio colore. Il process puo mostrare mano, strumento o ritmo. Il reveal puo salire, ma il proof hold ha bisogno di spazio per far leggere il risultato. Senza mappa, il prompt prova a risolvere con musica un problema di montaggio.",
+        "## Non far provare alla musica cio che l'immagine non prova",
+        "Una musica enorme puo far sembrare grande un cambiamento piccolo. Puo funzionare, ma e delicato in beauty, fitness, riparazioni, fundraising e product claims. Lascia che la trasformazione porti il suo peso. Chiedi energy rise o cleaner rhythm invece di miracle feel. Se il risultato richiede una limitazione in caption, scrivila invece di spingerla col suono.",
+        "## Descrivi movimento, non hype",
+        "Sostituisci cinematic epic reveal con frasi legate all'azione: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. Se le parole sono troppo larghe, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood generale in tempo, density, strumenti e spazio. Poi riduci tutto a un prompt testabile.",
+        "## Proteggi suono reale e voiceover",
+        "Nei clip prima-dopo, il suono reale puo essere parte della prova: forbici, pennello, anta, respiro o prodotto in funzione. Non seppellirlo sotto un pad largo. Se c'e voiceover, abbassa il bed sotto numeri, misure e condizioni. Anche una versione muta con captions deve funzionare, perche alcuni reviewer e spettatori guarderanno senza audio.",
+        "## Rivedi tre versioni brevi",
+        "Non iniziare da un track completo. Genera tre direzioni corte: understated, medium lift e high-energy. In un workflow EasyMusic.AI, mantieni la stessa reveal map e cambia una sola variabile. Dopo aver scelto il take, controlla il formato per piattaforma o editor; l'[Audio Converter](https://easymusic.ai/it/tools/audio-converter) e utile quando review o consegna chiedono un altro formato audio.",
+        "## Idee riutilizzabili oggi",
+        "- Scrivi una reveal map in cinque momenti prima del prompt.\n- Metti il marker musicale mezzo secondo prima del reveal, non come colpo enorme sul primo frame dopo.\n- Tieni il proof hold piu quieto per far vedere i dettagli.\n- Conserva i suoni del processo quando fanno parte della prova.\n- Confronta understated, medium e high-energy sullo stesso cut.\n- Separa note su diritti e piattaforme dalle note di gusto.",
+        "## FAQ\n### La musica deve colpire forte sulla ripresa dopo?\nNon sempre. Molti montaggi hanno bisogno di un piccolo lift e poi spazio per guardare. Un hit enorme puo rendere meno credibile un risultato reale.\n### E se il video non ha voiceover?\nUsa captions chiare e fai seguire alla musica i tagli. Non affidarti solo all'audio per spiegare la differenza tra before e after.\n### Un solo style prompt funziona per tutti i reveal?\nPuo essere una base, ma regola density e tempo in base al cambiamento. Riordinare una stanza, cambiare colore di capelli e riparare un prodotto non hanno lo stesso peso.\n### Cosa controllare prima di pubblicare?\nDiritti, regole di piattaforma, consenso della persona o del cliente e ogni claim misurabile. Una buona musica non corregge una promessa poco chiara."
+      ]
+    },
+    "ja": {
+      "title": "Before-after動画のrevealを盛りすぎないAI music設計",
+      "description": "Before, process, reveal, proof shotに沿って、実際の証拠を隠さないAI musicを組み立てるworkflow。",
+      "body": [
+        "Before shotは正直に見え、after shotも強いのに、musicがedit全体を大げさにしてしまうことがあります。Proofが見える前にdrum fillが入り、tool soundをbassが隠し、画面上の変化よりrevealだけが大きく聞こえる。Before-after videoでmusicがする仕事は叫ぶことではなく、attentionを整理することです。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、descriptions、lyrics、style ideasからmusic draftsを作れるAI music creation platformです。聞いて判断できるaudio directionを試すために使い、rights、client approval、platform rules、factual claimsは別に確認します。",
+        "## 先にreveal mapを書く",
+        "Promptを書く前に五つのbeatを決めます。before、setup、process、reveal、proof holdです。それぞれにviewerが見るべきものを書きます。Beforeではscratch、clutter、old color。Processではhand、tool、pace。Revealでは少しliftしてよいですが、proof holdには結果を確認する余白が必要です。Mapがないと、promptはediting problemをmusicで解決しようとします。",
+        "## 画像が証明していないことをmusicで証明しない",
+        "大きなmusicは小さな変化を大きく感じさせます。楽しく見える一方で、beauty、fitness、repair、fundraising、product claimsでは慎重さが必要です。Transformationそのものに働かせましょう。Miracle feelではなく、energy riseやcleaner rhythmを頼むほうが安全です。結果にlimitationが必要なら、soundで押すのではなくcaptionに書きます。",
+        "## Hypeではなくmovementを描写する",
+        "Cinematic epic revealではなく、actionに結びつく言葉を使います。steady light percussion during sanding、short lift when the wall color appears、warm calm groove under final room scanなどです。言葉が広すぎる時は [Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) でmoodをtempo、density、instruments、spaceに分け、最後にtestしやすいpromptへ縮めます。",
+        "## Real soundとvoiceoverを守る",
+        "Before-after clipsでは、real soundがevidenceの一部になることがあります。Scissors、brush strokes、cabinet door、breathing、product working soundなどです。Wide padで埋めないでください。Voiceoverがあるなら、numbers、measurements、conditionsの下ではbedを下げます。Captions付きのmuted versionでも意味が通るようにします。音なしで見るreviewerやviewerもいます。",
+        "## 短い三つのversionで確認する",
+        "最初からfull trackを作らないこと。Understated、medium lift、high-energyの三つを短く生成します。EasyMusic.AI workflowでは同じreveal mapを保ち、一つのvariableだけを変えます。Takeを選んだらplatformやeditorに合うformatを確認し、reviewやhandoffで別形式が必要なら [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使えます。",
+        "## 今日使えるideas",
+        "- Music promptの前に五beatのreveal mapを書く。\n- Musical markerはafter最初のframeではなく、revealの半秒前に置く。\n- Proof holdは静かにしてdetailsを見せる。\n- Process soundがevidenceなら残す。\n- 同じcutでunderstated、medium、high-energyを比べる。\n- Rightsやplatform notesをtaste notesと分ける。",
+        "## FAQ\n### After shotでmusicを強く当てるべきですか？\nいつも必要ではありません。小さなliftのあとに見る余白を置くほうが合うeditも多いです。大きすぎるhitは信頼できる結果をかえって軽く見せます。\n### Voiceoverがない場合は？\nClear captionsを使い、musicはcutsに沿わせます。Beforeとafterの違いをaudioだけに頼って説明しないこと。\n### 一つのstyle promptを全部のrevealに使えますか？\nTemplateにはできますが、changeの種類に合わせてdensityとtempoを変えます。Room reset、hair color change、product repairは同じ重さではありません。\n### Publish前に何を確認しますか？\nRights、platform rules、personやclientのconsent、測定可能なclaimを確認します。Good musicは不明確なclaimを直しません。"
+      ]
+    },
+    "ko": {
+      "title": "Before-after video용 AI music을 reveal 과장 없이 설계하기",
+      "description": "Setup, process, reveal, proof shot을 기준으로 실제 증거를 가리지 않는 AI music workflow.",
+      "body": [
+        "Before shot은 솔직하고 after shot도 좋은데 music이 edit 전체를 부풀려 보이게 할 때가 있습니다. Proof가 보이기 전에 drum fill이 들어오고, bass가 tool sound를 덮고, 화면의 변화보다 reveal만 더 크게 들립니다. Before-and-after video에서 music의 일은 소리치는 것이 아니라 attention을 정리하는 것입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 descriptions, lyrics, style ideas로 music drafts를 만들 수 있는 AI music creation platform입니다. Review 가능한 audio direction을 시험하는 데 쓰되 rights, client approval, platform rules, factual claims는 첫 느낌과 별도로 확인해야 합니다.",
+        "## Reveal map을 먼저 그린다",
+        "Prompt 전에 다섯 beat를 적습니다: before, setup, process, reveal, proof hold. 각 beat 아래에 viewer가 알아야 할 것을 씁니다. Before에는 scratches, clutter, old color가 있을 수 있습니다. Process에는 hand, tool, pace가 보입니다. Reveal은 lift될 수 있지만 proof hold에는 결과를 확인할 여백이 필요합니다. Map이 없으면 prompt가 editing problem을 music으로 해결하려 합니다.",
+        "## 화면이 증명하지 않는 것을 music으로 증명하지 않는다",
+        "큰 music은 작은 변화를 크게 느끼게 합니다. 재미있을 수 있지만 beauty, fitness, repair, fundraising, product claims에서는 조심해야 합니다. Transformation 자체가 무게를 갖게 두세요. Miracle feel보다 energy rise나 cleaner rhythm을 요청하세요. 결과에 limitation이 필요하다면 sound로 밀어붙이지 말고 caption에 적습니다.",
+        "## Hype가 아니라 movement를 설명한다",
+        "Cinematic epic reveal 대신 action과 연결된 말을 씁니다: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. 표현이 너무 넓다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 mood를 tempo, density, instruments, space로 나눈 뒤 시험 가능한 prompt로 줄입니다.",
+        "## Real sound와 voiceover를 보호한다",
+        "Before-after clips에서는 real sound가 evidence가 될 수 있습니다. Scissors, brush strokes, cabinet door, breathing, product working sound 같은 것들입니다. Wide pad 아래에 묻지 마세요. Voiceover가 있다면 numbers, measurements, conditions 아래에서는 bed를 낮춥니다. Captions가 있는 muted version도 이해되어야 합니다. 일부 reviewer와 viewer는 소리 없이 볼 수 있습니다.",
+        "## 짧은 세 가지 version을 검토한다",
+        "처음부터 full track을 만들지 마세요. Understated, medium lift, high-energy 세 방향을 짧게 만듭니다. EasyMusic.AI workflow에서는 같은 reveal map을 유지하고 variable 하나만 바꿉니다. Take를 고른 뒤 platform이나 editor에 맞는 format을 확인하세요. Review나 handoff에 다른 audio format이 필요하면 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 쓸 수 있습니다.",
+        "## 오늘 바로 쓸 수 있는 ideas",
+        "- Music prompt 전에 다섯 beat reveal map을 씁니다.\n- Musical marker는 after 첫 frame이 아니라 reveal 반초 전에 둡니다.\n- Proof hold는 더 조용하게 두어 details를 보게 합니다.\n- Process sound가 evidence라면 보존합니다.\n- 같은 cut에서 understated, medium, high-energy를 비교합니다.\n- Rights와 platform notes를 taste notes와 분리합니다.",
+        "## FAQ\n### After shot에서 music을 세게 쳐야 하나요?\n항상 그렇지는 않습니다. 작은 lift 뒤에 볼 여백을 두는 edit이 많습니다. 너무 큰 hit는 믿을 만한 결과도 덜 믿기게 만들 수 있습니다.\n### Voiceover가 없으면 어떻게 하나요?\nClear captions를 쓰고 music은 cuts를 따라가게 하세요. Before와 after의 차이를 audio만으로 설명하지 마세요.\n### 하나의 style prompt가 모든 reveal에 맞나요?\nTemplate로는 가능하지만 변화 종류에 맞게 density와 tempo를 조정해야 합니다. Room reset, hair color change, product repair는 같은 무게가 아닙니다.\n### Publishing 전에 무엇을 확인하나요?\nRights, platform rules, person이나 client consent, 측정 가능한 claim을 확인합니다. Good music은 불분명한 claim을 해결하지 못합니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje musica AI para videos antes e depois sem exagerar o reveal",
+      "description": "Workflow pratico para trilhar videos antes e depois em torno de setup, processo, reveal e prova visivel.",
+      "body": [
+        "A imagem do antes parece honesta e a do depois funciona, mas a musica aumenta demais o edit. Um drum fill entra antes da prova aparecer, o bass cobre o som da ferramenta, ou o reveal soa maior que a mudanca na tela. Em um video antes e depois, a musica nao deve gritar. Ela deve organizar a atencao.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar music drafts a partir de descricoes, lyrics e ideias de style. Use-a para testar direcoes de audio que podem ser revisadas, enquanto direitos, aprovacao do cliente, regras de plataforma e claims factuais ficam em checagens separadas.",
+        "## Desenhe primeiro o reveal map",
+        "Antes do prompt, marque cinco momentos: before, setup, process, reveal, proof hold. Embaixo de cada um escreva o que o espectador precisa notar. O before pode mostrar riscos, bagunca ou cor antiga. O process pode mostrar mao, ferramenta ou ritmo. O reveal pode subir, mas o proof hold precisa de espaco para o resultado ser visto. Sem mapa, o prompt tenta resolver com musica um problema de edicao.",
+        "## Nao deixe a musica provar o que a imagem nao prova",
+        "Musica grande pode fazer uma mudanca pequena parecer enorme. Isso anima, mas e delicado em beauty, fitness, reparos, fundraising e product claims. Deixe a transformacao carregar seu proprio peso. Peca energy rise ou cleaner rhythm em vez de miracle feel. Se o resultado precisa de uma limitacao em caption, escreva a limitacao em vez de empurrar com som.",
+        "## Descreva movimento, nao hype",
+        "Troque cinematic epic reveal por linguagem ligada a acao: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. Se a frase estiver ampla demais, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode converter um mood geral em tempo, density, instrumentos e space. Depois reduza para um prompt testavel.",
+        "## Proteja som real e voiceover",
+        "Em clips antes e depois, o som real pode ser parte da prova: tesoura, pincel, porta, respiracao ou produto funcionando. Nao enterre isso sob um pad largo. Se houver voiceover, abaixe o bed em numeros, medidas e condicoes. Uma versao muted com captions tambem deve fazer sentido, porque alguns revisores e espectadores assistem sem som.",
+        "## Revise tres versoes curtas",
+        "Nao comece com um track inteiro. Gere tres direcoes curtas: understated, medium lift e high-energy. Em um workflow EasyMusic.AI, mantenha o mesmo reveal map e mude apenas uma variavel. Depois de escolher o take, confira o formato para plataforma ou editor; o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) ajuda quando review ou entrega precisa de outro audio format.",
+        "## Ideias reutilizaveis para hoje",
+        "- Escreva um reveal map de cinco momentos antes do prompt.\n- Coloque o marker musical meio segundo antes do reveal, nao como pancada no primeiro frame depois.\n- Deixe o proof hold mais quieto para os detalhes aparecerem.\n- Preserve sons do processo quando fazem parte da prova.\n- Compare understated, medium e high-energy no mesmo corte.\n- Separe notas de direitos e plataforma das notas de gosto.",
+        "## Perguntas frequentes\n### A musica deve bater forte no after shot?\nNem sempre. Muitos edits precisam de um pequeno lift e depois espaco para olhar. Um hit enorme pode tornar menos confiavel um resultado real.\n### E se o video nao tiver voiceover?\nUse captions claros e deixe a musica seguir os cortes. Nao dependa apenas do audio para explicar a diferenca entre before e after.\n### Um style prompt serve para todo reveal?\nPode servir como template, mas ajuste density e tempo ao tipo de mudanca. Arrumar um quarto, mudar cor de cabelo e reparar um produto nao tem o mesmo peso.\n### O que revisar antes de publicar?\nDireitos, regras de plataforma, consentimento da pessoa ou cliente e qualquer claim mensuravel. Boa musica nao corrige uma afirmacao confusa."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music для before-after video без преувеличенного reveal",
+      "description": "Практический workflow для музыки в before-after video: setup, process, reveal и proof shot без сокрытия фактов.",
+      "body": [
+        "Кадр before выглядит честно, кадр after сильный, но музыка раздувает весь монтаж. Drum fill появляется раньше, чем виден proof, bass закрывает звук инструмента, или reveal звучит больше, чем изменение на экране. В before-and-after video музыка не должна кричать. Она должна распределять внимание.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform для генерации music drafts из descriptions, lyrics и style ideas. Используйте ее для проверки аудио-направлений, которые можно обсуждать, но rights, client approval, platform rules и factual claims проверяйте отдельно.",
+        "## Сначала нарисуйте reveal map",
+        "До prompt отметьте пять точек: before, setup, process, reveal, proof hold. Под каждой напишите, что зритель должен заметить. Before может показывать царапины, беспорядок или старый цвет. Process может показывать руку, инструмент или темп. Reveal может подняться, но proof hold требует пространства, чтобы результат можно было рассмотреть. Без карты prompt пытается решать монтажную задачу музыкой.",
+        "## Не заставляйте музыку доказывать то, чего не доказывает картинка",
+        "Большая музыка может сделать маленькое изменение огромным. Это звучит эффектно, но рискованно в beauty, fitness, repair, fundraising и product claims. Пусть transformation держит собственный вес. Просите energy rise или cleaner rhythm вместо miracle feel. Если результату нужна limitation в caption, напишите ее, а не продавите звуком.",
+        "## Описывайте движение, а не hype",
+        "Замените cinematic epic reveal на язык, связанный с действием: steady light percussion during sanding, short lift when the wall color appears, warm calm groove under final room scan. Если формулировка слишком широкая, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет перевести mood в tempo, density, instruments и space. Затем сократите это до prompt, который можно проверить.",
+        "## Защитите реальный звук и voiceover",
+        "В before-after clips реальный звук может быть частью evidence: ножницы, кисть, дверца шкафа, дыхание или работа продукта. Не прячьте это под широким pad. Если есть voiceover, опускайте bed под числами, измерениями и условиями. Muted version с captions тоже должна быть понятной, потому что часть reviewer и viewer смотрит без звука.",
+        "## Проверьте три короткие версии",
+        "Не начинайте с full track. Сгенерируйте три коротких направления: understated, medium lift и high-energy. В workflow EasyMusic.AI оставьте ту же reveal map и меняйте только одну variable. После выбора take проверьте format для платформы или редактора; [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) полезен, когда review или handoff требует другой audio format.",
+        "## Идеи, которые можно применить сегодня",
+        "- Напишите reveal map из пяти точек до music prompt.\n- Поставьте musical marker за полсекунды до reveal, а не огромным hit на первом after frame.\n- Сделайте proof hold тише, чтобы зритель видел детали.\n- Сохраняйте process sounds, если они являются evidence.\n- Сравните understated, medium и high-energy на одном cut.\n- Отделяйте rights и platform notes от taste notes.",
+        "## FAQ\n### Нужно ли сильно ударять музыкой на after shot?\nНе всегда. Часто достаточно небольшого lift, а затем пространства для просмотра. Огромный hit может сделать честный результат менее надежным.\n### Что если в видео нет voiceover?\nИспользуйте ясные captions и подчините музыку cuts. Не полагайтесь только на audio, чтобы объяснить разницу между before и after.\n### Один style prompt подойдет для любого reveal?\nОн может быть template, но density и tempo нужно менять под тип изменения. Room reset, hair color change и product repair не требуют одного веса.\n### Что проверить перед публикацией?\nRights, platform rules, consent человека или клиента и любые измеримые claims. Good music не исправляет неясное утверждение."
+      ]
+    },
+    "zh": {
+      "title": "为 before-after video 规划不过度夸张的 AI music reveal",
+      "description": "围绕 setup、process、reveal 和 proof shot 设计 AI music，不盖住真实证据，也不放大结果。",
+      "body": [
+        "Before shot 看起来真实，after shot 也有力量，但 music 把整个 edit 推得过满。Proof 还没出现，drum fill 已经打进来；tool sound 被 bass 盖住；reveal 听起来比画面上的变化更大。Before-and-after video 里的 music 不该大喊，它应该整理 attention。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 descriptions、lyrics 和 style ideas 生成 music drafts。你可以用它测试便于 review 的 audio directions，但 rights、client approval、platform rules 和 factual claims 仍然要分开检查。",
+        "## 先画 reveal map",
+        "写 prompt 之前，先标出五个 beat：before、setup、process、reveal、proof hold。每个 beat 下写清 viewer 必须看到什么。Before 可能是 scratches、clutter 或 old color；process 可能是 hand、tool 或 pace；reveal 可以有 lift，但 proof hold 需要留出空间让人看结果。没有这张 map，prompt 会试图用 music 解决 editing problem。",
+        "## 不要让 music 证明画面没有证明的事",
+        "很大的 music 会让小变化听起来像巨大改变。这可能很刺激，但在 beauty、fitness、repair、fundraising 和 product claims 里很危险。让 transformation 自己承担重量。请求 energy rise 或 cleaner rhythm，而不是 miracle feel。如果结果需要 limitation，就把它写在 caption 里，不要用声音强推。",
+        "## 描述 movement，而不是 hype",
+        "不要只写 cinematic epic reveal，改成和 action 有关的语言：steady light percussion during sanding、short lift when the wall color appears、warm calm groove under final room scan。若表达太宽，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把 mood 拆成 tempo、density、instruments 和 space，再压缩成可以测试的 prompt。",
+        "## 保护 real sound 和 voiceover",
+        "在 before-after clips 中，real sound 可能就是 evidence 的一部分：scissors、brush strokes、cabinet door、breathing，或 product working sound。不要用宽大的 pad 把它们埋掉。如果有 voiceover，在 numbers、measurements 和 conditions 下方降低 bed。带 captions 的 muted version 也应该看得懂，因为一些 reviewer 和 viewer 会无声观看。",
+        "## 检查三个短 version",
+        "不要从 full track 开始。先生成三个短方向：understated、medium lift、high-energy。在 EasyMusic.AI workflow 中，保持同一张 reveal map，只改变一个 variable。选出 take 后，再检查 platform 或 editor 需要的 format；如果 review 或 handoff 需要另一种 audio format，可以使用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)。",
+        "## 今天就能用的 ideas",
+        "- 在 music prompt 前写五个 beat 的 reveal map。\n- Musical marker 放在 reveal 前半秒，而不是 after 第一个 frame 上砸大 hit。\n- 让 proof hold 更安静，方便 viewer 看 details。\n- 如果 process sound 是 evidence，就保留下来。\n- 用同一个 cut 比较 understated、medium 和 high-energy。\n- 把 rights 和 platform notes 与 taste notes 分开。",
+        "## FAQ\n### After shot 上 music 一定要很强吗？\n不一定。很多 edit 只需要小 lift，然后留出观看空间。过大的 hit 反而会让可信的结果显得不可信。\n### 如果视频没有 voiceover 呢？\n使用清楚的 captions，让 music 跟随 cuts。不要只靠 audio 解释 before 和 after 的区别。\n### 一个 style prompt 能适合所有 reveal 吗？\n可以作为 template，但要根据 change 类型调整 density 和 tempo。Room reset、hair color change、product repair 的重量不一样。\n### 发布前应该检查什么？\n检查 rights、platform rules、person 或 client 的 consent，以及任何可测量 claim。Good music 不能修复不清楚的说法。"
+      ]
+    }
+  }
+}
