@@ -99,7 +99,30 @@
       "zh": "https://easymusic.ai/zh/google-lyria-ai-music-generator"
     },
     "aiMusicVideoGenerator": {
-      "en": "https://easymusic.ai/ai-music-video-generator"
+      "ar": "https://easymusic.ai/ar/ai-music-video-generator",
+      "de": "https://easymusic.ai/de/ai-music-video-generator",
+      "en": "https://easymusic.ai/ai-music-video-generator",
+      "es": "https://easymusic.ai/es/ai-music-video-generator",
+      "fr": "https://easymusic.ai/fr/ai-music-video-generator",
+      "it": "https://easymusic.ai/it/ai-music-video-generator",
+      "ja": "https://easymusic.ai/ja/ai-music-video-generator",
+      "ko": "https://easymusic.ai/ko/ai-music-video-generator",
+      "pt": "https://easymusic.ai/pt/ai-music-video-generator",
+      "ru": "https://easymusic.ai/ru/ai-music-video-generator",
+      "zh": "https://easymusic.ai/zh/ai-music-video-generator"
+    },
+    "aiMusicVideoGeneratorCanonical": {
+      "ar": "https://easymusic.ai/ai-music-video-generator",
+      "de": "https://easymusic.ai/ai-music-video-generator",
+      "en": "https://easymusic.ai/ai-music-video-generator",
+      "es": "https://easymusic.ai/ai-music-video-generator",
+      "fr": "https://easymusic.ai/ai-music-video-generator",
+      "it": "https://easymusic.ai/ai-music-video-generator",
+      "ja": "https://easymusic.ai/ai-music-video-generator",
+      "ko": "https://easymusic.ai/ai-music-video-generator",
+      "pt": "https://easymusic.ai/ai-music-video-generator",
+      "ru": "https://easymusic.ai/ai-music-video-generator",
+      "zh": "https://easymusic.ai/ai-music-video-generator"
     },
     "pricing": {
       "ar": "https://easymusic.ai/ar/pricing",

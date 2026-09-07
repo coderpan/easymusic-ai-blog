@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-07",
+  "slug": "ai-lyric-video-beat-sheet",
+  "cluster": "lyric-video-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع Beat Sheet لفيديو كلمات AI قبل توليد المشاهد",
+      "description": "Workflow عملي لتخطيط lyric video لاغنية AI بحيث تظهر الكلمات في وقتها، تبقى مقروءة، ولا تتحول المشاهد الى زحمة حركة.",
+      "body": [
+        "الاغنية جاهزة، لكن lyric video قد يفشل في اول عرض. الكلمات تظهر متاخرة نصف ثانية، chorus يمر بسرعة، او الخلفية تتحرك اكثر من الجملة نفسها. قبل توليد visual طويل، اكتب beat sheet صغيرا يربط كل سطر بمكانه في الاغنية وبنوع الحركة التي تخدمه.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts بالذكاء الاصطناعي من text descriptions وstyle ideas وlyrics عند الحاجة. يمكنك استخدامها لاختبار اتجاه الاغنية، تنقيح الكلمات عبر [AI Lyrics Generator](https://easymusic.ai/ar/tools/ai-lyrics-generator)، ثم تخطيط visual قصير باستخدام [AI Music Video Generator](https://easymusic.ai/ar/ai-music-video-generator). الحقوق، الموافقات، وسياسات المنصة تبقى خطوات منفصلة قبل النشر.",
+        "## اكتب الخريطة قبل الشكل",
+        "ابدأ بجدول بسيط: 0:00 intro، 0:05 اول سطر، 0:18 pre-chorus، 0:31 hook، 0:45 hold او instrumental. لا تحتاج دقة frame-by-frame في البداية؛ تحتاج فقط معرفة اين يدخل المعنى واين يحتاج المشاهد وقت قراءة. اذا لم تعرف timing بعد، شغل المسودة وضع marker عند كل phrase مهم، لا عند كل beat.",
+        "## اجعل الكلمات قابلة للقراءة",
+        "قسم lyric الى وحدات صغيرة: 4 الى 7 كلمات في السطر، فكرة واحدة في الشاشة، وhold قصير بعد الجملة المهمة. الجملة الطويلة التي تبدو جميلة في النص قد تصبح ثقيلة على الهاتف. اذا كانت الاغنية بلغتين، لا تعرض الترجمة والمعنى الاصلي بالحجم نفسه في نفس اللحظة. اختر واحدا كطبقة رئيسية واجعل الثاني اصغر او مؤجلا.",
+        "## اربط الحركة بوظيفة المقطع",
+        "الverse يحتاج قراءة، لذلك استخدم حركة هادئة وخلفية لا تنافس الحروف. الpre-chorus يمكن ان يرفع الضوء او اللون تدريجيا. الchorus يحتاج علامة بصرية اقوى، لكن ليس cut على كل beat. اترك نصف ثانية من الهواء قبل hook وبعده حتى لا يبدو الكلام كأنه يطارد الموسيقى.",
+        "## Reusable Ideas",
+        "- اختبر 20 ثانية فقط من اقوى hook قبل صنع الفيديو الكامل.\n- اكتب prompt منفصل للtypography مثل clean lyric text, high contrast, slow motion, no fast flashing.\n- ضع safe zone للاسفل واليمين قبل التصدير لان ازرار المنصة قد تغطي الكلمات.\n- شاهد النسخة مرة بلا صوت ومرة بصوت منخفض لتعرف هل timing مفهوم.",
+        "## راجع قبل النشر",
+        "احفظ beat sheet، prompt، source song، الصور او المواد المستخدمة، والنسخة التي وافق عليها الفريق. اذا كان الفيديو يتضمن وجه شخص، اسم فنان، شعار، او material خارجي، راجع الاذن والسياق. لا تفترض ان توليد الموسيقى او الفيديو يجعل الملف مناسبا لكل استخدام تجاري او كل منصة.",
+        "## FAQ\n### هل احتاج lyrics كاملة قبل الفيديو؟\nنعم تقريبا. يمكن اختبار hook قصير، لكن lyric video كامل يحتاج كلمات مستقرة حتى لا تعيد timing من الصفر.\n### كم كلمة تظهر في الشاشة؟\nابدأ ب4 الى 7 كلمات. اذا احتجت اكثر، قسمها على شاشتين.\n### هل اجعل الخلفية تتحرك مع كل beat؟\nلا. اربط الحركة بتغيرات الاغنية الكبيرة: intro، verse، lift، chorus، ending.\n### ماذا افعل اذا الكلمات لا تقرا على الهاتف؟\nكبر الخط، قلل الخلفية، ارفع contrast، واحذف كلمات غير ضرورية بدلا من تسريع الظهور."
+      ]
+    },
+    "de": {
+      "title": "Plane ein Beat Sheet fuer dein KI Lyric Video",
+      "description": "Ein praktischer Workflow fuer KI Lyric Videos, bei dem Text, Timing, Bildbewegung und Pruefung vor dem Rendern klar festgelegt werden.",
+      "body": [
+        "Der Song ist fertig, aber das Lyric Video wirkt im ersten Test unruhig. Eine Zeile kommt zu spaet, der Refrain ist kaum lesbar, oder die Hintergrundbewegung ist lauter als die Worte. Bevor du ein langes Visual renderst, schreibe ein kleines Beat Sheet, das jede wichtige Textphrase mit Songzeit und Bildaufgabe verbindet.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform fuer KI Musikproduktion aus Textbeschreibungen, Stilideen und bei Bedarf Lyrics. Du kannst damit Songrichtungen pruefen, Textzeilen mit dem [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) schaerfen und danach ein kurzes Visual mit dem [AI Music Video Generator](https://easymusic.ai/de/ai-music-video-generator) planen. Rechte, Freigaben und Plattformregeln bleiben eigene Pruefschritte.",
+        "## Schreibe die Karte vor dem Look",
+        "Erstelle zuerst eine einfache Liste: 0:00 intro, 0:06 erste Zeile, 0:18 pre-chorus, 0:32 hook, 0:47 instrumental hold. Am Anfang brauchst du keine Frame-Genauigkeit. Du musst wissen, wo Bedeutung beginnt und wo der Zuschauer Zeit zum Lesen braucht. Wenn das Timing noch unsicher ist, hoere den Entwurf durch und setze Marker auf Phrasen, nicht auf jeden Beat.",
+        "## Halte die Zeilen lesbar",
+        "Teile Lyrics in kleine Einheiten: vier bis sieben Woerter pro Zeile, ein Gedanke pro Bildschirm und ein kurzer Halt nach der wichtigsten Aussage. Eine lange Zeile kann auf Papier gut aussehen und auf dem Handy trotzdem scheitern. Bei zweisprachigen Songs sollten Original und Uebersetzung nicht gleich gross zur selben Zeit kaempfen. Waehle eine Hauptschicht und setze die andere kleiner oder spaeter.",
+        "## Lass Bewegung eine Aufgabe haben",
+        "Die Strophe braucht Ruhe, weil der Text arbeiten muss. Der pre-chorus darf Licht, Farbe oder Kameratempo langsam heben. Der Refrain verdient ein staerkeres visuelles Signal, aber kein Schnittgewitter auf jedem Schlag. Gib dem Hook vor und nach der Zeile einen halben Atemzug, damit die Worte nicht der Musik hinterherrennen.",
+        "## Wiederverwendbare Ideen",
+        "- Teste nur 20 Sekunden des besten Hooks, bevor du das ganze Video baust.\n- Schreibe einen eigenen Prompt fuer Schrift: clean lyric text, high contrast, slow motion, no fast flashing.\n- Plane eine safe zone unten und rechts, weil Plattform-Buttons Text verdecken koennen.\n- Pruefe einmal ohne Ton und einmal bei niedriger Lautstaerke, ob das Timing trotzdem klar ist.",
+        "## Pruefung vor dem Upload",
+        "Lege Beat Sheet, Prompt, Quelldatei, Bildmaterial und Freigabeversion zusammen ab. Wenn Gesicht, Kuenstlername, Logo oder fremdes Material vorkommen, pruefe Erlaubnis und Kontext. KI Generierung macht ein Video nicht automatisch passend fuer jede kommerzielle Nutzung oder jede Plattform.",
+        "## FAQ\n### Brauche ich fertige Lyrics vor dem Video?\nFast immer ja. Ein Hook-Test kann kurz sein, aber ein komplettes Lyric Video braucht stabile Zeilen.\n### Wie viele Woerter passen auf den Bildschirm?\nStarte mit vier bis sieben. Bei mehr Text teile die Phrase auf zwei Bildschirme.\n### Soll die Animation jeden Beat treffen?\nNein. Binde Bewegung an groessere Abschnitte: intro, verse, lift, chorus und ending.\n### Was hilft, wenn Text auf dem Handy nicht lesbar ist?\nGroessere Schrift, weniger Hintergrunddetail, mehr Kontrast und weniger Worte."
+      ]
+    },
+    "en": {
+      "title": "Plan an AI Lyric Video Beat Sheet Before You Generate Visuals",
+      "description": "A practical workflow for turning an AI song into a readable lyric video with clear timing, restrained motion, review notes, and safer handoff decisions.",
+      "body": [
+        "The song is finished, but the lyric video falls apart in the first preview. A line arrives half a second late, the chorus disappears too quickly, or the background keeps moving while the viewer is still trying to read. Before you render a full visual, write a small beat sheet that connects each important lyric moment to time, motion, and review risk.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for generating music drafts from text descriptions, style ideas, and lyrics when needed. You can use it to test the song direction, tighten lyric material with the [AI Lyrics Generator](https://easymusic.ai/tools/ai-lyrics-generator), and plan a short visual pass with the [AI Music Video Generator](https://easymusic.ai/ai-music-video-generator). Publishing rights, consent, platform rules, and final approval still need separate review.",
+        "## Map the Song Before the Look",
+        "Start with a rough timing list: 0:00 intro, 0:06 first line, 0:18 pre-chorus, 0:32 hook, 0:47 instrumental hold, 0:58 final title. You do not need frame-accurate editing notes yet. You need to know where meaning starts, where the viewer needs time to read, and where the screen can breathe. If the timing is not settled, listen through once and mark phrases, not every beat.",
+        "## Make the Lyrics Readable",
+        "Break the lyric into small units: four to seven words per line, one idea per screen, and a short hold after the phrase that matters most. A line that looks elegant in a doc can become unreadable on a phone. If the song uses two languages, do not give the original lyric and the translation equal weight at the same moment. Choose one main layer, then make the secondary layer smaller, delayed, or reserved for the description.",
+        "## Give Motion a Job",
+        "The verse usually needs calm movement because the words carry the work. The pre-chorus can lift with light, color, or camera pace. The chorus can use a stronger visual cue, but it does not need a cut on every beat. Leave a half-second of air before and after the hook so the lyric does not feel like it is chasing the track.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Render a 20-second hook test before committing to the whole video.\n- Write a separate typography prompt such as clean lyric text, high contrast, slow motion, no fast flashing.\n- Keep a safe zone near the bottom and right edge for platform buttons and captions.\n- Watch the draft once without sound and once at low volume to test timing and readability.",
+        "## Review Before Upload",
+        "Save the beat sheet, prompt, source song, image or video sources, selected render, and approval notes together. If a face, artist name, logo, photo, or third-party clip appears, check permission and context before publishing. AI generation can speed up the lyric video workflow, but it does not make the final file automatically cleared for every commercial use, platform, or territory.",
+        "## FAQ\n### Do I need finished lyrics before making the video?\nUsually yes. You can test a short hook, but a full lyric video needs stable words or you will redo the timing.\n### How many words should be on screen at once?\nStart with four to seven. If a phrase needs more, split it across two screens instead of shrinking the type.\n### Should animation hit every beat?\nNo. Tie motion to larger song changes such as intro, verse, lift, chorus, breakdown, and ending.\n### What if the text fails on a phone?\nIncrease type size, reduce background detail, raise contrast, and remove filler words before you speed up the lyric timing."
+      ]
+    },
+    "es": {
+      "title": "Planifica un Beat Sheet para tu Lyric Video con IA",
+      "description": "Workflow practico para convertir una cancion creada con IA en un lyric video legible, con timing claro, movimiento medido y revision antes de publicar.",
+      "body": [
+        "La cancion ya funciona, pero el lyric video se rompe en la primera vista previa. Una linea entra tarde, el coro pasa demasiado rapido o el fondo se mueve tanto que tapa la lectura. Antes de generar un visual completo, escribe un beat sheet pequeno que conecte cada frase importante con tiempo, movimiento y puntos de revision.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para generar borradores desde descripciones de texto, ideas de estilo y letras cuando hacen falta. Puedes usarla para probar la direccion de la cancion, ajustar material con el [AI Lyrics Generator](https://easymusic.ai/es/tools/ai-lyrics-generator) y planear un pase visual corto con el [AI Music Video Generator](https://easymusic.ai/es/ai-music-video-generator). Derechos, consentimiento, reglas de plataforma y aprobacion final se revisan aparte.",
+        "## Mapea la cancion antes del look",
+        "Empieza con una lista simple: 0:00 intro, 0:06 primera linea, 0:18 pre-coro, 0:32 hook, 0:47 pausa instrumental, 0:58 titulo final. Todavia no necesitas precision de frames. Necesitas saber donde empieza el significado, donde el espectador necesita leer y donde la pantalla puede respirar. Si el timing no esta cerrado, escucha una vez y marca frases, no cada golpe.",
+        "## Haz que la letra se pueda leer",
+        "Divide la letra en unidades pequenas: cuatro a siete palabras por linea, una idea por pantalla y una pequena pausa despues de la frase clave. Una linea bonita en un documento puede fallar en un telefono. Si la cancion usa dos idiomas, no pongas la letra original y la traduccion con el mismo peso al mismo tiempo. Elige una capa principal y deja la segunda mas pequena, retrasada o en la descripcion.",
+        "## Dale una tarea al movimiento",
+        "La estrofa suele necesitar movimiento calmado porque las palabras hacen el trabajo. El pre-coro puede subir con luz, color o ritmo de camara. El coro puede tener una senal visual mas fuerte, pero no necesita un corte en cada beat. Deja medio segundo de aire antes y despues del hook para que la letra no parezca perseguir la musica.",
+        "## Ideas reutilizables",
+        "- Genera una prueba de 20 segundos del hook antes de hacer todo el video.\n- Escribe un prompt aparte para tipografia: clean lyric text, high contrast, slow motion, no fast flashing.\n- Reserva safe zone abajo y a la derecha para botones de plataforma y captions.\n- Mira el borrador una vez sin sonido y otra a bajo volumen para comprobar timing y lectura.",
+        "## Revisa antes de subir",
+        "Guarda juntos beat sheet, prompt, cancion fuente, fuentes de imagen o video, render elegido y notas de aprobacion. Si aparece un rostro, nombre de artista, logo, foto o clip de terceros, revisa permiso y contexto antes de publicar. La generacion con IA puede acelerar el lyric video, pero no deja el archivo automaticamente listo para todo uso comercial, plataforma o territorio.",
+        "## FAQ\n### Necesito la letra final antes del video?\nNormalmente si. Puedes probar un hook corto, pero un lyric video completo necesita palabras estables.\n### Cuantas palabras pongo a la vez?\nEmpieza con cuatro a siete. Si hace falta mas texto, divide la frase en dos pantallas.\n### La animacion debe pegar en cada beat?\nNo. Une el movimiento a cambios grandes: intro, verso, subida, coro, breakdown y final.\n### Que hago si el texto no se lee en telefono?\nAumenta tamano, baja detalle del fondo, sube contraste y elimina palabras de relleno antes de acelerar el timing."
+      ]
+    },
+    "fr": {
+      "title": "Prepare un Beat Sheet pour ton Lyric Video IA",
+      "description": "Workflow concret pour creer un lyric video IA lisible, avec timing des paroles, mouvement sobre, zones sures et controle avant publication.",
+      "body": [
+        "La chanson est prete, mais le lyric video devient confus des la premiere previsualisation. Une phrase arrive trop tard, le refrain passe avant d etre lu, ou le fond bouge plus que les mots. Avant de generer tout le visuel, ecris un petit beat sheet qui relie chaque moment de parole au temps, au mouvement et aux points de verification.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA pour produire des ebauches a partir de descriptions, d idees de style et de paroles si besoin. Tu peux y tester la direction du morceau, affiner les paroles avec l [AI Lyrics Generator](https://easymusic.ai/fr/tools/ai-lyrics-generator), puis preparer un court passage visuel avec l [AI Music Video Generator](https://easymusic.ai/fr/ai-music-video-generator). Droits, consentement, regles de plateforme et validation finale restent des controles separes.",
+        "## Cartographie le morceau avant le style visuel",
+        "Commence par une liste simple : 0:00 intro, 0:06 premiere ligne, 0:18 pre-refrain, 0:32 hook, 0:47 pause instrumentale, 0:58 titre final. Tu n as pas encore besoin d un montage a l image pres. Tu dois savoir ou le sens commence, ou le spectateur doit lire et ou l ecran peut respirer. Si le timing bouge encore, ecoute une fois et marque les phrases, pas chaque beat.",
+        "## Rends les paroles lisibles",
+        "Coupe les paroles en petites unites : quatre a sept mots par ligne, une idee par ecran et un court maintien apres la phrase importante. Une ligne elegante dans un document peut devenir illisible sur telephone. Si la chanson est bilingue, ne donne pas le meme poids a l original et a la traduction au meme instant. Choisis une couche principale, puis rends l autre plus petite, decalee ou reservee a la description.",
+        "## Donne une fonction au mouvement",
+        "Le couplet demande souvent un mouvement calme, car les mots portent le sens. Le pre-refrain peut monter avec lumiere, couleur ou rythme de camera. Le refrain peut recevoir un signal visuel plus fort, mais il n a pas besoin d une coupe sur chaque beat. Laisse une demi-seconde d air avant et apres le hook pour que la parole ne coure pas apres la musique.",
+        "## Idees reutilisables",
+        "- Rends un test de 20 secondes sur le hook avant de produire toute la video.\n- Ecris un prompt separe pour la typo : clean lyric text, high contrast, slow motion, no fast flashing.\n- Garde une safe zone en bas et a droite pour les boutons et captions de plateforme.\n- Regarde le brouillon une fois sans son et une fois a bas volume pour tester timing et lecture.",
+        "## Verification avant publication",
+        "Conserve ensemble beat sheet, prompt, morceau source, sources image ou video, rendu choisi et notes de validation. Si un visage, nom d artiste, logo, photo ou clip tiers apparait, verifie permission et contexte avant de publier. La generation IA peut accelerer le workflow, mais elle ne rend pas le fichier automatiquement autorise pour tout usage commercial, toute plateforme ou tout territoire.",
+        "## FAQ\n### Faut-il des paroles terminees avant la video ?\nLe plus souvent oui. Tu peux tester un hook court, mais une video complete exige des mots stables.\n### Combien de mots afficher a la fois ?\nCommence par quatre a sept. Si la phrase est longue, coupe-la sur deux ecrans.\n### L animation doit-elle suivre chaque beat ?\nNon. Relie le mouvement aux grandes sections : intro, couplet, montee, refrain, breakdown et fin.\n### Que faire si le texte echoue sur telephone ?\nAgrandis la typo, reduis le detail du fond, augmente le contraste et retire les mots inutiles."
+      ]
+    },
+    "it": {
+      "title": "Prepara un Beat Sheet per il tuo Lyric Video AI",
+      "description": "Workflow pratico per creare un lyric video AI leggibile, con timing delle parole, movimento misurato, safe zone e controllo prima dell upload.",
+      "body": [
+        "La canzone e pronta, ma il lyric video si confonde gia alla prima anteprima. Una riga arriva tardi, il ritornello sparisce troppo in fretta, oppure lo sfondo continua a muoversi mentre il pubblico sta ancora leggendo. Prima di generare tutto il visual, scrivi un piccolo beat sheet che colleghi ogni frase importante a tempo, movimento e rischi di revisione.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale AI per generare bozze da descrizioni testuali, idee di stile e testi quando servono. Puoi usarla per provare la direzione della canzone, rifinire materiale con l [AI Lyrics Generator](https://easymusic.ai/it/tools/ai-lyrics-generator) e pianificare un passaggio visuale con l [AI Music Video Generator](https://easymusic.ai/it/ai-music-video-generator). Diritti, consenso, regole delle piattaforme e approvazione finale restano controlli separati.",
+        "## Mappa la canzone prima del look",
+        "Parti da una lista semplice: 0:00 intro, 0:06 prima riga, 0:18 pre-chorus, 0:32 hook, 0:47 pausa instrumental, 0:58 titolo finale. Non serve ancora precisione al frame. Devi sapere dove inizia il significato, dove lo spettatore ha bisogno di leggere e dove lo schermo puo respirare. Se il timing non e fisso, ascolta una volta e segna le frasi, non ogni beat.",
+        "## Rendi leggibili le parole",
+        "Dividi il testo in unita piccole: quattro-sette parole per riga, una idea per schermata e un breve hold dopo la frase piu importante. Una riga elegante in un documento puo essere illeggibile su telefono. Se la canzone usa due lingue, non dare stesso peso a originale e traduzione nello stesso istante. Scegli un layer principale e rendi l altro piu piccolo, ritardato o riservato alla descrizione.",
+        "## Dai un lavoro al movimento",
+        "La strofa di solito richiede movimento calmo, perche sono le parole a portare il senso. Il pre-chorus puo crescere con luce, colore o ritmo camera. Il chorus puo avere un segnale visivo piu forte, ma non richiede un taglio su ogni beat. Lascia mezzo secondo d aria prima e dopo l hook, cosi la frase non sembra inseguire la traccia.",
+        "## Idee riutilizzabili",
+        "- Genera un test di 20 secondi sull hook prima di produrre tutto il video.\n- Scrivi un prompt separato per la tipografia: clean lyric text, high contrast, slow motion, no fast flashing.\n- Mantieni una safe zone in basso e a destra per pulsanti e captions della piattaforma.\n- Guarda la bozza una volta senza audio e una a volume basso per testare timing e leggibilita.",
+        "## Controlla prima dell upload",
+        "Conserva insieme beat sheet, prompt, canzone sorgente, fonti immagine o video, render scelto e note di approvazione. Se compaiono volto, nome artista, logo, foto o clip di terzi, verifica permesso e contesto prima di pubblicare. La generazione AI puo accelerare il lyric video, ma non rende il file automaticamente adatto a ogni uso commerciale, piattaforma o territorio.",
+        "## FAQ\n### Serve il testo definitivo prima del video?\nDi solito si. Puoi testare un hook breve, ma un lyric video completo richiede parole stabili.\n### Quante parole mettere sullo schermo?\nInizia con quattro-sette. Se la frase e lunga, dividila su due schermate.\n### L animazione deve seguire ogni beat?\nNo. Collega il movimento a sezioni grandi: intro, verse, lift, chorus, breakdown e ending.\n### Cosa fare se il testo non si legge su telefono?\nAumenta la dimensione, riduci il dettaglio dello sfondo, alza il contrasto e togli parole non necessarie."
+      ]
+    },
+    "ja": {
+      "title": "AI Lyric Video の Beat Sheet を先に作る",
+      "description": "AI song を読みやすい lyric video にするために、lyrics timing、motion、safe zone、review note を生成前に整理する workflow。",
+      "body": [
+        "曲はできているのに、lyric video の preview で急に弱く見えることがあります。line が半秒遅れる、chorus が読める前に消える、background motion が文字より目立つ。full visual を作る前に、小さな beat sheet を作り、重要な lyric moment を time、motion、review risk と結びます。",
+        "## EasyMusic.AI とは",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、text description、style idea、必要に応じた lyrics から AI music draft を作る platform です。song direction を試し、[AI Lyrics Generator](https://easymusic.ai/ja/tools/ai-lyrics-generator) で lyric material を整え、[AI Music Video Generator](https://easymusic.ai/ja/ai-music-video-generator) で短い visual pass を計画できます。ただし publishing rights、consent、platform rules、final approval は別の確認事項です。",
+        "## 見た目より先に曲を map する",
+        "まず rough timing list を作ります。0:00 intro、0:06 first line、0:18 pre-chorus、0:32 hook、0:47 instrumental hold、0:58 final title。最初から frame accuracy は要りません。meaning が始まる場所、viewer が読む時間、screen が休める場所を把握します。timing が未確定なら、一度通して聞き、beat ではなく phrase に marker を置きます。",
+        "## Lyrics を読める単位にする",
+        "lyrics は小さく分けます。1 line は 4-7 words 程度、1 screen は 1 idea、重要な phrase の後に short hold。document で美しく見える長い line も phone では読みにくくなります。二言語の song では、original lyric と translation を同時に同じ強さで出さない方が安全です。一つを main layer にして、もう一つは小さく、遅らせるか description に回します。",
+        "## Motion に役割を持たせる",
+        "verse は言葉が主役なので calm movement が合います。pre-chorus は light、color、camera pace を少し上げられます。chorus は強い visual cue を使えますが、every beat に cut を置く必要はありません。hook の前後に半秒の余白を残すと、lyric が track を追いかけている感じを避けやすくなります。",
+        "## 今日使える再利用アイデア",
+        "- full video の前に、strongest hook の 20 秒 test を render する。\n- typography 用に clean lyric text, high contrast, slow motion, no fast flashing など別 prompt を書く。\n- platform button や captions に備え、bottom と right edge に safe zone を残す。\n- draft を一度 silent で、一度 low volume で見て timing と readability を確認する。",
+        "## Upload 前の確認",
+        "beat sheet、prompt、source song、image/video source、selected render、approval notes を一緒に保存します。face、artist name、logo、photo、third-party clip が出る場合は、公開前に permission と context を確認します。AI generation は lyric video workflow を速くできますが、final file がすべての commercial use、platform、territory に自動で適するという意味ではありません。",
+        "## FAQ\n### Video の前に lyrics は完成しているべきですか？\n多くの場合 yes です。短い hook test はできますが、full lyric video には安定した words が必要です。\n### 画面に何語まで出せますか？\nまず 4-7 words から始めます。長い phrase は type を縮めず 2 screens に分けます。\n### Animation は every beat に合わせますか？\nいいえ。intro、verse、lift、chorus、breakdown、ending など大きな section change に合わせます。\n### Phone で読みにくい時は？\ntype size を上げ、background detail を減らし、contrast を高め、timing を速める前に filler words を削ります。"
+      ]
+    },
+    "ko": {
+      "title": "AI Lyric Video Beat Sheet를 먼저 만든다",
+      "description": "AI song을 읽기 쉬운 lyric video로 만들기 위해 lyrics timing, motion, safe zone, review note를 생성 전에 정리하는 workflow.",
+      "body": [
+        "노래는 완성됐는데 lyric video preview에서 문제가 드러날 때가 많습니다. 한 줄이 반초 늦게 나오고, chorus는 읽기 전에 사라지며, background motion이 글자보다 더 크게 느껴집니다. full visual을 렌더링하기 전에 작은 beat sheet를 만들어 중요한 lyric moment를 time, motion, review risk와 연결하세요.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text description, style idea, 필요할 때 lyrics를 바탕으로 AI music draft를 만드는 platform입니다. Song direction을 테스트하고, [AI Lyrics Generator](https://easymusic.ai/ko/tools/ai-lyrics-generator)로 lyric material을 정리한 뒤, [AI Music Video Generator](https://easymusic.ai/ko/ai-music-video-generator)로 짧은 visual pass를 계획할 수 있습니다. Publishing rights, consent, platform rules, final approval은 별도 검토가 필요합니다.",
+        "## Look보다 먼저 song map을 만든다",
+        "먼저 rough timing list를 씁니다: 0:00 intro, 0:06 first line, 0:18 pre-chorus, 0:32 hook, 0:47 instrumental hold, 0:58 final title. 처음부터 frame 단위 정확도는 필요 없습니다. 의미가 시작되는 곳, viewer가 읽을 시간이 필요한 곳, screen이 쉬어야 하는 곳을 알아야 합니다. timing이 아직 흔들리면 한 번 듣고 beat마다가 아니라 phrase마다 marker를 놓으세요.",
+        "## Lyrics를 읽을 수 있는 단위로 나눈다",
+        "가사는 작게 나눕니다. 한 줄은 4-7 words, 한 화면은 한 idea, 중요한 phrase 뒤에는 짧은 hold를 둡니다. 문서에서 예쁜 긴 line도 phone에서는 읽기 어렵습니다. 두 언어를 쓰는 song이라면 original lyric과 translation을 동시에 같은 크기로 경쟁시키지 마세요. 하나를 main layer로 정하고, 다른 하나는 작게, 늦게, 또는 description에 두는 편이 낫습니다.",
+        "## Motion에 역할을 준다",
+        "Verse는 words가 일을 하므로 calm movement가 필요합니다. Pre-chorus는 light, color, camera pace를 조금 올릴 수 있습니다. Chorus는 더 강한 visual cue가 어울리지만 every beat에 cut이 필요하지는 않습니다. Hook 앞뒤에 반초의 air를 남기면 lyric이 track을 쫓아가는 느낌을 줄일 수 있습니다.",
+        "## 바로 쓸 수 있는 아이디어",
+        "- Full video 전에 strongest hook 20초 test를 render한다.\n- Typography용 prompt를 따로 쓴다: clean lyric text, high contrast, slow motion, no fast flashing.\n- Platform buttons와 captions를 위해 bottom과 right edge에 safe zone을 남긴다.\n- Draft를 sound 없이 한 번, low volume으로 한 번 보며 timing과 readability를 확인한다.",
+        "## Upload 전 검토",
+        "Beat sheet, prompt, source song, image/video source, selected render, approval notes를 함께 보관하세요. Face, artist name, logo, photo, third-party clip이 보이면 publish 전에 permission과 context를 확인해야 합니다. AI generation은 lyric video workflow를 빠르게 할 수 있지만 final file이 모든 commercial use, platform, territory에 자동으로 적합해지는 것은 아닙니다.",
+        "## FAQ\n### Video 전에 lyrics가 끝나야 하나요?\n대개 그렇습니다. 짧은 hook test는 가능하지만 full lyric video에는 안정된 words가 필요합니다.\n### 한 화면에 몇 단어가 적당한가요?\n4-7 words부터 시작하세요. 더 길면 type을 줄이지 말고 두 화면으로 나눕니다.\n### Animation은 every beat에 맞춰야 하나요?\n아니요. intro, verse, lift, chorus, breakdown, ending 같은 큰 section change에 맞추세요.\n### Phone에서 글자가 안 읽히면?\nType size를 키우고, background detail을 줄이고, contrast를 올린 뒤 filler words를 삭제하세요."
+      ]
+    },
+    "pt": {
+      "title": "Planeje um Beat Sheet para seu Lyric Video com IA",
+      "description": "Workflow pratico para transformar uma musica criada com IA em lyric video legivel, com timing claro, movimento controlado e revisao antes do upload.",
+      "body": [
+        "A musica esta pronta, mas o lyric video falha na primeira previa. Uma linha entra meio segundo tarde, o refrao passa antes de ser lido ou o fundo se move mais que as palavras. Antes de gerar o visual completo, escreva um pequeno beat sheet que ligue cada frase importante ao tempo, ao movimento e aos riscos de revisao.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para gerar rascunhos a partir de descricoes de texto, ideias de estilo e letras quando necessario. Voce pode testar a direcao da musica, ajustar material com o [AI Lyrics Generator](https://easymusic.ai/pt/tools/ai-lyrics-generator) e planejar um passe visual curto com o [AI Music Video Generator](https://easymusic.ai/pt/ai-music-video-generator). Direitos, consentimento, regras de plataforma e aprovacao final continuam sendo revisoes separadas.",
+        "## Mapeie a musica antes do visual",
+        "Comece com uma lista simples: 0:00 intro, 0:06 primeira linha, 0:18 pre-chorus, 0:32 hook, 0:47 pausa instrumental, 0:58 titulo final. Voce ainda nao precisa de precisao por frame. Precisa saber onde o sentido comeca, onde o publico precisa ler e onde a tela pode respirar. Se o timing nao esta fechado, ouca uma vez e marque frases, nao cada beat.",
+        "## Deixe a letra legivel",
+        "Quebre a letra em unidades pequenas: quatro a sete palavras por linha, uma ideia por tela e um hold curto depois da frase mais importante. Uma linha bonita em documento pode ficar ruim no celular. Se a musica usa dois idiomas, nao coloque original e traducao com o mesmo peso no mesmo instante. Escolha uma camada principal e deixe a outra menor, atrasada ou na descricao.",
+        "## De uma funcao ao movimento",
+        "O verso costuma precisar de movimento calmo, porque as palavras carregam o sentido. O pre-chorus pode subir com luz, cor ou ritmo de camera. O refrao pode ter um sinal visual mais forte, mas nao precisa de corte em cada beat. Deixe meio segundo de ar antes e depois do hook para a letra nao parecer que esta correndo atras da faixa.",
+        "## Ideias reutilizaveis",
+        "- Renderize um teste de 20 segundos do hook antes do video inteiro.\n- Escreva um prompt separado para tipografia: clean lyric text, high contrast, slow motion, no fast flashing.\n- Reserve safe zone embaixo e a direita para botoes e captions da plataforma.\n- Assista ao rascunho uma vez sem som e outra em volume baixo para testar timing e leitura.",
+        "## Revise antes do upload",
+        "Guarde juntos beat sheet, prompt, musica fonte, fontes de imagem ou video, render escolhido e notas de aprovacao. Se aparecer rosto, nome de artista, logo, foto ou clip de terceiros, verifique permissao e contexto antes de publicar. A geracao com IA pode acelerar o lyric video, mas nao torna o arquivo final automaticamente adequado para todo uso comercial, plataforma ou territorio.",
+        "## FAQ\n### Preciso da letra final antes do video?\nNa maioria dos casos, sim. Voce pode testar um hook curto, mas um lyric video completo precisa de palavras estaveis.\n### Quantas palavras cabem na tela?\nComece com quatro a sete. Se a frase for maior, divida em duas telas.\n### A animacao deve seguir cada beat?\nNao. Ligue o movimento a secoes maiores: intro, verso, lift, chorus, breakdown e final.\n### E se o texto falhar no celular?\nAumente o tamanho, reduza detalhe do fundo, suba contraste e remova palavras de enchimento antes de acelerar o timing."
+      ]
+    },
+    "ru": {
+      "title": "Сначала сделайте beat sheet для AI lyric video",
+      "description": "Практический workflow для AI lyric video: тайминг строк, читаемость, спокойное движение, safe zone и проверка перед публикацией.",
+      "body": [
+        "Песня готова, но lyric video разваливается уже на первом preview. Строка появляется на полсекунды позже, chorus исчезает раньше, чем его успевают прочитать, или фон движется активнее текста. До генерации полного visual сделайте небольшой beat sheet, где каждый важный lyric moment связан со временем, движением и рисками проверки.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) — платформа для создания AI music drafts из text descriptions, style ideas и lyrics, когда они нужны. Ее можно использовать, чтобы проверить направление песни, уточнить строки через [AI Lyrics Generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) и подготовить короткий visual pass с [AI Music Video Generator](https://easymusic.ai/ru/ai-music-video-generator). Publishing rights, consent, platform rules и final approval остаются отдельными проверками.",
+        "## Сначала карта песни, потом внешний вид",
+        "Начните с простого списка: 0:00 intro, 0:06 first line, 0:18 pre-chorus, 0:32 hook, 0:47 instrumental hold, 0:58 final title. На первом шаге не нужна точность до кадра. Нужно понять, где начинается смысл, где зрителю нужно время для чтения и где экран должен дышать. Если timing еще не закреплен, прослушайте черновик и ставьте marker на phrases, а не на каждый beat.",
+        "## Делайте lyrics читаемыми",
+        "Разбейте текст на малые единицы: четыре-семь words на строку, одна idea на экран и короткий hold после главной фразы. Длинная строка может выглядеть красиво в документе и плохо работать на телефоне. Если песня использует два языка, не давайте original lyric и translation одинаковый вес одновременно. Выберите main layer, а вторую сделайте меньше, позже или вынесите в description.",
+        "## У движения должна быть задача",
+        "Verse обычно требует спокойного движения, потому что words несут смысл. Pre-chorus может постепенно поднимать light, color или camera pace. Chorus может получить более сильный visual cue, но не обязан резаться на каждый beat. Оставьте полсекунды воздуха до и после hook, чтобы lyric не казался бегущим вслед за track.",
+        "## Идеи, которые можно применить сразу",
+        "- Сначала render 20-секундного hook test, а не всего видео.\n- Напишите отдельный typography prompt: clean lyric text, high contrast, slow motion, no fast flashing.\n- Оставьте safe zone снизу и справа для platform buttons и captions.\n- Посмотрите draft один раз без звука и один раз на низкой громкости, чтобы проверить timing и readability.",
+        "## Проверка перед upload",
+        "Храните вместе beat sheet, prompt, source song, image/video sources, selected render и approval notes. Если в видео есть лицо, artist name, logo, photo или third-party clip, проверьте permission и context до публикации. AI generation может ускорить lyric video workflow, но не делает final file автоматически подходящим для любого commercial use, platform или territory.",
+        "## FAQ\n### Нужны ли готовые lyrics до видео?\nОбычно да. Можно протестировать короткий hook, но полное lyric video требует стабильных words.\n### Сколько слов показывать за раз?\nНачните с четырех-семи. Если phrase длиннее, разделите ее на два экрана.\n### Должна ли animation попадать в каждый beat?\nНет. Привязывайте motion к крупным изменениям: intro, verse, lift, chorus, breakdown и ending.\n### Что делать, если текст не читается на телефоне?\nУвеличьте type size, уменьшите background detail, поднимите contrast и удалите filler words до ускорения timing."
+      ]
+    },
+    "zh": {
+      "title": "先为 AI Lyric Video 写 Beat Sheet",
+      "description": "一个实用 workflow：在生成画面前规划歌词 timing、阅读节奏、画面 motion、safe zone 和发布前检查。",
+      "body": [
+        "歌曲已经完成，但 lyric video 在第一次 preview 里可能就出问题：歌词晚半秒出现，chorus 还没读完就消失，或者背景 motion 比文字更抢眼。生成完整 visual 之前，先写一份小 beat sheet，把每个重要 lyric moment 连接到 time、motion 和 review risk。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 text descriptions、style ideas 和需要时的 lyrics 生成 music drafts。你可以用它测试 song direction，用 [AI Lyrics Generator](https://easymusic.ai/zh/tools/ai-lyrics-generator) 调整歌词材料，再用 [AI Music Video Generator](https://easymusic.ai/zh/ai-music-video-generator) 规划短 visual pass。Publishing rights、consent、platform rules 和 final approval 仍然要单独检查。",
+        "## 先 map 歌曲，再决定画面",
+        "先写一个 rough timing list：0:00 intro，0:06 first line，0:18 pre-chorus，0:32 hook，0:47 instrumental hold，0:58 final title。开始不需要 frame 级精度。你需要知道 meaning 从哪里开始，观众在哪里需要阅读时间，屏幕在哪里应该留白。如果 timing 还没固定，先完整听一遍，在 phrase 上打 marker，而不是每个 beat 都标。",
+        "## 让 lyrics 可以被读完",
+        "把歌词拆成小单位：每行 4 到 7 个 words，每屏一个 idea，重要 phrase 后留一个 short hold。文档里好看的长句，在手机上可能很难读。如果歌曲有两种语言，不要让 original lyric 和 translation 同时同等抢眼。选一个 main layer，另一个可以小一些、延后出现，或者放到 description 里。",
+        "## 让 motion 有任务",
+        "Verse 通常需要 calm movement，因为 words 才是重点。Pre-chorus 可以让 light、color 或 camera pace 慢慢升起。Chorus 可以有更强的 visual cue，但不需要每个 beat 都 cut。Hook 前后留半秒空气，能避免 lyric 像是在追赶 track。",
+        "## 今天就能复用的做法",
+        "- 先 render 最强 hook 的 20 秒 test，再做完整 video。\n- 为 typography 单独写 prompt，例如 clean lyric text, high contrast, slow motion, no fast flashing。\n- 在 bottom 和 right edge 留 safe zone，避免 platform buttons 和 captions 盖住文字。\n- Draft 一次静音看，一次低音量看，检查 timing 和 readability。",
+        "## Upload 前检查",
+        "把 beat sheet、prompt、source song、image/video sources、selected render 和 approval notes 存在一起。如果出现 face、artist name、logo、photo 或 third-party clip，发布前检查 permission 和 context。AI generation 可以加快 lyric video workflow，但不代表 final file 自动适合所有 commercial use、platform 或 territory。",
+        "## FAQ\n### 做 video 前 lyrics 必须定稿吗？\n通常需要。你可以测试短 hook，但完整 lyric video 需要稳定的 words，否则 timing 会重做。\n### 一屏放多少词？\n先从 4 到 7 个 words 开始。更长的 phrase 不要缩小字体，而是拆成两屏。\n### Animation 要对齐每个 beat 吗？\n不需要。把 motion 连接到 intro、verse、lift、chorus、breakdown、ending 这些大 section change。\n### 手机上读不清怎么办？\n加大 type size，减少 background detail，提高 contrast，并先删 filler words，再考虑加快 timing。"
+      ]
+    }
+  }
+}
