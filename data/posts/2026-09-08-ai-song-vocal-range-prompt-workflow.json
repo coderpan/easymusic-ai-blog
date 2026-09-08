@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-08",
+  "slug": "ai-song-vocal-range-prompt-workflow",
+  "cluster": "vocal-prompt-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب AI Song Vocal Range Prompt يستطيع المغني استخدامه",
+      "description": "Workflow عملي لكتابة vocal range brief لاغنية AI يحافظ على النفس، وضوح الكلمات، ومساحة المغني قبل توليد نسخ كثيرة.",
+      "body": [
+        "يصل draft الاغنية بسرعة، لكن المغني الذي سيعيد تسجيلها يجد المشكلة فورا: verse منخفض جدا، chorus يقفز فجاة، والجملة الطويلة لا تترك مكانا للتنفس. قبل ان تطلب عشر نسخ جديدة، اكتب vocal range prompt يشرح ما يجب ان يفعله الصوت، لا فقط كيف يجب ان يبدو.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts بالذكاء الاصطناعي من text prompts وstyle ideas وlyrics عند الحاجة. يمكنك استخدام [AI Lyrics Generator](https://easymusic.ai/ar/tools/ai-lyrics-generator) لتنظيف الكلمات قبل الغناء، ثم استخدام [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتجميع وصف صوتي اوضح. قرارات الحقوق، الموافقات، واستخدام المنصات تبقى مراجعة منفصلة.",
+        "## اصنع range passport صغيرا",
+        "لا تبدا بامر عام مثل strong vocal او high chorus. اكتب جوازا صغيرا للصوت: lead vocal ام duet، low/mid/high register، delivery هادئ ام projected، ومتى يسمح للحن ان يفتح. اذا كان لديك مغن حقيقي، اساله عن المنطقة المريحة لا عن اعلى نغمة يستعرضها. الهدف ليس اجبار النموذج على نغمة دقيقة؛ الهدف تقليل draft الذي يبدو جميلا لكنه لا يصلح للتدريب او التسجيل.",
+        "## اختبر lyric قبل الصوت",
+        "خذ سطرين من الverse وسطرين من الchorus واقرأها بصوت عال. ضع علامة slash حيث يحتاج المغني نفسا، واحذف syllables التي تجعل الجملة تركض. في EasyMusic.AI، يكون prompt اقوى عندما تجمع بين الكلمات والوظيفة: conversational verse, enough breath after each line, chorus with sustained final word. اذا لم تستطع قول الجملة براحة، لا تطلب من AI ان يغنيها بسرعة اكبر.",
+        "## اعط كل section وظيفة صوتية",
+        "الverse قد يحتاج mid-range قريب من الكلام. الpre-chorus يمكن ان يرفع الطاقة من دون قفزة كبيرة. الchorus يحتاج lift واضح، لكن lift قد يعني longer vowels، backing response، او harmonies خفيفة، وليس دائما صراخا اعلى. الbridge قد يهبط قليلا حتى يعود final chorus اقوى. اكتب هذه الفروق كوظائف قابلة للسماع.",
+        "## Reusable Ideas",
+        "- اكتب prompt في خمس خانات: role, range, delivery, breath, section contrast.\n- اختبر chorus hook فقط قبل توليد الاغنية كاملة.\n- استبدل اسماء الفنانين بوصف ملموس مثل warm mid-range lead, close verse, open chorus.\n- سجل سبب رفض كل draft: rushed line, buried consonants, jump too high, no breath.",
+        "## Handoff قبل التسجيل او النشر",
+        "احفظ prompt، lyric draft، النسخة المختارة، وملاحظات المغني في ملف واحد. اذا كان الصوت يقصد تقليد شخص حقيقي، او اذا كانت الكلمات تتضمن اسماء، علامات تجارية، او قصة شخصية، راجع الاذن والسياق قبل الاستخدام. AI draft مفيد للاختبار، لكنه لا يضمن ان النتيجة مناسبة لكل استخدام تجاري او كل منصة.",
+        "## FAQ\n### هل يجب ان اكتب نغمات دقيقة؟\nليس دائما. اكتب register والراحة والانتقال بين sections. اذا كان لديك sheet او key محدد، احتفظ به كملاحظة للمغني او المنتج.\n### ماذا افعل اذا chorus عالي جدا؟\nاطلب lift اقل حدة، اجعل verse يبدأ اهدأ، او اختبر hook في range متوسط قبل تغيير الstyle كله.\n### هل يكفي ان اكتب male vocal او female vocal؟\nلا. اضف الدور، texture، delivery، breath space، ومكان الصوت في mix.\n### كيف اعرف ان draft يصلح لمغن حقيقي؟\nاقرأ الكلمات، ضع علامات نفس، اسمع اول مكان يتعب فيه الصوت، ثم عدل prompt واحدا بدل تغيير كل شيء."
+      ]
+    },
+    "de": {
+      "title": "Schreibe einen AI Song Vocal Range Prompt fuer echte Saenger",
+      "description": "Ein praktischer Workflow fuer Vocal-Range-Prompts, damit KI Songentwuerfe singbarer, klarer und leichter an Saenger uebergeben werden.",
+      "body": [
+        "Der Songentwurf kommt schnell, aber der Saenger merkt das Problem nach acht Takten. Die Strophe liegt zu tief, der Refrain springt zu ploetzlich, und eine lange Zeile laesst keinen Atem. Bevor du weitere Versionen erzeugst, schreibe einen Vocal-Range-Prompt, der erklaert, was die Stimme leisten soll, nicht nur welche Stimmung sie haben soll.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform, mit der du KI Musikentwuerfe aus Textprompts, Stilideen und bei Bedarf Lyrics erstellst. Mit dem [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) kannst du Textzeilen vor dem Singen ordnen, und der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) hilft bei klareren Stilbeschreibungen. Rechte, Freigaben und Plattformregeln bleiben eigene Pruefschritte.",
+        "## Baue einen kleinen Range Passport",
+        "Starte nicht mit einem unscharfen Wunsch wie powerful vocal oder high chorus. Schreibe einen kleinen Steckbrief: Lead, Duett oder Harmonie; tiefer, mittlerer oder hoher Bereich; ruhige oder projizierte Delivery; und wo die Melodie oeffnen darf. Wenn spaeter ein echter Saenger beteiligt ist, frage nach der bequemen Lage, nicht nach der spektakulaersten Hoechstnote. Der Prompt garantiert keine exakte Tonhoehe, aber er reduziert Entwuerfe, die gut klingen und trotzdem schlecht singbar sind.",
+        "## Teste die Lyrics vor dem Klang",
+        "Nimm zwei Zeilen aus der Strophe und zwei aus dem Refrain und sprich sie laut. Setze einen Slash an Atemstellen und kuerze Silben, die die Phrase hetzen lassen. In EasyMusic.AI wird der Prompt staerker, wenn Text und Aufgabe zusammenstehen: conversational verse, enough breath after each line, chorus with sustained final word. Wenn du die Zeile nicht ruhig sprechen kannst, sollte die KI sie nicht schneller singen muessen.",
+        "## Gib jeder Section eine Stimmaufgabe",
+        "Die Strophe kann nah an der Sprechlage bleiben. Der Pre-Chorus darf Energie aufbauen, ohne sofort nach oben zu springen. Der Refrain braucht einen Lift, aber Lift kann lange Vokale, kurze Antworten oder leichte Harmonien bedeuten, nicht nur mehr Hoehe. Die Bridge kann bewusst tiefer oder naeher werden, damit der letzte Refrain wieder Raum hat.",
+        "## Wiederverwendbare Ideen",
+        "- Schreibe den Prompt in fuenf Feldern: role, range, delivery, breath, section contrast.\n- Teste nur den Chorus-Hook, bevor du den ganzen Song erzeugst.\n- Ersetze Kuenstlernamen durch hoerbare Merkmale wie warm mid-range lead, close verse, open chorus.\n- Notiere den Ablehnungsgrund jedes Entwurfs: rushed line, buried consonants, jump too high, no breath.",
+        "## Uebergabe vor Aufnahme oder Upload",
+        "Lege Prompt, Lyric-Entwurf, ausgewaehlte Version und Saengernotizen zusammen ab. Wenn die Stimme eine reale Person nachahmen soll, oder wenn Text, Markenname oder persoenliche Geschichte heikel sind, pruefe Erlaubnis und Kontext vor der Nutzung. Ein KI Entwurf ist ein guter Test, aber keine Garantie fuer jede kommerzielle Nutzung oder jede Plattform.",
+        "## FAQ\n### Muss ich genaue Noten schreiben?\nNicht immer. Beschreibe Register, Bequemlichkeit und Section-Wechsel. Eine feste Tonart oder Lead-Sheet-Notiz gehoert in die Produktionsunterlagen.\n### Was mache ich, wenn der Refrain zu hoch ist?\nFordere einen kleineren Lift, beginne die Strophe ruhiger oder teste den Hook zuerst in einer mittleren Lage.\n### Reicht male vocal oder female vocal?\nNein. Fuege Rolle, Textur, Delivery, Atemraum und Mix-Position hinzu.\n### Woran erkenne ich einen singbaren Entwurf?\nSprich die Lyrics, markiere Atemstellen, hoere auf die erste ermuedende Stelle und aendere dann eine Prompt-Variable."
+      ]
+    },
+    "en": {
+      "title": "Write an AI Song Vocal Range Prompt a Singer Can Actually Use",
+      "description": "A practical workflow for briefing AI song vocals around range, breath, syllables, section contrast, and singer handoff before rerolling.",
+      "body": [
+        "The draft arrives quickly, but the singer spots the problem before the first chorus ends. The verse sits too low, the hook jumps without warning, and one clever line has so many syllables that nobody can breathe. Before you generate ten more takes, write a vocal range prompt that explains the job of the voice, not just its mood.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for making music drafts from text prompts, style ideas, and lyrics when needed. You can tighten words with the [AI Lyrics Generator](https://easymusic.ai/tools/ai-lyrics-generator) and turn vague sound references into clearer direction with the [Music Style Generator](https://easymusic.ai/tools/music-style-generator). Rights, consent, release context, and platform rules still need separate review.",
+        "## Build a Small Range Passport",
+        "Do not start with a loose request like powerful vocal or high chorus. Write a small range passport instead: lead, duet, or harmony role; low, mid, or high register; restrained or projected delivery; and the section where the melody is allowed to open. If a real vocalist may sing the song later, ask for the comfortable area, not the most impressive top note. The prompt will not force exact pitches, but it can reduce drafts that sound polished and still fail in the room.",
+        "## Test the Lyric Before the Voice",
+        "Choose two verse lines and two chorus lines, then speak them out loud. Add a slash where the singer would need air and cut syllables that make the phrase rush. Inside EasyMusic.AI, the useful prompt connects words to behavior: conversational verse, enough breath after each line, chorus with sustained final word. If you cannot speak the line comfortably, do not ask the model to sing it faster.",
+        "## Give Each Section a Vocal Job",
+        "The verse may need a mid-range, speech-adjacent lead. The pre-chorus can raise energy without making a huge leap. The chorus needs lift, but lift might mean longer vowels, a short backing response, or light harmonies rather than a higher belt. A bridge can pull closer or lower so the final chorus has somewhere to return. Write these differences as audible jobs.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write the prompt in five fields: role, range, delivery, breath, section contrast.\n- Test only the chorus hook before generating a full song.\n- Replace artist names with physical cues such as warm mid-range lead, close verse, open chorus.\n- Log why each draft loses: rushed line, buried consonants, jump too high, no breath.",
+        "## Handoff Before Recording or Publishing",
+        "Save the prompt, lyric draft, chosen version, and singer notes together. If the voice direction points toward a real person, or if the lyric includes names, brands, or a personal story, check permission and context before using it. An AI draft can be a useful rehearsal map, but it does not make the final song cleared for every commercial use, territory, or platform.",
+        "## FAQ\n### Do I need to write exact notes?\nNot always. Describe register, comfort, and section movement. If you have a key or lead sheet, keep it as a production note for the singer or producer.\n### What if the chorus keeps coming out too high?\nAsk for a smaller lift, lower the verse intensity, or test the hook in a mid-range vocal direction before changing the whole style.\n### Is male vocal or female vocal enough direction?\nNo. Add role, texture, delivery, breath space, and where the vocal should sit in the mix.\n### How do I know the draft is singer-ready?\nSpeak the lyric, mark breaths, listen for the first tiring moment, and revise one prompt field instead of replacing the entire brief."
+      ]
+    },
+    "es": {
+      "title": "Escribe un Prompt de Rango Vocal para Canciones con IA",
+      "description": "Workflow practico para que un borrador de cancion con IA sea mas cantable, con rango, respiracion, silabas y handoff claros.",
+      "body": [
+        "El borrador llega rapido, pero la persona que va a cantar detecta el problema antes del primer coro. El verso queda demasiado bajo, el hook sube sin preparacion y una linea lista tiene tantas silabas que no deja respirar. Antes de generar diez tomas mas, escribe un prompt de rango vocal que explique el trabajo de la voz, no solo su emocion.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma para crear borradores de musica con IA desde prompts de texto, ideas de estilo y letras cuando hacen falta. Puedes limpiar versos con el [AI Lyrics Generator](https://easymusic.ai/es/tools/ai-lyrics-generator) y convertir referencias vagas en una direccion mas clara con el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator). Derechos, consentimiento, contexto de lanzamiento y reglas de plataforma se revisan aparte.",
+        "## Crea un pequeno pasaporte de rango",
+        "No empieces con una orden floja como powerful vocal o high chorus. Escribe un pasaporte pequeno: lead, duet o harmony; registro bajo, medio o alto; delivery contenida o proyectada; y en que seccion puede abrirse la melodia. Si luego cantara una persona real, pregunta por la zona comoda, no por la nota mas impresionante. El prompt no obliga notas exactas, pero reduce borradores que suenan pulidos y no sirven en la sala.",
+        "## Prueba la letra antes de la voz",
+        "Elige dos lineas del verso y dos del coro, y dilas en voz alta. Marca con una barra donde hace falta aire y corta silabas que empujan la frase. En EasyMusic.AI, un prompt util une palabras y conducta: conversational verse, enough breath after each line, chorus with sustained final word. Si no puedes decir la linea con comodidad, no le pidas al modelo que la cante mas rapido.",
+        "## Dale una tarea vocal a cada seccion",
+        "El verso puede necesitar un lead en rango medio, cercano al habla. El pre-coro puede subir energia sin saltar demasiado. El coro necesita lift, pero lift puede ser vocales mas largas, una respuesta breve o armonias ligeras, no solo cantar mas alto. Un bridge puede bajar o acercarse para que el coro final tenga donde volver.",
+        "## Ideas reutilizables",
+        "- Escribe el prompt en cinco campos: role, range, delivery, breath, section contrast.\n- Prueba solo el hook del coro antes de generar la cancion completa.\n- Cambia nombres de artistas por senales fisicas como warm mid-range lead, close verse, open chorus.\n- Anota por que cae cada borrador: rushed line, buried consonants, jump too high, no breath.",
+        "## Handoff antes de grabar o publicar",
+        "Guarda juntos el prompt, la letra, la version elegida y notas para quien cante. Si la direccion vocal apunta a una persona real, o si la letra incluye nombres, marcas o una historia personal, revisa permiso y contexto antes de usarla. Un borrador con IA puede servir como mapa de ensayo, pero no deja la cancion aprobada para todo uso comercial, territorio o plataforma.",
+        "## FAQ\n### Necesito escribir notas exactas?\nNo siempre. Describe registro, comodidad y movimiento entre secciones. Si tienes tono o lead sheet, dejalo como nota de produccion.\n### Que hago si el coro sale demasiado alto?\nPide un lift menor, baja la intensidad del verso o prueba el hook en rango medio antes de cambiar todo el estilo.\n### Basta con male vocal o female vocal?\nNo. Agrega rol, textura, delivery, espacio para respirar y posicion en la mezcla.\n### Como se si el borrador esta listo para cantante?\nDi la letra, marca respiraciones, escucha el primer punto de cansancio y cambia un campo del prompt."
+      ]
+    },
+    "fr": {
+      "title": "Ecris un prompt de tessiture vocale pour une chanson IA",
+      "description": "Workflow concret pour orienter une voix IA avec tessiture, respiration, syllabes, contraste de sections et notes de handoff.",
+      "body": [
+        "Le brouillon arrive vite, mais la chanteuse repere le probleme avant la fin du premier refrain. Le couplet descend trop bas, le hook saute sans preparation, et une phrase brillante contient trop de syllabes pour respirer. Avant de generer dix nouvelles versions, ecris un prompt de tessiture qui decrit le travail de la voix, pas seulement son humeur.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA pour produire des brouillons a partir de prompts texte, d idees de style et de paroles si besoin. Tu peux clarifier les lignes avec l [AI Lyrics Generator](https://easymusic.ai/fr/tools/ai-lyrics-generator) et transformer une reference floue en direction plus precise avec le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator). Droits, consentement, contexte de sortie et regles de plateforme restent des controles separes.",
+        "## Cree un petit passeport de tessiture",
+        "Ne commence pas par une demande vague comme powerful vocal ou high chorus. Redige un petit passeport: lead, duo ou harmonie; registre bas, moyen ou haut; delivery retenue ou projetee; et section ou la melodie peut s ouvrir. Si une vraie voix doit reprendre le morceau, demande la zone confortable, pas la note la plus spectaculaire. Le prompt ne force pas des hauteurs exactes, mais il evite des brouillons brillants et pourtant difficiles a chanter.",
+        "## Teste les paroles avant la voix",
+        "Choisis deux lignes de couplet et deux lignes de refrain, puis lis-les a voix haute. Ajoute un slash aux endroits ou il faut respirer et coupe les syllabes qui pressent la phrase. Dans EasyMusic.AI, un prompt utile relie mots et comportement: conversational verse, enough breath after each line, chorus with sustained final word. Si tu ne peux pas dire la ligne calmement, ne demande pas au modele de la chanter plus vite.",
+        "## Donne une fonction vocale a chaque section",
+        "Le couplet peut rester en registre moyen, proche de la parole. Le pre-refrain peut monter en energie sans grand saut. Le refrain a besoin d un lift, mais ce lift peut venir de voyelles plus longues, d une reponse courte ou d harmonies legeres, pas seulement d une note plus haute. Le bridge peut se rapprocher ou descendre pour que le dernier refrain ait un vrai retour.",
+        "## Idees reutilisables",
+        "- Ecris le prompt en cinq champs : role, range, delivery, breath, section contrast.\n- Teste seulement le hook du refrain avant de generer toute la chanson.\n- Remplace les noms d artistes par des indices physiques comme warm mid-range lead, close verse, open chorus.\n- Note pourquoi chaque brouillon echoue : rushed line, buried consonants, jump too high, no breath.",
+        "## Handoff avant enregistrement ou publication",
+        "Garde ensemble prompt, brouillon de paroles, version choisie et notes pour la voix. Si la direction vocale vise une personne reelle, ou si les paroles contiennent des noms, marques ou une histoire personnelle, verifie permission et contexte avant usage. Un brouillon IA peut guider la repetition, mais il ne rend pas la chanson automatiquement valide pour tout usage commercial, territoire ou plateforme.",
+        "## FAQ\n### Dois-je ecrire des notes exactes ?\nPas toujours. Decris registre, confort et mouvement entre sections. Si tu as une tonalite ou lead sheet, garde-la comme note de production.\n### Que faire si le refrain sort trop haut ?\nDemande un lift plus petit, baisse l intensite du couplet ou teste le hook en registre moyen avant de changer tout le style.\n### Male vocal ou female vocal suffit-il ?\nNon. Ajoute role, texture, delivery, espace de respiration et place de la voix dans le mix.\n### Comment savoir si le brouillon est chantable ?\nLis les paroles, marque les respirations, ecoute le premier endroit fatigant, puis change un seul champ du prompt."
+      ]
+    },
+    "it": {
+      "title": "Scrivi un prompt di estensione vocale per una canzone AI",
+      "description": "Workflow pratico per rendere un draft di canzone AI piu cantabile, con range, respiro, sillabe, sezioni e note per il cantante.",
+      "body": [
+        "Il draft arriva in fretta, ma chi deve cantarlo sente subito il problema. La strofa e troppo bassa, il ritornello salta senza preparazione e una riga piena di parole non lascia respiro. Prima di generare altre dieci versioni, scrivi un prompt di estensione vocale che spieghi il lavoro della voce, non solo il suo umore.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma per creare bozze musicali con IA da prompt testuali, idee di stile e lyrics quando servono. Puoi sistemare le parole con l [AI Lyrics Generator](https://easymusic.ai/it/tools/ai-lyrics-generator) e rendere piu chiara la direzione sonora con il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator). Diritti, consenso, contesto di pubblicazione e regole delle piattaforme restano controlli separati.",
+        "## Crea un piccolo passaporto di range",
+        "Non partire da una richiesta vaga come powerful vocal o high chorus. Scrivi un passaporto breve: lead, duet o harmony; registro basso, medio o alto; delivery trattenuta o proiettata; e sezione in cui la melodia puo aprirsi. Se poi cantera una persona reale, chiedi la zona comoda, non la nota piu spettacolare. Il prompt non obbliga note esatte, ma riduce i draft belli e poco cantabili.",
+        "## Prova il testo prima della voce",
+        "Scegli due righe della strofa e due del ritornello, poi leggile ad alta voce. Metti uno slash dove serve aria e taglia sillabe che fanno correre la frase. In EasyMusic.AI, un prompt utile collega parole e comportamento: conversational verse, enough breath after each line, chorus with sustained final word. Se non riesci a dire la riga comodamente, non chiedere al modello di cantarla piu veloce.",
+        "## Dai a ogni sezione un compito vocale",
+        "La strofa puo restare in un registro medio, vicino al parlato. Il pre-ritornello puo aumentare energia senza un salto enorme. Il ritornello ha bisogno di lift, ma lift puo significare vocali piu lunghe, una risposta breve o armonie leggere, non solo piu altezza. Il bridge puo scendere o avvicinarsi, cosi l ultimo ritornello ha uno spazio vero in cui tornare.",
+        "## Idee riutilizzabili",
+        "- Scrivi il prompt in cinque campi: role, range, delivery, breath, section contrast.\n- Prova solo l hook del ritornello prima di generare tutta la canzone.\n- Sostituisci i nomi degli artisti con segnali fisici come warm mid-range lead, close verse, open chorus.\n- Annota perche ogni draft fallisce: rushed line, buried consonants, jump too high, no breath.",
+        "## Handoff prima di registrare o pubblicare",
+        "Conserva insieme prompt, bozza del testo, versione scelta e note per il cantante. Se la direzione vocale punta a una persona reale, o se il testo include nomi, brand o una storia personale, controlla permesso e contesto prima dell uso. Un draft AI puo guidare le prove, ma non rende la canzone pronta per ogni uso commerciale, territorio o piattaforma.",
+        "## FAQ\n### Devo scrivere note precise?\nNon sempre. Descrivi registro, comodita e movimento tra sezioni. Se hai una tonalita o un lead sheet, tienili come note di produzione.\n### Cosa faccio se il ritornello esce troppo alto?\nChiedi un lift piu piccolo, abbassa l intensita della strofa o prova l hook in registro medio prima di cambiare tutto lo stile.\n### Basta scrivere male vocal o female vocal?\nNo. Aggiungi ruolo, texture, delivery, spazio per respirare e posizione della voce nel mix.\n### Come capisco se il draft e pronto per un cantante?\nLeggi il testo, segna i respiri, ascolta il primo punto faticoso e modifica un solo campo del prompt."
+      ]
+    },
+    "ja": {
+      "title": "歌える AI Song Vocal Range Prompt を書く",
+      "description": "AI song draft を歌いやすくするために、range、breath、syllables、section contrast、singer handoff を整理する workflow。",
+      "body": [
+        "draft はすぐ出ますが、singer は first chorus の前に問題に気づきます。verse が低すぎる、hook が急に跳ぶ、良い lyric line なのに syllables が多すぎて息が足りない。次の ten takes を作る前に、voice の mood ではなく job を説明する vocal range prompt を書きます。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、text prompts、style ideas、必要な lyrics から AI music drafts を作る platform です。[AI Lyrics Generator](https://easymusic.ai/ja/tools/ai-lyrics-generator) で言葉を整え、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で曖昧な sound reference を具体的な direction にできます。rights、consent、release context、platform rules は別に確認します。",
+        "## 小さな range passport を作る",
+        "powerful vocal や high chorus のような広い指示から始めない方が安全です。lead、duet、harmony などの role、low/mid/high register、restrained か projected か、melody が開いてよい section を短く書きます。後で real vocalist が歌う可能性があるなら、最高音ではなく comfortable area を聞きます。prompt は exact pitch を強制しませんが、きれいでも歌いにくい draft を減らせます。",
+        "## Voice の前に lyric を試す",
+        "verse から 2 lines、chorus から 2 lines を選び、声に出して読みます。息が必要な場所に slash を置き、phrase を急がせる syllables を削ります。EasyMusic.AI では、words と behavior を一緒に書くと指示が明確です: conversational verse, enough breath after each line, chorus with sustained final word。自然に読めない line は、model に速く歌わせる前に直します。",
+        "## 各 section に vocal job を与える",
+        "verse は speech に近い mid-range lead が合うことがあります。pre-chorus は大きな leap なしで energy を上げられます。chorus には lift が必要ですが、それは高く叫ぶことだけではありません。long vowels、short backing response、light harmonies でも lift は作れます。bridge は近く、低くして final chorus の戻りを強くできます。",
+        "## 今日使える再利用アイデア",
+        "- prompt を role, range, delivery, breath, section contrast の 5 fields で書く。\n- full song の前に chorus hook だけを test する。\n- artist names を warm mid-range lead, close verse, open chorus のような physical cues に置き換える。\n- draft を落とす理由を rushed line, buried consonants, jump too high, no breath として記録する。",
+        "## Recording や publishing 前の handoff",
+        "prompt、lyric draft、chosen version、singer notes を一緒に保存します。voice direction が real person に近い場合、また lyrics に names、brands、personal story がある場合は、使用前に permission と context を確認します。AI draft は rehearsal map になりますが、final song が every commercial use、territory、platform に自動で適するという意味ではありません。",
+        "## FAQ\n### Exact notes を書く必要はありますか？\n常に必要ではありません。register、comfort、section movement を書きます。key や lead sheet があるなら production note として残します。\n### Chorus が高すぎる時は？\nsmaller lift を頼み、verse intensity を下げるか、whole style を変える前に mid-range hook を試します。\n### male vocal / female vocal だけで十分ですか？\n不十分です。role、texture、delivery、breath space、mix position を追加します。\n### singer-ready かどうかは？\nlyrics を声に出し、breath を印し、最初に疲れる場所を聞き、prompt の一項目だけを直します。"
+      ]
+    },
+    "ko": {
+      "title": "Singer가 쓸 수 있는 AI Song Vocal Range Prompt 쓰기",
+      "description": "AI song draft를 더 부르기 쉽게 만들기 위해 range, breath, syllables, section contrast, handoff note를 정리하는 workflow.",
+      "body": [
+        "Draft는 빨리 나오지만 singer는 first chorus 전에 문제를 압니다. Verse는 너무 낮고, hook은 갑자기 뛰며, 좋은 lyric line이 syllables 때문에 숨 쉴 공간을 남기지 않습니다. 더 많은 take를 만들기 전에 voice의 mood가 아니라 voice의 job을 설명하는 vocal range prompt를 쓰세요.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text prompt, style idea, 필요할 때 lyrics를 바탕으로 AI music draft를 만드는 platform입니다. [AI Lyrics Generator](https://easymusic.ai/ko/tools/ai-lyrics-generator)로 단어를 정리하고, [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 vague sound reference를 더 분명한 direction으로 바꿀 수 있습니다. Rights, consent, release context, platform rules는 별도로 확인해야 합니다.",
+        "## 작은 range passport를 만든다",
+        "Powerful vocal 또는 high chorus 같은 넓은 요청으로 시작하지 마세요. Lead, duet, harmony role, low/mid/high register, restrained 또는 projected delivery, melody가 열려도 되는 section을 짧게 씁니다. 나중에 real vocalist가 부를 수 있다면 가장 높은 note가 아니라 comfortable area를 물어보세요. Prompt가 exact pitch를 강제하지는 않지만, polished하게 들리면서 실제로 부르기 어려운 draft를 줄일 수 있습니다.",
+        "## Voice 전에 lyric을 테스트한다",
+        "Verse 두 줄과 chorus 두 줄을 골라 소리 내어 읽습니다. 숨이 필요한 곳에 slash를 넣고 phrase를 급하게 만드는 syllables를 줄입니다. EasyMusic.AI에서는 words와 behavior를 함께 쓰면 prompt가 분명해집니다: conversational verse, enough breath after each line, chorus with sustained final word. 자연스럽게 말할 수 없는 line은 model에게 더 빠르게 부르게 하기 전에 고쳐야 합니다.",
+        "## 각 section에 vocal job을 준다",
+        "Verse는 speech에 가까운 mid-range lead가 좋을 수 있습니다. Pre-chorus는 큰 leap 없이 energy를 올릴 수 있습니다. Chorus에는 lift가 필요하지만, lift가 항상 높은 belting을 뜻하지는 않습니다. Longer vowels, short backing response, light harmonies도 lift를 만들 수 있습니다. Bridge는 더 가까워지거나 낮아져 final chorus가 돌아올 공간을 만들 수 있습니다.",
+        "## 바로 쓸 수 있는 아이디어",
+        "- Prompt를 role, range, delivery, breath, section contrast 다섯 칸으로 쓴다.\n- Full song 전에 chorus hook만 test한다.\n- Artist names 대신 warm mid-range lead, close verse, open chorus 같은 physical cues를 쓴다.\n- 각 draft가 탈락한 이유를 rushed line, buried consonants, jump too high, no breath로 기록한다.",
+        "## Recording 또는 publishing 전 handoff",
+        "Prompt, lyric draft, chosen version, singer notes를 함께 보관하세요. Voice direction이 real person을 향하거나 lyrics에 names, brands, personal story가 들어가면 사용 전에 permission과 context를 확인해야 합니다. AI draft는 rehearsal map이 될 수 있지만 final song이 모든 commercial use, territory, platform에 자동으로 적합해지는 것은 아닙니다.",
+        "## FAQ\n### Exact notes를 써야 하나요?\n항상 필요하지는 않습니다. Register, comfort, section movement를 설명하세요. Key나 lead sheet가 있다면 production note로 남깁니다.\n### Chorus가 계속 너무 높게 나오면?\nSmaller lift를 요청하고, verse intensity를 낮추거나, whole style을 바꾸기 전에 mid-range hook을 test하세요.\n### male vocal 또는 female vocal이면 충분한가요?\n아니요. Role, texture, delivery, breath space, mix position을 추가하세요.\n### Singer-ready draft는 어떻게 알 수 있나요?\nLyrics를 말해 보고, breaths를 표시하고, 처음 피곤해지는 지점을 들은 뒤 prompt field 하나만 수정하세요."
+      ]
+    },
+    "pt": {
+      "title": "Escreva um Prompt de Alcance Vocal para Musica com IA",
+      "description": "Workflow pratico para criar drafts de musica com IA mais cantaveis, com alcance, respiro, silabas, secoes e handoff claros.",
+      "body": [
+        "O rascunho chega rapido, mas quem vai cantar percebe o problema antes do primeiro refrao acabar. O verso fica baixo demais, o hook salta sem aviso e uma linha esperta tem silabas demais para respirar. Antes de gerar mais dez takes, escreva um prompt de alcance vocal que explique o trabalho da voz, nao apenas o humor.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para fazer rascunhos a partir de prompts de texto, ideias de estilo e letras quando necessario. Voce pode ajustar palavras com o [AI Lyrics Generator](https://easymusic.ai/pt/tools/ai-lyrics-generator) e transformar referencias vagas em direcao mais clara com o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator). Direitos, consentimento, contexto de lancamento e regras de plataforma continuam sendo revisoes separadas.",
+        "## Crie um pequeno passaporte de alcance",
+        "Nao comece com um pedido solto como powerful vocal ou high chorus. Escreva um passaporte curto: lead, duet ou harmony; registro baixo, medio ou alto; delivery contida ou projetada; e a secao em que a melodia pode abrir. Se uma pessoa real puder cantar depois, pergunte pela zona confortavel, nao pela nota mais impressionante. O prompt nao forca alturas exatas, mas reduz drafts que parecem bonitos e falham na sala.",
+        "## Teste a letra antes da voz",
+        "Escolha duas linhas do verso e duas do refrao, depois leia em voz alta. Coloque uma barra onde a pessoa precisa respirar e corte silabas que fazem a frase correr. No EasyMusic.AI, um prompt util liga palavras a comportamento: conversational verse, enough breath after each line, chorus with sustained final word. Se voce nao consegue falar a linha com conforto, nao peca para o modelo canta-la mais rapido.",
+        "## De uma tarefa vocal a cada secao",
+        "O verso pode precisar de lead em registro medio, perto da fala. O pre-refrao pode aumentar energia sem um salto grande. O refrao precisa de lift, mas lift pode ser vogais mais longas, uma resposta curta ou harmonias leves, nao apenas cantar mais alto. A ponte pode ficar mais baixa ou mais proxima para que o refrao final tenha para onde voltar.",
+        "## Ideias reutilizaveis",
+        "- Escreva o prompt em cinco campos: role, range, delivery, breath, section contrast.\n- Teste apenas o hook do refrao antes de gerar a musica inteira.\n- Troque nomes de artistas por sinais fisicos como warm mid-range lead, close verse, open chorus.\n- Registre por que cada draft perde: rushed line, buried consonants, jump too high, no breath.",
+        "## Handoff antes de gravar ou publicar",
+        "Guarde juntos prompt, rascunho da letra, versao escolhida e notas para a voz. Se a direcao vocal aponta para uma pessoa real, ou se a letra inclui nomes, marcas ou historia pessoal, verifique permissao e contexto antes de usar. Um draft com IA pode ser mapa de ensaio, mas nao torna a musica aprovada para todo uso comercial, territorio ou plataforma.",
+        "## FAQ\n### Preciso escrever notas exatas?\nNem sempre. Descreva registro, conforto e movimento entre secoes. Se houver tom ou lead sheet, guarde como nota de producao.\n### E se o refrao sair alto demais?\nPeca um lift menor, reduza a intensidade do verso ou teste o hook em registro medio antes de mudar todo o estilo.\n### male vocal ou female vocal basta?\nNao. Acrescente papel, textura, delivery, espaco para respirar e posicao da voz no mix.\n### Como sei se o draft esta pronto para cantor?\nLeia a letra, marque respiros, ouca o primeiro ponto cansativo e revise um unico campo do prompt."
+      ]
+    },
+    "ru": {
+      "title": "Напишите AI vocal range prompt, который сможет спеть человек",
+      "description": "Практический workflow для AI song drafts: диапазон голоса, дыхание, слоги, контраст секций и заметки для вокалиста.",
+      "body": [
+        "Черновик появляется быстро, но вокалист слышит проблему еще до конца первого припева. Куплет слишком низкий, hook прыгает без подготовки, а удачная строка набита слогами так, что негде вдохнуть. Прежде чем генерировать десять новых вариантов, напишите vocal range prompt, который описывает задачу голоса, а не только настроение.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) — платформа для создания AI music drafts из text prompts, style ideas и lyrics, когда они нужны. Можно уточнить слова через [AI Lyrics Generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) и превратить расплывчатую ссылку на звук в более понятное направление через [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator). Права, согласия, контекст релиза и правила платформ нужно проверять отдельно.",
+        "## Сделайте небольшой range passport",
+        "Не начинайте с общей просьбы вроде powerful vocal или high chorus. Напишите короткий паспорт: lead, duet или harmony; low, mid или high register; restrained или projected delivery; и секцию, где мелодия может раскрыться. Если позже песню будет петь реальный вокалист, спрашивайте о комфортной зоне, а не о самой эффектной верхней ноте. Prompt не заставит модель держать точные высоты, но уменьшит число красивых и непрактичных drafts.",
+        "## Проверьте lyric до выбора голоса",
+        "Выберите две строки куплета и две строки припева, затем произнесите их вслух. Поставьте slash там, где нужен вдох, и уберите syllables, из-за которых phrase спешит. В EasyMusic.AI полезный prompt связывает words и поведение: conversational verse, enough breath after each line, chorus with sustained final word. Если строку трудно сказать спокойно, не просите модель петь ее еще быстрее.",
+        "## Дайте каждой секции вокальную задачу",
+        "Куплету может подойти mid-range lead, близкий к речи. Pre-chorus может поднять энергию без резкого скачка. Припеву нужен lift, но lift может означать длинные vowels, короткий backing response или легкие harmonies, а не только более высокий belt. Bridge может стать ниже или ближе, чтобы final chorus было куда вернуться.",
+        "## Идеи, которые можно применить сразу",
+        "- Пишите prompt в пяти полях: role, range, delivery, breath, section contrast.\n- Тестируйте только chorus hook перед полной генерацией песни.\n- Заменяйте artist names физическими признаками: warm mid-range lead, close verse, open chorus.\n- Записывайте, почему draft не подошел: rushed line, buried consonants, jump too high, no breath.",
+        "## Handoff перед записью или публикацией",
+        "Храните вместе prompt, lyric draft, chosen version и singer notes. Если vocal direction направлен на реального человека, или если в тексте есть names, brands или personal story, проверьте permission и context до использования. AI draft может быть картой репетиции, но не делает final song автоматически подходящей для любого commercial use, territory или platform.",
+        "## FAQ\n### Нужно ли писать точные ноты?\nНе всегда. Опишите register, comfort и движение между sections. Если есть key или lead sheet, оставьте их как production note.\n### Что делать, если chorus слишком высокий?\nПопросите smaller lift, снизьте verse intensity или протестируйте hook в mid-range направлении до смены всего style.\n### Достаточно ли male vocal или female vocal?\nНет. Добавьте role, texture, delivery, breath space и место голоса в mix.\n### Как понять, что draft готов для вокалиста?\nПроизнесите lyrics, отметьте breaths, найдите первый утомляющий момент и измените одно поле prompt."
+      ]
+    },
+    "zh": {
+      "title": "写一个真人歌手也能用的 AI Song Vocal Range Prompt",
+      "description": "一个实用 workflow：在生成歌曲前整理 vocal range、breath、syllables、section contrast 和 singer handoff。",
+      "body": [
+        "draft 很快就出来了，但 singer 在第一个 chorus 结束前就听出问题：verse 太低，hook 突然跳高，一句好 lyric 因为 syllables 太密而没有呼吸空间。不要马上生成十个新版本，先写一个 vocal range prompt，说明 voice 的任务，而不是只写 mood。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 text prompts、style ideas 和需要时的 lyrics 生成 music drafts。你可以用 [AI Lyrics Generator](https://easymusic.ai/zh/tools/ai-lyrics-generator) 先整理歌词，再用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把模糊的 sound reference 变成更清楚的 direction。Rights、consent、release context 和 platform rules 仍然要单独检查。",
+        "## 做一个小 range passport",
+        "不要从 powerful vocal 或 high chorus 这种宽泛指令开始。先写一个小 passport：lead、duet 还是 harmony；low、mid 还是 high register；restrained 还是 projected delivery；melody 可以在哪个 section 打开。如果之后会让真人唱，问 comfortable area，不要只问最高能唱到哪里。Prompt 不能强制 exact pitches，但能减少听起来漂亮、实际不好唱的 drafts。",
+        "## 先测试 lyric，再测试 voice",
+        "从 verse 选两行、chorus 选两行，直接读出声。需要换气的位置用 slash 标出，让 phrase 变赶的 syllables 先删掉。在 EasyMusic.AI 里，有用的 prompt 会把 words 和 behavior 放在一起：conversational verse, enough breath after each line, chorus with sustained final word。如果你不能舒服地读完这句，就不要让 model 把它唱得更快。",
+        "## 给每个 section 一个 vocal job",
+        "Verse 可以用接近说话的 mid-range lead。Pre-chorus 可以提高 energy，但不一定要大跳。Chorus 需要 lift，但 lift 可以来自 longer vowels、short backing response 或 light harmonies，不只是更高的 belting。Bridge 可以更近或更低，让 final chorus 有回来的空间。",
+        "## 今天就能复用的做法",
+        "- 把 prompt 写成五栏：role, range, delivery, breath, section contrast。\n- 先 test chorus hook，再生成完整 song。\n- 用 warm mid-range lead, close verse, open chorus 这样的 physical cues 代替 artist names。\n- 记录每个 draft 失败的原因：rushed line, buried consonants, jump too high, no breath。",
+        "## Recording 或 publishing 前的 handoff",
+        "把 prompt、lyric draft、chosen version 和 singer notes 放在一起。如果 voice direction 指向真实人物，或者歌词里有 names、brands、personal story，使用前检查 permission 和 context。AI draft 可以作为 rehearsal map，但不代表 final song 自动适合所有 commercial use、territory 或 platform。",
+        "## FAQ\n### 需要写 exact notes 吗？\n不一定。先描述 register、comfort 和 section movement。如果已有 key 或 lead sheet，把它作为 production note 留给 singer 或 producer。\n### Chorus 总是太高怎么办？\n要求 smaller lift，降低 verse intensity，或者在改变 whole style 前先测试 mid-range hook。\n### 只写 male vocal 或 female vocal 够吗？\n不够。还要加 role、texture、delivery、breath space 和 vocal 在 mix 里的位置。\n### 怎么判断 draft 已经 singer-ready？\n读出 lyrics，标出 breaths，听第一个让声音疲劳的位置，然后只修改一个 prompt field。"
+      ]
+    }
+  }
+}
