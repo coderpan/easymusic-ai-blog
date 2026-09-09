@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-09",
+  "slug": "ai-song-cover-restyle-brief",
+  "cluster": "song-cover-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب AI Song Cover Brief يعيد الاسلوب ولا ينسخ الهوية",
+      "description": "Workflow عملي لاعداد AI song cover من مصدر تملك حق استخدامه، مع style brief واضح ومراجعة للهوية والاذونات قبل النشر.",
+      "body": [
+        "لديك demo بصوت واضح وكلمات تعمل جيدا، لكن الarrangement لا يناسب الفيديو الجديد او النسخة القصيرة او مزاج الحملة. فكرة cover بالذكاء الاصطناعي تبدو سهلة: غيّر الstyle فقط. المشكلة ان cover سيئ قد يضيع melody، او يدفع الصوت نحو فنان معروف، او يجعل الفريق ينسى سؤالا ابسط: هل نملك حق تحويل هذا المصدر؟",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts وsong ideas بالذكاء الاصطناعي من text prompts وlyrics وstyle directions. عندما تحتاج لوصف صوتي ادق قبل restyle، يمكن ان يساعدك [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل mood عام الى brief قابل للاختبار. الاداة تساعد في التجربة، لكنها لا تستبدل مراجعة الحقوق، الاذن، او قواعد المنصة.",
+        "## ابدأ بمصدر مسموح لا بمصدر مشهور",
+        "اكتب في اعلى الbrief لماذا هذا المصدر قابل للتحويل: song كتبتها، vocal سجّلته بنفسك، track طلبته من موسيقي بعقد واضح، او ملف لديك ترخيص صريح لاعادة ترتيبه. اذا كان المصدر cover لاغنية طرف ثالث، او يستخدم صوت شخص حقيقي، فالموضوع يحتاج مراجعة منفصلة قبل التوزيع. لا تجعل اول اختبار للworkflow مبنيا على اغنية مشهورة او صوت فنان تريد الاقتراب منه.",
+        "## افصل ما يجب ان يبقى عما يجب ان يتغير",
+        "Cover جيد لا يغير كل شيء دفعة واحدة. احفظ ثلاث ثوابت: lyric hook، مسار melody العام، وطاقة المقطع الاساسي. ثم اختر متغيرين فقط: instrumentation وgroove، او tempo feel وvocal texture. مثال عملي: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## اكتب حدود الهوية بوضوح",
+        "بدل قول sound like Artist X، اكتب سمات يمكن سماعها من دون استعارة هوية احد: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. اذا كان لديك صوتك او صوت شخص وافق على الاستخدام، دوّن ذلك في handoff notes. اذا لم تكن لديك موافقة، استخدم وصفا عاما ولا تلمح في العنوان او metadata الى فنان او شخصية لا تمثل المشروع.",
+        "## قارن نسختين فقط ثم قرر",
+        "اطلب نسختين من نفس المصدر واستخدم score بسيط: هل بقي hook معروفا؟ هل صار الstyle يخدم الاستخدام الجديد؟ هل تبدو الهوية مستقلة؟ هل توجد لحظة تلفت الانتباه اكثر من اللازم؟ في EasyMusic.AI، اجعل الاختبار صغيرا قبل ان تفتح سلسلة rerolls طويلة. الفرق الحقيقي يظهر عندما تسمع اول chorus، transition قبل الbridge، والنهاية، لا عندما تقارن عشر ملفات بلا معيار.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب source note من جملة واحدة: owned demo, commissioned vocal, licensed source, or do not use.\n- احفظ ثلاث ثوابت قبل restyle: hook, melody contour, section order.\n- غيّر متغيرين فقط في كل pass: groove plus instruments، او vocal texture plus energy.\n- اكتب negative identity line: no named artist, no celebrity voice, no misleading metadata.\n- سمّ الملفات حسب القرار: cover-test-a-sparser-drums، cover-test-b-brighter-chorus.",
+        "## قبل النشر",
+        "احتفظ بالمصدر، الbrief، النسخة المختارة، وسبب الاختيار في مجلد واحد. اذا كان العمل سيذهب الى YouTube، Spotify، اعلان، او عميل، راجع disclosure، الحقوق، والموافقة خارج اداة التوليد. وجود AI song cover لا يعني ان composition، التسجيل الاصلي، الصوت، الصورة، او metadata اصبحت تلقائيا مناسبة لكل استخدام.",
+        "## FAQ\n### هل يمكنني عمل cover لاغنية مشهورة؟\nتقنيا قد تستطيع تجربة افكار، لكن النشر او التوزيع يحتاج مراجعة حقوق composition والتسجيل والسياق. لا تنشر اذا لم تكن تعرف ما الذي تملكه او ما تم ترخيصه.\n### هل يجب ان اذكر فنانا في prompt؟\nتجنبه. استخدم صفات موسيقية ملموسة بدلا من الاسماء، خصوصا اذا كان الاسم سيجعل النتيجة تبدو كأنها مشاركة او موافقة من ذلك الفنان.\n### كم نسخة اختبر؟\nابدأ بنسختين مبنيتين على نفس المصدر ونفس المعايير. اذا فشل الاثنان لنفس السبب، اصلح الbrief بدلا من زيادة العدد.\n### ما افضل اشارة لنجاح الcover؟\nان تتعرف على hook وتصدق الstyle الجديد في نفس الوقت، من دون صوت او metadata يربك المستمع حول من شارك فعلا."
+      ]
+    },
+    "de": {
+      "title": "Schreibe ein AI Song Cover Brief ohne fremde Identitaet zu kopieren",
+      "description": "Ein praktischer Workflow fuer AI Song Covers aus erlaubten Quellen, mit klarer Stilrichtung, Identitaetsgrenzen und Review vor der Veroeffentlichung.",
+      "body": [
+        "Du hast ein Demo mit guter Stimme und einem funktionierenden Refrain, aber das Arrangement passt nicht mehr zum neuen Video, zur Kurzversion oder zur Kampagne. Ein AI Song Cover klingt nach einer einfachen Loesung: nur den Stil wechseln. In der Praxis kann ein schlechtes Cover die Melodie verlieren, zu sehr nach einem bekannten Artist klingen oder die wichtigste Frage ueberspringen: Darfst du diese Quelle ueberhaupt umgestalten?",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform, mit der du KI Musikentwuerfe und Songideen aus Textprompts, Lyrics und Stilrichtungen erstellst. Wenn die Stilbeschreibung vor dem Restyle zu vage ist, hilft der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), aus einer Stimmung eine pruefbare Richtung zu machen. Das Werkzeug unterstuetzt den Entwurf; Rechte, Einwilligung und Plattformregeln bleiben eigene Pruefschritte.",
+        "## Beginne mit einer erlaubten Quelle",
+        "Schreibe oben in das Brief, warum die Quelle nutzbar ist: eigenes Demo, selbst aufgenommene Stimme, beauftragter Track mit klarer Vereinbarung oder eine Datei, die du ausdruecklich bearbeiten darfst. Wenn die Quelle selbst ein Cover eines fremden Songs ist oder eine reale Stimme betrifft, braucht sie vor Distribution eine separate Klaerung. Der erste Workflow-Test sollte nicht auf einem bekannten Song oder einer fremden Stimme beruhen, der du naeherkommen willst.",
+        "## Trenne Konstanten von Variablen",
+        "Ein gutes Cover wechselt nicht alles gleichzeitig. Halte drei Dinge fest: den Lyric-Hook, die grobe Melodiefuehrung und die Energie der wichtigsten Section. Dann veraendere nur zwei Variablen, etwa Instrumentierung und Groove oder Tempo-Gefuehl und Vocal-Textur. Ein brauchbarer Prompt waere: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Setze Identitaetsgrenzen",
+        "Statt sound like Artist X zu schreiben, beschreibe hoerbare Eigenschaften ohne fremde Persona: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. Wenn du deine eigene Stimme oder eine freigegebene Stimme nutzt, gehoert das in die Handoff-Notizen. Ohne Zustimmung sollte weder Prompt noch Titel noch Metadata suggerieren, dass eine reale Person beteiligt oder einverstanden ist.",
+        "## Vergleiche zwei Versionen, nicht zehn",
+        "Erzeuge zwei Versionen aus derselben Quelle und bewerte sie mit vier Fragen: Bleibt der Hook erkennbar? Traegt der neue Stil den Zweck? Klingt die Identitaet eigenstaendig? Gibt es einen Moment, der zu sehr ablenkt? In EasyMusic.AI ist ein kleiner Vergleich wertvoller als eine lange Reihe blinder Rerolls. Hoere besonders den ersten Refrain, den Uebergang zur Bridge und das Ende.",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe eine Source Note: owned demo, commissioned vocal, licensed source, or do not use.\n- Halte drei Konstanten fest: hook, melody contour, section order.\n- Aendere pro Pass nur zwei Variablen: groove plus instruments oder vocal texture plus energy.\n- Fuege eine negative identity line hinzu: no named artist, no celebrity voice, no misleading metadata.\n- Benenne Dateien nach der Entscheidung: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Vor Upload oder Freigabe",
+        "Lege Quelle, Brief, ausgewaehlte Version und Entscheidungsgrund zusammen ab. Wenn das Ergebnis auf YouTube, Spotify, in einer Anzeige oder fuer einen Kunden genutzt wird, pruefe Disclosure, Rechte und Einwilligungen ausserhalb des Generators. Ein AI Song Cover bedeutet nicht automatisch, dass Komposition, Master, Stimme, Bild oder Metadata fuer jeden Einsatz passen.",
+        "## FAQ\n### Kann ich einen bekannten Song covern?\nZum Experimentieren kann ein Entwurf moeglich sein, aber Veroeffentlichung oder Distribution brauchen Rechtepruefung fuer Komposition, Aufnahme und Nutzungskontext. Verteile nichts, wenn unklar ist, was du besitzt oder lizenziert hast.\n### Soll ich einen Artist im Prompt nennen?\nBesser nicht. Nutze musikalische Merkmale statt Namen, besonders wenn der Name eine Beteiligung oder Zustimmung nahelegen wuerde.\n### Wie viele Versionen soll ich testen?\nStarte mit zwei Versionen nach denselben Kriterien. Wenn beide aus demselben Grund scheitern, repariere das Brief.\n### Woran erkenne ich ein gutes Cover?\nDu erkennst den Hook wieder und glaubst dem neuen Stil, ohne dass Stimme oder Metadata falsche Beteiligung vermuten lassen."
+      ]
+    },
+    "en": {
+      "title": "Write an AI Song Cover Brief Without Copying Someone's Identity",
+      "description": "A practical AI song cover workflow for restyling a source track you can use, while keeping melody, consent, metadata, and release review clear.",
+      "body": [
+        "You have a demo with a useful vocal and a chorus that works, but the arrangement no longer fits the new video, short edit, or campaign mood. An AI song cover can sound like the quickest fix: keep the song, change the style. The risk is that a loose cover brief can blur the melody, drift toward a recognizable artist identity, or skip the first question entirely: are you allowed to transform this source?",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning text prompts, lyrics, and style direction into music drafts. When the restyle direction is too vague, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn a mood into a clearer brief you can test. The tool can support the creative pass, but rights, consent, release context, and platform rules still need separate review.",
+        "## Start With a Source You Can Use",
+        "Write one line at the top of the brief that explains why the source is allowed: an original demo you wrote, a vocal you recorded, a commissioned track with clear terms, or a file you are licensed to transform. If the source is already a cover of another composition, or if it uses a real person's voice, treat that as a separate review before distribution. Do not make your first workflow test depend on a famous recording or a singer identity you do not control.",
+        "## Separate What Must Stay From What Can Change",
+        "A strong cover brief does not change everything at once. Lock three constants first: the lyric hook, the general melody contour, and the section order or energy path. Then choose only two variables for the first pass, such as instrumentation and groove, or tempo feel and vocal texture. Example: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Write Identity Boundaries Into the Prompt",
+        "Instead of asking for sound like Artist X, describe audible choices that do not borrow a public identity: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. If you are using your own voice or a voice with documented permission, note that in the handoff file. If you do not have permission, keep the voice direction generic and make sure the title, artwork, credits, and captions do not imply an endorsement or collaboration.",
+        "## Compare Two Covers Before You Reroll",
+        "Generate two versions from the same source and score them against four questions: Does the hook remain recognizable? Does the new style serve the new use? Does the vocal identity feel independent? Is there any moment that pulls attention for the wrong reason? Inside EasyMusic.AI, a small controlled comparison beats a long string of guesses. The useful evidence is usually in the first chorus, the bridge transition, and the ending.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Add a source note before the prompt: owned demo, commissioned vocal, licensed source, or do not use.\n- Preserve three constants: hook, melody contour, section order.\n- Change only two variables per pass: groove plus instruments, or vocal texture plus energy.\n- Add a negative identity line: no named artist, no celebrity voice, no misleading metadata.\n- Name files by decision: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Handoff Before Publishing",
+        "Keep the source file, brief, chosen version, and reason for the choice together. If the cover is headed to YouTube, Spotify, an ad, or a client approval folder, review disclosure, rights, and consent outside the generator. An AI song cover does not automatically clear the composition, the source recording, a voice likeness, artwork, or release metadata for every use.",
+        "## FAQ\n### Can I make an AI cover of a famous song?\nYou may be able to experiment privately, but publishing or distributing a cover can involve composition rights, recording rights, and platform rules. Do not release anything unless you know what you own or have licensed.\n### Should I name an artist in the prompt?\nAvoid it. Use musical attributes instead, especially when a name could make the result sound like an endorsement, collaboration, or impersonation.\n### How many versions should I test?\nStart with two versions from the same brief. If both fail for the same reason, revise the brief before creating more takes.\n### What is the best sign the cover worked?\nThe hook still feels like the same song, the new style has a clear purpose, and nothing about the voice or metadata misleads the listener."
+      ]
+    },
+    "es": {
+      "title": "Escribe un Brief de AI Song Cover sin Copiar Identidad",
+      "description": "Workflow practico para restyling de una cancion que puedes usar, cuidando melodia, consentimiento, metadata y revision de publicacion.",
+      "body": [
+        "Tienes un demo con una voz util y un coro que funciona, pero el arreglo ya no encaja con el nuevo video, una version corta o el tono de la campana. Un AI song cover parece el atajo perfecto: conserva la cancion y cambia el estilo. El riesgo es que un brief flojo borre la melodia, se acerque demasiado a una identidad reconocible o ignore la primera pregunta: puedes transformar esa fuente?",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma para crear borradores musicales con IA desde prompts, letras y direccion de estilo. Cuando el restyle queda demasiado vago, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) ayuda a convertir un mood en un brief mas claro y comprobable. La herramienta apoya el pase creativo, pero derechos, consentimiento, contexto de lanzamiento y reglas de plataforma se revisan aparte.",
+        "## Empieza con una fuente que puedas usar",
+        "Escribe una linea al inicio del brief que explique por que la fuente esta permitida: un demo original que escribiste, una voz que grabaste, una pista encargada con terminos claros o un archivo licenciado para transformar. Si la fuente ya es cover de otra composicion, o si usa la voz de una persona real, tratala como revision independiente antes de distribuir. No bases el primer test en una grabacion famosa o una identidad vocal que no controlas.",
+        "## Separa lo que permanece de lo que cambia",
+        "Un buen cover no cambia todo a la vez. Bloquea tres constantes: el hook de la letra, el contorno general de la melodia y el orden o la energia de las secciones. Luego elige solo dos variables para el primer pase: instrumentacion y groove, o sensacion de tempo y textura vocal. Ejemplo: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Escribe limites de identidad",
+        "En vez de pedir sound like Artist X, describe decisiones audibles sin tomar una identidad publica: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. Si usas tu voz o una voz con permiso documentado, dejalo en las notas de handoff. Si no tienes permiso, manten la direccion vocal generica y revisa que titulo, artwork, creditos y captions no sugieran colaboracion, apoyo o presencia de otra persona.",
+        "## Compara dos covers antes de generar mas",
+        "Genera dos versiones desde la misma fuente y evaluas con cuatro preguntas: el hook sigue reconocible? El nuevo estilo sirve al uso nuevo? La identidad vocal se siente independiente? Hay un momento que distrae por la razon equivocada? En EasyMusic.AI, una comparacion pequena y controlada vale mas que muchas pruebas sin criterio. Escucha sobre todo el primer coro, la transicion al bridge y el final.",
+        "## Ideas reutilizables",
+        "- Agrega una source note antes del prompt: owned demo, commissioned vocal, licensed source, or do not use.\n- Conserva tres constantes: hook, melody contour, section order.\n- Cambia solo dos variables por pase: groove plus instruments, o vocal texture plus energy.\n- Incluye una negative identity line: no named artist, no celebrity voice, no misleading metadata.\n- Nombra archivos por decision: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Handoff antes de publicar",
+        "Guarda juntos el archivo fuente, el brief, la version elegida y el motivo de la decision. Si el cover ira a YouTube, Spotify, un anuncio o una carpeta de aprobacion de cliente, revisa disclosure, derechos y consentimiento fuera del generador. Un AI song cover no deja automaticamente aprobados la composicion, la grabacion fuente, la semejanza vocal, el artwork ni la metadata para todo uso.",
+        "## FAQ\n### Puedo hacer un AI cover de una cancion famosa?\nPuedes experimentar en privado, pero publicar o distribuir puede implicar derechos de composicion, grabacion y reglas de plataforma. No lances nada si no sabes que posees o que tienes licenciado.\n### Conviene nombrar a un artista en el prompt?\nEvitalo. Usa atributos musicales, sobre todo si el nombre podria sugerir apoyo, colaboracion o imitacion.\n### Cuantas versiones pruebo?\nEmpieza con dos versiones del mismo brief. Si las dos fallan por la misma razon, corrige el brief antes de crear mas takes.\n### Cual es la mejor senal de exito?\nEl hook conserva la identidad de la cancion, el nuevo estilo tiene un proposito claro y nada en la voz o metadata confunde al oyente."
+      ]
+    },
+    "fr": {
+      "title": "Ecrire un brief AI Song Cover sans copier une identite",
+      "description": "Workflow concret pour restyler une source autorisee, tout en gardant melodie, consentement, metadata et controle avant publication.",
+      "body": [
+        "Tu as une demo avec une voix utile et un refrain solide, mais l arrangement ne colle plus a la nouvelle video, a une version courte ou au ton de la campagne. Un AI song cover semble etre le raccourci: garder la chanson, changer le style. Le risque est qu un brief trop flou perde la melodie, glisse vers une identite reconnaissable, ou oublie la premiere question: as-tu le droit de transformer cette source?",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA pour produire des brouillons a partir de prompts, de paroles et de directions de style. Quand le restyle reste trop vague, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) aide a transformer une humeur en brief plus testable. L outil soutient l essai creatif, mais les droits, le consentement, le contexte de sortie et les regles de plateforme restent a verifier separement.",
+        "## Pars d une source autorisee",
+        "Ecris en haut du brief pourquoi la source peut etre utilisee: demo originale que tu as ecrite, voix que tu as enregistree, morceau commande avec des termes clairs, ou fichier que tu es autorise a transformer. Si la source est deja une reprise d une autre composition, ou si elle utilise la voix d une personne reelle, fais une revue separee avant distribution. Ne teste pas le workflow sur un enregistrement celebre ou une identite vocale que tu ne controles pas.",
+        "## Separe ce qui reste et ce qui change",
+        "Un bon cover ne change pas tout en meme temps. Verrouille trois constantes: le hook des paroles, le contour general de la melodie et l ordre ou la trajectoire d energie des sections. Puis choisis seulement deux variables pour le premier passage: instrumentation et groove, ou sensation de tempo et texture vocale. Exemple: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Inscris les limites d identite",
+        "Au lieu de sound like Artist X, decris des choix audibles sans emprunter une persona publique: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. Si tu utilises ta propre voix ou une voix avec permission documentee, note-le dans le handoff. Sans permission, garde la direction vocale generale et verifie que titre, visuel, credits et captions ne suggerent pas une participation ou une approbation.",
+        "## Compare deux covers avant de relancer",
+        "Genere deux versions depuis la meme source et note-les avec quatre questions: le hook reste-t-il reconnaissable? Le nouveau style sert-il le nouvel usage? L identite vocale semble-t-elle independante? Un moment attire-t-il l attention pour une mauvaise raison? Dans EasyMusic.AI, une petite comparaison controlee vaut mieux qu une longue serie de tirs au hasard. Ecoute surtout le premier refrain, la transition vers le bridge et la fin.",
+        "## Idees reutilisables",
+        "- Ajoute une source note avant le prompt: owned demo, commissioned vocal, licensed source, or do not use.\n- Preserve trois constantes: hook, melody contour, section order.\n- Change seulement deux variables par passage: groove plus instruments, ou vocal texture plus energy.\n- Ajoute une negative identity line: no named artist, no celebrity voice, no misleading metadata.\n- Nomme les fichiers par decision: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Handoff avant publication",
+        "Range ensemble le fichier source, le brief, la version choisie et la raison du choix. Si le cover part vers YouTube, Spotify, une publicite ou un dossier client, controle disclosure, droits et consentement hors du generateur. Un AI song cover ne rend pas automatiquement la composition, l enregistrement source, la ressemblance vocale, l artwork ou la metadata utilisables partout.",
+        "## FAQ\n### Puis-je faire un AI cover d une chanson connue?\nTu peux peut-etre experimenter en prive, mais publier ou distribuer peut impliquer droits de composition, droits d enregistrement et regles de plateforme. Ne sors rien si tu ne sais pas ce que tu possedes ou as licence.\n### Faut-il nommer un artiste dans le prompt?\nEvite. Utilise des attributs musicaux, surtout si le nom peut suggerer une approbation, une collaboration ou une imitation.\n### Combien de versions tester?\nCommence par deux versions du meme brief. Si les deux echouent pour la meme raison, corrige le brief avant d en creer plus.\n### Quel signe montre que le cover fonctionne?\nLe hook reste identifiable, le nouveau style a un but clair, et ni la voix ni la metadata ne trompent l auditeur."
+      ]
+    },
+    "it": {
+      "title": "Scrivi un Brief AI Song Cover senza Copiare Identita",
+      "description": "Workflow pratico per restyling di una traccia che puoi usare, con melodia, consenso, metadata e revisione di pubblicazione chiari.",
+      "body": [
+        "Hai un demo con una voce utile e un ritornello che funziona, ma l arrangiamento non serve piu il nuovo video, il taglio breve o il tono della campagna. Un AI song cover sembra la scorciatoia: tieni la canzone e cambia stile. Il rischio e che un brief vago perda la melodia, si avvicini troppo a un artista riconoscibile o salti la domanda iniziale: puoi davvero trasformare questa fonte?",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma per creare bozze musicali con IA da prompt, testi e direzioni di stile. Quando il restyle e troppo generico, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare un mood in un brief piu chiaro da testare. Lo strumento aiuta il passaggio creativo, ma diritti, consenso, contesto di uscita e regole delle piattaforme restano controlli separati.",
+        "## Parti da una fonte che puoi usare",
+        "Scrivi all inizio del brief perche la fonte e consentita: un demo originale scritto da te, una voce registrata da te, una traccia commissionata con termini chiari o un file che hai licenza di trasformare. Se la fonte e gia una cover di una composizione altrui, o usa la voce di una persona reale, serve una verifica separata prima della distribuzione. Non usare come primo test un brano famoso o una voce che non controlli.",
+        "## Separa cosa resta da cosa cambia",
+        "Una cover forte non cambia tutto insieme. Blocca tre costanti: lyric hook, contorno generale della melodia e ordine o percorso energetico delle sezioni. Poi scegli solo due variabili per il primo passaggio, come strumentazione e groove, oppure tempo feel e vocal texture. Esempio: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Scrivi i limiti di identita",
+        "Invece di sound like Artist X, descrivi scelte udibili senza prendere in prestito una persona pubblica: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. Se usi la tua voce o una voce con permesso documentato, inseriscilo nelle note di handoff. Senza permesso, tieni generica la direzione vocale e controlla che titolo, artwork, credits e captions non suggeriscano endorsement o collaborazione.",
+        "## Confronta due cover prima di rilanciare",
+        "Genera due versioni dalla stessa fonte e valutale con quattro domande: il hook resta riconoscibile? Il nuovo stile serve il nuovo uso? L identita vocale e indipendente? C e un momento che distrae per il motivo sbagliato? In EasyMusic.AI, un confronto piccolo e controllato vale piu di una lunga serie di prove senza criterio. Ascolta soprattutto primo ritornello, transizione al bridge e finale.",
+        "## Idee riutilizzabili",
+        "- Aggiungi una source note prima del prompt: owned demo, commissioned vocal, licensed source, or do not use.\n- Conserva tre costanti: hook, melody contour, section order.\n- Cambia solo due variabili per passaggio: groove plus instruments, oppure vocal texture plus energy.\n- Aggiungi una negative identity line: no named artist, no celebrity voice, no misleading metadata.\n- Nomina i file in base alla decisione: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Handoff prima della pubblicazione",
+        "Conserva insieme file sorgente, brief, versione scelta e motivo della scelta. Se la cover andra su YouTube, Spotify, in un annuncio o a un cliente, verifica disclosure, diritti e consenso fuori dal generatore. Un AI song cover non rende automaticamente composizione, registrazione sorgente, somiglianza vocale, artwork o metadata adatti a ogni uso.",
+        "## FAQ\n### Posso fare un AI cover di una canzone famosa?\nPuoi forse sperimentare in privato, ma pubblicare o distribuire puo coinvolgere diritti di composizione, registrazione e regole di piattaforma. Non rilasciare nulla se non sai cosa possiedi o hai in licenza.\n### Devo nominare un artista nel prompt?\nMeglio evitare. Usa attributi musicali, specialmente se un nome puo suggerire approvazione, collaborazione o imitazione.\n### Quante versioni devo testare?\nInizia con due versioni dello stesso brief. Se falliscono per lo stesso motivo, correggi il brief prima di creare altri take.\n### Qual e il segnale migliore?\nIl hook resta la stessa canzone, il nuovo stile ha uno scopo chiaro e voce o metadata non confondono l ascoltatore."
+      ]
+    },
+    "ja": {
+      "title": "他人のIdentityをコピーしないAI Song Cover Briefの書き方",
+      "description": "使えるsource trackをrestyleするために、melody、consent、metadata、release reviewを分けて考える実用workflow。",
+      "body": [
+        "使えるvocalと機能するchorusがあるdemoはある。でも新しいvideo、short edit、campaign moodにはarrangementが合わない。AI song coverは早い解決に見えます。Songは残し、styleだけ変える。ただしbriefが曖昧だとmelodyがぼやけ、特定artistのidentityに近づき、最初の質問を飛ばします。そのsourceをtransformしてよいのか、です。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は text prompts、lyrics、style direction から music drafts を作るAI music creation platformです。Restyle direction が曖昧な時は、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で mood を testable な brief に整理できます。Creative pass には役立ちますが、rights、consent、release context、platform rules は別に確認します。",
+        "## 使えるsourceから始める",
+        "Briefの最初に、そのsourceを使える理由を一行で書きます。自分で書いたoriginal demo、自分で録ったvocal、clear termsのあるcommissioned track、transformのlicenseがあるfile。Sourceが他人のcompositionのcoverだったり、real personのvoiceを含んだりする場合、distribution前に別reviewが必要です。有名recordingや管理していないsinger identityを最初のtestにしないでください。",
+        "## 残すものと変えるものを分ける",
+        "強いcover briefは全部を一度に変えません。まず三つを固定します。lyric hook、melody contour、section orderまたはenergy path。次にfirst passで二つだけ変えます。Instrumentationとgroove、またはtempo feelとvocal texture。例: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Identity boundaryをpromptに入れる",
+        "sound like Artist X ではなく、public identityを借りない audible choices を書きます。close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting。自分のvoice、またはdocumented permissionがあるvoiceならhandoff fileに残します。Permissionがない場合はvoice directionをgenericにし、title、artwork、credits、captionsがendorsementやcollaborationを示さないか確認します。",
+        "## まず二つのcoverを比較する",
+        "同じsourceから二つ生成し、四つの質問でscoreします。Hookは認識できるか。New styleは新しい用途に合うか。Vocal identityは独立しているか。Wrong reasonで目立つ瞬間はないか。EasyMusic.AIでは、長いreroll列より小さなcontrolled comparisonの方が判断材料になります。特にfirst chorus、bridge transition、endingを聴きます。",
+        "## 今日使えるアイデア",
+        "- Promptの前にsource noteを書く: owned demo, commissioned vocal, licensed source, or do not use.\n- 三つのconstantsを守る: hook, melody contour, section order.\n- 各passで二つだけ変える: groove plus instruments、またはvocal texture plus energy。\n- negative identity lineを入れる: no named artist, no celebrity voice, no misleading metadata.\n- File名をdecisionで付ける: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Publishing前のhandoff",
+        "Source file、brief、chosen version、選んだ理由を一緒に保存します。CoverをYouTube、Spotify、ad、client approval folderへ出すなら、disclosure、rights、consentをgeneratorの外で確認します。AI song coverはcomposition、source recording、voice likeness、artwork、release metadataをすべての用途で自動的に使える状態にはしません。",
+        "## FAQ\n### 有名曲のAI coverは作れますか？\nPrivateなexperimentはできるかもしれませんが、publishやdistributionにはcomposition rights、recording rights、platform rulesが関わります。何を所有し、何をlicenseしているか不明ならreleaseしません。\n### Promptにartist名を書くべきですか？\n避けます。名前がendorsement、collaboration、impersonationに聞こえる場合があるため、musical attributesで書きます。\n### 何version試すべきですか？\n同じbriefから二つ始めます。二つとも同じ理由で失敗したら、takeを増やす前にbriefを直します。\n### 成功のサインは？\nHookが同じsongとして残り、new styleに目的があり、voiceやmetadataがlistenerを誤解させないことです。"
+      ]
+    },
+    "ko": {
+      "title": "다른 사람 Identity를 복사하지 않는 AI Song Cover Brief",
+      "description": "사용 가능한 source track을 restyle할 때 melody, consent, metadata, release review를 분리하는 practical workflow.",
+      "body": [
+        "쓸 만한 vocal과 잘 작동하는 chorus가 있는 demo가 있습니다. 그런데 arrangement가 새 video, short edit, campaign mood와 맞지 않습니다. AI song cover는 빠른 해결책처럼 보입니다. Song은 유지하고 style만 바꾸면 되니까요. 하지만 느슨한 brief는 melody를 흐리게 만들고, 유명 artist identity에 가까워지며, 가장 중요한 질문을 건너뜁니다. 이 source를 transform할 권한이 있나요?",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text prompts, lyrics, style direction을 바탕으로 music drafts를 만드는 AI music creation platform입니다. Restyle direction이 vague할 때 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 mood를 더 testable한 brief로 정리할 수 있습니다. Tool은 creative pass를 돕지만 rights, consent, release context, platform rules는 별도로 확인해야 합니다.",
+        "## 사용할 수 있는 source로 시작한다",
+        "Brief 맨 위에 source가 허용되는 이유를 한 줄로 씁니다. 내가 쓴 original demo, 내가 녹음한 vocal, clear terms가 있는 commissioned track, transform license가 있는 file처럼요. Source가 이미 다른 composition의 cover이거나 real person voice를 포함한다면 distribution 전에 별도 review가 필요합니다. 유명 recording이나 관리하지 않는 singer identity를 첫 workflow test로 삼지 마세요.",
+        "## 남길 것과 바꿀 것을 분리한다",
+        "좋은 cover brief는 모든 것을 한 번에 바꾸지 않습니다. 먼저 세 가지 constants를 고정합니다. Lyric hook, general melody contour, section order 또는 energy path입니다. 그런 다음 first pass에서는 두 가지 variables만 고릅니다. Instrumentation plus groove, 또는 tempo feel plus vocal texture처럼요. 예: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Prompt에 identity boundary를 쓴다",
+        "sound like Artist X 대신 public identity를 빌리지 않는 audible choices를 씁니다. close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting처럼요. 내 voice나 documented permission이 있는 voice를 사용한다면 handoff file에 남기세요. Permission이 없다면 voice direction은 generic하게 유지하고 title, artwork, credits, captions가 endorsement나 collaboration처럼 보이지 않는지 확인합니다.",
+        "## Reroll 전에 두 cover를 비교한다",
+        "같은 source에서 두 version을 만들고 네 질문으로 score합니다. Hook이 알아볼 수 있게 남았나요? New style이 새 사용 목적에 맞나요? Vocal identity가 독립적으로 들리나요? 잘못된 이유로 attention을 끄는 순간이 있나요? EasyMusic.AI에서는 긴 reroll보다 작은 controlled comparison이 더 좋은 evidence가 됩니다. 특히 first chorus, bridge transition, ending을 들어보세요.",
+        "## 바로 쓸 수 있는 아이디어",
+        "- Prompt 전에 source note를 쓴다: owned demo, commissioned vocal, licensed source, or do not use.\n- 세 constants를 보존한다: hook, melody contour, section order.\n- Pass마다 두 variables만 바꾼다: groove plus instruments, 또는 vocal texture plus energy.\n- negative identity line을 추가한다: no named artist, no celebrity voice, no misleading metadata.\n- File name을 decision 기준으로 붙인다: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Publishing 전 handoff",
+        "Source file, brief, chosen version, 선택 이유를 함께 보관하세요. Cover가 YouTube, Spotify, ad, client approval folder로 간다면 generator 밖에서 disclosure, rights, consent를 확인해야 합니다. AI song cover는 composition, source recording, voice likeness, artwork, release metadata를 모든 용도에 자동으로 사용할 수 있게 만들지 않습니다.",
+        "## FAQ\n### 유명한 song의 AI cover를 만들 수 있나요?\nPrivate experiment는 가능할 수 있지만 publish나 distribution에는 composition rights, recording rights, platform rules가 관련됩니다. 무엇을 소유하고 license했는지 모르면 release하지 마세요.\n### Prompt에 artist name을 넣어야 하나요?\n피하세요. 이름은 endorsement, collaboration, impersonation처럼 들릴 수 있으므로 musical attributes를 쓰는 편이 낫습니다.\n### 몇 version을 test해야 하나요?\n같은 brief에서 두 version으로 시작하세요. 둘 다 같은 이유로 실패하면 더 만들기 전에 brief를 수정합니다.\n### 성공한 cover의 신호는?\nHook은 같은 song으로 남고, new style은 clear purpose가 있으며, voice나 metadata가 listener를 오해시키지 않는 것입니다."
+      ]
+    },
+    "pt": {
+      "title": "Escreva um Brief de AI Song Cover sem Copiar Identidade",
+      "description": "Workflow pratico para restyling de uma fonte que voce pode usar, com melodia, consentimento, metadata e revisao de lancamento claros.",
+      "body": [
+        "Voce tem um demo com uma voz util e um refrao que funciona, mas o arranjo nao combina mais com o novo video, a versao curta ou o clima da campanha. Um AI song cover parece o caminho rapido: manter a musica e mudar o estilo. O risco e que um brief solto apague a melodia, aproxime a voz de um artista reconhecivel ou pule a primeira pergunta: voce pode transformar essa fonte?",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para transformar prompts, letras e direcao de estilo em rascunhos musicais. Quando o restyle esta vago demais, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) ajuda a converter um mood em um brief mais claro para testar. A ferramenta apoia o passe criativo, mas direitos, consentimento, contexto de lancamento e regras de plataforma continuam separados.",
+        "## Comece com uma fonte que voce pode usar",
+        "Escreva no topo do brief por que a fonte e permitida: um demo original que voce escreveu, uma voz que voce gravou, uma faixa encomendada com termos claros ou um arquivo licenciado para transformar. Se a fonte ja e cover de outra composicao, ou se usa a voz de uma pessoa real, trate isso como revisao separada antes da distribuicao. Nao faca o primeiro teste depender de uma gravacao famosa ou de uma identidade vocal que voce nao controla.",
+        "## Separe o que fica do que muda",
+        "Um cover forte nao muda tudo ao mesmo tempo. Trave tres constantes: lyric hook, contorno geral da melodia e ordem ou caminho de energia das secoes. Depois escolha so duas variaveis no primeiro passe, como instrumentacao e groove, ou sensacao de tempo e textura vocal. Exemplo: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Escreva limites de identidade",
+        "Em vez de sound like Artist X, descreva escolhas audiveis que nao tomam uma identidade publica emprestada: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. Se usa sua propria voz ou uma voz com permissao documentada, registre isso no handoff. Sem permissao, mantenha a direcao vocal generica e confira se titulo, artwork, creditos e captions nao sugerem apoio ou colaboracao.",
+        "## Compare dois covers antes de reroll",
+        "Gere duas versoes da mesma fonte e avalie com quatro perguntas: o hook continua reconhecivel? O novo estilo serve ao novo uso? A identidade vocal parece independente? Ha algum momento que chama atencao pelo motivo errado? No EasyMusic.AI, uma comparacao pequena e controlada vale mais que muitas tentativas sem criterio. Ouça primeiro o refrao inicial, a transicao para a ponte e o final.",
+        "## Ideias reutilizaveis",
+        "- Adicione uma source note antes do prompt: owned demo, commissioned vocal, licensed source, or do not use.\n- Preserve tres constantes: hook, melody contour, section order.\n- Mude so duas variaveis por passe: groove plus instruments, ou vocal texture plus energy.\n- Inclua uma negative identity line: no named artist, no celebrity voice, no misleading metadata.\n- Nomeie arquivos por decisao: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Handoff antes de publicar",
+        "Guarde juntos o arquivo fonte, o brief, a versao escolhida e o motivo da escolha. Se o cover vai para YouTube, Spotify, anuncio ou pasta de aprovacao de cliente, revise disclosure, direitos e consentimento fora do gerador. Um AI song cover nao libera automaticamente composicao, gravacao fonte, semelhanca vocal, artwork ou metadata para qualquer uso.",
+        "## FAQ\n### Posso fazer AI cover de uma musica famosa?\nTalvez voce consiga experimentar em privado, mas publicar ou distribuir pode envolver direitos de composicao, gravacao e regras de plataforma. Nao lance nada se nao souber o que possui ou licenciou.\n### Devo citar um artista no prompt?\nEvite. Use atributos musicais, especialmente quando um nome pode sugerir apoio, colaboracao ou imitacao.\n### Quantas versoes testar?\nComece com duas versoes do mesmo brief. Se as duas falham pelo mesmo motivo, revise o brief antes de criar mais takes.\n### Qual e o melhor sinal de sucesso?\nO hook ainda parece a mesma musica, o novo estilo tem proposito claro e nada na voz ou metadata confunde o ouvinte."
+      ]
+    },
+    "ru": {
+      "title": "Напишите AI Song Cover Brief без копирования чужой идентичности",
+      "description": "Практический workflow для restyle трека, который можно использовать: мелодия, согласие, metadata и проверка перед релизом.",
+      "body": [
+        "У вас есть demo с полезным вокалом и рабочим припевом, но arrangement больше не подходит новому видео, короткой версии или настроению кампании. AI song cover кажется быстрым решением: оставить песню и сменить стиль. Риск в том, что слабый brief размоет мелодию, подтолкнет голос к узнаваемому артисту или пропустит главный вопрос: можно ли вам трансформировать этот source?",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) — платформа для создания AI music drafts из prompts, lyrics и style direction. Если restyle звучит слишком расплывчато, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает превратить mood в более ясный brief для проверки. Инструмент помогает творческому проходу, но rights, consent, release context и platform rules нужно проверять отдельно.",
+        "## Начните с source, который можно использовать",
+        "В первой строке brief напишите, почему source разрешен: original demo, которое вы написали, vocal, который вы записали, commissioned track с понятными условиями или файл с лицензией на transform. Если source уже является cover чужой composition, или если в нем есть голос реального человека, нужна отдельная проверка до distribution. Не начинайте workflow с известной записи или singer identity, которую вы не контролируете.",
+        "## Отделите то, что остается, от того, что меняется",
+        "Хороший cover brief не меняет все сразу. Сначала закрепите три constants: lyric hook, общий melody contour и section order или energy path. Потом выберите только две variables для первого pass: instrumentation и groove, либо tempo feel и vocal texture. Пример: keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## Пропишите границы identity",
+        "Вместо sound like Artist X опишите слышимые решения без заимствования публичной личности: close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting. Если вы используете свой голос или голос с documented permission, сохраните это в handoff file. Если разрешения нет, оставьте voice direction общей и проверьте, что title, artwork, credits и captions не намекают на endorsement или collaboration.",
+        "## Сравните две версии до новых rerolls",
+        "Создайте две версии из одного source и оцените их по четырем вопросам: hook остался узнаваемым? Новый style служит новой задаче? Vocal identity звучит независимо? Есть ли момент, который отвлекает не по делу? В EasyMusic.AI маленькое controlled comparison полезнее длинной серии догадок. Обычно важные места — first chorus, transition к bridge и ending.",
+        "## Идеи, которые можно применить сразу",
+        "- Добавьте source note перед prompt: owned demo, commissioned vocal, licensed source, or do not use.\n- Сохраните три constants: hook, melody contour, section order.\n- Меняйте только две variables за pass: groove plus instruments или vocal texture plus energy.\n- Добавьте negative identity line: no named artist, no celebrity voice, no misleading metadata.\n- Называйте файлы по решению: cover-test-a-sparser-drums, cover-test-b-brighter-chorus.",
+        "## Handoff перед публикацией",
+        "Храните вместе source file, brief, chosen version и причину выбора. Если cover пойдет на YouTube, Spotify, в рекламу или клиентскую папку, проверьте disclosure, rights и consent вне генератора. AI song cover не делает composition, source recording, voice likeness, artwork или release metadata автоматически пригодными для любого использования.",
+        "## FAQ\n### Можно ли сделать AI cover известной песни?\nВозможно, для частного эксперимента, но публикация или distribution могут затрагивать composition rights, recording rights и platform rules. Не выпускайте работу, если не знаете, чем владеете и что лицензировано.\n### Стоит ли писать имя артиста в prompt?\nЛучше избегать. Используйте музыкальные признаки, особенно если имя может звучать как endorsement, collaboration или impersonation.\n### Сколько версий тестировать?\nНачните с двух версий одного brief. Если обе не подходят по одной причине, исправьте brief до новых takes.\n### Главный признак успешного cover?\nHook ощущается как та же песня, новый style имеет понятную задачу, а voice и metadata не вводят слушателя в заблуждение."
+      ]
+    },
+    "zh": {
+      "title": "写一份不复制他人 Identity 的 AI Song Cover Brief",
+      "description": "一个实用 workflow：在 restyle 可用 source track 时，分清 melody、consent、metadata 和 release review。",
+      "body": [
+        "你有一个 demo，vocal 有用，chorus 也成立，但 arrangement 已经不适合新的 video、short edit 或 campaign mood。AI song cover 看起来像最快的办法：保留 song，换掉 style。风险是，模糊的 brief 会让 melody 变形，让 voice 靠近某个可识别的 artist identity，或者直接跳过第一个问题：这个 source 真的可以被你 transform 吗？",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 text prompts、lyrics 和 style direction 生成 music drafts。Restyle direction 太笼统时，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把 mood 整理成更容易测试的 brief。它可以支持 creative pass，但 rights、consent、release context 和 platform rules 仍然要单独检查。",
+        "## 从你可以使用的 source 开始",
+        "在 brief 顶部写一行，说明 source 为什么可用：你写的 original demo、你录制的 vocal、条款清楚的 commissioned track，或明确允许 transform 的 licensed source。如果 source 本身已经是他人 composition 的 cover，或者包含真实人物的 voice，distribution 前要单独 review。不要把第一次 workflow test 建立在 famous recording 或你无法控制的 singer identity 上。",
+        "## 分清保留项和变化项",
+        "好的 cover brief 不会一次改变所有东西。先锁定三个 constants：lyric hook、general melody contour、section order 或 energy path。然后 first pass 只改两个 variables，比如 instrumentation 和 groove，或 tempo feel 和 vocal texture。例子：keep the chorus melody and lyric timing, restyle from acoustic demo to restrained synth-pop, no celebrity vocal reference, leave space before each chorus line.",
+        "## 把 identity boundary 写进 prompt",
+        "不要写 sound like Artist X，而是写不借用 public identity 的 audible choices：close dry vocal, soft upper harmonies, brushed drums, late-night bass, no dramatic belting。如果使用自己的 voice，或有 documented permission 的 voice，把它放进 handoff file。没有 permission 时，voice direction 要保持 generic，并检查 title、artwork、credits、captions 不要暗示 endorsement 或 collaboration。",
+        "## Reroll 前先比较两个 cover",
+        "从同一个 source 生成两个 versions，用四个问题评分：hook 还容易识别吗？new style 服务新的用途吗？vocal identity 听起来独立吗？有没有因为错误原因抢注意力的 moment？在 EasyMusic.AI 里，小范围 controlled comparison 比连续很多次猜测更有用。重点听 first chorus、bridge transition 和 ending。",
+        "## 今天就能复用的做法",
+        "- 在 prompt 前写 source note：owned demo, commissioned vocal, licensed source, or do not use。\n- 保留三个 constants：hook, melody contour, section order。\n- 每个 pass 只改两个 variables：groove plus instruments，或 vocal texture plus energy。\n- 加一行 negative identity line：no named artist, no celebrity voice, no misleading metadata。\n- 用 decision 给文件命名：cover-test-a-sparser-drums, cover-test-b-brighter-chorus。",
+        "## Publishing 前的 handoff",
+        "把 source file、brief、chosen version 和选择原因放在一起。如果 cover 要发到 YouTube、Spotify、ad 或 client approval folder，就在 generator 之外检查 disclosure、rights 和 consent。AI song cover 不会让 composition、source recording、voice likeness、artwork 或 release metadata 自动适合所有使用场景。",
+        "## FAQ\n### 可以做 famous song 的 AI cover 吗？\n也许可以 private experiment，但 publish 或 distribution 可能涉及 composition rights、recording rights 和 platform rules。如果不知道自己拥有什么、license 了什么，就不要 release。\n### Prompt 里应该写 artist name 吗？\n尽量避免。用 musical attributes 代替，特别是当一个名字可能让结果像 endorsement、collaboration 或 impersonation 时。\n### 应该测试多少 versions？\n从同一个 brief 的两个 versions 开始。如果两者因为同一个原因失败，先改 brief，再做更多 takes。\n### 成功的 cover 有什么信号？\nHook 仍像同一首 song，new style 有清楚目的，voice 和 metadata 不会误导 listener。"
+      ]
+    }
+  }
+}
