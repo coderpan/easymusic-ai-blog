@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-10",
+  "slug": "presentation-walk-on-ai-music-cue-sheet",
+  "cluster": "presentation-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "ابن Cue Sheet لموسيقى دخول العرض التقديمي بالذكاء الاصطناعي",
+      "description": "Workflow عملي لاستخدام AI music في presentation وwebinar وdeck recording من دون تغطية صوت المتحدث او ارباك فريق AV.",
+      "body": [
+        "الdeck جاهز، والspeaker ينتظر عند جانب المسرح، لكن music ما زالت تعمل عندما يبدأ اول سطر. في webinar، المشكلة تختلف قليلا: شخص يشارك الشاشة لكنه نسي Share Sound، فيسمع الفريق الصوت محليا ولا يسمعه الجمهور. Presentation music لا تفشل عادة لان الtrack سيئ. تفشل لان لا احد كتب متى يبدأ، متى يتوقف، ومن يملك كلمة GO.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts من text prompts وlyrics وstyle directions. اذا كانت فكرة الصوت غير واضحة، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل mood عام الى style brief قابل للاختبار. وبعد اختيار النسخة، يمكن ان يساعد [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) في تجهيز صيغة مناسبة، مع بقاء مراجعة الحقوق والمنصة على عاتق الفريق.",
+        "## اكتب cue sheet قبل prompt",
+        "لا تبدأ بgenre. ابدأ باللحظات. اكتب اربعة صفوف قصيرة: walk-in loop قبل البداية، walk-on cue عند صعود المتحدث، section bumper بين فصلين، وclosing cue بعد اخر سؤال. لكل صف، دوّن duration، trigger word، fade type، owner، وbackup file. هذا يحول الموسيقى من ملف غامض في مجلد downloads الى جزء من run of show يمكن للفريق اختباره.",
+        "## اجعل كل cue يؤدي وظيفة واحدة",
+        "Walk-in music يجب ان يجعل الغرفة مستعدة لا متحمسة اكثر من اللازم. Walk-on cue يحتاج نهاية واضحة خلال 8 الى 12 ثانية. Section bumper يجب ان يكون قصيرا بما يكفي كي لا يسرق اول slide. Closing cue يمكن ان يكون اوسع قليلا، لكن لا تجعله يغطي CTA او معلومات الاتصال. Prompt عملي: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## الصمت احيانا هو الخيار المهني",
+        "اذا كان هناك كلام، اجعل silence هو default. في recording، استخدم music bed منخفضا جدا او اتركه خارج اجزاء الشرح الكثيفة. في live room، اقطع الموسيقى قبل الجملة الاولى لا بعدها. في online presentation، اختبر share computer audio، مستوى الصوت، والecho قبل البث. لا تترك speaker يتنافس مع beat سريع، bass عميق، او hook صوتي متكرر.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- سمّ كل ملف برقم cue: 01-walk-in-loop، 02-ceo-walk-on، 03-demo-bumper.\n- اكتب trigger مسموعا: after host says welcome back، not around slide 14.\n- استخدم نسخة قصيرة لها نهاية button بدلا من fade طويل عندما يدخل mic live.\n- احتفظ بملف backup اهدأ بنسبة واضحة، لا نسخة مختلفة تماما.\n- ارسل للفريق cue sheet مع الملفات، لا الملفات وحدها.",
+        "## راجع قبل العرض او النشر",
+        "اختبر الملف على نفس laptop، projector، meeting app، او playback machine التي ستستخدم فعلا. اذا كان deck سيصبح video على YouTube او منصة اخرى، افصل مراجعة disclosure عن قرار الموسيقى. اذا كانت الموسيقى AI-generated او كان الفيديو يحتوي محتوى واقعي مولدا او معدلا، راجع قواعد المنصة بدلا من الافتراض. EasyMusic.AI يساعدك على بناء draft، لكنه لا يضمن ان كل استخدام مسموح قانونيا او مناسبا لكل venue.",
+        "## FAQ\n### هل اضع music تحت كامل العرض؟\nغالبا لا. استخدمها في الدخول، الانتقالات القصيرة، والخاتمة. تحت الكلام الطويل تصبح عبئا على الفهم.\n### كم cue احتاج لdeck قصير؟\nثلاثة كافية غالبا: walk-in او intro، bumper قصير، وclosing. زد العدد فقط اذا كان لديك awards، demo reveal، او sponsor segment.\n### هل احتاج vocal؟\nللpresentation، instrumental عادة اسلم لان vocal ينافس المتحدث والكلمات على الشاشة. اذا استخدمت vocal hook فاجعله قبل speech او بعده.\n### ما اهم اختبار قبل العرض؟\nشغّل cue، افتح mic، واطلب من شخص في اخر الغرفة او على الاتصال ان يخبرك هل الكلام واضح."
+      ]
+    },
+    "de": {
+      "title": "Erstelle ein AI Music Cue Sheet fuer Presentation Walk-Ons",
+      "description": "Ein praktischer Workflow fuer KI Musik in Praesentationen, Webinaren und Deck-Aufnahmen, ohne Speaker oder AV-Handoff zu stoeren.",
+      "body": [
+        "Das Deck ist fertig, der Speaker steht bereit, aber die Musik laeuft noch, wenn der erste Satz beginnt. Im Webinar passiert die kleinere Version davon: Der Host teilt den Bildschirm, aber nicht den Computersound. Presentation music scheitert selten daran, dass der Track an sich schlecht ist. Sie scheitert, weil niemand festgelegt hat, wann er startet, wann er endet und wer GO sagt.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform, mit der du Musikentwuerfe aus Textprompts, Lyrics und Stilrichtungen erstellst. Wenn die Soundidee noch zu allgemein ist, hilft der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), daraus ein klares Style Brief zu machen. Nach der Auswahl kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) passende Formate vorbereiten; Rechte, Einwilligung und Plattformregeln bleiben separate Pruefpunkte.",
+        "## Schreibe das Cue Sheet vor dem Prompt",
+        "Starte nicht mit dem Genre, sondern mit den Momenten. Lege vier Zeilen an: Walk-in loop vor Beginn, Walk-on cue fuer den Auftritt, kurzer Section bumper zwischen zwei Teilen und Closing cue nach der letzten Frage. Notiere pro Zeile Dauer, Trigger-Wort, Fade-Art, Owner und Backup-Datei. So wird Musik Teil des Run of Show und nicht nur eine Datei namens final-final.mp3.",
+        "## Jeder Cue hat nur einen Job",
+        "Walk-in music soll den Raum sammeln, nicht die Hauptshow vorwegnehmen. Ein Walk-on cue braucht nach 8 bis 12 Sekunden ein klares Ende. Ein Section bumper muss kurz genug sein, damit die erste Folie danach nicht verloren geht. Ein Closing cue darf breiter sein, soll aber CTA und Kontaktinfos nicht ueberdecken. Beispiel: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Stille ist oft professioneller",
+        "Sobald gesprochen wird, ist silence der Standard. In einer Aufzeichnung kann ein sehr leises bed funktionieren, aber dichte Erklaerteile brauchen Luft. Im Live-Raum endet die Musik vor dem ersten Satz, nicht danach. Online testest du vorher Share computer audio, Lautstaerke und Echo. Kein Speaker sollte gegen schnellen Beat, tiefen Bass oder eine wiederholte Hook kaempfen muessen.",
+        "## Sofort nutzbare Ideen",
+        "- Benenne Dateien mit Cue-Nummern: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Schreibe einen hoerbaren Trigger: after host says welcome back, nicht around slide 14.\n- Nutze fuer Mikrofonmomente ein kurzes button ending statt eines langen Fades.\n- Halte ein deutlich ruhigeres Backup bereit, nicht einen komplett anderen Track.\n- Schicke dem AV-Team Cue Sheet und Dateien zusammen.",
+        "## Review vor Show oder Upload",
+        "Teste auf dem Laptop, Projektor, Meeting-Tool oder Playback-Rechner, der wirklich verwendet wird. Wenn aus der Praesentation ein Video fuer YouTube oder eine andere Plattform wird, trenne die Disclosure-Pruefung von der Musikentscheidung. Bei AI-generated music oder realistisch erzeugtem Bildmaterial gelten je nach Plattform eigene Angaben. EasyMusic.AI hilft beim Entwurf, aber es ersetzt keine Rechte- oder Venue-Pruefung.",
+        "## FAQ\n### Soll Musik unter der ganzen Praesentation laufen?\nMeistens nicht. Nutze sie fuer Einstieg, kurze Ueberleitungen und Schluss. Unter langen Erklaerungen verschlechtert sie oft die Verstaendlichkeit.\n### Wie viele Cues braucht ein kurzes Deck?\nDrei reichen oft: Intro oder Walk-in, ein kurzer Bumper und Closing. Mehr brauchst du nur fuer Awards, Demo-Reveals oder Sponsor-Segmente.\n### Brauche ich Vocals?\nFuer Praesentationen ist instrumental meistens klarer, weil Vocals mit Speaker und Folientext konkurrieren. Eine Vocal-Hook gehoert vor oder nach die Rede.\n### Was ist der wichtigste Test?\nSpiele den Cue, oeffne das Mikrofon und frage jemanden im hinteren Raum oder im Call, ob jedes Wort verstaendlich ist."
+      ]
+    },
+    "en": {
+      "title": "Build an AI Music Cue Sheet for Presentation Walk-Ons",
+      "description": "A practical workflow for using AI music in live decks, webinars, and recorded presentations without burying the speaker or confusing AV handoff.",
+      "body": [
+        "The deck is ready, the speaker is waiting offstage, and the opening track is still playing when the first sentence starts. In a webinar, the same mistake looks smaller but feels just as awkward: the host shares the screen but not the computer audio. Presentation music usually fails less because the track is bad and more because nobody wrote down when it starts, when it stops, and who is allowed to call GO.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning text prompts, lyrics, and style direction into music drafts. When the sound idea is still vague, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn a loose mood into a testable style brief. After you pick a version, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare a practical delivery format, while rights, permissions, and platform rules stay separate review steps.",
+        "## Write the Cue Sheet Before the Prompt",
+        "Do not start with the genre. Start with the moments. Create four rows: a walk-in loop before the presentation begins, a walk-on cue for the speaker entrance, a section bumper between two chapters, and a closing cue after the final question. For each row, write the duration, trigger word, fade type, owner, and backup file. That turns the track from a loose asset in Downloads into part of a run of show the team can rehearse.",
+        "## Give Each Cue One Job",
+        "Walk-in music should settle the room, not preview the climax. A walk-on cue needs a clear ending after 8 to 12 seconds. A section bumper should be short enough that the next slide still owns attention. A closing cue can open up a little, but it should not cover the call to action or contact details. A useful prompt looks like this: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Treat Silence as a Real Choice",
+        "When someone is speaking, silence is the default. For a recording, a very low music bed may work, but dense explanation needs space. In a live room, cut the music before the first sentence, not after it. In an online presentation, test computer-audio sharing, volume, and echo before the audience arrives. No speaker should have to fight a fast beat, deep bass, or repeated hook while explaining the main point.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Name every file with its cue number: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Write an audible trigger: after host says welcome back, not around slide 14.\n- Use a short button ending when a microphone goes live instead of a long fade.\n- Keep one quieter backup version, not a completely different track.\n- Send the AV team the cue sheet and files together, not a folder of mystery audio.",
+        "## Review Before the Room Hears It",
+        "Test on the laptop, projector, meeting app, or playback machine that will actually be used. If the presentation becomes a YouTube upload or social clip, keep disclosure review separate from the music decision. AI-generated music, synthetic visuals, and realistic edits can trigger platform-specific labeling questions. EasyMusic.AI can help you make the draft, but it does not decide whether a particular use is licensed, approved, or appropriate for every venue.",
+        "## FAQ\n### Should music run under the whole presentation?\nUsually no. Use music for the walk-in, entrance, short transitions, and close. Long explanations are easier to follow when music is absent or extremely low.\n### How many cues does a short deck need?\nThree is often enough: intro or walk-in, one bumper, and closing. Add more only when the show has awards, demos, sponsor reads, or timed video rolls.\n### Should I use vocals?\nInstrumental is usually safer for presentations because a voice competes with the speaker and slide text. If you use a vocal hook, place it before speech begins or after it ends.\n### What is the most important rehearsal test?\nPlay the cue, open the microphone, and ask someone at the back of the room or on the call whether the words are still easy to understand."
+      ]
+    },
+    "es": {
+      "title": "Crea un Cue Sheet de Musica IA para Entradas de Presentacion",
+      "description": "Workflow practico para usar musica IA en presentaciones, webinars y grabaciones sin tapar al speaker ni confundir al equipo AV.",
+      "body": [
+        "El deck esta listo, la persona que presenta espera junto al escenario y la musica de apertura sigue sonando cuando empieza la primera frase. En un webinar, el error es mas pequeno pero igual se nota: el host comparte pantalla, no comparte el audio del computador. La musica de presentacion rara vez falla solo porque el track sea malo. Falla porque nadie escribio cuando entra, cuando sale y quien puede decir GO.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma para crear borradores musicales con IA a partir de prompts, letras y direccion de estilo. Si la idea sonora todavia esta vaga, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) ayuda a convertir un mood en un brief de estilo que se puede probar. Despues de elegir una version, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede ayudar a preparar un formato practico; derechos, permisos y reglas de plataforma se revisan aparte.",
+        "## Escribe el cue sheet antes del prompt",
+        "No empieces por el genero. Empieza por los momentos. Crea cuatro filas: walk-in loop antes de iniciar, walk-on cue para la entrada del speaker, section bumper entre dos capitulos y closing cue despues de la ultima pregunta. En cada fila escribe duracion, trigger word, tipo de fade, owner y archivo backup. Asi la musica deja de ser un archivo suelto y se vuelve parte del run of show que el equipo puede ensayar.",
+        "## Dale una sola tarea a cada cue",
+        "La musica de walk-in debe ordenar la sala, no adelantar el climax. El walk-on cue necesita un final claro despues de 8 a 12 segundos. Un section bumper debe ser tan corto que la siguiente slide conserve la atencion. El closing cue puede abrirse un poco, pero no debe cubrir el CTA ni los datos de contacto. Prompt util: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Trata el silencio como decision real",
+        "Cuando alguien habla, el default es silencio. En una grabacion, una cama musical muy baja puede funcionar, pero una explicacion densa necesita espacio. En sala, corta la musica antes de la primera frase, no despues. En una presentacion online, prueba compartir audio del computador, volumen y eco antes de que llegue la audiencia. Ningun speaker deberia competir con beat rapido, bajo profundo o hook repetido.",
+        "## Ideas reutilizables",
+        "- Nombra cada archivo con su numero de cue: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Escribe un trigger audible: after host says welcome back, no around slide 14.\n- Usa un button ending corto cuando se abre un microfono, no un fade largo.\n- Guarda una version backup mas tranquila, no un track totalmente distinto.\n- Envia al equipo AV el cue sheet junto con los archivos, no una carpeta misteriosa.",
+        "## Revisa antes de que lo escuche la sala",
+        "Prueba en el laptop, projector, meeting app o playback machine que se usara realmente. Si la presentacion se convierte en video para YouTube o social, separa la revision de disclosure de la decision musical. La musica generada con IA, visuales sinteticos o edits realistas pueden activar preguntas de etiquetado segun la plataforma. EasyMusic.AI ayuda a crear el draft, pero no decide si un uso concreto esta licenciado, aprobado o adecuado para cada venue.",
+        "## FAQ\n### Debe sonar musica durante toda la presentacion?\nNormalmente no. Usala para entrada, transiciones cortas y cierre. Las explicaciones largas se entienden mejor sin musica o con un nivel extremadamente bajo.\n### Cuantos cues necesita un deck corto?\nTres suelen bastar: intro o walk-in, un bumper y closing. Agrega mas solo si hay premios, demos, sponsor reads o videos cronometrados.\n### Conviene usar voces?\nInstrumental suele ser mas claro porque una voz compite con el speaker y el texto de la slide. Si usas un vocal hook, colocalo antes o despues del habla.\n### Cual es el ensayo mas importante?\nReproduce el cue, abre el microfono y pide a alguien al fondo o en la llamada que confirme si cada palabra se entiende."
+      ]
+    },
+    "fr": {
+      "title": "Prepare un Cue Sheet de Musique IA pour les Entrees de Presentation",
+      "description": "Un workflow pratique pour utiliser la musique IA dans des presentations, webinars et videos de deck sans couvrir la voix ni brouiller le handoff AV.",
+      "body": [
+        "Le deck est pret, l'intervenant attend en coulisse, et la musique d'ouverture continue quand la premiere phrase commence. En webinar, la meme erreur est plus discrete mais tout aussi genante: l'hote partage l'ecran sans partager le son de l'ordinateur. La musique de presentation rate rarement parce que le morceau est mauvais. Elle rate parce que personne n'a ecrit quand elle commence, quand elle s'arrete et qui peut dire GO.",
+        "## Qu'est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui transforme prompts, paroles et directions de style en brouillons musicaux. Si l'idee sonore reste floue, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut convertir une humeur en brief de style testable. Une fois une version choisie, l'[Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut aider a preparer un format de livraison; les droits, permissions et regles de plateforme restent des controles separes.",
+        "## Ecris le cue sheet avant le prompt",
+        "Ne commence pas par le genre. Commence par les moments. Cree quatre lignes: walk-in loop avant le debut, walk-on cue pour l'entree du speaker, section bumper entre deux parties, et closing cue apres la derniere question. Pour chaque ligne, note la duree, le trigger word, le type de fade, l'owner et le fichier de secours. La musique devient alors un element du run of show que l'equipe peut repeter, pas un fichier perdu dans Downloads.",
+        "## Donne une seule mission a chaque cue",
+        "La musique de walk-in doit installer la salle, pas annoncer le climax. Un walk-on cue a besoin d'une fin claire apres 8 a 12 secondes. Un section bumper doit rester assez court pour que la slide suivante garde l'attention. Le closing cue peut etre plus large, mais il ne doit pas couvrir le CTA ni les contacts. Exemple utile: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Considere le silence comme un vrai choix",
+        "Quand quelqu'un parle, le silence est le default. Pour un enregistrement, un lit musical tres bas peut fonctionner, mais une explication dense a besoin d'espace. En salle, coupe la musique avant la premiere phrase, pas apres. En ligne, teste le partage du son ordinateur, le volume et l'echo avant l'arrivee du public. Aucun speaker ne devrait lutter contre un beat rapide, une basse profonde ou un hook repete.",
+        "## Idees reutilisables",
+        "- Nomme chaque fichier avec son numero de cue: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Ecris un trigger audible: after host says welcome back, pas around slide 14.\n- Utilise une fin courte type button ending quand le micro s'ouvre, pas un long fade.\n- Garde une version de secours plus calme, pas un morceau totalement different.\n- Envoie le cue sheet avec les fichiers a l'equipe AV.",
+        "## Verifie avant la salle ou l'upload",
+        "Teste sur le laptop, projecteur, app de reunion ou machine de playback qui sera vraiment utilise. Si la presentation devient une video YouTube ou social, separe la verification de disclosure de la decision musicale. La musique generee par IA, les visuels synthetiques et les edits realistes peuvent poser des questions de label selon la plateforme. EasyMusic.AI aide a creer le draft, mais ne remplace pas l'examen des droits, du lieu ou de l'usage.",
+        "## FAQ\n### Faut-il mettre de la musique sous toute la presentation ?\nEn general non. Utilise-la pour l'entree, les transitions courtes et la fin. Les longues explications sont plus faciles a suivre sans musique ou avec un niveau tres bas.\n### Combien de cues pour un deck court ?\nTrois suffisent souvent: intro ou walk-in, un bumper et closing. Ajoute-en seulement pour awards, demos, sponsor reads ou videos timees.\n### Faut-il des voix ?\nL'instrumental est souvent plus clair, car une voix concurrence le speaker et le texte des slides. Un vocal hook doit arriver avant ou apres la parole.\n### Quel test compte le plus en repetition ?\nLance le cue, ouvre le micro et demande a une personne au fond de la salle ou dans l'appel si chaque mot reste comprehensible."
+      ]
+    },
+    "it": {
+      "title": "Crea un Cue Sheet di Musica AI per l'Ingresso in Presentazione",
+      "description": "Workflow pratico per usare musica AI in presentazioni, webinar e registrazioni di deck senza coprire lo speaker o confondere l'handoff AV.",
+      "body": [
+        "Il deck e pronto, lo speaker aspetta fuori scena e la musica di apertura sta ancora suonando quando parte la prima frase. In un webinar, lo stesso errore e piu piccolo ma si sente: l'host condivide lo schermo, non l'audio del computer. La presentation music raramente fallisce solo perche il brano e brutto. Fallisce perche nessuno ha scritto quando entra, quando esce e chi puo chiamare GO.",
+        "## Che cos'e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma per creare bozze musicali con IA da prompt, testi e direzioni di stile. Se l'idea sonora e ancora vaga, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) aiuta a trasformare un mood in uno style brief testabile. Dopo la scelta, l'[Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo aiutare a preparare un formato pratico; diritti, permessi e regole delle piattaforme restano controlli separati.",
+        "## Scrivi il cue sheet prima del prompt",
+        "Non iniziare dal genere. Inizia dai momenti. Crea quattro righe: walk-in loop prima dell'inizio, walk-on cue per l'ingresso dello speaker, section bumper tra due capitoli e closing cue dopo l'ultima domanda. Per ogni riga annota durata, trigger word, tipo di fade, owner e file backup. Cosi la musica entra nel run of show e non resta un file generico nella cartella Downloads.",
+        "## Dai un solo compito a ogni cue",
+        "La walk-in music deve raccogliere la sala, non anticipare il climax. Il walk-on cue ha bisogno di una fine chiara dopo 8-12 secondi. Un section bumper deve essere abbastanza corto da lasciare attenzione alla slide seguente. Il closing cue puo aprirsi un po', ma non deve coprire CTA o contatti. Prompt utile: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Considera il silenzio una scelta",
+        "Quando qualcuno parla, il default e il silenzio. In una registrazione, un bed musicale molto basso puo funzionare, ma una spiegazione densa ha bisogno di spazio. In sala, taglia la musica prima della prima frase, non dopo. In una presentazione online, testa condivisione audio del computer, volume ed echo prima che arrivi il pubblico. Nessuno speaker dovrebbe competere con beat veloce, basso profondo o hook ripetuto.",
+        "## Idee riutilizzabili",
+        "- Dai a ogni file un numero di cue: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Scrivi un trigger udibile: after host says welcome back, non around slide 14.\n- Usa un button ending breve quando si apre un microfono, non un fade lungo.\n- Tieni una versione backup piu quieta, non un brano completamente diverso.\n- Invia al team AV cue sheet e file insieme.",
+        "## Controlla prima della sala o dell'upload",
+        "Prova sul laptop, proiettore, meeting app o playback machine che sara usata davvero. Se la presentazione diventa un video per YouTube o social, separa la review di disclosure dalla scelta musicale. Musica generata con IA, visual sintetici ed edit realistici possono richiedere valutazioni diverse a seconda della piattaforma. EasyMusic.AI aiuta a creare la bozza, ma non decide se un uso specifico sia autorizzato, approvato o adatto a ogni venue.",
+        "## FAQ\n### La musica deve stare sotto tutta la presentazione?\nDi solito no. Usala per ingresso, transizioni brevi e chiusura. Le spiegazioni lunghe si capiscono meglio senza musica o con un livello molto basso.\n### Quanti cue servono a un deck breve?\nSpesso bastano tre: intro o walk-in, un bumper e closing. Aggiungi altro solo per awards, demo, sponsor read o video cronometrati.\n### Meglio usare voci?\nL'instrumental e spesso piu chiaro perche una voce compete con speaker e testo della slide. Se usi un vocal hook, mettilo prima o dopo il parlato.\n### Qual e il test piu importante?\nFai partire il cue, apri il microfono e chiedi a qualcuno in fondo alla sala o nella call se le parole sono ancora chiare."
+      ]
+    },
+    "ja": {
+      "title": "Presentation Walk-On 用 AI Music Cue Sheet を作る",
+      "description": "Live deck、webinar、recorded presentation で speaker を邪魔せず AV handoff を明確にするための AI music workflow。",
+      "body": [
+        "Deck は完成し、speaker は出番を待っているのに、opening track が鳴ったまま最初の一文が始まる。Webinar なら、host が screen は共有したのに computer audio を共有していない。Presentation music の失敗は、track が悪いからとは限りません。多くの場合、いつ始め、いつ止め、誰が GO と言うのかを書いていないことが原因です。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、text prompt、lyrics、style direction から music draft を作る AI music creation platform です。Sound idea がまだ曖昧なら、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で mood を test できる style brief に整理できます。Version を選んだ後は、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) で delivery format を整えられます。ただし rights、permission、platform rules の確認は別工程です。",
+        "## Prompt の前に cue sheet を書く",
+        "Genre から始めないでください。Moment から始めます。Presentation 開始前の walk-in loop、speaker entrance の walk-on cue、章の間の section bumper、最後の質問後の closing cue という4行を作ります。各行に duration、trigger word、fade type、owner、backup file を書きます。これで music は Downloads の中の謎の file ではなく、rehearsal できる run of show の一部になります。",
+        "## Cue ごとに仕事を一つに絞る",
+        "Walk-in music は部屋を整えるためのもので、climax を先取りするものではありません。Walk-on cue は8から12秒で明確に終わる必要があります。Section bumper は短く、次の slide が主役に戻れる長さにします。Closing cue は少し広げてもよいですが、CTA や contact details を覆ってはいけません。例: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Silence を本当の選択肢にする",
+        "誰かが話している間は、silence を default にします。Recording ではごく低い music bed が使える場面もありますが、説明が密な部分には余白が必要です。Live room では、music は最初の一文の後ではなく前に止めます。Online presentation では、audience が来る前に computer-audio sharing、volume、echo を test します。Speaker が速い beat、深い bass、繰り返す hook と戦う状況を作らないでください。",
+        "## 今日から使えるアイデア",
+        "- File name に cue number を入れる: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Trigger は聞こえる言葉で書く: after host says welcome back, not around slide 14.\n- Mic が live になる cue は long fade ではなく short button ending にする。\n- Backup はまったく別曲ではなく、明らかに静かな version を用意する。\n- AV team には files だけでなく cue sheet も一緒に渡す。",
+        "## 会場や upload 前に確認する",
+        "実際に使う laptop、projector、meeting app、playback machine で test してください。Presentation が YouTube upload や social clip になる場合、music decision とは別に disclosure review をします。AI-generated music、synthetic visuals、realistic edits は platform ごとに label の確認が必要になることがあります。EasyMusic.AI は draft 作成を助けますが、特定の利用が licensed、approved、または全ての venue に適しているかは判断しません。",
+        "## FAQ\n### Presentation 全体に music を流すべきですか？\n通常は違います。Walk-in、entrance、短い transition、close に使います。長い説明は、music がないか極端に低い方が理解しやすいです。\n### 短い deck には何 cue 必要ですか？\n多くの場合は三つで十分です。Intro または walk-in、bumper、closing です。Awards、demo、sponsor read、timed video roll がある時だけ増やします。\n### Vocal は使うべきですか？\nPresentation では instrumental の方が安全です。Voice は speaker と slide text と競合します。Vocal hook を使うなら speech の前後に置きます。\n### 一番大事な rehearsal test は？\nCue を再生し、microphone を開き、部屋の後方または call 上の人に言葉がはっきり聞こえるか確認してもらいます。"
+      ]
+    },
+    "ko": {
+      "title": "Presentation Walk-On AI Music Cue Sheet 만들기",
+      "description": "Live deck, webinar, recorded presentation에서 speaker를 가리지 않고 AV handoff를 분명히 하는 AI music workflow.",
+      "body": [
+        "Deck은 준비됐고 speaker는 무대 옆에서 기다리는데 opening track이 계속 나와 첫 문장을 덮습니다. Webinar에서는 host가 screen은 share했지만 computer audio를 share하지 않아 audience가 아무것도 듣지 못합니다. Presentation music은 track 자체가 나빠서 실패하는 경우보다 시작, 정지, GO caller를 정하지 않아서 실패하는 경우가 많습니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text prompts, lyrics, style direction을 music drafts로 만드는 AI music creation platform입니다. Sound idea가 아직 모호하다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 mood를 test 가능한 style brief로 정리할 수 있습니다. Version을 고른 뒤에는 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)로 delivery format을 준비할 수 있지만 rights, permission, platform rules review는 별도 단계로 남겨야 합니다.",
+        "## Prompt 전에 cue sheet를 쓴다",
+        "Genre부터 시작하지 마세요. Moment부터 시작하세요. Presentation 시작 전 walk-in loop, speaker entrance용 walk-on cue, 두 chapter 사이의 section bumper, 마지막 질문 후 closing cue 네 줄을 만듭니다. 각 줄에는 duration, trigger word, fade type, owner, backup file을 씁니다. 이렇게 해야 music이 Downloads 폴더의 임의 file이 아니라 rehearsal 가능한 run of show가 됩니다.",
+        "## Cue마다 job을 하나만 준다",
+        "Walk-in music은 room을 정돈해야지 climax를 미리 보여주면 안 됩니다. Walk-on cue는 8-12초 뒤 clean ending이 필요합니다. Section bumper는 다음 slide가 다시 attention을 가져갈 만큼 짧아야 합니다. Closing cue는 조금 넓게 갈 수 있지만 CTA나 contact details를 덮지 않아야 합니다. Prompt 예: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Silence를 실제 선택지로 둔다",
+        "누군가 말할 때는 silence가 default입니다. Recording에서는 아주 낮은 music bed가 통할 수 있지만 dense explanation에는 공간이 필요합니다. Live room에서는 첫 문장 뒤가 아니라 첫 문장 전에 music을 끊습니다. Online presentation에서는 audience가 들어오기 전 computer-audio sharing, volume, echo를 test하세요. Speaker가 fast beat, deep bass, repeated hook와 싸우게 만들지 마세요.",
+        "## 바로 쓸 수 있는 아이디어",
+        "- 모든 file name에 cue number를 넣는다: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Trigger는 들리는 말로 쓴다: after host says welcome back, not around slide 14.\n- Mic가 live가 되는 cue에는 long fade 대신 short button ending을 쓴다.\n- Backup은 완전히 다른 track이 아니라 확실히 quieter version으로 준비한다.\n- AV team에는 files만 보내지 말고 cue sheet와 함께 보낸다.",
+        "## Room이나 upload 전에 review한다",
+        "실제로 사용할 laptop, projector, meeting app, playback machine에서 test하세요. Presentation이 YouTube upload나 social clip이 된다면 music decision과 disclosure review를 분리해야 합니다. AI-generated music, synthetic visuals, realistic edits는 platform별 labeling question을 만들 수 있습니다. EasyMusic.AI는 draft 제작을 도울 수 있지만 특정 사용이 licensed, approved, 모든 venue에 적합한지는 대신 판단하지 않습니다.",
+        "## FAQ\n### Presentation 전체에 music을 깔아야 하나요?\n대부분 아닙니다. Walk-in, entrance, 짧은 transition, close에 쓰세요. 긴 설명은 music이 없거나 아주 낮을 때 이해하기 쉽습니다.\n### 짧은 deck에는 cue가 몇 개 필요하나요?\n보통 세 개면 충분합니다. Intro 또는 walk-in, 하나의 bumper, closing입니다. Awards, demos, sponsor reads, timed video rolls가 있을 때만 늘리세요.\n### Vocal을 써도 되나요?\nPresentation에서는 instrumental이 더 안전합니다. Voice는 speaker와 slide text와 경쟁합니다. Vocal hook을 쓴다면 speech 전이나 후에 두세요.\n### 가장 중요한 rehearsal test는?\nCue를 재생하고 microphone을 연 뒤, room 뒤쪽이나 call 안의 사람에게 말이 쉽게 들리는지 확인해 달라고 하세요."
+      ]
+    },
+    "pt": {
+      "title": "Crie um Cue Sheet de Musica IA para Entrada de Apresentacao",
+      "description": "Workflow pratico para usar musica IA em apresentacoes, webinars e gravacoes de deck sem cobrir o speaker nem confundir o handoff AV.",
+      "body": [
+        "O deck esta pronto, o apresentador espera ao lado do palco e a musica de abertura ainda toca quando a primeira frase comeca. Em um webinar, o erro parece menor: o host compartilha a tela, mas nao o audio do computador. Musica de apresentacao raramente falha apenas porque a faixa e ruim. Ela falha porque ninguem escreveu quando comeca, quando termina e quem pode chamar GO.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para transformar prompts, letras e direcao de estilo em rascunhos musicais. Se a ideia sonora ainda esta vaga, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) ajuda a converter um mood em um style brief testavel. Depois de escolher a versao, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode ajudar a preparar um formato pratico; direitos, permissoes e regras de plataforma continuam sendo revisoes separadas.",
+        "## Escreva o cue sheet antes do prompt",
+        "Nao comece pelo genero. Comece pelos momentos. Crie quatro linhas: walk-in loop antes da apresentacao, walk-on cue para a entrada do speaker, section bumper entre dois capitulos e closing cue depois da ultima pergunta. Em cada linha, escreva duracao, trigger word, tipo de fade, owner e arquivo backup. Assim a musica vira parte do run of show que a equipe consegue ensaiar, nao apenas um arquivo perdido.",
+        "## De uma tarefa para cada cue",
+        "Walk-in music deve organizar a sala, nao antecipar o climax. Um walk-on cue precisa de final claro apos 8 a 12 segundos. Um section bumper deve ser curto o suficiente para a proxima slide recuperar a atencao. O closing cue pode abrir um pouco, mas nao deve cobrir CTA ou dados de contato. Prompt util: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Trate o silencio como escolha real",
+        "Quando alguem fala, o default e silencio. Em gravacao, uma cama musical muito baixa pode funcionar, mas explicacao densa precisa de espaco. Em sala ao vivo, corte a musica antes da primeira frase, nao depois. Em apresentacao online, teste compartilhamento de audio do computador, volume e eco antes da audiencia entrar. Nenhum speaker deve disputar com beat rapido, baixo profundo ou hook repetido.",
+        "## Ideias reutilizaveis",
+        "- Nomeie cada arquivo com o numero do cue: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Escreva um trigger audivel: after host says welcome back, nao around slide 14.\n- Use um button ending curto quando o microfone abre, em vez de fade longo.\n- Mantenha uma versao backup mais calma, nao uma faixa totalmente diferente.\n- Envie ao time AV o cue sheet junto com os arquivos.",
+        "## Revise antes da sala ou do upload",
+        "Teste no laptop, projetor, meeting app ou playback machine que sera usado de verdade. Se a apresentacao virar upload no YouTube ou social clip, separe a revisao de disclosure da decisao musical. Musica gerada com IA, visuais sinteticos e edits realistas podem criar perguntas de rotulagem especificas da plataforma. EasyMusic.AI ajuda a fazer o draft, mas nao decide se um uso especifico esta licenciado, aprovado ou adequado para todo venue.",
+        "## FAQ\n### A musica deve tocar durante toda a apresentacao?\nGeralmente nao. Use para walk-in, entrada, transicoes curtas e fechamento. Explicacoes longas sao mais claras sem musica ou com volume extremamente baixo.\n### Quantos cues um deck curto precisa?\nTres costumam bastar: intro ou walk-in, um bumper e closing. Adicione mais so quando houver premios, demos, sponsor reads ou videos cronometrados.\n### Devo usar vocal?\nInstrumental costuma ser mais seguro para apresentacoes porque uma voz compete com o speaker e o texto da slide. Se usar vocal hook, coloque antes ou depois da fala.\n### Qual e o teste de ensaio mais importante?\nToque o cue, abra o microfone e peca a alguem no fundo da sala ou na chamada para confirmar se as palavras continuam faceis de entender."
+      ]
+    },
+    "ru": {
+      "title": "Создайте Cue Sheet для AI Music в начале презентации",
+      "description": "Практический workflow для AI music в live deck, webinar и записи презентации, чтобы не закрывать speaker и не путать AV handoff.",
+      "body": [
+        "Deck готов, speaker ждет у сцены, а opening track все еще играет, когда начинается первая фраза. В webinar та же ошибка выглядит тише: host показывает screen, но не включает computer audio. Presentation music обычно проваливается не потому, что track плохой. Она проваливается потому, что никто не записал, когда он стартует, когда останавливается и кто имеет право сказать GO.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) — платформа для создания music drafts из text prompts, lyrics и style direction. Если sonic idea еще расплывчата, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает превратить mood в проверяемый style brief. После выбора версии [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может помочь подготовить практичный формат; rights, permissions и platform rules остаются отдельной проверкой.",
+        "## Напишите cue sheet до prompt",
+        "Не начинайте с genre. Начните с моментов. Сделайте четыре строки: walk-in loop до начала, walk-on cue для выхода speaker, section bumper между двумя главами и closing cue после последнего вопроса. В каждой строке укажите duration, trigger word, fade type, owner и backup file. Так музыка становится частью run of show, который команда может отрепетировать, а не случайным файлом в Downloads.",
+        "## У каждого cue одна задача",
+        "Walk-in music должна собрать room, а не заранее показать climax. Walk-on cue нужен ясный конец через 8-12 секунд. Section bumper должен быть достаточно коротким, чтобы следующая slide снова стала главным объектом внимания. Closing cue может звучать шире, но не должен закрывать CTA или contact details. Рабочий prompt: restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech.",
+        "## Считайте silence рабочим решением",
+        "Когда кто-то говорит, default — silence. В записи очень тихий music bed иногда работает, но плотному объяснению нужно пространство. В live room выключайте музыку до первой фразы, а не после. В online presentation заранее проверьте computer-audio sharing, volume и echo. Speaker не должен спорить с fast beat, deep bass или repeated hook, когда объясняет главное.",
+        "## Идеи, которые можно применить сразу",
+        "- Называйте каждый файл по cue number: 01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper.\n- Пишите слышимый trigger: after host says welcome back, а не around slide 14.\n- Для момента с live microphone используйте short button ending вместо long fade.\n- Держите более спокойную backup version, а не совсем другой track.\n- Отправляйте AV team cue sheet вместе с файлами.",
+        "## Проверьте до зала или upload",
+        "Тестируйте на laptop, projector, meeting app или playback machine, которые реально будут использоваться. Если presentation станет YouTube upload или social clip, отделите disclosure review от музыкального выбора. AI-generated music, synthetic visuals и realistic edits могут создавать platform-specific labeling questions. EasyMusic.AI помогает сделать draft, но не решает, licensed ли конкретное использование, approved ли оно и подходит ли для каждого venue.",
+        "## FAQ\n### Нужно ли держать музыку под всей презентацией?\nОбычно нет. Используйте ее для walk-in, entrance, коротких transitions и close. Длинные объяснения легче воспринимать без музыки или с крайне низким уровнем.\n### Сколько cue нужно короткому deck?\nЧасто достаточно трех: intro или walk-in, один bumper и closing. Добавляйте больше только для awards, demos, sponsor reads или timed video rolls.\n### Нужен ли vocal?\nДля презентаций instrumental обычно безопаснее: голос конкурирует со speaker и текстом на slide. Если используете vocal hook, ставьте его до или после речи.\n### Какой rehearsal test важнее всего?\nЗапустите cue, откройте microphone и попросите человека в конце зала или в call сказать, остаются ли слова понятными."
+      ]
+    },
+    "zh": {
+      "title": "为 Presentation Walk-On 制作 AI Music Cue Sheet",
+      "description": "一个实用 workflow：在 live deck、webinar 和 presentation recording 中使用 AI music，同时保护 speaker 清晰度和 AV handoff。",
+      "body": [
+        "Deck 已经准备好，speaker 在舞台边等待，但 opening track 还在播放，第一句话就被盖住了。Webinar 里的版本更小，却同样尴尬：host 分享了 screen，却没有分享 computer audio。Presentation music 失败，常常不是因为 track 难听，而是因为没有人写清楚它何时开始、何时停止、谁可以喊 GO。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以根据 text prompts、lyrics 和 style direction 生成 music drafts。如果 sound idea 还很模糊，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 把 mood 整理成可测试的 style brief。选定 version 后，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助准备实用的 delivery format；rights、permission 和 platform rules 仍然要单独 review。",
+        "## 先写 cue sheet，再写 prompt",
+        "不要从 genre 开始，要从 moments 开始。建立四行：presentation 开始前的 walk-in loop、speaker entrance 的 walk-on cue、两个章节之间的 section bumper、最后一个问题后的 closing cue。每行写 duration、trigger word、fade type、owner 和 backup file。这样 music 就不再是 Downloads 里的一个模糊文件，而是 team 可以 rehearsal 的 run of show。",
+        "## 每个 cue 只做一件事",
+        "Walk-in music 应该让 room 稳下来，而不是提前制造 climax。Walk-on cue 需要在 8 到 12 秒后清楚结束。Section bumper 要足够短，让下一张 slide 重新拿回 attention。Closing cue 可以稍微展开，但不能盖住 CTA 或 contact details。可用 prompt：restrained confident electronic pulse for a product keynote walk-on, 10 seconds, clean button ending, no lead vocal, no huge drum hit before speech。",
+        "## 把 silence 当作真实选择",
+        "只要有人在说话，silence 就是 default。Recording 中很低的 music bed 有时可行，但密集解释需要空间。Live room 里，music 应该在第一句话之前停止，而不是之后。Online presentation 要在 audience 到来前测试 computer-audio sharing、volume 和 echo。不要让 speaker 和 fast beat、deep bass 或 repeated hook 抢空间。",
+        "## 今天就能复用的做法",
+        "- 给每个 file 加 cue number：01-walk-in-loop, 02-ceo-walk-on, 03-demo-bumper。\n- Trigger 写成听得见的话：after host says welcome back，而不是 around slide 14。\n- Mic 变成 live 的位置，用 short button ending，不要用 long fade。\n- 准备一个更安静的 backup version，而不是完全不同的 track。\n- 给 AV team 同时发送 cue sheet 和 files，不要只发一个 audio folder。",
+        "## 在 room 或 upload 前 review",
+        "用实际会使用的 laptop、projector、meeting app 或 playback machine 测试。如果 presentation 会变成 YouTube upload 或 social clip，就把 disclosure review 和 music decision 分开处理。AI-generated music、synthetic visuals 和 realistic edits 可能触发不同 platform 的 labeling question。EasyMusic.AI 可以帮助制作 draft，但不会替你判断某个具体使用是否 licensed、approved，或适合每一个 venue。",
+        "## FAQ\n### 需要在整个 presentation 下方铺 music 吗？\n通常不需要。把它用于 walk-in、entrance、短 transition 和 close。长解释在没有 music 或音量极低时更容易听懂。\n### 一个短 deck 需要几个 cues？\n三个通常足够：intro 或 walk-in、一个 bumper、closing。只有 awards、demos、sponsor reads 或 timed video rolls 时才增加。\n### 应该用 vocal 吗？\nPresentation 里 instrumental 通常更稳，因为 voice 会和 speaker 以及 slide text 竞争。如果使用 vocal hook，把它放在 speech 前或 speech 后。\n### 最重要的 rehearsal test 是什么？\n播放 cue，打开 microphone，让 room 后方或 call 里的某个人确认每个词是否仍然清楚。"
+      ]
+    }
+  }
+}
