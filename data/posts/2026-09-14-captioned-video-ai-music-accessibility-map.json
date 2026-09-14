@@ -1,0 +1,205 @@
+{
+  "date": "2026-09-14",
+  "slug": "captioned-video-ai-music-accessibility-map",
+  "cluster": "accessible-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI Music للفيديوهات ذات Captions بدون ان تطغى على الكلمات",
+      "description": "Workflow عملي لجعل AI music يخدم voiceover وcaptions وaudio description بدلا من تغطية الرسالة في الفيديو.",
+      "body": [
+        "تبدو الsubtitles نظيفة في timeline، ثم تشغل الفيديو بالصوت الكامل وتسمع المشكلة: الموسيقى تنافس الvoiceover، الcaption يشرح الكلام لكن لا يشرح الbeep المهم، ولا توجد مساحة لاي audio description. المشكلة ليست ان الموسيقى سيئة. المشكلة ان brief الموسيقى كتب قبل معرفة الكلمات التي يجب ان تبقى واضحة.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts من text prompts وlyrics وstyle direction. يمكن ان يساعدك [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) على وصف mood وtempo وinstrumentation بدون الاعتماد على اسماء فنانين، ويمكن ان يكون [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) مفيدا عند تجهيز صيغ مختلفة للمراجعة او التسليم. هذه الادوات تساعد في صناعة المادة الصوتية، اما وضوح الكلام، captions، الحقوق، وplatform disclosure فتحتاج مراجعة منفصلة.",
+        "## ابدأ بخريطة الكلام لا بالموسيقى",
+        "افتح script او transcript واكتب ثلاث علامات: speech that must be understood، on-screen text that captions may cover، وsound cues that matter. اذا كان الفيديو يشرح منتجا او تدريبا او قصة حساسة، اعتبر الكلمات هي الطبقة الرئيسية. ضع الموسيقى فقط في الاماكن التي تسمح بذلك: intro قصير، انتقال، لحظة بدون كلام، او نهاية بعد الcall to action.",
+        "## اجعل prompt يخدم القراءة",
+        "بدل cinematic inspiring bed، اكتب وظيفة محددة: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. تجنب melodية في نفس register الvoiceover، وتجنب percusion سريع اذا كانت captions كثيفة. اذا كان الكلام هو المحتوى الاساسي، عامل هدف 20 dB quieter كاختبار عملي للمراجعة، لا كوعد تقني. شغل الفيديو على phone speaker وسماعات عادية قبل الموافقة.",
+        "## اترك نوافذ للوصف والصمت",
+        "ليس كل فيديو يحتاج audio description منفصل، لكن كثير من videos تعتمد على لقطات او ارقام لا يقولها الراوي. اكتب في cue sheet اماكن قصيرة للصمت او الموسيقى الهادئة حيث يمكن وصف visual مهم. في captions، اكتب sounds المفيدة فقط مثل soft chime او door closes، لا كل ضربة في beat. الموسيقى الجيدة هنا تبدو ذكية لانها تعرف متى تتراجع.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- لو كان هناك voiceover، اطلب instrumental bed بلا vocals وبدون lead melody مزدحمة.\n- علم على الtimeline اي caption سيظهر فوق نص بصري مهم.\n- اسمع الفيديو مرة بدون مشاهدة الشاشة، ومرة بدون صوت.\n- اكتب سبب اختيار الموسيقى: clarify pace, mark transition, hold emotion، وليس فقط sounds cool.\n- احتفظ بملاحظة disclosure اذا كان platform يسأل عن AI-generated music او synthetic media.",
+        "## FAQ\n### هل يجب ان تكون الموسيقى منخفضة دائما؟\nلا. يمكن ان ترتفع في intro او transition او نهاية بدون كلام. المشكلة هي رفعها تحت speech مهم.\n### هل captions تكفي وحدها؟\nليست دائما. Captions تساعد من لا يسمع، لكن المعلومات البصرية المهمة قد تحتاج narration او transcript او audio description.\n### هل يمكن استخدام vocals في background؟\nاستخدمها بحذر. Vocals وspoken words يتنافسان بسرعة، خصوصا على الهاتف.\n### ماذا اسلم للمحرر؟\nسلم final file، version note، نقاط الducking، وسبب اختيار الموسيقى حتى لا يرفعها احد في المراجعة الاخيرة."
+      ]
+    },
+    "de": {
+      "title": "Plane KI-Musik fuer untertitelte Videos, ohne die Worte zu stoeren",
+      "description": "Ein praktischer Workflow, damit KI-Musik Voiceover, Captions, Audio Description und Upload-Notizen unterstuetzt.",
+      "body": [
+        "Die Untertitel sehen im Schnitt sauber aus. Dann spielst du das Video laut ab und merkst: Die Musik frisst Konsonanten, wichtige Sounds stehen nicht in den Captions, und fuer eine moegliche Audio Description bleibt keine Luecke. Das Problem ist selten schlechte Musik. Meist wurde der Musikbrief geschrieben, bevor klar war, welche Worte ungestoert bleiben muessen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform, mit der du Musikentwuerfe aus Textprompts, Lyrics und Style Direction erstellst. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) hilft, Mood, Tempo und Instrumentierung ohne Artist-Namen praeziser zu beschreiben, und der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) kann beim Vorbereiten verschiedener Review- oder Delivery-Formate helfen. Die Tools liefern Audioentwuerfe; Sprachklarheit, Captions, Rechte und Plattformangaben bleiben eigene Pruefpunkte.",
+        "## Beginne mit der Wortkarte",
+        "Oeffne Script oder Transcript und markiere drei Dinge: speech that must be understood, on-screen text that captions may cover, und sound cues that matter. Bei Training, Produktdemo, Erklaervideo oder sensibler Geschichte ist Sprache die fuehrende Ebene. Musik bekommt die Stellen, die sie wirklich tragen kann: kurzer Einstieg, Uebergang, Abschnitt ohne Rede oder Schluss nach dem Call to Action.",
+        "## Schreibe Prompts fuer Lesbarkeit",
+        "Statt cinematic inspiring bed schreibst du eine Aufgabe: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Vermeide Melodien im gleichen Register wie das Voiceover und hektische Percussion unter dichten Untertiteln. Wenn Sprache der Inhalt ist, ist 20 dB leiser als die Stimme ein nuetzlicher Review-Zielwert, kein technisches Versprechen. Teste auf Handylautsprecher und normalen Kopfhoerern.",
+        "## Plane Luecken fuer Beschreibung und Ruhe",
+        "Nicht jedes Video braucht eine separate Audio Description, aber viele Videos zeigen Zahlen, Gesten oder Screens, die der Sprecher nicht nennt. Markiere im Cue Sheet kurze Fenster, in denen eine Beschreibung oder Stille Platz hat. In Captions notierst du nur wichtige Sounds, etwa soft chime oder door closes, nicht jeden Beat. Die beste Musik wirkt hier klug, weil sie weiss, wann sie Platz macht.",
+        "## Sofort nutzbare Ideen",
+        "- Bei Voiceover: instrumental bed ohne Vocals und ohne dichte Lead-Melodie anfordern.\n- Auf der Timeline markieren, wo Captions wichtigen Bildschirmtext ueberdecken koennen.\n- Einmal ohne Bild hoeren und einmal ohne Ton ansehen.\n- Den Zweck der Musik notieren: clarify pace, mark transition, hold emotion, nicht nur sounds good.\n- Eine Disclosure-Notiz behalten, falls die Plattform nach AI-generated music oder synthetic media fragt.",
+        "## FAQ\n### Muss die Musik immer leise sein?\nNein. Sie darf in Intro, Uebergang oder Schluss ohne Sprache groesser werden. Kritisch ist laute Musik unter wichtigen Worten.\n### Reichen Captions allein?\nNicht immer. Captions helfen bei Hoerinhalten; wichtige visuelle Informationen brauchen oft Narration, Transcript oder Audio Description.\n### Darf Background-Musik Vocals haben?\nNur vorsichtig. Gesungene Stimmen konkurrieren schnell mit gesprochenen Worten, besonders auf kleinen Lautsprechern.\n### Was bekommt der Editor?\nFinale Datei, Versionsnotiz, Ducking-Punkte und den Grund der Musikauswahl, damit niemand sie im letzten Review einfach hochzieht."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Captioned Videos Without Fighting the Words",
+      "description": "A practical workflow for making AI music support voiceover, captions, audio description, and upload notes instead of covering the message.",
+      "body": [
+        "The subtitles look clean in the edit. Then you play the video with sound and hear the real problem: the music grabs consonants from the voiceover, the caption file names the speech but misses an important cue, and there is no quiet pocket for audio description. The music is not necessarily bad. It was briefed before anyone decided which words had to stay in front.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning text prompts, lyrics, and style direction into music drafts. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help describe mood, tempo, and instrumentation without leaning on artist names, and the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare alternate formats for review or delivery. Those tools help make the audio; speech clarity, captions, rights review, and platform disclosure stay separate decisions.",
+        "## Start With the Word Map",
+        "Open the script or transcript and mark three things: speech that must be understood, on-screen text that captions might cover, and sound cues that matter to the story. In a tutorial, product explainer, training clip, or sensitive story, the words are the lead instrument. Give music the places it can actually help: a short opening, a transition, a section with no speech, or a finish after the call to action.",
+        "## Prompt for Readability",
+        "Instead of cinematic inspiring bed, write the job: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Avoid melodies in the same register as the voiceover, and avoid busy percussion under dense captions. If speech carries the content, treating the music as roughly 20 dB quieter than the voice is a useful review target, not a magic compliance claim. Test once on a phone speaker and once on ordinary headphones.",
+        "## Leave Windows for Description and Quiet",
+        "Not every video needs a separate audio description track, but many videos rely on charts, screen actions, speaker names, or visual proof the narrator never says aloud. Mark short cue-sheet windows where description or silence can fit. In captions, write only meaningful non-speech sounds, such as soft chime or door closes, not every hit in the beat. Good music in this context feels disciplined because it knows when to step back.",
+        "## Reusable Ideas You Can Apply Today",
+        "- If there is voiceover, ask for an instrumental bed with no vocals and no crowded lead melody.\n- Mark any moment where captions may cover important on-screen text.\n- Watch once without sound, then listen once without looking at the screen.\n- Write the reason for the music choice: clarify pace, mark transition, hold emotion, not just sounds good.\n- Keep an upload note if a platform asks about AI-generated music or synthetic media.",
+        "## FAQ\n### Does caption-safe music always need to be quiet?\nNo. It can rise in an intro, transition, or ending with no speech. The problem is loud music under words the viewer needs.\n### Are captions enough for accessibility?\nNot always. Captions cover audio information; important visual information may need narration, a transcript, or audio description.\n### Can I use vocals in the background?\nUse them carefully. Sung words and spoken words compete quickly, especially on phone speakers.\n### What should I hand to the editor?\nSend the final file, version note, ducking points, and the reason the track was chosen so nobody raises the bed in the last review."
+      ]
+    },
+    "es": {
+      "title": "Planifica musica IA para videos con subtitulos sin tapar las palabras",
+      "description": "Workflow practico para que la musica con IA apoye voiceover, captions, audio description y notas de upload sin cubrir el mensaje.",
+      "body": [
+        "Los subtitulos se ven limpios en la edicion. Luego reproduces el video con sonido y aparece el problema: la musica roba consonantes al voiceover, el caption file recoge la voz pero no un cue importante, y no queda espacio tranquilo para audio description. La musica no es necesariamente mala. Fue briefed antes de decidir que palabras debian quedar al frente.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para convertir text prompts, lyrics y direccion de estilo en music drafts. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) ayuda a describir mood, tempo e instrumentation sin apoyarte en nombres de artistas, y el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede ayudar a preparar formatos alternos para review o delivery. Estas herramientas ayudan con el audio; speech clarity, captions, rights review y platform disclosure siguen siendo decisiones aparte.",
+        "## Empieza con el mapa de palabras",
+        "Abre el script o transcript y marca tres cosas: speech that must be understood, on-screen text that captions might cover y sound cues that matter. En un tutorial, product explainer, training clip o historia sensible, las palabras son el instrumento principal. Da musica a los lugares donde si ayuda: apertura corta, transicion, seccion sin habla o final despues del call to action.",
+        "## Escribe prompts para legibilidad",
+        "En vez de cinematic inspiring bed, escribe la funcion: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Evita melodias en el mismo registro del voiceover y percusion intensa debajo de captions densas. Si la voz lleva el contenido, usar la musica alrededor de 20 dB por debajo como objetivo de review es util, no una promesa tecnica. Prueba en altavoz de telefono y en audifonos comunes.",
+        "## Deja ventanas para descripcion y silencio",
+        "No todo video necesita audio description aparte, pero muchos dependen de graficas, acciones de pantalla, nombres de ponentes o pruebas visuales que la narracion no dice. Marca ventanas cortas en el cue sheet donde pueda entrar descripcion o silencio. En captions, escribe solo sonidos no hablados que importan, como soft chime o door closes, no cada golpe del beat. La buena musica aqui parece disciplinada porque sabe retirarse.",
+        "## Ideas reutilizables",
+        "- Si hay voiceover, pide instrumental bed sin vocals y sin lead melody llena.\n- Marca momentos donde captions puedan cubrir texto visual importante.\n- Mira una vez sin sonido y escucha una vez sin mirar la pantalla.\n- Escribe la razon de la musica: clarify pace, mark transition, hold emotion, no solo sounds good.\n- Guarda una nota de upload si una plataforma pregunta por AI-generated music o synthetic media.",
+        "## FAQ\n### La musica apta para captions siempre debe ser baja?\nNo. Puede subir en intro, transicion o final sin habla. El problema es musica alta debajo de palabras necesarias.\n### Los captions bastan para accesibilidad?\nNo siempre. Captions cubren informacion de audio; la informacion visual importante puede necesitar narracion, transcript o audio description.\n### Puedo usar vocals de fondo?\nCon cuidado. Palabras cantadas y habladas compiten rapido, sobre todo en telefono.\n### Que entrego al editor?\nArchivo final, version note, puntos de ducking y razon de la musica, para que nadie suba el bed en la ultima revision."
+      ]
+    },
+    "fr": {
+      "title": "Planifie une musique IA pour videos sous-titrees sans couvrir les mots",
+      "description": "Workflow concret pour que la musique IA soutienne voiceover, captions, audio description et notes d upload sans masquer le message.",
+      "body": [
+        "Les sous-titres semblent propres dans le montage. Puis tu lances la video avec le son et le vrai probleme apparait: la musique mange des consonnes du voiceover, le fichier de captions transcrit la parole mais oublie un cue important, et il ne reste aucune poche calme pour une audio description. La musique n est pas forcement mauvaise. Elle a ete briefee avant de savoir quels mots devaient rester devant.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui transforme prompts texte, paroles et direction de style en brouillons musicaux. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) aide a decrire mood, tempo et instrumentation sans utiliser des noms d artistes, et l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut aider a preparer des formats pour review ou livraison. Ces outils produisent l audio; clarte de la voix, captions, droits et disclosure de plateforme restent des decisions separees.",
+        "## Commence par la carte des mots",
+        "Ouvre le script ou transcript et marque trois choses: speech that must be understood, on-screen text that captions might cover, et sound cues that matter. Dans un tutoriel, une demo produit, une video de formation ou une histoire sensible, les mots sont l instrument principal. Donne a la musique les endroits ou elle aide vraiment: courte ouverture, transition, passage sans parole ou fin apres le call to action.",
+        "## Prompte pour la lisibilite",
+        "Au lieu de cinematic inspiring bed, ecris la mission: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Evite les melodies dans le meme registre que le voiceover et les percussions chargees sous des captions denses. Si la parole porte le contenu, viser une musique environ 20 dB sous la voix est un repere utile de review, pas une garantie technique. Teste sur haut-parleur de telephone et casque ordinaire.",
+        "## Garde des fenetres pour description et silence",
+        "Toute video n a pas besoin d une piste audio description separee, mais beaucoup reposent sur des graphiques, actions d ecran, noms de personnes ou preuves visuelles que la narration ne dit pas. Marque dans le cue sheet de courtes fenetres pour description ou silence. Dans les captions, note seulement les sons non verbaux utiles, comme soft chime ou door closes, pas chaque coup du beat. Ici, une bonne musique semble intelligente parce qu elle sait reculer.",
+        "## Idees reutilisables",
+        "- Avec voiceover, demande un instrumental bed sans vocals et sans lead melody chargee.\n- Marque les moments ou les captions peuvent couvrir un texte visuel important.\n- Regarde une fois sans son, puis ecoute une fois sans regarder l ecran.\n- Ecris la raison du choix musical: clarify pace, mark transition, hold emotion, pas seulement sounds good.\n- Garde une note d upload si une plateforme demande AI-generated music ou synthetic media.",
+        "## FAQ\n### Une musique compatible avec captions doit-elle toujours etre basse?\nNon. Elle peut monter dans une intro, une transition ou une fin sans parole. Le probleme est une musique forte sous les mots importants.\n### Les captions suffisent-elles pour l accessibilite?\nPas toujours. Elles couvrent l audio; une information visuelle importante peut demander narration, transcript ou audio description.\n### Peut-on utiliser des vocals en fond?\nAvec prudence. Mots chantes et mots parles se concurrencent vite, surtout sur telephone.\n### Que donner au monteur?\nLe fichier final, une version note, les points de ducking et la raison du choix, pour eviter que le bed soit remonte au dernier review."
+      ]
+    },
+    "it": {
+      "title": "Pianifica musica IA per video sottotitolati senza coprire le parole",
+      "description": "Workflow pratico per fare in modo che la musica IA aiuti voiceover, captions, audio description e note di upload.",
+      "body": [
+        "I sottotitoli sembrano puliti nel montaggio. Poi ascolti il video e senti il problema: la musica ruba consonanti al voiceover, il file captions trascrive le parole ma perde un cue importante, e non resta spazio calmo per una audio description. La musica non e per forza sbagliata. E stata briefata prima di decidere quali parole dovevano restare davanti.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per trasformare text prompts, lyrics e style direction in music drafts. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) aiuta a descrivere mood, tempo e instrumentation senza appoggiarsi a nomi di artisti, e l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo aiutare a preparare formati alternativi per review o delivery. Questi tool aiutano a produrre audio; speech clarity, captions, rights review e platform disclosure restano decisioni separate.",
+        "## Parti dalla mappa delle parole",
+        "Apri script o transcript e segna tre cose: speech that must be understood, on-screen text that captions might cover e sound cues that matter. In tutorial, product explainer, training clip o storie sensibili, le parole sono lo strumento principale. Dai alla musica i punti in cui aiuta davvero: apertura breve, transizione, sezione senza parlato o chiusura dopo il call to action.",
+        "## Scrivi prompt per la leggibilita",
+        "Invece di cinematic inspiring bed, scrivi il compito: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Evita melodie nello stesso registro del voiceover e percussioni fitte sotto captions dense. Se la voce porta il contenuto, tenere la musica circa 20 dB sotto la voce e un utile target di review, non una promessa tecnica. Prova su speaker del telefono e cuffie comuni.",
+        "## Lascia finestre per descrizione e silenzio",
+        "Non ogni video richiede una traccia audio description separata, ma molti usano grafici, azioni su schermo, nomi o prove visive che la narrazione non dice. Segna nel cue sheet finestre brevi per descrizione o silenzio. Nelle captions, scrivi solo suoni non verbali importanti, come soft chime o door closes, non ogni colpo del beat. Qui la buona musica sembra disciplinata perche sa arretrare.",
+        "## Idee riutilizzabili",
+        "- Se c e voiceover, chiedi un instrumental bed senza vocals e senza lead melody affollata.\n- Segna i momenti in cui le captions possono coprire testo importante sullo schermo.\n- Guarda una volta senza audio, poi ascolta una volta senza guardare lo schermo.\n- Scrivi il motivo della musica: clarify pace, mark transition, hold emotion, non solo sounds good.\n- Tieni una nota di upload se una piattaforma chiede AI-generated music o synthetic media.",
+        "## FAQ\n### La musica sicura per captions deve essere sempre bassa?\nNo. Puo salire in intro, transizione o finale senza parlato. Il problema e musica alta sotto parole necessarie.\n### Le captions bastano per accessibilita?\nNon sempre. Coprono informazioni audio; informazioni visive importanti possono richiedere narrazione, transcript o audio description.\n### Posso usare vocals di sottofondo?\nCon cautela. Parole cantate e parole parlate competono subito, soprattutto su telefono.\n### Cosa consegnare al video editor?\nFile finale, version note, punti di ducking e ragione della scelta musicale, cosi nessuno alza il bed nell ultima review."
+      ]
+    },
+    "ja": {
+      "title": "Caption 付き動画で言葉を邪魔しない AI Music を計画する",
+      "description": "AI music が voiceover、captions、audio description、upload notes を支えるための practical workflow。",
+      "body": [
+        "Edit では subtitles がきれいに見えます。ところが音ありで再生すると、music が voiceover の consonants を奪い、caption file は speech だけを拾って重要な cue を逃し、audio description を入れる静かな pocket もありません。Music が悪いとは限りません。どの words を前に出すべきか決める前に brief されたことが問題です。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は text prompts、lyrics、style direction から music drafts を作る AI music creation platform です。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は artist names に頼らず mood、tempo、instrumentation を説明する助けになり、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) は review や delivery 用の alternate formats を準備する時に使えます。Audio 作成は tools が助けますが、speech clarity、captions、rights review、platform disclosure は別の判断です。",
+        "## Word map から始める",
+        "Script または transcript を開き、三つを mark します: speech that must be understood、captions might cover する on-screen text、story に必要な sound cues。Tutorial、product explainer、training clip、sensitive story では words が lead instrument です。Music には実際に役立つ場所を渡します。短い opening、transition、speech のない section、call to action 後の ending です。",
+        "## Readability のために prompt する",
+        "cinematic inspiring bed ではなく、job を書きます: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section。Voiceover と同じ register の melody や dense captions の下の busy percussion は避けます。Speech が content を運ぶなら、music を voice より roughly 20 dB quieter にすることは review target として有用ですが、technical guarantee ではありません。Phone speaker と普通の headphones で確認します。",
+        "## Description と quiet の窓を残す",
+        "すべての video に separate audio description track が必要なわけではありません。ただし charts、screen actions、speaker names、visual proof を narrator が言わない video は多いです。Cue sheet に description または silence を入れられる短い windows を mark します。Captions には soft chime や door closes など意味のある non-speech sounds だけを書き、beat の全 hit は書きません。ここでの良い music は退くタイミングを知っています。",
+        "## 今日使える reusable ideas",
+        "- Voiceover があるなら vocals なし、crowded lead melody なしの instrumental bed を頼む。\n- Captions が重要な on-screen text を隠す moment を mark する。\n- 一度は sound なしで見て、一度は screen を見ずに聞く。\n- Music choice の reason を clarify pace, mark transition, hold emotion と書く。\n- Platform が AI-generated music や synthetic media を尋ねる場合の upload note を残す。",
+        "## FAQ\n### Caption-safe music は常に小さくするべきですか？\nいいえ。Speech のない intro、transition、ending では上げられます。問題は viewer に必要な words の下で大きい music です。\n### Captions だけで accessibility は十分ですか？\n常に十分ではありません。Captions は audio information を扱います。重要な visual information は narration、transcript、audio description が必要な場合があります。\n### Background に vocals を使えますか？\n慎重に使います。Sung words と spoken words は phone speakers で特に競合しやすいです。\n### Editor に何を渡しますか？\nFinal file、version note、ducking points、track を選んだ reason を渡し、last review で bed が上げられないようにします。"
+      ]
+    },
+    "ko": {
+      "title": "Caption 영상에서 말과 싸우지 않는 AI Music 계획하기",
+      "description": "AI music이 voiceover, captions, audio description, upload notes를 덮지 않고 돕게 만드는 practical workflow.",
+      "body": [
+        "Edit에서는 subtitles가 깔끔해 보입니다. 그런데 sound를 켜고 보면 문제가 들립니다. Music이 voiceover의 consonants를 잡아먹고, caption file은 speech는 적지만 중요한 cue를 놓치며, audio description을 넣을 조용한 pocket도 없습니다. Music이 꼭 나쁜 것은 아닙니다. 어떤 words가 앞에 있어야 하는지 정하기 전에 brief된 것이 문제입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text prompts, lyrics, style direction을 music drafts로 바꾸는 AI music creation platform입니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 artist names에 기대지 않고 mood, tempo, instrumentation을 설명하는 데 도움을 주고, [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)는 review 또는 delivery용 alternate formats를 준비할 때 도움이 될 수 있습니다. Tools는 audio draft를 돕지만 speech clarity, captions, rights review, platform disclosure는 별도 decision입니다.",
+        "## Word map부터 시작한다",
+        "Script 또는 transcript를 열고 세 가지를 표시합니다: speech that must be understood, captions might cover 하는 on-screen text, story에 중요한 sound cues. Tutorial, product explainer, training clip, sensitive story에서는 words가 lead instrument입니다. Music에는 실제로 도움이 되는 자리를 줍니다. Short opening, transition, speech 없는 section, call to action 뒤 ending 같은 곳입니다.",
+        "## Readability를 위해 prompt한다",
+        "cinematic inspiring bed 대신 job을 씁니다: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Voiceover와 같은 register의 melody, dense captions 아래 busy percussion은 피합니다. Speech가 content를 운반한다면 music을 voice보다 roughly 20 dB quieter로 보는 것은 useful review target이지 technical guarantee가 아닙니다. Phone speaker와 ordinary headphones로 테스트하세요.",
+        "## Description과 quiet을 위한 window를 남긴다",
+        "모든 video에 separate audio description track이 필요한 것은 아닙니다. 하지만 charts, screen actions, speaker names, visual proof를 narrator가 말하지 않는 video는 많습니다. Cue sheet에 description 또는 silence를 넣을 짧은 windows를 표시하세요. Captions에는 soft chime, door closes처럼 meaningful non-speech sounds만 쓰고 beat의 모든 hit는 쓰지 않습니다. 이 맥락의 좋은 music은 물러날 때를 압니다.",
+        "## 오늘 적용할 수 있는 ideas",
+        "- Voiceover가 있으면 vocals 없고 crowded lead melody 없는 instrumental bed를 요청합니다.\n- Captions가 중요한 on-screen text를 가릴 수 있는 moment를 표시합니다.\n- 한 번은 sound 없이 보고, 한 번은 screen을 보지 않고 듣습니다.\n- Music choice의 reason을 clarify pace, mark transition, hold emotion으로 적습니다.\n- Platform이 AI-generated music 또는 synthetic media를 물을 때를 위해 upload note를 남깁니다.",
+        "## FAQ\n### Caption-safe music은 항상 작아야 하나요?\n아닙니다. Speech가 없는 intro, transition, ending에서는 커질 수 있습니다. 문제는 viewer에게 필요한 words 아래의 큰 music입니다.\n### Captions만 있으면 accessibility가 충분한가요?\n항상 그렇지는 않습니다. Captions는 audio information을 다룹니다. 중요한 visual information에는 narration, transcript, audio description이 필요할 수 있습니다.\n### Background에 vocals를 써도 되나요?\n조심해야 합니다. Sung words와 spoken words는 특히 phone speakers에서 빠르게 경쟁합니다.\n### Editor에게 무엇을 넘기나요?\nFinal file, version note, ducking points, track을 고른 reason을 보내 마지막 review에서 bed를 올리지 않게 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje musica IA para videos legendados sem cobrir as palavras",
+      "description": "Workflow pratico para fazer a musica com IA apoiar voiceover, captions, audio description e notas de upload.",
+      "body": [
+        "As legendas parecem limpas na edicao. Depois voce toca o video com som e ouve o problema: a musica rouba consoantes do voiceover, o arquivo de captions registra a fala mas perde um cue importante, e nao sobra espaco calmo para audio description. A musica nao e necessariamente ruim. Ela foi briefada antes de alguem decidir quais palavras deveriam ficar na frente.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para transformar text prompts, lyrics e style direction em music drafts. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) ajuda a descrever mood, tempo e instrumentation sem depender de nomes de artistas, e o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode ajudar a preparar formatos alternativos para review ou delivery. Essas ferramentas ajudam no audio; speech clarity, captions, rights review e platform disclosure ficam como decisoes separadas.",
+        "## Comece pelo mapa das palavras",
+        "Abra script ou transcript e marque tres coisas: speech that must be understood, on-screen text that captions might cover e sound cues that matter. Em tutorial, product explainer, training clip ou historia sensivel, as palavras sao o instrumento principal. De a musica os lugares onde ela realmente ajuda: abertura curta, transicao, trecho sem fala ou fim depois do call to action.",
+        "## Escreva prompts para leitura",
+        "Em vez de cinematic inspiring bed, escreva a funcao: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Evite melodias no mesmo registro do voiceover e percussoes ocupadas sob captions densas. Se a fala carrega o conteudo, tratar a musica como cerca de 20 dB abaixo da voz e um bom alvo de review, nao uma promessa tecnica. Teste no alto-falante do telefone e em fones comuns.",
+        "## Deixe janelas para descricao e silencio",
+        "Nem todo video precisa de uma faixa separada de audio description, mas muitos dependem de graficos, acoes na tela, nomes de speakers ou provas visuais que a narracao nao menciona. Marque no cue sheet janelas curtas onde descricao ou silencio cabem. Em captions, escreva apenas sons nao falados significativos, como soft chime ou door closes, nao cada batida. Boa musica aqui parece disciplinada porque sabe recuar.",
+        "## Ideias reutilizaveis",
+        "- Se houver voiceover, peca um instrumental bed sem vocals e sem lead melody cheia.\n- Marque qualquer momento em que captions possam cobrir texto importante na tela.\n- Assista uma vez sem som e escute uma vez sem olhar para a tela.\n- Escreva a razao da musica: clarify pace, mark transition, hold emotion, nao apenas sounds good.\n- Guarde uma nota de upload se uma plataforma perguntar sobre AI-generated music ou synthetic media.",
+        "## FAQ\n### Musica segura para captions precisa ser sempre baixa?\nNao. Ela pode crescer em intro, transicao ou final sem fala. O problema e musica alta sob palavras necessarias.\n### Captions bastam para acessibilidade?\nNem sempre. Captions cobrem informacao de audio; informacao visual importante pode exigir narracao, transcript ou audio description.\n### Posso usar vocals no fundo?\nCom cuidado. Palavras cantadas e faladas competem rapido, especialmente em alto-falantes de telefone.\n### O que entregar ao editor?\nArquivo final, version note, pontos de ducking e o motivo da escolha da faixa, para que ninguem aumente o bed na ultima revisao."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music для видео с captions, не перекрывая слова",
+      "description": "Практический workflow, чтобы AI music поддерживала voiceover, captions, audio description и upload notes.",
+      "body": [
+        "Subtitles выглядят аккуратно в монтаже. Потом вы включаете видео со звуком и слышите проблему: music забирает согласные у voiceover, caption file записывает речь, но пропускает важный cue, а тихого места для audio description нет. Музыка не обязательно плохая. Ее brief написали до того, как решили, какие слова должны оставаться впереди.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает text prompts, lyrics и style direction в music drafts. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает описывать mood, tempo и instrumentation без опоры на имена артистов, а [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может помочь подготовить alternate formats для review или delivery. Эти tools помогают сделать audio; speech clarity, captions, rights review и platform disclosure остаются отдельными решениями.",
+        "## Начните с карты слов",
+        "Откройте script или transcript и отметьте три вещи: speech that must be understood, on-screen text that captions might cover, и sound cues that matter. В tutorial, product explainer, training clip или sensitive story слова являются главным инструментом. Музыка получает места, где она действительно помогает: короткое opening, transition, участок без речи или ending после call to action.",
+        "## Пишите prompt ради читаемости",
+        "Вместо cinematic inspiring bed задайте работу: sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section. Избегайте melody в том же register, что и voiceover, и busy percussion под плотными captions. Если речь несет content, музыка примерно на 20 dB тише голоса - полезная цель review, но не техническая гарантия. Проверьте на phone speaker и обычных headphones.",
+        "## Оставьте окна для описания и тишины",
+        "Не каждому video нужна отдельная audio description track, но многие videos зависят от charts, screen actions, speaker names или visual proof, которые narrator не произносит. Отметьте в cue sheet короткие windows, куда поместятся description или silence. В captions пишите только важные non-speech sounds, например soft chime или door closes, а не каждый удар beat. Хорошая music здесь дисциплинирована, потому что умеет отступать.",
+        "## Идеи, которые можно применить сегодня",
+        "- Если есть voiceover, просите instrumental bed без vocals и без crowded lead melody.\n- Отметьте моменты, где captions могут закрыть важный on-screen text.\n- Один раз посмотрите без звука, затем один раз послушайте без экрана.\n- Запишите причину выбора music: clarify pace, mark transition, hold emotion, а не просто sounds good.\n- Сохраните upload note, если platform спросит об AI-generated music или synthetic media.",
+        "## FAQ\n### Caption-safe music всегда должна быть тихой?\nНет. Она может подниматься в intro, transition или ending без речи. Проблема - громкая music под словами, которые нужны viewer.\n### Достаточно ли captions для accessibility?\nНе всегда. Captions покрывают audio information; важная visual information может требовать narration, transcript или audio description.\n### Можно ли использовать vocals на фоне?\nОсторожно. Sung words и spoken words быстро конкурируют, особенно на phone speakers.\n### Что передать editor?\nFinal file, version note, ducking points и причину выбора track, чтобы никто не поднял bed на последнем review."
+      ]
+    },
+    "zh": {
+      "title": "为带字幕的视频规划不抢台词的 AI Music",
+      "description": "一个实用 workflow：让 AI music 支持 voiceover、captions、audio description 和 upload notes，而不是盖住信息。",
+      "body": [
+        "字幕在剪辑里看起来很干净。可是打开声音一听，问题就出现了：music 抢走了 voiceover 的辅音，caption file 写了对白却漏掉重要 cue，也没有安静的位置留给 audio description。音乐不一定差。问题是它在决定哪些 words 必须靠前之前就被 brief 了。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 text prompts、lyrics 和 style direction 变成 music drafts。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮助你不用 artist names 也能描述 mood、tempo 和 instrumentation，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助准备 review 或 delivery 用的 alternate formats。这些 tools 帮你制作 audio；speech clarity、captions、rights review 和 platform disclosure 仍然要单独判断。",
+        "## 先做 word map",
+        "打开 script 或 transcript，标记三件事：speech that must be understood，captions might cover 的 on-screen text，以及 story 需要的 sound cues。在 tutorial、product explainer、training clip 或 sensitive story 中，words 是 lead instrument。把 music 放到真正有帮助的位置：短 opening、transition、没有 speech 的 section，或 call to action 之后的 ending。",
+        "## 为可读性写 prompt",
+        "不要只写 cinematic inspiring bed，而要写任务：sparse pulse, no lead vocal, soft attack, low-mid space for narration, gentle transition after each section。避免和 voiceover 同 register 的 melody，也避免在 dense captions 下面放 busy percussion。如果 speech 承载内容，把 music 大约压到 voice 下方 20 dB 可作为 review target，但不是技术保证。用 phone speaker 和普通 headphones 都听一遍。",
+        "## 留出 description 和 quiet 的窗口",
+        "不是每个 video 都需要单独的 audio description track，但很多视频依赖 charts、screen actions、speaker names 或 visual proof，而 narrator 没有说出来。在 cue sheet 里标出短 windows，让 description 或 silence 能放进去。Captions 只写有意义的 non-speech sounds，比如 soft chime 或 door closes，不必写 beat 的每一下。这个场景里的好 music 懂得后退。",
+        "## 今天就能复用的做法",
+        "- 如果有 voiceover，要求 instrumental bed，不要 vocals，也不要拥挤的 lead melody。\n- 标记 captions 可能盖住重要 on-screen text 的 moment。\n- 一遍不听声音只看画面，一遍不看屏幕只听声音。\n- 写下选择 music 的理由：clarify pace, mark transition, hold emotion，而不只是 sounds good。\n- 如果 platform 询问 AI-generated music 或 synthetic media，保留 upload note。",
+        "## FAQ\n### Caption-safe music 一定要很小声吗？\n不一定。没有 speech 的 intro、transition 或 ending 可以抬高。问题是 viewer 需要的 words 下面有过大的 music。\n### 有 captions 就足够 accessibility 吗？\n不总是。Captions 覆盖 audio information；重要 visual information 可能需要 narration、transcript 或 audio description。\n### 可以用 background vocals 吗？\n要谨慎。Sung words 和 spoken words 很快会竞争，尤其在 phone speakers 上。\n### 应该交给 editor 什么？\n交付 final file、version note、ducking points 和选择 track 的 reason，避免最后 review 时有人把 bed 拉高。"
+      ]
+    }
+  }
+}
