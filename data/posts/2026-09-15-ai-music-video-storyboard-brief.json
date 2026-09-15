@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-15",
+  "slug": "ai-music-video-storyboard-brief",
+  "cluster": "ai-music-video-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب storyboard brief لفيديو AI music قبل التوليد",
+      "description": "Workflow عملي لتحويل song section map الى shot plan، identity notes، aspect-ratio checks، ومراجعة نشر قبل صناعة فيديو AI music.",
+      "body": [
+        "لديك اغنية جيدة وصورة singer واضحة، لكن اول video draft يبدو غريبا: chorus لا يحصل على لقطة اقوى، الverse مليء بحركة بلا معنى، والcrop العمودي يقص اليد او النص. المشكلة ليست دائما في tool الفيديو. غالبا لم يكن هناك storyboard brief يشرح ماذا يجب ان يحدث في كل جزء من الاغنية قبل الضغط على generate.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts من text prompts وlyrics وstyle direction. يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في وصف mood وtempo وinstrumentation بلغة اوضح، بينما تكون صفحة [AI Music Video Generator](https://easymusic.ai/ar/ai-music-video-generator) نقطة مفيدة عندما تنتقل من song وvisual idea الى video workflow. هذه الادوات تساعد في صناعة المواد، اما identity review والحقوق وplatform disclosure فتحتاج قرارات منفصلة.",
+        "## اجعل الاغنية هي timeline",
+        "لا تبدأ بعبارة مثل make a cinematic music video. اكتب song map قصير: intro يثبت المكان، verse يوضح الشخصية، pre-chorus يرفع التوتر، chorus يعطي الصورة الاوسع، bridge يغير اللون او الحركة، outro يترك لقطة نهائية. لكل section، اكتب وظيفة واحدة فقط. اذا حاولت جعل كل جزء dramatic، لن يبقى للchorus اي وزن.",
+        "## افصل performance عن story",
+        "استخدم عمودين في briefك. عمود performance يصف singer, camera distance, mouth movement expectation, wardrobe, background, وما يجب ان يبقى ثابتا. عمود story يصف cutaways, symbols, locations, lyric images, وmoments التي لا تحتاج وجه المغني. هذا الفصل يقلل clips العشوائية ويجعل من السهل رفض لقطة جميلة لكنها لا تخدم الاغنية.",
+        "## اكتب حدود الهوية قبل الصورة",
+        "اذا استخدمت portrait او persona، اكتب ما هو ثابت: لا تشبه فنانا معروفا، لا تبديل عرق او عمر الشخصية، لا استخدام logos او tattoos غير موجودة، ولا وضع الشخص في حدث حقيقي لم يحدث. اكتب ايضا assets المسموح بها: owned portrait, approved artwork, neutral background, original lyrics. هذه ليست نصيحة قانونية، لكنها تمنع brief غير واضح من دفعك نحو اخطاء محرجة.",
+        "## راجع النسخة الصغيرة قبل اللمعان",
+        "قبل اختيار final render، شاهد نسخة 9:16 و16:9 على هاتف. هل chorus مفهوم من دون قراءة الوصف؟ هل الوجه ثابت بما يكفي؟ هل اي text مقطوع؟ هل thumbnail يبيع اللحظة الصحيحة؟ احتفظ بملاحظة upload اذا كانت المنصة تسأل عن AI-generated music او realistic synthetic media، وافصل ذلك عن review الحقوق.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب section map من ستة اسطر قبل توليد اي visual.\n- اجعل chorus يحصل على اوضح لقطة، لا اكثر لقطة مزدحمة.\n- اطلب لقطة performance ولقطة story لكل section، ثم اختر واحدة فقط اذا صار الفيديو مزدحما.\n- اختبر vertical crop قبل اعتماد الwardrobe او hand movement.\n- اكتب rejection rule: اي لقطة تغير identity او تخفي lyric hook تخرج من النسخة.",
+        "## FAQ\n### هل احتاج storyboard اذا كان الفيديو كله AI؟\nنعم. AI video يزيد الحاجة الى storyboard لانك تراجع احتمالات كثيرة بسرعة. الخريطة تمنعك من اختيار اللقطات اللامعة فقط.\n### ماذا اضع في اول prompt؟\nاكتب section، mood، camera distance، visual job، identity boundary، وما لا تريده. مثال: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### هل يمكن استخدام نفس brief لكل aspect ratio؟\nاستخدم نفس الفكرة، لكن لا تستخدم نفس crop بلا مراجعة. Vertical يحتاج مساحة للوجه والنص، وwide يحتاج خلفية لا تصبح فارغة.\n### هل يعني الAI label ان الفيديو لن يعمل؟\nلا تفترض ذلك. اتبع تعليمات المنصة عند الupload، واحتفظ بملاحظة صادقة عن music/video tools المستخدمة."
+      ]
+    },
+    "de": {
+      "title": "Schreibe ein Storyboard-Brief fuer ein AI Music Video",
+      "description": "Ein praktischer Workflow, um Songstruktur, Shot-Plan, Identitaetsgrenzen, Aspect Ratios und Upload-Review vor dem Generieren zu klaeren.",
+      "body": [
+        "Der Song funktioniert, das Portrait sieht gut aus, aber der erste Videoentwurf fuehlt sich falsch an: Der Refrain bekommt keinen staerkeren Moment, die Strophe ist voller Bewegung ohne Zweck, und im Hochformat schneidet der Crop Hand oder Text ab. Das ist nicht immer ein Video-Tool-Problem. Meist fehlte ein Storyboard-Brief, der vor dem Generieren festlegt, was in jedem Songteil passieren soll.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform, mit der du Musikentwuerfe aus Textprompts, Lyrics und Style Direction erstellst. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) hilft, Mood, Tempo und Instrumentierung praeziser zu beschreiben, waehrend die Seite zum [AI Music Video Generator](https://easymusic.ai/de/ai-music-video-generator) nuetzlich ist, wenn du von Song und visueller Idee in einen Video-Workflow gehst. Die Tools helfen beim Material; Identitaetspruefung, Rechte und Plattform-Disclosure bleiben separate Entscheidungen.",
+        "## Lass den Song die Timeline sein",
+        "Beginne nicht mit make a cinematic music video. Schreibe eine kurze Song Map: Intro setzt den Ort, Verse zeigt die Figur, Pre-Chorus hebt Spannung, Chorus bekommt das groesste Bild, Bridge veraendert Farbe oder Bewegung, Outro laesst den Schluss stehen. Fuer jeden Abschnitt notierst du genau eine Aufgabe. Wenn alles dramatisch sein soll, hat der Chorus kein Gewicht mehr.",
+        "## Trenne Performance von Story",
+        "Nutze zwei Spalten im Brief. Performance beschreibt Singer, Kameradistanz, erwartete Mundbewegung, Kleidung, Hintergrund und was stabil bleiben muss. Story beschreibt Cutaways, Symbole, Orte, Lyric-Bilder und Momente ohne Gesicht. Diese Trennung reduziert zufaellige Clips und macht es leichter, einen schoenen Shot abzulehnen, wenn er dem Song nicht dient.",
+        "## Schreibe Identitaetsgrenzen vor das Bild",
+        "Wenn du ein Portrait oder eine Persona nutzt, schreibe fest, was unveraenderlich ist: keine Aehnlichkeit mit bekannten Kuenstlern, kein Wechsel von Alter oder Herkunft der Figur, keine erfundenen Logos oder Tattoos, kein real wirkendes Ereignis, das nie passiert ist. Notiere auch erlaubte Assets: eigenes Portrait, freigegebenes Artwork, neutraler Hintergrund, eigene Lyrics. Das ist keine Rechtsberatung, aber es verhindert einen schwammigen Brief.",
+        "## Pruefe die kleine Version vor dem Glanz",
+        "Vor dem finalen Render schaust du 9:16 und 16:9 auf dem Telefon. Ist der Chorus ohne Beschreibung verstaendlich? Bleibt das Gesicht konsistent genug? Wird Text abgeschnitten? Traegt das Thumbnail den richtigen Moment? Bewahre eine Upload-Notiz auf, falls die Plattform nach AI-generated music oder realistic synthetic media fragt, und halte das getrennt vom Rechte-Review.",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe eine Song Map aus sechs Zeilen, bevor du Visuals generierst.\n- Gib dem Chorus den klarsten Shot, nicht den vollsten Shot.\n- Plane je Abschnitt einen Performance- und einen Story-Shot, dann streiche einen, wenn das Video zu dicht wird.\n- Teste Vertical Crop, bevor Kleidung oder Handbewegung feststehen.\n- Definiere eine Reject Rule: Jeder Shot, der Identitaet veraendert oder den Lyric Hook versteckt, fliegt raus.",
+        "## FAQ\n### Brauche ich ein Storyboard, wenn alles AI ist?\nJa. AI Video macht das Storyboard wichtiger, weil du schnell viele Moeglichkeiten pruefst. Die Karte verhindert, dass nur glaenzende Clips gewinnen.\n### Was gehoert in den ersten Prompt?\nSection, Mood, Kameradistanz, visuelle Aufgabe, Identitaetsgrenze und Ausschluesse. Beispiel: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### Kann derselbe Brief fuer jedes Aspect Ratio gelten?\nDie Idee ja, der Crop nein. Vertical braucht Platz fuer Gesicht und Text; Wide braucht Hintergrund, der nicht leer wirkt.\n### Bedeutet ein AI Label, dass das Video schlechter performt?\nDavon solltest du nicht ausgehen. Folge den Upload-Regeln der Plattform und notiere ehrlich, welche Music- und Video-Tools verwendet wurden."
+      ]
+    },
+    "en": {
+      "title": "Write an AI Music Video Storyboard Brief Before You Generate",
+      "description": "A practical workflow for turning a song section map into a shot plan, identity notes, aspect-ratio checks, and upload review before making an AI music video.",
+      "body": [
+        "The song works and the singer portrait looks strong. Then the first video draft arrives: the chorus has no bigger moment, the verse is full of motion that means nothing, and the vertical crop cuts off a hand or a lyric card. The problem is not always the video tool. More often, nobody wrote a storyboard brief that said what each part of the song was supposed to do.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning text prompts, lyrics, and style direction into music drafts. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help describe mood, tempo, and instrumentation more clearly, while the [AI Music Video Generator](https://easymusic.ai/ai-music-video-generator) page is useful when you are moving from a song and visual idea into a video workflow. Those tools help make creative material; identity review, rights review, and platform disclosure stay separate decisions.",
+        "## Let the Song Be the Timeline",
+        "Do not start with make a cinematic music video. Write a short song map: intro establishes the world, verse introduces the person, pre-chorus tightens the tension, chorus gets the widest or clearest image, bridge changes color or motion, and outro leaves a final frame. Give each section one job. If every section tries to be dramatic, the chorus has nowhere to go.",
+        "## Separate Performance From Story",
+        "Use two columns in the brief. The performance column names the singer, camera distance, mouth-movement expectation, wardrobe, background, and what must stay consistent. The story column names cutaways, symbols, locations, lyric images, and moments that do not need the singer's face. This split reduces random clips and makes it easier to reject a beautiful shot that does not serve the song.",
+        "## Write Identity Boundaries Before Visual Prompts",
+        "If you use a portrait or persona, write what is fixed: do not resemble a known artist, do not change the person's age or ethnicity, do not invent logos or tattoos, and do not place the person inside a realistic event that never happened. Also list the assets you can use: owned portrait, approved artwork, neutral background, original lyrics. This is not legal advice; it is a practical guardrail against a vague brief.",
+        "## Review the Small Version Before the Polished One",
+        "Before choosing a final render, watch a 9:16 and 16:9 version on a phone. Does the chorus read without the caption? Is the face consistent enough? Is any text cut off? Does the thumbnail carry the right moment? Keep an upload note if a platform asks about AI-generated music or realistic synthetic media, and keep that note separate from rights review.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write a six-line section map before generating any visual.\n- Give the chorus the clearest shot, not the busiest shot.\n- Ask for one performance shot and one story shot per section, then cut one if the video feels crowded.\n- Test the vertical crop before approving wardrobe, hand movement, or lyric text.\n- Add a rejection rule: any shot that changes identity or hides the lyric hook leaves the edit.",
+        "## FAQ\n### Do I need a storyboard if the whole video is AI-generated?\nYes. AI video makes the storyboard more important because you can review many possibilities quickly. The map keeps you from choosing only shiny clips.\n### What should go into the first prompt?\nSection, mood, camera distance, visual job, identity boundary, and exclusions. For example: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### Can the same brief work for every aspect ratio?\nThe concept can, but the crop needs review. Vertical video needs room for face and text; wide video needs background that does not feel empty.\n### Does an AI label mean the video will not work?\nDo not assume that. Follow the platform's upload rules and keep an honest note about the music and video tools used."
+      ]
+    },
+    "es": {
+      "title": "Escribe un storyboard brief para un video de AI music",
+      "description": "Workflow practico para convertir la estructura de la cancion en shot plan, notas de identidad, aspect ratios y review de upload.",
+      "body": [
+        "La cancion funciona y el portrait del singer se ve fuerte. Luego llega el primer video draft: el chorus no tiene un momento mas claro, el verse esta lleno de movimiento sin funcion, y el crop vertical corta una mano o una lyric card. El problema no siempre es la herramienta de video. Muchas veces nadie escribio un storyboard brief que dijera que debe hacer cada parte de la cancion.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para convertir text prompts, lyrics y direccion de estilo en music drafts. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) ayuda a describir mood, tempo e instrumentation con mas claridad, mientras la pagina de [AI Music Video Generator](https://easymusic.ai/es/ai-music-video-generator) es util cuando pasas de song y visual idea a video workflow. Estas herramientas ayudan a crear material; identity review, rights review y platform disclosure siguen siendo decisiones aparte.",
+        "## Deja que la cancion sea la timeline",
+        "No empieces con make a cinematic music video. Escribe un song map corto: intro presenta el mundo, verse muestra a la persona, pre-chorus sube la tension, chorus recibe la imagen mas amplia o clara, bridge cambia color o movimiento, y outro deja un frame final. Da a cada section una sola funcion. Si todo intenta ser dramatico, el chorus no tiene a donde crecer.",
+        "## Separa performance y story",
+        "Usa dos columnas en el brief. La columna performance nombra singer, camera distance, expectativa de mouth movement, wardrobe, background y lo que debe mantenerse consistente. La columna story nombra cutaways, symbols, locations, lyric images y moments que no necesitan la cara del cantante. Esta separacion reduce clips aleatorios y facilita rechazar un shot bonito que no sirve a la cancion.",
+        "## Escribe limites de identidad antes del visual prompt",
+        "Si usas portrait o persona, escribe que queda fijo: no parecerse a un artista conocido, no cambiar edad o etnia de la persona, no inventar logos o tattoos, y no colocarla en un evento realista que no ocurrio. Tambien lista assets permitidos: owned portrait, approved artwork, neutral background, original lyrics. No es consejo legal; es una barrera practica contra un brief vago.",
+        "## Revisa la version pequena antes de la pulida",
+        "Antes de elegir final render, mira una version 9:16 y 16:9 en telefono. El chorus se entiende sin caption? La cara se mantiene lo bastante consistente? Hay texto cortado? El thumbnail sostiene el momento correcto? Guarda una upload note si la plataforma pregunta por AI-generated music o realistic synthetic media, y separa esa nota del rights review.",
+        "## Ideas reutilizables",
+        "- Escribe un section map de seis lineas antes de generar visuales.\n- Da al chorus el shot mas claro, no el mas ocupado.\n- Pide un performance shot y un story shot por section, luego corta uno si el video se siente lleno.\n- Prueba el vertical crop antes de aprobar wardrobe, hand movement o lyric text.\n- Agrega una rejection rule: cualquier shot que cambie identity o esconda el lyric hook sale de la edicion.",
+        "## FAQ\n### Necesito storyboard si todo el video es AI-generated?\nSi. AI video hace que el storyboard sea mas importante porque revisas muchas opciones rapido. El mapa evita elegir solo clips brillantes.\n### Que debe ir en el primer prompt?\nSection, mood, camera distance, visual job, identity boundary y exclusions. Por ejemplo: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### Sirve el mismo brief para todos los aspect ratios?\nEl concepto si, pero el crop necesita review. Vertical necesita espacio para cara y texto; wide necesita fondo que no se sienta vacio.\n### Un AI label significa que el video no funcionara?\nNo lo asumas. Sigue las reglas de upload de la plataforma y guarda una nota honesta sobre las herramientas de musica y video usadas."
+      ]
+    },
+    "fr": {
+      "title": "Ecris un storyboard brief avant de generer une video AI music",
+      "description": "Workflow concret pour transformer la structure du morceau en shot plan, notes d identite, tests de formats et review d upload.",
+      "body": [
+        "Le morceau fonctionne et le portrait du singer a de l impact. Puis le premier video draft arrive: le refrain n a pas de moment plus fort, le couplet bouge sans raison claire, et le recadrage vertical coupe une main ou une lyric card. Le probleme ne vient pas toujours de l outil video. Souvent, personne n a ecrit un storyboard brief indiquant le role de chaque partie du morceau.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui transforme prompts texte, paroles et direction de style en brouillons musicaux. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) aide a decrire mood, tempo et instrumentation plus clairement, tandis que la page [AI Music Video Generator](https://easymusic.ai/fr/ai-music-video-generator) est utile quand tu passes d une chanson et d une idee visuelle a un video workflow. Ces outils aident a produire le materiel; identite, droits et disclosure de plateforme restent des decisions separees.",
+        "## Laisse la chanson devenir la timeline",
+        "Ne commence pas par make a cinematic music video. Ecris une courte song map: intro installe le monde, verse presente la personne, pre-chorus resserre la tension, chorus recoit l image la plus claire ou large, bridge change couleur ou mouvement, outro laisse une derniere frame. Donne une seule mission a chaque section. Si tout veut etre dramatique, le chorus ne progresse plus.",
+        "## Separe performance et story",
+        "Utilise deux colonnes dans le brief. La colonne performance precise singer, camera distance, attente de mouth movement, wardrobe, background et ce qui doit rester coherent. La colonne story precise cutaways, symbols, locations, lyric images et moments sans visage. Cette separation reduit les clips aleatoires et aide a refuser un beau shot qui ne sert pas la chanson.",
+        "## Ecris les limites d identite avant les prompts visuels",
+        "Si tu utilises un portrait ou une persona, note ce qui est fixe: ne pas ressembler a un artiste connu, ne pas changer l age ou l origine de la personne, ne pas inventer logos ou tattoos, ne pas placer la personne dans un evenement realiste qui n a pas eu lieu. Liste aussi les assets autorises: portrait possede, artwork approuve, fond neutre, paroles originales. Ce n est pas un avis juridique, mais un garde-fou contre un brief flou.",
+        "## Verifie la petite version avant la version brillante",
+        "Avant de choisir le final render, regarde une version 9:16 et 16:9 sur telephone. Le chorus se comprend-il sans caption? Le visage reste-t-il assez coherent? Un texte est-il coupe? Le thumbnail porte-t-il le bon moment? Garde une note d upload si la plateforme demande AI-generated music ou realistic synthetic media, et separe-la du rights review.",
+        "## Idees reutilisables",
+        "- Ecris une section map de six lignes avant de generer un visuel.\n- Donne au chorus le shot le plus clair, pas le plus charge.\n- Demande un performance shot et un story shot par section, puis coupe-en un si la video est trop dense.\n- Teste le vertical crop avant de valider wardrobe, hand movement ou lyric text.\n- Ajoute une rejection rule: tout shot qui change l identite ou cache le lyric hook sort du montage.",
+        "## FAQ\n### Faut-il un storyboard si toute la video est AI-generated?\nOui. L AI video rend le storyboard plus important, car tu peux voir beaucoup d options tres vite. La carte evite de choisir seulement les clips brillants.\n### Que mettre dans le premier prompt?\nSection, mood, camera distance, visual job, identity boundary et exclusions. Exemple: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### Le meme brief marche-t-il pour tous les aspect ratios?\nLe concept oui, le crop non. Vertical demande de la place pour visage et texte; wide demande un fond qui ne semble pas vide.\n### Un AI label veut-il dire que la video ne marchera pas?\nNe le suppose pas. Suis les regles d upload de la plateforme et garde une note honnete sur les outils musique et video utilises."
+      ]
+    },
+    "it": {
+      "title": "Scrivi uno storyboard brief prima di generare un AI music video",
+      "description": "Workflow pratico per trasformare la struttura del brano in shot plan, identity notes, controlli aspect ratio e review di upload.",
+      "body": [
+        "La canzone funziona e il ritratto del singer e forte. Poi arriva il primo video draft: il ritornello non ha un momento piu chiaro, la strofa si muove senza scopo, e il crop verticale taglia una mano o una lyric card. Il problema non e sempre lo strumento video. Spesso manca uno storyboard brief che dica cosa deve fare ogni parte della canzone.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale AI per trasformare text prompts, lyrics e style direction in music drafts. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) aiuta a descrivere mood, tempo e instrumentation con piu precisione, mentre la pagina [AI Music Video Generator](https://easymusic.ai/it/ai-music-video-generator) e utile quando passi da song e visual idea a video workflow. Questi strumenti aiutano a creare materiale; identity review, rights review e platform disclosure restano decisioni separate.",
+        "## Lascia che la canzone sia la timeline",
+        "Non iniziare con make a cinematic music video. Scrivi una song map breve: intro stabilisce il mondo, verse presenta la persona, pre-chorus alza la tensione, chorus riceve l immagine piu ampia o chiara, bridge cambia colore o movimento, outro lascia il frame finale. Dai a ogni section un solo compito. Se tutto e drammatico, il chorus non ha piu spazio per crescere.",
+        "## Separa performance e story",
+        "Usa due colonne nel brief. La colonna performance nomina singer, camera distance, aspettativa di mouth movement, wardrobe, background e cosa deve restare coerente. La colonna story nomina cutaways, symbols, locations, lyric images e momenti senza volto. Questa separazione riduce clip casuali e rende piu facile rifiutare uno shot bello ma inutile per la canzone.",
+        "## Scrivi i limiti di identita prima dei prompt visivi",
+        "Se usi portrait o persona, scrivi cosa e fisso: non assomigliare a un artista noto, non cambiare eta o origine della persona, non inventare logos o tattoos, non mettere la persona in un evento realistico mai accaduto. Elenca anche gli assets permessi: owned portrait, approved artwork, neutral background, original lyrics. Non e consulenza legale, ma un guardrail pratico contro un brief vago.",
+        "## Rivedi la versione piccola prima di quella lucida",
+        "Prima di scegliere il final render, guarda una versione 9:16 e 16:9 sul telefono. Il chorus si capisce senza caption? Il volto resta abbastanza coerente? Qualche testo viene tagliato? Il thumbnail porta il momento giusto? Conserva una upload note se la piattaforma chiede AI-generated music o realistic synthetic media, separata dal rights review.",
+        "## Idee riutilizzabili",
+        "- Scrivi una section map di sei righe prima di generare visual.\n- Dai al chorus lo shot piu chiaro, non quello piu pieno.\n- Chiedi un performance shot e uno story shot per section, poi tagliane uno se il video e troppo denso.\n- Testa il vertical crop prima di approvare wardrobe, hand movement o lyric text.\n- Aggiungi una rejection rule: ogni shot che cambia identity o nasconde il lyric hook esce dall edit.",
+        "## FAQ\n### Serve uno storyboard se tutto il video e AI-generated?\nSi. AI video rende lo storyboard piu importante, perche puoi valutare molte opzioni in fretta. La mappa evita di scegliere solo clip lucide.\n### Cosa mettere nel primo prompt?\nSection, mood, camera distance, visual job, identity boundary ed exclusions. Esempio: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### Lo stesso brief funziona per ogni aspect ratio?\nIl concept si, il crop va rivisto. Vertical ha bisogno di spazio per volto e testo; wide ha bisogno di uno sfondo che non sembri vuoto.\n### Un AI label significa che il video non funzionera?\nNon supporlo. Segui le regole di upload della piattaforma e conserva una nota onesta sugli strumenti musicali e video usati."
+      ]
+    },
+    "ja": {
+      "title": "生成前に AI Music Video の Storyboard Brief を書く",
+      "description": "Song section map を shot plan、identity notes、aspect-ratio checks、upload review に変える実践 workflow。",
+      "body": [
+        "Song は良いし singer portrait も強い。ところが最初の video draft を見ると、chorus に大きな瞬間がなく、verse は意味のない motion で埋まり、vertical crop が手や lyric card を切っている。問題は必ずしも video tool ではありません。多くの場合、song の各 part が何をするべきかを決める storyboard brief がありません。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は text prompts、lyrics、style direction を music drafts に変える AI music creation platform です。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は mood、tempo、instrumentation をより明確に書く助けになり、[AI Music Video Generator](https://easymusic.ai/ja/ai-music-video-generator) page は song と visual idea から video workflow へ進むときに役立ちます。Tools は creative material を作る助けになりますが、identity review、rights review、platform disclosure は別の判断です。",
+        "## Song を timeline にする",
+        "make a cinematic music video から始めないでください。短い song map を書きます。intro は world を置く、verse は person を紹介する、pre-chorus は tension を上げる、chorus は最も広いまたは明確な image を持つ、bridge は color や motion を変える、outro は final frame を残す。各 section に job を一つだけ与えます。すべてを dramatic にすると、chorus が進む場所を失います。",
+        "## Performance と story を分ける",
+        "Brief に二つの column を作ります。Performance column には singer、camera distance、mouth movement expectation、wardrobe、background、変えてはいけないものを書きます。Story column には cutaways、symbols、locations、lyric images、顔が不要な moments を書きます。この分離で random clips が減り、song に合わない美しい shot を断りやすくなります。",
+        "## Visual prompt の前に identity boundary を書く",
+        "Portrait や persona を使うなら、固定することを書きます。known artist に似せない、person の age や ethnicity を変えない、logos や tattoos を作らない、起きていない realistic event に置かない。使える assets も書きます: owned portrait, approved artwork, neutral background, original lyrics。Legal advice ではありませんが、vague brief への practical guardrail です。",
+        "## Polished version の前に small version を見る",
+        "Final render を選ぶ前に、phone で 9:16 と 16:9 を見ます。Chorus は caption なしで読めるか。Face は十分 consistent か。Text は切れていないか。Thumbnail は正しい moment を持っているか。Platform が AI-generated music や realistic synthetic media を聞く場合に備え、upload note を rights review と分けて残します。",
+        "## 今日使える reusable ideas",
+        "- Visual を生成する前に six-line section map を書く。\n- Chorus には busiest shot ではなく clearest shot を渡す。\n- 各 section に performance shot と story shot を一つずつ頼み、混みすぎたら一つ削る。\n- Wardrobe、hand movement、lyric text を決める前に vertical crop を確認する。\n- Rejection rule を追加する: identity を変える shot、lyric hook を隠す shot は edit から外す。",
+        "## FAQ\n### Video 全体が AI-generated でも storyboard は必要ですか？\nはい。AI video は多くの候補を素早く見られるため、storyboard がさらに重要です。Map が shiny clips だけを選ぶのを防ぎます。\n### 最初の prompt には何を書くべきですか？\nSection、mood、camera distance、visual job、identity boundary、exclusions です。例: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### 同じ brief をすべての aspect ratio に使えますか？\nConcept は使えますが crop は review が必要です。Vertical は face と text の余白、wide は空に見えない background が必要です。\n### AI label があると video は機能しませんか？\nそう決めつけないでください。Platform の upload rules に従い、使った music tools と video tools を正直に記録します。"
+      ]
+    },
+    "ko": {
+      "title": "생성 전에 AI Music Video Storyboard Brief 쓰기",
+      "description": "Song section map을 shot plan, identity notes, aspect-ratio checks, upload review로 바꾸는 practical workflow.",
+      "body": [
+        "Song은 좋고 singer portrait도 강합니다. 그런데 첫 video draft를 보면 chorus에 더 큰 moment가 없고, verse는 의미 없는 motion으로 가득하며, vertical crop이 손이나 lyric card를 잘라냅니다. 문제가 항상 video tool에 있는 것은 아닙니다. 대개 song의 각 part가 무엇을 해야 하는지 정한 storyboard brief가 없었던 것입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text prompts, lyrics, style direction을 music drafts로 바꾸는 AI music creation platform입니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 mood, tempo, instrumentation을 더 분명하게 쓰는 데 도움을 주고, [AI Music Video Generator](https://easymusic.ai/ko/ai-music-video-generator) page는 song과 visual idea에서 video workflow로 넘어갈 때 유용합니다. Tools는 creative material 제작을 돕지만 identity review, rights review, platform disclosure는 별도 decision입니다.",
+        "## Song을 timeline으로 삼는다",
+        "make a cinematic music video로 시작하지 마세요. 짧은 song map을 씁니다. intro는 world를 세우고, verse는 person을 소개하고, pre-chorus는 tension을 높이고, chorus는 가장 넓거나 명확한 image를 받고, bridge는 color 또는 motion을 바꾸고, outro는 final frame을 남깁니다. 각 section에는 job 하나만 줍니다. 모든 section이 dramatic하려 하면 chorus가 갈 곳이 없어집니다.",
+        "## Performance와 story를 분리한다",
+        "Brief에 두 column을 둡니다. Performance column에는 singer, camera distance, mouth movement expectation, wardrobe, background, 일관되어야 할 것을 씁니다. Story column에는 cutaways, symbols, locations, lyric images, 얼굴이 필요 없는 moments를 씁니다. 이 분리는 random clips를 줄이고, song에 맞지 않는 아름다운 shot을 거절하기 쉽게 만듭니다.",
+        "## Visual prompt 전에 identity boundary를 쓴다",
+        "Portrait 또는 persona를 쓴다면 고정할 것을 적습니다. known artist와 닮지 않기, person의 age 또는 ethnicity를 바꾸지 않기, logos나 tattoos를 만들지 않기, 실제처럼 보이지만 일어나지 않은 event에 person을 넣지 않기. 사용할 수 있는 assets도 적습니다: owned portrait, approved artwork, neutral background, original lyrics. Legal advice는 아니지만 vague brief를 막는 practical guardrail입니다.",
+        "## Polished version 전에 small version을 본다",
+        "Final render를 고르기 전에 phone에서 9:16과 16:9를 봅니다. Chorus가 caption 없이 읽히나요? Face가 충분히 consistent한가요? Text가 잘리나요? Thumbnail이 올바른 moment를 담나요? Platform이 AI-generated music 또는 realistic synthetic media를 묻는 경우를 위해 upload note를 남기고, rights review와 분리하세요.",
+        "## 오늘 적용할 수 있는 ideas",
+        "- Visual 생성 전에 six-line section map을 씁니다.\n- Chorus에는 busiest shot이 아니라 clearest shot을 줍니다.\n- 각 section마다 performance shot 하나와 story shot 하나를 요청하고, video가 붐비면 하나를 자릅니다.\n- Wardrobe, hand movement, lyric text를 승인하기 전에 vertical crop을 테스트합니다.\n- Rejection rule을 추가합니다: identity를 바꾸거나 lyric hook을 숨기는 shot은 edit에서 제외합니다.",
+        "## FAQ\n### Video 전체가 AI-generated여도 storyboard가 필요한가요?\n네. AI video는 많은 가능성을 빠르게 검토하게 하므로 storyboard가 더 중요합니다. Map은 shiny clips만 고르는 일을 막습니다.\n### 첫 prompt에는 무엇을 넣나요?\nSection, mood, camera distance, visual job, identity boundary, exclusions입니다. 예: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### 같은 brief를 모든 aspect ratio에 쓸 수 있나요?\nConcept는 가능하지만 crop은 review가 필요합니다. Vertical은 face와 text의 공간이 필요하고, wide는 비어 보이지 않는 background가 필요합니다.\n### AI label이 있으면 video가 안 통한다는 뜻인가요?\n그렇게 단정하지 마세요. Platform의 upload rules를 따르고 사용한 music tools와 video tools에 대한 honest note를 남기세요."
+      ]
+    },
+    "pt": {
+      "title": "Escreva um storyboard brief antes de gerar um AI music video",
+      "description": "Workflow pratico para transformar a estrutura da musica em shot plan, notas de identidade, aspect ratios e review de upload.",
+      "body": [
+        "A musica funciona e o portrait do singer parece forte. Entao chega o primeiro video draft: o chorus nao tem momento maior, o verse tem movimento sem funcao, e o crop vertical corta uma mao ou lyric card. O problema nem sempre e a ferramenta de video. Muitas vezes ninguem escreveu um storyboard brief dizendo o que cada parte da musica deveria fazer.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para transformar text prompts, lyrics e style direction em music drafts. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) ajuda a descrever mood, tempo e instrumentation com mais clareza, enquanto a pagina [AI Music Video Generator](https://easymusic.ai/pt/ai-music-video-generator) e util quando voce passa de song e visual idea para video workflow. Essas ferramentas ajudam a criar material; identity review, rights review e platform disclosure continuam sendo decisoes separadas.",
+        "## Deixe a musica ser a timeline",
+        "Nao comece com make a cinematic music video. Escreva uma song map curta: intro estabelece o mundo, verse apresenta a pessoa, pre-chorus aumenta a tensao, chorus recebe a imagem mais ampla ou clara, bridge muda cor ou movimento, outro deixa um frame final. De uma funcao para cada section. Se tudo tenta ser dramatico, o chorus perde espaco para crescer.",
+        "## Separe performance de story",
+        "Use duas colunas no brief. A coluna performance nomeia singer, camera distance, expectativa de mouth movement, wardrobe, background e o que precisa ficar consistente. A coluna story nomeia cutaways, symbols, locations, lyric images e moments que nao precisam do rosto. Essa separacao reduz clips aleatorios e facilita rejeitar um shot bonito que nao serve a musica.",
+        "## Escreva limites de identidade antes dos prompts visuais",
+        "Se usar portrait ou persona, escreva o que e fixo: nao parecer com artista conhecido, nao mudar idade ou etnia da pessoa, nao inventar logos ou tattoos, nao colocar a pessoa em evento realistico que nao aconteceu. Liste tambem assets permitidos: owned portrait, approved artwork, neutral background, original lyrics. Nao e aconselhamento juridico; e um guardrail pratico contra brief vago.",
+        "## Revise a versao pequena antes da polida",
+        "Antes de escolher final render, assista a uma versao 9:16 e 16:9 no telefone. O chorus se entende sem caption? O rosto fica consistente o bastante? Algum texto e cortado? O thumbnail carrega o momento certo? Guarde uma upload note se a plataforma perguntar sobre AI-generated music ou realistic synthetic media, separada do rights review.",
+        "## Ideias reutilizaveis",
+        "- Escreva uma section map de seis linhas antes de gerar qualquer visual.\n- De ao chorus o shot mais claro, nao o mais cheio.\n- Peça um performance shot e um story shot por section, depois corte um se o video ficar cheio.\n- Teste vertical crop antes de aprovar wardrobe, hand movement ou lyric text.\n- Adicione uma rejection rule: qualquer shot que mude identity ou esconda o lyric hook sai da edicao.",
+        "## FAQ\n### Preciso de storyboard se todo o video for AI-generated?\nSim. AI video torna o storyboard mais importante porque voce revisa muitas possibilidades rapidamente. O mapa evita escolher apenas clips brilhantes.\n### O que entra no primeiro prompt?\nSection, mood, camera distance, visual job, identity boundary e exclusions. Exemplo: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### O mesmo brief serve para todos os aspect ratios?\nO conceito sim, mas o crop precisa de review. Vertical precisa de espaco para rosto e texto; wide precisa de background que nao pareca vazio.\n### Um AI label significa que o video nao vai funcionar?\nNao presuma isso. Siga as regras de upload da plataforma e mantenha uma nota honesta sobre as ferramentas de musica e video usadas."
+      ]
+    },
+    "ru": {
+      "title": "Напишите storyboard brief до генерации AI music video",
+      "description": "Практический workflow: превратить структуру песни в shot plan, identity notes, aspect-ratio checks и upload review.",
+      "body": [
+        "Песня работает, и portrait певца выглядит сильным. Потом приходит первый video draft: у chorus нет более крупного момента, verse заполнен движением без смысла, а vertical crop обрезает руку или lyric card. Проблема не всегда в video tool. Чаще никто не написал storyboard brief, который объясняет, что должна делать каждая часть песни.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает text prompts, lyrics и style direction в music drafts. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает яснее описать mood, tempo и instrumentation, а страница [AI Music Video Generator](https://easymusic.ai/ru/ai-music-video-generator) полезна, когда вы переходите от song и visual idea к video workflow. Эти tools помогают создавать материал; identity review, rights review и platform disclosure остаются отдельными решениями.",
+        "## Пусть песня будет timeline",
+        "Не начинайте с make a cinematic music video. Напишите короткую song map: intro задает мир, verse представляет человека, pre-chorus усиливает tension, chorus получает самый широкий или ясный image, bridge меняет color или motion, outro оставляет final frame. Дайте каждой section одну задачу. Если все пытается быть dramatic, chorus некуда расти.",
+        "## Разделите performance и story",
+        "Используйте две колонки в brief. Колонка performance называет singer, camera distance, ожидание mouth movement, wardrobe, background и то, что должно оставаться consistent. Колонка story называет cutaways, symbols, locations, lyric images и moments, где лицо не нужно. Такое разделение уменьшает random clips и помогает отклонить красивый shot, если он не служит песне.",
+        "## Напишите границы идентичности до visual prompts",
+        "Если вы используете portrait или persona, запишите фиксированные вещи: не походить на известного артиста, не менять age или ethnicity человека, не придумывать logos или tattoos, не помещать человека в realistic event, которого не было. Также перечислите допустимые assets: owned portrait, approved artwork, neutral background, original lyrics. Это не юридический совет, а практический guardrail против расплывчатого brief.",
+        "## Проверьте маленькую версию до polished version",
+        "Перед выбором final render посмотрите 9:16 и 16:9 на телефоне. Понятен ли chorus без caption? Достаточно ли consistent лицо? Не обрезан ли text? Несет ли thumbnail правильный moment? Сохраните upload note, если platform спрашивает об AI-generated music или realistic synthetic media, и держите ее отдельно от rights review.",
+        "## Идеи, которые можно применить сегодня",
+        "- Напишите six-line section map до генерации visuals.\n- Дайте chorus самый ясный shot, а не самый загруженный.\n- Попросите один performance shot и один story shot для каждой section, затем уберите один, если video перегружено.\n- Проверьте vertical crop до утверждения wardrobe, hand movement или lyric text.\n- Добавьте rejection rule: любой shot, который меняет identity или скрывает lyric hook, выходит из edit.",
+        "## FAQ\n### Нужен ли storyboard, если все video AI-generated?\nДа. AI video делает storyboard важнее, потому что вы быстро видите много вариантов. Map не дает выбрать только блестящие clips.\n### Что писать в первый prompt?\nSection, mood, camera distance, visual job, identity boundary и exclusions. Например: chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### Один brief подходит для всех aspect ratios?\nConcept может, но crop нужно проверять. Vertical требует места для лица и текста; wide требует background, который не выглядит пустым.\n### AI label значит, что video не сработает?\nНе делайте такой вывод. Следуйте upload rules платформы и сохраните честную note о music tools и video tools."
+      ]
+    },
+    "zh": {
+      "title": "生成前先写 AI Music Video 的 Storyboard Brief",
+      "description": "一个实用 workflow：把 song section map 变成 shot plan、identity notes、aspect-ratio checks 和 upload review。",
+      "body": [
+        "Song 本身不错，singer portrait 也很有感觉。可是第一个 video draft 出来后，问题很明显：chorus 没有更强的 moment，verse 里全是没有目的的 motion，vertical crop 还切掉了手或 lyric card。问题不一定是 video tool。更多时候，是没有先写清楚每个 song part 要做什么的 storyboard brief。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 text prompts、lyrics 和 style direction 变成 music drafts。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮助你更清楚地描述 mood、tempo 和 instrumentation；[AI Music Video Generator](https://easymusic.ai/zh/ai-music-video-generator) 页面在你从 song 和 visual idea 进入 video workflow 时很有用。这些 tools 帮助制作素材；identity review、rights review 和 platform disclosure 仍然要单独判断。",
+        "## 让 song 成为 timeline",
+        "不要从 make a cinematic music video 开始。先写一个简短 song map：intro 建立 world，verse 介绍 person，pre-chorus 拉紧 tension，chorus 给最宽或最清楚的 image，bridge 改变 color 或 motion，outro 留下 final frame。每个 section 只给一个 job。如果每一段都想 dramatic，chorus 就没有成长空间。",
+        "## 分开 performance 和 story",
+        "在 brief 里做两列。Performance 列写 singer、camera distance、mouth movement expectation、wardrobe、background，以及必须保持一致的内容。Story 列写 cutaways、symbols、locations、lyric images，以及不需要出现脸的 moments。这个拆分可以减少 random clips，也更容易拒绝一条好看但不服务 song 的 shot。",
+        "## 在 visual prompts 前写 identity boundaries",
+        "如果使用 portrait 或 persona，先写固定边界：不要像已知 artist，不改变人物 age 或 ethnicity，不凭空添加 logos 或 tattoos，不把人物放进没有发生过的 realistic event。也写清楚可用 assets：owned portrait, approved artwork, neutral background, original lyrics。这不是法律建议，但能防止模糊 brief 带来尴尬错误。",
+        "## 先看小屏版本，再选 polished version",
+        "选择 final render 前，在手机上看一遍 9:16 和 16:9。Chorus 不看 caption 能懂吗？Face 是否足够 consistent？Text 有没有被切掉？Thumbnail 是否承载了正确 moment？如果 platform 询问 AI-generated music 或 realistic synthetic media，保留 upload note，并把它和 rights review 分开。",
+        "## 今天就能复用的做法",
+        "- 生成任何 visual 前，先写 six-line section map。\n- 把 clearest shot 给 chorus，而不是 busiest shot。\n- 每个 section 先要一个 performance shot 和一个 story shot；如果 video 太挤，就删掉一个。\n- 批准 wardrobe、hand movement 或 lyric text 前，先测试 vertical crop。\n- 写 rejection rule：任何改变 identity 或遮住 lyric hook 的 shot 都退出 edit。",
+        "## FAQ\n### 如果整个 video 都是 AI-generated，还需要 storyboard 吗？\n需要。AI video 让你很快看到很多可能性，所以 storyboard 更重要。Map 可以防止你只选择 shiny clips。\n### 第一个 prompt 应该写什么？\nSection、mood、camera distance、visual job、identity boundary 和 exclusions。例如：chorus, confident close-up, warm backlight, no crowd, no artist imitation.\n### 同一个 brief 能用于所有 aspect ratio 吗？\nConcept 可以，但 crop 必须重新 review。Vertical 需要给 face 和 text 留空间；wide 需要 background 不显得空。\n### AI label 是否代表 video 不会有效？\n不要这样假设。按照 platform 的 upload rules 操作，并诚实记录使用过的 music tools 和 video tools。"
+      ]
+    }
+  }
+}
