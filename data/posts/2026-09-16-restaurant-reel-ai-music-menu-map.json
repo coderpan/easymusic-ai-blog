@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-16",
+  "slug": "restaurant-reel-ai-music-menu-map",
+  "cluster": "restaurant-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لريلز المطاعم بدون اخفاء صوت الطعام",
+      "description": "Workflow عملي لصناعة موسيقى قصيرة لريلز المطاعم مع menu promise map، food sounds، voiceover واضح، caption check، ومراجعة نشر.",
+      "body": [
+        "تصور ان لديك shot رائع: سكين يقطع sourdough، صلصة تلمع، وشخص يقول العرض قبل نهاية الريل. ثم تضيف music bed قوي فيختفي صوت القرمشة، لا يسمع المشاهد اسم الطبق، ويبدو الفيديو مثل اعلان عام لا مثل مطعم حقيقي. مشكلة music في restaurant reel ليست انها غير حماسية. المشكلة غالبا انها لا تعرف ما الذي يجب ان تتركه في المقدمة.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts من text prompts وlyrics وstyle direction. يمكنك استخدام [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لوصف mood وtempo وinstrumentation لريل طعام بدقة اكبر، ثم استخدام [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) عند تجهيز file format مناسب للتسليم او المونتاج. الادوات تساعد في صنع المادة الصوتية، اما حقوق الاستخدام وقواعد المنصة ومراجعة المطعم فتبقى قرارات منفصلة.",
+        "## ابدأ بmenu promise map",
+        "اكتب ثلاث خانات قبل اي prompt: الطبق، السبب الذي يجعله مشتهى، والشيء الذي يجب ان يصدقه المشاهد. مثال: spicy chicken sandwich، crunch واضح في اول ثانيتين، وسعر او pickup note في اخر الشاشة. هذه الخريطة تمنعك من اختيار track جميل لكنه يبيع mood مختلفا تماما عن الطعام.",
+        "## اترك مساحة للاصوات التي تثبت الطبق",
+        "في فيديو الطعام، sizzle وknife tap وpour وfirst bite ليست زينة. هي proof. اطلب music bed قصيرا مع percussion ناعم، no busy hi-hats، no heavy bass drops، واترك نصف ثانية صامتة حول اهم food sound. اذا كان هناك voiceover، اجعل music support layer لا lead layer.",
+        "## اكتب prompt يخدم القطع لا العكس",
+        "بدل upbeat restaurant music، جرب: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. اذا ظهر draft مزدحم، غير محور واحد فقط: قلل drums، ارفع warmth، او اطلب ending انظف. لا تضف عشر صفات جديدة في كل مرة.",
+        "## راجع المنصة مثلما تراجع الطعم",
+        "Restaurant account غالبا حساب تجاري، لذلك لا تبن خطتك على trending audio بدون مراجعة. افحص هل الصوت مقبول للمنشور التجاري، هل captions تحمل اسم الطبق والعرض عند كتم الصوت، وهل هناك AI disclosure مطلوب اذا استخدمت مشاهد واقعية مولدة او معدلة. لا تفترض ان قبول منصة يعني قبول منصة اخرى.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب menu promise map من ثلاث خانات: dish، proof sound، offer or action.\n- اجعل اول ثانيتين للطعام لا للlogo.\n- اترك food sounds اعلى من music في اللقطات التي تثبت texture.\n- اصنع نسختين: voiceover mix وsound-first mix.\n- احتفظ بملاحظة upload منفصلة عن قرار الحقوق والترخيص.",
+        "## FAQ\n### هل يحتاج restaurant reel الى vocals؟\nغالبا لا. اذا كان هناك voiceover او on-screen offer، instrumental short bed اسهل للمزج.\n### ما طول الموسيقى المناسب؟\nابدأ بطول الفيديو نفسه، مثل 10 او 15 او 20 ثانية، مع ending نظيف. Loop غير واضح قد يجعل الريل يبدو غير منته.\n### هل يمكن استخدام نفس audio لكل المنصات؟\nاستخدم نفس الفكرة، لكن راجع قواعد كل منصة وحسابك التجاري وformat المطلوب. لا تعتمد على mute-free test في تطبيق واحد فقط.\n### ماذا اراجع قبل النشر؟\nاسمع الريل على phone speaker، ثم بكتم الصوت. اذا ضاع crunch او العرض او اسم الطبق، فالموسيقى تقوم بعمل اكثر من اللازم."
+      ]
+    },
+    "de": {
+      "title": "Plane AI Music fuer Restaurant Reels, ohne das Essen zu verstecken",
+      "description": "Ein praktischer Workflow fuer Restaurant-Reels mit Menu Promise Map, Food Sounds, klarer Voiceover-Spur, Caption Check und Upload-Review.",
+      "body": [
+        "Du hast den perfekten Shot: ein Messer geht durch Sourdough, Sauce glaenzt, jemand nennt das Angebot kurz vor Schluss. Dann legst du ein starkes Music Bed darunter, und ploetzlich verschwindet der Crunch, der Name des Gerichts ist kaum hoerbar, und der Clip klingt wie irgendeine Anzeige statt wie dein Lokal. Das Problem ist nicht zu wenig Energie. Das Problem ist Musik, die nicht weiss, was vorne bleiben muss.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform, mit der du Musikentwuerfe aus Textprompts, Lyrics und Style Direction erstellst. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) hilft, Mood, Tempo und Instrumentierung fuer ein Food Reel genauer zu beschreiben, und der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) ist nuetzlich, wenn du ein Audioformat fuer Schnitt oder Uebergabe vorbereitest. Die Tools helfen beim Material; Nutzungsrechte, Plattformregeln und Restaurant-Freigabe bleiben eigene Checks.",
+        "## Beginne mit einer Menu Promise Map",
+        "Schreibe vor dem Prompt drei Felder: Gericht, Beweis, Handlung. Beispiel: spicy chicken sandwich, Crunch in den ersten zwei Sekunden, Pickup-Hinweis oder Preis im letzten Bild. Diese Karte verhindert, dass du einen schoenen Track waehlst, der ein anderes Versprechen verkauft als das Essen im Bild.",
+        "## Lass Platz fuer die Sounds, die das Gericht beweisen",
+        "Bei Food Videos sind Sizzle, Knife Tap, Pour und First Bite keine Dekoration. Sie sind Proof. Bitte um ein kurzes Music Bed mit weicher Percussion, no busy hi-hats, no heavy bass drops, und lass um den wichtigsten Food Sound eine halbe Sekunde Luft. Wenn es Voiceover gibt, ist Musik Support Layer, nicht Lead Layer.",
+        "## Schreibe den Prompt fuer den Schnitt",
+        "Statt upbeat restaurant music funktioniert konkreter: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Wenn der Draft zu voll ist, aendere nur eine Achse: weniger Drums, mehr Waerme oder ein saubereres Ende. Zehn neue Adjektive machen den naechsten Versuch selten besser.",
+        "## Pruefe Plattformen wie du Geschmack pruefst",
+        "Ein Restaurantkonto ist oft ein Business Account, also plane nicht blind mit Trending Audio. Pruefe, ob der Sound fuer kommerzielle Posts passt, ob Captions Gericht und Angebot tragen, wenn der Ton aus ist, und ob AI Disclosure noetig ist, wenn realistische Szenen generiert oder stark veraendert wurden. Akzeptanz auf einer Plattform ist keine Freigabe fuer alle anderen.",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe eine Menu Promise Map mit dish, proof sound und offer or action.\n- Gib den ersten zwei Sekunden dem Essen, nicht dem Logo.\n- Halte Food Sounds ueber der Musik, wenn sie Texture beweisen.\n- Erstelle zwei Mixe: voiceover mix und sound-first mix.\n- Bewahre eine Upload-Notiz getrennt von Rechte- und Lizenzentscheidungen auf.",
+        "## FAQ\n### Braucht ein Restaurant Reel Gesang?\nMeist nicht. Wenn Voiceover oder Angebotstext wichtig sind, laesst sich ein kurzer Instrumental-Bed leichter mischen.\n### Wie lang sollte die Musik sein?\nStarte mit der Cliplaenge, etwa 10, 15 oder 20 Sekunden, und plane ein sauberes Ende. Ein unklarer Loop laesst den Clip unfertig wirken.\n### Kann dasselbe Audio auf jeder Plattform laufen?\nDie Idee kann gleich bleiben, aber pruefe Plattformregeln, Business Account und Format. Verlass dich nicht nur auf einen Mute-Test in einer App.\n### Was pruefe ich vor dem Posten?\nHoere auf dem Phone Speaker und dann ohne Ton. Wenn Crunch, Angebot oder Gerichtname verloren gehen, macht die Musik zu viel."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Restaurant Reels Without Hiding the Food",
+      "description": "A practical workflow for restaurant reels with a menu promise map, food-sound space, clear voiceover, caption checks, and upload review.",
+      "body": [
+        "The shot is good: a knife breaks through sourdough, sauce catches the light, and someone says the lunch offer before the clip ends. Then the music bed arrives and the crunch disappears, the dish name is hard to hear, and the reel feels like a generic ad instead of a real place serving real food. Restaurant music fails when it forgets what should stay in front.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning text prompts, lyrics, and style direction into music drafts. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help describe mood, tempo, and instrumentation for a food reel more clearly, and the [Audio Converter](https://easymusic.ai/tools/audio-converter) is useful when you need a delivery or editing format. The tools help create material; usage rights, platform rules, and restaurant approval still need separate review.",
+        "## Start With a Menu Promise Map",
+        "Before writing a prompt, fill three fields: dish, proof, action. Example: spicy chicken sandwich, audible crunch in the first two seconds, pickup note or price in the final frame. This tiny map keeps you from choosing a polished track that sells a different promise than the food on screen.",
+        "## Leave Room for the Sounds That Prove the Dish",
+        "In food video, sizzle, knife taps, pouring, and the first bite are not decoration. They are proof. Ask for a short music bed with soft percussion, no busy hi-hats, no heavy bass drops, and a little air around the key food sound. If there is voiceover, treat music as the support layer, not the lead.",
+        "## Prompt for the Edit, Not the Vibe Board",
+        "Instead of upbeat restaurant music, try: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. If the draft feels crowded, change one axis at a time: fewer drums, warmer bass, cleaner ending. Adding ten new adjectives usually makes the next version less useful.",
+        "## Review the Platform Like You Review the Plate",
+        "A restaurant account is often a business account, so do not build the plan around borrowed trending audio without checking the rules. Confirm whether the sound fits the post type, whether captions carry the dish name and offer when the reel is muted, and whether AI disclosure is needed if you generated or altered realistic footage. Do not assume one platform's acceptance travels to another platform.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Write a three-field menu promise map: dish, proof sound, offer or action.\n- Give the first two seconds to the food, not the logo.\n- Keep food sounds above the music when they prove texture.\n- Make two exports: a voiceover mix and a sound-first mix.\n- Keep an upload note separate from rights and licensing decisions.",
+        "## FAQ\n### Do restaurant reels need vocals?\nUsually no. If the reel has voiceover, captions, or an offer, a short instrumental bed is easier to mix.\n### How long should the music be?\nStart with the clip length, such as 10, 15, or 20 seconds, and ask for a clean ending. A vague loop can make the reel feel unfinished.\n### Can I use the same audio everywhere?\nUse the same creative idea, but check each platform, account type, and format. A sound that survives one upload test is not a universal clearance.\n### What should I check before posting?\nListen on a phone speaker, then watch muted. If the crunch, offer, or dish name disappears, the music is doing too much."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para restaurant reels sin tapar la comida",
+      "description": "Workflow practico para reels de restaurante con menu promise map, espacio para food sounds, voiceover claro, captions y review de upload.",
+      "body": [
+        "El shot funciona: el cuchillo rompe el sourdough, la salsa brilla y alguien dice la oferta antes del final. Luego entra la musica y desaparece el crunch, el nombre del plato no se entiende y el reel suena como un anuncio generico en vez de un lugar real sirviendo comida real. La musica falla cuando olvida que debe quedarse al frente.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para convertir text prompts, lyrics y direccion de estilo en music drafts. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) ayuda a describir mood, tempo e instrumentation para un food reel con mas claridad, y el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) sirve cuando necesitas preparar un formato para edicion o entrega. Las herramientas ayudan a crear material; derechos de uso, reglas de plataforma y aprobacion del restaurante se revisan aparte.",
+        "## Empieza con un menu promise map",
+        "Antes del prompt, llena tres campos: dish, proof, action. Ejemplo: spicy chicken sandwich, crunch audible en los primeros dos segundos, pickup note o precio en el frame final. Este mapa pequeno evita elegir un track pulido que vende una promesa distinta a la comida en pantalla.",
+        "## Deja espacio para los sonidos que prueban el plato",
+        "En video de comida, sizzle, knife taps, pouring y first bite no son decoracion. Son prueba. Pide un music bed corto con soft percussion, no busy hi-hats, no heavy bass drops, y un poco de aire alrededor del food sound clave. Si hay voiceover, la musica es support layer, no lead.",
+        "## Escribe el prompt para el edit",
+        "En vez de upbeat restaurant music, prueba: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Si el draft se siente lleno, cambia un solo eje: menos drums, bass mas calido o final mas limpio. Diez adjetivos nuevos rara vez arreglan el problema.",
+        "## Revisa la plataforma como revisas el plato",
+        "Un restaurant account suele ser business account, asi que no construyas todo sobre trending audio prestado sin revisar reglas. Confirma si el sound encaja con el tipo de post, si captions sostienen nombre del plato y oferta cuando el reel esta muted, y si necesitas AI disclosure si generaste o alteraste footage realista. No asumas que una plataforma aprueba a todas.",
+        "## Ideas reutilizables",
+        "- Escribe un menu promise map: dish, proof sound, offer or action.\n- Da los primeros dos segundos a la comida, no al logo.\n- Mantén food sounds por encima de la musica cuando prueban texture.\n- Exporta dos versiones: voiceover mix y sound-first mix.\n- Guarda una upload note separada de decisiones de derechos y licencias.",
+        "## FAQ\n### Un restaurant reel necesita vocals?\nNormalmente no. Si hay voiceover, captions u oferta, un instrumental bed corto es mas facil de mezclar.\n### Que duracion debe tener la musica?\nEmpieza con la duracion del clip, como 10, 15 o 20 segundos, y pide un final limpio. Un loop vago puede hacer que el reel parezca incompleto.\n### Puedo usar el mismo audio en todas partes?\nUsa la misma idea creativa, pero revisa cada plataforma, account type y format. Que un sonido pase una prueba de upload no significa clearance universal.\n### Que reviso antes de publicar?\nEscucha en phone speaker y luego mira sin sonido. Si desaparecen crunch, oferta o nombre del plato, la musica hace demasiado."
+      ]
+    },
+    "fr": {
+      "title": "Planifie l AI music pour restaurant reels sans cacher le plat",
+      "description": "Workflow concret pour reels de restaurant avec menu promise map, sons de nourriture, voiceover clair, captions et review d upload.",
+      "body": [
+        "Le plan est bon: le couteau traverse le sourdough, la sauce capte la lumiere, quelqu un annonce l offre avant la fin. Puis la musique arrive et le crunch disparait, le nom du plat devient flou, et le reel ressemble a une publicite generique au lieu d un vrai lieu qui sert un vrai plat. La musique echoue quand elle oublie ce qui doit rester devant.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui transforme prompts texte, paroles et direction de style en brouillons musicaux. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) aide a decrire mood, tempo et instrumentation pour un food reel avec plus de precision, et l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) est utile quand tu prepares un format pour le montage ou la livraison. Les outils aident a creer la matiere; droits d usage, regles de plateforme et validation du restaurant restent des controles separes.",
+        "## Commence par une menu promise map",
+        "Avant le prompt, remplis trois champs: dish, proof, action. Exemple: spicy chicken sandwich, crunch audible dans les deux premieres secondes, note de retrait ou prix dans le dernier frame. Cette petite carte evite de choisir un track elegant qui promet autre chose que le plat a l image.",
+        "## Laisse de la place aux sons qui prouvent le plat",
+        "Dans une video food, sizzle, knife taps, pouring et first bite ne sont pas de simples details. Ce sont des preuves. Demande un music bed court avec soft percussion, no busy hi-hats, no heavy bass drops, et un peu d air autour du food sound principal. S il y a une voiceover, la musique soutient; elle ne dirige pas.",
+        "## Ecris le prompt pour le montage",
+        "Au lieu de upbeat restaurant music, essaie: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Si le draft est trop charge, change un seul axe: moins de drums, basse plus chaude ou fin plus nette. Dix nouveaux adjectifs rendent souvent le test moins lisible.",
+        "## Verifie la plateforme comme tu verifies l assiette",
+        "Un compte restaurant est souvent un business account; ne construis donc pas le plan autour d un trending audio emprunte sans verifier. Confirme si le son convient au type de post, si les captions gardent le nom du plat et l offre quand le reel est muted, et si une AI disclosure est necessaire lorsque des images realistes ont ete generees ou modifiees. Une acceptation sur une plateforme ne vaut pas pour toutes.",
+        "## Idees reutilisables",
+        "- Ecris une menu promise map: dish, proof sound, offer or action.\n- Donne les deux premieres secondes a la nourriture, pas au logo.\n- Garde les food sounds au-dessus de la musique quand ils prouvent la texture.\n- Exporte deux versions: voiceover mix et sound-first mix.\n- Garde une note d upload separee des decisions de droits et de licence.",
+        "## FAQ\n### Un restaurant reel a-t-il besoin de vocals ?\nLe plus souvent non. Avec une voiceover, des captions ou une offre, un court instrumental bed se mixe mieux.\n### Quelle longueur pour la musique ?\nPars de la longueur du clip, par exemple 10, 15 ou 20 secondes, avec une fin propre. Un loop flou donne l impression d un reel inacheve.\n### Puis-je utiliser le meme audio partout ?\nGarde la meme idee creative, mais verifie chaque plateforme, account type et format. Un upload qui passe quelque part n est pas une autorisation generale.\n### Que verifier avant de publier ?\nEcoute sur haut-parleur de telephone, puis regarde sans son. Si le crunch, l offre ou le nom du plat disparaissent, la musique prend trop de place."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per restaurant reels senza coprire il cibo",
+      "description": "Workflow pratico per reels di ristoranti con menu promise map, food sounds, voiceover chiaro, caption check e review di upload.",
+      "body": [
+        "La clip e buona: il coltello rompe il sourdough, la salsa prende luce, qualcuno dice l offerta prima della fine. Poi arriva il music bed e sparisce il crunch, il nome del piatto si capisce appena, e il reel sembra una pubblicita generica invece di un posto reale che serve cibo reale. La musica fallisce quando dimentica cosa deve restare davanti.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA per trasformare text prompts, lyrics e direzione di stile in music drafts. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo aiutare a descrivere mood, tempo e instrumentation per un food reel in modo piu chiaro, e l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) e utile quando devi preparare un formato per editing o consegna. Gli strumenti aiutano a creare materiale; diritti d uso, regole di piattaforma e approvazione del ristorante restano controlli separati.",
+        "## Parti da una menu promise map",
+        "Prima del prompt, compila tre campi: dish, proof, action. Esempio: spicy chicken sandwich, crunch udibile nei primi due secondi, pickup note o prezzo nel frame finale. Questa mappa piccola evita di scegliere un track pulito che vende una promessa diversa dal cibo nello schermo.",
+        "## Lascia spazio ai suoni che provano il piatto",
+        "Nel food video, sizzle, knife taps, pouring e first bite non sono decorazione. Sono prova. Chiedi un music bed breve con soft percussion, no busy hi-hats, no heavy bass drops, e un po di aria intorno al food sound principale. Se c e voiceover, la musica e support layer, non lead.",
+        "## Scrivi il prompt per il montaggio",
+        "Invece di upbeat restaurant music, prova: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Se il draft e affollato, cambia un solo asse: meno drums, bass piu caldo o ending piu pulito. Dieci nuovi aggettivi spesso peggiorano il prossimo tentativo.",
+        "## Rivedi la piattaforma come rivedi il piatto",
+        "Un account ristorante e spesso un business account, quindi non costruire tutto su trending audio preso in prestito senza controllare. Verifica se il sound e adatto al tipo di post, se captions reggono nome del piatto e offerta quando il reel e muted, e se serve AI disclosure quando hai generato o modificato footage realistico. Non assumere che l accettazione di una piattaforma valga ovunque.",
+        "## Idee riutilizzabili",
+        "- Scrivi una menu promise map: dish, proof sound, offer or action.\n- Dai i primi due secondi al cibo, non al logo.\n- Tieni i food sounds sopra la musica quando dimostrano texture.\n- Esporta due versioni: voiceover mix e sound-first mix.\n- Tieni una upload note separata dalle decisioni su diritti e licenze.",
+        "## FAQ\n### Un restaurant reel ha bisogno di vocals?\nDi solito no. Se ci sono voiceover, captions o offerta, un breve instrumental bed e piu facile da mixare.\n### Quanto deve durare la musica?\nParti dalla durata della clip, per esempio 10, 15 o 20 secondi, con un ending pulito. Un loop vago fa sembrare il reel incompleto.\n### Posso usare lo stesso audio ovunque?\nUsa la stessa idea creativa, ma controlla ogni piattaforma, account type e format. Un upload riuscito non e una clearance universale.\n### Cosa controllo prima di pubblicare?\nAscolta dallo speaker del telefono, poi guarda in mute. Se crunch, offerta o nome del piatto spariscono, la musica sta facendo troppo."
+      ]
+    },
+    "ja": {
+      "title": "料理を隠さない Restaurant Reels 用 AI music 設計",
+      "description": "Menu promise map、food sounds、clear voiceover、caption check、upload review で restaurant reels の音楽を作る workflow。",
+      "body": [
+        "Shot は良いです。Knife が sourdough を切り、sauce が光り、最後に lunch offer を言います。そこへ music bed を足した瞬間、crunch が消え、dish name が聞こえにくくなり、real restaurant の動画ではなく generic ad のように感じます。Restaurant reel の music は、何を前に残すべきかを忘れた時に失敗します。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、text prompts、lyrics、style direction から music drafts を作る AI music creation platform です。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は food reel の mood、tempo、instrumentation をより明確に書く助けになり、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) は editing や delivery 用の format を準備するときに役立ちます。Tools は素材作りを助けますが、usage rights、platform rules、restaurant approval は別に review します。",
+        "## Menu promise map から始める",
+        "Prompt の前に三つの field を埋めます: dish、proof、action。例: spicy chicken sandwich、最初の二秒で audible crunch、最後の frame で pickup note または price。この小さな map が、画面の food と違う promise を売る polished track を選ばないようにします。",
+        "## 料理を証明する sound に余白を残す",
+        "Food video では sizzle、knife taps、pouring、first bite は decoration ではありません。Proof です。Soft percussion、no busy hi-hats、no heavy bass drops の short music bed を頼み、key food sound の周りに少し air を残します。Voiceover があるなら、music は lead ではなく support layer です。",
+        "## Vibe board ではなく edit のために prompt を書く",
+        "upbeat restaurant music ではなく、こう書きます: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Draft が混んでいるなら、一度に一つだけ変えます: drums を減らす、bass を warm にする、ending を clean にする。新しい adjectives を十個足しても改善しにくいです。",
+        "## Plate と同じくらい platform を review する",
+        "Restaurant account は business account であることが多いので、borrowed trending audio だけに頼らないでください。Sound が post type に合うか、muted でも captions が dish name と offer を伝えるか、realistic footage を生成または大きく変更した場合に AI disclosure が必要かを確認します。一つの platform で通ったことは、別の platform の許可ではありません。",
+        "## 今日使える reusable ideas",
+        "- Menu promise map を書く: dish、proof sound、offer or action。\n- 最初の二秒は logo ではなく food に渡す。\n- Texture を証明する時は food sounds を music より前に置く。\n- Voiceover mix と sound-first mix の二つを作る。\n- Rights と licensing decisions とは別に upload note を残す。",
+        "## FAQ\n### Restaurant reel に vocals は必要ですか？\n多くの場合は不要です。Voiceover、captions、offer があるなら、short instrumental bed の方が mix しやすいです。\n### Music の長さは？\n10、15、20 秒など clip length から始め、clean ending を頼みます。曖昧な loop は reel を未完成に見せます。\n### 同じ audio をどこでも使えますか？\nCreative idea は同じでよいですが、platform、account type、format をそれぞれ確認します。一つの upload test は universal clearance ではありません。\n### 投稿前に何を確認しますか？\nPhone speaker で聞き、次に muted で見ます。Crunch、offer、dish name が消えるなら、music が働きすぎています。"
+      ]
+    },
+    "ko": {
+      "title": "음식을 가리지 않는 Restaurant Reels용 AI music 계획",
+      "description": "Menu promise map, food sounds, clear voiceover, caption check, upload review로 restaurant reels 음악을 설계하는 workflow.",
+      "body": [
+        "Shot은 좋습니다. Knife가 sourdough를 자르고, sauce가 빛나고, 끝나기 전에 누군가 lunch offer를 말합니다. 그런데 music bed를 얹자 crunch가 사라지고 dish name이 잘 들리지 않으며 reel이 실제 식당이 아니라 generic ad처럼 느껴집니다. Restaurant music은 앞에 남아야 할 것을 잊을 때 실패합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 text prompts, lyrics, style direction을 music drafts로 바꾸는 AI music creation platform입니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 food reel의 mood, tempo, instrumentation을 더 분명하게 쓰는 데 도움을 주고, [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)는 editing 또는 delivery format을 준비할 때 유용합니다. Tools는 material 제작을 돕지만 usage rights, platform rules, restaurant approval은 별도 review가 필요합니다.",
+        "## Menu promise map으로 시작한다",
+        "Prompt 전에 세 field를 채웁니다: dish, proof, action. 예: spicy chicken sandwich, 첫 2초의 audible crunch, 마지막 frame의 pickup note 또는 price. 이 작은 map은 화면 속 food와 다른 promise를 파는 polished track을 고르지 않게 해줍니다.",
+        "## 요리를 증명하는 sound를 남긴다",
+        "Food video에서 sizzle, knife taps, pouring, first bite는 decoration이 아닙니다. Proof입니다. Soft percussion, no busy hi-hats, no heavy bass drops가 있는 short music bed를 요청하고 key food sound 주변에는 약간의 air를 남깁니다. Voiceover가 있으면 music은 lead가 아니라 support layer입니다.",
+        "## 분위기가 아니라 edit을 위해 prompt를 쓴다",
+        "upbeat restaurant music 대신 이렇게 씁니다: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Draft가 붐비면 한 번에 한 축만 바꿉니다. Drums를 줄이거나, bass를 warm하게 하거나, ending을 clean하게 만드세요. 새 adjectives 열 개를 더하는 일은 보통 도움이 적습니다.",
+        "## Plate를 보듯 platform도 review한다",
+        "Restaurant account는 business account인 경우가 많으므로 borrowed trending audio에만 기대지 마세요. Sound가 post type에 맞는지, muted 상태에서도 captions가 dish name과 offer를 전달하는지, realistic footage를 생성하거나 크게 바꾼 경우 AI disclosure가 필요한지 확인합니다. 한 platform에서 통과했다고 다른 platform까지 허가된 것은 아닙니다.",
+        "## 오늘 적용할 수 있는 ideas",
+        "- Menu promise map을 씁니다: dish, proof sound, offer or action.\n- 첫 2초는 logo가 아니라 food에 줍니다.\n- Texture를 증명할 때는 food sounds를 music보다 앞에 둡니다.\n- Voiceover mix와 sound-first mix 두 가지를 만듭니다.\n- Rights 및 licensing decisions와 분리된 upload note를 남깁니다.",
+        "## FAQ\n### Restaurant reel에 vocals가 필요한가요?\n대개 필요 없습니다. Voiceover, captions, offer가 있으면 short instrumental bed가 mix하기 쉽습니다.\n### Music 길이는 어느 정도가 좋나요?\n10, 15, 20초처럼 clip length에서 시작하고 clean ending을 요청하세요. 모호한 loop는 reel을 미완성처럼 보이게 합니다.\n### 같은 audio를 어디에나 쓸 수 있나요?\nCreative idea는 같아도 각 platform, account type, format을 확인하세요. 한 번의 upload test가 universal clearance는 아닙니다.\n### 게시 전 무엇을 확인하나요?\nPhone speaker로 듣고, muted로 봅니다. Crunch, offer, dish name이 사라지면 music이 너무 많은 일을 하고 있습니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje AI music para restaurant reels sem esconder a comida",
+      "description": "Workflow pratico para reels de restaurante com menu promise map, food sounds, voiceover claro, captions e review de upload.",
+      "body": [
+        "O shot esta bom: a faca corta o sourdough, o molho pega a luz, alguem fala a oferta antes do fim. Entao entra o music bed e o crunch desaparece, o nome do prato fica dificil de ouvir, e o reel parece um anuncio generico em vez de um lugar real servindo comida real. A musica falha quando esquece o que precisa ficar na frente.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para transformar text prompts, lyrics e style direction em music drafts. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode ajudar a descrever mood, tempo e instrumentation para um food reel com mais clareza, e o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) e util quando voce prepara um formato para edicao ou entrega. As ferramentas ajudam a criar material; direitos de uso, regras de plataforma e aprovacao do restaurante continuam sendo revisoes separadas.",
+        "## Comece com uma menu promise map",
+        "Antes do prompt, preencha tres campos: dish, proof, action. Exemplo: spicy chicken sandwich, crunch audivel nos primeiros dois segundos, pickup note ou preco no frame final. Esse mapa pequeno evita escolher um track polido que vende uma promessa diferente da comida na tela.",
+        "## Deixe espaco para os sons que provam o prato",
+        "Em video de comida, sizzle, knife taps, pouring e first bite nao sao decoracao. Sao prova. Peça um music bed curto com soft percussion, no busy hi-hats, no heavy bass drops, e um pouco de ar em volta do food sound principal. Se houver voiceover, a musica e support layer, nao lead.",
+        "## Escreva o prompt para o edit",
+        "Em vez de upbeat restaurant music, tente: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Se o draft ficar cheio, mude um eixo por vez: menos drums, bass mais warm ou ending mais clean. Dez novos adjetivos geralmente deixam o proximo teste menos util.",
+        "## Revise a plataforma como revisa o prato",
+        "Um restaurant account muitas vezes e business account, entao nao baseie tudo em trending audio emprestado sem checar regras. Confirme se o sound serve para o tipo de post, se captions carregam nome do prato e oferta quando o reel esta muted, e se AI disclosure e necessaria quando voce gerou ou alterou footage realista. Nao presuma que uma plataforma aprova todas.",
+        "## Ideias reutilizaveis",
+        "- Escreva uma menu promise map: dish, proof sound, offer or action.\n- De os primeiros dois segundos para a comida, nao para o logo.\n- Mantenha food sounds acima da musica quando provam texture.\n- Exporte duas versoes: voiceover mix e sound-first mix.\n- Guarde uma upload note separada das decisoes de direitos e licencas.",
+        "## FAQ\n### Restaurant reels precisam de vocals?\nNormalmente nao. Se ha voiceover, captions ou oferta, um short instrumental bed e mais facil de mixar.\n### Qual deve ser a duracao da musica?\nComece pela duracao do clip, como 10, 15 ou 20 segundos, e peca um ending limpo. Um loop vago pode deixar o reel inacabado.\n### Posso usar o mesmo audio em todo lugar?\nUse a mesma ideia criativa, mas cheque cada plataforma, account type e format. Um upload que passa em um lugar nao e clearance universal.\n### O que revisar antes de publicar?\nOuça no phone speaker e depois assista muted. Se crunch, oferta ou nome do prato somem, a musica esta fazendo demais."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music для restaurant reels, не скрывая еду",
+      "description": "Практический workflow для ресторанных reels: menu promise map, food sounds, clear voiceover, caption check и upload review.",
+      "body": [
+        "Кадр хороший: нож проходит через sourdough, sauce ловит свет, кто-то произносит lunch offer до конца ролика. Потом появляется music bed, и crunch исчезает, название блюда трудно услышать, а reel звучит как generic ad, а не как реальное место с реальной едой. Restaurant music проваливается, когда забывает, что должно оставаться на переднем плане.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает text prompts, lyrics и style direction в music drafts. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает точнее описать mood, tempo и instrumentation для food reel, а [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) полезен, когда нужен формат для монтажа или передачи. Tools помогают создать материал; usage rights, platform rules и restaurant approval нужно проверять отдельно.",
+        "## Начните с menu promise map",
+        "До prompt заполните три поля: dish, proof, action. Пример: spicy chicken sandwich, слышный crunch в первые две секунды, pickup note или price в финальном frame. Такая маленькая карта не дает выбрать polished track, который продает другое обещание, чем еда на экране.",
+        "## Оставьте место для звуков, которые доказывают блюдо",
+        "В food video sizzle, knife taps, pouring и first bite - не украшение. Это proof. Просите short music bed с soft percussion, no busy hi-hats, no heavy bass drops и небольшим воздухом вокруг главного food sound. Если есть voiceover, музыка должна быть support layer, а не lead.",
+        "## Пишите prompt для edit, а не для mood board",
+        "Вместо upbeat restaurant music попробуйте: short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending. Если draft перегружен, меняйте одну ось: fewer drums, warmer bass или cleaner ending. Десять новых adjectives обычно делают следующую версию менее полезной.",
+        "## Проверяйте platform так же внимательно, как тарелку",
+        "Restaurant account часто является business account, поэтому не стройте план на borrowed trending audio без проверки правил. Убедитесь, что sound подходит типу поста, captions передают dish name и offer при mute, а AI disclosure рассмотрена, если realistic footage было сгенерировано или заметно изменено. Принятие одной platform не означает разрешение на другой.",
+        "## Идеи, которые можно применить сегодня",
+        "- Напишите menu promise map: dish, proof sound, offer or action.\n- Отдайте первые две секунды еде, а не logo.\n- Держите food sounds выше music, когда они доказывают texture.\n- Сделайте два экспорта: voiceover mix и sound-first mix.\n- Храните upload note отдельно от решений о правах и лицензиях.",
+        "## FAQ\n### Нужны ли vocals для restaurant reel?\nОбычно нет. Если есть voiceover, captions или offer, короткий instrumental bed проще смешать.\n### Какой длины должна быть музыка?\nНачните с длины clip, например 10, 15 или 20 секунд, и просите clean ending. Нечеткий loop может сделать reel незавершенным.\n### Можно использовать один audio везде?\nИдея может быть той же, но проверяйте каждую platform, account type и format. Успешный upload test не является universal clearance.\n### Что проверить перед публикацией?\nПослушайте на phone speaker, затем посмотрите muted. Если crunch, offer или dish name исчезают, музыка делает слишком много."
+      ]
+    },
+    "zh": {
+      "title": "为 Restaurant Reels 规划不遮住食物的 AI music",
+      "description": "一个实用 workflow：用 menu promise map、food sounds、清晰 voiceover、caption check 和 upload review 做餐厅短视频音乐。",
+      "body": [
+        "画面很好：knife 切开 sourdough，sauce 反光，有人在结尾前说出 lunch offer。然后 music bed 一进来，crunch 消失了，dish name 听不清，reel 也从真实餐厅变成了 generic ad。Restaurant music 失败，常常不是因为不够热闹，而是忘了什么应该留在最前面。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 text prompts、lyrics 和 style direction 变成 music drafts。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮助你更清楚地描述 food reel 的 mood、tempo 和 instrumentation；[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 在准备剪辑或交付格式时很有用。Tools 帮助制作素材；usage rights、platform rules 和 restaurant approval 仍然需要单独 review。",
+        "## 从 menu promise map 开始",
+        "写 prompt 前，先填三个 field：dish、proof、action。例子：spicy chicken sandwich，前两秒能听见 crunch，最后 frame 有 pickup note 或 price。这个小 map 可以避免你选到一条很 polished、但和画面食物承诺不一致的 track。",
+        "## 给证明食物的声音留位置",
+        "在 food video 里，sizzle、knife taps、pouring 和 first bite 不是装饰，而是 proof。可以要求 short music bed：soft percussion、no busy hi-hats、no heavy bass drops，并在关键 food sound 周围留一点 air。如果有 voiceover，music 应该是 support layer，不是 lead。",
+        "## 为 edit 写 prompt，而不是为情绪板写 prompt",
+        "不要只写 upbeat restaurant music，可以写：short warm funk-pop instrumental for a 15-second grilled sandwich reel, light brushed drums, muted bass, room for crunch and voiceover, quick clean ending。如果 draft 太挤，一次只改一个 axis：fewer drums、warmer bass，或 cleaner ending。一次加十个新 adjectives 通常不会更好。",
+        "## 像检查出品一样检查 platform",
+        "Restaurant account 往往是 business account，所以不要未经 review 就依赖 borrowed trending audio。确认 sound 是否适合 post type，muted 时 captions 是否仍能传达 dish name 和 offer；如果生成或明显改变了 realistic footage，也要检查是否需要 AI disclosure。一个 platform 通过，不代表所有 platform 都通过。",
+        "## 今天就能用的 ideas",
+        "- 写一个三格 menu promise map：dish、proof sound、offer or action。\n- 前两秒给 food，不要给 logo。\n- 当 food sounds 证明 texture 时，让它们高于 music。\n- 做两个 export：voiceover mix 和 sound-first mix。\n- 把 upload note 和 rights、licensing decisions 分开保存。",
+        "## FAQ\n### Restaurant reel 需要 vocals 吗？\n通常不需要。如果有 voiceover、captions 或 offer，short instrumental bed 更容易 mix。\n### Music 应该多长？\n从 clip length 开始，比如 10、15 或 20 秒，并要求 clean ending。模糊的 loop 会让 reel 像没做完。\n### 可以到处使用同一个 audio 吗？\nCreative idea 可以相同，但要分别检查每个 platform、account type 和 format。一次 upload test 通过不等于 universal clearance。\n### 发布前该检查什么？\n先用 phone speaker 听，再 muted 观看。如果 crunch、offer 或 dish name 消失，说明 music 做得太多了。"
+      ]
+    }
+  }
+}
