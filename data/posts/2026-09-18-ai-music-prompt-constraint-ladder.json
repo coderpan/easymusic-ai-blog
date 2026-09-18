@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-18",
+  "slug": "ai-music-prompt-constraint-ladder",
+  "cluster": "prompt-revision-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصلح AI music prompt المزدحم باستخدام constraint ladder",
+      "description": "Workflow عملي لترتيب AI music prompt بين must-have، style shape، avoid list، وlistening test قبل توليد نسخة اخرى.",
+      "body": [
+        "المشكلة تظهر بعد ثلاث نسخ. الاولى كانت قريبة لكن بطيئة، الثانية صارت اكثر حماسا لكنها فقدت الهدوء، والثالثة اخذت prompt طويلا مليئا بكل ما خطر في بالك. فجأة لم تعد تعرف هل تغيرت الموسيقى لانك اصلحتها، ام لانك طلبت خمسة اشياء متعارضة في نفس السطر.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة لصناعة music drafts من prompts وlyrics وstyle direction. يمكن ان يساعدك [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) على تحويل فكرة صوتية غامضة الى style brief اوضح قبل نقلها الى مساحة التوليد. الاداة تساعد على الاستكشاف، لكن تقييم الجودة، الحقوق، السياق، والنشر يبقى عملا بشريا منفصلا.",
+        "## استخدم constraint ladder بدل prompt طويل",
+        "اكتب prompt كأربع درجات، لا كقائمة رغبات. الدرجة الاولى: must-have واحد لا تتنازل عنه. الدرجة الثانية: shape يصف tempo، groove، او section movement. الدرجة الثالثة: avoid list قصيرة لما يخرب النتيجة عادة. الدرجة الرابعة: listening test، اي جملة تعرف من خلالها هل النسخة نجحت. عندما تضيف فكرة جديدة، ضعها في درجة واحدة فقط.",
+        "## ابدأ بما لا يمكن تغييره",
+        "Must-have ليس عشر صفات. هو قرار واحد: instrumental bed under a calm voice، او short chorus-first pop hook، او dark synth loop for a menu screen. اذا كان كل شيء مهما، فلن تعرف ماذا تحفظ عندما تعجبك نسخة جزئيا. اكتب الجملة هكذا: Keep this as a quiet mid-tempo instrumental bed for spoken narration. بعد ذلك فقط اضف اللون.",
+        "## اجعل style shape متوافقا",
+        "Shape يصف الحركة التي تريد سماعها. مثال عملي: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. لا تخلط intimate وstadium-sized الا اذا قلت متى يحدث كل منهما. اذا اردت contrast، اربطه بالsection: verse close and dry, chorus wider with harmony. هذا اوضح من تكديس adjectives.",
+        "## استخدم avoid list كفرامل لا كمحرك",
+        "Exclude او avoid مفيد عندما تكرر الاداة خطأ معينا: no heavy drums، no rap vocal، no brass lead. لكنه ليس بديلا عن style قوي. اذا كتبت upbeat pop ثم قلت avoid drums, avoid bright synths, avoid vocals, avoid chorus, فانت لم تترك مسارا موسيقيا واضحا. اختر اثنين او ثلاثة boundaries فقط.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- قبل regeneration، اكتب must-have في سطر مستقل.\n- احذف كل adjective مكرر لا يغير ما ستسمعه.\n- ضع كل avoid item بسبب واضح: ماذا كان يفسد النسخة السابقة؟\n- غير درجة واحدة فقط بين نسختين حتى تعرف سبب التحسن.\n- احتفظ بجملة listening test بجانب كل draft في EasyMusic.AI.",
+        "## FAQ\n### ما طول AI music prompt المناسب؟\nيكفي غالبا prompt قصير وواضح اذا كان فيه job، style lane، حركة، وboundary. الطول وحده لا يجعل النتيجة ادق.\n### هل يجب ذكر BPM دائما؟\nاذكره عندما يكون tempo جزءا من المشكلة، مثل dance، workout، rap، او edit timed. في ambient او ballad، وصف السرعة قد يكفي.\n### ماذا افعل اذا تجاهلت الاداة instruction؟\nاعد كتابته كفعل مسموع في section محدد، واحذف instruction منافسا. لا تغير كل prompt مرة واحدة.\n### هل constraint ladder يضمن النتيجة؟\nلا. هو طريقة تجعل التجربة قابلة للفهم. ستظل بحاجة الى الاستماع، الاختيار، والمراجعة."
+      ]
+    },
+    "de": {
+      "title": "Repariere ueberladene AI Music Prompts mit einer Constraint Ladder",
+      "description": "Ein praktischer Workflow fuer AI Music Prompts mit Must-have, Style Shape, Avoid-Liste und Listening Test vor dem naechsten Draft.",
+      "body": [
+        "Das Problem taucht oft nach drei Versionen auf. Die erste war nah dran, aber zu langsam. Die zweite hatte mehr Energie, verlor aber die Stimmung. In die dritte schreibst du alles hinein, was dir einfällt, und ploetzlich klingt der Track nicht genauer, sondern beliebiger. Du weisst nicht mehr, welche Aenderung geholfen hat.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine Plattform, mit der du Musikentwuerfe aus Prompts, Lyrics und Style Direction erstellst. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann aus einer vagen Klangidee einen klareren Style Brief machen, bevor du ihn in den Generator uebernimmst. Das Tool hilft beim Entwerfen; Qualitaet, Rechte, Kontext und Veroeffentlichung bleiben eigene Pruefschritte.",
+        "## Schreibe eine Ladder statt einer Wunschliste",
+        "Teile den Prompt in vier Stufen. Erstens: ein Must-have, das bleiben muss. Zweitens: ein Shape fuer Tempo, Groove oder Section Movement. Drittens: eine kurze Avoid-Liste fuer Dinge, die den letzten Draft kaputt gemacht haben. Viertens: ein Listening Test, an dem du den Erfolg erkennst. Jede neue Idee gehoert nur auf eine Stufe.",
+        "## Beginne mit dem nicht verhandelbaren Punkt",
+        "Ein Must-have ist keine Sammlung von zehn Adjektiven. Es ist ein Satz wie quiet instrumental bed under spoken narration, chorus-first pop hook oder dark synth loop for a menu screen. Wenn alles gleich wichtig ist, kannst du bei einem halb guten Draft nichts sinnvoll retten. Schreibe zuerst: Keep this as a restrained mid-tempo instrumental bed for a clear voice.",
+        "## Mache den Style Shape kompatibel",
+        "Shape beschreibt, was sich hoerbar bewegen soll. Beispiel: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. Intimate und stadium-sized widersprechen sich, wenn du nicht sagst, wann welches Gefuehl gelten soll. Fuer Kontrast: verse close and dry, chorus wider with harmony. Das ist besser als eine lange Kette von Mood-Woertern.",
+        "## Nutze Avoid als Bremse, nicht als Motor",
+        "Exclude oder Avoid hilft, wenn ein Fehler wiederkehrt: no heavy drums, no rap vocal, no brass lead. Die Liste ersetzt aber keinen klaren Style. Wenn du upbeat pop schreibst und danach drums, bright synths, vocals und chorus verbietest, bleibt kein musikalischer Weg uebrig. Zwei oder drei Grenzen reichen meist.",
+        "## Sofort nutzbare Ideen",
+        "- Schreibe das Must-have vor jeder neuen Generation in eine eigene Zeile.\n- Streiche jedes doppelte Adjektiv, das du nicht wirklich hoeren koenntest.\n- Gib jedem Avoid-Punkt einen Grund aus dem letzten Draft.\n- Aendere zwischen zwei Versionen nur eine Ladder-Stufe.\n- Speichere neben jedem EasyMusic.AI Draft einen Listening Test.",
+        "## FAQ\n### Wie lang sollte ein AI Music Prompt sein?\nKurz und klar reicht oft aus, wenn Job, Style Lane, Bewegung und Boundary enthalten sind. Laenge allein macht den Track nicht praeziser.\n### Muss ich immer BPM angeben?\nNutze BPM, wenn Tempo entscheidend ist, etwa bei Dance, Workout, Rap oder timed edits. Bei Ambient oder Balladen kann eine Tempo-Beschreibung genuegen.\n### Was, wenn eine Anweisung ignoriert wird?\nSchreibe sie als hoerbare Aktion in einer bestimmten Section und entferne konkurrierende Hinweise. Aendere nicht den ganzen Prompt auf einmal.\n### Garantiert die Constraint Ladder ein Ergebnis?\nNein. Sie macht die Iteration lesbar. Hoeren, auswaehlen und pruefen musst du weiterhin."
+      ]
+    },
+    "en": {
+      "title": "Fix Crowded AI Music Prompts With a Constraint Ladder",
+      "description": "A practical workflow for revising AI music prompts with one must-have, one style shape, a short avoid list, and a listening test.",
+      "body": [
+        "The problem usually appears after the third version. The first draft was close but too slow. The second had better energy but lost the mood. By the third try, the prompt contains every correction you can think of, and the result gets less predictable instead of more useful. At that point, the issue may not be the generator. It may be that your prompt has no hierarchy.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, and style direction into music drafts. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn a vague sonic idea into a cleaner style brief before you move it into generation. The tools help you explore; quality review, rights review, release context, and final judgment still belong to you.",
+        "## Use a Constraint Ladder, Not a Wish List",
+        "Write the prompt in four rungs. First, one must-have that cannot change. Second, one style shape that describes tempo, groove, section movement, or lead sound. Third, a short avoid list based on problems you actually heard. Fourth, a listening test that tells you whether the next draft worked. If a new idea does not fit one rung, it probably does not belong in the prompt yet.",
+        "## Start With the Thing That Must Survive",
+        "A must-have is not ten adjectives. It is one decision: a quiet instrumental bed under narration, a chorus-first pop hook, a dark synth loop for a menu screen, or a dry close vocal over sparse guitar. Try this shape: Keep this as a restrained mid-tempo instrumental bed for spoken narration. Now every other instruction has to support that job instead of competing with it.",
+        "## Make the Style Shape Compatible",
+        "The shape is the audible movement you want. A useful line might be: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. Do not ask for intimate and stadium-sized unless you assign each quality to a section. If you want contrast, say where it happens: verse close and dry, chorus wider with stacked harmony. That is easier to test than a pile of mood words.",
+        "## Use Avoid as a Brake, Not the Engine",
+        "Exclude or avoid instructions are useful when a specific failure keeps returning: no heavy drums, no rap vocal, no brass lead. They are weak when they try to replace the main direction. If your prompt says upbeat pop and then avoids drums, bright synths, vocals, and chorus lift, you have mostly described what the track cannot be. Keep two or three boundaries and let the positive brief carry the music.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Put the must-have on its own line before you regenerate.\n- Delete repeated adjectives that do not change what you would hear.\n- Give every avoid item a reason from the previous draft.\n- Change only one rung between version A and version B.\n- Save a one-sentence listening test beside each EasyMusic.AI draft.",
+        "## FAQ\n### How long should an AI music prompt be?\nLong enough to name the job, style lane, movement, and boundary. Short, compatible instructions often beat a long paragraph of equal-weight demands.\n### Should I always include BPM?\nUse BPM when tempo is part of the problem, such as dance, workout, rap, or timed video edits. For ambient pieces or ballads, a plain tempo feel may be enough.\n### What if the tool ignores one instruction?\nRewrite that instruction as a section-specific audible action and remove competing wording. Do not repair the whole prompt at once.\n### Does a constraint ladder guarantee the output?\nNo. It makes revision easier to understand. You still need to listen, choose, and review the result before using it."
+      ]
+    },
+    "es": {
+      "title": "Arregla AI music prompts saturados con una constraint ladder",
+      "description": "Workflow practico para revisar AI music prompts con must-have, style shape, avoid list y listening test antes del siguiente draft.",
+      "body": [
+        "El problema suele aparecer despues de la tercera version. La primera estaba cerca pero demasiado lenta. La segunda tenia mas energia pero perdio el mood. Para la tercera, el prompt ya tiene todas las correcciones posibles y el resultado se vuelve menos claro, no mas util. Quizas el problema no sea la herramienta, sino que el prompt no tiene jerarquia.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de creacion musical con IA para convertir prompts, lyrics y style direction en music drafts. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede ayudar a transformar una idea sonora vaga en un style brief mas limpio antes de generar. Las herramientas ayudan a explorar; calidad, derechos, contexto de publicacion y criterio final siguen necesitando revision humana.",
+        "## Usa una constraint ladder, no una lista de deseos",
+        "Divide el prompt en cuatro niveles. Primero, un must-have que no puede cambiar. Segundo, un style shape que describa tempo, groove, movimiento por secciones o sonido principal. Tercero, una avoid list breve basada en problemas que escuchaste. Cuarto, un listening test que diga si el siguiente draft funciono. Si una idea nueva no cabe en un nivel, tal vez aun no pertenece al prompt.",
+        "## Empieza por lo que debe sobrevivir",
+        "Un must-have no son diez adjetivos. Es una decision: instrumental bed tranquilo debajo de narracion, chorus-first pop hook, dark synth loop para un menu, o vocal close y dry sobre guitarra escasa. Prueba esta forma: Keep this as a restrained mid-tempo instrumental bed for spoken narration. Todo lo demas debe apoyar ese trabajo.",
+        "## Haz compatible el style shape",
+        "El shape es el movimiento audible que buscas. Una linea util puede ser: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. No pidas intimate y stadium-sized a la vez si no asignas cada cualidad a una section. Para contraste: verse close and dry, chorus wider with stacked harmony. Eso se puede evaluar mejor que una pila de mood words.",
+        "## Usa avoid como freno, no como motor",
+        "Exclude o avoid sirve cuando vuelve un fallo concreto: no heavy drums, no rap vocal, no brass lead. Funciona mal cuando intenta reemplazar la direccion principal. Si tu prompt dice upbeat pop y luego prohibe drums, bright synths, vocals y chorus lift, casi solo describiste lo que la pista no puede ser. Mantén dos o tres boundaries.",
+        "## Ideas reutilizables",
+        "- Pon el must-have en su propia linea antes de regenerar.\n- Borra adjectives repetidos que no cambien lo que oirias.\n- Dale a cada avoid item una razon tomada del draft anterior.\n- Cambia solo un nivel entre version A y version B.\n- Guarda un listening test de una frase junto a cada draft de EasyMusic.AI.",
+        "## FAQ\n### Cuanto debe medir un AI music prompt?\nLo suficiente para nombrar job, style lane, movimiento y boundary. Instrucciones cortas y compatibles suelen superar un parrafo largo de demandas iguales.\n### Debo incluir BPM siempre?\nUsa BPM cuando el tempo sea parte del problema, como dance, workout, rap o edits cronometrados. Para ambient o ballads, una sensacion de tempo puede bastar.\n### Que hago si ignora una instruction?\nReescribela como accion audible en una section especifica y elimina wording competidor. No arregles todo el prompt de golpe.\n### La constraint ladder garantiza la salida?\nNo. Hace mas comprensible la revision. Aun debes escuchar, elegir y revisar antes de usar la musica."
+      ]
+    },
+    "fr": {
+      "title": "Corrige les AI music prompts charges avec une constraint ladder",
+      "description": "Workflow concret pour reviser un AI music prompt avec must-have, style shape, avoid list et listening test avant le prochain draft.",
+      "body": [
+        "Le probleme arrive souvent a la troisieme version. Le premier draft etait proche mais trop lent. Le deuxieme avait plus d energie mais perdait le mood. Pour le troisieme, tu ajoutes toutes les corrections possibles, et le resultat devient moins lisible au lieu de devenir plus precis. Ce n est pas toujours le generateur. Parfois, le prompt n a pas de hierarchie.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de creation musicale par IA qui transforme prompts, lyrics et direction de style en brouillons musicaux. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut aider a convertir une idee sonore vague en style brief plus clair avant la generation. Les outils aident a explorer; qualite, droits, contexte de sortie et jugement final restent a verifier humainement.",
+        "## Utilise une constraint ladder, pas une liste de souhaits",
+        "Divise le prompt en quatre etages. D abord, un must-have qui ne doit pas changer. Ensuite, un style shape pour tempo, groove, mouvement de section ou son principal. Puis une avoid list courte, basee sur ce que tu as vraiment entendu. Enfin, un listening test qui te dira si le prochain draft a reussi. Une nouvelle idee doit entrer dans un seul etage.",
+        "## Commence par ce qui doit survivre",
+        "Un must-have n est pas dix adjectifs. C est une decision: instrumental bed calme sous narration, chorus-first pop hook, dark synth loop pour menu, ou vocal close and dry sur guitare sparse. Essaie cette forme: Keep this as a restrained mid-tempo instrumental bed for spoken narration. Toutes les autres instructions doivent soutenir ce travail.",
+        "## Rends le style shape compatible",
+        "Le shape decrit le mouvement audible attendu. Ligne utile: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. Ne demande pas intimate et stadium-sized sans attribuer chaque qualite a une section. Pour un contraste: verse close and dry, chorus wider with stacked harmony. C est plus testable qu une pile de mots d ambiance.",
+        "## Utilise avoid comme frein, pas comme moteur",
+        "Exclude ou avoid aide quand une erreur revient: no heavy drums, no rap vocal, no brass lead. Cela fonctionne mal si la liste remplace la direction principale. Si ton prompt dit upbeat pop puis interdit drums, bright synths, vocals et chorus lift, tu as surtout decrit ce que le morceau ne peut pas etre. Garde deux ou trois limites.",
+        "## Idees reutilisables",
+        "- Mets le must-have sur sa propre ligne avant de regenerer.\n- Supprime les adjectifs repetes qui ne changeraient pas l ecoute.\n- Donne a chaque avoid item une raison tiree du draft precedent.\n- Change un seul etage entre la version A et la version B.\n- Garde un listening test d une phrase pres de chaque draft EasyMusic.AI.",
+        "## FAQ\n### Quelle longueur pour un AI music prompt ?\nAssez pour nommer le job, la style lane, le mouvement et la boundary. Des consignes courtes et compatibles battent souvent un long paragraphe de demandes egales.\n### Faut-il toujours indiquer le BPM ?\nIndique-le quand le tempo est le probleme: dance, workout, rap ou montage chronometre. Pour ambient ou ballad, une sensation de tempo peut suffire.\n### Si l outil ignore une instruction ?\nReformule-la comme action audible dans une section precise et retire les mots concurrents. Ne repare pas tout le prompt en meme temps.\n### La constraint ladder garantit-elle le resultat ?\nNon. Elle rend la revision plus lisible. Tu dois encore ecouter, choisir et verifier avant usage."
+      ]
+    },
+    "it": {
+      "title": "Sistema AI music prompt affollati con una constraint ladder",
+      "description": "Workflow pratico per rivedere AI music prompt con must-have, style shape, avoid list e listening test prima del prossimo draft.",
+      "body": [
+        "Il problema di solito arriva alla terza versione. Il primo draft era vicino ma troppo lento. Il secondo aveva piu energia ma ha perso il mood. Al terzo tentativo il prompt contiene ogni correzione possibile, e il risultato diventa meno prevedibile invece che piu utile. Forse non manca un altro aggettivo. Manca una gerarchia.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di creazione musicale con IA che trasforma prompts, lyrics e style direction in music drafts. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo aiutare a trasformare un idea sonora vaga in uno style brief piu pulito prima della generazione. Gli strumenti aiutano a esplorare; qualita, diritti, contesto di pubblicazione e giudizio finale restano controlli umani.",
+        "## Usa una constraint ladder, non una wishlist",
+        "Dividi il prompt in quattro gradini. Primo: un must-have che non puo cambiare. Secondo: uno style shape per tempo, groove, movimento delle section o suono principale. Terzo: una avoid list breve basata su problemi davvero ascoltati. Quarto: un listening test per capire se il prossimo draft ha funzionato. Ogni nuova idea deve stare in un solo gradino.",
+        "## Parti da cio che deve sopravvivere",
+        "Un must-have non e un gruppo di dieci aggettivi. E una decisione: quiet instrumental bed under narration, chorus-first pop hook, dark synth loop for a menu screen, oppure dry close vocal over sparse guitar. Prova cosi: Keep this as a restrained mid-tempo instrumental bed for spoken narration. Tutto il resto deve sostenere quel compito.",
+        "## Rendi compatibile lo style shape",
+        "Lo shape descrive il movimento udibile. Una riga utile: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. Non chiedere intimate e stadium-sized se non assegni le due qualita a section diverse. Se vuoi contrasto: verse close and dry, chorus wider with stacked harmony. E piu verificabile di una lista di mood words.",
+        "## Usa avoid come freno, non come motore",
+        "Exclude o avoid e utile quando un errore ritorna: no heavy drums, no rap vocal, no brass lead. Funziona male quando sostituisce la direzione principale. Se scrivi upbeat pop e poi vieti drums, bright synths, vocals e chorus lift, hai descritto soprattutto cio che la traccia non deve essere. Tieni due o tre boundaries.",
+        "## Idee riutilizzabili",
+        "- Metti il must-have su una riga propria prima di rigenerare.\n- Elimina adjective ripetuti che non cambiano cio che ascolteresti.\n- Dai a ogni avoid item un motivo dal draft precedente.\n- Cambia un solo gradino tra versione A e versione B.\n- Salva un listening test di una frase accanto a ogni draft EasyMusic.AI.",
+        "## FAQ\n### Quanto deve essere lungo un AI music prompt?\nAbbastanza da indicare job, style lane, movimento e boundary. Istruzioni brevi e compatibili spesso battono un paragrafo lungo di richieste tutte uguali.\n### Devo sempre inserire BPM?\nUsa BPM quando il tempo e parte del problema, come dance, workout, rap o edit a tempo. Per ambient o ballad puo bastare una sensazione di tempo.\n### Se lo strumento ignora un instruction?\nRiscrivila come azione udibile in una section specifica e togli wording concorrente. Non riparare tutto il prompt insieme.\n### La constraint ladder garantisce il risultato?\nNo. Rende la revisione piu comprensibile. Devi comunque ascoltare, scegliere e controllare prima di usare la musica."
+      ]
+    },
+    "ja": {
+      "title": "混みすぎたAI music promptをconstraint ladderで直す",
+      "description": "AI music promptをmust-have、style shape、avoid list、listening testに分けて次のdraftを試すための実用workflow。",
+      "body": [
+        "問題はだいたい三回目に出ます。最初の draft は近いけれど遅すぎる。二つ目は energy は良いけれど mood を失う。三つ目では思いつく修正を全部 prompt に入れ、結果はより正確になるどころか読みにくくなります。generator の問題ではなく、prompt に hierarchy がないのかもしれません。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は prompts、lyrics、style direction から music drafts を作る AI music creation platform です。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は、あいまいな sonic idea を generation 前の style brief に整理する助けになります。Tools は探索を助けますが、quality、rights、release context、final judgment は人が確認します。",
+        "## Wishlistではなくconstraint ladderを使う",
+        "Prompt を四つの rungs に分けます。一つ目は変えてはいけない must-have。二つ目は tempo、groove、section movement、lead sound を示す style shape。三つ目は実際に聞こえた問題に基づく短い avoid list。四つ目は次の draft が成功したか見る listening test です。新しい idea は一つの rung にだけ置きます。",
+        "## 残すべきものから始める",
+        "Must-have は十個の adjectives ではありません。一つの decision です: quiet instrumental bed under narration、chorus-first pop hook、menu screen 用の dark synth loop、または dry close vocal over sparse guitar。形はこうです: Keep this as a restrained mid-tempo instrumental bed for spoken narration。他の instruction はこの job を支えます。",
+        "## Style shapeを矛盾させない",
+        "Shape は聞こえる動きを説明します。使える line は: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus。intimate と stadium-sized を同時に求めるなら、どの section で起きるかを書きます。Contrast は verse close and dry, chorus wider with stacked harmony のように場所を指定します。",
+        "## Avoidはengineではなくbrakeにする",
+        "Exclude や avoid は同じ failure が戻る時に役立ちます: no heavy drums、no rap vocal、no brass lead。ただし main direction の代わりにはなりません。upbeat pop と書きながら drums、bright synths、vocals、chorus lift を全部避けると、track が何でないかだけが増えます。Boundaries は二つか三つにします。",
+        "## 今日使えるreusable ideas",
+        "- Regenerate の前に must-have を一行で書く。\n- 聞こえ方を変えない repeated adjectives を削る。\n- 各 avoid item に previous draft からの理由を付ける。\n- Version A と B の間では一つの rung だけを変える。\n- 各 EasyMusic.AI draft の横に一文の listening test を保存する。",
+        "## FAQ\n### AI music promptはどのくらい長くするべきですか？\nJob、style lane、movement、boundary が分かる長さで十分です。短く compatible な instructions は、同じ重みの長い paragraph より試しやすいです。\n### BPMはいつも必要ですか？\nDance、workout、rap、timed video edits など tempo が問題の中心なら使います。Ambient や ballad では tempo feel だけで足りることもあります。\n### Toolがinstructionを無視したら？\n特定の section で聞こえる action として書き直し、競合する wording を消します。一度に全部直さないでください。\n### Constraint ladderはoutputを保証しますか？\nいいえ。Revision を理解しやすくする方法です。使う前に listen、choose、review が必要です。"
+      ]
+    },
+    "ko": {
+      "title": "복잡한 AI music prompt를 constraint ladder로 고치기",
+      "description": "Must-have, style shape, avoid list, listening test로 AI music prompt를 정리해 다음 draft를 더 명확하게 만드는 workflow.",
+      "body": [
+        "문제는 보통 세 번째 version에서 나타납니다. 첫 draft는 가까웠지만 너무 느립니다. 두 번째는 energy가 나아졌지만 mood를 잃습니다. 세 번째에는 떠오르는 수정사항을 모두 prompt에 넣고, 결과는 더 유용해지기보다 더 예측하기 어려워집니다. 이때 문제는 generator가 아니라 prompt에 hierarchy가 없는 것일 수 있습니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction을 music drafts로 바꾸는 AI music creation platform입니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 vague sonic idea를 generation 전에 더 깨끗한 style brief로 정리하는 데 도움을 줍니다. Tools는 탐색을 돕지만 quality, rights, release context, final judgment는 사람이 review해야 합니다.",
+        "## Wish list 대신 constraint ladder를 쓴다",
+        "Prompt를 네 rung으로 나눕니다. 첫째, 바뀌면 안 되는 must-have 하나. 둘째, tempo, groove, section movement, lead sound를 설명하는 style shape. 셋째, 실제로 들은 문제에서 나온 짧은 avoid list. 넷째, 다음 draft가 성공했는지 판단할 listening test. 새 idea는 한 rung에만 넣습니다.",
+        "## 반드시 남아야 하는 것부터 쓴다",
+        "Must-have는 열 개의 adjectives가 아닙니다. 하나의 decision입니다: narration 밑의 quiet instrumental bed, chorus-first pop hook, menu screen용 dark synth loop, 또는 dry close vocal over sparse guitar. 이렇게 써 보세요: Keep this as a restrained mid-tempo instrumental bed for spoken narration. 나머지는 이 job을 support해야 합니다.",
+        "## Style shape를 서로 맞게 만든다",
+        "Shape는 듣게 될 movement입니다. 유용한 line: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. intimate와 stadium-sized를 동시에 원한다면 어느 section에서 각각 일어나는지 써야 합니다. Contrast는 verse close and dry, chorus wider with stacked harmony처럼 위치를 지정하세요.",
+        "## Avoid는 engine이 아니라 brake다",
+        "Exclude나 avoid는 특정 failure가 반복될 때 좋습니다: no heavy drums, no rap vocal, no brass lead. 하지만 main direction을 대신할 수는 없습니다. upbeat pop이라고 쓰고 drums, bright synths, vocals, chorus lift를 모두 피하라고 하면 track이 무엇인지보다 무엇이 아닌지만 많아집니다. Boundaries는 두세 개로 줄이세요.",
+        "## 오늘 적용할 ideas",
+        "- Regenerate 전에 must-have를 한 줄로 따로 씁니다.\n- 들리는 차이를 만들지 않는 repeated adjectives를 지웁니다.\n- 모든 avoid item에 previous draft에서 온 이유를 붙입니다.\n- Version A와 B 사이에는 rung 하나만 바꿉니다.\n- 각 EasyMusic.AI draft 옆에 한 문장의 listening test를 저장합니다.",
+        "## FAQ\n### AI music prompt는 얼마나 길어야 하나요?\nJob, style lane, movement, boundary를 말할 만큼이면 충분합니다. 짧고 compatible한 instructions가 긴 paragraph보다 나을 때가 많습니다.\n### BPM은 항상 넣어야 하나요?\nDance, workout, rap, timed video edits처럼 tempo가 문제라면 넣으세요. Ambient나 ballad는 tempo feel만으로 충분할 수 있습니다.\n### Tool이 instruction을 무시하면요?\n특정 section에서 들리는 action으로 다시 쓰고 경쟁 wording을 지우세요. 전체 prompt를 한꺼번에 고치지 마세요.\n### Constraint ladder가 output을 보장하나요?\n아닙니다. Revision을 이해하기 쉽게 만드는 방법입니다. 사용 전에는 listen, choose, review가 필요합니다."
+      ]
+    },
+    "pt": {
+      "title": "Corrija AI music prompts cheios com uma constraint ladder",
+      "description": "Workflow pratico para revisar AI music prompts com must-have, style shape, avoid list e listening test antes do proximo draft.",
+      "body": [
+        "O problema costuma aparecer na terceira versao. O primeiro draft estava perto, mas lento demais. O segundo trouxe mais energia, mas perdeu o mood. No terceiro, voce coloca todas as correcoes no prompt, e o resultado fica menos previsivel em vez de mais util. Talvez nao falte detalhe. Talvez falte hierarquia.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de criacao musical com IA para transformar prompts, lyrics e style direction em music drafts. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode ajudar a transformar uma ideia sonora vaga em um style brief mais limpo antes da geracao. As ferramentas ajudam a explorar; qualidade, direitos, contexto de release e decisao final ainda pedem review humano.",
+        "## Use uma constraint ladder, nao uma lista de desejos",
+        "Divida o prompt em quatro degraus. Primeiro, um must-have que nao pode mudar. Segundo, um style shape que descreve tempo, groove, section movement ou lead sound. Terceiro, uma avoid list curta baseada em problemas que voce ouviu. Quarto, um listening test que mostra se o proximo draft funcionou. Uma ideia nova deve caber em um unico degrau.",
+        "## Comece pelo que precisa sobreviver",
+        "Must-have nao e uma lista de dez adjectives. E uma decisao: quiet instrumental bed under narration, chorus-first pop hook, dark synth loop for a menu screen, ou dry close vocal over sparse guitar. Use esta forma: Keep this as a restrained mid-tempo instrumental bed for spoken narration. Todas as outras instructions devem apoiar esse job.",
+        "## Deixe o style shape compativel",
+        "O shape descreve o movimento audivel. Linha util: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. Nao peca intimate e stadium-sized sem dizer em qual section cada qualidade aparece. Para contraste: verse close and dry, chorus wider with stacked harmony. Isso e mais testavel que uma pilha de mood words.",
+        "## Use avoid como freio, nao como motor",
+        "Exclude ou avoid ajuda quando uma falha volta sempre: no heavy drums, no rap vocal, no brass lead. Mas isso nao substitui a direcao principal. Se o prompt diz upbeat pop e depois evita drums, bright synths, vocals e chorus lift, voce descreveu mais o que a faixa nao pode ser. Mantenha dois ou tres boundaries.",
+        "## Ideias reutilizaveis",
+        "- Coloque o must-have em sua propria linha antes de regenerar.\n- Apague adjectives repetidos que nao mudariam o que voce ouve.\n- Dê a cada avoid item um motivo vindo do draft anterior.\n- Mude apenas um degrau entre a versao A e a versao B.\n- Salve um listening test de uma frase ao lado de cada draft EasyMusic.AI.",
+        "## FAQ\n### Qual deve ser o tamanho de um AI music prompt?\nO suficiente para nomear job, style lane, movimento e boundary. Instrucoes curtas e compativeis muitas vezes superam um paragrafo longo de demandas iguais.\n### Devo sempre incluir BPM?\nUse BPM quando tempo for parte do problema, como dance, workout, rap ou edits cronometrados. Em ambient ou ballad, uma sensacao de tempo pode bastar.\n### E se a ferramenta ignorar uma instruction?\nReescreva como uma acao audivel em uma section especifica e remova wording concorrente. Nao conserte todo o prompt de uma vez.\n### A constraint ladder garante a saida?\nNao. Ela torna a revisao mais facil de entender. Voce ainda precisa ouvir, escolher e revisar antes de usar."
+      ]
+    },
+    "ru": {
+      "title": "Исправьте перегруженный AI music prompt через constraint ladder",
+      "description": "Практический workflow для AI music prompt: must-have, style shape, avoid list и listening test перед следующим draft.",
+      "body": [
+        "Проблема часто появляется на третьей версии. Первый draft был близко, но слишком медленно. Второй получил больше energy, но потерял mood. В третий prompt попадают все правки сразу, и результат становится менее понятным, а не более полезным. Возможно, дело не в генераторе. Возможно, у prompt нет hierarchy.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics и style direction в music drafts. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) может помочь превратить vague sonic idea в более чистый style brief перед generation. Tools помогают исследовать варианты; quality, rights, release context и final judgment требуют человеческой проверки.",
+        "## Используйте constraint ladder вместо wish list",
+        "Разделите prompt на четыре ступени. Первая: один must-have, который не должен измениться. Вторая: style shape для tempo, groove, section movement или lead sound. Третья: короткий avoid list, основанный на проблемах, которые вы реально услышали. Четвертая: listening test, по которому понятно, сработал ли следующий draft. Новая идея должна попасть только на одну ступень.",
+        "## Начните с того, что должно выжить",
+        "Must-have - это не десять adjectives. Это одно решение: quiet instrumental bed under narration, chorus-first pop hook, dark synth loop for a menu screen или dry close vocal over sparse guitar. Попробуйте форму: Keep this as a restrained mid-tempo instrumental bed for spoken narration. Все остальные instructions должны поддерживать эту задачу.",
+        "## Сделайте style shape совместимым",
+        "Shape описывает слышимое движение. Полезная строка: warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus. Не просите intimate и stadium-sized одновременно, если не указали, в какой section это происходит. Для контраста пишите: verse close and dry, chorus wider with stacked harmony. Это легче проверять, чем набор mood words.",
+        "## Используйте avoid как тормоз, а не двигатель",
+        "Exclude или avoid полезны, когда конкретная ошибка возвращается: no heavy drums, no rap vocal, no brass lead. Но это не заменяет main direction. Если prompt говорит upbeat pop, а затем запрещает drums, bright synths, vocals и chorus lift, вы почти описали только то, чем track не может быть. Оставьте две или три границы.",
+        "## Идеи, которые можно применить сегодня",
+        "- Перед regeneration вынесите must-have в отдельную строку.\n- Удалите повторяющиеся adjectives, которые не меняют слышимый результат.\n- Дайте каждому avoid item причину из предыдущего draft.\n- Между version A и version B меняйте только одну ступень.\n- Сохраняйте listening test из одного предложения рядом с каждым draft EasyMusic.AI.",
+        "## FAQ\n### Какой длины должен быть AI music prompt?\nДостаточной, чтобы назвать job, style lane, movement и boundary. Короткие совместимые instructions часто лучше длинного абзаца равнозначных требований.\n### Нужно ли всегда указывать BPM?\nИспользуйте BPM, когда tempo является частью проблемы: dance, workout, rap или timed video edits. Для ambient или ballad может хватить ощущения темпа.\n### Что делать, если tool игнорирует instruction?\nПерепишите ее как слышимое действие в конкретной section и уберите конкурирующие слова. Не чините весь prompt сразу.\n### Constraint ladder гарантирует output?\nНет. Она делает revision понятнее. Все равно нужно listen, choose и review перед использованием."
+      ]
+    },
+    "zh": {
+      "title": "用 constraint ladder 修好拥挤的 AI music prompt",
+      "description": "一个实用 workflow：用 must-have、style shape、avoid list 和 listening test 来修改 AI music prompt。",
+      "body": [
+        "问题常常出现在第三个版本。第一个 draft 接近目标，但太慢；第二个 energy 更好，却丢了 mood；到第三次，你把所有修正都塞进 prompt，结果反而更难预测。也许问题不是 generator，而是 prompt 没有 hierarchy。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、lyrics 和 style direction 变成 music drafts。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮助把模糊的 sonic idea 整理成更清楚的 style brief，再拿去生成。Tools 帮助探索；quality、rights、release context 和 final judgment 仍需要人工 review。",
+        "## 用 constraint ladder，而不是 wish list",
+        "把 prompt 分成四层。第一层：一个不能改变的 must-have。第二层：描述 tempo、groove、section movement 或 lead sound 的 style shape。第三层：短 avoid list，只写你确实听到的问题。第四层：listening test，用来判断下一个 draft 是否成功。新的 idea 如果放不进一层，就先不要放进 prompt。",
+        "## 先写必须保留的东西",
+        "Must-have 不是十个 adjectives，而是一个 decision：quiet instrumental bed under narration、chorus-first pop hook、dark synth loop for a menu screen，或者 dry close vocal over sparse guitar。可以这样写：Keep this as a restrained mid-tempo instrumental bed for spoken narration。其他 instructions 都要服务这个 job。",
+        "## 让 style shape 不互相打架",
+        "Shape 是你想听到的 movement。实用 line 可以是：warm acoustic pop, 92 BPM feel, fingerpicked guitar in front, light percussion after the first chorus。不要同时要求 intimate 和 stadium-sized，除非说明各自在哪个 section 出现。想要 contrast，就写 verse close and dry, chorus wider with stacked harmony。",
+        "## Avoid 是刹车，不是引擎",
+        "Exclude 或 avoid 在某个 failure 反复出现时很有用：no heavy drums、no rap vocal、no brass lead。但它不能替代 main direction。如果 prompt 写 upbeat pop，又禁止 drums、bright synths、vocals 和 chorus lift，你主要描述的是 track 不能是什么。保留两三个 boundaries 就够了。",
+        "## 今天就能用的 ideas",
+        "- Regenerate 前，把 must-have 单独写成一行。\n- 删除不会改变听感的 repeated adjectives。\n- 每个 avoid item 都写出来自 previous draft 的理由。\n- Version A 到 Version B 之间只改一层。\n- 在每个 EasyMusic.AI draft 旁边保存一句 listening test。",
+        "## FAQ\n### AI music prompt 应该多长？\n足够说明 job、style lane、movement 和 boundary 就可以。短而 compatible 的 instructions 往往比一大段同等权重的要求更容易测试。\n### 一定要写 BPM 吗？\n当 tempo 是问题核心时写，比如 dance、workout、rap 或 timed video edits。Ambient 或 ballad 有时只写 tempo feel 就够。\n### Tool 忽略某个 instruction 怎么办？\n把它改写成某个 section 里能听到的 action，并删除竞争 wording。不要一次重写整个 prompt。\n### Constraint ladder 能保证 output 吗？\n不能。它只是让 revision 更容易理解。使用前仍然要 listen、choose 和 review。"
+      ]
+    }
+  }
+}
