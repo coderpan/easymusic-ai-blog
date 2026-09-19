@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-19",
+  "slug": "unboxing-video-ai-music-reveal-map",
+  "cluster": "unboxing-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لفيديو unboxing من دون اخفاء لحظة الكشف",
+      "description": "Reveal map عملي لموسيقى فيديوهات unboxing: صوت التغليف، لحظة المنتج، claims، captions، ونسخ قصيرة قابلة للنشر.",
+      "body": [
+        "فيديو unboxing قد يخسر قوته عندما تكون الموسيقى متحمسة طوال الوقت. الورق يفتح، الختم ينكسر، المنتج يظهر، لكن beat يبتلع صوت التغليف ويجعل كل ثانية كأنها النهاية. المشاهد لا يحتاج ضجيجا مستمرا؛ يحتاج ان يشعر باللمس، يفهم ما وعدت به، ويرى لحظة الكشف بوضوح.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompt، lyrics، وstyle direction الى music drafts. في unboxing workflow، استخدمها لاختبار beds وstings قصيرة حول edit حقيقي، مع بقاء الحقوق، disclosure، موافقات العلامة، وقواعد المنصة خطوات مراجعة منفصلة.",
+        "## ارسم reveal map قبل prompt",
+        "افتح الedit وحدد خمس لحظات: opening frame، صوت فتح العبوة، اول proof shot، reveal الكامل، وCTA او price/context line. اكتب بجانب كل لحظة وظيفة الموسيقى: hold back، pulse، leave silence، small lift، او clean stop. اذا لم تعرف اين يجب ان تصمت الموسيقى، ستطلب track يملأ كل الفراغات.",
+        "## اترك التغليف مسموعا",
+        "صوت السحب، الورق، البلاستيك، زر التشغيل، او zip للعلبة جزء من ثقة الفيديو. اطلب music bed خفيفا في الوسط، بلا vocal hook، وبلا snare حاد يغطي هذه التفاصيل. يمكن ان تكون الموسيقى warm، curious، وlight, لكن لا تجعلها trailer. اذا كان صوت التغليف مهم جدا، اترك نافذة ثانية او ثانيتين بلا beat واضح.",
+        "## اكتب prompt حول لحظة الكشف",
+        "Prompt مفيد: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. داخل EasyMusic.AI، اختبر نسخة calm ونسخة brighter على نفس الcut. لا تحكم على track منفردا؛ ضعها تحت الvideo وشاهد هل المنتج ام الموسيقى هو ما يسرق النظر.",
+        "## اجعل claims وcaptions قابلة للفهم",
+        "عندما تقول إن البطارية تدوم، ان الخامة hand-finished، او ان المقاس مناسب للسفر، لا تضع fill موسيقيا مزدحما تحت الجملة. ضع marker قبل اي claim تحتاج مراجعة. اذا كان الفيديو sponsored، discounted، او gifted، فاجعل disclosure مرئيا ومسموعا حسب قواعد المنصة ولا تستخدم الموسيقى لاخفاءه.",
+        "## حول style words الى brief قابل للاختبار",
+        "اذا كان وصفك فقط premium او cute او futuristic، سيصعب تقييم النتيجة. استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لاستخراج كلمات عن texture، tempo، instruments، وdensity، ثم احذف كل كلمة تجعل product يبدو افخم من الحقيقة. بعد الاختيار، يمكن ان يساعد [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) في تجهيز format مناسب للمراجعة او الhandoff من غير وعد بجودة نشر مضمونة.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- ضع marker على صوت التغليف الذي يجب ان يبقى مسموعا.\n- اطلب lift واحدا فقط عند reveal، لا drop في كل transition.\n- جرب نسخة 12s ونسخة 28s من brief واحد.\n- شاهد الفيديو مرة mute تقريبا للتأكد من ان captions تكفي.\n- احفظ note يربط prompt، product، platform، وdisclosure review.",
+        "## FAQ\n### هل يحتاج كل unboxing video الى music؟\nلا. اذا كان صوت المنتج او الشرح هو القيمة، قد تكفي intro قصيرة ونهاية نظيفة.\n### هل vocals مناسبة؟\nغالبا لا، خصوصا اذا كان هناك voiceover، captions، او packaging sounds مهمة. استخدم instrumental bed اولا.\n### كيف اجعل reveal اقوى؟\nاجعل ما قبله اهدأ، ثم استخدم lift صغيرا لا يغطي اول نظرة على المنتج.\n### هل الموسيقى تحل مشكلة disclosure؟\nلا. disclosure، rights، وقواعد المنصة تحتاج مراجعة مستقلة قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "Plane AI Music fuer Unboxing-Videos, ohne den Reveal zu verdecken",
+      "description": "Eine praktische Reveal Map fuer Unboxing-Musik: Verpackungsklang, Produktmoment, Claims, Captions und kurze Exportversionen.",
+      "body": [
+        "Ein Unboxing kann flach wirken, wenn die Musik jede Sekunde gleich gross macht. Die Folie reisst, der Deckel hebt sich, das Produkt erscheint, aber der Beat ueberdeckt die kleinen Geraeusche, die den Clip glaubwuerdig machen. Der Zuschauer soll Material, Beweis und Reveal wahrnehmen, nicht nur einen Track, der dauernd Finale spielt.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du aus Prompts, Lyrics und Style Direction Musikentwuerfe erstellen kannst. Fuer ein Unboxing ist es ein Ort, um Beds und kurze Stings am echten Schnitt zu testen; Rechtepruefung, Disclosure, Markenfreigabe und Plattformregeln bleiben getrennte Produktionsschritte.",
+        "## Zeichne zuerst eine Reveal Map",
+        "Markiere im Schnitt fuenf Punkte: erstes Bild, Verpackungsoeffnung, erster Proof Shot, kompletter Reveal und CTA oder Claim. Schreibe daneben die Musikfunktion: zurueckhalten, leichter Puls, Platz lassen, kleiner Lift oder sauberer Stop. Wenn du nicht weisst, wo die Musik stiller werden soll, briefst du schnell einen Track, der alles fuellt.",
+        "## Lass die Verpackung hoerbar",
+        "Papier, Karton, Magnetdeckel, Reissverschluss oder der erste Tastendruck sind Teil des Produktbeweises. Bitte um ein leichtes Bed in der Mitte, ohne Vocal Hook und ohne scharfe Snare, die diese Details maskiert. Warm, curious und tactile funktionieren oft besser als epic. Bei wichtigen Materialgeraeuschen darf eine oder zwei Sekunden fast ohne Beat bleiben.",
+        "## Schreibe den Prompt um den Reveal",
+        "Ein brauchbarer Prompt: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. Teste in EasyMusic.AI eine calm Version und eine brighter Version auf demselben Cut. Bewerte nicht nur Solo Playback; pruefe, ob Produkt oder Musik die Aufmerksamkeit gewinnt.",
+        "## Claims und Captions muessen lesbar bleiben",
+        "Wenn du Akkuzeit, Material, Groesse, Rabatt oder Geschenkstatus erklaerst, darf die Musik nicht genau dort dichter werden. Setze Marker vor jeden Claim, der geprueft werden muss. Bei sponsored, gifted oder discounted Produkten gehoert Disclosure sichtbar und verstaendlich in den Clip; Musik sollte das nicht verstecken.",
+        "## Mache Style-Worte testbar",
+        "Premium, cute oder futuristic sind noch kein Brief. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann vage Mood-Worte in Hinweise zu Texture, Tempo, Instrumenten und Dichte verwandeln. Streiche danach alles, was das Produkt groesser, teurer oder dramatischer erscheinen laesst als das Bild. Fuer Review-Dateien kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) ein passendes Format vorbereiten, ohne daraus eine Veröffentlichungs- oder Rechtegarantie abzuleiten.",
+        "## Sofort nutzbare Ideen",
+        "- Markiere jedes Verpackungsgeraeusch, das hoerbar bleiben muss.\n- Nutze nur einen kleinen Lift beim Reveal, nicht einen Drop pro Schnitt.\n- Erstelle eine 12s und eine 28s Version aus demselben Brief.\n- Pruefe fast stumm, ob Captions und Produktbeweis noch funktionieren.\n- Speichere Prompt, Produkt, Plattform und Disclosure Review in einer Note.",
+        "## FAQ\n### Braucht jedes Unboxing Musik?\nNein. Wenn Produktklang oder Erklaerung den Wert tragen, reichen manchmal kurzer Anfang und sauberes Ende.\n### Sind Vocals sinnvoll?\nMeist nicht, wenn Voiceover, Captions oder Verpackungsklang wichtig sind. Starte mit Instrumental.\n### Wie wirkt der Reveal staerker?\nMache den Moment davor kleiner und nutze dann einen kurzen Lift, der den ersten Blick nicht ueberdeckt.\n### Ersetzt Musik eine Disclosure-Pruefung?\nNein. Disclosure, Rechte und Plattformregeln muessen separat geprueft werden."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Unboxing Videos Without Hiding the Reveal",
+      "description": "A practical reveal map for unboxing video music: packaging sounds, proof moments, captions, claims, and short export versions.",
+      "body": [
+        "An unboxing video can lose its charm when the music treats every second like the grand finale. The seal peels, the tissue moves, the product finally appears, and the beat covers the small sounds that made the clip feel real. Good unboxing music should build a little anticipation, then get out of the way when texture, proof, or a claim matters.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, and style direction into music drafts. In an unboxing workflow, use it to test background beds and short stings against the actual edit, while rights review, disclosure, brand approval, and platform rules remain separate production checks.",
+        "## Draw the Reveal Map Before You Prompt",
+        "Open the edit and mark five points: opening frame, package-open sound, first proof shot, full reveal, and the CTA or claim line. Next to each point, write the music job: hold back, light pulse, leave silence, small lift, or clean stop. If you cannot name where the music should back off, you will probably ask for a track that fills every useful gap.",
+        "## Keep Packaging Texture Audible",
+        "Paper, cardboard, magnetic lids, zippers, switches, and first-touch sounds are part of the evidence. Ask for a light midrange bed, no vocal hook, and no sharp snare that masks those details. Warm, curious, tactile, and restrained usually serve unboxing better than epic or cinematic. When the texture is the proof, leave one or two seconds almost bare.",
+        "## Prompt Around the Reveal Moment",
+        "A useful prompt: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. Inside EasyMusic.AI, test one calm version and one brighter version against the same cut. Do not choose by solo playback; choose by whether the product stays in front.",
+        "## Protect Claims, Captions, and Disclosure",
+        "If the video says the battery lasts longer, the finish is handmade, the fit is travel-ready, or the item was gifted, the music should not swell over that line. Put a marker before every claim that needs review. For sponsored, discounted, or gifted products, disclosure needs its own visible or spoken space according to the platform and campaign rules; music is not a workaround.",
+        "## Turn Style Words Into a Testable Brief",
+        "Premium, cute, and futuristic are not specific enough by themselves. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help turn vague mood words into texture, tempo, instrument, and density language. Then remove anything that makes the product feel more expensive, larger, or more dramatic than the footage supports. For review or handoff, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare a practical file format without replacing final upload checks.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Put a marker on every packaging sound that should remain audible.\n- Ask for one reveal lift, not a drop at every cut.\n- Generate a 12-second short and a 28-second edit from the same brief.\n- Watch once at very low volume to confirm captions and proof still read.\n- Keep a note with prompt, product, platform, and disclosure-review status.",
+        "## FAQ\n### Does every unboxing video need music?\nNo. If the product sound or spoken explanation carries the value, a short intro and clean ending may be enough.\n### Are vocals a good idea?\nUsually not when voiceover, captions, or packaging sounds matter. Start instrumental and justify any vocal later.\n### How do I make the reveal feel stronger?\nMake the seconds before it smaller, then use a modest lift that does not cover the first clear view of the product.\n### Can music solve disclosure or rights questions?\nNo. Disclosure, rights review, and platform rules need their own check before publishing."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para unboxing videos sin tapar el reveal",
+      "description": "Reveal map practico para musica en unboxing videos: sonidos de empaque, proof moments, captions, claims y versiones cortas.",
+      "body": [
+        "Un unboxing video pierde encanto cuando la musica trata cada segundo como si fuera el final. Se abre el sello, se mueve el papel, aparece el producto, pero el beat tapa los sonidos pequenos que daban confianza. La musica deberia crear algo de anticipacion y luego dejar espacio cuando importan textura, prueba o una claim.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, lyrics y style direction en music drafts. En un workflow de unboxing, usala para probar beds y stings cortos sobre el edit real, mientras derechos, disclosure, aprobacion de marca y reglas de plataforma se revisan aparte.",
+        "## Dibuja el reveal map antes del prompt",
+        "Abre el edit y marca cinco puntos: opening frame, sonido de abrir el paquete, primer proof shot, reveal completo y CTA o claim line. Junto a cada punto escribe el trabajo musical: hold back, light pulse, leave silence, small lift o clean stop. Si no sabes donde la musica debe retirarse, probablemente pediras una pista que llene todos los huecos utiles.",
+        "## Mantén audible la textura del empaque",
+        "Papel, carton, tapa magnetica, zipper, switch o primer toque son parte de la evidencia. Pide un bed ligero en medios, sin vocal hook y sin snare filosa que tape esos detalles. Warm, curious, tactile y restrained suelen servir mejor que epic o cinematic. Si la textura es la prueba, deja uno o dos segundos casi desnudos.",
+        "## Escribe el prompt alrededor del reveal",
+        "Prompt util: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. Dentro de EasyMusic.AI, prueba una version calm y una brighter sobre el mismo cut. No elijas por playback aislado; elige si el producto sigue al frente.",
+        "## Protege claims, captions y disclosure",
+        "Si el video habla de bateria, acabado artesanal, tamaño de viaje o producto gifted, la musica no debe crecer encima de esa frase. Pon marker antes de cada claim que necesite revision. Si el producto es sponsored, discounted o gifted, el disclosure necesita espacio visible o hablado segun reglas de plataforma y campana; la musica no lo reemplaza.",
+        "## Convierte style words en brief testeable",
+        "Premium, cute o futuristic no bastan solos. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir mood words vagos en lenguaje de texture, tempo, instruments y density. Luego quita lo que haga el producto mas caro, grande o dramatico de lo que muestra el footage. Para review o handoff, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar un format practico sin sustituir los checks finales de upload.",
+        "## Ideas reutilizables",
+        "- Marca cada packaging sound que debe seguir audible.\n- Pide un solo reveal lift, no un drop en cada cut.\n- Genera una version de 12s y otra de 28s desde el mismo brief.\n- Mira una vez a volumen muy bajo para confirmar captions y proof.\n- Guarda una nota con prompt, product, platform y disclosure review.",
+        "## FAQ\n### Todo unboxing video necesita musica?\nNo. Si el sonido del producto o la explicacion llevan el valor, una intro corta y un final limpio pueden bastar.\n### Convienen vocals?\nNormalmente no si importan voiceover, captions o packaging sounds. Empieza instrumental y justifica cualquier vocal despues.\n### Como hago mas fuerte el reveal?\nHaz mas pequeno lo anterior y usa un lift modesto que no cubra la primera vista clara del producto.\n### La musica resuelve disclosure o derechos?\nNo. Disclosure, derechos y reglas de plataforma necesitan revision propia antes de publicar."
+      ]
+    },
+    "fr": {
+      "title": "Planifie une AI music pour unboxing video sans cacher le reveal",
+      "description": "Reveal map concret pour musique d unboxing: sons d emballage, preuve produit, captions, claims et versions courtes.",
+      "body": [
+        "Un unboxing video perd vite son charme si la musique joue le grand final a chaque seconde. Le sceau se retire, le papier bouge, le produit apparait, mais le beat couvre les petits sons qui rendaient la scene credible. La bonne musique cree un peu d attente, puis laisse la texture, la preuve et les claims respirer.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, lyrics et direction de style en music drafts. Dans un workflow d unboxing, utilise-la pour tester des beds et de courts stings sur le montage reel; droits, disclosure, validation de marque et regles de plateforme restent des controles separes.",
+        "## Dessine la reveal map avant le prompt",
+        "Ouvre le montage et marque cinq points: opening frame, son d ouverture, premier proof shot, reveal complet et CTA ou claim line. A cote, note le role de la musique: hold back, light pulse, leave silence, small lift ou clean stop. Si tu ne sais pas ou la musique doit reculer, tu risques de demander une piste qui remplit tous les espaces utiles.",
+        "## Garde la texture d emballage audible",
+        "Papier, carton, couvercle magnetique, zipper, bouton ou premier contact font partie de la preuve. Demande un bed leger dans le medium, sans vocal hook et sans snare agressive qui masque ces details. Warm, curious, tactile et restrained servent souvent mieux qu epic ou cinematic. Quand la texture est la preuve, laisse une ou deux secondes presque nues.",
+        "## Ecris le prompt autour du reveal",
+        "Prompt utile: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. Dans EasyMusic.AI, teste une version calm et une version brighter sur le meme cut. Ne choisis pas en solo; choisis si le produit reste devant.",
+        "## Protege claims, captions et disclosure",
+        "Si la video parle de batterie, de finition faite main, de format voyage ou de produit gifted, la musique ne doit pas gonfler sur cette phrase. Place un marker avant chaque claim a verifier. Pour les produits sponsored, discounted ou gifted, le disclosure a besoin de son propre espace visible ou parle selon les regles de la plateforme et de la campagne; la musique n est pas une solution de contournement.",
+        "## Transforme les style words en brief testable",
+        "Premium, cute ou futuristic ne suffisent pas. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut convertir des mood words vagues en langage de texture, tempo, instruments et density. Supprime ensuite tout ce qui rend le produit plus cher, plus grand ou plus dramatique que les images. Pour la review ou le handoff, l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut aider a preparer un format pratique sans remplacer les verifications finales d upload.",
+        "## Idees reutilisables",
+        "- Marque chaque son d emballage qui doit rester audible.\n- Demande un seul reveal lift, pas un drop a chaque cut.\n- Cree une version 12s et une version 28s depuis le meme brief.\n- Regarde une fois a tres bas volume pour verifier captions et preuve.\n- Garde une note avec prompt, produit, plateforme et disclosure review.",
+        "## FAQ\n### Chaque unboxing video a-t-elle besoin de musique ?\nNon. Si le son du produit ou l explication porte la valeur, une courte intro et une fin propre peuvent suffire.\n### Les vocals sont-elles utiles ?\nRarement quand voiceover, captions ou packaging sounds comptent. Commence instrumental et justifie toute voix ensuite.\n### Comment rendre le reveal plus fort ?\nRends les secondes d avant plus petites, puis ajoute un lift modeste qui ne couvre pas la premiere vue claire du produit.\n### La musique regle-t-elle disclosure ou droits ?\nNon. Disclosure, droits et regles de plateforme demandent leur propre verification avant publication."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per unboxing video senza coprire il reveal",
+      "description": "Reveal map pratica per musica da unboxing: suoni del packaging, prove prodotto, captions, claims e versioni corte.",
+      "body": [
+        "Un unboxing video perde forza quando la musica tratta ogni secondo come un finale. Il sigillo si apre, la carta si muove, il prodotto appare, ma il beat copre i piccoli suoni che rendono credibile la scena. La musica giusta crea attesa e poi lascia spazio quando contano texture, prova o claim.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation per trasformare prompts, lyrics e style direction in music drafts. In un workflow di unboxing, usala per provare beds e brevi stings sul montaggio reale; revisione dei diritti, disclosure, approvazione brand e regole di piattaforma restano controlli separati.",
+        "## Disegna la reveal map prima del prompt",
+        "Apri l edit e segna cinque punti: opening frame, suono di apertura, primo proof shot, reveal completo e CTA o claim line. Accanto scrivi il compito della musica: hold back, light pulse, leave silence, small lift o clean stop. Se non sai dove la musica deve arretrare, probabilmente chiederai una traccia che riempie ogni spazio utile.",
+        "## Lascia udibile la texture del packaging",
+        "Carta, cartone, coperchio magnetico, zipper, switch o primo tocco sono parte della prova. Chiedi un bed leggero nel midrange, senza vocal hook e senza snare tagliente che copra i dettagli. Warm, curious, tactile e restrained funzionano spesso meglio di epic o cinematic. Quando la texture e la prova, lascia uno o due secondi quasi nudi.",
+        "## Scrivi il prompt intorno al reveal",
+        "Prompt utile: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. In EasyMusic.AI, prova una versione calm e una brighter sullo stesso cut. Non scegliere dal playback isolato; scegli se il prodotto resta davanti.",
+        "## Proteggi claims, captions e disclosure",
+        "Se il video parla di batteria, finitura handmade, formato travel-ready o prodotto gifted, la musica non deve crescere sopra quella frase. Metti un marker prima di ogni claim da controllare. Per prodotti sponsored, discounted o gifted, il disclosure ha bisogno di spazio visibile o parlato secondo regole di piattaforma e campagna; la musica non e una scorciatoia.",
+        "## Trasforma style words in brief testabile",
+        "Premium, cute o futuristic non bastano. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare mood words vaghe in linguaggio di texture, tempo, instruments e density. Poi elimina cio che fa sembrare il prodotto piu costoso, grande o drammatico del footage. Per review o handoff, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo aiutare a preparare un format pratico senza sostituire i controlli finali di upload.",
+        "## Idee riutilizzabili",
+        "- Segna ogni packaging sound che deve restare udibile.\n- Chiedi un solo reveal lift, non un drop a ogni cut.\n- Crea una versione 12s e una 28s dallo stesso brief.\n- Guarda una volta a volume molto basso per confermare captions e proof.\n- Conserva una note con prompt, product, platform e disclosure review.",
+        "## FAQ\n### Ogni unboxing video ha bisogno di musica?\nNo. Se il suono del prodotto o la spiegazione portano il valore, bastano una intro breve e un finale pulito.\n### Le vocals sono una buona idea?\nDi solito no quando contano voiceover, captions o packaging sounds. Parti instrumental e giustifica eventuali vocals dopo.\n### Come rafforzo il reveal?\nRendi piu piccolo cio che lo precede, poi usa un lift moderato che non copra la prima vista chiara del prodotto.\n### La musica risolve disclosure o diritti?\nNo. Disclosure, diritti e regole di piattaforma richiedono un controllo separato prima di pubblicare."
+      ]
+    },
+    "ja": {
+      "title": "Revealを隠さないunboxing video向けAI musicの作り方",
+      "description": "Packaging sounds、proof moments、captions、claims、short export versionsを整理するunboxing music reveal map。",
+      "body": [
+        "Unboxing video は、music が毎秒を finale のように扱うと魅力を失います。Seal がはがれ、paper が動き、product が出てくるのに、beat が小さな音を覆ってしまう。良い music は少し anticipation を作り、texture、proof、claim が重要な瞬間では一歩下がります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は prompts、lyrics、style direction から music drafts を作る AI music creation platform です。Unboxing workflow では、実際の edit に合わせて background beds や short stings を試す場所として使い、rights review、disclosure、brand approval、platform rules は別の production checks として扱います。",
+        "## Promptの前にreveal mapを作る",
+        "Edit を開き、五つの point を mark します: opening frame、package-open sound、first proof shot、full reveal、CTA または claim line。横に music job を書きます: hold back、light pulse、leave silence、small lift、clean stop。Music がどこで下がるべきか言えないと、全部を埋める track を頼みがちです。",
+        "## Packaging textureを聞こえるままにする",
+        "Paper、cardboard、magnetic lid、zipper、switch、first-touch sound は product proof の一部です。Light midrange bed、no vocal hook、no sharp snare を指定し、その detail を隠さないようにします。Warm、curious、tactile、restrained は epic や cinematic より unboxing に合うことが多いです。Texture が proof なら、一秒か二秒はほぼ bare にします。",
+        "## Reveal momentを中心にpromptを書く",
+        "使える prompt は: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim。EasyMusic.AI では、同じ cut に calm version と brighter version を当てます。Solo playback ではなく、product が前に残るかで選びます。",
+        "## Claims、captions、disclosureを守る",
+        "Battery、handmade finish、travel-ready size、gifted item などを言う line では、music が膨らまないようにします。Review が必要な claim の前に marker を置きます。Sponsored、discounted、gifted の product では、platform と campaign rules に合わせて disclosure の見える場所または聞こえる場所を確保します。Music はそれを代替しません。",
+        "## Style wordsをtestable briefに変える",
+        "Premium、cute、futuristic だけでは不十分です。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は vague mood words を texture、tempo、instrument、density の言葉に変える助けになります。その後、footage 以上に product を高価、大きい、dramatic に聞かせる言葉を削ります。Review や handoff では [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) が practical file format の準備に使えますが、final upload checks の代わりにはなりません。",
+        "## 今日使えるreusable ideas",
+        "- 聞かせたい packaging sound に marker を置く。\n- 各 cut に drop ではなく、reveal lift を一つだけ頼む。\n- 同じ brief から 12s short と 28s edit を作る。\n- Very low volume で captions と proof が読めるか確認する。\n- Prompt、product、platform、disclosure-review status を note に残す。",
+        "## FAQ\n### すべてのunboxing videoにmusicは必要ですか？\nいいえ。Product sound や spoken explanation が価値なら、short intro と clean ending だけで十分なことがあります。\n### Vocalsは向いていますか？\nVoiceover、captions、packaging sounds が重要なら通常は向きません。まず instrumental から始めます。\n### Revealを強くするには？\n直前を小さくし、product の最初の clear view を隠さない modest lift を使います。\n### Musicでdisclosureやrights問題は解決しますか？\nいいえ。Disclosure、rights review、platform rules は公開前に別途確認が必要です。"
+      ]
+    },
+    "ko": {
+      "title": "Reveal을 가리지 않는 unboxing video용 AI music 계획하기",
+      "description": "Packaging sounds, proof moments, captions, claims, short export versions를 정리하는 unboxing music reveal map.",
+      "body": [
+        "Unboxing video는 music이 모든 순간을 grand finale처럼 만들면 매력이 줄어듭니다. Seal이 벗겨지고 tissue가 움직이고 product가 보이는데, beat가 실제감을 주는 작은 소리를 덮어버립니다. 좋은 unboxing music은 약간의 anticipation을 만들고, texture, proof, claim이 중요한 순간에는 물러나야 합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction을 music drafts로 바꾸는 AI music creation platform입니다. Unboxing workflow에서는 실제 edit에 background beds와 short stings를 테스트하는 곳으로 쓰고, rights review, disclosure, brand approval, platform rules는 별도 production checks로 남겨둡니다.",
+        "## Prompt 전에 reveal map을 그린다",
+        "Edit를 열고 다섯 지점을 mark합니다: opening frame, package-open sound, first proof shot, full reveal, CTA 또는 claim line. 각 지점 옆에 music job을 씁니다: hold back, light pulse, leave silence, small lift, clean stop. Music이 어디서 물러나야 하는지 말할 수 없다면, 모든 gap을 채우는 track을 요청하게 됩니다.",
+        "## Packaging texture가 들리게 둔다",
+        "Paper, cardboard, magnetic lid, zipper, switch, first-touch sound는 product evidence의 일부입니다. Light midrange bed, no vocal hook, no sharp snare를 요청해 detail을 가리지 않게 하세요. Warm, curious, tactile, restrained가 epic이나 cinematic보다 unboxing에 더 잘 맞는 경우가 많습니다. Texture가 proof라면 1-2초는 거의 bare로 둡니다.",
+        "## Reveal moment 중심으로 prompt를 쓴다",
+        "Useful prompt: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. EasyMusic.AI에서는 같은 cut에 calm version과 brighter version을 테스트합니다. Solo playback이 아니라 product가 앞에 남는지를 기준으로 고르세요.",
+        "## Claims, captions, disclosure를 보호한다",
+        "Battery lasts longer, handmade finish, travel-ready fit, gifted item 같은 line에서는 music이 커지면 안 됩니다. Review가 필요한 claim 앞에 marker를 둡니다. Sponsored, discounted, gifted product라면 platform과 campaign rules에 맞춰 disclosure가 보이거나 들릴 공간을 따로 확보해야 합니다. Music은 그 대신이 아닙니다.",
+        "## Style words를 testable brief로 바꾼다",
+        "Premium, cute, futuristic만으로는 부족합니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 vague mood words를 texture, tempo, instrument, density language로 바꾸는 데 도움을 줍니다. 그 다음 footage보다 product를 더 비싸고 크고 dramatic하게 만드는 말을 지우세요. Review나 handoff에는 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)가 practical file format 준비에 도움이 될 수 있지만 final upload checks를 대신하지는 않습니다.",
+        "## 오늘 적용할 ideas",
+        "- 들려야 하는 packaging sound마다 marker를 둡니다.\n- 모든 cut에 drop을 넣지 말고 reveal lift 하나만 요청합니다.\n- 같은 brief에서 12s short와 28s edit를 만듭니다.\n- 아주 낮은 volume으로 captions와 proof가 읽히는지 봅니다.\n- Prompt, product, platform, disclosure-review status를 note로 남깁니다.",
+        "## FAQ\n### 모든 unboxing video에 music이 필요한가요?\n아닙니다. Product sound나 spoken explanation이 가치를 담고 있다면 short intro와 clean ending만으로 충분할 수 있습니다.\n### Vocals가 좋은 선택인가요?\nVoiceover, captions, packaging sounds가 중요하면 보통 아닙니다. Instrumental부터 시작하세요.\n### Reveal을 더 강하게 만들려면요?\n직전 몇 초를 작게 만들고 product의 첫 clear view를 덮지 않는 modest lift를 사용합니다.\n### Music이 disclosure나 rights 문제를 해결하나요?\n아닙니다. Disclosure, rights review, platform rules는 publishing 전에 따로 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje AI music para unboxing videos sem esconder o reveal",
+      "description": "Reveal map pratico para musica de unboxing: sons de embalagem, proof moments, captions, claims e versoes curtas.",
+      "body": [
+        "Um unboxing video perde charme quando a musica trata cada segundo como final grandioso. O lacre abre, o papel se move, o produto aparece, mas o beat cobre os pequenos sons que davam realidade ao clip. A musica certa cria um pouco de expectativa e depois abre espaco quando texture, proof ou claim importam.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, lyrics e style direction em music drafts. Em um workflow de unboxing, use para testar beds e short stings no edit real, enquanto revisao de direitos, disclosure, aprovacao de marca e regras de plataforma continuam checagens separadas.",
+        "## Desenhe o reveal map antes do prompt",
+        "Abra o edit e marque cinco pontos: opening frame, som de abrir embalagem, primeiro proof shot, full reveal e CTA ou claim line. Ao lado de cada ponto, escreva a funcao da musica: hold back, light pulse, leave silence, small lift ou clean stop. Se voce nao sabe onde a musica deve recuar, provavelmente vai pedir uma track que preenche todos os espacos uteis.",
+        "## Deixe a textura da embalagem audivel",
+        "Papel, papelao, tampa magnetica, zipper, switch e first-touch sound fazem parte da evidencia. Peca um bed leve no midrange, sem vocal hook e sem snare aguda que mascare detalhes. Warm, curious, tactile e restrained geralmente servem melhor que epic ou cinematic. Quando a textura e a prova, deixe um ou dois segundos quase nus.",
+        "## Escreva o prompt ao redor do reveal",
+        "Prompt util: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. No EasyMusic.AI, teste uma versao calm e uma brighter no mesmo cut. Nao escolha pelo playback isolado; escolha se o produto continua na frente.",
+        "## Proteja claims, captions e disclosure",
+        "Se o video fala que a bateria dura mais, que o acabamento e handmade, que o tamanho e travel-ready ou que o item foi gifted, a musica nao deve crescer sobre essa linha. Coloque marker antes de cada claim a revisar. Para produtos sponsored, discounted ou gifted, o disclosure precisa de espaco visivel ou falado conforme regras de plataforma e campanha; musica nao substitui isso.",
+        "## Transforme style words em brief testavel",
+        "Premium, cute ou futuristic nao bastam. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar mood words vagas em linguagem de texture, tempo, instruments e density. Depois remova tudo que faz o produto parecer mais caro, maior ou dramatico que o footage sustenta. Para review ou handoff, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode ajudar a preparar um format pratico sem substituir checks finais de upload.",
+        "## Ideias reutilizaveis",
+        "- Marque cada packaging sound que deve continuar audivel.\n- Peca um unico reveal lift, nao um drop em cada cut.\n- Gere uma versao de 12s e outra de 28s a partir do mesmo brief.\n- Assista uma vez em volume muito baixo para confirmar captions e proof.\n- Guarde note com prompt, product, platform e disclosure review.",
+        "## FAQ\n### Todo unboxing video precisa de musica?\nNao. Se o som do produto ou a explicacao falada carrega o valor, intro curta e final limpo podem bastar.\n### Vocals sao uma boa ideia?\nGeralmente nao quando voiceover, captions ou packaging sounds importam. Comece instrumental e justifique qualquer vocal depois.\n### Como deixar o reveal mais forte?\nDiminua os segundos anteriores e use um lift modesto que nao cubra a primeira visao clara do produto.\n### Musica resolve disclosure ou direitos?\nNao. Disclosure, revisao de direitos e regras de plataforma precisam de checagem propria antes da publicacao."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music для unboxing video, не скрывая reveal",
+      "description": "Практическая reveal map для unboxing music: packaging sounds, proof moments, captions, claims и короткие версии.",
+      "body": [
+        "Unboxing video теряет живость, когда музыка превращает каждую секунду в финал. Пломба снимается, бумага шуршит, product появляется, но beat перекрывает маленькие звуки, которые создают доверие. Хорошая музыка должна добавить немного anticipation, а затем отступить там, где важны texture, proof или claim.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics и style direction в music drafts. В unboxing workflow используйте ее, чтобы тестировать background beds и short stings на реальном edit; rights review, disclosure, brand approval и platform rules остаются отдельными production checks.",
+        "## Сначала нарисуйте reveal map",
+        "Откройте edit и отметьте пять точек: opening frame, package-open sound, first proof shot, full reveal и CTA или claim line. Рядом напишите задачу музыки: hold back, light pulse, leave silence, small lift или clean stop. Если вы не можете сказать, где музыка должна отступить, вы, скорее всего, попросите track, который заполнит все полезные паузы.",
+        "## Оставьте слышимой фактуру упаковки",
+        "Paper, cardboard, magnetic lid, zipper, switch и first-touch sound являются частью доказательства. Попросите light midrange bed, no vocal hook и no sharp snare, чтобы не маскировать эти детали. Warm, curious, tactile и restrained часто лучше подходят unboxing, чем epic или cinematic. Если texture является proof, оставьте одну-две секунды почти bare.",
+        "## Пишите prompt вокруг reveal moment",
+        "Полезный prompt: instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim. В EasyMusic.AI протестируйте calm version и brighter version на одном cut. Выбирайте не по solo playback, а по тому, остается ли product главным.",
+        "## Защитите claims, captions и disclosure",
+        "Если видео говорит о battery life, handmade finish, travel-ready size или gifted item, музыка не должна разрастаться поверх этой фразы. Ставьте marker перед каждым claim, который требует проверки. Для sponsored, discounted или gifted products disclosure должен иметь видимое или слышимое место по правилам платформы и кампании; музыка не заменяет это.",
+        "## Превратите style words в проверяемый brief",
+        "Premium, cute или futuristic сами по себе недостаточны. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает превратить vague mood words в язык texture, tempo, instruments и density. Затем удалите все, что делает product дороже, больше или драматичнее, чем позволяет footage. Для review или handoff [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может помочь подготовить practical file format, но не заменяет final upload checks.",
+        "## Идеи, которые можно применить сегодня",
+        "- Поставьте marker на каждый packaging sound, который должен остаться слышимым.\n- Попросите один reveal lift, а не drop на каждом cut.\n- Сделайте 12s short и 28s edit из одного brief.\n- Посмотрите почти на минимальной громкости, чтобы проверить captions и proof.\n- Сохраните note с prompt, product, platform и disclosure-review status.",
+        "## FAQ\n### Каждому unboxing video нужна музыка?\nНет. Если ценность несут product sound или spoken explanation, короткого intro и clean ending может хватить.\n### Vocals подходят?\nОбычно нет, если важны voiceover, captions или packaging sounds. Начните с instrumental.\n### Как усилить reveal?\nСделайте секунды перед ним меньше, затем добавьте умеренный lift, который не закрывает первый clear view продукта.\n### Музыка решает disclosure или rights questions?\nНет. Disclosure, rights review и platform rules требуют отдельной проверки перед публикацией."
+      ]
+    },
+    "zh": {
+      "title": "为 unboxing video 规划 AI music，不遮住 reveal",
+      "description": "一个实用 reveal map：整理 packaging sounds、proof moments、captions、claims 和短版本导出。",
+      "body": [
+        "Unboxing video 如果每一秒都像 grand finale，就会失去真实感。Seal 被撕开，tissue 移动，product 终于出现，但 beat 盖住了那些让画面可信的小声音。好的 music 应该制造一点 anticipation，然后在 texture、proof 或 claim 重要时退后。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、lyrics 和 style direction 变成 music drafts。在 unboxing workflow 中，可以用它把 background beds 和 short stings 放到真实 edit 里测试；rights review、disclosure、brand approval 和 platform rules 仍然是单独的 production checks。",
+        "## Prompt 之前先画 reveal map",
+        "打开 edit，标记五个点：opening frame、package-open sound、first proof shot、full reveal，以及 CTA 或 claim line。每个点旁边写 music job：hold back、light pulse、leave silence、small lift 或 clean stop。如果你说不清 music 应该在哪里后退，最后很可能会请求一条把所有空隙都填满的 track。",
+        "## 保留 packaging texture 的声音",
+        "Paper、cardboard、magnetic lid、zipper、switch、first-touch sound 都是 product evidence 的一部分。请求 light midrange bed、no vocal hook、no sharp snare，避免遮住这些 detail。Warm、curious、tactile、restrained 往往比 epic 或 cinematic 更适合 unboxing。如果 texture 本身就是 proof，可以留一两秒 almost bare。",
+        "## 围绕 reveal moment 写 prompt",
+        "可用 prompt：instrumental unboxing video bed, 28 seconds, soft tactile pulse, warm keys, tiny lift at product reveal, no vocals, no big drop, leave space for packaging sounds and spoken claim。在 EasyMusic.AI 中，用同一个 cut 测试 calm version 和 brighter version。不要只听 solo playback；要看 product 是否仍然在前面。",
+        "## 保护 claims、captions 和 disclosure",
+        "如果视频提到 battery lasts longer、handmade finish、travel-ready fit 或 gifted item，music 不应该在那一句盖上去。每个需要 review 的 claim 前放 marker。Sponsored、discounted 或 gifted product 需要按照 platform 和 campaign rules 给 disclosure 留出可见或可听的空间；music 不能替代它。",
+        "## 把 style words 变成可测试 brief",
+        "Premium、cute、futuristic 单独不够。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 vague mood words 转成 texture、tempo、instrument、density 语言。然后删掉任何让 product 听起来比 footage 更贵、更大或更 dramatic 的词。Review 或 handoff 时，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助准备 practical file format，但不能替代 final upload checks。",
+        "## 今天就能用的 ideas",
+        "- 给每个必须保留的 packaging sound 放 marker。\n- 只请求一个 reveal lift，不要每个 cut 都 drop。\n- 用同一个 brief 生成 12s short 和 28s edit。\n- 用 very low volume 看一遍，确认 captions 和 proof 仍然清楚。\n- 保存 note：prompt、product、platform、disclosure-review status。",
+        "## FAQ\n### 每个 unboxing video 都需要 music 吗？\n不需要。如果 product sound 或 spoken explanation 承载价值，短 intro 和 clean ending 可能就够。\n### Vocals 合适吗？\n当 voiceover、captions 或 packaging sounds 很重要时通常不合适。先从 instrumental 开始。\n### 如何让 reveal 更强？\n把前几秒做小一点，再用 modest lift，但不要遮住 product 第一次清楚出现。\n### Music 能解决 disclosure 或 rights 问题吗？\n不能。Disclosure、rights review 和 platform rules 都需要在发布前单独检查。"
+      ]
+    }
+  }
+}
