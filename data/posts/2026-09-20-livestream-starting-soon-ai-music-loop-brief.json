@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-20",
+  "slug": "livestream-starting-soon-ai-music-loop-brief",
+  "cluster": "livestream-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب AI music loop لشاشة Starting Soon بدون ارهاق المشاهدين",
+      "description": "Brief عملي لموسيقى شاشات livestream: starting soon، BRB، ending، chat clarity، loop fatigue، ومراجعة الحقوق.",
+      "body": [
+        "تفتح البث مبكرا بخمس دقائق، والشاشة تبدو مرتبة، لكن الموسيقى تكشف المشكلة. نفس الriff يعود كل عشر ثوان، الkick يغطي اول سلام في chat، وعندما تنتقل الى المشهد الحي يشعر الصوت كأنه مقطوع لا كجزء من البرنامج. شاشة Starting Soon ليست intro طويل؛ هي غرفة انتظار قصيرة تحتاج موسيقى لا تطرد الناس قبل ان يبدأ الكلام.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompt، lyrics، وstyle direction الى music drafts. في livestream workflow، استخدمها لاختبار loops قصيرة لشاشات starting soon، BRB، وending، ثم تعامل مع rights review، platform rules، VOD settings، وموافقة الفريق كخطوات منفصلة. اذا كانت كلمات الاسلوب مبهمة، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في ترتيب mood، tempo، instruments، وdensity، بينما يفيد [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) في تجهيز format عملي للمراجعة او الhandoff.",
+        "## ابدأ بخريطة مشاهد البث",
+        "اكتب اربع حالات قبل اي prompt: waiting room، short pause، technical delay، وsign-off. Starting Soon يحتاج طاقة مرحبة لكن صبورة. BRB يحتاج ان يقول للجمهور انك ستعود من غير ان يطلب انتباههم. Technical delay يجب ان يكون هادئا جدا كي لا يزيد التوتر. Ending يمكن ان يكون اكبر قليلا لانه يأتي بعد الكلام. اذا استخدمت track واحدا لكل هذه الحالات، فاجعل arrangement يتحمل الخفض والقص.",
+        "## اطلب loop لا song كاملة",
+        "Prompt مفيد: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. داخل EasyMusic.AI، جرب نسخة calm ونسخة brighter، ثم اسمع كل واحدة مرتين متتاليتين. اذا اصبحت مزعجة في الدقيقة الثانية، فهي ليست مناسبة لشاشة انتظار حتى لو بدت جيدة اول مرة.",
+        "## اختبر نقطة الاعادة قبل OBS",
+        "لا تنتظر لحظة البث لاكتشاف jump في نهاية الملف. ضع الملف في editor او player، كرره ثلاث مرات، واستمع الى اخر ثانيتين ثم اول ثانيتين. ابحث عن crash cymbal، vocal tag، bass pickup، او reverb tail ينكشف عند الاعادة. في OBS، ابق الموسيقى كمصدر audio منفصل عن صورة الشاشة عندما تستطيع، حتى تغير volume او track من غير اعادة تصدير visual loop.",
+        "## اترك مكانا للميكروفون وchat",
+        "اول جملة في البث مهمة: مرحبا، موضوع اليوم، واين يبدأ الجمهور. اجعل الموسيقى اقل ازدحاما في midrange، وخففها عندما يكون mic active. لا تستخدم vocals واضحة تحت greeting او alerts المقروءة. اختبر على phone speaker، headphones، ومستوى صوت منخفض. اذا احتاج المشاهد ان يرفع الصوت ليسمعك، فالloop يأخذ وظيفة اكبر من حجمه.",
+        "## لا تجعل الحقوق ملاحظة اخيرة",
+        "Livestream music قد يبقى في VOD، clips، highlights، او reuploads. احتفظ بnote يربط prompt، الملف، تاريخ التوليد، edit، ومنصة النشر. لا تفترض ان track مولد بالAI مناسب تلقائيا لكل قناة او استخدام تجاري. راجع شروط الاداة، قواعد المنصة، واي requirements خاصة بالعميل او الراعي قبل تشغيله في بث عام.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اصنع ثلاث cues قصيرة: starting soon، BRB، وending بدلا من track واحد صاخب.\n- اطلب no vocals، no famous artist reference، وclean loop point في prompt.\n- اسمع الloop ثلاث مرات متتالية قبل وضعه في OBS.\n- اخفض music bed عندما يصبح mic او text-to-speech نشطا.\n- احفظ production note يضم prompt، file name، platform، وrights review status.",
+        "## FAQ\n### كم يجب ان يكون طول starting soon loop؟\nغالبا 45 الى 90 ثانية تكفي. الاهم ان لا تكون نقطة الاعادة واضحة عند التكرار.\n### هل استخدم نفس الموسيقى لBRB؟\nيمكن، لكن BRB يحتاج عادة نسخة اهدأ واقل حركة كي لا يشعر المشاهد ان شيئا مهما يحدث.\n### هل vocals مناسبة؟\nنادرا. Vocals تتنافس مع greeting، alerts، chat reading، واي voiceover.\n### هل AI music تتجنب مشاكل المنصة تلقائيا؟\nلا. احتفظ بسجل واضح وراجع terms، platform rules، واي استخدام تجاري قبل النشر."
+      ]
+    },
+    "de": {
+      "title": "Plane AI Music fuer Starting-Soon-Screens ohne Loop-Ermuedung",
+      "description": "Ein praktischer Brief fuer Livestream-Musik: Starting Soon, BRB, Ending, Chat-Klarheit, Loop Fatigue und Rechtepruefung.",
+      "body": [
+        "Du gehst fuenf Minuten frueher live, das Overlay sieht ordentlich aus, aber der Ton verraet die Schwachstelle. Dasselbe Riff kommt alle zehn Sekunden zurueck, die Kick ueberdeckt den ersten Chat-Gruss, und der Wechsel in die Live-Szene fuehlt sich wie ein Schnitt statt wie eine Sendung an. Ein Starting-Soon-Screen ist kein langer Trailer. Er ist ein Wartezimmer, das Musik braucht, die Menschen haelt, ohne sie zu ermueden.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du aus Prompts, Lyrics und Style Direction Musikentwuerfe erstellen kannst. Im Livestream-Workflow testest du damit kurze Loops fuer Starting Soon, BRB und Ending; Rechtepruefung, Plattformregeln, VOD-Einstellungen und Teamfreigabe bleiben separate Schritte. Wenn Stilwoerter zu vage sind, hilft der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), Mood, Tempo, Instrumente und Dichte zu ordnen, waehrend der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) ein praktisches Review- oder Handoff-Format vorbereiten kann.",
+        "## Beginne mit der Szenenkarte",
+        "Schreibe vor dem Prompt vier Situationen auf: waiting room, short pause, technical delay und sign-off. Starting Soon darf freundlich und wach sein, aber geduldig. BRB soll sagen: Ich komme zurueck, ohne dauernd Aufmerksamkeit zu fordern. Technical delay braucht besonders ruhige Musik, damit der Fehler nicht groesser wirkt. Ending kann etwas heller sein, weil es nach dem Inhalt kommt. Wenn ein Track alle Rollen tragen soll, muss er sich gut leiser machen und schneiden lassen.",
+        "## Fordere einen Loop an, keinen ganzen Song",
+        "Ein brauchbarer Prompt: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. Teste in EasyMusic.AI eine calm Version und eine brighter Version. Hoere jede zweimal hintereinander. Wenn die zweite Minute nervt, ist der Track fuer einen Warteraum falsch, auch wenn der erste Eindruck gut war.",
+        "## Pruefe den Wiederholpunkt vor OBS",
+        "Warte nicht bis zum Stream, um einen Sprung am Ende zu finden. Lege die Datei in einen Editor oder Player, wiederhole sie dreimal und hoere die letzten zwei Sekunden gegen die ersten zwei Sekunden. Achte auf Crash Cymbal, Vocal Tag, Bass Pickup oder Reverb Tail, die beim Loop auffallen. In OBS bleibt Musik moeglichst eine eigene Audioquelle, getrennt von der Grafik, damit du Lautstaerke oder Track wechseln kannst, ohne das Visual neu zu rendern.",
+        "## Lass Platz fuer Mikrofon und Chat",
+        "Der erste Satz des Streams zaehlt: Begruessung, Thema, Startpunkt. Halte die Musik im Mittenbereich schlank und duck sie, sobald das Mikrofon aktiv ist. Klare Vocals unter Greeting, Alerts oder vorgelesenem Chat sind meistens ein Fehler. Teste auf Handylautsprecher, Kopfhoerern und niedriger Lautstaerke. Wenn Zuschauer dich lauter drehen muessen, hat der Loop zu viel Gewicht.",
+        "## Rechte sind keine letzte Notiz",
+        "Livestream-Musik kann in VODs, Clips, Highlights oder Reuploads landen. Fuehre eine Note mit Prompt, Datei, Generierungsdatum, Edit und Plattform. Nimm nicht an, dass ein AI-generierter Track automatisch fuer jeden Kanal oder kommerziellen Einsatz passt. Pruefe Tool-Bedingungen, Plattformregeln und Kunden- oder Sponsorvorgaben, bevor die Musik oeffentlich laeuft.",
+        "## Sofort nutzbare Ideen",
+        "- Erstelle drei kurze Cues: Starting Soon, BRB und Ending statt eines lauten Allzwecktracks.\n- Schreibe no vocals, no famous artist reference und clean loop point in den Prompt.\n- Hoere den Loop dreimal hintereinander, bevor er in OBS geht.\n- Senke das Musikbett, sobald Mikrofon oder Text-to-Speech aktiv sind.\n- Speichere eine Production Note mit Prompt, Dateiname, Plattform und Rights Review Status.",
+        "## FAQ\n### Wie lang sollte ein Starting-Soon-Loop sein?\nMeist reichen 45 bis 90 Sekunden. Wichtiger ist, dass der Loop-Punkt nicht auffaellt.\n### Kann BRB dieselbe Musik nutzen?\nJa, aber BRB braucht oft eine ruhigere Version mit weniger Bewegung.\n### Sind Vocals sinnvoll?\nSelten. Vocals konkurrieren mit Begruessung, Alerts, Chat Reading und Voiceover.\n### Vermeidet AI Music automatisch Plattformprobleme?\nNein. Fuehre saubere Notizen und pruefe Terms, Plattformregeln und kommerzielle Nutzung separat."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Starting Soon Screens Without Loop Fatigue",
+      "description": "A practical livestream music brief for starting soon, BRB, ending screens, chat clarity, loop fatigue, and rights review.",
+      "body": [
+        "You go live five minutes early, the overlay looks polished, and then the music gives the setup away. The same riff returns every ten seconds, the kick covers the first chat greeting, and the move into the live scene feels like a hard cut instead of a show beginning. A Starting Soon screen is not a long trailer. It is a waiting room, and the music has to keep people comfortable without asking for too much attention.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, and style direction into music drafts. In a livestream workflow, use it to test short loops for Starting Soon, BRB, and Ending scenes, while rights review, platform rules, VOD settings, and team approval stay separate checks. When your style words are vague, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help organize mood, tempo, instruments, and density, and the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare a practical review or handoff format.",
+        "## Start With the Stream Scene Map",
+        "Write four cases before you prompt: waiting room, short pause, technical delay, and sign-off. Starting Soon should feel welcoming but patient. BRB should tell viewers you are coming back without making them feel they are missing the main event. Technical delay music needs to stay especially calm so the problem does not feel larger. Ending can be a little brighter because it follows the content. If one track has to cover all scenes, it must tolerate trimming and volume changes.",
+        "## Ask for a Loop, Not a Full Song",
+        "A useful prompt: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. Inside EasyMusic.AI, test one calm version and one brighter version. Listen to each twice in a row. If it becomes irritating in minute two, it is not a good waiting-screen loop even if the first pass sounds nice.",
+        "## Test the Repeat Point Before OBS",
+        "Do not discover the jump at the moment you go live. Put the file in an editor or player, repeat it three times, and listen to the last two seconds against the first two seconds. Watch for a crash cymbal, vocal tag, bass pickup, or reverb tail that exposes the restart. In OBS, keep the music as a separate audio source from the screen visual when you can, so you can change volume or swap tracks without re-exporting the visual loop.",
+        "## Leave Room for Mic and Chat",
+        "The first spoken line matters: hello, what the stream is about, and where the audience should settle in. Keep the music light in the midrange, and duck it when the mic is active. Clear vocals under greetings, alerts, or text-to-speech chat usually create clutter. Test on a phone speaker, headphones, and low volume. If viewers need to turn you up to understand the welcome, the loop is doing too much work.",
+        "## Do Not Save Rights Review for the End",
+        "Livestream music can remain in VODs, clips, highlights, and reuploads. Keep a note that connects the prompt, file, generation date, edit, and publishing platform. Do not assume an AI-generated track automatically fits every channel or commercial use. Review the tool terms, platform rules, and any client or sponsor requirements before using the music in a public stream.",
+        "## Reusable Ideas You Can Apply Today",
+        "- Create three short cues: Starting Soon, BRB, and Ending, instead of one loud all-purpose track.\n- Put no vocals, no famous artist reference, and clean loop point directly in the prompt.\n- Listen to the loop three times in a row before adding it to OBS.\n- Lower the music bed whenever the mic or text-to-speech source is active.\n- Keep a production note with prompt, file name, platform, and rights-review status.",
+        "## FAQ\n### How long should a Starting Soon loop be?\nUsually 45 to 90 seconds is enough. The more important test is whether the repeat point stays unnoticed.\n### Can BRB use the same music?\nYes, but BRB often needs a quieter version with less movement so viewers do not feel they are missing something.\n### Should the loop have vocals?\nRarely. Vocals compete with greetings, alerts, chat reading, and any voiceover.\n### Does AI music automatically avoid platform problems?\nNo. Keep clear records and review terms, platform rules, and commercial context before publishing."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para Starting Soon screens sin fatiga de loop",
+      "description": "Brief practico para musica de livestream: Starting Soon, BRB, Ending, claridad de chat, loop fatigue y revision de derechos.",
+      "body": [
+        "Sales en vivo cinco minutos antes, el overlay se ve pulido y entonces la musica delata el setup. El mismo riff vuelve cada diez segundos, el kick tapa el primer saludo del chat y el cambio a la escena live se siente como un corte duro, no como el inicio de un programa. Una Starting Soon screen no es un trailer largo. Es una sala de espera, y la musica debe mantener comoda a la gente sin pedir demasiada atencion.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, lyrics y style direction en music drafts. En un workflow de livestream, usala para probar loops cortos para escenas Starting Soon, BRB y Ending, mientras rights review, platform rules, VOD settings y aprobacion del equipo quedan como checks separados. Si tus style words son vagas, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) ayuda a ordenar mood, tempo, instruments y density, y el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar un format practico para review o handoff.",
+        "## Empieza con el mapa de escenas",
+        "Escribe cuatro casos antes del prompt: waiting room, short pause, technical delay y sign-off. Starting Soon debe sentirse bienvenida pero paciente. BRB debe decir que vuelves sin hacer sentir al espectador que se pierde el evento principal. Technical delay necesita musica muy tranquila para que el problema no parezca mayor. Ending puede ser algo mas brillante porque llega despues del contenido. Si un track debe cubrir todo, tiene que aguantar trims y cambios de volumen.",
+        "## Pide un loop, no una cancion completa",
+        "Prompt util: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. En EasyMusic.AI, prueba una version calm y otra brighter. Escucha cada una dos veces seguidas. Si irrita en el minuto dos, no sirve como waiting-screen loop aunque la primera pasada suene bien.",
+        "## Prueba el punto de repeticion antes de OBS",
+        "No descubras el salto justo al salir en vivo. Pon el archivo en un editor o player, repitelo tres veces y escucha los ultimos dos segundos contra los primeros dos. Busca crash cymbal, vocal tag, bass pickup o reverb tail que exponga el reinicio. En OBS, cuando puedas, deja la musica como audio source separada del visual para cambiar volumen o track sin exportar otra vez la pantalla.",
+        "## Deja espacio para mic y chat",
+        "La primera frase hablada importa: saludo, tema y donde empieza la audiencia. Mantén la musica ligera en midrange y bajala cuando el mic este activo. Vocals claros debajo de greetings, alerts o text-to-speech chat casi siempre crean ruido. Prueba en speaker de telefono, headphones y bajo volumen. Si el publico debe subirte para entender el welcome, el loop trabaja demasiado.",
+        "## No dejes la revision de derechos al final",
+        "La musica de livestream puede quedar en VODs, clips, highlights y reuploads. Guarda una nota que conecte prompt, archivo, fecha de generacion, edit y plataforma. No asumas que un track generado con IA encaja automaticamente en cada canal o uso comercial. Revisa tool terms, platform rules y requisitos de cliente o sponsor antes de usarlo en un stream publico.",
+        "## Ideas reutilizables",
+        "- Crea tres cues cortos: Starting Soon, BRB y Ending, en lugar de un track unico y fuerte.\n- Escribe no vocals, no famous artist reference y clean loop point dentro del prompt.\n- Escucha el loop tres veces seguidas antes de llevarlo a OBS.\n- Baja el music bed cuando mic o text-to-speech esten activos.\n- Guarda production note con prompt, file name, platform y rights-review status.",
+        "## FAQ\n### Cuanto debe durar un Starting Soon loop?\nNormalmente 45 a 90 segundos bastan. Lo importante es que la repeticion no se note.\n### BRB puede usar la misma musica?\nSi, pero BRB suele necesitar una version mas tranquila y con menos movimiento.\n### Convienen vocals?\nRara vez. Vocals compiten con greetings, alerts, chat reading y cualquier voiceover.\n### AI music evita automaticamente problemas de plataforma?\nNo. Mantén registros claros y revisa terms, platform rules y contexto comercial antes de publicar."
+      ]
+    },
+    "fr": {
+      "title": "Planifie une AI music pour Starting Soon sans fatigue de loop",
+      "description": "Brief pratique pour musique de livestream: Starting Soon, BRB, Ending, clarte du chat, loop fatigue et review des droits.",
+      "body": [
+        "Tu passes live cinq minutes en avance, l overlay est propre, puis la musique revele le probleme. Le meme riff revient toutes les dix secondes, le kick couvre le premier bonjour du chat, et le passage vers la scene live ressemble a une coupure plutot qu au debut d une emission. Un ecran Starting Soon n est pas un long trailer. C est une salle d attente, et la musique doit garder les gens a l aise sans demander trop d attention.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, lyrics et style direction en music drafts. Dans un workflow de livestream, utilise-la pour tester des loops courts pour Starting Soon, BRB et Ending, tandis que rights review, platform rules, VOD settings et validation d equipe restent des checks separes. Si tes style words sont vagues, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) aide a organiser mood, tempo, instruments et density, et l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut preparer un format pratique pour review ou handoff.",
+        "## Commence par la carte des scenes",
+        "Ecris quatre cas avant le prompt: waiting room, short pause, technical delay et sign-off. Starting Soon doit etre accueillant mais patient. BRB doit dire que tu reviens sans donner l impression que le public manque l evenement principal. Technical delay demande une musique tres calme pour ne pas agrandir le probleme. Ending peut etre un peu plus lumineux, car il vient apres le contenu. Si un seul track couvre tout, il doit supporter trims et changements de volume.",
+        "## Demande un loop, pas une chanson complete",
+        "Prompt utile: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. Dans EasyMusic.AI, teste une version calm et une version brighter. Ecoute chaque version deux fois de suite. Si elle fatigue a la deuxieme minute, ce n est pas un bon loop d attente meme si la premiere ecoute semble agreable.",
+        "## Teste le point de reprise avant OBS",
+        "Ne decouvre pas le saut au moment du live. Mets le fichier dans un editor ou player, repete-le trois fois et ecoute les deux dernieres secondes contre les deux premieres. Cherche crash cymbal, vocal tag, bass pickup ou reverb tail qui trahit le redemarrage. Dans OBS, garde si possible la musique comme audio source separee du visuel, pour changer volume ou track sans reexporter la scene.",
+        "## Laisse de la place au micro et au chat",
+        "La premiere phrase parlee compte: bonjour, sujet, et point de depart. Garde la musique legere dans les mediums et baisse-la quand le micro est actif. Des vocals clairs sous greetings, alerts ou text-to-speech chat creent vite du fouillis. Teste sur haut-parleur de telephone, headphones et bas volume. Si le public doit monter le son pour comprendre l accueil, le loop prend trop de place.",
+        "## Ne garde pas la review des droits pour la fin",
+        "La musique de livestream peut rester dans VODs, clips, highlights et reuploads. Garde une note reliant prompt, fichier, date de generation, edit et plateforme. Ne suppose pas qu un track genere par IA convient automatiquement a chaque chaine ou usage commercial. Verifie tool terms, platform rules et exigences client ou sponsor avant de l utiliser dans un stream public.",
+        "## Idees reutilisables",
+        "- Cree trois cues courts: Starting Soon, BRB et Ending, plutot qu un seul track trop fort.\n- Mets no vocals, no famous artist reference et clean loop point dans le prompt.\n- Ecoute le loop trois fois de suite avant de l ajouter a OBS.\n- Baisse le music bed quand micro ou text-to-speech est actif.\n- Garde une production note avec prompt, file name, platform et rights-review status.",
+        "## FAQ\n### Quelle duree pour un Starting Soon loop ?\nEn general 45 a 90 secondes suffisent. Le test principal est que le point de reprise reste discret.\n### BRB peut-il utiliser la meme musique ?\nOui, mais BRB gagne souvent avec une version plus calme et moins mobile.\n### Faut-il des vocals ?\nRarement. Les vocals concurrencent greetings, alerts, chat reading et voiceover.\n### La AI music evite-t-elle automatiquement les problemes de plateforme ?\nNon. Garde des notes claires et verifie terms, platform rules et contexte commercial avant publication."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per Starting Soon screen senza loop fatigue",
+      "description": "Brief pratico per musica da livestream: Starting Soon, BRB, Ending, chiarezza chat, loop fatigue e review dei diritti.",
+      "body": [
+        "Vai live cinque minuti prima, l overlay e curato, poi la musica rivela il problema. Lo stesso riff torna ogni dieci secondi, la kick copre il primo saluto in chat e il passaggio alla scena live sembra un taglio brusco invece dell inizio dello show. Una Starting Soon screen non e un trailer lungo. E una sala d attesa, e la musica deve tenere le persone comode senza chiedere troppa attenzione.",
+        "## Cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation per trasformare prompts, lyrics e style direction in music drafts. In un workflow di livestream, usala per testare short loops per Starting Soon, BRB ed Ending, mentre rights review, platform rules, VOD settings e approvazione del team restano controlli separati. Se le style words sono vaghe, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) aiuta a organizzare mood, tempo, instruments e density, e l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo preparare un format pratico per review o handoff.",
+        "## Parti dalla mappa delle scene",
+        "Scrivi quattro casi prima del prompt: waiting room, short pause, technical delay e sign-off. Starting Soon deve essere accogliente ma paziente. BRB deve dire che tornerai senza far sentire al pubblico che sta perdendo il momento principale. Technical delay richiede musica molto calma, cosi il problema non sembra piu grande. Ending puo essere un po piu brillante perche arriva dopo il contenuto. Se un track deve coprire tutto, deve reggere tagli e cambi di volume.",
+        "## Chiedi un loop, non una canzone intera",
+        "Prompt utile: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. In EasyMusic.AI, prova una versione calm e una brighter. Ascolta ciascuna due volte di fila. Se al secondo minuto stanca, non e un buon waiting-screen loop anche se al primo ascolto piace.",
+        "## Testa il punto di ripetizione prima di OBS",
+        "Non scoprire il salto quando sei gia live. Metti il file in un editor o player, ripetilo tre volte e ascolta gli ultimi due secondi contro i primi due. Cerca crash cymbal, vocal tag, bass pickup o reverb tail che rivelano il restart. In OBS, quando possibile, tieni la musica come audio source separata dal visual, cosi puoi cambiare volume o track senza esportare di nuovo la grafica.",
+        "## Lascia spazio a microfono e chat",
+        "La prima frase parlata conta: saluto, tema e dove il pubblico deve orientarsi. Tieni la musica leggera nel midrange e abbassala quando il mic e attivo. Vocals chiare sotto greeting, alerts o text-to-speech chat creano spesso confusione. Testa su speaker del telefono, headphones e volume basso. Se chi guarda deve alzare te per capire il welcome, il loop occupa troppo spazio.",
+        "## Non lasciare la review dei diritti alla fine",
+        "La musica da livestream puo restare in VODs, clips, highlights e reuploads. Conserva una nota che colleghi prompt, file, data di generation, edit e piattaforma. Non presumere che un track generato con AI sia adatto automaticamente a ogni canale o uso commerciale. Controlla tool terms, platform rules e requisiti di cliente o sponsor prima di usarlo in uno stream pubblico.",
+        "## Idee riutilizzabili",
+        "- Crea tre cues brevi: Starting Soon, BRB ed Ending, invece di un unico track rumoroso.\n- Inserisci no vocals, no famous artist reference e clean loop point direttamente nel prompt.\n- Ascolta il loop tre volte di fila prima di aggiungerlo a OBS.\n- Abbassa il music bed quando mic o text-to-speech sono attivi.\n- Tieni una production note con prompt, file name, platform e rights-review status.",
+        "## FAQ\n### Quanto deve durare uno Starting Soon loop?\nDi solito bastano 45-90 secondi. Conta soprattutto che il punto di ripetizione resti discreto.\n### BRB puo usare la stessa musica?\nSi, ma BRB spesso richiede una versione piu quieta e con meno movimento.\n### I vocals sono adatti?\nRaramente. Vocals competono con greetings, alerts, chat reading e voiceover.\n### AI music evita automaticamente problemi di piattaforma?\nNo. Tieni record chiari e verifica terms, platform rules e contesto commerciale prima di pubblicare."
+      ]
+    },
+    "ja": {
+      "title": "Loop fatigueを避けるStarting Soon screen用AI music brief",
+      "description": "Starting Soon、BRB、Ending、chat clarity、loop fatigue、rights reviewを整理するlivestream music brief。",
+      "body": [
+        "配信を5分早く始め、overlayはきれいに見えるのに、musicが弱点を出してしまうことがあります。同じriffが10秒ごとに戻り、kickが最初のchat greetingを隠し、live sceneへの切り替えがshowの開始ではなくhard cutに聞こえる。Starting Soon screenは長いtrailerではありません。短いwaiting roomなので、musicは人を落ち着かせながら、注意を取りすぎない必要があります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、lyrics、style directionからmusic draftsを作れるAI music creation platformです。Livestream workflowでは、Starting Soon、BRB、Ending scenes用のshort loopsを試す場所として使い、rights review、platform rules、VOD settings、team approvalは別のchecksとして扱います。Style wordsが曖昧なら、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) でmood、tempo、instruments、densityを整理でき、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) はreviewやhandoff用の実用的なformat準備に使えます。",
+        "## Stream scene mapから始める",
+        "Prompt前に4つのcaseを書きます: waiting room、short pause、technical delay、sign-off。Starting Soonはwelcomingでありつつpatientに。BRBは戻ってくることを伝え、main eventを逃している感覚を作らない。Technical delayは問題を大きく感じさせないよう特にcalmに。Endingはcontentの後なので少し明るくできます。1つのtrackですべてを担うなら、trimとvolume changeに耐える必要があります。",
+        "## Full songではなくloopを頼む",
+        "使えるprompt: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting。EasyMusic.AIではcalm versionとbrighter versionを試します。それぞれを2回続けて聞きます。2分目で疲れるなら、初回がよく聞こえてもwaiting-screen loopには向きません。",
+        "## OBS前にrepeat pointを確認する",
+        "Go liveの瞬間にjumpを見つけないようにします。Fileをeditorかplayerに入れ、3回繰り返して、最後の2秒と最初の2秒を聞き比べます。Crash cymbal、vocal tag、bass pickup、reverb tailがrestartを目立たせないか確認します。OBSでは可能ならmusicをscreen visualと別のaudio sourceにしておくと、visual loopを再exportせずvolume変更やtrack差し替えができます。",
+        "## Micとchatの場所を残す",
+        "最初のspoken lineは重要です: hello、stream topic、audienceがどこに入ればよいか。Musicはmidrangeを軽くし、mic active時にduckします。Greetings、alerts、text-to-speech chatの下にclear vocalsを置くと、たいてい混みます。Phone speaker、headphones、low volumeでtestします。Welcomeを理解するためにviewerが音量を上げる必要があるなら、loopが働きすぎです。",
+        "## Rights reviewを最後に残さない",
+        "Livestream musicはVODs、clips、highlights、reuploadsに残ることがあります。Prompt、file、generation date、edit、publishing platformをつなぐnoteを残します。AI-generated trackがすべてのchannelやcommercial useに自動で合うとは考えないでください。Public streamで使う前にtool terms、platform rules、clientやsponsor requirementsを確認します。",
+        "## 今日使えるideas",
+        "- 大きなall-purpose trackではなく、Starting Soon、BRB、Endingの3つのshort cuesを作る。\n- Promptにno vocals、no famous artist reference、clean loop pointを入れる。\n- OBSに入れる前にloopを3回連続で聞く。\n- Micやtext-to-speech sourceがactiveならmusic bedを下げる。\n- Prompt、file name、platform、rights-review statusをproduction noteに残す。",
+        "## FAQ\n### Starting Soon loopはどのくらいの長さがよいですか？\n通常は45-90秒で十分です。より重要なのはrepeat pointが気づかれないことです。\n### BRBで同じmusicを使えますか？\n使えますが、BRBにはより静かでmovementの少ないversionが向くことが多いです。\n### Vocalsは入れるべきですか？\nまれです。Vocalsはgreetings、alerts、chat reading、voiceoverと競合します。\n### AI musicならplatform問題を自動で避けられますか？\nいいえ。Publish前にrecordsを残し、terms、platform rules、commercial contextを確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "Loop fatigue 없는 Starting Soon screen용 AI music 계획하기",
+      "description": "Starting Soon, BRB, Ending, chat clarity, loop fatigue, rights review를 정리하는 livestream music brief.",
+      "body": [
+        "방송을 5분 일찍 켜고 overlay는 깔끔한데, music이 setup의 약점을 드러낼 때가 있습니다. 같은 riff가 10초마다 돌아오고, kick이 첫 chat greeting을 덮고, live scene으로 넘어가는 순간이 show의 시작이 아니라 hard cut처럼 들립니다. Starting Soon screen은 긴 trailer가 아닙니다. 짧은 waiting room이므로 music은 사람을 편하게 붙잡되 너무 많은 attention을 요구하면 안 됩니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction을 music drafts로 바꾸는 AI music creation platform입니다. Livestream workflow에서는 Starting Soon, BRB, Ending scenes용 short loops를 테스트하는 데 쓰고, rights review, platform rules, VOD settings, team approval은 separate checks로 둡니다. Style words가 vague하면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)가 mood, tempo, instruments, density를 정리하는 데 도움을 주고, [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)는 review나 handoff용 practical format 준비에 쓸 수 있습니다.",
+        "## Stream scene map부터 만든다",
+        "Prompt 전에 네 가지 case를 적습니다: waiting room, short pause, technical delay, sign-off. Starting Soon은 welcoming하지만 patient해야 합니다. BRB는 곧 돌아온다는 신호를 주되 main event를 놓치는 느낌을 만들면 안 됩니다. Technical delay music은 문제가 더 크게 느껴지지 않도록 매우 calm해야 합니다. Ending은 content 뒤에 오므로 조금 brighter해도 됩니다. 한 track이 모든 scene을 맡아야 한다면 trim과 volume change를 견뎌야 합니다.",
+        "## Full song이 아니라 loop를 요청한다",
+        "Useful prompt: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. EasyMusic.AI에서는 calm version과 brighter version을 테스트합니다. 각각 두 번 연속으로 들어보세요. 2분째에 짜증난다면 첫 pass가 좋아도 waiting-screen loop로는 맞지 않습니다.",
+        "## OBS 전에 repeat point를 테스트한다",
+        "Go live 순간에 jump를 발견하지 마세요. File을 editor나 player에 넣고 세 번 반복해 마지막 2초와 처음 2초를 들어봅니다. Crash cymbal, vocal tag, bass pickup, reverb tail이 restart를 드러내는지 확인합니다. OBS에서는 가능하면 music을 screen visual과 분리된 audio source로 둡니다. 그래야 visual loop를 다시 export하지 않고도 volume 변경이나 track 교체가 가능합니다.",
+        "## Mic와 chat을 위한 공간을 남긴다",
+        "첫 spoken line은 중요합니다: hello, stream topic, audience가 어디서 시작하면 되는지. Music은 midrange를 가볍게 하고 mic가 active일 때 duck합니다. Greetings, alerts, text-to-speech chat 아래 clear vocals는 보통 clutter를 만듭니다. Phone speaker, headphones, low volume으로 테스트합니다. Viewer가 welcome을 이해하려고 volume을 올려야 한다면 loop가 너무 많은 일을 하고 있습니다.",
+        "## Rights review를 마지막으로 미루지 않는다",
+        "Livestream music은 VODs, clips, highlights, reuploads에 남을 수 있습니다. Prompt, file, generation date, edit, publishing platform을 연결하는 note를 남기세요. AI-generated track이 모든 channel이나 commercial use에 자동으로 맞는다고 가정하지 마세요. Public stream에 쓰기 전에 tool terms, platform rules, client 또는 sponsor requirements를 확인합니다.",
+        "## 오늘 적용할 ideas",
+        "- 큰 all-purpose track 하나 대신 Starting Soon, BRB, Ending용 short cues 세 개를 만듭니다.\n- Prompt에 no vocals, no famous artist reference, clean loop point를 직접 넣습니다.\n- OBS에 추가하기 전에 loop를 세 번 연속 듣습니다.\n- Mic나 text-to-speech source가 active일 때 music bed를 낮춥니다.\n- Prompt, file name, platform, rights-review status를 production note에 남깁니다.",
+        "## FAQ\n### Starting Soon loop는 얼마나 길어야 하나요?\n보통 45-90초면 충분합니다. 더 중요한 test는 repeat point가 눈에 띄지 않는지입니다.\n### BRB에 같은 music을 써도 되나요?\n가능하지만 BRB에는 movement가 적고 quieter한 version이 더 잘 맞는 경우가 많습니다.\n### Vocals를 넣어도 되나요?\n드뭅니다. Vocals는 greetings, alerts, chat reading, voiceover와 경쟁합니다.\n### AI music이면 platform 문제가 자동으로 없어지나요?\n아닙니다. Records를 남기고 terms, platform rules, commercial context를 따로 확인하세요."
+      ]
+    },
+    "pt": {
+      "title": "Planeje AI music para Starting Soon screens sem loop fatigue",
+      "description": "Brief pratico para musica de livestream: Starting Soon, BRB, Ending, clareza do chat, loop fatigue e revisao de direitos.",
+      "body": [
+        "Voce entra ao vivo cinco minutos antes, o overlay parece polido e entao a musica entrega o problema. O mesmo riff volta a cada dez segundos, o kick cobre o primeiro cumprimento do chat e a troca para a cena live parece um corte seco, nao o comeco de um show. Uma Starting Soon screen nao e um trailer longo. E uma sala de espera, e a musica precisa manter as pessoas confortaveis sem pedir atencao demais.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, lyrics e style direction em music drafts. Em um workflow de livestream, use para testar short loops para cenas Starting Soon, BRB e Ending, enquanto rights review, platform rules, VOD settings e aprovacao do time continuam checks separados. Se suas style words estiverem vagas, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) ajuda a organizar mood, tempo, instruments e density, e o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode preparar um format pratico para review ou handoff.",
+        "## Comece pelo mapa de cenas",
+        "Escreva quatro casos antes do prompt: waiting room, short pause, technical delay e sign-off. Starting Soon deve soar acolhedor mas paciente. BRB deve dizer que voce volta sem fazer o viewer sentir que esta perdendo o evento principal. Technical delay precisa de musica bem calma para o problema nao parecer maior. Ending pode ser um pouco mais brilhante porque vem depois do conteudo. Se um track cobre tudo, precisa aguentar cortes e mudancas de volume.",
+        "## Peca um loop, nao uma musica inteira",
+        "Prompt util: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. No EasyMusic.AI, teste uma versao calm e outra brighter. Ouça cada uma duas vezes seguidas. Se irrita no segundo minuto, nao serve como waiting-screen loop mesmo que a primeira escuta seja boa.",
+        "## Teste o ponto de repeticao antes do OBS",
+        "Nao descubra o jump na hora de entrar ao vivo. Coloque o arquivo em editor ou player, repita tres vezes e ouca os ultimos dois segundos contra os primeiros dois. Procure crash cymbal, vocal tag, bass pickup ou reverb tail que revele o restart. No OBS, quando puder, mantenha a musica como audio source separada do visual para mudar volume ou trocar track sem reexportar a tela.",
+        "## Deixe espaco para mic e chat",
+        "A primeira fala importa: hello, assunto do stream e onde a audiencia deve entrar. Mantenha a musica leve no midrange e baixe quando o mic estiver active. Vocals claros sob greetings, alerts ou text-to-speech chat quase sempre criam clutter. Teste no speaker do telefone, headphones e volume baixo. Se viewers precisam aumentar voce para entender o welcome, o loop esta trabalhando demais.",
+        "## Nao deixe a revisao de direitos para o fim",
+        "Musica de livestream pode ficar em VODs, clips, highlights e reuploads. Guarde uma note que conecte prompt, file, generation date, edit e publishing platform. Nao presuma que um track gerado com AI serve automaticamente para todo canal ou uso comercial. Revise tool terms, platform rules e requisitos de cliente ou sponsor antes de usar em stream publico.",
+        "## Ideias reutilizaveis",
+        "- Crie tres cues curtos: Starting Soon, BRB e Ending, em vez de um track unico e alto.\n- Coloque no vocals, no famous artist reference e clean loop point direto no prompt.\n- Ouça o loop tres vezes seguidas antes de adicionar ao OBS.\n- Abaixe o music bed quando mic ou text-to-speech source estiver active.\n- Mantenha production note com prompt, file name, platform e rights-review status.",
+        "## FAQ\n### Quanto deve durar um Starting Soon loop?\nNormalmente 45 a 90 segundos bastam. O teste mais importante e se o ponto de repeticao passa despercebido.\n### BRB pode usar a mesma musica?\nSim, mas BRB geralmente pede uma versao mais quieta e com menos movimento.\n### Devo usar vocals?\nRaramente. Vocals competem com greetings, alerts, chat reading e voiceover.\n### AI music evita problemas de plataforma automaticamente?\nNao. Guarde registros claros e revise terms, platform rules e contexto comercial antes de publicar."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music для Starting Soon screen без loop fatigue",
+      "description": "Практический brief для livestream music: Starting Soon, BRB, Ending, chat clarity, loop fatigue и rights review.",
+      "body": [
+        "Вы выходите в live на пять минут раньше, overlay выглядит аккуратно, но музыка выдает проблему. Один и тот же riff возвращается каждые десять секунд, kick перекрывает первое приветствие в chat, а переход в live scene звучит как резкий cut, а не начало шоу. Starting Soon screen - это не длинный trailer. Это waiting room, где music должна удерживать людей спокойно, не требуя слишком много внимания.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics и style direction в music drafts. В livestream workflow используйте ее для теста short loops для Starting Soon, BRB и Ending scenes; rights review, platform rules, VOD settings и team approval остаются отдельными checks. Если style words слишком расплывчаты, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает упорядочить mood, tempo, instruments и density, а [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может подготовить practical format для review или handoff.",
+        "## Начните с карты сцен",
+        "До prompt запишите четыре случая: waiting room, short pause, technical delay и sign-off. Starting Soon должен быть welcoming, но patient. BRB говорит, что вы вернетесь, но не заставляет зрителя чувствовать, что он пропускает main event. Technical delay требует особенно calm music, чтобы проблема не казалась больше. Ending может быть чуть brighter, потому что идет после content. Если один track должен закрыть все, он должен выдерживать trims и volume changes.",
+        "## Просите loop, а не полную song",
+        "Полезный prompt: 70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting. В EasyMusic.AI протестируйте calm version и brighter version. Прослушайте каждую два раза подряд. Если на второй минуте track раздражает, он не подходит для waiting-screen loop, даже если первый проход звучит приятно.",
+        "## Проверьте repeat point до OBS",
+        "Не находите jump в момент выхода live. Поместите file в editor или player, повторите три раза и сравните последние две секунды с первыми двумя. Ищите crash cymbal, vocal tag, bass pickup или reverb tail, которые раскрывают restart. В OBS по возможности держите music отдельным audio source от screen visual, чтобы менять volume или track без повторного export визуального loop.",
+        "## Оставьте место для mic и chat",
+        "Первая spoken line важна: hello, тема stream и где audience должна войти. Сделайте music легкой в midrange и duck, когда mic active. Clear vocals под greetings, alerts или text-to-speech chat обычно создают clutter. Проверьте на phone speaker, headphones и low volume. Если viewer должен прибавлять вас, чтобы понять welcome, loop делает слишком много.",
+        "## Не оставляйте rights review на конец",
+        "Livestream music может остаться в VODs, clips, highlights и reuploads. Храните note, связывающую prompt, file, generation date, edit и publishing platform. Не считайте, что AI-generated track автоматически подходит для любого channel или commercial use. Проверьте tool terms, platform rules и требования client или sponsor перед public stream.",
+        "## Идеи, которые можно применить сегодня",
+        "- Создайте три short cues: Starting Soon, BRB и Ending, вместо одного громкого all-purpose track.\n- Вставьте no vocals, no famous artist reference и clean loop point прямо в prompt.\n- Прослушайте loop три раза подряд перед добавлением в OBS.\n- Уменьшайте music bed, когда active mic или text-to-speech source.\n- Храните production note с prompt, file name, platform и rights-review status.",
+        "## FAQ\n### Какой длины должен быть Starting Soon loop?\nОбычно 45-90 секунд достаточно. Важнее, чтобы repeat point не бросался в уши.\n### Можно ли использовать ту же music для BRB?\nДа, но BRB часто нужна более тихая version с меньшим movement.\n### Стоит ли использовать vocals?\nРедко. Vocals конкурируют с greetings, alerts, chat reading и voiceover.\n### AI music автоматически избегает platform problems?\nНет. Храните records и отдельно проверяйте terms, platform rules и commercial context перед публикацией."
+      ]
+    },
+    "zh": {
+      "title": "为 Starting Soon screen 规划不疲劳的 AI music loop",
+      "description": "一个 livestream music brief：整理 Starting Soon、BRB、Ending、chat clarity、loop fatigue 和 rights review。",
+      "body": [
+        "你提前五分钟开播，overlay 看起来很精致，但 music 暴露了问题。同一个 riff 每十秒回来一次，kick 盖住了第一句 chat greeting，切到 live scene 时像硬切，而不是节目开始。Starting Soon screen 不是长 trailer。它是一个 waiting room，music 要让人愿意等，但不能一直索取注意力。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、lyrics 和 style direction 变成 music drafts。在 livestream workflow 中，可以用它测试 Starting Soon、BRB、Ending scenes 的 short loops；rights review、platform rules、VOD settings 和 team approval 仍然是单独的 checks。如果 style words 很模糊，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮助整理 mood、tempo、instruments 和 density，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助准备 review 或 handoff 的 practical format。",
+        "## 先做 stream scene map",
+        "Prompt 之前先写四种 case：waiting room、short pause、technical delay、sign-off。Starting Soon 应该 welcoming 但 patient。BRB 要告诉观众你会回来，但不要让人觉得错过 main event。Technical delay 的 music 要特别 calm，避免让问题显得更大。Ending 可以稍微 brighter，因为它在内容之后。如果一条 track 要覆盖所有 scene，它必须能承受 trim 和 volume changes。",
+        "## 请求 loop，而不是完整歌曲",
+        "可用 prompt：70-second livestream starting soon loop, warm electronic pulse, soft bass, no vocals, no famous artist reference, no dramatic drop, gentle four-bar intro, clean loop point, enough space for chat alerts and spoken greeting。在 EasyMusic.AI 中，测试一个 calm version 和一个 brighter version。每个版本连续听两遍。如果第二分钟就烦，即使第一遍好听，也不适合 waiting-screen loop。",
+        "## OBS 之前测试 repeat point",
+        "不要在 go live 的瞬间才发现 jump。把 file 放进 editor 或 player，重复三次，听最后两秒和最初两秒是否接得住。注意 crash cymbal、vocal tag、bass pickup 或 reverb tail 是否暴露 restart。在 OBS 中，尽量把 music 作为独立 audio source，而不是和 screen visual 绑在一起，这样可以调整 volume 或换 track，不必重新 export visual loop。",
+        "## 给 mic 和 chat 留位置",
+        "第一句 spoken line 很重要：hello、stream topic，以及 audience 应该从哪里进入。让 music 在 midrange 里保持轻，mic active 时 duck。Greetings、alerts 或 text-to-speech chat 下面如果有清晰 vocals，通常会很乱。用 phone speaker、headphones 和 low volume 测试。如果 viewer 必须把你调大才听清 welcome，loop 就做得太重了。",
+        "## 不要把 rights review 留到最后",
+        "Livestream music 可能留在 VODs、clips、highlights 和 reuploads 里。保存一条 note，连接 prompt、file、generation date、edit 和 publishing platform。不要假设 AI-generated track 自动适合每个 channel 或 commercial use。Public stream 前，请检查 tool terms、platform rules，以及 client 或 sponsor requirements。",
+        "## 今天就能用的 ideas",
+        "- 做三条 short cues：Starting Soon、BRB、Ending，而不是一条很吵的 all-purpose track。\n- 在 prompt 里直接写 no vocals、no famous artist reference、clean loop point。\n- 加进 OBS 前，把 loop 连续听三遍。\n- Mic 或 text-to-speech source active 时，降低 music bed。\n- 保存 production note：prompt、file name、platform、rights-review status。",
+        "## FAQ\n### Starting Soon loop 多长合适？\n通常 45 到 90 秒足够。更重要的是 repeat point 不明显。\n### BRB 可以用同一段 music 吗？\n可以，但 BRB 通常更适合 quieter、movement 更少的 version。\n### 应该加入 vocals 吗？\n很少需要。Vocals 会和 greetings、alerts、chat reading、voiceover 竞争。\n### AI music 会自动避免 platform problems 吗？\n不会。发布前请保留 records，并检查 terms、platform rules 和 commercial context。"
+      ]
+    }
+  }
+}
