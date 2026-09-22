@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-22",
+  "slug": "escape-room-ai-music-clue-map",
+  "cluster": "escape-room-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لغرفة هروب من غير ان تخفي clues",
+      "description": "Workflow عملي لبناء escape room ambience وcues مع loop هادئ، clue windows، واختبار داخل الغرفة قبل التشغيل.",
+      "body": [
+        "تدخل مجموعة الاختبار الغرفة، يلمع القفل الاول، والموسيقى تبدو رائعة في headphones. ثم يبدأ اللاعبون بالكلام فوق بعضهم، وتغطي layer حادة صوت radio clue، ويعود الloop في كل مرة كأنه يعلن عن نفسه. في escape room، الموسيقى لا تفوز عندما تكون اجمل عنصر في الغرفة. تفوز عندما تجعل المكان حيا وتترك اللاعبين يسمعون clue، teammate، وgame master message في اللحظة الصحيحة.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompts وstyle direction الى music drafts قابلة للمراجعة. في escape room workflow، استخدمها لاختبار ambience وshort cues، بينما room safety، licensing review، speaker setup، وتشغيل النظام تبقى قرارات بشرية. اذا كانت كلماتك الموسيقية vague، يمكن ان يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في ترتيب mood، instruments، tempo، وtexture. وعند تجهيز نسخة للاختبار او التشغيل، يمكن ان يساعد [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) في تحضير format عملي من غير ان يصلح mix سيئا.",
+        "## ارسم clue map قبل prompt المزاج",
+        "لا تبدأ بscary، mysterious، او cinematic. اكتب اولا اربع طبقات: room bed الذي يستمر في الخلفية، puzzle clue الذي يجب سماعه بوضوح، reward cue عند فتح شيء، وvoice channel للgame master او safety note. بجانب كل طبقة اكتب: هل يمكن للموسيقى ان تكون موجودة هنا؟ هل يجب ان تنخفض؟ هل يجب ان تختفي؟ اذا كان هناك Morse code، همس، تسجيل هاتف، او صوت ميكانيكي مهم، فهذه منطقة حماية وليست مكانا لfill موسيقي.",
+        "## اكتب ambience يمكنه ان ينسحب",
+        "Prompt عملي: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. لاحظ ان prompt لا يطلب اغنية كاملة. يطلب background layer يعرف متى لا يكون مهما. في الغرف الصغيرة، low drone وreverb ثقيل قد يصبحان اكبر من اللازم، لذلك اصنع نسخة اخف قبل ان تحتاجها.",
+        "## استخدم cues بدلا من drama مستمر",
+        "اللاعبون يحتاجون الى tension curve لا الى alarm دائم. اصنع ثلاث عائلات: bed هادئ لمدة اللعب العادي، short success cue عند تقدم واضح، وpressure cue لاخر خمس دقائق فقط اذا كانت القواعد تسمح. اذا كان كل شيء peak، فلن يكون هناك peak. اجعل cue قصيرا بما يكفي كي لا يغطي حديث الفريق بعد النجاح، واجعل ending نظيفا حتى لا يبدو restart كخطأ في النظام.",
+        "## اختبر داخل الغرفة لا في المكتب",
+        "شغل draft من السماعات الحقيقية، اغلق الباب، واطلب من شخصين حل clue بصوت عادي. قف في الزوايا، قرب prop noisy، وبجانب camera او control point. هل يمكن سماع clue؟ هل يستطيع اللاعبون سماع بعضهم؟ هل loop point واضح بعد عشر دقائق؟ هل safety message مفهوم؟ اذا فشل اي سؤال، اخفض density قبل ان ترفع الصوت. رفع الصوت غالبا يجعل المشكلة اكبر.",
+        "## افكار قابلة للتطبيق اليوم",
+        "- ضع marker اسمه music must duck فوق كل clue صوتي.\n- اصنع نسخة almost silent لاوقات التفكير الطويلة.\n- استخدم success cue اقل من ثانيتين حتى لا يغطي رد فعل اللاعبين.\n- اختبر الloop لمدة عشر دقائق متواصلة قبل opening night.\n- احفظ prompt، file name، room location، speaker، ومن وافق على التشغيل.",
+        "## FAQ\n### هل تحتاج كل escape room الى موسيقى؟\nلا. بعض الغرف تحتاج room tone وsound effects اكثر من music bed. اذا كانت الclues صوتية، فالهدوء قد يكون افضل تصميم.\n### كم يجب ان يكون طول الloop؟\nابدأ ب30 الى 60 ثانية للambience، ثم اختبر هل يشعر اللاعبون بالاعادة. الاهم من الطول هو ان لا يعلن الrestart عن نفسه.\n### هل استخدم vocals؟\nنادرا. الكلمات تنافس حديث اللاعبين، تعليمات game master، وaudio clues.\n### هل AI-generated track يكون جاهزا للتشغيل العام تلقائيا؟\nلا. راجع tool terms، venue rules، rights position، ومتطلبات السلامة قبل التشغيل."
+      ]
+    },
+    "de": {
+      "title": "Plane AI Music fuer Escape Rooms, ohne Hinweise zu verdecken",
+      "description": "Ein praktischer Workflow fuer Escape-Room-Ambience, Cue-Fenster, ruhige Loops und Tests im echten Raum.",
+      "body": [
+        "Die Testgruppe betritt den Raum, das erste Schloss sieht gut aus, und die Musik klang im Kopfhoerer stark. Dann reden die Spieler durcheinander, eine helle Layer verdeckt den Radio-Hinweis, und der Loop-Neustart meldet sich jedes Mal wie ein Fehler. In einem Escape Room gewinnt Musik nicht, wenn sie das schoenste Element ist. Sie gewinnt, wenn der Ort lebendig wirkt und trotzdem clue, teammate und game master message hoerbar bleiben.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du Prompts und Style Direction in pruefbare Musikentwuerfe verwandelst. Fuer Escape Rooms eignet sie sich zum Skizzieren von Ambience und kurzen Cues; room safety, licensing review, speaker setup und Playback-System bleiben separate Entscheidungen. Wenn die Style-Sprache unscharf ist, hilft der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), Mood, Instrumente, Tempo und Texture zu ordnen. Fuer Test- oder Handoff-Dateien kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) ein praktisches Format vorbereiten, ohne einen schlechten Mix zu retten.",
+        "## Zeichne eine Clue Map vor dem Mood Prompt",
+        "Starte nicht mit scary, mysterious oder cinematic. Schreibe zuerst vier Spuren: room bed fuer die Grundatmosphaere, puzzle clue der klar hoerbar sein muss, reward cue nach einem Fortschritt und voice channel fuer game master oder safety note. Daneben steht: Darf Musik hier bleiben, muss sie ducking bekommen, oder muss sie verschwinden? Morse code, Fluestern, Telefonaufnahme oder mechanischer Hinweis sind Schutzbereiche, keine Flaechen fuer musikalisches Auffuellen.",
+        "## Schreibe Ambience, die ausweichen kann",
+        "Ein brauchbarer Prompt: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. Das ist keine Song-Bestellung. Es ist eine Background Layer, die weiss, wann sie unwichtig sein muss. In kleinen Raeumen koennen tiefe Drones und langer Reverb zu gross werden, also baue frueh eine leichtere Version.",
+        "## Nutze Cues statt Dauerdrama",
+        "Spieler brauchen eine tension curve, keinen permanenten Alarm. Baue drei Familien: ein ruhiges Bed fuer normales Suchen, einen kurzen success cue bei klarer Loesung und einen pressure cue nur fuer die letzten Minuten, wenn das Regelwerk das traegt. Wenn alles Peak ist, gibt es keinen Peak. Halte den Cue kurz genug, damit er die Reaktion des Teams nicht verdeckt, und gib ihm ein sauberes Ende, damit der Neustart nicht wie ein Systemfehler klingt.",
+        "## Teste im Raum, nicht am Schreibtisch",
+        "Spiele den Draft ueber die echten Lautsprecher, schliesse die Tuer und lass zwei Personen einen Hinweis bei normaler Lautstaerke loesen. Hoere in den Ecken, neben lauten Props und am Control Point. Ist der clue hoerbar? Verstehen sich die Spieler? Faellt der loop point nach zehn Minuten auf? Ist eine safety message klar? Wenn eine Antwort nein ist, reduziere density, bevor du lauter machst. Mehr Lautstaerke macht das Problem oft groesser.",
+        "## Ideen fuer heute",
+        "- Markiere jeden Audio-Hinweis mit music must duck.\n- Erstelle eine almost silent Version fuer lange Denkphasen.\n- Halte success cues unter zwei Sekunden, damit Reaktionen frei bleiben.\n- Teste den Loop zehn Minuten am Stueck vor opening night.\n- Speichere Prompt, Dateiname, room location, speaker und Freigabe.",
+        "## FAQ\n### Braucht jeder Escape Room Musik?\nNein. Manche Raeume brauchen eher room tone und sound effects als ein durchgehendes music bed. Bei Audio-Hinweisen ist Stille oft gutes Design.\n### Wie lang sollte der Loop sein?\nStarte mit 30 bis 60 Sekunden fuer Ambience und teste, ob die Wiederholung auffaellt. Wichtiger als Laenge ist ein unauffaelliger Restart.\n### Sollte ich Vocals nutzen?\nSelten. Worte konkurrieren mit Teamgespraechen, Game-Master-Hinweisen und Audio-Clues.\n### Ist ein AI-generated track automatisch bereit fuer public playback?\nNein. Pruefe tool terms, venue rules, rights position und safety requirements separat."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Escape Rooms Without Hiding the Clues",
+      "description": "A practical workflow for escape room ambience: clue maps, quiet loops, short reward cues, and real-room listening tests.",
+      "body": [
+        "The test team walks in, the first lock feels promising, and the music sounded excellent in headphones. Then three players talk over one another, a bright texture covers the radio clue, and the loop restart announces itself every time. In an escape room, music does not win by being the prettiest thing in the room. It wins when the place feels alive and players can still hear the clue, the teammate, and the game master message at the right moment.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts and style direction into music drafts you can review. In an escape room workflow, use it to test ambience beds and short cues while room safety, licensing review, speaker setup, and playback logic remain separate production decisions. If your style language is thin, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help organize mood, instruments, tempo, and texture. When you prepare a file for testing or handoff, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help create a practical format without fixing a bad mix.",
+        "## Draw a Clue Map Before the Mood Prompt",
+        "Do not start with scary, mysterious, or cinematic. Start with four lanes: the room bed that runs underneath play, the puzzle clue that must be heard, the reward cue when something opens, and the voice channel for a game master or safety note. Beside each lane, write whether music may stay, must duck, or must disappear. Morse code, a whispered recording, a phone message, or an important mechanical sound is a protected zone, not space to fill.",
+        "## Write Ambience That Can Step Aside",
+        "A useful prompt might read: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. Notice that this is not a request for a finished song. It asks for a background layer that knows when to be unimportant. In a small room, low drones and heavy reverb may grow larger than expected, so make a lighter version before you need it.",
+        "## Use Cues, Not Constant Drama",
+        "Players need a tension curve, not a permanent alarm. Build three families: a low bed for ordinary search time, a short success cue when a real step is solved, and a pressure cue for the final minutes only if the room rules support it. If everything is peak, nothing is peak. Keep the cue short enough that it does not cover the team's reaction, and give it a clean ending so the restart does not sound like a system glitch.",
+        "## Test in the Room, Not at the Desk",
+        "Play the draft through the actual speakers, close the door, and ask two people to solve a clue at normal speaking volume. Listen from the corners, beside noisy props, and near the control point. Can the clue be heard? Can players hear each other? Is the loop point obvious after ten minutes? Is the safety message understandable? If any answer fails, reduce density before raising volume. Louder often makes the problem worse.",
+        "## Ideas You Can Reuse Today",
+        "- Put a music must duck marker over every audio clue.\n- Make an almost silent version for long thinking stretches.\n- Keep success cues under two seconds so they do not cover player reactions.\n- Run the loop for ten continuous minutes before opening night.\n- Save the prompt, file name, room location, speaker, and approver in one cue note.",
+        "## FAQ\n### Does every escape room need music?\nNo. Some rooms need room tone and sound effects more than a continuous music bed. If clues are audio-first, quiet may be the better design.\n### How long should the loop be?\nStart with 30 to 60 seconds for ambience, then test whether players notice the repeat. A hidden restart matters more than raw length.\n### Should I use vocals?\nRarely. Words compete with player conversation, game master instructions, and audio clues.\n### Is an AI-generated track automatically ready for public playback?\nNo. Review tool terms, venue rules, rights position, and safety requirements before using it in the room."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para escape rooms sin tapar las pistas",
+      "description": "Workflow practico para ambience de escape room: clue map, loops discretos, reward cues y pruebas dentro de la sala.",
+      "body": [
+        "El equipo de prueba entra, el primer candado promete, y la musica sonaba excelente con headphones. Luego tres jugadores hablan a la vez, una textura brillante tapa la pista de radio, y el loop se reinicia de una forma demasiado evidente. En un escape room, la musica no gana por ser lo mas bonito de la sala. Gana cuando el lugar parece vivo y aun asi se oyen la pista, el companero y el mensaje del game master.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts y style direction en music drafts que puedes revisar. En un escape room workflow, sirve para probar ambience beds y short cues, mientras room safety, licensing review, speaker setup y playback logic siguen siendo decisiones separadas. Si tu vocabulario de estilo es pobre, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) ayuda a ordenar mood, instruments, tempo y texture. Para pruebas o handoff, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar un formato practico sin arreglar una mala mezcla.",
+        "## Dibuja un clue map antes del mood prompt",
+        "No empieces con scary, mysterious o cinematic. Empieza con cuatro carriles: el room bed que corre debajo del juego, la puzzle clue que debe oirse, el reward cue cuando algo se abre, y el voice channel para game master o safety note. En cada carril escribe si la musica puede quedarse, debe bajar o debe desaparecer. Morse code, una grabacion susurrada, un mensaje telefonico o un sonido mecanico importante son zonas protegidas, no espacios para rellenar.",
+        "## Escribe ambience que pueda apartarse",
+        "Un prompt util podria ser: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. No es una peticion de cancion terminada. Pide una capa de fondo que sabe cuando no ser importante. En una sala pequena, los low drones y la reverb pesada pueden crecer demasiado, asi que crea una version mas ligera desde el principio.",
+        "## Usa cues, no drama constante",
+        "Los jugadores necesitan una tension curve, no una alarma permanente. Construye tres familias: un bed bajo para busqueda normal, un success cue corto cuando se resuelve un paso real, y un pressure cue solo para los minutos finales si las reglas de la sala lo permiten. Si todo es peak, nada es peak. Haz el cue suficientemente corto para no cubrir la reaccion del equipo y dale un final limpio para que el reinicio no parezca fallo del sistema.",
+        "## Prueba en la sala, no en el escritorio",
+        "Reproduce el draft por los speakers reales, cierra la puerta y pide a dos personas que resuelvan una pista hablando normal. Escucha desde las esquinas, junto a props ruidosos y cerca del punto de control. Se oye la clue? Los jugadores se oyen entre si? El loop point se nota tras diez minutos? El safety message se entiende? Si algo falla, reduce density antes de subir volumen. Mas volumen suele empeorar el problema.",
+        "## Ideas reutilizables",
+        "- Marca music must duck encima de cada pista de audio.\n- Crea una version almost silent para tramos largos de pensamiento.\n- Mantén los success cues por debajo de dos segundos.\n- Deja correr el loop diez minutos seguidos antes de opening night.\n- Guarda prompt, file name, room location, speaker y aprobador en una cue note.",
+        "## FAQ\n### Todo escape room necesita musica?\nNo. Algunas salas necesitan mas room tone y sound effects que una musica continua. Si las pistas son de audio, el silencio puede ser mejor diseno.\n### Cuanto debe durar el loop?\nEmpieza con 30 a 60 segundos para ambience y prueba si los jugadores notan la repeticion. Un reinicio oculto importa mas que la duracion.\n### Uso vocals?\nRara vez. Las palabras compiten con la conversacion, las instrucciones del game master y las audio clues.\n### Un AI-generated track esta listo automaticamente para public playback?\nNo. Revisa tool terms, venue rules, rights position y safety requirements antes de usarlo en la sala."
+      ]
+    },
+    "fr": {
+      "title": "Planifier une AI music pour escape room sans cacher les indices",
+      "description": "Workflow pratique pour ambience d escape room: clue map, boucles discretes, reward cues et test dans la vraie piece.",
+      "body": [
+        "L equipe de test entre, le premier cadenas fonctionne, et la musique sonnait tres bien au casque. Puis trois joueurs parlent en meme temps, une texture brillante couvre l indice radio, et le redemarrage de la boucle se remarque a chaque fois. Dans une escape room, la musique ne gagne pas parce qu elle est le plus bel element de la piece. Elle gagne quand le lieu respire et que les joueurs entendent encore l indice, l equipier et le message du game master.",
+        "## Qu est-ce qu EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts et style direction en music drafts a reviser. Dans un workflow escape room, elle sert a tester ambience beds et short cues, tandis que room safety, licensing review, speaker setup et playback logic restent des decisions de production separees. Si ton vocabulaire de style manque de precision, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) aide a organiser mood, instruments, tempo et texture. Pour un test ou un handoff, l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut preparer un format pratique sans reparer un mauvais mix.",
+        "## Dessine une clue map avant le mood prompt",
+        "Ne commence pas par scary, mysterious ou cinematic. Commence par quatre pistes: le room bed qui tourne sous le jeu, la puzzle clue qui doit etre entendue, le reward cue quand quelque chose s ouvre, et le voice channel pour game master ou safety note. Pour chaque piste, note si la musique peut rester, doit baisser, ou doit disparaitre. Morse code, enregistrement murmure, message telephonique ou son mecanique important sont des zones protegees, pas de l espace a remplir.",
+        "## Ecris une ambience capable de s effacer",
+        "Un prompt utile: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. Ce n est pas une demande de chanson terminee. C est une couche de fond qui sait quand devenir secondaire. Dans une petite piece, les low drones et les longues reverbs peuvent grossir vite; cree donc une version plus legere avant d en avoir besoin.",
+        "## Utilise des cues, pas un drama permanent",
+        "Les joueurs ont besoin d une tension curve, pas d une alarme constante. Cree trois familles: un bed bas pour la recherche normale, un success cue court quand une vraie etape est resolue, et un pressure cue pour les dernieres minutes seulement si les regles le justifient. Si tout est peak, rien n est peak. Garde le cue assez court pour ne pas couvrir la reaction de l equipe, avec une fin propre pour que le restart ne ressemble pas a une panne.",
+        "## Teste dans la piece, pas au bureau",
+        "Joue le draft dans les vrais speakers, ferme la porte et demande a deux personnes de resoudre un indice en parlant normalement. Ecoute depuis les coins, pres des props bruyants et au point de controle. L indice est-il audible? Les joueurs s entendent-ils? Le loop point se remarque-t-il apres dix minutes? Le safety message est-il clair? Si une reponse echoue, reduis la density avant d augmenter le volume. Plus fort aggrave souvent le probleme.",
+        "## Idees reutilisables",
+        "- Place un marker music must duck sur chaque indice audio.\n- Cree une version almost silent pour les longues phases de reflexion.\n- Garde les success cues sous deux secondes.\n- Fais tourner la boucle dix minutes avant opening night.\n- Sauve prompt, file name, room location, speaker et approver dans une cue note.",
+        "## FAQ\n### Toute escape room a-t-elle besoin de musique?\nNon. Certaines pieces demandent surtout room tone et sound effects. Si les indices sont audio-first, le calme peut etre le meilleur choix.\n### Quelle longueur pour la boucle?\nCommence par 30 a 60 secondes d ambience, puis teste si la repetition se remarque. Un restart cache compte plus que la duree brute.\n### Dois-je utiliser des vocals?\nRarement. Les mots concurrencent les conversations, les instructions du game master et les audio clues.\n### Un AI-generated track est-il automatiquement pret pour public playback?\nNon. Verifie tool terms, venue rules, rights position et safety requirements avant usage."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per escape room senza coprire gli indizi",
+      "description": "Workflow pratico per ambience da escape room: clue map, loop discreti, reward cues e test nella stanza reale.",
+      "body": [
+        "Il team di test entra, il primo lucchetto promette bene e la musica suonava ottima in cuffia. Poi tre giocatori parlano insieme, una texture brillante copre l indizio alla radio e il restart del loop si fa notare ogni volta. In una escape room, la musica non vince perche e l elemento piu bello. Vince quando il luogo sembra vivo e i giocatori sentono ancora clue, teammate e messaggio del game master al momento giusto.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts e style direction in music drafts da rivedere. In un escape room workflow, usala per provare ambience beds e short cues, mentre room safety, licensing review, speaker setup e playback logic restano decisioni separate. Se il linguaggio di stile e debole, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) aiuta a ordinare mood, instruments, tempo e texture. Per test o handoff, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo preparare un formato pratico senza sistemare una cattiva mix.",
+        "## Disegna una clue map prima del mood prompt",
+        "Non partire da scary, mysterious o cinematic. Parti da quattro corsie: il room bed che resta sotto il gioco, la puzzle clue che deve sentirsi, il reward cue quando qualcosa si apre e il voice channel per game master o safety note. Per ogni corsia scrivi se la musica puo restare, deve abbassarsi o deve sparire. Morse code, registrazione sussurrata, messaggio telefonico o suono meccanico importante sono zone protette, non spazio da riempire.",
+        "## Scrivi ambience capace di farsi da parte",
+        "Un prompt utile: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. Non e una richiesta di canzone finita. E una layer di fondo che sa quando diventare poco importante. In una stanza piccola, low drones e riverbero pesante possono crescere troppo, quindi prepara una versione piu leggera prima di averne bisogno.",
+        "## Usa cues, non drama costante",
+        "I giocatori hanno bisogno di una tension curve, non di un allarme permanente. Crea tre famiglie: un bed basso per la ricerca normale, un success cue breve quando si risolve un passaggio reale e un pressure cue solo per gli ultimi minuti se le regole lo permettono. Se tutto e peak, niente e peak. Tieni il cue abbastanza corto da non coprire la reazione del team e dagli una fine pulita, cosi il restart non sembra un guasto.",
+        "## Testa nella stanza, non alla scrivania",
+        "Riproduci il draft dagli speaker reali, chiudi la porta e chiedi a due persone di risolvere un indizio parlando normalmente. Ascolta dagli angoli, vicino ai props rumorosi e al control point. La clue si sente? I giocatori si sentono tra loro? Il loop point e ovvio dopo dieci minuti? Il safety message e comprensibile? Se qualcosa fallisce, riduci density prima di alzare volume. Piu forte spesso peggiora il problema.",
+        "## Idee riutilizzabili",
+        "- Metti un marker music must duck su ogni audio clue.\n- Crea una versione almost silent per le fasi lunghe di pensiero.\n- Tieni i success cues sotto due secondi.\n- Fai girare il loop per dieci minuti continui prima della opening night.\n- Salva prompt, file name, room location, speaker e approver in una cue note.",
+        "## FAQ\n### Ogni escape room ha bisogno di musica?\nNo. Alcune stanze hanno piu bisogno di room tone e sound effects che di un music bed continuo. Se gli indizi sono audio-first, il silenzio puo essere il design migliore.\n### Quanto deve durare il loop?\nInizia con 30-60 secondi per ambience, poi verifica se i giocatori notano la ripetizione. Un restart nascosto conta piu della durata.\n### Dovrei usare vocals?\nRaramente. Le parole competono con conversazioni, istruzioni del game master e audio clues.\n### Un AI-generated track e automaticamente pronto per public playback?\nNo. Controlla tool terms, venue rules, rights position e safety requirements prima dell uso."
+      ]
+    },
+    "ja": {
+      "title": "Clueを隠さないescape room向けAI musicの作り方",
+      "description": "Escape room ambienceのworkflow。clue map、静かなloop、短いreward cue、実際のroom testを整理します。",
+      "body": [
+        "Test teamが部屋に入り、最初のlockは良さそうで、headphonesではmusicもよく聞こえます。ところがplayerが三人同時に話し、bright textureがradio clueを覆い、loop restartが毎回目立ってしまう。Escape roomでは、musicが一番きれいな要素になる必要はありません。場所を生きているようにしながら、clue、teammate、game master messageを必要な瞬間に聞かせることが仕事です。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、promptsとstyle directionをreview可能なmusic draftsに変えるAI music creation platformです。Escape room workflowでは、ambience bedsやshort cuesの試作に使い、room safety、licensing review、speaker setup、playback logicは別のproduction decisionとして扱います。Style languageが弱い場合、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator)でmood、instruments、tempo、textureを整理できます。Testやhandoff用のfileを準備するときは、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter)が実用的なformat作りに役立ちますが、bad mixを直すものではありません。",
+        "## Mood promptの前にclue mapを描く",
+        "Scary、mysterious、cinematicから始めないでください。まず四つのlaneを書きます: play中に流れるroom bed、必ず聞こえるべきpuzzle clue、何かが開いた時のreward cue、game masterやsafety noteのvoice channel。それぞれに、musicが残ってよいか、duckすべきか、消えるべきかを書きます。Morse code、whispered recording、phone message、重要なmechanical soundは保護する場所であり、音楽で埋める場所ではありません。",
+        "## 脇に寄れるambienceを書く",
+        "使えるprompt例: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. これは完成songの依頼ではありません。重要でない時に下がれるbackground layerを頼んでいます。小さいroomではlow dronesやheavy reverbが予想以上に大きくなるため、早めにlighter versionも作ります。",
+        "## Constant dramaではなくcueを使う",
+        "Playersに必要なのはtension curveで、permanent alarmではありません。三つのfamilyを作ります: 通常探索用のlow bed、本当に進展した時のshort success cue、room rulesが許す場合だけ最後の数分に使うpressure cue。すべてがpeakなら、peakはなくなります。Cueはplayer reactionを覆わない短さにし、restartがsystem glitchのように聞こえないclean endingにします。",
+        "## Deskではなくroomでtestする",
+        "Draftをactual speakersで鳴らし、doorを閉め、二人にnormal speaking volumeでclueを解いてもらいます。Corners、noisy propsの横、control point付近で聞きます。Clueは聞こえるか。Playersは互いに聞こえるか。十分钟後にloop pointが目立つか。Safety messageは理解できるか。どれか失敗したら、volumeを上げる前にdensityを下げます。Louderは問題を大きくしがちです。",
+        "## 今日使えるideas",
+        "- すべてのaudio clueにmusic must duck markerを置く。\n- 長いthinking stretch用にalmost silent versionを作る。\n- Success cuesは二秒未満にしてreactionを残す。\n- Opening night前にloopを十分钟連続で流す。\n- Prompt、file name、room location、speaker、approverをcue noteに保存する。",
+        "## FAQ\n### すべてのescape roomにmusicは必要ですか？\nいいえ。Continuous music bedよりroom toneやsound effectsが重要なroomもあります。Audio-first cluesならquietの方が良いdesignです。\n### Loopはどのくらいの長さがよいですか？\nAmbienceなら30から60秒で始め、repeatに気づくかtestします。長さよりhidden restartが大事です。\n### Vocalsは使うべきですか？\nほとんどの場合は避けます。Wordsはplayer conversation、game master instructions、audio cluesと競合します。\n### AI-generated trackはpublic playbackに自動で使えますか？\nいいえ。使用前にtool terms、venue rules、rights position、safety requirementsを確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "Clue를 가리지 않는 escape room AI music 설계하기",
+      "description": "Escape room ambience를 위한 clue map, 조용한 loop, 짧은 reward cue, 실제 room listening test workflow.",
+      "body": [
+        "Test team이 방에 들어가고 첫 lock은 좋아 보이며, headphones에서는 music도 훌륭하게 들립니다. 그런데 players 세 명이 동시에 말하고, 밝은 texture가 radio clue를 덮고, loop restart가 매번 너무 또렷하게 들립니다. Escape room에서 music은 방에서 가장 예쁜 요소가 되는 것이 목표가 아닙니다. 장소를 살아 있게 만들면서도 clue, teammate, game master message가 필요한 순간에 들리게 해야 합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts와 style direction을 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Escape room workflow에서는 ambience beds와 short cues를 시험하는 데 쓰고, room safety, licensing review, speaker setup, playback logic은 별도 production decision으로 둡니다. Style language가 약하다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)가 mood, instruments, tempo, texture를 정리하는 데 도움을 줍니다. Test나 handoff file을 준비할 때 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)는 practical format을 만드는 데 쓸 수 있지만 bad mix를 고치지는 않습니다.",
+        "## Mood prompt 전에 clue map을 그린다",
+        "Scary, mysterious, cinematic으로 시작하지 마세요. 먼저 네 lane을 씁니다: play 아래에 계속 흐르는 room bed, 반드시 들려야 하는 puzzle clue, 무언가 열릴 때의 reward cue, game master나 safety note를 위한 voice channel. 각 lane 옆에 music이 stay할지, duck해야 할지, disappear해야 할지 적습니다. Morse code, whispered recording, phone message, 중요한 mechanical sound는 보호 구역이지 음악으로 채울 공간이 아닙니다.",
+        "## 옆으로 물러날 수 있는 ambience를 쓴다",
+        "유용한 prompt 예: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. 이것은 finished song 요청이 아닙니다. 중요하지 않아야 할 때 작아지는 background layer 요청입니다. 작은 room에서는 low drones와 heavy reverb가 예상보다 커질 수 있으므로 lighter version을 미리 만드세요.",
+        "## Constant drama 대신 cues를 쓴다",
+        "Players에게 필요한 것은 tension curve이지 permanent alarm이 아닙니다. 세 가지 family를 만듭니다: 일반 search time용 low bed, 실제 step이 풀렸을 때 short success cue, room rules가 허용할 때만 마지막 몇 분용 pressure cue. 모든 것이 peak이면 peak는 없습니다. Cue는 team reaction을 덮지 않을 만큼 짧게 만들고, restart가 system glitch처럼 들리지 않도록 clean ending을 둡니다.",
+        "## Desk가 아니라 room에서 test한다",
+        "Draft를 actual speakers로 틀고 door를 닫은 뒤 두 사람에게 normal speaking volume으로 clue를 풀게 합니다. Corners, noisy props 옆, control point 근처에서 들어보세요. Clue가 들리는가? Players가 서로를 들을 수 있는가? Ten minutes 뒤 loop point가 obvious한가? Safety message가 이해되는가? 하나라도 실패하면 volume을 올리기 전에 density를 줄이세요. Louder는 문제를 더 크게 만들 때가 많습니다.",
+        "## 오늘 재사용할 ideas",
+        "- 모든 audio clue 위에 music must duck marker를 둡니다.\n- 긴 thinking stretch용 almost silent version을 만듭니다.\n- Success cues는 player reaction을 덮지 않도록 2초 미만으로 둡니다.\n- Opening night 전에 loop를 10분 연속 재생합니다.\n- Prompt, file name, room location, speaker, approver를 cue note에 저장합니다.",
+        "## FAQ\n### 모든 escape room에 music이 필요한가요?\n아닙니다. 어떤 room은 continuous music bed보다 room tone과 sound effects가 더 중요합니다. Audio-first clues라면 quiet가 더 나은 design일 수 있습니다.\n### Loop는 얼마나 길어야 하나요?\nAmbience는 30-60초로 시작하고 repeat가 느껴지는지 test하세요. Raw length보다 hidden restart가 더 중요합니다.\n### Vocals를 써도 되나요?\n드뭅니다. Words는 player conversation, game master instructions, audio clues와 경쟁합니다.\n### AI-generated track은 public playback에 자동으로 준비되나요?\n아닙니다. 사용 전에 tool terms, venue rules, rights position, safety requirements를 확인하세요."
+      ]
+    },
+    "pt": {
+      "title": "Planeje AI music para escape rooms sem esconder as pistas",
+      "description": "Workflow pratico para ambience de escape room: clue map, loops discretos, reward cues curtos e teste na sala real.",
+      "body": [
+        "A equipe de teste entra, o primeiro cadeado parece promissor e a musica soava excelente nos headphones. Depois tres jogadores falam ao mesmo tempo, uma texture brilhante cobre a pista de radio e o restart do loop aparece toda vez. Em um escape room, a musica nao vence por ser o elemento mais bonito da sala. Ela vence quando o lugar parece vivo e os jogadores ainda conseguem ouvir clue, teammate e game master message no momento certo.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts e style direction em music drafts que voce pode revisar. Em um escape room workflow, use para testar ambience beds e short cues, enquanto room safety, licensing review, speaker setup e playback logic continuam decisoes separadas de producao. Se a linguagem de estilo estiver fraca, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) ajuda a organizar mood, instruments, tempo e texture. Para teste ou handoff, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode preparar um formato pratico sem consertar uma mix ruim.",
+        "## Desenhe um clue map antes do mood prompt",
+        "Nao comece com scary, mysterious ou cinematic. Comece com quatro faixas: o room bed que fica sob o jogo, a puzzle clue que precisa ser ouvida, o reward cue quando algo abre e o voice channel para game master ou safety note. Ao lado de cada faixa, escreva se a musica pode ficar, deve baixar ou deve sumir. Morse code, gravacao sussurrada, mensagem de telefone ou som mecanico importante sao zonas protegidas, nao espaco para preencher.",
+        "## Escreva ambience que saiba sair do caminho",
+        "Um prompt util: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. Isso nao pede uma musica finalizada. Pede uma layer de fundo que sabe quando ser pouco importante. Em uma sala pequena, low drones e reverb pesado podem crescer demais, entao crie uma versao mais leve antes de precisar.",
+        "## Use cues, nao drama constante",
+        "Players precisam de uma tension curve, nao de um alarme permanente. Crie tres familias: um bed baixo para search time comum, um success cue curto quando um passo real e resolvido e um pressure cue para os minutos finais somente se as regras da sala permitirem. Se tudo e peak, nada e peak. Mantenha o cue curto para nao cobrir a reacao do time e de a ele uma clean ending para que o restart nao pareca system glitch.",
+        "## Teste na sala, nao na mesa",
+        "Toque o draft nos speakers reais, feche a porta e peca a duas pessoas para resolver uma pista falando normalmente. Escute nos cantos, perto de props barulhentos e no control point. A clue pode ser ouvida? Players se ouvem? O loop point fica obvio depois de dez minutos? O safety message e claro? Se algo falhar, reduza density antes de aumentar volume. Mais alto muitas vezes piora o problema.",
+        "## Ideias reutilizaveis",
+        "- Coloque um marker music must duck sobre cada audio clue.\n- Crie uma versao almost silent para longos trechos de pensamento.\n- Mantenha success cues abaixo de dois segundos.\n- Rode o loop por dez minutos continuos antes da opening night.\n- Salve prompt, file name, room location, speaker e approver em uma cue note.",
+        "## FAQ\n### Todo escape room precisa de musica?\nNao. Algumas salas precisam mais de room tone e sound effects do que de music bed continuo. Se as clues sao audio-first, quiet pode ser melhor design.\n### Quanto tempo deve ter o loop?\nComece com 30 a 60 segundos para ambience e teste se players percebem a repeticao. Um restart escondido importa mais que a duracao bruta.\n### Devo usar vocals?\nRaramente. Words competem com player conversation, game master instructions e audio clues.\n### Um AI-generated track fica automaticamente pronto para public playback?\nNao. Revise tool terms, venue rules, rights position e safety requirements antes de usar na sala."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music для escape room, не закрывая clues",
+      "description": "Практический workflow для escape room ambience: clue map, тихие loops, короткие reward cues и проверка в комнате.",
+      "body": [
+        "Test team входит в комнату, первый замок работает многообещающе, а в headphones музыка звучала отлично. Потом трое игроков говорят одновременно, яркая texture закрывает radio clue, а restart loop каждый раз выдает себя. В escape room музыка не побеждает тем, что она самый красивый элемент комнаты. Она работает, когда место кажется живым, а игроки все еще слышат clue, teammate и game master message в нужный момент.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts и style direction в music drafts для review. В escape room workflow ее удобно использовать для теста ambience beds и short cues, но room safety, licensing review, speaker setup и playback logic остаются отдельными production decisions. Если style language слабый, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) помогает упорядочить mood, instruments, tempo и texture. Для test или handoff [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может подготовить practical format, но не исправит плохой mix.",
+        "## Нарисуйте clue map до mood prompt",
+        "Не начинайте со слов scary, mysterious или cinematic. Начните с четырех lanes: room bed, который идет под play; puzzle clue, который должен быть слышен; reward cue, когда что-то открывается; voice channel для game master или safety note. У каждого lane напишите, может ли music оставаться, должна ли duck, или должна исчезнуть. Morse code, whispered recording, phone message или важный mechanical sound - это protected zone, а не место для заполнения музыкой.",
+        "## Пишите ambience, который умеет отступать",
+        "Полезный prompt: dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation. Это не заказ finished song. Это background layer, который знает, когда быть не главным. В маленькой комнате low drones и heavy reverb могут стать слишком большими, поэтому заранее сделайте lighter version.",
+        "## Используйте cues, а не постоянную драму",
+        "Players нужна tension curve, а не permanent alarm. Сделайте три families: low bed для обычного search time, short success cue, когда решен реальный step, и pressure cue для последних минут только если rules комнаты это поддерживают. Если все peak, то peak исчезает. Cue должен быть достаточно коротким, чтобы не закрывать реакцию team, и с clean ending, чтобы restart не звучал как system glitch.",
+        "## Проверяйте в комнате, не за столом",
+        "Включите draft через actual speakers, закройте door и попросите двух людей решить clue обычным голосом. Слушайте из corners, рядом с noisy props и около control point. Слышно ли clue? Слышат ли players друг друга? Заметен ли loop point через десять минут? Понятен ли safety message? Если что-то провалилось, снизьте density до повышения volume. Louder часто делает проблему хуже.",
+        "## Идеи для повторного использования",
+        "- Ставьте marker music must duck над каждым audio clue.\n- Сделайте almost silent version для долгих thinking stretches.\n- Держите success cues короче двух секунд.\n- Прогоните loop десять минут подряд до opening night.\n- Сохраните prompt, file name, room location, speaker и approver в cue note.",
+        "## FAQ\n### Каждой escape room нужна музыка?\nНет. Некоторым комнатам важнее room tone и sound effects, чем continuous music bed. Если clues завязаны на audio, quiet может быть лучшим design.\n### Какой длины должен быть loop?\nНачните с 30-60 секунд ambience и проверьте, замечают ли players повтор. Скрытый restart важнее сырой длины.\n### Стоит ли использовать vocals?\nРедко. Words конкурируют с player conversation, game master instructions и audio clues.\n### AI-generated track автоматически готов для public playback?\nНет. Перед использованием проверьте tool terms, venue rules, rights position и safety requirements."
+      ]
+    },
+    "zh": {
+      "title": "为 escape room 规划 AI music，不要盖住 clues",
+      "description": "一个 escape room ambience workflow：clue map、低干扰 loop、短 reward cue，以及真实房间测试。",
+      "body": [
+        "测试团队走进房间，第一个锁看起来很顺，music 在 headphones 里也很好听。然后三个 players 同时说话，一层明亮 texture 盖住 radio clue，loop restart 每次都明显得像系统错误。在 escape room 里，music 不是要成为房间里最漂亮的东西。它的工作是让空间活起来，同时让 players 在正确时刻听见 clue、teammate 和 game master message。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts 和 style direction 变成可 review 的 music drafts。在 escape room workflow 中，可以用它测试 ambience beds 和 short cues；room safety、licensing review、speaker setup 和 playback logic 仍然是单独的 production decisions。如果 style language 太薄，[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮助整理 mood、instruments、tempo 和 texture。准备 test 或 handoff file 时，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助做 practical format，但不能修复 bad mix。",
+        "## 在 mood prompt 前画 clue map",
+        "不要从 scary、mysterious 或 cinematic 开始。先写四条 lane：游戏过程中持续存在的 room bed，必须听清的 puzzle clue，某个机关打开时的 reward cue，以及给 game master 或 safety note 的 voice channel。每条 lane 旁边写清：music 可以留下、必须 duck，还是必须消失。Morse code、whispered recording、phone message 或重要 mechanical sound 是 protected zone，不是用音乐填满的空间。",
+        "## 写能让位的 ambience",
+        "可用 prompt 示例：dark library escape room ambience, 70 BPM pulse, low drones, soft ticking texture, sparse piano hits, no vocals, no busy melody, no jump-scare stinger, gentle loop ending, leaves room for whispered clues and team conversation。注意，这不是要求一首 finished song，而是在要求一个知道何时变得不重要的 background layer。小房间里，low drones 和 heavy reverb 可能比预想更大，所以提前做一版 lighter version。",
+        "## 用 cues，而不是持续 drama",
+        "Players 需要 tension curve，不需要 permanent alarm。做三类声音：普通 search time 的 low bed，真正解开一步时的 short success cue，以及只有在 room rules 支持时才用于最后几分钟的 pressure cue。如果一切都是 peak，就没有 peak。Cue 要短到不盖住 team reaction，ending 要干净，避免 restart 听起来像 system glitch。",
+        "## 在房间里测试，不是在桌前",
+        "用 actual speakers 播放 draft，关上 door，让两个人用正常说话音量解一条 clue。从 corners、noisy props 旁边、control point 附近听。Clue 能听见吗？Players 能听见彼此吗？十分钟后 loop point 是否明显？Safety message 是否清楚？如果任何一项失败，先降低 density，再考虑提高 volume。更大声通常会让问题更严重。",
+        "## 今天就能复用的 ideas",
+        "- 在每个 audio clue 上标 music must duck。\n- 为长时间思考做一版 almost silent version。\n- Success cues 控制在两秒以内，别盖住 player reactions。\n- Opening night 前连续播放 loop 十分钟。\n- 把 prompt、file name、room location、speaker 和 approver 存进 cue note。",
+        "## FAQ\n### 每个 escape room 都需要 music 吗？\n不需要。有些房间更需要 room tone 和 sound effects，而不是 continuous music bed。如果 clues 主要依赖 audio，quiet 可能是更好的 design。\n### Loop 应该多长？\nAmbience 可以从 30 到 60 秒开始，然后测试 players 是否注意到重复。隐藏 restart 比单纯时长更重要。\n### 应该用 vocals 吗？\n很少。Words 会和 player conversation、game master instructions、audio clues 竞争。\n### AI-generated track 会自动适合 public playback 吗？\n不会。使用前请检查 tool terms、venue rules、rights position 和 safety requirements。"
+      ]
+    }
+  }
+}
