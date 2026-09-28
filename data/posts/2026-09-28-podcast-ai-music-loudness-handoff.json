@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-28",
+  "slug": "podcast-ai-music-loudness-handoff",
+  "cluster": "podcast-post-production-workflows",
+  "translations": {
+    "ar": {
+      "title": "جهز AI music للبودكاست من غير مفاجآت loudness عند الرفع",
+      "description": "Workflow عملي لتحويل music draft الى ملف بودكاست قابل للمراجعة مع مساحة للكلام وducking وloudness handoff واضح.",
+      "body": [
+        "المشكلة تظهر غالبا بعد ان يبدو كل شيء جاهزا. Intro music جميل وحده، لكن عند رفع الحلقة تصبح المقدمة اعلى من صوت المقدم، او يخفض التطبيق الحلقة كلها، او يختفي الCTA تحت bass دافئ. هنا لا تحتاج track اجمل فقط. تحتاج handoff يربط بين prompt، mix، loudness، والصيغة التي سيقبلها host او editor.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation لتحويل prompts وstyle direction وlyrics الى music drafts قابلة للمراجعة. في podcast workflow استخدمها لتجربة intro،bed،transition،او outro حول الصوت البشري، مع بقاء rights review وplatform checks وقرار النشر خطوات منفصلة. عند تجهيز نسخة مراجعة او delivery، يمكن ان يساعد [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) في اختيار صيغة عملية من غير ان يصلح mix مزدحما.",
+        "## ابدأ من مسار الصوت لا من الموسيقى",
+        "ضع علامات على cold open،اسم الضيف،sponsor line،chapter break،والخاتمة. اكتب اين يجب ان تكون الكلمات مفهومة بلا جهد، واين يمكن للموسيقى ان تظهر لثانيتين. لا تطلب full song ثم تحاول اخضاعه للحلقة. اطلب cues قصيرة بوظيفة واضحة: six-second intro،low bed under recap،two-second transition،clean outro tail.",
+        "## اكتب prompt يترك مساحة للmix",
+        "جرب صيغة مثل: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. اطلب نسختين: واحدة اكثر هدوءا وواحدة بلا drums. اذا كان الbed سيبقى تحت كلام طويل، فالنجاح ليس في قوة الhook بل في ان يسمح للحروف والاسماء والارقام ان تبقى واضحة.",
+        "## افحص الفرق بين الكلام والخلفية",
+        "استخدم الاذن والmeter معا. كمرجع عملي، خلفية الكلام غالبا تحتاج ان تكون اقل بكثير من الصوت؛ ارشادات WCAG تذكر 20 dB كفرق يساعد على فهم speech عند وجود background sound. لا تطبع الموسيقى وحدها loud ثم تضغط الصوت فوقها. ضع voice track اولا، انزل music bed، ثم استخدم ducking او keyframes قبل الجمل المهمة وبعدها.",
+        "## جهز نسخة host بوعي",
+        "Apple Podcasts تنصح عادة باستهداف loudness قريب من -16 dB LKFS مع true peak لا يتجاوز -1 dB FS. Spotify يدعم MP3 وM4A وWAV للحلقات الصوتية. هذه ليست ارقام سحرية لكل مشروع، لكنها تمنع التسليم العشوائي. اخرج source master نظيفا، ثم اصنع upload copy حسب destination، ولا تعد بان AI-generated music آمنة تلقائيا لكل استخدام.",
+        "## افكار قابلة للتطبيق اليوم",
+        "- اكتب voice-first cue map قبل توليد الموسيقى.\n- اطلب no lead vocal وsparse midrange لكل bed تحت الكلام.\n- اختبر الموسيقى 15 الى 20 dB تقريبا تحت voice ثم عدل بالاذن.\n- استخدم ducking حول اسم الضيف،العرض،URL،والجمل الحساسة.\n- احفظ prompt،draft name،mix target،format،والمنصة في handoff card.\n- استمع على phone speaker قبل رفع الحلقة.",
+        "## FAQ\n### هل يجب normalizing الموسيقى قبل وضعها تحت الصوت؟\nلا. اخلط voice وmusic اولا، ثم افحص loudness النهائي للملف الكامل.\n### هل تكفي صيغة MP3؟\nقد تكفي لبعض الhosts، لكن احتفظ بsource master واعمل نسخة upload حسب متطلبات المنصة.\n### ماذا اذا كانت الموسيقى جميلة لكنها تغطي المقدم؟\nارجع الى prompt ابسط: percussion اخف،midrange اقل،no vocal،ونهاية اوضح. خفض الصوت وحده قد لا يكفي.\n### هل يمكن استخدام AI music في podcast تجاري؟\nيمكن ان تكون جزءا من workflow، لكن الحقوق،شروط الاداة،الافصاح،وقواعد المنصة تحتاج مراجعة منفصلة."
+      ]
+    },
+    "de": {
+      "title": "AI Music fuer Podcasts ohne Loudness-Ueberraschungen vorbereiten",
+      "description": "Ein praktischer Workflow fuer Podcast-Music-Drafts, Sprachraum, Ducking, Exportformate und einen klaren Loudness-Handoff.",
+      "body": [
+        "Der Fehler zeigt sich oft erst kurz vor der Veroeffentlichung. Das Intro klingt allein gut, aber nach dem Upload wirkt die Musik lauter als die Host-Stimme, die App regelt die ganze Folge herunter, oder ein warmer Bass verschluckt den Call to Action. Dann brauchst du nicht einfach einen schoeneren Track. Du brauchst einen Handoff, der Prompt, Mix, Loudness und Zielformat zusammenhaelt.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du Prompts, Style Direction und Lyrics in pruefbare Music Drafts verwandelst. Im Podcast-Workflow nutzt du EasyMusic.AI fuer Intro, Bed, Transition oder Outro rund um menschliche Sprache; rights review, platform checks und Publish-Entscheidung bleiben getrennte Schritte. Fuer Review- oder Delivery-Dateien kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) ein praktisches Format vorbereiten, aber keinen ueberladenen Mix retten.",
+        "## Starte mit der Stimme, nicht mit der Musik",
+        "Markiere cold open, Gastname, Sponsor line, chapter break und Schluss. Schreibe auf, wo Worte ohne Anstrengung verstanden werden muessen und wo Musik zwei Sekunden nach vorne darf. Fordere nicht erst einen ganzen Song an, den du danach in die Folge zwingst. Brief kurze Cues mit klarer Aufgabe: six-second intro, low bed under recap, two-second transition, clean outro tail.",
+        "## Schreibe einen mixfreundlichen Prompt",
+        "Ein brauchbarer Prompt ist: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Generiere zwei Varianten: eine ruhigere und eine ohne drums. Wenn das Bed unter laengerer Sprache liegt, gewinnt nicht der staerkste Hook, sondern der Track, der Konsonanten, Namen und Zahlen frei laesst.",
+        "## Pruefe Abstand zwischen Stimme und Hintergrund",
+        "Nutze Ohr und Meter zusammen. Als praktischer Bezug braucht Hintergrund unter Sprache oft deutlich Abstand; WCAG-Technik G56 nennt 20 dB Differenz als Hilfe, damit speech bei background sound verstaendlich bleibt. Mache die Musik nicht allein laut und druecke danach die Stimme darueber. Setze zuerst die voice track, senke das bed und nutze ducking oder keyframes vor und nach wichtigen Saetzen.",
+        "## Erstelle die Host-Version bewusst",
+        "Apple Podcasts empfiehlt fuer viele Produktionen eine Lautheit um -16 dB LKFS und true peak nicht hoeher als -1 dB FS. Spotify unterstuetzt MP3, M4A und WAV fuer Audiofolgen. Das sind keine magischen Zahlen fuer jedes Projekt, aber sie verhindern zufaellige Exporte. Sichere einen sauberen source master, erstelle danach die upload copy fuer das Ziel und behaupte nicht, dass AI-generated music automatisch fuer jede Nutzung geklaert ist.",
+        "## Ideen fuer heute",
+        "- Schreibe eine voice-first cue map, bevor du Musik generierst.\n- Bitte um no lead vocal und sparse midrange fuer jedes Bed unter Sprache.\n- Teste Musik zuerst etwa 15 bis 20 dB unter der Stimme und entscheide dann mit dem Ohr.\n- Ducke Musik um Gastnamen, Angebot, URL und sensible Saetze.\n- Notiere Prompt, Draft-Name, Mix-Ziel, Format und Plattform in einer Handoff Card.\n- Hoere die Folge auf einem Telefonlautsprecher, bevor du hochlaedst.",
+        "## FAQ\n### Soll ich Musik normalisieren, bevor sie unter die Stimme kommt?\nNein. Mische voice und music zuerst, dann pruefe die Loudness der kompletten Datei.\n### Reicht MP3 fuer alles?\nNicht immer. Behalte einen source master und erstelle die upload copy passend zur Plattform.\n### Was tun, wenn die Musik schoen ist, aber den Host verdeckt?\nGehe zu einem einfacheren Prompt zurueck: weniger percussion, weniger midrange, no vocal und klareres Ende. Lautstaerke allein reicht oft nicht.\n### Kann ich AI music in einem kommerziellen Podcast nutzen?\nSie kann Teil des Workflows sein, aber Rechte, Tool Terms, Disclosure und Plattformregeln muessen separat geprueft werden."
+      ]
+    },
+    "en": {
+      "title": "Prepare AI Music for Podcast Episodes Without Loudness Surprises",
+      "description": "A practical workflow for turning an AI music draft into a podcast-ready handoff with speech room, ducking, format notes, and loudness checks.",
+      "body": [
+        "The problem often appears after the episode feels finished. The intro sounded polished alone, but the host is small after upload. The app turns the whole episode down. A warm bass hides the discount code. That is not only a taste problem; it is a handoff problem. Podcast music has to survive the path from prompt to mix to loudness target to host upload.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, style direction, and lyrics into music drafts you can review. In a podcast workflow, use EasyMusic.AI to test intros, beds, transitions, and outros around the human voice, while rights review, platform checks, and publishing approval stay separate. When you need a review or delivery copy, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare a practical format without fixing a crowded mix.",
+        "## Start With the Voice Lane",
+        "Mark the cold open, guest name, sponsor line, chapter break, and ending. Write where the words must be effortless and where music can step forward for two seconds. Do not generate a full song and then fight it into the episode. Ask for short cues with one job each: six-second intro, low bed under recap, two-second transition, clean outro tail.",
+        "## Prompt for Mix Headroom",
+        "A useful prompt might be: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Generate two alternatives: one calmer version and one no-drums version. If the bed will sit under long speech, the winner is not the catchiest hook. It is the draft that leaves consonants, names, numbers, and calls to action clear.",
+        "## Check Speech Against Background",
+        "Use your ears and a meter together. As a practical reference, background sound under speech often needs a wide gap; WCAG Technique G56 describes 20 dB of foreground-over-background difference as a way to keep speech understandable. Do not make the music loud by itself and then force the voice over it. Place the voice first, lower the bed, then use ducking or keyframes before and after key lines.",
+        "## Make the Host Copy Deliberately",
+        "Apple Podcasts recommends overall loudness around -16 dB LKFS, plus or minus 1 dB, with true peak not exceeding -1 dB FS. Spotify for Creators supports MP3, M4A, and WAV for audio episodes. Those facts are not magic settings for every show, but they keep export decisions from being random. Save a clean source master, make an upload copy for the destination, and do not treat AI-generated music as automatic clearance for every use.",
+        "## Ideas You Can Reuse Today",
+        "- Write a voice-first cue map before generating music.\n- Ask for no lead vocal and sparse midrange for any bed under speech.\n- Start testing the bed roughly 15 to 20 dB below the voice, then adjust by ear.\n- Duck music around guest names, offers, URLs, prices, and sensitive claims.\n- Keep a handoff card with prompt, draft name, mix target, format, and destination platform.\n- Listen on a phone speaker before uploading the episode.",
+        "## FAQ\n### Should I normalize the music before placing it under the voice?\nNo. Mix voice and music first, then check the loudness of the full program.\n### Is one MP3 enough for every podcast host?\nNot always. Keep a source master and create the upload copy after checking the destination requirements.\n### What if the music is beautiful but covers the host?\nGo back to a simpler prompt: lighter percussion, less midrange, no vocal, and a cleaner ending. Lower volume alone may not solve a dense arrangement.\n### Can I use AI music in a commercial podcast?\nIt can be part of the workflow, but rights, tool terms, disclosure, and platform rules still need separate review."
+      ]
+    },
+    "es": {
+      "title": "Prepara musica IA para podcast sin sorpresas de loudness al subir",
+      "description": "Workflow practico para convertir un draft musical en un handoff de podcast con espacio para voz, ducking, formato y loudness.",
+      "body": [
+        "El problema suele aparecer cuando el episodio ya parece terminado. El intro sonaba pulido solo, pero despues del upload el host queda pequeno. La app baja todo el episodio. Un bass calido tapa el codigo de descuento. Eso no es solo gusto musical; es un problema de handoff. La musica de podcast debe sobrevivir el camino de prompt a mix, loudness target y host.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, style direction y lyrics en music drafts que puedes revisar. En un podcast workflow, usa EasyMusic.AI para probar intros, beds, transitions y outros alrededor de la voz humana, mientras rights review, platform checks y aprobacion de publicacion quedan aparte. Para una copia de review o delivery, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar un formato practico sin arreglar un mix cargado.",
+        "## Empieza por el carril de voz",
+        "Marca cold open, nombre del invitado, sponsor line, chapter break y cierre. Escribe donde las palabras deben entenderse sin esfuerzo y donde la musica puede avanzar dos segundos. No generes una cancion completa para pelearla dentro del episodio. Pide cues cortos con una tarea: six-second intro, low bed under recap, two-second transition, clean outro tail.",
+        "## Haz prompt pensando en headroom",
+        "Un prompt util seria: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Genera dos alternativas: una mas calmada y otra sin drums. Si el bed ira debajo de speech largo, no gana el hook mas pegadizo. Gana el draft que deja claros consonants, nombres, numeros y call to action.",
+        "## Compara habla y fondo",
+        "Usa oido y meter juntos. Como referencia practica, el background bajo speech suele necesitar bastante distancia; WCAG Technique G56 describe 20 dB de diferencia a favor del foreground para mantener la voz comprensible. No hagas la musica fuerte sola para despues forzar la voz encima. Coloca primero la voice track, baja el bed y usa ducking o keyframes antes y despues de lineas clave.",
+        "## Crea la copia de host con intencion",
+        "Apple Podcasts recomienda loudness total cerca de -16 dB LKFS, con tolerancia de mas o menos 1 dB y true peak no mayor que -1 dB FS. Spotify for Creators admite MP3, M4A y WAV para episodios de audio. No son settings magicos para todo show, pero evitan decisiones de export al azar. Guarda un source master limpio, crea la upload copy para el destino y no trates AI-generated music como clearance automatica.",
+        "## Ideas reutilizables para hoy",
+        "- Escribe una voice-first cue map antes de generar musica.\n- Pide no lead vocal y sparse midrange para cualquier bed bajo speech.\n- Empieza probando el bed unos 15 a 20 dB debajo de la voz y ajusta por oido.\n- Haz ducking alrededor de nombres, ofertas, URLs, precios y claims sensibles.\n- Guarda prompt, draft name, mix target, formato y plataforma en una handoff card.\n- Escucha en altavoz de movil antes de subir el episodio.",
+        "## Preguntas frecuentes\n### Debo normalizar la musica antes de ponerla bajo la voz?\nNo. Mezcla voice y music primero, luego revisa loudness del programa completo.\n### Un solo MP3 sirve para cualquier host?\nNo siempre. Conserva un source master y crea la upload copy despues de revisar requisitos del destino.\n### Y si la musica es bonita pero tapa al host?\nVuelve a un prompt mas simple: menos percussion, menos midrange, no vocal y final mas limpio. Bajar volumen puede no resolver un arreglo denso.\n### Puedo usar AI music en un podcast comercial?\nPuede ser parte del workflow, pero rights, tool terms, disclosure y platform rules requieren revision separada."
+      ]
+    },
+    "fr": {
+      "title": "Preparer une musique IA de podcast sans surprise de loudness",
+      "description": "Workflow pratique pour passer d un draft musical IA a un handoff podcast avec place pour la voix, ducking, format et loudness.",
+      "body": [
+        "Le probleme apparait souvent quand l episode semble deja termine. L intro sonne bien seule, puis apres upload la voix du host parait petite. L application baisse tout l episode. Une basse chaude masque le code promo. Ce n est pas seulement une question de gout: c est un probleme de handoff. La musique de podcast doit survivre au trajet prompt, mix, loudness target et host.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, style direction et lyrics en music drafts a reviser. Dans un podcast workflow, utilise EasyMusic.AI pour tester intros, beds, transitions et outros autour de la voix humaine, tandis que rights review, platform checks et validation de publication restent separes. Pour une copie de review ou delivery, l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut preparer un format pratique sans reparer un mix trop dense.",
+        "## Commence par la piste voix",
+        "Marque cold open, nom d invite, sponsor line, chapter break et fin. Note ou les mots doivent etre compris sans effort et ou la musique peut avancer deux secondes. Ne genere pas une chanson complete pour la forcer ensuite dans l episode. Demande des cues courts avec une seule mission: six-second intro, low bed under recap, two-second transition, clean outro tail.",
+        "## Prompt avec de la marge pour le mix",
+        "Un prompt utile: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Genere deux variantes: une plus calme et une sans drums. Si le bed reste sous une longue parole, le meilleur resultat n est pas le hook le plus fort. C est le draft qui laisse consonnes, noms, chiffres et call to action lisibles.",
+        "## Compare parole et fond sonore",
+        "Utilise l oreille et un meter. Comme reference pratique, le background sous speech a souvent besoin d un grand ecart; WCAG Technique G56 decrit 20 dB de foreground au-dessus du background pour garder la parole comprehensible. Ne rends pas la musique forte seule avant de pousser la voix dessus. Place d abord la voice track, baisse le bed, puis ajoute ducking ou keyframes autour des phrases importantes.",
+        "## Fabrique la copie pour le host avec soin",
+        "Apple Podcasts recommande souvent une loudness globale autour de -16 dB LKFS, plus ou moins 1 dB, avec true peak ne depassant pas -1 dB FS. Spotify for Creators accepte MP3, M4A et WAV pour les episodes audio. Ce ne sont pas des reglages magiques pour chaque show, mais ils evitent l export au hasard. Garde un source master propre, cree une upload copy pour la destination et ne traite pas AI-generated music comme une clearance automatique.",
+        "## Idees reutilisables",
+        "- Ecris une voice-first cue map avant de generer la musique.\n- Demande no lead vocal et sparse midrange pour tout bed sous la parole.\n- Teste le bed environ 15 a 20 dB sous la voix, puis ajuste a l oreille.\n- Ducke la musique autour des noms, offres, URLs, prix et claims sensibles.\n- Garde prompt, draft name, mix target, format et plateforme dans une handoff card.\n- Ecoute sur haut-parleur de telephone avant l upload.",
+        "## FAQ\n### Faut-il normaliser la musique avant de la mettre sous la voix?\nNon. Mixe voice et music d abord, puis mesure la loudness du programme complet.\n### Un seul MP3 suffit-il pour tous les hosts?\nPas toujours. Garde un source master et cree la upload copy apres verification de la destination.\n### Et si la musique est belle mais couvre le host?\nReviens a un prompt plus simple: percussion plus legere, moins de midrange, no vocal et fin plus nette. Baisser le volume ne suffit pas toujours.\n### Peut-on utiliser AI music dans un podcast commercial?\nElle peut faire partie du workflow, mais rights, tool terms, disclosure et platform rules demandent une review separee."
+      ]
+    },
+    "it": {
+      "title": "Prepara musica AI per podcast senza sorprese di loudness",
+      "description": "Workflow pratico per trasformare un music draft AI in un handoff podcast con spazio voce, ducking, formato e loudness check.",
+      "body": [
+        "Il problema spesso compare quando l episodio sembra finito. L intro suona bene da sola, ma dopo l upload la voce del host diventa piccola. L app abbassa tutta la puntata. Un bass caldo copre il codice sconto. Non e solo una questione di gusto: e un problema di handoff. La musica per podcast deve reggere il percorso da prompt a mix, loudness target e piattaforma host.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, style direction e lyrics in music drafts da rivedere. In un podcast workflow, usa EasyMusic.AI per provare intros, beds, transitions e outros attorno alla voce umana, mentre rights review, platform checks e approvazione restano passaggi separati. Per una copia di review o delivery, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo preparare un format pratico senza sistemare un mix affollato.",
+        "## Parti dalla corsia della voce",
+        "Segna cold open, nome dell ospite, sponsor line, chapter break e finale. Scrivi dove le parole devono essere capite senza fatica e dove la musica puo emergere per due secondi. Non generare una canzone intera per poi litigare con l episodio. Chiedi cue brevi con un compito solo: six-second intro, low bed under recap, two-second transition, clean outro tail.",
+        "## Scrivi prompt con headroom per il mix",
+        "Un prompt utile puo essere: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Genera due alternative: una piu calma e una senza drums. Se il bed restera sotto speech lungo, non vince il hook piu memorabile. Vince il draft che lascia chiari consonants, nomi, numeri e call to action.",
+        "## Controlla voce contro background",
+        "Usa orecchio e meter insieme. Come riferimento pratico, il background sotto speech spesso richiede un ampio distacco; WCAG Technique G56 descrive 20 dB di differenza a favore del foreground per mantenere comprensibile la voce. Non rendere forte la musica da sola per poi spingere la voce sopra. Metti prima la voice track, abbassa il bed e usa ducking o keyframes prima e dopo le frasi chiave.",
+        "## Crea la copia host con intenzione",
+        "Apple Podcasts raccomanda spesso loudness complessiva intorno a -16 dB LKFS, piu o meno 1 dB, con true peak non oltre -1 dB FS. Spotify for Creators supporta MP3, M4A e WAV per episodi audio. Non sono impostazioni magiche per ogni show, ma evitano export casuali. Salva un source master pulito, crea una upload copy per la destinazione e non trattare AI-generated music come clearance automatica.",
+        "## Idee riutilizzabili",
+        "- Scrivi una voice-first cue map prima di generare musica.\n- Chiedi no lead vocal e sparse midrange per ogni bed sotto speech.\n- Prova il bed circa 15-20 dB sotto la voce, poi regola a orecchio.\n- Usa ducking su nomi, offerte, URL, prezzi e claims sensibili.\n- Conserva prompt, draft name, mix target, format e piattaforma in una handoff card.\n- Ascolta su speaker del telefono prima dell upload.",
+        "## FAQ\n### Devo normalizzare la musica prima di metterla sotto la voce?\nNo. Mixa voice e music prima, poi controlla la loudness del programma completo.\n### Un solo MP3 basta per ogni host?\nNon sempre. Conserva un source master e crea la upload copy dopo aver controllato i requisiti della destinazione.\n### E se la musica e bella ma copre il host?\nTorna a un prompt piu semplice: percussion piu leggera, meno midrange, no vocal e finale piu pulito. Abbassare il volume potrebbe non bastare.\n### Posso usare AI music in un podcast commerciale?\nPuo far parte del workflow, ma rights, tool terms, disclosure e platform rules richiedono review separata."
+      ]
+    },
+    "ja": {
+      "title": "Podcast向けAI musicをloudnessの失敗なしで準備する",
+      "description": "AI music draftを、speech room、ducking、format notes、loudness checkつきのpodcast handoffにするworkflow。",
+      "body": [
+        "問題はepisodeが完成したように見えた後で出ます。Introは単独では良いのに、upload後はhostの声が小さく聞こえる。Appがepisode全体を下げる。温かいbassがdiscount codeを隠す。これは好みだけの問題ではなくhandoffの問題です。Podcast musicはpromptからmix、loudness target、host uploadまで耐える必要があります。",
+        "## EasyMusic.AIとは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、style direction、lyricsからreview可能なmusic draftsを作るAI music creation platformです。Podcast workflowでは、human voiceの周りでintro、bed、transition、outroを試す場所としてEasyMusic.AIを使い、rights review、platform checks、publishing approvalは別に扱います。Reviewやdelivery copyが必要な時、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) は実用的なformat準備に使えますが、crowded mixを直すものではありません。",
+        "## まずvoice laneから始める",
+        "Cold open、guest name、sponsor line、chapter break、endingに印を付けます。どこでwordsが楽に聞こえるべきか、どこでmusicが2秒だけ前に出てよいかを書きます。Full songを作ってepisodeに押し込むのは避けます。six-second intro、low bed under recap、two-second transition、clean outro tailのように、jobが一つだけのshort cuesを頼みます。",
+        "## Mix headroomを残すpromptを書く",
+        "使いやすいpromptはこうです: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Calmer versionとno-drums versionの2案を作ります。Bedが長いspeechの下にあるなら、勝つのはcatchy hookではありません。Consonants、names、numbers、call to actionを明瞭に残すdraftです。",
+        "## Speechとbackgroundの差を確認する",
+        "耳とmeterを一緒に使います。実用上、speechの下のbackground soundには大きな差が必要です。WCAG Technique G56は、foregroundがbackgroundより20 dB大きい状態をspeech理解の助けとして説明しています。Musicだけを大きくしてからvoiceを無理に乗せないでください。Voice trackを先に置き、bedを下げ、key linesの前後にduckingやkeyframesを使います。",
+        "## Host copyを意図して作る",
+        "Apple Podcastsは多くの場合、overall loudnessを-16 dB LKFS前後、true peakを-1 dB FS以下にすることを推奨しています。Spotify for Creatorsはaudio episodesでMP3、M4A、WAVをサポートします。これは全showの魔法の設定ではありませんが、exportを偶然にしないための基準です。Clean source masterを保存し、destination用のupload copyを作り、AI-generated musicを自動的なclearanceとは扱わないでください。",
+        "## 今日使えるideas",
+        "- Music生成前にvoice-first cue mapを書く。\n- Speech下のbedにはno lead vocalとsparse midrangeを頼む。\n- まずbedをvoiceより約15から20 dB低くして試し、耳で調整する。\n- Guest name、offer、URL、price、sensitive claimの周りはduckingする。\n- Prompt、draft name、mix target、format、destination platformをhandoff cardに残す。\n- Upload前にphone speakerで聞く。",
+        "## FAQ\n### Musicをvoiceの下に置く前にnormalizingすべきですか？\nいいえ。Voiceとmusicを先にmixし、full programのloudnessを確認します。\n### MP3一つで全podcast hostに足りますか？\n常にそうとは限りません。Source masterを残し、destination requirementsを確認してupload copyを作ります。\n### Musicは良いのにhostを隠す場合は？\nよりsimpleなpromptに戻ります。Lighter percussion、less midrange、no vocal、cleaner endingを頼みます。Volumeを下げるだけでは足りない場合があります。\n### Commercial podcastでAI musicを使えますか？\nWorkflowの一部にはできますが、rights、tool terms、disclosure、platform rulesは別にreviewしてください。"
+      ]
+    },
+    "ko": {
+      "title": "Podcast AI music을 loudness 문제 없이 준비하는 법",
+      "description": "AI music draft를 speech room, ducking, format notes, loudness checks가 있는 podcast handoff로 만드는 workflow.",
+      "body": [
+        "문제는 episode가 끝난 것처럼 보인 뒤에 자주 나타납니다. Intro는 단독으로 좋았지만 upload 후 host voice가 작게 들립니다. App이 episode 전체를 낮춥니다. 따뜻한 bass가 discount code를 가립니다. 이것은 취향만의 문제가 아니라 handoff 문제입니다. Podcast music은 prompt에서 mix, loudness target, host upload까지 버텨야 합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, style direction, lyrics를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Podcast workflow에서는 human voice 주변의 intro, bed, transition, outro를 테스트하는 데 EasyMusic.AI를 쓰고, rights review, platform checks, publishing approval은 별도 단계로 둡니다. Review나 delivery copy가 필요할 때 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)는 practical format 준비에 도움이 되지만 crowded mix를 고치지는 않습니다.",
+        "## Voice lane에서 시작한다",
+        "Cold open, guest name, sponsor line, chapter break, ending을 표시합니다. Words가 힘들이지 않고 들려야 하는 곳과 music이 2초 정도 앞으로 나와도 되는 곳을 씁니다. Full song을 만든 뒤 episode에 억지로 맞추지 마세요. Six-second intro, low bed under recap, two-second transition, clean outro tail처럼 job이 하나인 short cues를 요청합니다.",
+        "## Mix headroom을 남기는 prompt",
+        "쓸 만한 prompt는 다음과 같습니다: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Calmer version과 no-drums version 두 가지를 만드세요. Bed가 긴 speech 아래에 놓인다면 가장 catchy한 hook이 이기는 것이 아닙니다. Consonants, names, numbers, call to action을 clear하게 남기는 draft가 이깁니다.",
+        "## Speech와 background를 함께 확인한다",
+        "귀와 meter를 같이 씁니다. 실무적으로 speech 아래의 background sound에는 넓은 차이가 필요합니다. WCAG Technique G56은 foreground가 background보다 20 dB 큰 경우 speech 이해에 도움이 된다고 설명합니다. Music만 크게 만든 뒤 voice를 억지로 올리지 마세요. Voice track을 먼저 놓고 bed를 낮춘 뒤 key lines 앞뒤에 ducking이나 keyframes를 씁니다.",
+        "## Host copy를 의도적으로 만든다",
+        "Apple Podcasts는 보통 overall loudness를 -16 dB LKFS 근처, true peak를 -1 dB FS 이하로 권장합니다. Spotify for Creators는 audio episodes에서 MP3, M4A, WAV를 지원합니다. 이것이 모든 show의 magic setting은 아니지만 export 결정을 random하게 만들지 않습니다. Clean source master를 저장하고 destination용 upload copy를 만들며, AI-generated music을 자동 clearance로 다루지 마세요.",
+        "## 오늘 재사용할 ideas",
+        "- Music 생성 전에 voice-first cue map을 씁니다.\n- Speech 아래 bed에는 no lead vocal과 sparse midrange를 요청합니다.\n- Bed를 voice보다 약 15-20 dB 낮게 시작해 듣고 조정합니다.\n- Guest names, offers, URLs, prices, sensitive claims 주변은 ducking합니다.\n- Prompt, draft name, mix target, format, destination platform을 handoff card에 남깁니다.\n- Episode upload 전에 phone speaker로 들어봅니다.",
+        "## FAQ\n### Music을 voice 아래에 두기 전에 normalizing해야 하나요?\n아닙니다. Voice와 music을 먼저 mix한 뒤 full program loudness를 확인하세요.\n### MP3 하나면 모든 podcast host에 충분한가요?\n항상 그렇지는 않습니다. Source master를 보관하고 destination requirements를 확인한 뒤 upload copy를 만드세요.\n### Music은 좋은데 host를 덮으면요?\n더 simple한 prompt로 돌아가세요. Lighter percussion, less midrange, no vocal, cleaner ending을 요청합니다. Volume만 낮추는 것으로 부족할 수 있습니다.\n### Commercial podcast에 AI music을 쓸 수 있나요?\nWorkflow 일부가 될 수 있지만 rights, tool terms, disclosure, platform rules는 따로 review해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Prepare musica AI para podcast sem surpresas de loudness",
+      "description": "Workflow pratico para transformar um draft musical em handoff de podcast com espaco para voz, ducking, formato e loudness.",
+      "body": [
+        "O problema costuma aparecer quando o episodio parece pronto. A intro soava boa sozinha, mas depois do upload a voz do host fica pequena. O app reduz o episodio inteiro. Um bass quente esconde o cupom. Isso nao e apenas gosto musical; e um problema de handoff. Musica de podcast precisa sobreviver ao caminho de prompt, mix, loudness target e host upload.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, style direction e lyrics em music drafts que voce pode revisar. Em um podcast workflow, use EasyMusic.AI para testar intros, beds, transitions e outros ao redor da voz humana, enquanto rights review, platform checks e aprovacao de publicacao ficam separados. Para uma copia de review ou delivery, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode preparar um formato pratico sem consertar uma mix cheia.",
+        "## Comece pela faixa de voz",
+        "Marque cold open, nome do convidado, sponsor line, chapter break e final. Escreva onde as palavras precisam ser entendidas sem esforco e onde a musica pode aparecer por dois segundos. Nao gere uma musica inteira para depois brigar com o episodio. Peca cues curtos com uma funcao: six-second intro, low bed under recap, two-second transition, clean outro tail.",
+        "## Escreva prompt com headroom de mix",
+        "Um prompt util pode ser: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Gere duas alternativas: uma mais calma e uma sem drums. Se o bed ficara sob speech longo, o vencedor nao e o hook mais marcante. E o draft que deixa consonants, nomes, numeros e call to action claros.",
+        "## Compare fala e fundo",
+        "Use ouvido e meter juntos. Como referencia pratica, background sound sob speech geralmente precisa de grande distancia; WCAG Technique G56 descreve 20 dB de diferenca a favor do foreground para manter a fala compreensivel. Nao deixe a musica alta sozinha para depois forcar a voz por cima. Coloque a voice track primeiro, baixe o bed e use ducking ou keyframes antes e depois das frases importantes.",
+        "## Faca a copia do host com intencao",
+        "Apple Podcasts recomenda loudness geral perto de -16 dB LKFS, com tolerancia de mais ou menos 1 dB, e true peak abaixo de -1 dB FS. Spotify for Creators aceita MP3, M4A e WAV para episodios de audio. Esses dados nao sao magic settings para todo show, mas evitam export aleatorio. Salve um source master limpo, crie a upload copy para o destino e nao trate AI-generated music como clearance automatica.",
+        "## Ideias reutilizaveis",
+        "- Escreva uma voice-first cue map antes de gerar musica.\n- Peca no lead vocal e sparse midrange para qualquer bed sob speech.\n- Teste o bed cerca de 15 a 20 dB abaixo da voz e ajuste pelo ouvido.\n- Use ducking ao redor de nomes, ofertas, URLs, precos e claims sensiveis.\n- Guarde prompt, draft name, mix target, formato e plataforma em uma handoff card.\n- Escute em speaker de telefone antes do upload.",
+        "## FAQ\n### Devo normalizar a musica antes de coloca-la sob a voz?\nNao. Misture voice e music primeiro, depois confira a loudness do programa completo.\n### Um MP3 serve para todo host de podcast?\nNem sempre. Guarde um source master e crie a upload copy depois de verificar os requisitos do destino.\n### E se a musica e bonita mas cobre o host?\nVolte a um prompt mais simples: percussion mais leve, menos midrange, no vocal e final mais limpo. Baixar volume pode nao resolver um arranjo denso.\n### Posso usar AI music em podcast comercial?\nPode fazer parte do workflow, mas rights, tool terms, disclosure e platform rules precisam de review separada."
+      ]
+    },
+    "ru": {
+      "title": "Подготовьте AI music для podcast без сюрпризов loudness",
+      "description": "Практический workflow для music draft: место для голоса, ducking, формат, loudness check и понятный podcast handoff.",
+      "body": [
+        "Проблема часто появляется после того, как episode вроде бы готов. Intro звучало хорошо отдельно, но после upload голос host стал маленьким. App снижает громкость всей серии. Теплый bass прячет discount code. Это не только вопрос вкуса; это проблема handoff. Podcast music должна пережить путь от prompt к mix, loudness target и host upload.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, style direction и lyrics в music drafts для review. В podcast workflow используйте EasyMusic.AI для теста intros, beds, transitions и outros вокруг human voice; rights review, platform checks и publishing approval остаются отдельными шагами. Для review или delivery copy [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может подготовить practical format, но не исправит crowded mix.",
+        "## Начните с voice lane",
+        "Отметьте cold open, guest name, sponsor line, chapter break и ending. Запишите, где слова должны пониматься без усилия, а где music может выйти вперед на две секунды. Не создавайте full song, чтобы потом втискивать его в episode. Просите short cues с одной задачей: six-second intro, low bed under recap, two-second transition, clean outro tail.",
+        "## Пишите prompt с запасом для mix",
+        "Практичный prompt: podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks. Сделайте две альтернативы: более спокойную и no-drums version. Если bed будет лежать под длинной speech, выигрывает не самый цепкий hook. Выигрывает draft, который оставляет понятными consonants, names, numbers и call to action.",
+        "## Проверяйте speech против background",
+        "Используйте уши и meter вместе. Как практический ориентир, background sound под speech часто требует большого зазора; WCAG Technique G56 описывает 20 dB преимущества foreground над background как способ сохранить speech понятной. Не делайте music громкой отдельно, чтобы потом силой поднять voice. Сначала поставьте voice track, опустите bed, затем используйте ducking или keyframes вокруг ключевых фраз.",
+        "## Создайте host copy осознанно",
+        "Apple Podcasts обычно рекомендует overall loudness около -16 dB LKFS, плюс-минус 1 dB, и true peak не выше -1 dB FS. Spotify for Creators поддерживает MP3, M4A и WAV для audio episodes. Это не magic settings для каждого show, но они убирают случайность из export. Сохраните чистый source master, сделайте upload copy под destination и не считайте AI-generated music автоматической clearance.",
+        "## Идеи для повторного использования",
+        "- Напишите voice-first cue map до генерации music.\n- Просите no lead vocal и sparse midrange для любого bed под speech.\n- Начните с bed примерно на 15-20 dB ниже voice, затем корректируйте на слух.\n- Делайте ducking вокруг guest names, offers, URLs, prices и sensitive claims.\n- Храните prompt, draft name, mix target, format и destination platform в handoff card.\n- Слушайте через phone speaker перед upload.",
+        "## FAQ\n### Нужно ли normalizing music до размещения под voice?\nНет. Сначала смешайте voice и music, затем проверьте loudness всей программы.\n### Одного MP3 достаточно для любого podcast host?\nНе всегда. Храните source master и создавайте upload copy после проверки требований destination.\n### Что делать, если music красивая, но закрывает host?\nВернитесь к более простому prompt: lighter percussion, less midrange, no vocal и cleaner ending. Одного снижения volume может быть мало.\n### Можно ли использовать AI music в commercial podcast?\nОна может быть частью workflow, но rights, tool terms, disclosure и platform rules требуют отдельной review."
+      ]
+    },
+    "zh": {
+      "title": "为 podcast 准备不出 loudness 意外的 AI music",
+      "description": "一个实用 workflow：把 AI music draft 做成带 speech room、ducking、format notes 和 loudness checks 的 podcast handoff。",
+      "body": [
+        "问题常常在 episode 看起来完成后才出现。Intro 单独听很精致，但 upload 后 host 的声音变小。App 把整集都压低。温暖的 bass 遮住了 discount code。这不只是审美问题，而是 handoff 问题。Podcast music 必须从 prompt 到 mix、loudness target、host upload 都站得住。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、style direction 和 lyrics 变成可 review 的 music drafts。在 podcast workflow 中，可以用 EasyMusic.AI 围绕 human voice 测试 intro、bed、transition 和 outro；rights review、platform checks、publishing approval 仍然单独处理。需要 review 或 delivery copy 时，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助准备 practical format，但不能修复 crowded mix。",
+        "## 先从 voice lane 开始",
+        "标记 cold open、guest name、sponsor line、chapter break 和 ending。写清楚哪里 words 必须毫不费力地听懂，哪里 music 可以前推两秒。不要先生成 full song，再强行塞进 episode。请求每条只有一个 job 的 short cues：six-second intro、low bed under recap、two-second transition、clean outro tail。",
+        "## 写保留 mix headroom 的 prompt",
+        "一个实用 prompt 可以是：podcast intro bed, 92 BPM, warm keys, soft low percussion, no lead vocal, no busy hi-hats, sparse midrange, clean ending before host speaks。生成两个替代版本：一个更 calm，一个 no-drums。如果 bed 会放在 long speech 下面，赢家不是最抓耳的 hook，而是让 consonants、names、numbers 和 call to action 保持清晰的 draft。",
+        "## 同时检查 speech 和 background",
+        "耳朵和 meter 一起用。作为实用参考，speech 下的 background sound 往往需要很大的间距；WCAG Technique G56 把 foreground 比 background 高 20 dB 描述为帮助 speech 理解的一种方法。不要先把 music 单独做大，再硬把 voice 推上去。先放 voice track，降低 bed，再在 key lines 前后使用 ducking 或 keyframes。",
+        "## 有意识地制作 host copy",
+        "Apple Podcasts 通常建议 overall loudness 接近 -16 dB LKFS，容差约 1 dB，true peak 不超过 -1 dB FS。Spotify for Creators 支持 audio episodes 使用 MP3、M4A 和 WAV。这些不是所有 show 的 magic settings，但可以避免随意 export。保存 clean source master，再为 destination 制作 upload copy，不要把 AI-generated music 当作自动 clearance。",
+        "## 今天可复用的 ideas",
+        "- 生成 music 前先写 voice-first cue map。\n- Speech 下的 bed 要求 no lead vocal 和 sparse midrange。\n- 先把 bed 放在 voice 下约 15 到 20 dB，再用耳朵调整。\n- 在 guest names、offers、URLs、prices 和 sensitive claims 周围做 ducking。\n- 把 prompt、draft name、mix target、format 和 destination platform 写进 handoff card。\n- Upload episode 前用 phone speaker 听一遍。",
+        "## FAQ\n### 把 music 放到 voice 下面前要先 normalizing 吗？\n不要。先 mix voice 和 music，再检查 full program 的 loudness。\n### 一个 MP3 能适合所有 podcast host 吗？\n不一定。保留 source master，检查 destination requirements 后再制作 upload copy。\n### Music 很好听但盖住 host 怎么办？\n回到更 simple 的 prompt：lighter percussion、less midrange、no vocal、cleaner ending。只降低 volume 可能不够。\n### Commercial podcast 可以使用 AI music 吗？\n可以作为 workflow 的一部分，但 rights、tool terms、disclosure 和 platform rules 仍然需要单独 review。"
+      ]
+    }
+  }
+}
