@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-29",
+  "slug": "safety-training-ai-music-clarity-map",
+  "cluster": "safety-training-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لفيديوهات السلامة من دون إخفاء التعليمات الحرجة",
+      "description": "Workflow عملي لصنع music bed لفيديو safety training مع red-line map للتعليمات،وضوح صوتي،ومراجعة قبل النشر.",
+      "body": [
+        "فيديو السلامة يفشل عندما يتذكر المشاهد الإحساس العام وينسى الجملة التي تمنع الخطأ. قد تكون الموسيقى مناسبة في البداية أو بين الأقسام، لكنها تصبح مشكلة إذا غطت اسم مادة،خطوة إغلاق،رقم طوارئ،أو تحذير قصير. في هذا النوع من المحتوى، ليست الموسيقى بطلة المشهد. دورها أن تساعد الانتباه ثم تختفي عندما تأتي التعليمات التي لا يجوز أن تضيع.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation لتحويل prompts وstyle direction وlyrics إلى music drafts قابلة للمراجعة. في فيديو safety training استخدمها لاختبار intro قصير أو bed هادئ أو transition بين وحدات التدريب، مع بقاء مراجعة السلامة،سياسة المؤسسة،الحقوق،والاعتماد النهائي خارج ملف الموسيقى. عند تجهيز نسخة مراجعة، يمكن أن يساعد [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) في إعداد format عملي، لكنه لا يجعل التعليمات أوضح إذا كان mix نفسه مزدحما.",
+        "## ابدأ بخريطة red-line",
+        "قبل أي prompt، ضع خطا أحمر حول الجمل التي يجب أن تسمع كما هي: افصل الطاقة،ارتد القفازات،لا تخلط المادتين،اتصل بالمشرف،اخرج من المنطقة. اجعل لهذه الجمل نافذة بلا موسيقى أو بموسيقى أضعف بكثير. OSHA guidance يركز على أن التدريب يجب أن يقدم بلغة ومفردات يفهمها العاملون؛ في الصوت يعني ذلك أن الموسيقى لا يجب أن تجعل اللغة أبعد أو أصعب.",
+        "## اجعل الموسيقى إشارة لا إنذارا مزيفا",
+        "استخدم موسيقى قصيرة في بداية الوحدة لتجميع الانتباه،وبعدها pulse منخفض يحافظ على التركيز. لا تطلب siren،alarm،impact، أو riser كبير إذا لم يكن الفيديو يعرض خطرا حقيقيا في تلك اللحظة. يمكن أن يساعد [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) في تحويل كلمات مثل steady،calm،controlled،low contrast إلى instruments وtempo وtexture،ثم احذف أي عنصر يبدو كفيلم حركة.",
+        "## Prompt عملي",
+        "جرب: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. اطلب نسختين: one music-under-intro only وone very low bed. لا تطلب track طويل ثم تحاول خفضه. صمم الصمت كجزء من الموجز.",
+        "## افحص speech قبل الجمال",
+        "ضع voiceover أولا. استمع على هاتف،laptop،وسماعة صغيرة. إذا احتجت إلى رفع الصوت لفهم التحذير،فالموسيقى عالية أو كثيفة. كمرجع عملي،تذكر W3C/WAI Technique G56 أن الخلفية تحت الكلام يمكن أن تحتاج إلى فرق يقارب 20 dB للحفاظ على الفهم. هذا ليس بديلا عن مراجعة السلامة،لكنه رقم يساعدك على رفض mix جميل لكنه غير واضح.",
+        "## أفكار قابلة للاستخدام اليوم",
+        "- اجعل كل warning أو prohibited action منطقة صمت أو ducking عميق.\n- استخدم intro من 4 إلى 6 ثوان فقط قبل التعليمات.\n- اكتب نسخة prompt بلا sirens ولا alarms إلا إذا كان الصوت جزءا من التدريب.\n- اختبر الفيديو مع شخص لم ير النص واسأله عن الخطوة الحرجة.\n- احفظ prompt،version،language،reviewer،ونتيجة listening test في handoff card.\n- اترك نسخة silent export عندما سيعرض الفيديو في مكان عمل صاخب.",
+        "## FAQ\n### هل يجب استخدام موسيقى في safety training؟\nلا. أحيانا يكفي intro قصير وصمت واضح أثناء التعليمات.\n### أين أضع الموسيقى؟\nضعها عند opening،section change،recap،أو نهاية الوحدة. خففها أو أزلها عند التحذيرات والخطوات الدقيقة.\n### هل يمكن الاعتماد على الموسيقى لجعل الفيديو compliant؟\nلا. الموسيقى اختيار إنتاجي. compliance،صحة التعليمات،لغة العمال،وسياسة المؤسسة تحتاج مراجعة منفصلة.\n### ماذا لو بدا الفيديو مملا من غير موسيقى؟\nاستخدم pulse هادئا بين التعليمات،visual pacing،وتوقفات واضحة بدلا من bed مزدحم يضعف الفهم."
+      ]
+    },
+    "de": {
+      "title": "AI Music fuer Safety-Training planen, ohne kritische Anweisungen zu verdecken",
+      "description": "Ein klarer Workflow fuer Safety-Training-Videos: Red-Line-Map, sprechfreundliche Prompts, Audio-Kontrast und Handoff-Check.",
+      "body": [
+        "Ein Safety-Training-Video scheitert, wenn die Zuschauer die Stimmung behalten, aber den Satz vergessen, der einen Fehler verhindert. Musik kann am Anfang oder zwischen Kapiteln helfen, wird aber gefaehrlich, wenn sie Chemikaliennamen, Lockout-Schritte, Notrufnummern oder kurze Warnungen verdeckt. In diesem Format ist Musik nicht die Hauptfigur. Sie sammelt Aufmerksamkeit und tritt zurueck, sobald eine Anweisung sitzen muss.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du Prompts, Style Direction und Lyrics in pruefbare Music Drafts verwandelst. Fuer Safety-Training nutzt du sie eher fuer ein kurzes Intro, ein sehr ruhiges Bed oder eine Transition zwischen Modulen; Safety Review, Unternehmensregeln, Rechte und finale Freigabe bleiben eigene Schritte. Wenn du Review-Dateien brauchst, kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) ein praktisches Format vorbereiten, aber keinen ueberladenen Mix retten.",
+        "## Beginne mit einer Red-Line-Map",
+        "Markiere vor dem Prompt die Saetze, die exakt verstanden werden muessen: Energie abschalten, Handschuhe tragen, diese Stoffe nicht mischen, Supervisor anrufen, Bereich verlassen. Gib diesen Zeilen ein Fenster ohne Musik oder mit sehr stark gesenkter Musik. OSHA guidance betont, dass Training in Sprache und Wortschatz erfolgen muss, die Mitarbeitende verstehen; im Audiomix bedeutet das, dass Musik Verstaendlichkeit nicht erschweren darf.",
+        "## Musik als Signal, nicht als falscher Alarm",
+        "Nutze kurze Musik am Modulanfang, um Aufmerksamkeit zu sammeln, danach nur einen niedrigen Puls fuer Orientierung. Vermeide siren, alarm, impact oder grosse riser, wenn der Film an dieser Stelle nicht wirklich einen Alarm erklaert. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann Begriffe wie steady, calm, controlled und low contrast in Instrumente, Tempo und Textur uebersetzen; streiche danach alles, was nach Actionfilm klingt.",
+        "## Ein praktischer Prompt",
+        "Teste: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. Erzeuge zwei Varianten: one music-under-intro only und one very low bed. Bestelle keinen langen Track, den du spaeter niederkaempfen musst. Plane Stille als Teil des Briefs.",
+        "## Sprache vor Schoenheit pruefen",
+        "Lege zuerst das Voiceover an. Hoere auf Telefon, Laptoplautsprecher und kleinen Kopfhoerern. Wenn du lauter drehen musst, um eine Warnung zu verstehen, ist die Musik zu laut oder zu dicht. Als praktischer Bezug beschreibt W3C/WAI Technique G56, dass Hintergrund unter Sprache etwa 20 dB Abstand brauchen kann, damit Sprache verstaendlich bleibt. Das ersetzt kein Safety Review, hilft aber, einen schoenen und trotzdem falschen Mix abzulehnen.",
+        "## Ideen fuer heute",
+        "- Setze jede warning und jede prohibited action in ein Silence- oder Deep-Ducking-Fenster.\n- Nutze nur 4 bis 6 Sekunden Intro, bevor Anweisungen beginnen.\n- Schreibe no sirens und no alarms in den Prompt, ausser der Klang ist Teil des Trainings.\n- Teste mit jemandem, der das Skript nicht kennt, und frage nach dem kritischen Schritt.\n- Speichere Prompt, Version, Sprache, Reviewer und Listening-Test in einer Handoff Card.\n- Halte einen silent export bereit, wenn das Video in lauter Arbeitsumgebung laeuft.",
+        "## FAQ\n### Braucht Safety Training ueberhaupt Musik?\nNein. Oft reichen ein kurzes Intro und klare Stille waehrend der Anweisungen.\n### Wo darf Musik sitzen?\nBei opening, section change, recap oder Ende. Unter Warnungen und Praezisionsschritten sollte sie stark sinken oder verschwinden.\n### Macht Musik ein Video compliant?\nNein. Musik ist eine Produktionsentscheidung. Compliance, richtige Anweisungen, Arbeitssprache und Unternehmensfreigabe brauchen separate Pruefung.\n### Was, wenn das Video ohne Musik trocken wirkt?\nNutze ruhigen Puls zwischen den Anweisungen, bessere visuelle Taktung und bewusste Pausen statt eines dichten Beds."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Safety Training Videos Without Hiding Critical Instructions",
+      "description": "A practical workflow for safety training audio: red-line instruction maps, narration-safe prompts, listening checks, and review handoff.",
+      "body": [
+        "A safety training video fails when viewers remember the mood but miss the line that prevents the mistake. Music can help at the opening or between sections, but it becomes a liability if it covers a chemical name, a lockout step, an emergency number, or a short warning. In this format, music is not the hero. Its job is to gather attention, then get out of the way when the instruction has to land.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, style direction, and lyrics into music drafts you can review. In a safety training workflow, use it to test a short intro, a very quiet bed, or a transition between modules while safety review, company policy, rights review, and final approval stay separate. For a review copy, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare a practical format, but it cannot make a crowded mix understandable.",
+        "## Start With a Red-Line Map",
+        "Before any prompt, mark the lines that must be heard exactly: disconnect power, wear gloves, do not mix these materials, call the supervisor, leave the area. Give those lines a no-music window or a deep-ducked bed. OSHA guidance stresses that training needs to be delivered in language and vocabulary workers can understand; in audio terms, that means the music cannot make the words harder to understand.",
+        "## Use Music as a Cue, Not a False Alarm",
+        "Use a short cue at the start of the module to focus attention, then a low pulse only where it helps orientation. Avoid siren, alarm, impact, or huge riser language unless the video is actually teaching that sound or hazard. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can turn words like steady, calm, controlled, and low contrast into instrument, tempo, and texture language; then remove anything that makes the lesson feel like an action trailer.",
+        "## A Practical Prompt",
+        "Try: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. Ask for two versions: one music-under-intro only and one very low bed. Do not generate a long track and fight it later. Design silence as part of the brief.",
+        "## Test Speech Before Taste",
+        "Place the voiceover first. Listen on a phone, laptop speaker, and small headphones. If you need to turn the volume up to understand the warning, the music is too loud or too dense. As a practical reference, W3C/WAI Technique G56 describes a 20 dB foreground-over-background difference as a way to keep speech understandable. That is not a substitute for safety review, but it is a useful reason to reject a pretty mix that hides the message.",
+        "## Ideas You Can Reuse Today",
+        "- Put every warning and prohibited action in a silence or deep-ducking window.\n- Use a 4- to 6-second intro before instructions begin.\n- Add no sirens and no alarms unless the sound itself is part of the lesson.\n- Test the video with someone who has not read the script and ask for the critical step.\n- Keep a handoff card with prompt, version, language, reviewer, and listening-test result.\n- Save a silent export for noisy workplace playback.",
+        "## FAQ\n### Does safety training need music at all?\nNo. Many modules only need a short intro and clean silence under instructions.\n### Where can music safely sit?\nOpening, section change, recap, and ending. Under warnings or precise steps, lower it sharply or remove it.\n### Can music make a training video compliant?\nNo. Music is a production choice. Compliance, instruction accuracy, worker language, and company approval need separate review.\n### What if the video feels dull without music?\nUse a quiet pulse between instructions, stronger visual pacing, and intentional pauses instead of a busy bed."
+      ]
+    },
+    "es": {
+      "title": "Planifica musica IA para safety training sin ocultar instrucciones criticas",
+      "description": "Workflow practico para audio de seguridad: red-line map, prompts seguros para narracion, pruebas de escucha y handoff.",
+      "body": [
+        "Un video de safety training falla cuando la gente recuerda el ambiente, pero pierde la frase que evita el error. La musica puede ayudar al inicio o entre secciones, pero se vuelve un riesgo si cubre el nombre de una sustancia, un paso de lockout, un numero de emergencia o una advertencia breve. En este formato, la musica no es protagonista. Debe reunir atencion y retirarse cuando la instruccion tiene que entenderse.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, style direction y lyrics en music drafts que puedes revisar. En un workflow de safety training, sirve para probar intro corto, bed muy bajo o transition entre modulos, mientras safety review, politica de empresa, rights review y aprobacion final siguen aparte. Para una copia de review, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar un formato practico, pero no vuelve claro un mix abarrotado.",
+        "## Empieza con un red-line map",
+        "Antes de cualquier prompt, marca las lineas que deben oirse exactas: desconectar energia, usar guantes, no mezclar estos materiales, llamar al supervisor, salir del area. Dales una ventana sin musica o con ducking profundo. OSHA guidance recalca que la formacion debe darse en lenguaje y vocabulario que los trabajadores entiendan; en audio, eso significa que la musica no puede hacer las palabras mas dificiles.",
+        "## Usa musica como senal, no como falsa alarma",
+        "Usa un cue breve al inicio del modulo para enfocar atencion y luego un pulse bajo solo donde ayude a orientarse. Evita siren, alarm, impact o riser enorme si el video no esta ensenando ese sonido o peligro. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede convertir steady, calm, controlled y low contrast en lenguaje de instrumentos, tempo y textura; despues elimina lo que haga parecer la leccion un trailer de accion.",
+        "## Prompt practico",
+        "Prueba: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. Pide dos versiones: one music-under-intro only y one very low bed. No generes un track largo para pelearlo despues. Disena el silencio como parte del brief.",
+        "## Prueba la voz antes del gusto",
+        "Coloca primero el voiceover. Escucha en telefono, altavoz de laptop y auriculares pequenos. Si necesitas subir volumen para entender la advertencia, la musica esta alta o densa. Como referencia practica, W3C/WAI Technique G56 describe una diferencia de 20 dB entre foreground y background para mantener speech comprensible. No sustituye la revision de seguridad, pero ayuda a rechazar un mix bonito que oculta el mensaje.",
+        "## Ideas reutilizables",
+        "- Pon cada warning y prohibited action en una ventana de silencio o ducking profundo.\n- Usa una intro de 4 a 6 segundos antes de que empiecen las instrucciones.\n- Anade no sirens y no alarms salvo que el sonido sea parte de la leccion.\n- Prueba el video con alguien que no leyo el guion y pregunta por el paso critico.\n- Guarda prompt, version, idioma, reviewer y resultado del listening test.\n- Conserva un export silencioso para reproduccion en espacios de trabajo ruidosos.",
+        "## FAQ\n### Todo safety training necesita musica?\nNo. Muchos modulos solo necesitan una intro corta y silencio limpio bajo las instrucciones.\n### Donde puede estar la musica?\nOpening, cambio de seccion, recap y cierre. Bajo advertencias o pasos precisos, bajala fuerte o quitala.\n### La musica vuelve compliant un video?\nNo. Es una decision de produccion. Compliance, precision, idioma de trabajadores y aprobacion de empresa se revisan aparte.\n### Y si el video parece seco sin musica?\nUsa pulse tranquilo entre instrucciones, mejor ritmo visual y pausas intencionales en vez de un bed cargado."
+      ]
+    },
+    "fr": {
+      "title": "Planifier une musique IA pour safety training sans cacher les consignes critiques",
+      "description": "Workflow pratique pour l audio de formation securite: red-line map, prompts compatibles avec la voix, tests d ecoute et handoff.",
+      "body": [
+        "Une video de safety training echoue quand les personnes retiennent l ambiance mais ratent la phrase qui evite l erreur. La musique peut aider a l ouverture ou entre sections, mais elle devient un risque si elle couvre le nom d un produit, une etape de lockout, un numero d urgence ou un court avertissement. Ici, la musique n est pas l hero. Elle capte l attention, puis se retire quand la consigne doit passer.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, style direction et lyrics en music drafts a reviser. Dans un workflow safety training, utilise-la pour tester une intro courte, un bed tres discret ou une transition entre modules, tandis que safety review, politique interne, rights review et validation finale restent separes. Pour une copie de review, l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut preparer un format pratique, mais il ne rendra pas clair un mix trop dense.",
+        "## Commence par une red-line map",
+        "Avant tout prompt, marque les lignes qui doivent etre entendues exactement: couper l energie, porter les gants, ne pas melanger ces produits, appeler le superviseur, quitter la zone. Donne-leur une fenetre sans musique ou avec un ducking profond. OSHA guidance insiste sur une formation dans une langue et un vocabulaire compris par les travailleurs; en audio, cela veut dire que la musique ne doit pas compliquer les mots.",
+        "## Utilise la musique comme repere, pas comme fausse alarme",
+        "Place un cue court au debut du module pour focaliser l attention, puis un pulse bas seulement si cela aide l orientation. Evite siren, alarm, impact ou gros riser si la video n enseigne pas vraiment ce son ou ce danger. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut transformer steady, calm, controlled et low contrast en instruments, tempo et texture; ensuite retire tout ce qui donne un effet trailer d action.",
+        "## Prompt pratique",
+        "Essaie: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. Demande deux versions: one music-under-intro only et one very low bed. Ne genere pas un long track pour le combattre ensuite. Concois le silence comme une partie du brief.",
+        "## Teste la parole avant le gout",
+        "Place d abord la voix off. Ecoute sur telephone, haut-parleur d ordinateur et petits ecouteurs. Si tu dois monter le volume pour comprendre l avertissement, la musique est trop forte ou trop dense. Comme repere pratique, W3C/WAI Technique G56 decrit une difference de 20 dB entre foreground et background pour garder la parole intelligible. Ce n est pas un safety review, mais c est une bonne raison de refuser un mix joli qui cache le message.",
+        "## Idees reutilisables",
+        "- Mets chaque warning et prohibited action dans une fenetre de silence ou de ducking profond.\n- Utilise une intro de 4 a 6 secondes avant les instructions.\n- Ajoute no sirens et no alarms sauf si le son fait partie de la lecon.\n- Teste avec quelqu un qui n a pas lu le script et demande l etape critique.\n- Garde prompt, version, langue, reviewer et resultat du listening test dans une handoff card.\n- Sauvegarde un export silencieux pour lecture en lieu de travail bruyant.",
+        "## FAQ\n### Le safety training a-t-il besoin de musique?\nNon. Beaucoup de modules demandent seulement une courte intro et un silence propre sous les consignes.\n### Ou placer la musique?\nOpening, changement de section, recap et fin. Sous avertissements ou etapes precises, baisse fortement ou retire.\n### La musique rend-elle une video compliant?\nNon. C est un choix de production. Compliance, exactitude des consignes, langue des travailleurs et validation interne se verifient separement.\n### Et si la video semble plate sans musique?\nUtilise un pulse discret entre consignes, un meilleur rythme visuel et des pauses intentionnelles plutot qu un bed charge."
+      ]
+    },
+    "it": {
+      "title": "Pianifica musica AI per safety training senza nascondere istruzioni critiche",
+      "description": "Workflow pratico per audio di formazione sicurezza: red-line map, prompt sicuri per la voce, test di ascolto e handoff.",
+      "body": [
+        "Un video di safety training fallisce quando le persone ricordano il mood ma perdono la frase che evita l errore. La musica puo aiutare in apertura o tra sezioni, ma diventa un rischio se copre il nome di una sostanza, un passaggio di lockout, un numero di emergenza o un avviso breve. In questo formato, la musica non e la protagonista. Raccoglie attenzione e poi si sposta quando l istruzione deve arrivare chiara.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, style direction e lyrics in music drafts da rivedere. In un workflow di safety training usala per provare intro brevi, bed molto bassi o transition tra moduli, mentre safety review, policy aziendale, rights review e approvazione finale restano passaggi separati. Per una copia di review, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo preparare un format pratico, ma non rende comprensibile un mix affollato.",
+        "## Parti da una red-line map",
+        "Prima di ogni prompt, marca le frasi che devono sentirsi esattamente: scollegare energia, indossare guanti, non mescolare questi materiali, chiamare il supervisore, uscire dall area. Dai a quelle frasi una finestra senza musica o con ducking profondo. OSHA guidance sottolinea che la formazione va data in lingua e vocabolario comprensibili per i lavoratori; nell audio significa che la musica non deve rendere le parole piu difficili.",
+        "## Usa la musica come cue, non come falso allarme",
+        "Usa un cue breve all inizio del modulo per attirare attenzione, poi un pulse basso solo dove aiuta l orientamento. Evita siren, alarm, impact o grandi riser se il video non sta insegnando proprio quel suono o quel pericolo. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo trasformare steady, calm, controlled e low contrast in strumenti, tempo e texture; poi elimina cio che fa sembrare la lezione un trailer action.",
+        "## Prompt pratico",
+        "Prova: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. Chiedi due versioni: one music-under-intro only e one very low bed. Non generare un track lungo da combattere dopo. Progetta il silenzio come parte del brief.",
+        "## Testa la parola prima del gusto",
+        "Metti prima il voiceover. Ascolta su telefono, speaker laptop e piccoli auricolari. Se devi alzare il volume per capire l avviso, la musica e troppo alta o densa. Come riferimento pratico, W3C/WAI Technique G56 descrive una differenza di 20 dB tra foreground e background per mantenere comprensibile il parlato. Non sostituisce la safety review, ma aiuta a rifiutare un mix bello che nasconde il messaggio.",
+        "## Idee riutilizzabili",
+        "- Metti ogni warning e prohibited action in una finestra di silenzio o deep ducking.\n- Usa una intro di 4-6 secondi prima delle istruzioni.\n- Aggiungi no sirens e no alarms salvo che il suono faccia parte della lezione.\n- Testa il video con qualcuno che non ha letto lo script e chiedi il passaggio critico.\n- Conserva prompt, version, language, reviewer e risultato del listening test in una handoff card.\n- Salva un silent export per playback in ambienti di lavoro rumorosi.",
+        "## FAQ\n### Il safety training ha bisogno di musica?\nNo. Molti moduli richiedono solo una intro breve e silenzio pulito sotto le istruzioni.\n### Dove puo stare la musica?\nOpening, section change, recap e finale. Sotto avvisi o passaggi precisi, abbassala molto o toglila.\n### La musica rende compliant un video?\nNo. E una scelta produttiva. Compliance, accuratezza, lingua dei lavoratori e approvazione aziendale vanno riviste separatamente.\n### E se il video sembra noioso senza musica?\nUsa un pulse discreto tra istruzioni, ritmo visivo piu forte e pause intenzionali invece di un bed affollato."
+      ]
+    },
+    "ja": {
+      "title": "重要な指示を隠さない safety training 用 AI music の設計",
+      "description": "safety training audio のための実用 workflow。red-line map、narration-safe prompt、listening check、review handoff を整理します。",
+      "body": [
+        "Safety training video は、視聴者が雰囲気だけ覚えて、ミスを防ぐ一文を聞き逃した時に失敗します。音楽は opening や section change では役立ちますが、chemical name、lockout step、emergency number、短い warning を覆うと危険です。この形式では、music は主役ではありません。Attention を集め、instruction が届く瞬間には退く必要があります。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、style direction、lyrics から review 可能な music drafts を作る AI music creation platform です。Safety training workflow では、short intro、very quiet bed、module transition を試すために使い、safety review、company policy、rights review、final approval は別に扱います。Review copy が必要な時、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) は practical format 準備に使えますが、crowded mix を理解しやすくするものではありません。",
+        "## red-line map から始める",
+        "Prompt の前に、正確に聞かれるべき line を印付けします。disconnect power、wear gloves、do not mix these materials、call the supervisor、leave the area。そこには no-music window または deep-ducked bed を置きます。OSHA guidance は、workers が理解できる language と vocabulary で training を行う必要を強調しています。Audio では、music が言葉を難しくしてはいけないということです。",
+        "## music は cue であり false alarm ではない",
+        "Module 開始には短い cue を使い、orientation が必要な場所だけ low pulse を置きます。Video がその音や hazard を教えていないなら、siren、alarm、impact、大きな riser は避けます。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は steady、calm、controlled、low contrast などを instrument、tempo、texture の言葉にできます。その後、action trailer のように聞こえる要素を削ります。",
+        "## 実用 prompt",
+        "例: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning。二つの版を頼みます。one music-under-intro only と one very low bed。長い track を作って後で戦わないでください。Silence も brief の一部として設計します。",
+        "## taste より先に speech を試す",
+        "まず voiceover を置きます。Phone、laptop speaker、小さな headphones で聞きます。Warning を理解するために volume を上げたくなるなら、music が大きいか密です。実用目安として、W3C/WAI Technique G56 は speech を理解しやすくするために foreground と background の差 20 dB を説明しています。Safety review の代わりではありませんが、きれいでも message を隠す mix を退ける根拠になります。",
+        "## 今日使える ideas",
+        "- すべての warning と prohibited action を silence または deep-ducking window に入れる。\n- Instruction の前に 4-6 秒 intro だけ使う。\n- 音自体が lesson でない限り no sirens と no alarms を入れる。\n- Script を読んでいない人に見せ、critical step を聞き取れたか確認する。\n- Prompt、version、language、reviewer、listening-test result を handoff card に残す。\n- 騒がしい workplace playback 用に silent export を保存する。",
+        "## FAQ\n### Safety training に music は必要ですか？\nいいえ。短い intro と instruction 下の clean silence だけで十分な module も多いです。\n### music を置ける場所は？\nOpening、section change、recap、ending です。Warnings や precise steps の下では大きく下げるか消します。\n### music が compliance を保証しますか？\nいいえ。Music は production choice です。Compliance、instruction accuracy、worker language、company approval は別に review してください。\n### music なしで退屈に感じる場合は？\nBusy bed ではなく、quiet pulse、visual pacing、intentional pauses を使います。"
+      ]
+    },
+    "ko": {
+      "title": "중요 지시를 가리지 않는 safety training AI music 설계",
+      "description": "Safety training audio를 위한 red-line instruction map, narration-safe prompt, listening check, review handoff workflow.",
+      "body": [
+        "Safety training video는 사람들이 분위기는 기억하지만 실수를 막는 한 문장을 놓칠 때 실패합니다. Music은 opening이나 section 사이에서는 도움이 되지만, chemical name, lockout step, emergency number, 짧은 warning을 덮으면 문제가 됩니다. 이 형식에서 music은 주인공이 아닙니다. Attention을 모은 뒤 instruction이 정확히 도착해야 할 때 물러나야 합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, style direction, lyrics를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Safety training workflow에서는 short intro, very quiet bed, module transition을 테스트하는 데 쓰고, safety review, company policy, rights review, final approval은 별도로 둡니다. Review copy가 필요할 때 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)는 practical format 준비에 도움을 줄 수 있지만 crowded mix를 이해하기 쉽게 바꾸지는 않습니다.",
+        "## red-line map에서 시작하기",
+        "Prompt 전에 반드시 그대로 들려야 하는 line을 표시합니다. Disconnect power, wear gloves, do not mix these materials, call the supervisor, leave the area 같은 문장입니다. 이 line에는 no-music window나 deep-ducked bed를 줍니다. OSHA guidance는 workers가 이해할 수 있는 language와 vocabulary로 training해야 함을 강조합니다. Audio에서는 music이 단어 이해를 더 어렵게 만들면 안 된다는 뜻입니다.",
+        "## music은 cue이지 false alarm이 아니다",
+        "Module 시작에는 짧은 cue로 attention을 모으고, orientation에 도움이 되는 곳에만 낮은 pulse를 둡니다. Video가 실제로 그 sound나 hazard를 가르치는 것이 아니라면 siren, alarm, impact, big riser를 피하세요. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 steady, calm, controlled, low contrast를 instrument, tempo, texture 표현으로 바꿔 줄 수 있습니다. 그 뒤 action trailer처럼 들리는 요소를 지웁니다.",
+        "## 실용 prompt",
+        "예: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. 두 버전을 요청하세요. one music-under-intro only와 one very low bed. 긴 track을 만든 뒤 싸우지 말고 silence를 brief의 일부로 설계하세요.",
+        "## 취향보다 speech를 먼저 테스트하기",
+        "Voiceover를 먼저 놓습니다. Phone, laptop speaker, small headphones로 들어 보세요. Warning을 이해하려고 volume을 올리고 싶다면 music이 너무 크거나 dense한 것입니다. 실무 참고로 W3C/WAI Technique G56은 speech 이해를 위해 foreground와 background 사이 20 dB 차이를 설명합니다. Safety review를 대체하지는 않지만 message를 숨기는 예쁜 mix를 거절할 근거가 됩니다.",
+        "## 오늘 바로 쓸 ideas",
+        "- 모든 warning과 prohibited action을 silence 또는 deep-ducking window에 둡니다.\n- Instruction이 시작되기 전 4-6초 intro만 사용합니다.\n- Sound 자체가 lesson이 아니라면 no sirens와 no alarms를 넣습니다.\n- Script를 읽지 않은 사람에게 보여 주고 critical step을 물어봅니다.\n- Prompt, version, language, reviewer, listening-test result를 handoff card에 남깁니다.\n- 시끄러운 workplace playback을 위해 silent export를 저장합니다.",
+        "## FAQ\n### Safety training에 music이 꼭 필요한가요?\n아닙니다. 많은 module은 짧은 intro와 instruction 아래의 clean silence만 필요합니다.\n### music은 어디에 둘 수 있나요?\nOpening, section change, recap, ending입니다. Warnings나 precise steps 아래에서는 크게 낮추거나 제거합니다.\n### music이 training video를 compliant하게 만들까요?\n아닙니다. Music은 production choice입니다. Compliance, instruction accuracy, worker language, company approval은 별도로 review해야 합니다.\n### music 없이 영상이 지루하면요?\nBusy bed 대신 quiet pulse, visual pacing, intentional pauses를 사용하세요."
+      ]
+    },
+    "pt": {
+      "title": "Planeje musica AI para safety training sem esconder instrucoes criticas",
+      "description": "Workflow pratico para audio de seguranca: red-line map, prompts seguros para narracao, testes de escuta e handoff.",
+      "body": [
+        "Um video de safety training falha quando as pessoas lembram o clima, mas perdem a frase que evita o erro. A musica pode ajudar na abertura ou entre secoes, mas vira risco se cobre o nome de um produto, uma etapa de lockout, um numero de emergencia ou um aviso curto. Nesse formato, a musica nao e protagonista. Ela junta atencao e sai do caminho quando a instrucao precisa chegar.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, style direction e lyrics em music drafts que voce pode revisar. Em um workflow de safety training, use-a para testar intro curto, bed muito baixo ou transition entre modulos, enquanto safety review, politica da empresa, rights review e aprovacao final ficam separados. Para uma copia de review, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode preparar um formato pratico, mas nao torna claro um mix cheio.",
+        "## Comece com um red-line map",
+        "Antes de qualquer prompt, marque as linhas que devem ser ouvidas exatamente: desligar energia, usar luvas, nao misturar estes materiais, chamar o supervisor, sair da area. De a essas linhas uma janela sem musica ou um deep-ducked bed. OSHA guidance enfatiza que treinamento precisa ser apresentado em linguagem e vocabulario que os trabalhadores entendam; em audio, isso significa que a musica nao pode dificultar as palavras.",
+        "## Use musica como cue, nao como falso alarme",
+        "Use um cue curto no inicio do modulo para focar atencao, depois um pulse baixo apenas onde ajuda a orientacao. Evite siren, alarm, impact ou big riser se o video nao esta ensinando esse som ou perigo. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode transformar steady, calm, controlled e low contrast em linguagem de instrumentos, tempo e textura; depois remova tudo que faz a aula parecer trailer de acao.",
+        "## Prompt pratico",
+        "Teste: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. Peca duas versoes: one music-under-intro only e one very low bed. Nao gere uma faixa longa para brigar com ela depois. Desenhe o silencio como parte do brief.",
+        "## Teste speech antes do gosto",
+        "Coloque primeiro a narracao. Escute em telefone, alto-falante de laptop e fones pequenos. Se voce precisa aumentar o volume para entender o aviso, a musica esta alta ou densa demais. Como referencia pratica, W3C/WAI Technique G56 descreve uma diferenca de 20 dB entre foreground e background para manter fala compreensivel. Isso nao substitui safety review, mas ajuda a rejeitar um mix bonito que esconde a mensagem.",
+        "## Ideias reutilizaveis",
+        "- Coloque cada warning e prohibited action em uma janela de silencio ou deep ducking.\n- Use uma intro de 4 a 6 segundos antes das instrucoes.\n- Adicione no sirens e no alarms salvo quando o som fizer parte da licao.\n- Teste o video com alguem que nao leu o roteiro e pergunte o passo critico.\n- Guarde prompt, versao, idioma, reviewer e resultado do listening test em uma handoff card.\n- Salve um silent export para playback em ambiente de trabalho ruidoso.",
+        "## FAQ\n### Safety training precisa de musica?\nNao. Muitos modulos so precisam de intro curta e silencio limpo sob as instrucoes.\n### Onde a musica pode ficar?\nOpening, section change, recap e ending. Sob warnings ou precise steps, reduza bastante ou remova.\n### Musica torna um video compliant?\nNao. E uma escolha de producao. Compliance, precisao das instrucoes, idioma dos trabalhadores e aprovacao da empresa precisam de revisao separada.\n### E se o video parecer seco sem musica?\nUse quiet pulse entre instrucoes, melhor visual pacing e intentional pauses em vez de um bed ocupado."
+      ]
+    },
+    "ru": {
+      "title": "План AI music для safety training без потери критических инструкций",
+      "description": "Практический workflow для safety audio: red-line map, prompts под narration, listening checks и review handoff.",
+      "body": [
+        "Safety training video проваливается, когда зрители помнят настроение, но пропускают фразу, которая предотвращает ошибку. Музыка может помочь в начале или между разделами, но становится риском, если закрывает название вещества, lockout step, emergency number или короткое warning. В этом формате music не герой. Ее задача - собрать внимание и отступить, когда instruction должна быть понятна.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, style direction и lyrics в music drafts для review. В safety training workflow используйте ее для short intro, very quiet bed или transition между модулями, а safety review, company policy, rights review и final approval оставляйте отдельными шагами. Для review copy [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может подготовить practical format, но не сделает crowded mix понятным.",
+        "## Начните с red-line map",
+        "До prompt отметьте строки, которые должны быть услышаны точно: disconnect power, wear gloves, do not mix these materials, call the supervisor, leave the area. Дайте им окно без музыки или deep-ducked bed. OSHA guidance подчеркивает, что training нужно давать на языке и с vocabulary, которые workers понимают; в audio это значит, что music не должна усложнять слова.",
+        "## Music как cue, а не false alarm",
+        "Используйте короткий cue в начале модуля для фокуса, затем low pulse только там, где он помогает ориентации. Избегайте siren, alarm, impact или big riser, если video не учит именно этому звуку или hazard. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) может превратить steady, calm, controlled и low contrast в слова про instruments, tempo и texture; затем удалите все, что звучит как action trailer.",
+        "## Практичный prompt",
+        "Попробуйте: safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning. Попросите две версии: one music-under-intro only и one very low bed. Не создавайте длинный track, чтобы потом бороться с ним. Проектируйте silence как часть brief.",
+        "## Проверяйте speech раньше вкуса",
+        "Сначала поставьте voiceover. Слушайте на phone, laptop speaker и small headphones. Если нужно поднять volume, чтобы понять warning, music слишком громкая или плотная. Как практический ориентир, W3C/WAI Technique G56 описывает разницу 20 dB между foreground и background для сохранения понятной речи. Это не заменяет safety review, но помогает отвергнуть красивый mix, который прячет message.",
+        "## Идеи на сегодня",
+        "- Каждое warning и prohibited action поместите в окно silence или deep ducking.\n- Используйте intro 4-6 секунд до начала instructions.\n- Добавляйте no sirens и no alarms, если сам звук не часть lesson.\n- Дайте video человеку, который не читал script, и спросите critical step.\n- Храните prompt, version, language, reviewer и listening-test result в handoff card.\n- Сохраните silent export для noisy workplace playback.",
+        "## FAQ\n### Нужна ли music в safety training?\nНет. Многим модулям достаточно короткого intro и чистой тишины под instructions.\n### Где music уместна?\nOpening, section change, recap и ending. Под warnings или precise steps сильно снижайте или убирайте.\n### Делает ли music video compliant?\nНет. Music - это production choice. Compliance, точность instructions, worker language и company approval проверяются отдельно.\n### Что если video без music кажется сухим?\nИспользуйте quiet pulse между instructions, более сильный visual pacing и intentional pauses вместо busy bed."
+      ]
+    },
+    "zh": {
+      "title": "为 safety training 规划不遮挡关键指令的 AI music",
+      "description": "一个实用 workflow：用 red-line map、narration-safe prompt、listening check 和 handoff 管理安全培训音频。",
+      "body": [
+        "Safety training video 失败，常常不是因为气氛不够，而是观众记住了气氛，却错过了防止错误的那句话。Music 可以帮助 opening 或 section change，但如果盖住 chemical name、lockout step、emergency number 或短 warning，就会变成风险。在这种内容里，music 不是主角。它的工作是聚拢注意力，然后在 instruction 必须听清时退开。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、style direction 和 lyrics 变成可 review 的 music drafts。在 safety training workflow 中，可以用它测试 short intro、very quiet bed 或 module transition；safety review、company policy、rights review 和 final approval 仍然单独处理。需要 review copy 时，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助准备 practical format，但不能让 crowded mix 自动变清楚。",
+        "## 先做 red-line map",
+        "写 prompt 之前，先标出必须完整听清的 line：disconnect power、wear gloves、do not mix these materials、call the supervisor、leave the area。这些 line 应该有 no-music window 或 deep-ducked bed。OSHA guidance 强调，training 要用 workers 能理解的 language 和 vocabulary；放到 audio 里，就是 music 不能让 words 更难懂。",
+        "## 把 music 当 cue，不要当 false alarm",
+        "Module 开头用短 cue 聚拢注意力，之后只在帮助 orientation 的地方放 low pulse。如果 video 不是在教那个 sound 或 hazard，就避免 siren、alarm、impact、big riser。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以把 steady、calm、controlled、low contrast 转成 instruments、tempo、texture 语言；然后删掉让课程像 action trailer 的元素。",
+        "## 实用 prompt",
+        "可以试：safety training video bed, 76 BPM, calm low pulse, muted keys, soft pad, no vocal, no lead melody, no sirens, no alarm sounds, sparse percussion, clear space for spoken instructions, fade to silence before critical warning。请求两个版本：one music-under-intro only 和 one very low bed。不要先生成 long track 再和它对抗。Silence 也要作为 brief 的一部分设计。",
+        "## 先测试 speech，再谈 taste",
+        "先放 voiceover。用 phone、laptop speaker 和 small headphones 听。如果为了听懂 warning 必须调高 volume，说明 music 太大或太密。作为实用参考，W3C/WAI Technique G56 描述了 foreground 与 background 相差 20 dB 来保持 speech 可理解。这不能替代 safety review，但能帮助你拒绝一个漂亮却遮住 message 的 mix。",
+        "## 今天可复用的 ideas",
+        "- 每个 warning 和 prohibited action 都放进 silence 或 deep-ducking window。\n- Instruction 开始前只用 4 到 6 秒 intro。\n- 除非 sound 本身是 lesson 的一部分，否则写入 no sirens 和 no alarms。\n- 让没读过 script 的人看视频，并问出 critical step。\n- 在 handoff card 中记录 prompt、version、language、reviewer 和 listening-test result。\n- 为 noisy workplace playback 保存 silent export。",
+        "## FAQ\n### Safety training 一定需要 music 吗？\n不需要。很多 module 只需要短 intro 和 instruction 下的 clean silence。\n### music 可以放在哪里？\nOpening、section change、recap、ending。Warnings 或 precise steps 下要大幅降低或移除。\n### music 能让 training video compliant 吗？\n不能。Music 只是 production choice。Compliance、instruction accuracy、worker language、company approval 都需要单独 review。\n### 没有 music 显得太干怎么办？\n用 quiet pulse、visual pacing 和 intentional pauses，而不是 busy bed。"
+      ]
+    }
+  }
+}
