@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-30",
+  "slug": "upload-song-ai-music-source-checklist",
+  "cluster": "source-audio-upload-workflows",
+  "translations": {
+    "ar": {
+      "title": "Checklist قبل رفع أغنية لإعادة العمل عليها بالـ AI music",
+      "description": "طريقة عملية لفحص rights،file quality،title،credits،والهدف قبل upload song إلى AI music workflow.",
+      "body": [
+        "أسوأ لحظة لرفع أغنية هي اللحظة التي تكون فيها متحمسا جدا للنسخة الجديدة. تضغط upload،ثم تكتشف أن الملف خاطئ،أو الاسم مبهم،أو أن التسجيل ليس لك حق واضح في استخدامه،أو أنك لا تعرف هل تريد vocals أم accompaniment أم مجرد تجربة style. قبل أن تصرف credits أو تبدأ revision،عامل الأغنية مثل source material يحتاج بطاقة دخول صغيرة.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompts،lyrics،style direction،وأيضا بعض source audio إلى drafts قابلة للمراجعة. عند رفع أغنية موجودة،الفكرة ليست أن تجعل الملف آمنا قانونيا تلقائيا أو مناسبا للنشر. الفكرة أن تدخل بملف صحيح،هدف واضح،ومسار مراجعة يعرف ما الذي تغير وما الذي بقي من المصدر.",
+        "## ابدأ بسؤال permission",
+        "اكتب جوابا قصيرا قبل الرفع: هل أملك هذا التسجيل؟ هل حصلت على إذن من المغني،العازف،المنتج،أو العميل؟ هل يحتوي على sample أو voice أو لحن لا أملك حق تعديله؟ إذا كان الجواب غير واضح،لا ترفعه. قواعد منصات النشر وموزعي الموسيقى حول AI content تتغير،لكن القاعدة العملية ثابتة: permission قبل experimentation.",
+        "## افحص الملف قبل credits",
+        "استمع من البداية للنهاية. تأكد أن البداية لا تقطع النغمة الأولى،وأن النهاية لا تحمل ضجيجا غير مقصود،وأن الملف ليس demo مختلفا باسم مشابه. إذا احتجت إلى نسخة MP3 أو M4A أو WAV مناسبة،يمكن أن يساعد [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) في تجهيز format عملي،لكن conversion لا يصلح أداء سيئا ولا يثبت ownership. احتفظ بالأصل خارج library حتى لا تصبح النسخة المرفوعة هي الأرشيف الوحيد.",
+        "## اختر مهمة واحدة فقط",
+        "لا ترفع المصدر وتكتب prompt يقول: add vocals, change genre, make it shorter, improve mix, and create cover. اختر first move واحدا. Backing track يحتاج lyrics وsinging؟ ابدأ بAdd vocals. Vocal recording يحتاج bed؟ ابدأ بaccompaniment. Song مكتمل يحتاج interpretation مختلفة؟ اكتب cover أو refine brief منفصل. الهدف الضيق يجعل المقارنة مع المصدر عادلة.",
+        "## بطاقة upload صغيرة",
+        "قبل submit،اكتب card من خمسة أسطر: source title،owner/permission note،what to keep،what to change،review rule. مثال: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. إذا كان account أو task يستهلك credits،راجع [credits explanation](https://easymusic.ai/ar/credits-explanation) قبل أن تكرر محاولات غير محددة.",
+        "## أفكار قابلة للاستخدام اليوم",
+        "- سم الملف باسم واضح: project-source-date-purpose.\n- احتفظ بنسخة original ونسخة upload-ready في folder منفصل.\n- اكتب what not to change قبل what to change.\n- افحص آخر 10 ثوان لأن tails والnoise تظهر هناك كثيرا.\n- لا ترفع file لا تعرف rights الخاصة به.\n- بعد النتيجة،قارن source وversion الجديدة على headphones وphone speaker.",
+        "## FAQ\n### هل يمكن رفع أي أغنية وجدتها؟\nلا. استخدم فقط audio تملكه أو لديك إذن واضح لاستخدامه.\n### هل يجب تحويل الملف قبل الرفع؟\nفقط إذا كان format أو size أو playback يسبب مشكلة. التحويل لا يحسن composition ولا يحل rights.\n### هل أبدأ بالlyrics أم style؟\nابدأ بالشيء الذي يمثل task. إذا تضيف singing إلى backing track،lyrics مهم. إذا تصنع accompaniment لصوت،style والspace حول vocal أهم.\n### هل النسخة الجديدة تصبح آمنة للنشر تلقائيا؟\nلا. النشر،platform rules،rights،disclosure،وموافقة العميل تحتاج review منفصل."
+      ]
+    },
+    "de": {
+      "title": "Checkliste vor dem Upload eines Songs fuer AI Music Rework",
+      "description": "Praktischer Workflow fuer Rechte, Dateiqualitaet, Titel, Credits und Ziel, bevor du einen Song in einen AI Music Prozess hochlaedst.",
+      "body": [
+        "Der schlechteste Moment fuer einen Song-Upload ist der Moment, in dem du zu begeistert von der naechsten Version bist. Du klickst auf Upload und merkst spaeter, dass die Datei die falsche ist, der Titel nichts sagt, die Rechte unklar sind oder du gar nicht entschieden hast, ob du vocals, accompaniment oder eine neue Stilrichtung testen willst. Behandle den Song vor dem Rework wie Quellmaterial mit Eingangskontrolle.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du Prompts, Lyrics, Style Direction und bestimmte Source-Audio-Dateien in pruefbare Music Drafts verwandelst. Ein Upload macht eine Datei nicht automatisch rechtlich unproblematisch oder veroeffentlichungsbereit. Er gibt dir einen Startpunkt, wenn Datei, Ziel und Review-Regeln sauber vorbereitet sind.",
+        "## Beginne mit Permission",
+        "Schreibe vor dem Upload eine kurze Antwort auf: Gehoert mir diese Aufnahme? Habe ich die Zustimmung von Saenger, Musiker, Producer oder Kunde? Enthaelt sie Samples, Stimmen oder Melodien, die ich nicht bearbeiten darf? Wenn die Antwort unscharf ist, lade sie nicht hoch. Plattform- und Distributionsregeln fuer AI Content aendern sich, aber die robuste Arbeitsregel bleibt: permission before experimentation.",
+        "## Pruefe die Datei vor den Credits",
+        "Hoere die Datei komplett durch. Der Anfang darf den ersten Ton nicht abschneiden, das Ende sollte keinen ungewollten Raumklang tragen, und der Dateiname sollte nicht zu einem anderen Demo passen. Wenn du eine praktische MP3-, M4A- oder WAV-Version brauchst, kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) beim Format helfen. Er repariert aber keine schlechte Aufnahme und beweist keine Ownership. Behalte die Originaldatei ausserhalb der Library.",
+        "## Waehle nur eine Aufgabe",
+        "Lade den Song nicht hoch und schreibe: add vocals, change genre, make it shorter, improve mix, and create cover. Entscheide den ersten Schritt. Ein backing track braucht Gesang? Starte mit Add vocals. Eine vocal recording braucht ein bed? Starte mit accompaniment. Ein fertiger Song braucht eine andere Interpretation? Schreibe einen eigenen cover oder refine brief. Ein enger Auftrag macht den Vergleich fair.",
+        "## Eine kleine Upload Card",
+        "Vor dem Absenden notierst du fuenf Zeilen: source title, owner/permission note, what to keep, what to change, review rule. Beispiel: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. Wenn ein Task Credits kostet, lies die [credits explanation](https://easymusic.ai/de/credits-explanation), bevor du unklare Versuche wiederholst.",
+        "## Ideen fuer heute",
+        "- Benenne die Datei project-source-date-purpose.\n- Speichere Original und upload-ready copy in getrennten Ordnern.\n- Schreibe what not to change vor what to change.\n- Pruefe die letzten 10 Sekunden auf tails, clicks und room noise.\n- Lade keine Datei hoch, deren rights du nicht verstehst.\n- Vergleiche Quelle und neue Version auf Kopfhoerern und Telefonlautsprecher.",
+        "## FAQ\n### Kann ich jeden Song hochladen, den ich gefunden habe?\nNein. Nutze nur Audio, das du besitzt oder fuer das du eine klare Erlaubnis hast.\n### Muss ich die Datei vorher konvertieren?\nNur wenn Format, Groesse oder Playback ein Problem sind. Konvertieren loest weder Arrangement noch Rechte.\n### Starte ich mit Lyrics oder Style?\nStarte mit der Aufgabe. Bei Gesang auf einem backing track sind lyrics zentral. Bei accompaniment fuer eine Stimme sind style und Platz um die vocal wichtiger.\n### Ist die neue Version automatisch bereit fuer Release?\nNein. Release, Plattformregeln, Rechte, Disclosure und Kundenfreigabe brauchen separate Pruefung."
+      ]
+    },
+    "en": {
+      "title": "A Source Checklist Before You Upload a Song for AI Music Rework",
+      "description": "Check permission, file quality, naming, credits, and the first creative move before uploading a song into an AI music workflow.",
+      "body": [
+        "The worst time to upload a song is the moment you are most excited about the next version. You press upload, then discover the file was the wrong bounce, the title is vague, the permission trail is thin, or you never decided whether you want vocals, accompaniment, a cover, or a smaller refinement. Before you spend credits or start comparing drafts, treat the song as source material that needs a clean intake.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, style direction, and some source audio into music drafts you can review. Uploading an existing song does not make the file automatically cleared, original, or ready to publish. It gives you a useful starting point when the file, goal, and review rules are already clear.",
+        "## Start With Permission",
+        "Write one plain answer before the upload: do I own this recording, or do I have permission from the singer, player, producer, client, or co-writer? Does it contain a sample, voice, melody, or backing track that I am not allowed to modify? If the answer is fuzzy, stop. Distribution and platform rules for AI-assisted music keep changing, but the practical rule is stable: permission before experimentation.",
+        "## Check the File Before the Credits",
+        "Play the source from start to finish. Make sure the first note is not clipped, the ending does not carry accidental noise, and the file is not a different demo with a similar name. If you need a practical MP3, M4A, or WAV version, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare a usable format. Conversion does not fix a weak performance or prove ownership, so keep the original file outside the working library.",
+        "## Pick One First Move",
+        "Do not upload the source and ask for everything at once: add vocals, change the genre, shorten the song, improve the mix, and make a cover. Choose the first useful move. A backing track needs singing? Start with vocals. A vocal recording needs a bed? Start with accompaniment. A finished song needs a different interpretation? Write a separate cover or refinement brief. A narrow first move makes the result easier to judge.",
+        "## Make a Tiny Upload Card",
+        "Before you submit, write five lines: source title, owner or permission note, what to keep, what to change, and the review rule. Example: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. If the task uses credits, check the [credits explanation](https://easymusic.ai/credits-explanation) before rerunning a vague request.",
+        "## Ideas You Can Reuse Today",
+        "- Name the file project-source-date-purpose.\n- Keep an original file and an upload-ready copy in separate folders.\n- Write what not to change before you write what to change.\n- Check the final 10 seconds for tails, clicks, and room noise.\n- Do not upload files when the rights trail is unclear.\n- Compare the source and new version on headphones and a phone speaker.",
+        "## FAQ\n### Can I upload any song I found online?\nNo. Use audio you own or are clearly authorized to use.\n### Should I convert the file before uploading?\nOnly if the format, size, or playback is a problem. Conversion does not solve composition, performance, or rights issues.\n### Should I start with lyrics or style?\nStart with the task. If you are adding singing to a backing track, lyrics matter first. If you are building accompaniment for a voice, style and space around the vocal matter more.\n### Is the new version automatically ready to release?\nNo. Publishing, platform rules, rights review, disclosure, and client approval are separate checks."
+      ]
+    },
+    "es": {
+      "title": "Checklist antes de subir una cancion para rework con AI music",
+      "description": "Revisa permiso, calidad de archivo, nombre, credits y primer objetivo creativo antes de subir una cancion a un workflow de AI music.",
+      "body": [
+        "El peor momento para subir una cancion es cuando mas emocion tienes por la siguiente version. Pulsas upload y luego descubres que era el bounce equivocado, el titulo no dice nada, el permiso es dudoso o nunca decidiste si querias vocals, accompaniment, cover o un ajuste pequeno. Antes de gastar credits o comparar drafts, trata la cancion como source material que necesita una entrada limpia.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, lyrics, style direction y parte del source audio en music drafts que puedes revisar. Subir una cancion existente no la vuelve automaticamente cleared, original ni lista para publicar. Te da un punto de partida util cuando archivo, objetivo y reglas de revision ya estan claros.",
+        "## Empieza por el permiso",
+        "Escribe una respuesta simple antes del upload: soy dueno de esta grabacion o tengo permiso del cantante, musico, productor, cliente o coautor? Incluye sample, voz, melodia o backing track que no puedo modificar? Si la respuesta es borrosa, detente. Las reglas de plataformas y distribuidores sobre musica asistida por AI cambian, pero la regla practica se mantiene: permission before experimentation.",
+        "## Revisa el archivo antes de los credits",
+        "Escucha el source completo. Asegurate de que no se corte la primera nota, de que el final no tenga ruido accidental y de que el archivo no sea otro demo con nombre parecido. Si necesitas una version MP3, M4A o WAV practica, el [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede ayudar con el format. La conversion no arregla una interpretacion floja ni prueba ownership, asi que conserva el original fuera de la library.",
+        "## Elige un primer movimiento",
+        "No subas el source y pidas todo a la vez: add vocals, change genre, make it shorter, improve mix, and create cover. Elige el primer paso util. Un backing track necesita singing? Empieza por vocals. Una vocal recording necesita bed? Empieza por accompaniment. Una cancion terminada necesita otra interpretacion? Escribe un cover o refinement brief aparte. Un primer movimiento estrecho facilita juzgar el resultado.",
+        "## Haz una upload card breve",
+        "Antes de enviar, escribe cinco lineas: source title, owner o permission note, what to keep, what to change y review rule. Ejemplo: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. Si la tarea usa credits, revisa la [credits explanation](https://easymusic.ai/es/credits-explanation) antes de repetir una peticion vaga.",
+        "## Ideas reutilizables",
+        "- Nombra el archivo project-source-date-purpose.\n- Guarda original y upload-ready copy en carpetas separadas.\n- Escribe what not to change antes de what to change.\n- Revisa los ultimos 10 segundos para tails, clicks y room noise.\n- No subas archivos con rights poco claros.\n- Compara source y nueva version en auriculares y altavoz de telefono.",
+        "## FAQ\n### Puedo subir cualquier cancion que encontre online?\nNo. Usa audio propio o con autorizacion clara.\n### Debo convertir el archivo antes de subirlo?\nSolo si format, size o playback son un problema. Convertir no resuelve composicion, interpretacion ni rights.\n### Empiezo por lyrics o style?\nEmpieza por la tarea. Si agregas singing a un backing track, lyrics va primero. Si haces accompaniment para una voz, importan mas style y espacio alrededor del vocal.\n### La nueva version queda lista para release automaticamente?\nNo. Publicacion, platform rules, rights review, disclosure y aprobacion del cliente son revisiones separadas."
+      ]
+    },
+    "fr": {
+      "title": "Checklist avant d importer une chanson pour un rework AI music",
+      "description": "Controle permission, qualite du fichier, nommage, credits et premier geste creatif avant d importer une chanson dans un workflow AI music.",
+      "body": [
+        "Le pire moment pour importer une chanson est souvent celui ou tu es le plus presse d entendre la prochaine version. Tu cliques sur upload, puis tu decouvres que le bounce n est pas le bon, que le titre est vague, que la permission est fragile ou que tu n as pas choisi entre vocals, accompaniment, cover ou simple refinement. Avant de depenser des credits, traite la chanson comme un source material qui merite une entree propre.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, lyrics, style direction et certains source audio en music drafts a reviser. Importer une chanson existante ne la rend pas automatiquement cleared, originale ou prete a publier. Cela donne un point de depart utile si le fichier, l objectif et les regles de review sont deja nets.",
+        "## Commence par la permission",
+        "Ecris une reponse simple avant l upload: est-ce que je possede cet enregistrement ou ai-je l accord du chanteur, musicien, producteur, client ou coauteur? Contient-il un sample, une voix, une melodie ou un backing track que je n ai pas le droit de modifier? Si la reponse est floue, arrete. Les regles de plateformes sur AI-assisted music changent, mais la regle de travail reste solide: permission before experimentation.",
+        "## Controle le fichier avant les credits",
+        "Ecoute le source du debut a la fin. Verifie que la premiere note n est pas coupee, que la fin ne garde pas de bruit accidentel et que le fichier n est pas un autre demo au nom proche. Si tu as besoin d une version MP3, M4A ou WAV pratique, l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut aider a preparer le format. La conversion ne corrige pas une mauvaise prise et ne prouve pas l ownership; garde donc l original hors de la library.",
+        "## Choisis un premier geste",
+        "N importe pas le source avec une demande qui veut tout faire: add vocals, change genre, make it shorter, improve mix, and create cover. Choisis le premier geste utile. Un backing track a besoin de chant? Commence par vocals. Une vocal recording a besoin d un bed? Commence par accompaniment. Une chanson finie cherche une autre interpretation? Redige un cover ou refinement brief separe. Un objectif etroit rend le resultat lisible.",
+        "## Cree une petite upload card",
+        "Avant d envoyer, note cinq lignes: source title, owner ou permission note, what to keep, what to change et review rule. Exemple: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. Si la tache consomme des credits, consulte la [credits explanation](https://easymusic.ai/fr/credits-explanation) avant de relancer une demande vague.",
+        "## Idees reutilisables",
+        "- Nomme le fichier project-source-date-purpose.\n- Garde un original et une upload-ready copy dans deux dossiers.\n- Ecris what not to change avant what to change.\n- Controle les 10 dernieres secondes pour tails, clicks et room noise.\n- N importe pas un fichier dont les rights sont incertains.\n- Compare source et nouvelle version au casque puis sur haut-parleur de telephone.",
+        "## FAQ\n### Puis-je importer n importe quelle chanson trouvee en ligne?\nNon. Utilise seulement un audio que tu possedes ou pour lequel tu as une autorisation claire.\n### Dois-je convertir le fichier avant upload?\nSeulement si le format, la taille ou la lecture pose probleme. La conversion ne regle ni composition, ni performance, ni rights.\n### Faut-il commencer par lyrics ou style?\nCommence par la tache. Pour ajouter du chant a un backing track, les lyrics passent d abord. Pour accompagner une voix, le style et l espace autour du vocal comptent davantage.\n### La nouvelle version est-elle prete pour release?\nNon. Publication, platform rules, rights review, disclosure et validation client restent des controles separes."
+      ]
+    },
+    "it": {
+      "title": "Checklist prima di caricare una canzone per rework AI music",
+      "description": "Controlla permessi, qualita del file, naming, credits e primo obiettivo creativo prima di caricare una canzone in un workflow AI music.",
+      "body": [
+        "Il momento peggiore per caricare una canzone e quello in cui hai piu fretta di sentire la prossima versione. Fai upload e poi scopri che era il bounce sbagliato, il titolo non spiega nulla, il permesso non e chiaro o non hai deciso se vuoi vocals, accompaniment, cover o un refinement piccolo. Prima di spendere credits, tratta la canzone come source material con una piccola verifica in ingresso.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, lyrics, style direction e alcuni source audio in music drafts da rivedere. Caricare una canzone esistente non rende il file automaticamente cleared, originale o pronto per pubblicare. Ti da un punto di partenza utile solo se file, obiettivo e regole di review sono chiari.",
+        "## Parti dal permesso",
+        "Scrivi una risposta semplice prima dell upload: possiedo questa registrazione o ho il permesso di cantante, musicista, produttore, cliente o coautore? Contiene sample, voce, melodia o backing track che non posso modificare? Se la risposta e incerta, fermati. Le regole di piattaforme e distribuzione per AI-assisted music cambiano, ma la regola pratica resta: permission before experimentation.",
+        "## Controlla il file prima dei credits",
+        "Ascolta il source dall inizio alla fine. Verifica che la prima nota non sia tagliata, che il finale non porti rumore accidentale e che il file non sia un altro demo con nome simile. Se ti serve una versione MP3, M4A o WAV pratica, l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo aiutare con il format. La conversione non ripara una performance debole e non prova ownership, quindi conserva l originale fuori dalla library.",
+        "## Scegli una sola prima mossa",
+        "Non caricare il source chiedendo tutto insieme: add vocals, change genre, make it shorter, improve mix, and create cover. Scegli il primo passo utile. Un backing track ha bisogno di singing? Parti da vocals. Una vocal recording ha bisogno di un bed? Parti da accompaniment. Una canzone finita cerca un altra interpretazione? Scrivi un cover o refinement brief separato. Una prima mossa stretta rende il risultato giudicabile.",
+        "## Crea una upload card breve",
+        "Prima di inviare, scrivi cinque righe: source title, owner o permission note, what to keep, what to change e review rule. Esempio: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. Se il task usa credits, controlla la [credits explanation](https://easymusic.ai/it/credits-explanation) prima di rilanciare una richiesta vaga.",
+        "## Idee da usare oggi",
+        "- Nomina il file project-source-date-purpose.\n- Tieni original e upload-ready copy in cartelle diverse.\n- Scrivi what not to change prima di what to change.\n- Controlla gli ultimi 10 secondi per tails, clicks e room noise.\n- Non caricare file con rights poco chiari.\n- Confronta source e nuova versione in cuffia e su speaker del telefono.",
+        "## FAQ\n### Posso caricare qualsiasi canzone trovata online?\nNo. Usa solo audio che possiedi o per cui hai autorizzazione chiara.\n### Devo convertire il file prima dell upload?\nSolo se format, size o playback sono un problema. La conversione non risolve composizione, performance o rights.\n### Devo iniziare da lyrics o style?\nInizia dal task. Se aggiungi singing a un backing track, lyrics conta prima. Se crei accompaniment per una voce, contano di piu style e spazio intorno al vocal.\n### La nuova versione e automaticamente pronta per release?\nNo. Publishing, platform rules, rights review, disclosure e approvazione del cliente restano controlli separati."
+      ]
+    },
+    "ja": {
+      "title": "AI music rework の前に song upload を確認する source checklist",
+      "description": "Song を AI music workflow に入れる前に permission、file quality、naming、credits、first move を確認する実用 checklist。",
+      "body": [
+        "次の version が早く聞きたい時ほど、upload の失敗は起きやすくなります。Upload した後で、wrong bounce だった、title が曖昧だった、permission が弱かった、vocals なのか accompaniment なのか cover なのか決めていなかった、と気づく。Credits を使う前に、その song を source material として小さく intake してください。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は prompts、lyrics、style direction、そして一部の source audio から review できる music drafts を作る AI music creation platform です。Existing song を upload しても、その file が automatically cleared、original、publish-ready になるわけではありません。File、goal、review rules が整理されている時に、よい starting point になります。",
+        "## まず permission を確認する",
+        "Upload 前に一文で答えます。この recording は自分のものか。Singer、player、producer、client、co-writer から permission があるか。Sample、voice、melody、backing track に変更してはいけないものが含まれるか。答えが曖昧なら止めます。AI-assisted music の platform rules は変わりますが、実務の rule は安定しています。permission before experimentation です。",
+        "## credits の前に file を聞く",
+        "Source を最初から最後まで再生します。First note が切れていないか、ending に accidental noise がないか、似た名前の別 demo ではないかを確認します。MP3、M4A、WAV の実用 version が必要なら、[Audio Converter](https://easymusic.ai/ja/tools/audio-converter) が format 準備に役立ちます。ただし conversion は弱い performance を直さず、ownership も証明しません。Original file は library の外にも残します。",
+        "## first move は一つだけ",
+        "Source を upload して、add vocals, change genre, make it shorter, improve mix, and create cover を一度に頼まないでください。最初の useful move を選びます。Backing track に singing が必要なら vocals。Vocal recording に bed が必要なら accompaniment。Finished song に別解釈が必要なら cover または refinement brief を分けます。狭い first move は結果の判断を簡単にします。",
+        "## 小さな upload card を作る",
+        "Submit 前に五行を書きます。source title、owner or permission note、what to keep、what to change、review rule。例: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook。Task が credits を使うなら、曖昧な rerun の前に [credits explanation](https://easymusic.ai/ja/credits-explanation) を確認します。",
+        "## 今日使える ideas",
+        "- File name は project-source-date-purpose にする。\n- Original file と upload-ready copy を別 folder に保存する。\n- what to change より先に what not to change を書く。\n- 最後の 10 秒で tails、clicks、room noise を確認する。\n- rights が曖昧な file は upload しない。\n- Source と new version を headphones と phone speaker で比べる。",
+        "## FAQ\n### online で見つけた song を upload できますか？\nいいえ。自分が所有する audio、または明確に authorized された audio だけを使います。\n### upload 前に convert すべきですか？\nFormat、size、playback が問題の時だけです。Conversion は composition、performance、rights の問題を解決しません。\n### lyrics と style のどちらから始めますか？\nTask から始めます。Backing track に singing を足すなら lyrics。Voice に accompaniment を作るなら style と vocal のための space が重要です。\n### new version は自動的に release-ready ですか？\nいいえ。Publishing、platform rules、rights review、disclosure、client approval は別の check です。"
+      ]
+    },
+    "ko": {
+      "title": "AI music rework 전에 song upload 를 점검하는 source checklist",
+      "description": "Song을 AI music workflow에 넣기 전에 permission, file quality, naming, credits, first creative move를 확인하는 workflow.",
+      "body": [
+        "다음 version이 궁금할수록 upload 실수가 쉽게 납니다. Upload를 누른 뒤 wrong bounce였거나, title이 애매하거나, permission 기록이 약하거나, vocals를 원하는지 accompaniment를 원하는지 cover를 원하는지 정하지 않았다는 사실을 알게 됩니다. Credits를 쓰기 전 song을 source material로 보고 작은 intake를 먼저 하세요.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction, 일부 source audio를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Existing song을 upload한다고 file이 자동으로 cleared, original, publish-ready가 되는 것은 아닙니다. File, goal, review rules가 분명할 때 좋은 starting point가 됩니다.",
+        "## permission부터 확인하기",
+        "Upload 전에 한 문장으로 답하세요. 이 recording을 소유하고 있는가? Singer, player, producer, client, co-writer의 permission이 있는가? 수정하면 안 되는 sample, voice, melody, backing track이 들어 있는가? 답이 흐리면 멈추세요. AI-assisted music에 관한 platform rules는 바뀌지만 실무 rule은 안정적입니다. permission before experimentation입니다.",
+        "## credits 전에 file 듣기",
+        "Source를 처음부터 끝까지 재생합니다. First note가 잘리지 않았는지, ending에 accidental noise가 없는지, 비슷한 이름의 다른 demo가 아닌지 확인하세요. 실용적인 MP3, M4A, WAV version이 필요하면 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)가 format 준비에 도움을 줄 수 있습니다. 하지만 conversion은 약한 performance를 고치거나 ownership을 증명하지 않습니다. Original file은 library 밖에도 보관하세요.",
+        "## first move는 하나만",
+        "Source를 upload하면서 add vocals, change genre, make it shorter, improve mix, and create cover를 한꺼번에 요청하지 마세요. 첫 useful move를 고릅니다. Backing track에 singing이 필요하면 vocals. Vocal recording에 bed가 필요하면 accompaniment. Finished song에 다른 interpretation이 필요하면 cover 또는 refinement brief를 따로 씁니다. 좁은 first move가 결과 판단을 쉽게 만듭니다.",
+        "## 작은 upload card 만들기",
+        "Submit 전에 다섯 줄을 씁니다. source title, owner or permission note, what to keep, what to change, review rule. 예: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. Task가 credits를 쓰면 막연한 rerun 전에 [credits explanation](https://easymusic.ai/ko/credits-explanation)을 확인하세요.",
+        "## 오늘 바로 쓸 ideas",
+        "- File name은 project-source-date-purpose로 둡니다.\n- Original file과 upload-ready copy를 다른 folder에 둡니다.\n- what to change보다 what not to change를 먼저 씁니다.\n- 마지막 10초에서 tails, clicks, room noise를 확인합니다.\n- rights가 불명확한 file은 upload하지 않습니다.\n- Source와 new version을 headphones와 phone speaker에서 비교합니다.",
+        "## FAQ\n### online에서 찾은 song을 upload해도 되나요?\n아닙니다. 본인이 소유했거나 명확히 authorized된 audio만 사용하세요.\n### upload 전에 convert해야 하나요?\nFormat, size, playback이 문제일 때만요. Conversion은 composition, performance, rights 문제를 해결하지 않습니다.\n### lyrics와 style 중 무엇부터 시작하나요?\nTask부터 봅니다. Backing track에 singing을 더하면 lyrics가 먼저입니다. Voice에 accompaniment를 만들면 style과 vocal 주변의 space가 더 중요합니다.\n### new version은 자동으로 release-ready인가요?\n아닙니다. Publishing, platform rules, rights review, disclosure, client approval은 별도 check입니다."
+      ]
+    },
+    "pt": {
+      "title": "Checklist antes de enviar uma musica para rework com AI music",
+      "description": "Confira permissao, qualidade do arquivo, nome, credits e primeiro objetivo criativo antes de enviar uma musica para um workflow AI music.",
+      "body": [
+        "O pior momento para enviar uma musica e quando voce esta mais animado com a proxima versao. Voce clica em upload e depois percebe que era o bounce errado, o titulo nao explica nada, a permissao e fraca ou voce nem decidiu se quer vocals, accompaniment, cover ou um refinement menor. Antes de gastar credits, trate a musica como source material que precisa de uma entrada limpa.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, lyrics, style direction e alguns source audio em music drafts que voce pode revisar. Enviar uma musica existente nao torna o arquivo automaticamente cleared, original ou pronto para publicar. Ele vira um bom ponto de partida quando file, goal e review rules ja estao claros.",
+        "## Comece pela permissao",
+        "Escreva uma resposta simples antes do upload: eu possuo esta gravacao ou tenho permissao do cantor, musico, produtor, cliente ou coautor? Ela contem sample, voz, melodia ou backing track que eu nao posso modificar? Se a resposta estiver nebulosa, pare. As regras de plataformas e distribuidores sobre AI-assisted music mudam, mas a regra pratica continua: permission before experimentation.",
+        "## Confira o arquivo antes dos credits",
+        "Toque o source do comeco ao fim. Veja se a primeira nota nao foi cortada, se o fim nao carrega ruido acidental e se o arquivo nao e outro demo com nome parecido. Se precisar de uma versao MP3, M4A ou WAV pratica, o [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode ajudar com o format. A conversao nao corrige uma performance fraca nem prova ownership, entao mantenha o original fora da library.",
+        "## Escolha um primeiro movimento",
+        "Nao envie o source pedindo tudo de uma vez: add vocals, change genre, make it shorter, improve mix, and create cover. Escolha o primeiro passo util. Um backing track precisa de singing? Comece por vocals. Uma vocal recording precisa de bed? Comece por accompaniment. Uma musica finalizada precisa de outra interpretation? Escreva um cover ou refinement brief separado. Um primeiro movimento estreito facilita julgar o resultado.",
+        "## Crie uma upload card curta",
+        "Antes de enviar, escreva cinco linhas: source title, owner ou permission note, what to keep, what to change e review rule. Exemplo: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. Se a tarefa usa credits, confira a [credits explanation](https://easymusic.ai/pt/credits-explanation) antes de repetir um pedido vago.",
+        "## Ideias reutilizaveis",
+        "- Nomeie o arquivo project-source-date-purpose.\n- Guarde original e upload-ready copy em pastas separadas.\n- Escreva what not to change antes de what to change.\n- Confira os ultimos 10 segundos para tails, clicks e room noise.\n- Nao envie files quando os rights estiverem pouco claros.\n- Compare source e nova version em headphones e phone speaker.",
+        "## FAQ\n### Posso enviar qualquer musica encontrada online?\nNao. Use apenas audio que voce possui ou esta claramente autorizado a usar.\n### Devo converter o arquivo antes do upload?\nSomente se format, size ou playback forem problema. Conversao nao resolve composicao, performance ou rights.\n### Comeco por lyrics ou style?\nComece pela tarefa. Se voce adiciona singing a um backing track, lyrics vem primeiro. Se cria accompaniment para uma voz, style e espaco ao redor do vocal importam mais.\n### A nova version fica automaticamente pronta para release?\nNao. Publishing, platform rules, rights review, disclosure e aprovacao do cliente sao checks separados."
+      ]
+    },
+    "ru": {
+      "title": "Checklist перед upload песни для AI music rework",
+      "description": "Проверьте permission, качество файла, naming, credits и первый творческий шаг перед загрузкой песни в AI music workflow.",
+      "body": [
+        "Худший момент для upload песни - когда вы больше всего хотите услышать следующую version. Вы нажимаете upload, а потом понимаете, что это wrong bounce, title ничего не объясняет, permission trail слабый или вы не решили, нужны vocals, accompaniment, cover или небольшой refinement. До траты credits относитесь к песне как к source material с чистым intake.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics, style direction и часть source audio в music drafts для review. Upload existing song не делает файл автоматически cleared, original или ready to publish. Это полезная starting point, если file, goal и review rules уже понятны.",
+        "## Начните с permission",
+        "До upload напишите простой ответ: я владею этой записью или у меня есть permission от singer, player, producer, client или co-writer? Есть ли в ней sample, voice, melody или backing track, которые нельзя изменять? Если ответ туманный, остановитесь. Rules платформ и дистрибьюторов для AI-assisted music меняются, но рабочее правило стабильно: permission before experimentation.",
+        "## Проверьте file до credits",
+        "Прослушайте source от начала до конца. Убедитесь, что first note не обрезана, ending не содержит случайный noise, а file не является другим demo с похожим названием. Если нужна practical MP3, M4A или WAV version, [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) может помочь с format. Но conversion не чинит слабую performance и не доказывает ownership, поэтому храните original вне library.",
+        "## Выберите один first move",
+        "Не загружайте source с просьбой сделать все сразу: add vocals, change genre, make it shorter, improve mix, and create cover. Выберите первый useful move. Backing track нужен singing? Начните с vocals. Vocal recording нужен bed? Начните с accompaniment. Finished song нужна другая interpretation? Напишите отдельный cover или refinement brief. Узкий первый шаг проще оценить.",
+        "## Сделайте короткую upload card",
+        "Перед submit напишите пять строк: source title, owner or permission note, what to keep, what to change и review rule. Пример: keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook. Если task использует credits, проверьте [credits explanation](https://easymusic.ai/ru/credits-explanation) до повторения размытого запроса.",
+        "## Идеи на сегодня",
+        "- Назовите file как project-source-date-purpose.\n- Держите original file и upload-ready copy в разных folders.\n- Сначала напишите what not to change, потом what to change.\n- Проверьте последние 10 секунд на tails, clicks и room noise.\n- Не загружайте files с неясными rights.\n- Сравните source и new version в headphones и phone speaker.",
+        "## FAQ\n### Можно ли upload любую песню из интернета?\nНет. Используйте audio, которым вы владеете или которое явно authorized.\n### Нужно ли convert file перед upload?\nТолько если format, size или playback создают проблему. Conversion не решает composition, performance или rights.\n### Начать с lyrics или style?\nНачните с task. Если добавляете singing к backing track, lyrics важнее. Если делаете accompaniment для voice, важнее style и space вокруг vocal.\n### New version автоматически ready for release?\nНет. Publishing, platform rules, rights review, disclosure и client approval - отдельные checks."
+      ]
+    },
+    "zh": {
+      "title": "上传歌曲做 AI music rework 前的 source checklist",
+      "description": "在把 song 放进 AI music workflow 前，先检查 permission、file quality、naming、credits 和第一个 creative move。",
+      "body": [
+        "最容易出错的 upload，往往发生在你最想听到下一版的时候。点了 upload 之后才发现，这是 wrong bounce，title 不清楚，permission 记录很薄，或者还没决定自己要 vocals、accompaniment、cover 还是小范围 refinement。花 credits 之前，先把这首歌当作 source material，做一次干净的 intake。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、lyrics、style direction，以及部分 source audio 变成可 review 的 music drafts。上传 existing song 并不会让 file 自动 cleared、original 或 publish-ready。它只是在 file、goal 和 review rules 都清楚时，提供一个有用的 starting point。",
+        "## 先问 permission",
+        "Upload 前写下一句简单答案：我是否拥有这份 recording，或者是否得到 singer、player、producer、client、co-writer 的 permission？里面是否有我无权修改的 sample、voice、melody 或 backing track？如果答案模糊，就先停下。AI-assisted music 的 platform rules 会变化，但实务规则很稳定：permission before experimentation。",
+        "## 在 credits 前检查 file",
+        "从头到尾播放 source。确认 first note 没有被切掉，ending 没有 accidental noise，file 也不是另一个名字相近的 demo。如果你需要实用的 MP3、M4A 或 WAV version，[Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 可以帮助准备 format。但 conversion 不能修好薄弱的 performance，也不能证明 ownership；original file 要保存在 library 外。",
+        "## first move 只选一个",
+        "不要 upload source 后同时要求：add vocals, change genre, make it shorter, improve mix, and create cover。先选一个 useful move。Backing track 需要 singing？从 vocals 开始。Vocal recording 需要 bed？从 accompaniment 开始。Finished song 需要另一种 interpretation？单独写 cover 或 refinement brief。窄一点的第一步更容易判断结果。",
+        "## 做一张小 upload card",
+        "Submit 前写五行：source title、owner or permission note、what to keep、what to change、review rule。例子：keep the chorus melody and guitar pulse; change the vocal delivery and add a warmer second verse; reject versions that hide the original hook。如果 task 会使用 credits，先查看 [credits explanation](https://easymusic.ai/zh/credits-explanation)，再决定是否重复一个模糊请求。",
+        "## 今天就能用的 ideas",
+        "- File name 使用 project-source-date-purpose。\n- Original file 和 upload-ready copy 放在不同 folder。\n- 先写 what not to change，再写 what to change。\n- 检查最后 10 秒的 tails、clicks 和 room noise。\n- Rights 不清楚的 files 不要 upload。\n- 用 headphones 和 phone speaker 对比 source 与 new version。",
+        "## FAQ\n### 可以 upload 网上找到的任何 song 吗？\n不可以。只使用自己拥有或明确 authorized 的 audio。\n### Upload 前需要 convert file 吗？\n只有 format、size 或 playback 有问题时才需要。Conversion 不能解决 composition、performance 或 rights 问题。\n### 先写 lyrics 还是 style？\n先看 task。如果是给 backing track 加 singing，lyrics 优先。如果是给 voice 做 accompaniment，style 和 vocal 周围的 space 更重要。\n### New version 会自动 release-ready 吗？\n不会。Publishing、platform rules、rights review、disclosure 和 client approval 都是单独的 check。"
+      ]
+    }
+  }
+}
