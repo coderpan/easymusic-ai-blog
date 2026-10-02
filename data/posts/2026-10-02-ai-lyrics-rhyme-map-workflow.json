@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-02",
+  "slug": "ai-lyrics-rhyme-map-workflow",
+  "cluster": "lyrics-planning-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب AI lyrics بخريطة rhyme قبل توليد الاغنية",
+      "description": "Workflow عملي لبناء rhyme map تجعل كلمات AI song قابلة للمراجعة،واضحة المعنى،واقرب للغناء.",
+      "body": [
+        "المشكلة ليست ان AI lyrics لا تعرف القافية. المشكلة انها احيانا تعرف القافية اكثر من اللازم. تحصل على couplets نظيفة،لكن السطر المهم يهبط على كلمة ضعيفة،والverse يبدو مغلقا قبل ان يبدأ،والchorus يلمع من الخارج ولا يقول شيئا محددا. Rhyme map صغير قبل generation يمنحك طريقة لتوجيه draft بدل مطاردة نسخة اجمل من نفس الخطأ.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/tools/ai-lyrics-generator) منصة AI music creation تساعدك على تحويل theme،style direction،lyrics،وبعض source audio إلى music drafts قابلة للمراجعة. في lyrics workflow،عاملها كأداة drafting ومقارنة: تبدأ بفكرة واضحة،تجرب lyric options،ثم تنقل النسخة الافضل إلى song prompt. لا تعتبرها بديلا عن حكمك على المعنى،النبرة،الاذن،او اذن استخدام اي مادة خارجية.",
+        "## اختر السطر الذي يجب ان يهبط",
+        "قبل ان تطلب verse كامل،اكتب السطر الذي يجب ان يتذكره المستمع. قد يكون hook،وعدا عاطفيا،او صورة محددة. ثم اسأل: هل هذا السطر يحتاج الى resolved rhyme ام open rhyme؟ اذا كان chorus يريد ثقة،قد تناسبه قافية كاملة. اذا كان verse عن شك او توتر،قد تكون near rhyme او assonance افضل لانها لا تقفل المعنى بسرعة.",
+        "## وزع ضغط القافية حسب القسم",
+        "لا تعط كل section نفس rhyme pressure. Verse يمكن ان يحمل rhymes اخف كي تبقى القصة تتحرك. Pre-chorus يمكن ان يضيق pattern كي يشعر المستمع بالاقتراب من hook. Chorus يحتاج الى كلمات قليلة،نهايات قوية،وصورة لا تضيع. Bridge غالبا يستفيد من كسر pattern كي يبدو مثل قرار جديد لا مثل verse ثالث.",
+        "## اصنع خريطة من اربعة اعمدة",
+        "اكتب table بسيطة في notes: section،line job،end sound،must keep word. مثال: Verse 1 line 2 يوضح المكان،end sound ay،must keep rain. Chorus line 1 يحمل title،end sound own،must keep home. هذه ليست قصيدة كاملة؛انها guardrail. اذا استخدمت [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator)،اضف mood وtempo بعد ان تعرف وظيفة القافية،لا قبلها.",
+        "## حول الخريطة الى prompt",
+        "Prompt جيد لا يقول فقط write emotional lyrics. قل: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. بعد ذلك استخدم [AI Music Generator](https://easymusic.ai/ar/ai-music-generator) عندما تصبح lyrics جاهزة للاختبار داخل track،لا عندما تكون مجرد paragraph جميل.",
+        "## راجع مثل محرر لا مثل جامع قواف",
+        "اقرأ lyrics بصوت عال من دون موسيقى. ضع علامة على كل سطر اختار rhyme على حساب المعنى. اذا كان السطر يصلح كcaption لكنه لا يغنى،قصه. اذا كانت القافية تجعل الشخص المتكلم يبدو مختلفا عن persona،غيرها. EasyMusic.AI يعطيك drafts،لكن rhyme map يعطيك سبب اختيار draft واحد ورفض آخر.",
+        "## افكار قابلة للتطبيق اليوم",
+        "- اكتب hook line اولا ثم ابن بقية القوافي حوله.\n- اجعل verse اقل اغلاقا من chorus كي تتحرك القصة.\n- امنع كلمتين سهلتين اذا كانتا تجران المعنى الى cliche.\n- اقرأ كل line ending وحدها؛اذا بدت مثل list،خفف pattern.\n- احفظ rejected rhymes في note منفصل لان بعضها يصلح لbridge.\n- لا تنشر lyric قبل review منفصل للاذن،المنصة،والسياق.",
+        "## FAQ\n### هل يجب ان تكون كل القوافي كاملة؟\nلا. القوافي الكاملة تعطي احساسا بالحسم،وهذا مفيد في chorus احيانا. near rhyme يمكن ان يحافظ على توتر verse او معنى غير محسوم.\n### كم يجب ان تكون الخريطة طويلة؟\nتكفي ثمانية الى اثني عشر سطرا للاغنية القصيرة. الهدف ليس كتابة كل lyric،بل تحديد اين يجب ان تقوى القافية واين يجب ان تترك مساحة.\n### هل rhyme map يقيد الابداع؟\nهو يقيد الفوضى فقط. اذا ظهر سطر افضل اثناء generation،احتفظ به،لكن قارنه بوظيفة section قبل ان تحبه لمجرد انه ذكي.\n### هل AI lyrics تصبح اصلية او آمنة للنشر تلقائيا؟\nلا. تحتاج الى review بشري،تدقيق للسياق،وفهم لقواعد المنصة واي موافقات مطلوبة."
+      ]
+    },
+    "de": {
+      "title": "AI Lyrics mit einer Rhyme Map schreiben, bevor du generierst",
+      "description": "Ein praktischer Workflow fuer AI song lyrics, damit Reime editierbar bleiben und die Zeilen wirklich singbar werden.",
+      "body": [
+        "Das Problem ist selten, dass AI lyrics nicht reimen koennen. Oft reimen sie zu bereitwillig. Du bekommst saubere couplets, aber die wichtige Zeile landet auf einem schwachen Wort, der Vers klingt schon abgeschlossen, bevor die Story beginnt, und der Chorus glaenzt, ohne etwas Konkretes zu sagen. Eine kleine Rhyme Map vor der Generation gibt dir Kontrolle, ohne den ersten Draft totzuplanen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/tools/ai-lyrics-generator) ist eine AI Music Creation Platform, mit der du Theme, Style Direction, Lyrics und bestimmte Source-Audio-Dateien in pruefbare Music Drafts verwandelst. Im Lyrics Workflow ist sie ein Drafting- und Vergleichswerkzeug: Du startest mit einer klaren Idee, testest lyric options und uebergibst die beste Fassung spaeter an den Song Prompt. Sie ersetzt nicht dein Urteil ueber Bedeutung, Stimme, Kontext oder erlaubtes Material.",
+        "## Waehle die Zeile, die landen muss",
+        "Bevor du einen ganzen Verse anforderst, schreibe die eine Zeile, an die sich der Hoerer erinnern soll. Das kann ein hook, ein emotionaler Satz oder ein konkretes Bild sein. Frage dann: Braucht diese Zeile einen resolved rhyme oder einen offenen Klang? Ein Chorus mit Sicherheit vertraegt oft einen staerkeren Endreim. Ein Verse ueber Zweifel wirkt mit near rhyme oder assonance oft ehrlicher, weil er nicht zu frueh schliesst.",
+        "## Verteile den Reimdruck pro Section",
+        "Gib nicht jeder Section denselben rhyme pressure. Ein Verse kann lockerere Reime tragen, damit die Story weitergeht. Ein Pre-Chorus darf das Pattern verengen, damit der Hook naeher rueckt. Der Chorus braucht weniger Worte, staerkere Enden und ein Bild, das haengen bleibt. Eine Bridge gewinnt oft, wenn sie das Pattern bricht und wie eine neue Entscheidung klingt.",
+        "## Baue eine Map mit vier Spalten",
+        "Notiere eine einfache Tabelle: section, line job, end sound, must keep word. Beispiel: Verse 1 line 2 zeigt den Ort, end sound ay, must keep rain. Chorus line 1 traegt den title, end sound own, must keep home. Das ist noch kein fertiger Text, sondern ein Gelaender. Wenn du mit dem [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) Style-Woerter suchst, setze Mood und Tempo erst ein, nachdem die Funktion der Reime klar ist.",
+        "## Mache daraus einen Prompt",
+        "Ein nuetzlicher Prompt sagt nicht nur write emotional lyrics. Schreibe: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. Den [AI Music Generator](https://easymusic.ai/de/ai-music-generator) nutzt du besser, wenn die Lyrics bereit sind, im Track getestet zu werden, nicht nur als schoener Absatz.",
+        "## Pruefe wie ein Editor",
+        "Lies die Lyrics laut, ohne Musik. Markiere jede Zeile, die den Reim ueber die Bedeutung gestellt hat. Wenn eine Zeile als Caption funktioniert, aber nicht singt, kuerze sie. Wenn der Reim die Persona veraendert, ersetze ihn. EasyMusic.AI gibt dir Drafts; die Rhyme Map gibt dir einen Grund, einen Draft zu behalten und einen anderen abzuweisen.",
+        "## Ideen fuer heute",
+        "- Schreibe zuerst die Hook-Zeile und baue die Reime darum.\n- Lass den Verse offener als den Chorus, damit Bewegung entsteht.\n- Sperre zwei naheliegende Reimwoerter, wenn sie in Cliche ziehen.\n- Lies nur die line endings; wenn sie wie eine Liste klingen, lockere das Pattern.\n- Sammle rejected rhymes separat, weil manche in der Bridge funktionieren.\n- Verlasse dich vor dem Publishing nicht auf den Draft allein; pruefe Kontext, Plattformregeln und Freigaben.",
+        "## FAQ\n### Muessen alle Reime perfekt sein?\nNein. Perfekte Reime fuehlen sich entschlossen an, was im Chorus oft hilft. Near rhyme kann einen unsicheren Verse lebendiger machen.\n### Wie lang sollte eine Rhyme Map sein?\nAcht bis zwoelf Zeilen reichen fuer einen kurzen Song. Du planst nicht jedes Wort, sondern entscheidest, wo der Reim fest und wo er offen sein soll.\n### Macht die Map den Text weniger kreativ?\nSie begrenzt vor allem Zufall. Wenn beim Generieren eine bessere Zeile auftaucht, behalte sie, aber pruefe sie gegen die Section-Funktion.\n### Sind AI lyrics automatisch publikationsreif?\nNein. Du brauchst menschliches Review, Kontextpruefung, Plattformregeln und alle noetigen Erlaubnisse."
+      ]
+    },
+    "en": {
+      "title": "Write AI Lyrics With a Rhyme Map Before You Generate",
+      "description": "A practical AI lyrics workflow for planning rhyme pressure, hook lines, editable drafts, and singable song prompts.",
+      "body": [
+        "The problem with AI lyrics is not usually that they cannot rhyme. It is that they rhyme too eagerly. You get tidy couplets, but the important line lands on a weak word, the verse feels resolved before the story starts, and the chorus shines without saying anything specific. A small rhyme map gives the draft a job before the generator starts filling space.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/tools/ai-lyrics-generator) is an AI music creation platform for turning themes, style direction, lyrics, and some source audio into music drafts you can review. In a lyrics workflow, use it as a drafting and comparison tool: define the song idea, test lyric options, then carry the strongest version into a song prompt. It does not replace your judgment about meaning, voice, permission, platform rules, or release context.",
+        "## Choose the Line That Has to Land",
+        "Before you ask for a whole verse, write the one line the listener must remember. It might be the hook, an emotional promise, or one concrete image. Then ask whether that line needs a resolved rhyme or an open one. A chorus that wants confidence may benefit from a stronger end rhyme. A verse about doubt may feel truer with near rhyme or assonance because the feeling has not fully settled yet.",
+        "## Set Rhyme Pressure by Section",
+        "Do not give every section the same rhyme pressure. A verse can use looser rhymes so the story keeps moving. A pre-chorus can tighten the pattern so the hook feels closer. A chorus usually needs fewer words, stronger endings, and an image that survives after the track stops. A bridge often works best when it breaks the pattern, because it should feel like a new decision rather than a third verse in disguise.",
+        "## Make a Four-Column Map",
+        "Write a simple table in your notes: section, line job, end sound, must keep word. Example: Verse 1 line 2 explains the place, end sound ay, must keep rain. Chorus line 1 carries the title, end sound own, must keep home. This is not the lyric yet; it is a guardrail. If you use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator), add mood and tempo after the rhyme job is clear, not before it.",
+        "## Turn the Map Into a Prompt",
+        "A useful prompt says more than write emotional lyrics. Try: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. Move to the [AI Music Generator](https://easymusic.ai/ai-music-generator) when the lyric is ready to be tested inside a track, not while it is only a polished paragraph.",
+        "## Review Like an Editor",
+        "Read the lyrics aloud without music. Mark every line that chose a rhyme instead of meaning. If a line works as a caption but not as something a person can sing, cut it down. If the rhyme makes the narrator sound like a different persona, change it. EasyMusic.AI can give you drafts; the rhyme map gives you a reason to keep one draft and reject another.",
+        "## Ideas You Can Reuse Today",
+        "- Write the hook line first, then build the surrounding rhyme choices around it.\n- Keep the verse less resolved than the chorus so the song still moves.\n- Ban two obvious rhyme words if they keep pulling the lyric into cliche.\n- Read only the final words of each line; if they sound like a list, loosen the pattern.\n- Save rejected rhymes in a separate note because some of them may fit the bridge.\n- Before publishing, review the lyric for context, permissions, platform rules, and disclosure needs.",
+        "## FAQ\n### Do AI lyrics need perfect rhymes?\nNo. Perfect rhymes can make a line feel settled, which may help in a chorus. Near rhymes can keep a verse more conversational or unresolved.\n### How long should the rhyme map be?\nEight to twelve planned lines are enough for a short song. The map should identify pressure points, not write the entire lyric before the draft exists.\n### Will a rhyme map make the song too rigid?\nOnly if you obey it after it stops helping. Keep any generated line that says the idea better, but compare it against the section job before falling in love with it.\n### Are AI lyrics automatically ready to release?\nNo. Human review, context checks, platform rules, permissions, and client approval are separate from generation."
+      ]
+    },
+    "es": {
+      "title": "Escribe AI lyrics con un rhyme map antes de generar",
+      "description": "Workflow practico para planificar rhyme pressure, hook lines, drafts editables y prompts de canciones mas cantables.",
+      "body": [
+        "El problema con AI lyrics no suele ser que no sepan rimar. Es que riman con demasiadas ganas. Obtienes couplets ordenados, pero la linea importante cae en una palabra debil, el verse se cierra antes de que empiece la historia y el chorus brilla sin decir algo concreto. Un rhyme map pequeno le da trabajo al draft antes de que el generador rellene espacio.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/tools/ai-lyrics-generator) es una plataforma de AI music creation para convertir themes, style direction, lyrics y parte del source audio en music drafts que puedes revisar. En un workflow de lyrics, usala como herramienta de drafting y comparacion: define la idea, prueba opciones de letra y lleva la version mas fuerte al song prompt. No sustituye tu criterio sobre significado, voz, permisos, reglas de plataforma ni contexto de publicacion.",
+        "## Elige la linea que debe aterrizar",
+        "Antes de pedir un verse completo, escribe la linea que el oyente debe recordar. Puede ser el hook, una promesa emocional o una imagen concreta. Luego pregunta si necesita una rima resuelta o abierta. Un chorus que busca confianza puede usar una end rhyme mas fuerte. Un verse sobre duda puede sonar mas verdadero con near rhyme o assonance, porque la emocion todavia no esta cerrada.",
+        "## Define rhyme pressure por seccion",
+        "No des la misma presion de rima a cada section. Un verse puede usar rhymes mas sueltas para que la historia avance. Un pre-chorus puede apretar el pattern para acercar el hook. Un chorus suele necesitar menos palabras, finales mas fuertes y una imagen que quede despues del track. Un bridge funciona mejor cuando rompe el pattern y suena como una decision nueva.",
+        "## Haz un mapa de cuatro columnas",
+        "Escribe una tabla simple: section, line job, end sound, must keep word. Ejemplo: Verse 1 line 2 explica el lugar, end sound ay, must keep rain. Chorus line 1 lleva el title, end sound own, must keep home. Todavia no es la letra; es una baranda. Si usas el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator), agrega mood y tempo despues de aclarar la funcion de la rima.",
+        "## Convierte el mapa en prompt",
+        "Un prompt util dice mas que write emotional lyrics. Prueba: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. Pasa al [AI Music Generator](https://easymusic.ai/es/ai-music-generator) cuando la lyric este lista para probarse dentro de un track, no cuando solo parece un parrafo pulido.",
+        "## Revisa como editor",
+        "Lee la letra en voz alta sin musica. Marca cada linea que eligio rhyme en lugar de meaning. Si una linea sirve como caption pero no como algo que alguien cantaria, recortala. Si la rima cambia la persona que habla, cambiala. EasyMusic.AI puede darte drafts; el rhyme map te da una razon para quedarte con uno y rechazar otro.",
+        "## Ideas reutilizables",
+        "- Escribe primero la hook line y construye las rimas alrededor.\n- Deja el verse menos resuelto que el chorus para que la cancion avance.\n- Prohibe dos palabras faciles si arrastran la letra hacia cliche.\n- Lee solo las palabras finales de cada line; si suenan como lista, afloja el pattern.\n- Guarda rejected rhymes aparte porque algunas pueden servir en el bridge.\n- Antes de publicar, revisa contexto, permisos, reglas de plataforma y disclosure.",
+        "## FAQ\n### Las AI lyrics necesitan rimas perfectas?\nNo. Las rimas perfectas dan sensacion de cierre, util en un chorus. Near rhyme puede mantener un verse mas conversacional o abierto.\n### Que largo debe tener el rhyme map?\nOcho a doce lineas planeadas bastan para una cancion corta. El mapa identifica puntos de presion, no escribe toda la letra.\n### El mapa vuelve rigida la cancion?\nSolo si lo obedeces cuando ya no ayuda. Conserva cualquier linea generada que diga mejor la idea, pero comparala con la funcion de la seccion.\n### AI lyrics quedan listas para release automaticamente?\nNo. Revision humana, contexto, reglas de plataforma, permisos y aprobacion del cliente son checks separados."
+      ]
+    },
+    "fr": {
+      "title": "Ecrire des AI lyrics avec une rhyme map avant de generer",
+      "description": "Workflow pratique pour planifier les rimes, les hook lines, les drafts editables et des prompts de chanson plus chantables.",
+      "body": [
+        "Le probleme des AI lyrics n est pas souvent l absence de rime. C est plutot l envie de tout faire rimer trop vite. Tu obtiens des couplets propres, mais la ligne importante tombe sur un mot faible, le verse parait resolu avant que l histoire commence, et le chorus brille sans dire quelque chose de precis. Une petite rhyme map donne une mission au draft avant que le generateur remplisse l espace.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/tools/ai-lyrics-generator) est une plateforme de AI music creation qui transforme themes, style direction, lyrics et certains source audio en music drafts a reviser. Dans un workflow lyrics, utilise-la comme outil de drafting et de comparaison: definir l idee, tester des options de paroles, puis porter la meilleure version vers le song prompt. Elle ne remplace pas ton jugement sur le sens, la voix, les permissions, les regles de plateforme ou le contexte de sortie.",
+        "## Choisis la ligne qui doit compter",
+        "Avant de demander un verse entier, ecris la ligne dont l auditeur doit se souvenir. Cela peut etre le hook, une promesse emotionnelle ou une image concrete. Demande ensuite si cette ligne a besoin d une rime resolue ou ouverte. Un chorus qui cherche la confiance peut supporter une end rhyme plus forte. Un verse sur le doute peut sonner plus juste avec near rhyme ou assonance.",
+        "## Regle la pression de rime par section",
+        "Ne donne pas la meme rhyme pressure a chaque section. Un verse peut garder des rimes plus souples pour laisser l histoire avancer. Un pre-chorus peut resserrer le pattern pour rapprocher le hook. Un chorus a souvent besoin de moins de mots, de fins plus fortes et d une image qui reste. Une bridge fonctionne souvent mieux quand elle casse le pattern et ressemble a une decision nouvelle.",
+        "## Fais une carte en quatre colonnes",
+        "Note une table simple: section, line job, end sound, must keep word. Exemple: Verse 1 line 2 explique le lieu, end sound ay, must keep rain. Chorus line 1 porte le title, end sound own, must keep home. Ce n est pas encore la lyric; c est une rambarde. Si tu utilises le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator), ajoute mood et tempo apres avoir clarifie le role de la rime.",
+        "## Transforme la map en prompt",
+        "Un prompt utile ne dit pas seulement write emotional lyrics. Essaie: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. Passe au [AI Music Generator](https://easymusic.ai/fr/ai-music-generator) quand la lyric est prete a etre testee dans un track, pas quand elle est seulement un beau paragraphe.",
+        "## Relis comme un editor",
+        "Lis les lyrics a voix haute sans musique. Marque chaque ligne qui a choisi rhyme au lieu de meaning. Si une ligne marche comme caption mais pas comme phrase chantable, raccourcis-la. Si la rime change la persona qui parle, remplace-la. EasyMusic.AI peut donner des drafts; la rhyme map donne une raison de garder un draft et d en rejeter un autre.",
+        "## Idees reutilisables",
+        "- Ecris d abord la hook line, puis construis les rimes autour.\n- Garde le verse moins resolu que le chorus pour que la chanson avance.\n- Interdis deux mots faciles s ils poussent la lyric vers le cliche.\n- Lis seulement les derniers mots de chaque line; si cela sonne comme une liste, desserre le pattern.\n- Garde les rejected rhymes dans une note separee, certaines peuvent servir au bridge.\n- Avant publication, verifie contexte, permissions, regles de plateforme et disclosure.",
+        "## FAQ\n### Les AI lyrics doivent-elles avoir des rimes parfaites?\nNon. Les rimes parfaites donnent une sensation de resolution, utile parfois dans un chorus. Near rhyme peut garder un verse plus vivant ou incertain.\n### Quelle longueur pour une rhyme map?\nHuit a douze lignes planifiees suffisent pour une chanson courte. La map indique les points de pression, elle n ecrit pas toute la lyric.\n### La map rend-elle la chanson trop rigide?\nSeulement si tu continues a l obeir quand elle n aide plus. Garde une meilleure ligne generee, mais compare-la au role de la section.\n### Les AI lyrics sont-elles automatiquement pretes a publier?\nNon. Review humain, contexte, regles de plateforme, permissions et validation client restent des checks separes."
+      ]
+    },
+    "it": {
+      "title": "Scrivi AI lyrics con una rhyme map prima di generare",
+      "description": "Workflow pratico per pianificare rhyme pressure, hook lines, draft modificabili e prompt di canzone piu cantabili.",
+      "body": [
+        "Il problema delle AI lyrics non e quasi mai che non sappiano fare rima. Spesso fanno rima troppo in fretta. Ottieni couplets ordinati, ma la riga importante cade su una parola debole, il verse sembra gia chiuso prima che la storia inizi, e il chorus brilla senza dire qualcosa di preciso. Una piccola rhyme map da al draft un compito prima che il generatore riempia lo spazio.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/tools/ai-lyrics-generator) e una piattaforma di AI music creation per trasformare themes, style direction, lyrics e alcuni source audio in music drafts da rivedere. In un lyrics workflow, usala come strumento di drafting e confronto: definisci l idea, prova lyric options e porta la versione piu forte nel song prompt. Non sostituisce il tuo giudizio su significato, voce, permessi, regole di piattaforma o contesto di pubblicazione.",
+        "## Scegli la riga che deve arrivare",
+        "Prima di chiedere un verse intero, scrivi la riga che l ascoltatore deve ricordare. Puo essere il hook, una promessa emotiva o un immagine concreta. Poi chiediti se quella riga ha bisogno di una rima risolta o aperta. Un chorus che vuole sicurezza puo reggere una end rhyme piu forte. Un verse sul dubbio puo suonare piu vero con near rhyme o assonance.",
+        "## Imposta la pressione della rima per sezione",
+        "Non dare a ogni section la stessa rhyme pressure. Un verse puo usare rime piu libere per far muovere la storia. Un pre-chorus puo stringere il pattern per avvicinare il hook. Un chorus di solito ha bisogno di meno parole, finali piu forti e un immagine che resta. Un bridge spesso funziona quando rompe il pattern e sembra una nuova decisione.",
+        "## Crea una mappa a quattro colonne",
+        "Scrivi una tabella semplice: section, line job, end sound, must keep word. Esempio: Verse 1 line 2 spiega il luogo, end sound ay, must keep rain. Chorus line 1 porta il title, end sound own, must keep home. Non e ancora la lyric; e una guida. Se usi il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator), aggiungi mood e tempo dopo aver chiarito il lavoro della rima.",
+        "## Trasforma la mappa in prompt",
+        "Un prompt utile non dice solo write emotional lyrics. Prova: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. Passa al [AI Music Generator](https://easymusic.ai/it/ai-music-generator) quando la lyric e pronta per essere provata dentro un track, non quando e solo un paragrafo elegante.",
+        "## Rivedi come un editor",
+        "Leggi le lyrics ad alta voce senza musica. Segna ogni riga che ha scelto rhyme invece di meaning. Se una riga funziona come caption ma non come frase cantabile, accorciala. Se la rima cambia la persona che parla, cambiala. EasyMusic.AI puo darti drafts; la rhyme map ti da un motivo per tenerne uno e scartarne un altro.",
+        "## Idee riutilizzabili",
+        "- Scrivi prima la hook line e costruisci le rime intorno.\n- Tieni il verse meno risolto del chorus, cosi la canzone si muove.\n- Blocca due parole ovvie se portano la lyric verso cliche.\n- Leggi solo le ultime parole di ogni line; se sembrano una lista, allenta il pattern.\n- Salva rejected rhymes a parte, alcune possono funzionare nel bridge.\n- Prima di pubblicare, rivedi contesto, permessi, regole di piattaforma e disclosure.",
+        "## FAQ\n### Le AI lyrics hanno bisogno di rime perfette?\nNo. Le rime perfette danno una sensazione di chiusura, utile a volte nel chorus. Near rhyme puo mantenere un verse piu conversazionale o aperto.\n### Quanto deve essere lunga una rhyme map?\nOtto-dodici righe pianificate bastano per una canzone breve. La mappa trova i punti di pressione, non scrive tutta la lyric.\n### La mappa rende la canzone rigida?\nSolo se la segui quando non aiuta piu. Tieni una riga generata migliore, ma confrontala con il lavoro della section.\n### Le AI lyrics sono automaticamente pronte per release?\nNo. Review umano, contesto, regole di piattaforma, permessi e approvazione del cliente sono controlli separati."
+      ]
+    },
+    "ja": {
+      "title": "生成前に rhyme map を作って AI lyrics を書く",
+      "description": "AI lyrics の rhyme pressure、hook line、編集しやすい draft、歌いやすい song prompt を作る workflow。",
+      "body": [
+        "AI lyrics の問題は、韻を踏めないことではない場合が多いです。むしろ韻を踏みたがりすぎます。整った couplets は出るのに、大事な line が弱い word に落ち、verse は story が始まる前に解決したように聞こえ、chorus は光っているのに具体的なことを言いません。小さな rhyme map があると、generator が空白を埋める前に draft の役割を決められます。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/tools/ai-lyrics-generator) は themes、style direction、lyrics、そして一部の source audio から review できる music drafts を作る AI music creation platform です。Lyrics workflow では drafting と comparison の tool として使います。Song idea を決め、lyric options を試し、いちばん強い version を song prompt に渡します。Meaning、voice、permission、platform rules、release context の判断までは置き換えません。",
+        "## 必ず届かせる line を選ぶ",
+        "Verse 全体を頼む前に、listener が覚えるべき一行を書きます。Hook、emotional promise、具体的な image のどれでも構いません。次に、その line には resolved rhyme が必要か、open rhyme が合うかを考えます。自信のある chorus には強い end rhyme が合うことがあります。迷いを描く verse なら、near rhyme や assonance の方が気持ちが閉じすぎません。",
+        "## section ごとに rhyme pressure を変える",
+        "すべての section に同じ rhyme pressure をかけないでください。Verse はゆるい rhyme で story を進められます。Pre-chorus は pattern を少し狭めると hook が近づきます。Chorus は少ない言葉、強い ending、残る image が必要です。Bridge は pattern を壊すことで、三つ目の verse ではなく新しい decision に聞こえます。",
+        "## 四列の map を作る",
+        "Notes に簡単な table を書きます。section、line job、end sound、must keep word。例: Verse 1 line 2 は place を説明、end sound は ay、must keep は rain。Chorus line 1 は title を持つ、end sound は own、must keep は home。これは完成 lyric ではなく guardrail です。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) を使うなら、rhyme job が見えてから mood と tempo を足します。",
+        "## map を prompt に変える",
+        "Useful prompt は write emotional lyrics だけでは足りません。write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines のようにします。[AI Music Generator](https://easymusic.ai/ja/ai-music-generator) に移るのは、lyric が track の中で test できる段階になってからです。",
+        "## editor のように review する",
+        "Music なしで lyrics を声に出して読みます。Meaning より rhyme を選んだ line に印を付けます。Caption としてはよくても歌えない line は短くします。Rhyme のせいで narrator の persona が変わるなら差し替えます。EasyMusic.AI は drafts を出せますが、rhyme map はどの draft を残すかの理由をくれます。",
+        "## 今日使える ideas",
+        "- 先に hook line を書き、その周りの rhyme choice を作る。\n- Verse は chorus より未解決にして、song が動くようにする。\n- Cliche に引っ張る easy rhyme words を二つ禁止する。\n- 各 line の最後の words だけ読む。List に聞こえるなら pattern を緩める。\n- Rejected rhymes は別 note に残す。Bridge で使えることがある。\n- Publishing 前に context、permissions、platform rules、disclosure を確認する。",
+        "## FAQ\n### AI lyrics には perfect rhyme が必要ですか？\nいいえ。Perfect rhyme は settled な感じを出し、chorus では役立つことがあります。Near rhyme は verse を conversational または unresolved に保てます。\n### rhyme map はどれくらい必要ですか？\n短い song なら八から十二 line で十分です。Map は pressure point を示すもので、全 lyric を先に書くものではありません。\n### map は song を硬くしますか？\n役に立たなくなっても従う場合だけです。よりよい generated line は残し、section job と比べて判断します。\n### AI lyrics は自動的に release-ready ですか？\nいいえ。Human review、context check、platform rules、permissions、client approval は generation とは別の確認です。"
+      ]
+    },
+    "ko": {
+      "title": "생성 전에 rhyme map 으로 AI lyrics 쓰기",
+      "description": "AI lyrics의 rhyme pressure, hook line, editable draft, singable song prompt를 준비하는 실전 workflow.",
+      "body": [
+        "AI lyrics의 문제는 보통 rhyme을 못 한다는 점이 아닙니다. 너무 쉽게 rhyme을 한다는 점입니다. 깔끔한 couplets는 나오지만 중요한 line이 약한 word에 떨어지고, verse는 story가 시작되기 전에 이미 닫힌 듯하며, chorus는 번쩍이지만 구체적으로 말하지 않습니다. 작은 rhyme map은 generator가 빈칸을 채우기 전에 draft의 일을 정해 줍니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/tools/ai-lyrics-generator)는 themes, style direction, lyrics, 일부 source audio를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Lyrics workflow에서는 drafting과 comparison tool로 쓰세요. Song idea를 정하고, lyric options를 시험한 뒤, 가장 강한 version을 song prompt로 넘깁니다. Meaning, voice, permission, platform rules, release context에 대한 판단을 대신하지는 않습니다.",
+        "## 반드시 남아야 할 line 고르기",
+        "전체 verse를 요청하기 전에 listener가 기억해야 할 한 줄을 씁니다. Hook, emotional promise, concrete image 중 무엇이든 됩니다. 그 line에 resolved rhyme이 필요한지, open rhyme이 맞는지 묻습니다. Confidence가 필요한 chorus에는 strong end rhyme이 도움이 될 수 있습니다. Doubt를 다루는 verse라면 near rhyme이나 assonance가 감정을 너무 빨리 닫지 않습니다.",
+        "## section별 rhyme pressure 정하기",
+        "모든 section에 같은 rhyme pressure를 주지 마세요. Verse는 느슨한 rhyme으로 story를 계속 움직일 수 있습니다. Pre-chorus는 pattern을 조금 조여 hook이 가까워지게 합니다. Chorus는 적은 words, 강한 endings, 남는 image가 필요합니다. Bridge는 pattern을 깨야 세 번째 verse가 아니라 새로운 decision처럼 들립니다.",
+        "## 네 칸 map 만들기",
+        "Notes에 간단한 table을 씁니다. section, line job, end sound, must keep word. 예: Verse 1 line 2는 place를 설명, end sound는 ay, must keep은 rain. Chorus line 1은 title을 담당, end sound는 own, must keep은 home. 이것은 완성 lyric이 아니라 guardrail입니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)를 쓴다면 rhyme job이 분명해진 뒤 mood와 tempo를 더하세요.",
+        "## map을 prompt로 바꾸기",
+        "쓸 만한 prompt는 write emotional lyrics보다 구체적입니다. write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines처럼 씁니다. Lyric이 polished paragraph가 아니라 track 안에서 test할 준비가 되었을 때 [AI Music Generator](https://easymusic.ai/ko/ai-music-generator)로 이동하세요.",
+        "## editor처럼 review하기",
+        "Music 없이 lyrics를 소리 내어 읽습니다. Meaning 대신 rhyme을 고른 line을 표시하세요. Caption으로는 괜찮지만 사람이 부르기 어렵다면 줄입니다. Rhyme 때문에 narrator의 persona가 바뀐다면 바꾸세요. EasyMusic.AI는 drafts를 줄 수 있지만, rhyme map은 어떤 draft를 남기고 어떤 draft를 버릴지 이유를 줍니다.",
+        "## 오늘 바로 쓸 ideas",
+        "- Hook line을 먼저 쓰고 그 주변 rhyme choices를 만듭니다.\n- Verse는 chorus보다 덜 resolved하게 두어 song이 움직이게 합니다.\n- Cliche로 끌고 가는 obvious rhyme words 두 개를 금지합니다.\n- 각 line의 final words만 읽습니다. List처럼 들리면 pattern을 느슨하게 하세요.\n- Rejected rhymes를 따로 저장하세요. Bridge에서 맞을 수 있습니다.\n- Publishing 전 context, permissions, platform rules, disclosure를 따로 확인하세요.",
+        "## FAQ\n### AI lyrics에는 perfect rhyme이 필요한가요?\n아닙니다. Perfect rhyme은 settled한 느낌을 주어 chorus에 유용할 수 있습니다. Near rhyme은 verse를 더 conversational하거나 unresolved하게 유지합니다.\n### rhyme map은 얼마나 길어야 하나요?\n짧은 song에는 여덟 줄에서 열두 줄이면 충분합니다. Map은 pressure point를 정하는 것이지 lyric 전체를 미리 쓰는 것이 아닙니다.\n### map이 song을 너무 딱딱하게 만들까요?\n도움이 끝난 뒤에도 그대로 따를 때만 그렇습니다. 더 좋은 generated line은 남기되 section job과 비교하세요.\n### AI lyrics는 자동으로 release-ready인가요?\n아닙니다. Human review, context check, platform rules, permissions, client approval은 generation과 별개의 check입니다."
+      ]
+    },
+    "pt": {
+      "title": "Escreva AI lyrics com rhyme map antes de gerar",
+      "description": "Workflow pratico para planejar rhyme pressure, hook lines, drafts editaveis e prompts de musica mais cantaveis.",
+      "body": [
+        "O problema das AI lyrics geralmente nao e falta de rima. E rima demais, cedo demais. Voce recebe couplets arrumados, mas a linha importante cai numa palavra fraca, o verse parece resolvido antes da historia comecar, e o chorus brilha sem dizer algo especifico. Um pequeno rhyme map da um trabalho ao draft antes de o gerador preencher espaco.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/tools/ai-lyrics-generator) e uma plataforma de AI music creation para transformar themes, style direction, lyrics e alguns source audio em music drafts que voce pode revisar. Em um lyrics workflow, use como ferramenta de drafting e comparacao: defina a ideia, teste lyric options e leve a melhor versao para o song prompt. Ela nao substitui seu julgamento sobre sentido, voz, permissao, regras de plataforma ou contexto de release.",
+        "## Escolha a linha que precisa chegar",
+        "Antes de pedir um verse inteiro, escreva a linha que o listener deve lembrar. Pode ser hook, promessa emocional ou uma image concreta. Depois pergunte se essa linha precisa de resolved rhyme ou de algo mais aberto. Um chorus que quer confianca pode ganhar com end rhyme forte. Um verse sobre duvida pode soar mais verdadeiro com near rhyme ou assonance.",
+        "## Defina rhyme pressure por section",
+        "Nao de a cada section a mesma rhyme pressure. Um verse pode usar rhymes mais soltas para a historia continuar. Um pre-chorus pode apertar o pattern para o hook parecer mais perto. Um chorus geralmente precisa de menos palavras, endings mais fortes e uma image que fique. Um bridge costuma funcionar quando quebra o pattern e soa como uma decisao nova.",
+        "## Monte uma map de quatro colunas",
+        "Escreva uma table simples: section, line job, end sound, must keep word. Exemplo: Verse 1 line 2 explica o lugar, end sound ay, must keep rain. Chorus line 1 carrega o title, end sound own, must keep home. Isso ainda nao e lyric; e guardrail. Se voce usar o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator), adicione mood e tempo depois que a funcao da rima estiver clara.",
+        "## Transforme a map em prompt",
+        "Um prompt util diz mais que write emotional lyrics. Tente: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. Passe para o [AI Music Generator](https://easymusic.ai/pt/ai-music-generator) quando a lyric estiver pronta para ser testada dentro de um track, nao quando for apenas um paragrafo polido.",
+        "## Revise como editor",
+        "Leia as lyrics em voz alta sem musica. Marque cada linha que escolheu rhyme em vez de meaning. Se a linha funciona como caption mas nao como algo que uma pessoa cantaria, encurte. Se a rima muda a persona de quem fala, troque. EasyMusic.AI pode dar drafts; o rhyme map da uma razao para manter um draft e rejeitar outro.",
+        "## Ideias reutilizaveis",
+        "- Escreva a hook line primeiro e construa as rimas ao redor.\n- Deixe o verse menos resolvido que o chorus para a musica se mover.\n- Proiba duas palavras obvias se elas puxarem a lyric para cliche.\n- Leia apenas as final words de cada line; se parecer lista, solte o pattern.\n- Guarde rejected rhymes em uma note separada, pois algumas podem caber no bridge.\n- Antes de publicar, revise contexto, permissoes, platform rules e disclosure.",
+        "## FAQ\n### AI lyrics precisam de rimas perfeitas?\nNao. Rimas perfeitas dao sensacao de fechamento, util em alguns choruses. Near rhyme pode manter o verse mais conversacional ou aberto.\n### Qual tamanho deve ter o rhyme map?\nOito a doze linhas planejadas bastam para uma musica curta. A map identifica pressure points, nao escreve a lyric inteira.\n### A map deixa a musica rigida?\nSo se voce obedecer quando ela ja nao ajuda. Mantenha qualquer generated line melhor, mas compare com o trabalho da section.\n### AI lyrics ficam automaticamente prontas para release?\nNao. Human review, context checks, platform rules, permissions e aprovacao do cliente sao checks separados."
+      ]
+    },
+    "ru": {
+      "title": "Пишите AI lyrics с rhyme map до генерации",
+      "description": "Практический workflow для AI lyrics: rhyme pressure, hook lines, редактируемые drafts и более singable song prompts.",
+      "body": [
+        "Проблема AI lyrics обычно не в том, что они не умеют рифмоваться. Часто они рифмуются слишком охотно. Вы получаете аккуратные couplets, но важная line падает на слабое word, verse звучит завершенным до начала истории, а chorus блестит, но не говорит ничего конкретного. Небольшая rhyme map дает draft задачу до того, как generator начнет заполнять пустоты.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/tools/ai-lyrics-generator) - это AI music creation platform, которая превращает themes, style direction, lyrics и часть source audio в music drafts для review. В lyrics workflow используйте ее как tool для drafting и comparison: определите song idea, проверьте lyric options и перенесите сильнейшую version в song prompt. Она не заменяет ваше judgment о meaning, voice, permission, platform rules или release context.",
+        "## Выберите line, которая должна сработать",
+        "До запроса полного verse напишите одну line, которую listener должен запомнить. Это может быть hook, emotional promise или конкретный image. Затем спросите, нужен ли этой line resolved rhyme или более открытый звук. Chorus, которому нужна confidence, может выиграть от сильной end rhyme. Verse о сомнении часто честнее звучит с near rhyme или assonance.",
+        "## Задайте rhyme pressure по section",
+        "Не давайте каждой section одинаковую rhyme pressure. Verse может держать более свободные rhymes, чтобы story двигалась. Pre-chorus может сжать pattern, чтобы hook стал ближе. Chorus обычно требует меньше words, сильных endings и image, который остается после track. Bridge часто работает лучше, когда ломает pattern и звучит как новое decision.",
+        "## Сделайте map из четырех колонок",
+        "В notes напишите простую table: section, line job, end sound, must keep word. Пример: Verse 1 line 2 объясняет place, end sound ay, must keep rain. Chorus line 1 несет title, end sound own, must keep home. Это еще не lyric, а guardrail. Если используете [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator), добавляйте mood и tempo после того, как понятна задача рифмы.",
+        "## Превратите map в prompt",
+        "Полезный prompt говорит больше, чем write emotional lyrics. Попробуйте: write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines. Переходите к [AI Music Generator](https://easymusic.ai/ru/ai-music-generator), когда lyric готова к тесту внутри track, а не когда это просто красивый paragraph.",
+        "## Редактируйте как editor",
+        "Прочитайте lyrics вслух без музыки. Отметьте каждую line, где rhyme победила meaning. Если line работает как caption, но не как то, что человек споет, сократите ее. Если rhyme меняет persona рассказчика, замените ее. EasyMusic.AI может дать drafts; rhyme map дает причину оставить один draft и отвергнуть другой.",
+        "## Идеи на сегодня",
+        "- Сначала напишите hook line, затем стройте rhyme choices вокруг нее.\n- Оставьте verse менее resolved, чем chorus, чтобы song двигалась.\n- Запретите два obvious rhyme words, если они тянут lyric в cliche.\n- Прочитайте только final words каждой line; если они звучат как список, ослабьте pattern.\n- Сохраняйте rejected rhymes отдельно, некоторые подойдут для bridge.\n- До публикации проверьте context, permissions, platform rules и disclosure.",
+        "## FAQ\n### Нужны ли AI lyrics perfect rhymes?\nНет. Perfect rhymes дают ощущение завершенности, что иногда помогает chorus. Near rhyme может оставить verse более разговорным или unresolved.\n### Какой длины должна быть rhyme map?\nДля короткой song достаточно восьми-двенадцати planned lines. Map показывает pressure points, а не пишет всю lyric заранее.\n### Сделает ли map song слишком жесткой?\nТолько если подчиняться ей после того, как она перестала помогать. Сохраняйте лучшую generated line, но сверяйте ее с section job.\n### AI lyrics автоматически готовы к release?\nНет. Human review, context checks, platform rules, permissions и client approval - отдельные проверки."
+      ]
+    },
+    "zh": {
+      "title": "生成前先用 rhyme map 写 AI lyrics",
+      "description": "一个 AI lyrics workflow，用来规划 rhyme pressure、hook line、可编辑 draft 和更适合演唱的 song prompt。",
+      "body": [
+        "AI lyrics 的问题通常不是不会押韵，而是太急着押韵。你会得到整齐的 couplets，但最重要的 line 落在弱 word 上，verse 在 story 开始前就像已经收尾，chorus 很亮，却没有说出具体东西。一个小小的 rhyme map，可以在 generator 填空之前，先给 draft 分配任务。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/tools/ai-lyrics-generator) 是一个 AI music creation platform，可以把 themes、style direction、lyrics，以及部分 source audio 变成可 review 的 music drafts。在 lyrics workflow 里，把它当作 drafting 和 comparison tool：先定义 song idea，测试 lyric options，再把最强的 version 放进 song prompt。它不能替代你对 meaning、voice、permission、platform rules 和 release context 的判断。",
+        "## 先选必须落地的 line",
+        "不要一开始就要求完整 verse。先写出 listener 必须记住的一行。它可以是 hook、emotional promise，或一个具体 image。然后问：这行需要 resolved rhyme，还是更开放的 rhyme？需要 confidence 的 chorus 可能适合更强的 end rhyme。关于 doubt 的 verse，near rhyme 或 assonance 往往更自然，因为情绪还没有完全落定。",
+        "## 按 section 调整 rhyme pressure",
+        "不要让每个 section 承受同样的 rhyme pressure。Verse 可以用松一点的 rhymes，让 story 继续移动。Pre-chorus 可以稍微收紧 pattern，让 hook 感觉更近。Chorus 通常需要更少 words、更强 endings，以及 track 停下后还能留下的 image。Bridge 往往要打破 pattern，听起来才像新的 decision，而不是伪装成第三段 verse。",
+        "## 做一张四列表",
+        "在 notes 里写一个简单 table：section、line job、end sound、must keep word。例如：Verse 1 line 2 说明 place，end sound 是 ay，must keep 是 rain。Chorus line 1 承担 title，end sound 是 own，must keep 是 home。这还不是 lyric，而是 guardrail。如果使用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator)，先确认 rhyme job，再加入 mood 和 tempo。",
+        "## 把 map 变成 prompt",
+        "有用的 prompt 不只是 write emotional lyrics。可以写：write a verse-pre-chorus-chorus lyric, verse uses loose A/B near rhymes, chorus uses stronger end rhymes, keep the phrase last train home, avoid forced perfect rhymes, simple singable lines。当 lyric 已经可以放进 track 里测试，而不只是一个漂亮 paragraph 时，再进入 [AI Music Generator](https://easymusic.ai/zh/ai-music-generator)。",
+        "## 像 editor 一样 review",
+        "不放 music，直接把 lyrics 读出声。标记所有为了 rhyme 放弃 meaning 的 line。如果一句话适合做 caption，却不像人能唱出来，就缩短。若 rhyme 让 narrator 的 persona 变了，就换掉。EasyMusic.AI 可以给你 drafts；rhyme map 给你保留一个 draft、拒绝另一个 draft 的理由。",
+        "## 今天可复用的 ideas",
+        "- 先写 hook line，再围绕它安排 rhyme choices。\n- 让 verse 比 chorus 更少 resolved，这样 song 才会向前走。\n- 禁用两个 obvious rhyme words，如果它们总把 lyric 拉向 cliche。\n- 只读每条 line 的 final words；如果像清单，就放松 pattern。\n- 把 rejected rhymes 单独保存，有些可能适合 bridge。\n- 发布前单独检查 context、permissions、platform rules 和 disclosure。",
+        "## FAQ\n### AI lyrics 必须用 perfect rhymes 吗？\n不必。Perfect rhyme 会带来 settled 的感觉，有时适合 chorus。Near rhyme 可以让 verse 更 conversational 或 unresolved。\n### rhyme map 要多长？\n短 song 用八到十二条 planned lines 就够了。Map 是找 pressure points，不是提前写完整 lyric。\n### map 会让 song 变死板吗？\n只有在它不再有帮助时还硬照做才会。保留更好的 generated line，但要和 section job 对照。\n### AI lyrics 会自动 release-ready 吗？\n不会。Human review、context checks、platform rules、permissions 和 client approval 都是 generation 之外的独立检查。"
+      ]
+    }
+  }
+}
