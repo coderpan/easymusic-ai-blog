@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-03",
+  "slug": "image-to-music-prompt-translation-workflow",
+  "cluster": "image-to-music-prompt-guidance",
+  "translations": {
+    "ar": {
+      "title": "حوّل الصورة إلى AI music prompt من دون تخمين",
+      "description": "Workflow عملي لترجمة visual reference إلى tempo،texture،structure،وقيود واضحة قبل توليد الموسيقى.",
+      "body": [
+        "لديك صورة قوية: شارع ممطر،غلاف منتج،لوحة الوان هادئة،او لقطة وجه قريبة. المشكلة ان الصورة لا تخبرك وحدها بالtempo،ولا تقول هل تريد melody امامية او bed خفيف،ولا تعرف اين سيستخدم المقطع. اذا كتبت فقط music for this image،ستحصل غالبا على mood عام. الافضل ان تترجم الصورة إلى قرارات موسيقية صغيرة قبل generation.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/google-lyria-ai-music-generator) منصة AI music creation تساعدك على تحويل text prompts،style direction،lyrics،وبعض image أو source-audio ideas إلى music drafts قابلة للمراجعة. تعامل مع image-to-music workflow كمرحلة briefing: الصورة تعطي اشارات،لكن اختيار track،الحقوق،السياق،وقواعد المنصة تبقى مسؤولية مراجعة بشرية.",
+        "## سمّ الأشياء المرئية قبل المزاج",
+        "ابدأ بخمس ملاحظات يمكن لشخص آخر رؤيتها ايضا: subject،lighting،motion،space،color. مثال: product bottle on wet concrete،blue evening light،slow camera push،wide empty space،silver and dark green. بعد ذلك فقط اكتب mood مثل tense أو premium أو calm. اذا بدأت بالمزاج،قد تختار الاداة كلمة واسعة؛اذا بدأت بالاشياء المرئية،تجبر نفسك على سماع تفاصيل ادق.",
+        "## افصل الصورة عن القرار الموسيقي",
+        "اكتب ثلاثة اعمدة: visual cue،music decision،avoid. Rain on glass قد يعني soft noise texture وليس thunder. Empty room قد يعني fewer instruments وليس sad piano دائما. Bright red packaging قد يعني sharper attacks وليس higher volume. هذا الفصل يمنع prompt من نسخ surface الصورة فقط،ويحوله إلى direction يمكن سماعها.",
+        "## اكتب prompt من اربع طبقات",
+        "الطبقة الاولى هي job: 20-second product reveal, calm landing page loop, or album cover teaser. الثانية هي scene words من الصورة. الثالثة هي music form: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. الرابعة هي exclusions: no vocals, no busy lead, no horror sting, no famous artist reference. اذا كانت style words متبعثرة،يمكن استخدام [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لترتيب genre،instrument،mood،texture،ثم حذف الكلمات التي لا تسمعها فعلا.",
+        "## اصنع نسختين متعاكستين",
+        "لا تختبر draft واحدا فقط. اصنع نسخة literal تتبع الصورة بقرب،ونسخة counter-score تخالفها قليلا: صورة باردة مع pulse دافئ،او لقطة فاخرة مع arrangement بسيط. ثم افتح [AI Music Generator](https://easymusic.ai/ar/ai-music-generator) عندما تعرف هل تريد music أن تؤكد الصورة أم تعطيها توترا جديدا. الفرق بين النسختين يعلمك اكثر من عشر كلمات اضافية في prompt واحد.",
+        "## راجع حسب مكان الاستخدام",
+        "الصورة ليست الحكم النهائي. شغل الموسيقى تحت الفيديو،صفحة المنتج،story،او العرض الحقيقي. هل تغطي voiceover؟ هل تدفع edit بسرعة غير مريحة؟ هل تبدو اكبر من العلامة التجارية؟ هل الصورة نفسها مملوكة لك او مسموح استخدامها لهذا الغرض؟ احتفظ بnote تضم image source،prompt،version،planned channel،وما الذي رفضته.",
+        "## افكار قابلة للتطبيق اليوم",
+        "- استخرج خمس facts مرئية قبل كتابة اي mood words.\n- حوّل كل color او texture إلى قرار مسموع،لا إلى صفة عامة.\n- اكتب avoid-list قصيرة كي لا تطغى الصورة على الوظيفة.\n- جرّب literal draft وcounter-score draft قبل اختيار الاتجاه.\n- اختبر النتيجة على الهاتف او الصفحة التي ستظهر فيها،لا في player منفصل فقط.",
+        "## FAQ\n### هل تكفي الصورة وحدها للحصول على track جيد؟\nنادرا. الصورة تعطي mood وtexture،لكنها لا تحدد duration،role،density،او platform context.\n### هل يجب وصف كل شيء في الصورة؟\nلا. اختر العناصر التي تغير الصوت: الحركة،المساحة،الضوء،والملمس. التفاصيل التي لا تسمعها يمكن حذفها.\n### متى استخدم counter-score؟\nعندما تكون الصورة واضحة جدا وتحتاج music يضيف زاوية جديدة،مثل لقطة هادئة مع rhythm خفيف يدل على حركة داخلية.\n### هل image-to-music يجعل الاستخدام التجاري آمنا تلقائيا؟\nلا. راجع مصدر الصورة،حقوق الصوت،tool terms،قواعد المنصة،وموافقة العميل بشكل منفصل."
+      ]
+    },
+    "de": {
+      "title": "Ein Bild in einen AI Music Prompt uebersetzen, ohne zu raten",
+      "description": "Ein praktischer Workflow, um ein Visual Reference in Tempo, Texture, Structure und klare Grenzen zu uebersetzen.",
+      "body": [
+        "Du hast ein starkes Bild: eine nasse Strasse, ein Produktfoto, ein ruhiges Farbfeld oder ein enges Portrait. Aber das Bild nennt kein Tempo. Es sagt nicht, ob du eine fuehrende Melodie oder ein kleines Bed brauchst, und es kennt den Einsatzort nicht. Wenn du nur music for this image schreibst, bekommst du oft allgemeinen Mood. Besser ist es, das Bild zuerst in hoerbare Entscheidungen zu uebersetzen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/google-lyria-ai-music-generator) ist eine AI Music Creation Platform, mit der du text prompts, style direction, lyrics und einige Image- oder Source-Audio-Ideen in pruefbare Music Drafts verwandelst. Nutze image-to-music als Briefing-Schritt: Das Bild gibt Hinweise, aber Track-Auswahl, Rechtepruefung, Kontext und Plattformregeln bleiben menschliche Entscheidungen.",
+        "## Benenne Sichtbares vor dem Mood",
+        "Starte mit fuenf Beobachtungen, die eine andere Person ebenfalls sehen kann: subject, lighting, motion, space, color. Beispiel: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. Erst danach kommen Mood-Woerter wie tense, premium oder calm. Wer mit Mood beginnt, landet schnell bei breiten Begriffen; wer mit sichtbaren Fakten beginnt, hoert genauer.",
+        "## Trenne Bildsignal und Musikentscheidung",
+        "Schreibe drei Spalten: visual cue, music decision, avoid. Rain on glass kann soft noise texture bedeuten, nicht automatisch thunder. Empty room kann fewer instruments heissen, nicht immer sad piano. Bright red packaging kann sharper attacks bedeuten, nicht einfach mehr Lautstaerke. Diese Trennung verhindert, dass dein Prompt nur die Oberflaeche des Bildes nachspricht.",
+        "## Baue den Prompt in vier Schichten",
+        "Die erste Schicht ist der Job: 20-second product reveal, calm landing page loop oder album cover teaser. Die zweite Schicht liefert scene words aus dem Bild. Die dritte legt die Form fest: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. Die vierte setzt exclusions: no vocals, no busy lead, no horror sting, no famous artist reference. Wenn die Style-Worte unklar sind, kann der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) genre, instruments, mood und texture ordnen; streiche danach, was du nicht wirklich hoeren kannst.",
+        "## Erzeuge zwei gegensaetzliche Demos",
+        "Teste nicht nur einen Draft. Erzeuge eine literal version, die dem Bild nahe folgt, und eine counter-score version, die leicht dagegen arbeitet: ein kaltes Bild mit warmem pulse oder ein Luxusmotiv mit sparsamer arrangement. Oeffne den [AI Music Generator](https://easymusic.ai/de/ai-music-generator), wenn du weisst, ob die Musik das Bild bestaetigen oder eine neue Spannung hineinbringen soll. Der Unterschied zwischen zwei Demos lehrt mehr als zehn weitere Adjektive in einem Prompt.",
+        "## Pruefe am echten Einsatzort",
+        "Das Bild ist nicht der letzte Richter. Spiele die Musik unter dem Video, der Produktseite, der Story oder der Praesentation ab. Verdeckt sie voiceover? Treibt sie den Schnitt zu schnell? Wirkt sie groesser als die Marke? Ist das Bild selbst fuer diesen Zweck erlaubt? Bewahre eine Note mit image source, prompt, version, planned channel und abgelehnten Richtungen auf.",
+        "## Ideen fuer heute",
+        "- Sammle fuenf sichtbare facts, bevor du Mood-Woerter notierst.\n- Uebersetze jede color oder texture in eine hoerbare Entscheidung.\n- Schreibe eine kurze avoid-list, damit das Bild nicht die Funktion verdraengt.\n- Vergleiche literal draft und counter-score draft vor der Auswahl.\n- Teste die Musik auf dem Telefon oder der Zielseite, nicht nur im Player.",
+        "## FAQ\n### Reicht ein Bild allein fuer einen guten Track?\nSelten. Ein Bild liefert mood und texture, aber nicht duration, role, density oder platform context.\n### Muss ich alles im Bild beschreiben?\nNein. Nenne nur Elemente, die den Klang aendern: Bewegung, Raum, Licht und Material.\n### Wann ist counter-score sinnvoll?\nWenn das Bild sehr eindeutig ist und die Musik eine zweite Ebene geben soll, etwa Ruhe im Bild, aber leichten inneren Rhythmus.\n### Macht image-to-music die Nutzung automatisch sicher?\nNein. Bildquelle, Audio-Rechte, tool terms, Plattformregeln und Kundenfreigabe bleiben getrennte Pruefungen."
+      ]
+    },
+    "en": {
+      "title": "Turn an Image Into an AI Music Prompt Without Guesswork",
+      "description": "A practical image-to-music workflow for translating visual references into tempo, texture, structure, and review notes.",
+      "body": [
+        "You have a strong image: a rainy street, a product shot, a quiet color palette, or a close portrait. The image may suggest a feeling, but it does not choose the tempo, decide whether the track needs a lead melody, or know where the music will be used. If the whole prompt is music for this image, you are asking the model to guess the job. A better workflow is to translate the picture into musical decisions before you generate.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/google-lyria-ai-music-generator) is an AI music creation platform for turning text prompts, style direction, lyrics, and some image or source-audio ideas into music drafts you can review. In an image-to-music workflow, treat the image as briefing material: it can suggest mood and texture, while track choice, rights review, platform rules, and release context still need human judgment.",
+        "## Name Visible Facts Before Mood",
+        "Start with five observations another person could also see: subject, lighting, motion, space, and color. Example: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. Only then write mood words such as tense, premium, or calm. Mood words are useful, but they are too wide when they arrive alone.",
+        "## Separate the Picture From the Music Choice",
+        "Make a three-column note: visual cue, music decision, avoid. Rain on glass might become soft noise texture, not thunder. An empty room might mean fewer instruments, not sad piano by default. Bright red packaging might mean sharper attacks, not louder music. This keeps the prompt from copying the surface of the image and turns it into direction you can actually hear.",
+        "## Build the Prompt in Four Layers",
+        "Layer one is the job: 20-second product reveal, calm landing page loop, album cover teaser, or title-card cue. Layer two is the visual scene. Layer three is musical form: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. Layer four is exclusions: no vocals, no busy lead, no horror sting, no famous artist reference. If your style notes are scattered, the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help organize genre, instruments, mood, and texture before you cut the list down.",
+        "## Make Two Opposite Drafts",
+        "Do not test only one draft. Make a literal version that follows the image closely and a counter-score version that gently works against it: a cold image with a warm pulse, or a polished product shot with a spare arrangement. Move to the [AI Music Generator](https://easymusic.ai/ai-music-generator) when you know whether the music should confirm the image or add a second angle. The contrast between two drafts teaches more than adding ten adjectives to one prompt.",
+        "## Review in the Place It Will Live",
+        "The image is not the final judge. Put the cue under the real video, product page, story, or deck. Does it cover voiceover? Does it make the edit feel rushed? Does it sound bigger than the brand? Do you have permission to use the image that shaped the prompt? Keep a note with image source, prompt, chosen version, planned channel, and what you rejected.",
+        "## Ideas You Can Reuse Today",
+        "- Extract five visible facts before writing any mood words.\n- Convert each color or texture into a musical decision, not a vague adjective.\n- Write a short avoid-list so the image does not overpower the use case.\n- Compare one literal draft with one counter-score draft before choosing direction.\n- Test the cue on the phone, page, or edit where it will actually appear.",
+        "## FAQ\n### Is an image enough to get a good AI music track?\nRarely. It can suggest mood and texture, but it does not define duration, role, density, audience, or platform context.\n### Should I describe every object in the image?\nNo. Describe the elements that change the sound: motion, space, light, material, and emotional distance.\n### When should I use counter-score?\nUse it when the image is obvious and the music needs to add a second layer, such as a calm image with a quiet inner pulse.\n### Does image-to-music make the result safe to publish automatically?\nNo. Image source, audio rights, tool terms, platform rules, and client approval remain separate checks."
+      ]
+    },
+    "es": {
+      "title": "Convierte una imagen en un prompt de AI music sin adivinar",
+      "description": "Workflow practico para traducir una referencia visual en tempo, textura, estructura y notas de revision.",
+      "body": [
+        "Tienes una imagen fuerte: una calle mojada, una foto de producto, una paleta tranquila o un retrato cerrado. La imagen sugiere una sensacion, pero no elige tempo, no decide si hace falta melodia principal y no sabe donde se usara la musica. Si el prompt entero es music for this image, pides que el modelo adivine la funcion. Conviene traducir la imagen en decisiones musicales antes de generar.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/google-lyria-ai-music-generator) es una plataforma de AI music creation para convertir text prompts, style direction, lyrics y algunas ideas de imagen o source audio en music drafts revisables. En un workflow image-to-music, usa la imagen como briefing: puede sugerir mood y texture, mientras la eleccion final, derechos, reglas de plataforma y contexto de publicacion siguen necesitando criterio humano.",
+        "## Nombra hechos visibles antes del mood",
+        "Empieza con cinco observaciones que otra persona tambien pueda ver: subject, lighting, motion, space y color. Ejemplo: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. Solo despues escribe mood words como tense, premium o calm. El mood ayuda, pero llega demasiado amplio cuando viene solo.",
+        "## Separa la imagen de la decision musical",
+        "Haz una nota de tres columnas: visual cue, music decision, avoid. Rain on glass puede volverse soft noise texture, no thunder. Empty room puede significar fewer instruments, no sad piano por defecto. Bright red packaging puede pedir sharper attacks, no musica mas fuerte. Asi el prompt deja de copiar la superficie de la imagen y se vuelve una direccion audible.",
+        "## Construye el prompt en cuatro capas",
+        "La primera capa es el job: 20-second product reveal, calm landing page loop, album cover teaser o title-card cue. La segunda es la escena visual. La tercera es la forma musical: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. La cuarta son exclusiones: no vocals, no busy lead, no horror sting, no famous artist reference. Si tus notas de estilo estan dispersas, el [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede ordenar genre, instruments, mood y texture antes de recortar la lista.",
+        "## Crea dos drafts opuestos",
+        "No pruebes un solo draft. Crea una version literal que siga de cerca la imagen y una counter-score que trabaje un poco contra ella: una imagen fria con warm pulse, o una foto de producto pulida con arrangement sobrio. Pasa al [AI Music Generator](https://easymusic.ai/es/ai-music-generator) cuando sepas si la musica debe confirmar la imagen o agregar una segunda lectura. La diferencia entre dos drafts ensena mas que diez adjetivos extra.",
+        "## Revisa en el lugar real",
+        "La imagen no es el juez final. Pon la cue bajo el video, pagina de producto, story o deck real. Cubre voiceover? Hace que el edit parezca apurado? Suena mas grande que la marca? Tienes permiso para usar la imagen que guio el prompt? Guarda una nota con image source, prompt, version elegida, channel previsto y lo que rechazaste.",
+        "## Ideas reutilizables",
+        "- Extrae cinco hechos visibles antes de escribir mood words.\n- Convierte cada color o textura en decision musical, no en adjetivo vago.\n- Escribe una avoid-list breve para que la imagen no domine el caso de uso.\n- Compara un literal draft con un counter-score draft antes de elegir direction.\n- Prueba la cue en el telefono, pagina o edit donde aparecera.",
+        "## FAQ\n### Basta una imagen para obtener buena AI music?\nRara vez. Puede sugerir mood y texture, pero no define duration, role, density, audience ni platform context.\n### Debo describir todos los objetos?\nNo. Describe los elementos que cambian el sonido: motion, space, light, material y distancia emocional.\n### Cuando uso counter-score?\nCuando la imagen es muy obvia y la musica debe anadir otra capa, como una imagen calma con un pulso interior discreto.\n### Image-to-music hace seguro publicar el resultado?\nNo. Image source, audio rights, tool terms, platform rules y client approval son checks separados."
+      ]
+    },
+    "fr": {
+      "title": "Transformer une image en prompt AI music sans deviner",
+      "description": "Workflow concret pour traduire une reference visuelle en tempo, texture, structure et notes de review.",
+      "body": [
+        "Tu as une image forte: une rue mouillee, une photo produit, une palette calme ou un portrait serre. L image suggere une sensation, mais elle ne choisit pas le tempo, ne decide pas si la piste a besoin d une melodie principale, et ne sait pas ou la musique sera utilisee. Si le prompt se limite a music for this image, tu demandes au modele de deviner la mission. Il vaut mieux traduire l image en decisions musicales avant de generer.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/google-lyria-ai-music-generator) est une plateforme de creation musicale par IA qui transforme text prompts, style direction, paroles et certaines idees image ou source-audio en music drafts a reviser. Dans un workflow image-to-music, l image sert de briefing: elle peut suggerer mood et texture, tandis que choix final, droits, regles de plateforme et contexte de publication restent des decisions humaines.",
+        "## Nomme les faits visibles avant le mood",
+        "Commence par cinq observations qu une autre personne pourrait voir aussi: subject, lighting, motion, space et color. Exemple: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. Ensuite seulement, ajoute des mood words comme tense, premium ou calm. Le mood est utile, mais trop large quand il arrive seul.",
+        "## Separe image et choix musical",
+        "Fais une note en trois colonnes: visual cue, music decision, avoid. Rain on glass peut devenir soft noise texture, pas thunder. Empty room peut signifier fewer instruments, pas sad piano par defaut. Bright red packaging peut demander sharper attacks, pas plus de volume. Cette separation transforme la surface de l image en direction audible.",
+        "## Construis le prompt en quatre couches",
+        "La premiere couche est le job: 20-second product reveal, calm landing page loop, album cover teaser ou title-card cue. La deuxieme decrit la scene visuelle. La troisieme fixe la forme musicale: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. La quatrieme pose les exclusions: no vocals, no busy lead, no horror sting, no famous artist reference. Si tes notes de style sont dispersees, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut organiser genre, instruments, mood et texture avant de raccourcir la liste.",
+        "## Fabrique deux drafts opposes",
+        "Ne teste pas un seul draft. Fais une version literal proche de l image et une version counter-score qui travaille legerement contre elle: image froide avec warm pulse, ou photo produit tres polie avec arrangement depouille. Passe au [AI Music Generator](https://easymusic.ai/fr/ai-music-generator) quand tu sais si la musique doit confirmer l image ou ajouter un second angle. Le contraste entre deux drafts enseigne plus que dix adjectifs en plus.",
+        "## Review dans le contexte reel",
+        "L image n est pas le juge final. Place la cue sous la vraie video, page produit, story ou presentation. Couvre-t-elle la voiceover? Rend-elle le montage trop presse? Sonne-t-elle plus grande que la marque? As-tu le droit d utiliser l image qui a guide le prompt? Garde une note avec image source, prompt, version choisie, channel prevu et directions rejetees.",
+        "## Idees reutilisables",
+        "- Extrais cinq faits visibles avant les mood words.\n- Convertis chaque couleur ou texture en decision musicale, pas en adjectif vague.\n- Ecris une courte avoid-list pour que l image ne domine pas l usage.\n- Compare un literal draft et un counter-score draft avant de choisir.\n- Teste la cue sur le telephone, la page ou le montage ou elle vivra.",
+        "## FAQ\n### Une image suffit-elle pour obtenir une bonne AI music?\nRarement. Elle suggere mood et texture, mais ne definit pas duration, role, density, audience ou platform context.\n### Faut-il decrire tous les objets?\nNon. Decris les elements qui changent le son: motion, space, light, material et distance emotionnelle.\n### Quand utiliser counter-score?\nQuand l image est tres evidente et que la musique doit ajouter une deuxieme couche, par exemple une image calme avec un pulse discret.\n### Image-to-music rend-il la publication automatiquement sure?\nNon. Image source, audio rights, tool terms, platform rules et client approval restent des verifications separees."
+      ]
+    },
+    "it": {
+      "title": "Trasforma un immagine in AI music prompt senza tirare a indovinare",
+      "description": "Workflow pratico per tradurre un riferimento visivo in tempo, texture, struttura e note di review.",
+      "body": [
+        "Hai un immagine forte: una strada bagnata, uno scatto prodotto, una palette calma o un ritratto ravvicinato. L immagine suggerisce una sensazione, ma non sceglie il tempo, non decide se serve una lead melody e non sa dove verra usata la musica. Se il prompt e solo music for this image, stai chiedendo al modello di indovinare il lavoro. Meglio tradurre prima la foto in decisioni musicali.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/google-lyria-ai-music-generator) e una piattaforma di AI music creation per trasformare text prompts, style direction, lyrics e alcune idee image o source-audio in music drafts da revisionare. In un workflow image-to-music, usa l immagine come materiale di briefing: puo suggerire mood e texture, mentre scelta finale, diritti, regole della piattaforma e contesto di pubblicazione restano decisioni umane.",
+        "## Nomina i fatti visibili prima del mood",
+        "Inizia con cinque osservazioni che anche un altra persona potrebbe vedere: subject, lighting, motion, space e color. Esempio: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. Solo dopo scrivi mood words come tense, premium o calm. Il mood aiuta, ma da solo e troppo largo.",
+        "## Separa immagine e scelta musicale",
+        "Scrivi tre colonne: visual cue, music decision, avoid. Rain on glass puo diventare soft noise texture, non thunder. Empty room puo significare fewer instruments, non sad piano di default. Bright red packaging puo chiedere sharper attacks, non musica piu forte. Questa separazione impedisce al prompt di copiare solo la superficie dell immagine.",
+        "## Costruisci il prompt in quattro strati",
+        "Il primo strato e il job: 20-second product reveal, calm landing page loop, album cover teaser o title-card cue. Il secondo e la scena visiva. Il terzo e la forma musicale: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. Il quarto sono le esclusioni: no vocals, no busy lead, no horror sting, no famous artist reference. Se le note di stile sono sparse, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo ordinare genre, instruments, mood e texture prima di tagliare la lista.",
+        "## Crea due draft opposti",
+        "Non testare un solo draft. Crea una versione literal vicina all immagine e una counter-score che lavora leggermente contro: immagine fredda con warm pulse, oppure product shot lucidissimo con arrangement scarno. Passa al [AI Music Generator](https://easymusic.ai/it/ai-music-generator) quando sai se la musica deve confermare l immagine o aggiungere una seconda lettura. Il contrasto tra due draft insegna piu di dieci aggettivi extra.",
+        "## Fai review nel contesto reale",
+        "L immagine non e il giudice finale. Metti la cue sotto il video, la pagina prodotto, la story o la presentazione reale. Copre la voiceover? Rende l edit troppo veloce? Suona piu grande del brand? Hai il permesso di usare l immagine che ha guidato il prompt? Conserva una nota con image source, prompt, chosen version, planned channel e direzioni rifiutate.",
+        "## Idee riutilizzabili",
+        "- Estrai cinque fatti visibili prima dei mood words.\n- Trasforma ogni colore o texture in una decisione musicale, non in un aggettivo vago.\n- Scrivi una avoid-list breve, cosi l immagine non domina l uso.\n- Confronta literal draft e counter-score draft prima di scegliere.\n- Testa la cue sul telefono, pagina o edit dove apparira.",
+        "## FAQ\n### Basta un immagine per ottenere buona AI music?\nRaramente. Suggerisce mood e texture, ma non definisce duration, role, density, audience o platform context.\n### Devo descrivere ogni oggetto?\nNo. Descrivi cio che cambia il suono: motion, space, light, material e distanza emotiva.\n### Quando usare counter-score?\nQuando l immagine e molto ovvia e la musica deve aggiungere un secondo livello, per esempio calma visiva con un pulse interno leggero.\n### Image-to-music rende automaticamente sicura la pubblicazione?\nNo. Image source, audio rights, tool terms, platform rules e client approval restano controlli separati."
+      ]
+    },
+    "ja": {
+      "title": "画像を AI music prompt に変える前に、感覚だけで決めない",
+      "description": "Visual reference を tempo、texture、structure、review note に翻訳する image-to-music workflow。",
+      "body": [
+        "強い画像があります。雨の通り、product shot、静かな color palette、close portrait。画像は feeling を示しますが、tempo を選ばず、lead melody が必要かも決めず、music がどこで使われるかも知りません。Prompt が music for this image だけなら、model に job を推測させています。生成前に、画像を musical decisions に翻訳する方が安定します。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/google-lyria-ai-music-generator) は、text prompts、style direction、lyrics、一部の image や source-audio ideas を review できる music drafts に変える AI music creation platform です。Image-to-music workflow では、画像を briefing material として使います。Mood や texture のヒントにはなりますが、track choice、rights review、platform rules、release context は人が判断します。",
+        "## mood の前に見える事実を書く",
+        "まず、他の人にも見える五つの observation を書きます: subject、lighting、motion、space、color。例: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green。そのあとで tense、premium、calm などの mood words を足します。Mood words は便利ですが、単独だと広すぎます。",
+        "## picture と music choice を分ける",
+        "三列の note を作ります: visual cue、music decision、avoid。Rain on glass は thunder ではなく soft noise texture かもしれません。Empty room は sad piano ではなく fewer instruments かもしれません。Bright red packaging は louder music ではなく sharper attacks かもしれません。この分離で、prompt は画像の表面コピーではなく、聞こえる direction になります。",
+        "## prompt を四層で作る",
+        "Layer one は job: 20-second product reveal, calm landing page loop, album cover teaser, title-card cue。Layer two は visual scene。Layer three は musical form: 84 BPM, muted percussion, warm bass, two small lifts, clean ending。Layer four は exclusions: no vocals, no busy lead, no horror sting, no famous artist reference。Style notes が散らかるなら、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で genre、instruments、mood、texture を整理し、不要な語を削ります。",
+        "## 逆方向の draft を二つ作る",
+        "一つだけ試さないでください。画像に近い literal version と、少し逆らう counter-score version を作ります。Cold image に warm pulse、polished product shot に spare arrangement などです。Music が画像を confirm すべきか、second angle を足すべきか決まったら、[AI Music Generator](https://easymusic.ai/ja/ai-music-generator) に進みます。二つの contrast は、prompt に十個の adjectives を足すより多くを教えてくれます。",
+        "## 実際の場所で review する",
+        "画像は final judge ではありません。Cue を実際の video、product page、story、deck の下に置きます。Voiceover を隠していませんか。Edit を急がせていませんか。Brand より大きく聞こえませんか。Prompt の元になった image をその用途で使う permission はありますか。Image source、prompt、chosen version、planned channel、rejected direction を note に残します。",
+        "## 今日使える ideas",
+        "- Mood words の前に、見える facts を五つ抜き出す。\n- Color や texture を vague adjective ではなく musical decision に変える。\n- Image が use case を押しつぶさないよう short avoid-list を書く。\n- Direction を決める前に literal draft と counter-score draft を比べる。\n- Cue が実際に出る phone、page、edit で test する。",
+        "## FAQ\n### 画像だけで良い AI music track は作れますか？\nまれです。Mood と texture は示せますが、duration、role、density、audience、platform context は決まりません。\n### 画像のすべてを説明すべきですか？\nいいえ。Sound を変える要素だけで十分です。Motion、space、light、material、emotional distance です。\n### counter-score はいつ使いますか？\n画像が明快すぎる時、music が second layer を足すために使います。例えば calm image に quiet inner pulse を入れる場合です。\n### image-to-music なら公開は自動的に安全ですか？\nいいえ。Image source、audio rights、tool terms、platform rules、client approval は別々に確認します。"
+      ]
+    },
+    "ko": {
+      "title": "이미지를 AI music prompt로 바꿀 때 감으로만 쓰지 않기",
+      "description": "Visual reference를 tempo, texture, structure, review note로 옮기는 image-to-music workflow.",
+      "body": [
+        "강한 이미지가 있습니다. 비 오는 거리, product shot, 조용한 color palette, close portrait. 이미지는 느낌을 주지만 tempo를 고르지 않고, lead melody가 필요한지도 정하지 않으며, music이 어디에 쓰일지도 모릅니다. Prompt가 music for this image뿐이라면 model에게 job을 추측하라고 맡기는 셈입니다. 생성 전에 이미지를 musical decisions로 번역하는 편이 낫습니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/google-lyria-ai-music-generator)는 text prompts, style direction, lyrics, 일부 image나 source-audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Image-to-music workflow에서는 이미지를 briefing material로 쓰세요. Mood와 texture 힌트는 얻을 수 있지만, track choice, rights review, platform rules, release context는 사람이 판단해야 합니다.",
+        "## mood 전에 보이는 사실 쓰기",
+        "다른 사람도 볼 수 있는 observation 다섯 가지로 시작합니다: subject, lighting, motion, space, color. 예: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. 그다음 tense, premium, calm 같은 mood words를 씁니다. Mood words는 유용하지만 혼자 오면 너무 넓습니다.",
+        "## picture와 music choice 분리하기",
+        "세 칸 note를 만듭니다: visual cue, music decision, avoid. Rain on glass는 thunder가 아니라 soft noise texture일 수 있습니다. Empty room은 sad piano가 아니라 fewer instruments일 수 있습니다. Bright red packaging은 louder music이 아니라 sharper attacks일 수 있습니다. 이렇게 나누면 prompt가 image 표면을 따라 하는 데서 멈추지 않고 들을 수 있는 direction이 됩니다.",
+        "## prompt를 네 층으로 만들기",
+        "Layer one은 job입니다: 20-second product reveal, calm landing page loop, album cover teaser, title-card cue. Layer two는 visual scene입니다. Layer three는 musical form입니다: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. Layer four는 exclusions입니다: no vocals, no busy lead, no horror sting, no famous artist reference. Style notes가 흩어져 있다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 genre, instruments, mood, texture를 정리한 뒤 줄이세요.",
+        "## 반대되는 draft 두 개 만들기",
+        "Draft 하나만 시험하지 마세요. Image를 가깝게 따르는 literal version과 살짝 반대로 가는 counter-score version을 만듭니다. 차가운 image에 warm pulse, polished product shot에 spare arrangement처럼요. Music이 image를 confirm해야 하는지 second angle을 더해야 하는지 알게 되면 [AI Music Generator](https://easymusic.ai/ko/ai-music-generator)로 이동하세요. 두 draft의 contrast는 prompt에 adjectives 열 개를 더하는 것보다 더 많이 알려 줍니다.",
+        "## 실제 쓰일 곳에서 review하기",
+        "Image는 final judge가 아닙니다. Cue를 실제 video, product page, story, deck 아래에 넣어 봅니다. Voiceover를 가리나요? Edit가 급하게 느껴지나요? Brand보다 소리가 커 보이나요? Prompt에 사용한 image를 이 목적에 쓸 permission이 있나요? Image source, prompt, chosen version, planned channel, rejected direction을 note로 남기세요.",
+        "## 오늘 바로 쓸 ideas",
+        "- Mood words 전에 visible facts 다섯 가지를 뽑습니다.\n- Color나 texture를 vague adjective가 아니라 musical decision으로 바꿉니다.\n- Image가 use case를 압도하지 않도록 short avoid-list를 씁니다.\n- Direction을 정하기 전에 literal draft와 counter-score draft를 비교합니다.\n- Cue가 실제로 나갈 phone, page, edit에서 test합니다.",
+        "## FAQ\n### 이미지만으로 좋은 AI music track을 얻을 수 있나요?\n드뭅니다. Mood와 texture는 줄 수 있지만 duration, role, density, audience, platform context는 정하지 않습니다.\n### 이미지의 모든 object를 설명해야 하나요?\n아닙니다. Sound를 바꾸는 요소만 설명하세요. Motion, space, light, material, emotional distance입니다.\n### counter-score는 언제 쓰나요?\nImage가 너무 명확해서 music이 second layer를 더해야 할 때입니다. 예를 들어 calm image에 quiet inner pulse를 주는 경우입니다.\n### image-to-music이면 publish가 자동으로 안전한가요?\n아닙니다. Image source, audio rights, tool terms, platform rules, client approval은 따로 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Transforme uma imagem em AI music prompt sem adivinhar",
+      "description": "Workflow pratico para traduzir referencia visual em tempo, textura, estrutura e notas de revisao.",
+      "body": [
+        "Voce tem uma imagem forte: uma rua molhada, uma foto de produto, uma paleta calma ou um retrato fechado. A imagem sugere uma sensacao, mas nao escolhe tempo, nao decide se precisa de lead melody e nao sabe onde a musica sera usada. Se o prompt inteiro e music for this image, voce pede que o modelo adivinhe a funcao. Melhor traduzir a imagem em decisoes musicais antes de gerar.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/google-lyria-ai-music-generator) e uma plataforma de AI music creation para transformar text prompts, style direction, lyrics e algumas ideias de image ou source audio em music drafts revisaveis. Em um workflow image-to-music, use a imagem como briefing: ela sugere mood e texture, enquanto escolha final, direitos, regras de plataforma e contexto de publicacao seguem como julgamento humano.",
+        "## Nomeie fatos visiveis antes do mood",
+        "Comece com cinco observacoes que outra pessoa tambem veria: subject, lighting, motion, space e color. Exemplo: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. So depois escreva mood words como tense, premium ou calm. Mood ajuda, mas sozinho e amplo demais.",
+        "## Separe imagem e decisao musical",
+        "Faca uma nota de tres colunas: visual cue, music decision, avoid. Rain on glass pode virar soft noise texture, nao thunder. Empty room pode significar fewer instruments, nao sad piano por padrao. Bright red packaging pode pedir sharper attacks, nao musica mais alta. Essa separacao transforma superficie visual em direction audivel.",
+        "## Monte o prompt em quatro camadas",
+        "A primeira camada e o job: 20-second product reveal, calm landing page loop, album cover teaser ou title-card cue. A segunda e a visual scene. A terceira e a forma musical: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. A quarta sao exclusions: no vocals, no busy lead, no horror sting, no famous artist reference. Se suas style notes estiverem soltas, o [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode organizar genre, instruments, mood e texture antes de voce cortar a lista.",
+        "## Crie dois drafts opostos",
+        "Nao teste apenas um draft. Crie uma literal version que siga a imagem de perto e uma counter-score version que trabalhe um pouco contra ela: imagem fria com warm pulse, ou product shot polido com spare arrangement. Passe para o [AI Music Generator](https://easymusic.ai/pt/ai-music-generator) quando souber se a musica deve confirmar a imagem ou adicionar uma segunda leitura. O contraste entre dois drafts ensina mais que dez adjetivos extras.",
+        "## Revise no lugar real",
+        "A imagem nao e o juiz final. Coloque a cue sob o video, pagina de produto, story ou deck real. Ela cobre voiceover? Faz o edit parecer apressado? Soa maior que a marca? Voce tem permissao para usar a image que guiou o prompt? Guarde uma note com image source, prompt, chosen version, planned channel e o que foi rejeitado.",
+        "## Ideias reutilizaveis",
+        "- Extraia cinco fatos visiveis antes dos mood words.\n- Converta cada color ou texture em decisao musical, nao adjetivo vago.\n- Escreva uma avoid-list curta para a imagem nao dominar o uso.\n- Compare literal draft e counter-score draft antes de escolher direction.\n- Teste a cue no telefone, pagina ou edit onde ela aparecera.",
+        "## FAQ\n### Uma imagem basta para obter boa AI music?\nRaramente. Ela sugere mood e texture, mas nao define duration, role, density, audience ou platform context.\n### Preciso descrever todos os objetos?\nNao. Descreva elementos que mudam o som: motion, space, light, material e distancia emocional.\n### Quando usar counter-score?\nQuando a imagem e muito obvia e a musica precisa adicionar uma segunda camada, como uma imagem calma com quiet inner pulse.\n### Image-to-music deixa a publicacao automaticamente segura?\nNao. Image source, audio rights, tool terms, platform rules e client approval continuam sendo checks separados."
+      ]
+    },
+    "ru": {
+      "title": "Как превратить изображение в AI music prompt без угадывания",
+      "description": "Практический workflow: перевод visual reference в tempo, texture, structure и notes для review.",
+      "body": [
+        "У вас есть сильное изображение: мокрая улица, product shot, спокойная color palette или close portrait. Картинка подсказывает ощущение, но не выбирает tempo, не решает, нужна ли lead melody, и не знает, где музыка будет использоваться. Если prompt звучит только как music for this image, вы просите model угадать задачу. Лучше сначала перевести изображение в музыкальные решения.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/google-lyria-ai-music-generator) - это AI music creation platform, которая превращает text prompts, style direction, lyrics и некоторые image или source-audio ideas в music drafts для review. В image-to-music workflow используйте картинку как briefing material: она дает mood и texture, но выбор track, rights review, platform rules и release context остаются человеческими решениями.",
+        "## Сначала назовите видимые факты",
+        "Начните с пяти observations, которые увидит и другой человек: subject, lighting, motion, space, color. Пример: product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green. Только потом добавляйте mood words вроде tense, premium или calm. Mood полезен, но слишком широк, если приходит один.",
+        "## Разделите картинку и музыкальное решение",
+        "Сделайте note из трех колонок: visual cue, music decision, avoid. Rain on glass может стать soft noise texture, а не thunder. Empty room может значить fewer instruments, а не sad piano по умолчанию. Bright red packaging может просить sharper attacks, а не louder music. Так prompt перестает копировать поверхность картинки и становится слышимой direction.",
+        "## Соберите prompt из четырех слоев",
+        "Первый слой - job: 20-second product reveal, calm landing page loop, album cover teaser или title-card cue. Второй - visual scene. Третий - musical form: 84 BPM, muted percussion, warm bass, two small lifts, clean ending. Четвертый - exclusions: no vocals, no busy lead, no horror sting, no famous artist reference. Если style notes разрознены, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать genre, instruments, mood и texture, а затем сократить список.",
+        "## Сделайте два противоположных draft",
+        "Не тестируйте только один draft. Сделайте literal version, которая близко следует image, и counter-score version, которая мягко идет против нее: холодная картинка с warm pulse или polished product shot со spare arrangement. Переходите к [AI Music Generator](https://easymusic.ai/ru/ai-music-generator), когда понятно, должна ли музыка подтверждать image или добавлять второй angle. Контраст двух drafts учит большему, чем десять новых adjectives.",
+        "## Проверяйте в реальном месте использования",
+        "Image не является финальным судьей. Положите cue под настоящее video, product page, story или deck. Закрывает ли она voiceover? Делает ли edit слишком спешным? Звучит ли больше, чем brand? Есть ли permission использовать image, который сформировал prompt? Сохраните note: image source, prompt, chosen version, planned channel и rejected directions.",
+        "## Идеи на сегодня",
+        "- Выпишите пять видимых facts до mood words.\n- Переводите каждый color или texture в музыкальное решение, а не vague adjective.\n- Добавьте короткую avoid-list, чтобы image не подавлял use case.\n- Сравните literal draft и counter-score draft до выбора direction.\n- Тестируйте cue на телефоне, странице или edit, где она реально появится.",
+        "## FAQ\n### Достаточно ли image для хорошей AI music?\nРедко. Image задает mood и texture, но не определяет duration, role, density, audience или platform context.\n### Нужно ли описывать все объекты?\nНет. Описывайте элементы, которые меняют sound: motion, space, light, material и emotional distance.\n### Когда нужен counter-score?\nКогда image слишком очевиден и music должна добавить второй слой, например calm image с quiet inner pulse.\n### Делает ли image-to-music результат автоматически безопасным для публикации?\nНет. Image source, audio rights, tool terms, platform rules и client approval проверяются отдельно."
+      ]
+    },
+    "zh": {
+      "title": "把图片变成 AI music prompt 时，不要只靠感觉猜",
+      "description": "一个 image-to-music workflow，帮助你把视觉参考翻译成 tempo、texture、structure 和 review notes。",
+      "body": [
+        "你有一张很强的图片：雨夜街道、产品图、安静的 color palette，或一个 close portrait。图片能给出 feeling，但不会自己选择 tempo，不会判断是否需要 lead melody，也不知道音乐会被用在哪里。如果 prompt 只有 music for this image，就是把 job 交给 model 猜。更稳的做法，是先把画面翻译成 musical decisions。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/google-lyria-ai-music-generator) 是一个 AI music creation platform，可以把 text prompts、style direction、lyrics，以及部分 image 或 source-audio ideas 变成可 review 的 music drafts。在 image-to-music workflow 里，把图片当作 briefing material：它可以提示 mood 和 texture，但 track choice、rights review、platform rules 和 release context 仍然需要人工判断。",
+        "## 先写可见事实，再写 mood",
+        "先写五个别人也能看见的 observation：subject、lighting、motion、space、color。例子：product bottle on wet concrete, blue evening light, slow camera push, wide empty space, silver and dark green。然后再写 tense、premium、calm 这类 mood words。Mood 有用，但单独出现时太宽泛。",
+        "## 把图片和音乐决定分开",
+        "做一个三列表：visual cue、music decision、avoid。Rain on glass 可能意味着 soft noise texture，而不是 thunder。Empty room 可能意味着 fewer instruments，而不是默认 sad piano。Bright red packaging 可能意味着 sharper attacks，而不是 louder music。这样 prompt 不只是复制图片表面，而是变成听得见的 direction。",
+        "## 用四层写 prompt",
+        "第一层是 job：20-second product reveal、calm landing page loop、album cover teaser，或 title-card cue。第二层是 visual scene。第三层是 musical form：84 BPM、muted percussion、warm bass、two small lifts、clean ending。第四层是 exclusions：no vocals、no busy lead、no horror sting、no famous artist reference。如果 style notes 太散，可以先用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator)整理 genre、instruments、mood 和 texture，再删掉听不出来的词。",
+        "## 做两个方向相反的 draft",
+        "不要只测试一个 draft。做一个贴近图片的 literal version，再做一个稍微反向的 counter-score version：冷色图片配 warm pulse，或精致产品图配 spare arrangement。当你知道 music 应该 confirm image，还是加入 second angle 时，再进入 [AI Music Generator](https://easymusic.ai/zh/ai-music-generator)。两个 draft 的 contrast，比给一个 prompt 加十个 adjectives 更有用。",
+        "## 在真实使用场景里 review",
+        "图片不是最终裁判。把 cue 放到真实 video、product page、story 或 deck 下面听。它会盖住 voiceover 吗？会让 edit 显得太急吗？会不会比 brand 还大？引导 prompt 的 image 是否有 permission 用在这个目的里？保留一条 note：image source、prompt、chosen version、planned channel，以及你拒绝的方向。",
+        "## 今天可复用的 ideas",
+        "- 写 mood words 前，先提取五个 visible facts。\n- 把每个 color 或 texture 变成 musical decision，而不是 vague adjective。\n- 写一个 short avoid-list，避免 image 压过 use case。\n- 选 direction 前，比较 literal draft 和 counter-score draft。\n- 在它真正出现的 phone、page 或 edit 里测试 cue。",
+        "## FAQ\n### 只靠图片能得到好的 AI music track 吗？\n很少。图片可以提示 mood 和 texture，但不能定义 duration、role、density、audience 或 platform context。\n### 应该描述图片里的所有物体吗？\n不需要。描述会改变声音的元素：motion、space、light、material 和 emotional distance。\n### 什么时候使用 counter-score？\n当图片信息太明显，而 music 需要增加第二层含义时。例如 calm image 加上 quiet inner pulse。\n### image-to-music 会让发布自动安全吗？\n不会。Image source、audio rights、tool terms、platform rules 和 client approval 都要分开检查。"
+      ]
+    }
+  }
+}
