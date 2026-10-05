@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-05",
+  "slug": "phone-hold-ai-music-loop-checklist",
+  "cluster": "customer-support-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع phone hold music loop لا يتعب المتصلين",
+      "description": "Checklist عملي لتوليد موسيقى انتظار قصيرة،واضحة،وقابلة للاختبار على خطوط الهاتف قبل رفعها.",
+      "body": [
+        "موسيقى الانتظار تبدو بسيطة حتى تسمعها عبر الهاتف الحقيقي. Track جميل في السماعات قد يصبح حادا،مضغوطا،ومتعبا عندما يمر عبر نظام اتصال ضيق النطاق. والمتصل لا يريد حفلا؛يريد اشارة هادئة تقول إن الخط ما زال يعمل،من دون ان تغطي رسائل الخدمة او تجعله يشعر ان الانتظار اطول.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompt،lyrics،style direction،وافكار صوتية إلى music drafts يمكن مراجعتها. في phone-hold workflow،تعامل معها كأداة لصنع خيارات اولية،ثم اختبر loop داخل نظام الهاتف ولا تعتبر اي نتيجة ضمانا قانونيا او تقنيا.",
+        "## ابدأ من وظيفة المكالمة لا من genre",
+        "اكتب قبل التوليد: من يسمع؟ لماذا ينتظر؟ هل ستظهر رسائل صوتية فوق الموسيقى؟ ما اطول مدة انتظار شائعة؟ لمركز دعم طبي قد تريد pulse هادئا وطمأنة. لمتجر صغير قد تريد groove خفيفا يدل على النشاط. تجنب prompt مثل upbeat corporate music فقط؛اكتب وظيفة الصوت: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## صمم loop قصير يتحمل التكرار",
+        "الانتظار لا يحترم بداية ونهاية الاغنية. لذلك لا تبدأ بانفجار قوي ولا تنته بقطع درامي. اطلب intro قصيرا جدا،texture ثابتة،وتغيرا صغيرا كل 8 او 12 ثانية. اذا بدا المقطع ممتازا في اول مرة لكنه مزعج في المرة الخامسة،فهو ليس hold music جيد. استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لترتيب كلمات مثل warm keys،light percussion،friendly bass،clean loop،ثم احذف اي كلمة تدفع الموسيقى الى صدارة زائدة.",
+        "## اترك مساحة للكلام",
+        "اذا سيضاف voice message،اجعل الarrangement اقل كثافة في midrange. تجنب lead melody التي تنافس الكلام،cymbals حادة،او bass يختفي ويعود بقفزات كبيرة. جرّب نسخة instrumental فقط ونسخة بنبض اخف. ضع voice message فوقهما قبل الاختيار،لان افضل track منفرد قد يكون الاسوأ تحت الجملة: شكرا لانتظارك،سنعود إليك قريبا.",
+        "## اختبر نسخة الهاتف مبكرا",
+        "كثير من انظمة الهاتف تقلل جودة الصوت،وبعض البيئات تنتهي عند 8 kHz او mono. لذلك لا تحكم من ملف master فقط. صدّر نسخة صغيرة،ارفعها إلى النظام،اتصل بنفسك،واستمع عبر مكبر الهاتف وسماعة رخيصة. اذا احتجت لتغيير format او bitrate،يمكنك تجهيز نسخة مناسبة عبر [Audio Converter](https://easymusic.ai/ar/tools/audio-converter)،لكن اسأل مزود الهاتف عن المتطلبات الدقيقة قبل التسليم.",
+        "## احتفظ بسجل مراجعة",
+        "سجل prompt،version،مدة loop،format،رقم النظام،وتاريخ الموافقة. اضف ملاحظة حقوق منفصلة: من راجع الاستخدام؟ ما شروط الاداة؟ هل هناك رسائل اعلانية او ارتباط قوي بالعلامة؟ لا تفترض ان توليد الموسيقى يجعل الاستخدام التجاري آمنا تلقائيا. السجل الصغير يحمي الفريق من اعادة العمل عندما يتغير نظام الهاتف او يطلب المدير نسخة اهدأ.",
+        "## افكار قابلة للتطبيق اليوم",
+        "- اكتب prompt بوظيفة المكالمة قبل genre.\n- اطلب loop من 30 إلى 60 ثانية مع بداية ونهاية غير لافتتين.\n- اختبر الموسيقى تحت رسالة صوتية حقيقية قبل الموافقة.\n- اسمع النسخة عبر مكالمة فعلية،لا عبر السماعات فقط.\n- احتفظ بسجل يربط prompt،file format،approval،والقيود.",
+        "## FAQ\n### كم يجب ان يكون طول hold loop؟\nغالبا 30 إلى 60 ثانية تكفي للاختبار الاول. الاهم ان يتكرر بلا بداية صادمة او نهاية واضحة جدا.\n### هل يجب استخدام vocals؟\nعادة لا. Vocals قد تتعارض مع رسائل الانتظار وتزيد الالتباس عبر الهاتف.\n### هل mono مهم؟\nكثير من انظمة الهاتف تضغط الصوت او تجعله mono،لذلك اختبر نسخة mono او narrowband قبل التسليم.\n### هل يمكن نشر الموسيقى مباشرة في نظام الشركة؟\nلا تجعل ذلك خطوة تلقائية. راجع شروط الاداة،سياسة الشركة،حقوق الاستخدام،ومتطلبات نظام الهاتف اولا."
+      ]
+    },
+    "de": {
+      "title": "Phone Hold Music als AI Loop planen, ohne Anrufer zu ermueden",
+      "description": "Eine praktische Checklist fuer Warteschleifenmusik, die unter Telefonkompression, Sprachansagen und Wiederholung funktioniert.",
+      "body": [
+        "Warteschleifenmusik wirkt einfach, bis du sie ueber eine echte Telefonleitung hoerst. Ein Track, der auf Kopfhoerern weich klingt, kann im Telefonsystem scharf, eng und ermuedend werden. Anrufer brauchen kein Konzert. Sie brauchen ein ruhiges Signal, dass die Verbindung lebt, ohne dass Servicehinweise verdeckt werden oder die Wartezeit noch laenger wirkt.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du prompts, lyrics, style direction und Audio-Ideen in pruefbare Music Drafts verwandelst. Fuer phone-hold work solltest du es als Entwurfswerkzeug behandeln: Ideen erzeugen, im Telefonsystem testen, Rechte und Technik getrennt pruefen.",
+        "## Starte mit der Call-Aufgabe, nicht mit dem Genre",
+        "Notiere zuerst: Wer ruft an? Warum wartet die Person? Liegen Sprachansagen ueber der Musik? Wie lang ist die typische Wartezeit? Ein medizinischer Support braucht vielleicht Ruhe und Vertrauen. Ein kleiner Shop darf etwas heller klingen. Schreibe nicht nur upbeat corporate music, sondern den Job: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## Baue einen Loop, der Wiederholung aushalt",
+        "Wartezeit respektiert keine Songform. Beginne nicht mit einem grossen Hit und ende nicht mit einer dramatischen Aufloesung. Bitte um einen sehr kurzen Einstieg, stabile texture und kleine Bewegung alle 8 oder 12 Sekunden. Wenn der Track beim ersten Mal gut und beim fuenften Mal nervig ist, taugt er nicht als Hold Music. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann Begriffe wie warm keys, light percussion, friendly bass und clean loop ordnen, bevor du die Liste bewusst kuerzt.",
+        "## Lass Platz fuer Sprache",
+        "Wenn eine Voice Message darueber liegt, muss das Arrangement im Mittenbereich Luft lassen. Vermeide eine Lead Melody, die gegen Sprache kaempft, harte Cymbals oder Bassspruenge, die auf kleinen Lautsprechern verschwinden und zurueckspringen. Vergleiche eine reine instrumental version mit einer noch duennere pulse version. Lege die echte Ansage darueber, bevor du entscheidest.",
+        "## Teste die Telefonversion frueh",
+        "Viele Telefonsysteme reduzieren Audioqualitaet; manche Wege enden bei 8 kHz oder mono. Entscheide deshalb nicht nur nach dem Masterfile. Exportiere eine kleine Testversion, lade sie hoch, rufe selbst an und hoere ueber Handylautsprecher und einfache Ohrhoerer. Wenn du ein anderes Format brauchst, kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) eine passende Datei vorbereiten; die genaue Spezifikation sollte trotzdem vom Telefonanbieter kommen.",
+        "## Fuehre ein kleines Review Log",
+        "Bewahre prompt, version, loop length, format, phone-system setting und approval date auf. Fuege eine separate Rights-Notiz hinzu: Wer hat den Einsatz geprueft? Welche tool terms gelten? Gibt es Werbebotschaften oder eine starke Markenbindung? Gehe nicht davon aus, dass generierte Musik automatisch fuer jedes Geschaeftsszenario freigegeben ist.",
+        "## Ideen fuer heute",
+        "- Schreibe den Call-Job vor dem Genre.\n- Fordere einen 30- bis 60-Sekunden-Loop mit unauffaelligem Anfang und Ende an.\n- Teste die Musik unter einer echten Ansage.\n- Hoere die Datei ueber einen echten Anruf, nicht nur im Player.\n- Speichere prompt, format, approval und bekannte Grenzen zusammen.",
+        "## FAQ\n### Wie lang sollte ein Hold Loop sein?\nFuer den ersten Test reichen oft 30 bis 60 Sekunden. Wichtiger ist, dass er ohne auffaelligen Neustart wiederholt werden kann.\n### Sollten Vocals hinein?\nMeist nein. Vocals konkurrieren mit Ansagen und werden im Telefonklang schnell unklar.\n### Ist mono wichtig?\nJa, zumindest als Test. Viele Telefonsysteme summieren oder komprimieren stark, deshalb sollte die mono version funktionieren.\n### Kann ich den Track sofort im Unternehmen nutzen?\nNicht automatisch. Pruefe tool terms, Unternehmensregeln, Nutzungsrechte und die technischen Upload-Anforderungen."
+      ]
+    },
+    "en": {
+      "title": "Make AI Phone Hold Music That Does Not Wear Callers Out",
+      "description": "A practical checklist for creating hold music loops that survive phone compression, spoken updates, and repetition.",
+      "body": [
+        "Hold music sounds easy until you hear it through a real phone line. A track that feels smooth in headphones can turn sharp, cramped, or tiring once a phone system compresses it. The caller is not asking for a concert. They need a calm signal that the line is alive, without covering service messages or making the wait feel longer.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, style direction, and audio ideas into music drafts you can review. In a phone-hold workflow, treat it as a drafting tool: generate options, test them inside the phone system, and review technical and rights questions separately.",
+        "## Start With the Call Job, Not the Genre",
+        "Before generating, write down who is calling, why they are waiting, whether spoken updates will play over the music, and how long callers usually stay on hold. A medical office may need calm reassurance. A small retail shop may need a brighter pulse. Avoid a vague prompt like upbeat corporate music. Write the function instead: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## Build a Loop That Can Repeat Without Annoyance",
+        "Hold time does not respect song form. Do not start with a big hit or end with a dramatic finish. Ask for a very short intro, steady texture, and a small change every 8 or 12 seconds. If the cue sounds good once but irritating by the fifth repeat, it is not good hold music. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help organize words such as warm keys, light percussion, friendly bass, clean loop, and low-density arrangement before you trim the prompt.",
+        "## Leave a Lane for Spoken Messages",
+        "If the business plays recorded updates, the arrangement needs room in the midrange. Avoid lead melodies that fight speech, brittle cymbals, or bass moves that disappear and jump back on small speakers. Test one instrumental version and one thinner pulse version. Then place the actual message over both before choosing, because the prettiest standalone track may be the worst bed for the sentence: thanks for holding, we will be with you shortly.",
+        "## Test the Phone Version Early",
+        "Many phone paths reduce audio quality, and some environments end up near 8 kHz narrowband or mono. Do not approve the master file alone. Export a small test, upload it, call your own line, and listen through a phone speaker and cheap earbuds. If you need another delivery format, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can help prepare a file, but the phone provider should still confirm the exact upload requirements.",
+        "## Keep a Review Log",
+        "Save the prompt, version, loop length, file format, phone-system setting, and approval date. Add a separate rights note: who checked the intended use, which tool terms apply, whether the track is tied to an advertisement, and whether the company has any internal music policy. Do not assume that generated music is automatically cleared for every business use. The small log matters when the phone system changes or a manager asks for a calmer version six months later.",
+        "## Ideas You Can Reuse Today",
+        "- Write the call job before choosing a genre.\n- Ask for a 30- to 60-second loop with a low-drama start and ending.\n- Test the cue under a real spoken message before approval.\n- Listen through an actual phone call, not only through your editing speakers.\n- Keep prompt, file format, approval, and known limits in one note.",
+        "## FAQ\n### How long should phone hold music be?\nFor a first test, 30 to 60 seconds is often enough. The more important test is whether the loop can restart without calling attention to itself.\n### Should hold music include vocals?\nUsually no. Vocals can collide with spoken updates and become harder to understand through phone compression.\n### Does mono matter?\nYes, at least for review. Many phone systems reduce or combine audio, so a cue should still feel balanced in mono or narrowband playback.\n### Can I upload AI-generated music to a business phone system immediately?\nNot as an automatic step. Review the tool terms, company policy, rights position, and technical upload requirements before publishing it."
+      ]
+    },
+    "es": {
+      "title": "Crea hold music con AI sin cansar a quien llama",
+      "description": "Checklist practica para generar un loop de espera que soporte compresion telefonica, mensajes hablados y repeticion.",
+      "body": [
+        "La musica de espera parece sencilla hasta que la escuchas por una linea real. Un track suave en audifonos puede volverse estrecho, brillante o cansado cuando pasa por el sistema telefonico. La persona que llama no necesita un concierto. Necesita una senal tranquila de que la llamada sigue activa, sin tapar avisos ni hacer que la espera se sienta mas larga.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, lyrics, style direction e ideas de audio en music drafts revisables. En un workflow de phone hold, usala como herramienta de borrador: genera opciones, pruebalas dentro del sistema telefonico y revisa por separado tecnica y derechos.",
+        "## Empieza por la funcion de la llamada, no por el genero",
+        "Antes de generar, escribe quien llama, por que espera, si habra mensajes hablados encima y cuanto suele durar la espera. Un consultorio puede necesitar calma y confianza. Una tienda pequena puede sonar mas luminosa. Evita un prompt vago como upbeat corporate music. Escribe la funcion: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## Construye un loop que soporte repeticion",
+        "La espera no respeta la forma de una cancion. No empieces con un golpe grande ni termines con cierre dramatico. Pide intro muy corta, textura estable y un cambio pequeno cada 8 o 12 segundos. Si la cue suena bien una vez pero irrita en la quinta vuelta, no sirve para espera. El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede ordenar palabras como warm keys, light percussion, friendly bass y clean loop antes de recortar el prompt.",
+        "## Deja espacio para los mensajes hablados",
+        "Si la empresa reproduce avisos grabados, el arreglo necesita espacio en el midrange. Evita melodias principales que compitan con la voz, cymbals asperos o bajos que desaparecen y vuelven de golpe en parlantes pequenos. Prueba una version instrumental y otra con pulse mas fino. Pon el mensaje real encima antes de elegir, porque el track mas bonito solo puede ser la peor cama para una frase de servicio.",
+        "## Prueba pronto la version telefonica",
+        "Muchos recorridos telefonicos reducen calidad de audio, y algunos terminan cerca de 8 kHz o mono. No apruebes solo el master file. Exporta una prueba pequena, subela, llama a tu propia linea y escucha con altavoz del telefono y audifonos simples. Si necesitas otro formato de entrega, [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar un archivo, pero el proveedor telefonico debe confirmar los requisitos exactos.",
+        "## Guarda un log de revision",
+        "Conserva prompt, version, duracion del loop, format, ajuste del sistema y fecha de aprobacion. Agrega una nota separada de derechos: quien reviso el uso, que tool terms aplican, si el track se asocia a publicidad y si la empresa tiene politica interna. No supongas que la musica generada queda automaticamente autorizada para cualquier uso comercial.",
+        "## Ideas reutilizables",
+        "- Escribe la funcion de la llamada antes del genero.\n- Pide un loop de 30 a 60 segundos con inicio y cierre discretos.\n- Prueba la cue bajo un mensaje hablado real.\n- Escucha por una llamada real, no solo en tus monitores.\n- Guarda prompt, format, approval y limites conocidos en una sola nota.",
+        "## FAQ\n### Cuanto debe durar la musica de espera?\nPara la primera prueba, 30 a 60 segundos suele bastar. Lo importante es que el loop pueda reiniciar sin llamar la atencion.\n### Conviene usar vocals?\nNormalmente no. Los vocals chocan con los mensajes hablados y se entienden peor con compresion telefonica.\n### Importa mono?\nSi, al menos para review. Muchos sistemas reducen o combinan audio, asi que la cue debe sentirse equilibrada en mono.\n### Puedo subir musica generada por AI de inmediato?\nNo como paso automatico. Revisa tool terms, politica de empresa, derechos de uso y requisitos tecnicos antes de publicarla."
+      ]
+    },
+    "fr": {
+      "title": "Creer une musique d attente AI qui ne fatigue pas les appelants",
+      "description": "Checklist concrete pour produire une boucle d attente qui resiste a la compression telephonique, a la voix et a la repetition.",
+      "body": [
+        "La musique d attente semble simple jusqu au moment ou tu l ecoutes sur une vraie ligne. Un morceau doux au casque peut devenir serre, brillant ou fatigant dans un systeme telephonique. La personne qui appelle ne demande pas un concert. Elle a besoin d un signal calme qui confirme que la ligne est active, sans masquer les messages de service ni allonger la sensation d attente.",
+        "## Qu est-ce que EasyMusic.AI ?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, lyrics, style direction et idees audio en music drafts a verifier. Dans un workflow phone-hold, utilise-la comme outil de brouillon: generer des options, les tester dans le systeme telephonique, puis verifier separement technique et droits.",
+        "## Pars de la mission d appel, pas du genre",
+        "Avant de generer, note qui appelle, pourquoi la personne attend, si des messages parles passeront sur la musique et quelle duree d attente est frequente. Un cabinet medical aura besoin de calme et de confiance. Une petite boutique peut accepter un pulse plus lumineux. Evite un prompt vague comme upbeat corporate music. Ecris la fonction: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## Construis une boucle supportable en repetition",
+        "L attente ne suit pas la forme d une chanson. Ne commence pas par un impact fort et ne finis pas par une resolution dramatique. Demande une intro tres courte, une texture stable et un petit mouvement toutes les 8 ou 12 secondes. Si la cue plait une fois mais irrite au cinquieme passage, ce n est pas une bonne hold music. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut organiser warm keys, light percussion, friendly bass et clean loop avant que tu simplifies le prompt.",
+        "## Laisse une voie libre pour la parole",
+        "Si l entreprise ajoute des messages enregistres, l arrangement doit laisser de l espace dans les mediums. Evite les melodies principales qui luttent avec la voix, les cymbals cassants ou les basses qui disparaissent puis reviennent sur petits haut-parleurs. Compare une version instrumental et une version encore plus fine. Pose le vrai message dessus avant de choisir.",
+        "## Teste vite la version telephone",
+        "Beaucoup de trajets telephoniques reduisent la qualite, et certains finissent pres de 8 kHz ou en mono. Ne valide pas seulement le master file. Exporte un petit test, envoie-le dans le systeme, appelle ta propre ligne et ecoute sur haut-parleur de telephone et ecouteurs simples. Si tu dois changer de format, [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut preparer un fichier, mais le fournisseur telephonique doit confirmer les exigences exactes.",
+        "## Garde un journal de review",
+        "Conserve prompt, version, duree de boucle, format, reglage du systeme et date d approval. Ajoute une note de droits separee: qui a verifie l usage, quels tool terms s appliquent, si la musique accompagne de la publicite, et quelle politique interne existe. Ne suppose pas qu une musique generee est automatiquement valable pour tout usage commercial.",
+        "## Idees reutilisables",
+        "- Ecris la mission d appel avant le genre.\n- Demande une boucle de 30 a 60 secondes avec debut et fin discrets.\n- Teste la cue sous un vrai message parle.\n- Ecoute via un appel reel, pas seulement dans le player.\n- Garde prompt, format, approval et limites connues dans la meme note.",
+        "## FAQ\n### Quelle duree pour une boucle d attente?\nPour un premier test, 30 a 60 secondes suffisent souvent. Le point cle est la repetition sans relance visible.\n### Faut-il des vocals?\nEn general non. Les vocals se melangent mal avec les messages parles et deviennent moins clairs au telephone.\n### Le mono compte-t-il?\nOui, au moins pour la review. Beaucoup de systemes reduisent ou combinent l audio.\n### Puis-je l uploader directement dans le systeme de l entreprise?\nPas automatiquement. Verifie tool terms, politique interne, droits d usage et contraintes techniques avant publication."
+      ]
+    },
+    "it": {
+      "title": "Creare phone hold music con AI senza stancare chi chiama",
+      "description": "Checklist pratica per un loop di attesa che regga compressione telefonica, messaggi vocali e ripetizione.",
+      "body": [
+        "La musica d attesa sembra facile finche non la senti su una linea vera. Un track morbido in cuffia puo diventare stretto, brillante o faticoso quando passa dal sistema telefonico. Chi chiama non sta chiedendo un concerto. Ha bisogno di un segnale calmo che dica che la linea e viva, senza coprire i messaggi di servizio o far sembrare l attesa piu lunga.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation per trasformare prompts, lyrics, style direction e idee audio in music drafts da rivedere. In un workflow phone-hold, usala come strumento di bozza: genera opzioni, testale nel sistema telefonico e controlla separatamente aspetti tecnici e diritti.",
+        "## Parti dal lavoro della chiamata, non dal genre",
+        "Prima di generare, scrivi chi chiama, perche aspetta, se ci saranno messaggi parlati sopra la musica e quanto dura di solito l attesa. Uno studio medico puo richiedere calma e fiducia. Un piccolo negozio puo avere un pulse piu chiaro. Evita prompt vaghi come upbeat corporate music. Scrivi la funzione: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## Costruisci un loop che tollera la ripetizione",
+        "L attesa non segue la forma di una canzone. Non iniziare con un colpo forte e non chiudere con finale drammatico. Chiedi intro molto breve, texture stabile e un piccolo movimento ogni 8 o 12 secondi. Se la cue piace una volta ma irrita al quinto giro, non e buona hold music. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo organizzare parole come warm keys, light percussion, friendly bass e clean loop prima di ridurre il prompt.",
+        "## Lascia spazio ai messaggi vocali",
+        "Se l azienda riproduce aggiornamenti registrati, l arrangement deve lasciare aria nel midrange. Evita lead melody che litiga con la voce, cymbals taglienti o bassi che spariscono e tornano su speaker piccoli. Prova una instrumental version e una pulse version piu sottile. Metti sopra il messaggio reale prima di scegliere.",
+        "## Testa presto la versione telefonica",
+        "Molti percorsi telefonici riducono la qualita audio, e alcuni arrivano vicino a 8 kHz o mono. Non approvare solo il master file. Esporta un test piccolo, caricalo, chiama la tua linea e ascolta da altoparlante del telefono e auricolari economici. Se serve cambiare formato, [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo preparare un file, ma i requisiti esatti devono arrivare dal provider telefonico.",
+        "## Tieni un review log",
+        "Salva prompt, version, loop length, file format, impostazione del sistema e data di approval. Aggiungi una nota separata sui diritti: chi ha controllato l uso, quali tool terms valgono, se il track accompagna pubblicita e se esiste una policy interna. Non supporre che la musica generata sia automaticamente pronta per qualsiasi uso business.",
+        "## Idee riutilizzabili",
+        "- Scrivi il job della chiamata prima del genre.\n- Chiedi un loop di 30-60 secondi con inizio e fine discreti.\n- Testa la cue sotto un vero messaggio parlato.\n- Ascolta tramite una chiamata reale, non solo nel player.\n- Tieni insieme prompt, format, approval e limiti noti.",
+        "## FAQ\n### Quanto deve durare una hold loop?\nPer un primo test spesso bastano 30-60 secondi. Conta soprattutto che riparta senza farsi notare.\n### Meglio usare vocals?\nDi solito no. I vocals competono con i messaggi parlati e diventano meno chiari via telefono.\n### Mono e importante?\nSi, almeno in review. Molti sistemi riducono o combinano l audio.\n### Posso caricarla subito nel sistema aziendale?\nNon automaticamente. Verifica tool terms, policy aziendale, diritti d uso e requisiti tecnici prima di pubblicare."
+      ]
+    },
+    "ja": {
+      "title": "通話保留の AI music loop を、疲れにくく作る",
+      "description": "Phone compression、spoken updates、repetition に耐える hold music を作るための practical checklist。",
+      "body": [
+        "Hold music は簡単に見えますが、実際の電話回線で聞くと別物になります。Headphones では滑らかな track でも、phone system の compression で細く、硬く、疲れる音になることがあります。Caller が求めているのは concert ではありません。Line が生きているとわかり、service message を邪魔しない落ち着いた signal です。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、lyrics、style direction、audio ideas を review できる music drafts に変える AI music creation platform です。Phone-hold workflow では、drafting tool として使い、生成した候補を phone system で test し、technical requirement と rights review は別に確認します。",
+        "## genre の前に call job を書く",
+        "生成前に、誰が電話するのか、なぜ待つのか、spoken updates が重なるのか、平均的な hold time はどれくらいかを書きます。Medical office なら calm reassurance。Small retail shop なら少し明るい pulse。upbeat corporate music のような曖昧な prompt ではなく、function を書きます: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## 繰り返しても疲れない loop にする",
+        "Hold time は song form に合わせてくれません。大きな hit で始めたり、dramatic finish で終えたりしない方が安定します。Very short intro、steady texture、8 or 12 seconds ごとの小さな変化を求めます。一回なら良くても五回目で嫌になる cue は hold music には向きません。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で warm keys、light percussion、friendly bass、clean loop などを整理し、その後 prompt を絞ります。",
+        "## Spoken message の場所を空ける",
+        "Recorded updates を流すなら、arrangement は midrange に余白が必要です。Speech とぶつかる lead melody、硬い cymbals、小さな speaker で消えて戻る bass move は避けます。Instrumental version と thinner pulse version を比べましょう。選ぶ前に本物の message を重ねます。Standalone で美しい track が、thanks for holding の下では最悪の bed になることがあります。",
+        "## 電話版を早く test する",
+        "電話経路では audio quality が下がることが多く、8 kHz narrowband や mono に近づく場合もあります。Master file だけで承認しないでください。小さな test file を upload し、自分の line に電話し、phone speaker と安い earbuds で聞きます。別 format が必要なら [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) で準備できますが、exact upload requirements は phone provider に確認します。",
+        "## Review log を残す",
+        "Prompt、version、loop length、file format、phone-system setting、approval date を保存します。Rights note も分けて残します。誰が intended use を確認したか、どの tool terms が関係するか、advertising と結びつくか、社内 music policy があるかです。Generated music が business use で自動的に安全とは考えないでください。",
+        "## 今日使える ideas",
+        "- Genre の前に call job を書く。\n- 30-60 秒の loop を、控えめな start と ending で作る。\n- Real spoken message の下で cue を test する。\n- Editing speakers だけでなく実際の call で聞く。\n- Prompt、format、approval、known limits を一つの note に残す。",
+        "## FAQ\n### Hold music はどのくらいの長さがよいですか？\n最初の test なら 30-60 秒で十分なことが多いです。大事なのは、restart が目立たないことです。\n### Vocals は入れるべきですか？\n通常は避けます。Spoken updates とぶつかり、phone compression で聞き取りにくくなります。\n### Mono は重要ですか？\nReview では重要です。多くの phone systems は audio を reduce したり combine したりします。\n### AI-generated music をすぐ business phone system に upload できますか？\n自動的には進めません。Tool terms、company policy、rights position、technical requirements を確認してください。"
+      ]
+    },
+    "ko": {
+      "title": "전화 대기용 AI music loop, 듣는 사람을 지치게 하지 않기",
+      "description": "Phone compression, spoken updates, repetition을 견디는 hold music loop를 만드는 practical checklist.",
+      "body": [
+        "Hold music은 쉬워 보이지만 실제 전화선으로 들으면 달라집니다. Headphones에서는 부드러운 track도 phone system compression을 지나면 날카롭고 좁고 피곤하게 들릴 수 있습니다. Caller가 원하는 것은 concert가 아닙니다. Line이 살아 있다는 calm signal, 그리고 service message를 가리지 않는 배경입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Phone-hold workflow에서는 drafting tool로 쓰세요. 후보를 생성한 뒤 phone system 안에서 test하고, technical requirement와 rights review는 따로 확인해야 합니다.",
+        "## genre보다 call job 먼저 쓰기",
+        "생성 전에 누가 전화하는지, 왜 기다리는지, spoken updates가 music 위에 올라가는지, 보통 hold time이 얼마나 되는지 적습니다. Medical office라면 calm reassurance가 필요할 수 있고, small retail shop이라면 밝은 pulse가 어울릴 수 있습니다. upbeat corporate music 같은 vague prompt 대신 function을 씁니다: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## 반복해도 거슬리지 않는 loop 만들기",
+        "Hold time은 song form을 따르지 않습니다. 큰 hit로 시작하거나 dramatic finish로 끝내지 마세요. Very short intro, steady texture, 8 or 12 seconds마다 작은 변화가 좋습니다. 한 번 들을 때는 괜찮지만 다섯 번째 반복에서 싫어진다면 좋은 hold music이 아닙니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 warm keys, light percussion, friendly bass, clean loop 같은 단어를 정리한 뒤 prompt를 줄이세요.",
+        "## spoken message를 위한 자리 남기기",
+        "Business가 recorded updates를 재생한다면 arrangement는 midrange에 공간을 남겨야 합니다. Speech와 싸우는 lead melody, brittle cymbals, 작은 speaker에서 사라졌다 튀어나오는 bass moves는 피하세요. Instrumental version과 thinner pulse version을 비교합니다. 선택 전 실제 message를 얹어 보세요. 혼자 들으면 예쁜 track이 thanks for holding 아래에서는 나쁜 bed가 될 수 있습니다.",
+        "## 전화 버전을 일찍 test하기",
+        "전화 경로는 audio quality를 줄이는 경우가 많고, 어떤 환경은 8 kHz narrowband나 mono에 가까워집니다. Master file만 듣고 approve하지 마세요. 작은 test file을 export하고 upload한 뒤 자기 번호로 전화해 phone speaker와 저렴한 earbuds로 들어 봅니다. 다른 format이 필요하면 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)로 파일을 준비할 수 있지만, exact upload requirements는 phone provider에게 확인해야 합니다.",
+        "## review log 남기기",
+        "Prompt, version, loop length, file format, phone-system setting, approval date를 저장합니다. Rights note도 따로 남기세요. 누가 intended use를 확인했는지, 어떤 tool terms가 적용되는지, 광고와 강하게 연결되는지, 회사 music policy가 있는지입니다. Generated music이 모든 business use에 자동으로 허용된다고 보지 마세요.",
+        "## 오늘 바로 쓸 ideas",
+        "- Genre 전에 call job을 씁니다.\n- Start와 ending이 튀지 않는 30-60초 loop를 요청합니다.\n- Real spoken message 아래에서 cue를 test합니다.\n- Editing speakers뿐 아니라 실제 call로 들어 봅니다.\n- Prompt, format, approval, known limits를 한 note에 남깁니다.",
+        "## FAQ\n### 전화 대기 음악은 얼마나 길어야 하나요?\n첫 test라면 30-60초로 충분한 경우가 많습니다. 더 중요한 것은 restart가 눈에 띄지 않는지입니다.\n### Vocals를 넣어도 되나요?\n대부분 피하는 편이 좋습니다. Spoken updates와 충돌하고 phone compression에서 이해하기 어려워질 수 있습니다.\n### Mono가 중요한가요?\nReview에서는 중요합니다. 많은 phone systems가 audio를 줄이거나 합칩니다.\n### AI-generated music을 바로 business phone system에 올려도 되나요?\n자동 단계로 보지 마세요. Tool terms, company policy, rights position, technical requirements를 먼저 확인해야 합니다."
+      ]
+    },
+    "pt": {
+      "title": "Crie hold music com AI sem cansar quem liga",
+      "description": "Checklist pratica para criar um loop de espera que suporte compressao telefonica, mensagens faladas e repeticao.",
+      "body": [
+        "Musica de espera parece simples ate voce ouvir por uma linha real. Um track suave nos fones pode ficar estreito, brilhante ou cansativo depois da compressao do sistema telefonico. Quem liga nao precisa de um concerto. Precisa de um sinal calmo de que a linha continua ativa, sem cobrir mensagens de servico nem fazer a espera parecer maior.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, lyrics, style direction e ideias de audio em music drafts revisaveis. Em um workflow phone-hold, use como ferramenta de rascunho: gere opcoes, teste no sistema telefonico e revise separadamente questoes tecnicas e de direitos.",
+        "## Comece pela funcao da chamada, nao pelo genre",
+        "Antes de gerar, escreva quem liga, por que espera, se mensagens faladas ficarao sobre a musica e quanto costuma durar a espera. Um consultorio pode pedir calma e confianca. Uma loja pequena pode aceitar um pulse mais claro. Evite prompt vago como upbeat corporate music. Escreva a funcao: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## Faca um loop que aguente repeticao",
+        "A espera nao respeita forma de cancao. Nao comece com impacto forte nem termine com final dramatico. Peca intro muito curta, textura estavel e pequena mudanca a cada 8 ou 12 segundos. Se a cue soa bem uma vez mas irrita na quinta repeticao, nao e boa hold music. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode organizar warm keys, light percussion, friendly bass e clean loop antes de voce cortar o prompt.",
+        "## Deixe espaco para mensagens faladas",
+        "Se a empresa toca avisos gravados, o arrangement precisa deixar ar no midrange. Evite lead melody que briga com speech, cymbals asperos ou bass moves que somem e voltam em speakers pequenos. Teste uma instrumental version e uma thinner pulse version. Coloque a mensagem real por cima antes de escolher.",
+        "## Teste cedo a versao telefonica",
+        "Muitos caminhos telefonicos reduzem qualidade de audio, e alguns ambientes chegam perto de 8 kHz ou mono. Nao aprove apenas o master file. Exporte um teste pequeno, envie ao sistema, ligue para sua propria linha e ouca no alto-falante do telefone e em fones simples. Se precisar de outro formato, [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode preparar um arquivo, mas o provedor telefonico deve confirmar os requisitos exatos.",
+        "## Mantenha um review log",
+        "Guarde prompt, version, loop length, file format, ajuste do sistema e data de approval. Acrescente uma nota separada de direitos: quem revisou o uso, quais tool terms se aplicam, se ha relacao com propaganda e se existe politica interna. Nao presuma que musica gerada esteja automaticamente liberada para qualquer uso comercial.",
+        "## Ideias reutilizaveis",
+        "- Escreva a funcao da chamada antes do genre.\n- Peca um loop de 30 a 60 segundos com inicio e fim discretos.\n- Teste a cue sob uma mensagem falada real.\n- Ouca por uma chamada real, nao so nos monitores.\n- Guarde prompt, format, approval e limites conhecidos em uma nota.",
+        "## FAQ\n### Quanto deve durar a hold music?\nPara primeiro teste, 30 a 60 segundos costuma bastar. Mais importante e o loop reiniciar sem chamar atencao.\n### Devo usar vocals?\nNormalmente nao. Vocals competem com mensagens faladas e ficam menos claros com compressao telefonica.\n### Mono importa?\nSim, pelo menos para review. Muitos sistemas reduzem ou combinam audio.\n### Posso subir musica gerada por AI imediatamente?\nNao automaticamente. Revise tool terms, politica da empresa, direitos de uso e requisitos tecnicos antes de publicar."
+      ]
+    },
+    "ru": {
+      "title": "Как сделать AI музыку для удержания на линии без раздражения",
+      "description": "Практический checklist для phone hold loop, который выдерживает телефонное сжатие, голосовые сообщения и повтор.",
+      "body": [
+        "Музыка ожидания кажется простой, пока вы не услышите ее через настоящую телефонную линию. Track, который мягко звучит в наушниках, может стать резким, узким и утомительным после сжатия в phone system. Звонящему не нужен концерт. Ему нужен спокойный сигнал, что линия активна, без маскировки сервисных сообщений и без ощущения более долгого ожидания.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics, style direction и audio ideas в music drafts для review. В phone-hold workflow используйте ее как инструмент черновиков: создавайте варианты, тестируйте их в телефонной системе и отдельно проверяйте технические и правовые вопросы.",
+        "## Начните с задачи звонка, а не с genre",
+        "Перед генерацией запишите, кто звонит, почему ждет, будут ли поверх музыки spoken updates и какова обычная длительность ожидания. Медицинскому офису может понадобиться calm reassurance. Небольшому магазину подойдет более светлый pulse. Не пишите только upbeat corporate music. Пишите функцию: calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## Сделайте loop, который выдержит повтор",
+        "Ожидание не следует форме песни. Не начинайте с большого удара и не заканчивайте драматическим финалом. Попросите очень короткое intro, steady texture и небольшое изменение каждые 8 или 12 секунд. Если cue хорош один раз, но раздражает на пятом повторе, это плохая hold music. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать warm keys, light percussion, friendly bass и clean loop, а затем сократить prompt.",
+        "## Оставьте место для речи",
+        "Если бизнес включает recorded updates, arrangement должен оставить место в midrange. Избегайте lead melody, которая спорит с речью, жестких cymbals и bass moves, которые исчезают и возвращаются на маленьких динамиках. Сравните instrumental version и более тонкую pulse version. Перед выбором положите сверху настоящее сообщение.",
+        "## Рано тестируйте телефонную версию",
+        "Многие телефонные пути снижают качество audio, а некоторые среды оказываются близко к 8 kHz narrowband или mono. Не утверждайте только master file. Экспортируйте небольшой тест, загрузите его, позвоните на свою линию и послушайте через динамик телефона и простые наушники. Если нужен другой format, [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) поможет подготовить файл, но точные требования должен подтвердить phone provider.",
+        "## Ведите review log",
+        "Сохраните prompt, version, loop length, file format, настройки phone system и approval date. Добавьте отдельную rights note: кто проверил intended use, какие tool terms применяются, связана ли музыка с advertising и есть ли internal music policy. Не предполагайте, что generated music автоматически подходит для любого business use.",
+        "## Идеи, которые можно применить сегодня",
+        "- Сначала напишите call job, потом genre.\n- Попросите loop на 30-60 секунд с спокойным началом и концом.\n- Проверьте cue под реальным spoken message.\n- Слушайте через настоящий звонок, а не только в player.\n- Храните prompt, format, approval и known limits в одной note.",
+        "## FAQ\n### Какой длины должна быть phone hold music?\nДля первого теста часто хватает 30-60 секунд. Важнее, чтобы restart не привлекал внимание.\n### Нужны ли vocals?\nОбычно нет. Vocals конфликтуют с spoken updates и становятся менее понятными через phone compression.\n### Важен ли mono?\nДа, хотя бы для review. Многие phone systems уменьшают или объединяют audio.\n### Можно ли сразу загрузить AI-generated music в телефонную систему бизнеса?\nНе автоматически. Проверьте tool terms, company policy, rights position и technical requirements перед публикацией."
+      ]
+    },
+    "zh": {
+      "title": "制作不让来电者疲劳的 AI 电话等待音乐",
+      "description": "一份实用 checklist，帮助你生成能经受电话压缩、语音提示和循环播放的 hold music。",
+      "body": [
+        "电话等待音乐看起来简单，直到你把它放进真实电话线路里听。耳机里顺滑的 track，经过 phone system compression 之后，可能变得尖、窄、让人疲劳。来电者不是来听 concert 的。他们需要一个稳定信号，知道线路还在，同时不要盖住服务提示，也不要让等待显得更漫长。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可把 prompts、lyrics、style direction 和 audio ideas 转成可 review 的 music drafts。在 phone-hold workflow 中，把它当成草稿工具：先生成候选，再放进电话系统测试，并把技术要求和 rights review 分开确认。",
+        "## 先写通话任务，再写 genre",
+        "生成前先写清楚：谁会打电话，为什么等待，是否有 spoken updates 叠在音乐上，常见等待时间多长。医疗办公室可能需要 calm reassurance；小型零售店可以有更明亮的 pulse。不要只写 upbeat corporate music 这种模糊 prompt，而要写功能：calm 45-second hold loop, soft pulse, no lead vocal, no sudden drops, room for spoken updates.",
+        "## 做一个耐循环的 loop",
+        "等待时间不会配合 song form。不要用很大的 hit 开头，也不要用戏剧化结尾。请求 very short intro、steady texture，以及每 8 或 12 秒一个小变化。如果 cue 第一次听不错，第五次循环就烦人，它就不是好的 hold music。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮你整理 warm keys、light percussion、friendly bass、clean loop 等词，再把 prompt 精简。",
+        "## 给语音提示留空间",
+        "如果企业会播放 recorded updates，arrangement 需要在 midrange 留出空间。避免和 speech 抢位置的 lead melody、刺耳 cymbals，以及在小 speaker 上忽隐忽现的 bass moves。做一个 instrumental version，再做一个 thinner pulse version。选择前把真实 message 叠上去，因为单独好听的 track，可能是服务语句下面最差的 bed。",
+        "## 尽早测试电话版本",
+        "很多电话路径会降低 audio quality，有些环境接近 8 kHz narrowband 或 mono。不要只批准 master file。导出一个小 test file，上传到系统，给自己的线路打电话，用手机外放和便宜耳机听。如果需要其他 format，可以用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 准备文件，但 exact upload requirements 仍应由电话服务商确认。",
+        "## 保留 review log",
+        "保存 prompt、version、loop length、file format、phone-system setting 和 approval date。再单独写 rights note：谁检查了 intended use，哪些 tool terms 适用，是否和 advertising 强绑定，公司是否有 internal music policy。不要假设 generated music 自动适合每一种 business use。",
+        "## 今天就能复用的 ideas",
+        "- 先写 call job，再选择 genre。\n- 请求 30-60 秒 loop，开头和结尾都低调。\n- 在真实 spoken message 下测试 cue。\n- 用真实通话听，不只用 editing speakers。\n- 把 prompt、format、approval 和 known limits 放在同一份 note 里。",
+        "## FAQ\n### 电话等待音乐应该多长？\n第一次测试通常 30-60 秒就够。更重要的是 restart 不要太明显。\n### 应该加入 vocals 吗？\n通常不建议。Vocals 会和 spoken updates 冲突，在 phone compression 下也更难听清。\n### Mono 重要吗？\n至少 review 时重要。很多 phone systems 会 reduce 或 combine audio。\n### AI-generated music 可以立刻上传到企业电话系统吗？\n不要自动这么做。先检查 tool terms、company policy、rights position 和 technical requirements。"
+      ]
+    }
+  }
+}
