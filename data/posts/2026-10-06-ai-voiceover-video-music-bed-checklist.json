@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-06",
+  "slug": "ai-voiceover-video-music-bed-checklist",
+  "cluster": "ai-voiceover-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع music bed لفيديو AI voiceover من دون دفن الكلام",
+      "description": "Checklist عملي لاختيار موسيقى تحت narration مولد بالذكاء الاصطناعي مع وضوح،captions،وسجل نشر مسؤول.",
+      "body": [
+        "الفيديو يبدو جاهزا: script واضح،voiceover مولد،ومونتاج قصير. ثم تضيف music bed جميلة فيختفي نصف الكلام. المشكلة ليست ان الموسيقى سيئة؛المشكلة انها لم تصمم حول voice ضعيف نسبيا،captions،ومنصة قد تطلب منك توضيح استخدام المحتوى المولد.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompt،lyrics،style direction،وافكار صوتية إلى music drafts قابلة للمراجعة. في فيديو AI voiceover،استخدمها لعمل خيارات موسيقية داعمة،ثم راجع mix،disclosure،وحقوق الاستخدام كخطوات منفصلة.",
+        "## اكتب دور الصوت قبل الstyle",
+        "لا تبدأ ب cinematic corporate inspiration. اكتب وظيفة الموسيقى: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. اذا كان الفيديو تعليمي،الموسيقى يجب ان تساعد المشاهد على الاستماع. اذا كان product update،يجب ان تجعل الانتقالات واضحة من دون تحويل كل feature الى اعلان كبير.",
+        "استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لترتيب مفردات مثل soft pulse،warm pad،light percussion،no busy arpeggio،speech-first mix. بعد ذلك احذف اي كلمة تدفع الموسيقى الى الامام اكثر من اللازم. Prompt الاقصر والادق غالبا افضل من قائمة طويلة من moods.",
+        "## اختبر تحت الvoiceover وليس منفردا",
+        "المسار الذي يبدو مملا وحده قد يكون ممتازا تحت narration. ضع الموسيقى تحت voiceover الحقيقي منذ اول review. خفضها حتى تفهم الجملة كاملة من دون captions،ثم ارفعها قليلا فقط اذا اصبح الفيديو فارغا. اذا احتجت ducking،اجعل الانخفاض ناعما ولا تدعه يضخ مع كل syllable. W3C guidance حول low background audio مفيد هنا: الخلفية يجب ان تبقى اقل بكثير من الكلام عندما يكون الكلام هو المحتوى الرئيسي.",
+        "## اترك مساحة للcaptions والvisual cues",
+        "AI voiceover videos غالبا تعتمد على captions لان الناس يشاهدون في اماكن صاخبة او بصوت منخفض. لا تجعل musical hit يحدث في لحظة ظهور caption مهم،ولا تضع fill صاخبا تحت رقم،اسم منتج،او خطوة يجب حفظها. افصل timeline الى intro،explanation،example،recap،CTA. اعط كل جزء energy صغيرة،لكن اجعل الكلام هو المقياس.",
+        "## حضر ملف التسليم وسجل الافصاح",
+        "قبل النشر،احفظ prompt،نسخة الvoice،music version،mix notes،واي قرار disclosure. بعض المنصات تفرق بين AI assistance بسيط ومحتوى مولد يبدو واقعيا او موسيقى مولدة تكون هي محور الفيديو؛لذلك راجع سياسة المنصة في وقت الرفع. اذا احتجت WAV للتحرير او MP3 للتسليم،يمكنك تجهيز نسخة عبر [Audio Converter](https://easymusic.ai/ar/tools/audio-converter)،مع التأكد ان لديك حق معالجة الملف.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب prompt يبدأ ب speech-first وليس genre-first.\n- اختبر الموسيقى تحت voiceover كامل قبل اختيار النسخة.\n- ضع hits موسيقية بعد الجمل المهمة لا فوقها.\n- احتفظ بسجل صغير للprompt،mix،voice source،وdisclosure.\n- صدّر نسخة review ونسخة delivery ولا تعتمد على ملف واحد لكل شيء.",
+        "## FAQ\n### هل يجب ان تكون موسيقى AI voiceover خافتة دائما؟\nليست خافتة بلا شخصية،لكنها يجب ان تخدم الكلام. اذا احتاج المشاهد الى captions لفهم الجملة،فالموسيقى غالبا عالية او مزدحمة.\n### هل استخدم vocals تحت narration؟\nعادة لا. Vocals،حتى لو كانت بعيدة،تنافس الكلمات وتربك اللغة.\n### هل يلزمني الافصاح عن AI voiceover او music؟\nيعتمد على المنصة وطبيعة المحتوى. راجع اعدادات الرفع والسياسات الحالية بدلا من نسخ قرار قديم.\n### ما افضل صيغة للتسليم؟\nاستخدم WAV او FLAC للمراجعة والتحرير عندما تحتاج جودة،وMP3 او M4A للتسليم الخفيف اذا قبلته المنصة او العميل."
+      ]
+    },
+    "de": {
+      "title": "AI Voiceover Videos mit Musik unterlegen, ohne Sprache zu verdecken",
+      "description": "Eine praktische Checklist fuer Music Beds unter KI-Narration, mit Sprachklarheit, Captions und sauberem Upload-Log.",
+      "body": [
+        "Das Video wirkt fertig: klares Script, generierte Voiceover, kurzer Schnitt. Dann kommt ein huebsches Music Bed darunter und ploetzlich gehen halbe Saetze verloren. Das Problem ist nicht unbedingt die Musik. Sie wurde nur nicht um eine fragile Stimme, Captions und moegliche Disclosure-Fragen herum geplant.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du prompts, lyrics, style direction und Audio-Ideen in pruefbare Music Drafts verwandelst. Bei AI Voiceover Videos solltest du sie als Entwurfswerkzeug nutzen und Mix, Plattformhinweise und Nutzungsfragen getrennt pruefen.",
+        "## Schreibe die Audio-Aufgabe vor dem Style",
+        "Starte nicht mit cinematic corporate inspiration. Schreibe die Funktion: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. Bei einem Tutorial soll die Musik beim Zuhoeren helfen. Bei einem Product Update soll sie Kapitel markieren, ohne jedes Feature gross zu inszenieren.",
+        "Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann Begriffe wie soft pulse, warm pad, light percussion, no busy arpeggio und speech-first mix ordnen. Danach streichst du alles, was die Musik zu sehr nach vorne schiebt. Ein kurzer, genauer Prompt ist oft besser als eine lange Stimmungsliste.",
+        "## Teste unter der Stimme, nicht solo",
+        "Ein Track, der alleine langweilig wirkt, kann unter Narration perfekt sein. Lege die Musik im ersten Review unter die echte Voiceover. Senke sie, bis jeder Satz ohne Captions verstanden wird, und gib nur so viel zurueck, wie das Video braucht. Wenn du ducking nutzt, soll die Absenkung weich sein und nicht bei jeder Silbe pumpen. Die W3C Hinweise zu low background audio sind ein guter Massstab: Wenn Sprache der Hauptinhalt ist, muss die Hintergrundebene deutlich darunter bleiben.",
+        "## Lass Platz fuer Captions und visuelle Hinweise",
+        "AI Voiceover Videos werden oft mit Captions gesehen, weil Menschen unterwegs, leise oder in lauten Raeumen schauen. Setze keinen musikalischen Hit auf den Moment, in dem eine wichtige Zahl, ein Produktname oder ein Schritt erscheint. Teile die Timeline in intro, explanation, example, recap und CTA. Gib jedem Teil eine kleine Bewegung, aber lass die Stimme die wichtigste Spur bleiben.",
+        "## Bereite Export und Disclosure-Notiz vor",
+        "Speichere prompt, voice version, music version, mix notes und jede Disclosure-Entscheidung. Plattformen unterscheiden teils zwischen einfacher AI assistance und realistisch wirkendem generiertem Inhalt oder Musik, die im Video selbst der Hauptfokus ist. Pruefe deshalb beim Upload die aktuellen Regeln. Fuer weitere Bearbeitung oder Lieferung kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) passende Formate vorbereiten, solange du berechtigt bist, die Datei zu verarbeiten.",
+        "## Ideen fuer heute",
+        "- Schreibe speech-first in den Prompt, bevor du das Genre waehlst.\n- Waehle Musik erst, nachdem sie unter der kompletten Voiceover getestet wurde.\n- Setze musikalische Akzente nach wichtigen Saetzen, nicht darueber.\n- Fuehre ein kurzes Log fuer prompt, mix, voice source und disclosure.\n- Exportiere getrennte Review- und Delivery-Dateien.",
+        "## FAQ\n### Muss Musik unter AI Voiceover immer sehr leise sein?\nNicht charakterlos leise. Sie muss die Sprache stuetzen. Wenn man Captions braucht, um den Satz zu verstehen, ist sie meist zu laut oder zu voll.\n### Sind Vocals unter Narration sinnvoll?\nMeist nein. Vocals konkurrieren mit Wörtern, selbst wenn sie weit hinten gemischt sind.\n### Muss ich AI Voiceover oder AI Music offenlegen?\nDas haengt von Plattform, Realismus und Fokus des Inhalts ab. Pruefe die aktuellen Upload-Einstellungen und Policies.\n### Welches Format soll ich liefern?\nWAV oder FLAC fuer Review und Editing, wenn Qualitaet wichtig ist; MP3 oder M4A fuer leichte Lieferung, wenn Plattform oder Kunde es akzeptieren."
+      ]
+    },
+    "en": {
+      "title": "Make AI Voiceover Video Music Beds That Keep the Words Clear",
+      "description": "A practical checklist for putting music under AI narration without hiding speech, captions, or upload decisions.",
+      "body": [
+        "The edit looks ready: a clear script, an AI voiceover, a tight sequence of visuals. Then you add a nice music bed and half the words soften into mush. The music may not be bad. It simply was not planned around a synthetic voice, captions, and the upload choices that come with generated media.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, style direction, and audio ideas into music drafts you can review. For an AI voiceover video, treat it as a drafting tool for supportive cues, then review mix clarity, platform disclosure, and usage rights as separate decisions.",
+        "## Write the Audio Job Before the Style",
+        "Do not start with cinematic corporate inspiration. Write the job: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. If the video teaches something, the music should help the viewer listen. If it is a product update, the music should mark sections without making every feature feel huge.",
+        "The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help organize words such as soft pulse, warm pad, light percussion, no busy arpeggio, and speech-first mix. Then remove anything that pushes the cue forward too hard. A shorter, stricter prompt usually beats a pile of mood words.",
+        "## Test Under the Voice, Not Solo",
+        "A cue that feels plain by itself may be exactly right under narration. Place the music under the real voiceover during the first review. Lower it until every sentence makes sense without captions, then bring back only the energy the edit truly needs. If you use ducking, keep the level change smooth so it does not pump on every syllable. W3C accessibility guidance on background audio is a useful reference point: when speech is the main content, background sound should sit far below the foreground voice.",
+        "## Leave Room for Captions and Visual Cues",
+        "AI voiceover videos often rely on captions because people watch in noisy places, quiet offices, or on phones with low volume. Do not let a musical hit land on the same frame as an important number, product name, or step label. Divide the timeline into intro, explanation, example, recap, and CTA. Give each section a small energy change, but let the words do the heavy lifting.",
+        "## Prepare the Export and Disclosure Note",
+        "Save the prompt, voice version, music version, mix notes, and any disclosure decision. Some platforms distinguish between light AI assistance and generated content that appears realistic, or music that is the main focus of a video, so review the current upload settings instead of relying on memory. If you need a WAV for editing or an MP3 for handoff, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can prepare a delivery file after you confirm you are allowed to process the audio.",
+        "## Ideas You Can Reuse Today",
+        "- Start the prompt with speech-first constraints before genre.\n- Choose music only after hearing it under the full voiceover.\n- Put musical accents after important phrases, not on top of them.\n- Keep one note with the prompt, mix choice, voice source, and disclosure call.\n- Export a review file and a delivery file instead of forcing one file to do every job.",
+        "## FAQ\n### Should music under AI voiceover always be quiet?\nNot flat or lifeless, but it must serve speech. If viewers need captions to understand a normal sentence, the bed is probably too loud, too bright, or too busy.\n### Should I use vocals under narration?\nUsually no. Even distant vocals compete with spoken words and make language harder to parse.\n### Do I need to disclose AI voiceover or AI music?\nIt depends on the platform, the realism of the content, and whether generated music is central to the video. Check the current upload policy and settings before publishing.\n### Which audio format should I export?\nUse WAV or FLAC for review and editing when quality matters. Use MP3 or M4A for lighter delivery only when the platform or client accepts it."
+      ]
+    },
+    "es": {
+      "title": "Musica para videos con AI voiceover sin tapar las palabras",
+      "description": "Checklist practica para poner musica bajo narracion generada sin perder voz, captions ni decisiones de publicacion.",
+      "body": [
+        "El edit parece listo: script claro, AI voiceover y visuales bien cortados. Luego agregas una music bed agradable y la mitad de las palabras se vuelven borrosas. La musica no siempre es mala. Simplemente no fue pensada alrededor de una voz sintetica, captions y decisiones de upload.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, lyrics, style direction e ideas de audio en music drafts revisables. Para un video con AI voiceover, usala como herramienta de borrador y revisa por separado claridad de mezcla, disclosure de plataforma y derechos de uso.",
+        "## Escribe la funcion de audio antes del style",
+        "No empieces con cinematic corporate inspiration. Escribe el trabajo: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. Si el video ensena algo, la musica debe ayudar a escuchar. Si es un product update, debe marcar secciones sin hacer que cada feature parezca enorme.",
+        "El [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede ordenar palabras como soft pulse, warm pad, light percussion, no busy arpeggio y speech-first mix. Luego elimina lo que empuje demasiado la cue al frente. Un prompt corto y estricto suele funcionar mejor que una pila de moods.",
+        "## Prueba con la voz, no en solo",
+        "Una cue que sola parece simple puede ser perfecta bajo narration. Pon la musica bajo el voiceover real desde el primer review. Bajala hasta que cada frase se entienda sin captions y recupera solo la energia que el edit necesita. Si usas ducking, haz que el cambio de nivel sea suave para que no bombee en cada syllable. La guia de accesibilidad de W3C sobre background audio sirve como referencia: cuando la voz es el contenido principal, el fondo debe quedar claramente por debajo.",
+        "## Deja espacio para captions y visual cues",
+        "Los videos con AI voiceover suelen depender de captions porque la gente mira en lugares ruidosos, oficinas silenciosas o telefonos con bajo volumen. No pongas un golpe musical justo cuando aparece un numero, nombre de producto o paso importante. Divide la timeline en intro, explanation, example, recap y CTA. Da a cada parte un pequeno cambio de energia, pero deja que las palabras hagan el trabajo principal.",
+        "## Prepara export y nota de disclosure",
+        "Guarda prompt, voice version, music version, mix notes y cualquier decision de disclosure. Algunas plataformas distinguen entre AI assistance ligera, contenido generado que parece realista o musica generada que es el foco del video; revisa los ajustes actuales de upload. Si necesitas WAV para editar o MP3 para entregar, [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar el archivo cuando confirmas que tienes permiso para procesar el audio.",
+        "## Ideas reutilizables",
+        "- Empieza el prompt con speech-first constraints antes del genre.\n- Elige musica solo despues de escucharla bajo todo el voiceover.\n- Pon acentos musicales despues de frases importantes, no encima.\n- Guarda prompt, mix, voice source y disclosure en una nota.\n- Exporta un archivo de review y otro de delivery.",
+        "## FAQ\n### La musica bajo AI voiceover debe estar siempre baja?\nNo debe ser plana, pero si servir a la voz. Si hacen falta captions para entender una frase normal, la cama esta demasiado alta, brillante o cargada.\n### Conviene usar vocals bajo narration?\nNormalmente no. Incluso vocals lejanos compiten con palabras habladas y hacen mas dificil seguir el idioma.\n### Debo revelar AI voiceover o AI music?\nDepende de la plataforma, del realismo y de si la musica generada es central en el video. Revisa la politica y los ajustes actuales antes de publicar.\n### Que formato exportar?\nWAV o FLAC para review y edicion cuando importa la calidad. MP3 o M4A para entrega ligera si la plataforma o el cliente lo acepta."
+      ]
+    },
+    "fr": {
+      "title": "Musique sous AI voiceover sans couvrir les mots",
+      "description": "Checklist concrete pour placer une musique sous narration IA tout en gardant voix, sous-titres et publication au clair.",
+      "body": [
+        "Le montage semble pret: script clair, AI voiceover, visuels courts. Puis tu ajoutes une music bed agreable et la moitie des mots devient floue. La musique n est pas forcement mauvaise. Elle n a simplement pas ete pensee autour d une voix synthetique, des captions et des choix de publication.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, lyrics, style direction et idees audio en music drafts a reviser. Pour une video avec AI voiceover, utilise-la comme outil de brouillon, puis verifie separement le mix, la disclosure de plateforme et les droits d usage.",
+        "## Ecris le role audio avant le style",
+        "Ne commence pas par cinematic corporate inspiration. Ecris le travail: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. Si la video explique, la musique doit aider a ecouter. Si c est une mise a jour produit, elle doit marquer les sections sans gonfler chaque feature.",
+        "Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut organiser des mots comme soft pulse, warm pad, light percussion, no busy arpeggio et speech-first mix. Ensuite, coupe tout ce qui pousse la cue trop en avant. Un prompt plus court et plus strict bat souvent une longue liste d ambiances.",
+        "## Teste sous la voix, pas seul",
+        "Une cue qui semble simple seule peut etre parfaite sous narration. Place la musique sous le vrai voiceover des le premier review. Baisse-la jusqu a ce que chaque phrase soit comprise sans captions, puis remonte seulement l energie necessaire. Si tu utilises du ducking, garde le mouvement doux pour eviter l effet de pompage a chaque syllable. Les recommandations W3C sur le background audio donnent un bon repere: quand la parole est le contenu principal, le fond doit rester nettement plus bas.",
+        "## Laisse de la place aux captions et aux signaux visuels",
+        "Les videos AI voiceover sont souvent regardees avec captions, dans des lieux bruyants, des bureaux silencieux ou sur telephone peu fort. Ne place pas un hit musical au meme moment qu un nombre important, un nom de produit ou une etape. Decoupe la timeline en intro, explanation, example, recap et CTA. Donne une petite evolution a chaque partie, mais laisse les mots porter le sens.",
+        "## Prepare l export et la note de disclosure",
+        "Garde prompt, voice version, music version, mix notes et toute decision de disclosure. Certaines plateformes distinguent aide IA legere, contenu genere realiste ou musique generee qui devient le sujet principal; verifie donc les reglages d upload actuels. Si tu as besoin d un WAV pour le montage ou d un MP3 pour la livraison, [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut preparer le fichier apres confirmation que tu peux traiter cet audio.",
+        "## Idees reutilisables",
+        "- Commence le prompt par speech-first constraints avant le genre.\n- Choisis la musique seulement apres l ecoute sous tout le voiceover.\n- Mets les accents musicaux apres les phrases importantes, pas dessus.\n- Garde une note avec prompt, mix, voice source et disclosure.\n- Exporte un fichier de review et un fichier de livraison.",
+        "## FAQ\n### La musique sous AI voiceover doit-elle toujours etre tres basse?\nPas plate ni sans caractere, mais elle doit servir la parole. Si les captions sont necessaires pour comprendre une phrase normale, la bed est sans doute trop forte ou trop dense.\n### Faut-il mettre des vocals sous la narration?\nEn general non. Meme lointains, les vocals se battent avec les mots parles.\n### Dois-je declarer AI voiceover ou AI music?\nCela depend de la plateforme, du realisme et du role de la musique generee. Verifie la politique et les reglages actuels avant publication.\n### Quel format exporter?\nWAV ou FLAC pour review et montage quand la qualite compte; MP3 ou M4A pour une livraison legere si la plateforme ou le client l accepte."
+      ]
+    },
+    "it": {
+      "title": "Music bed per AI voiceover video senza coprire le parole",
+      "description": "Checklist pratica per mettere musica sotto una narrazione AI mantenendo chiari voce, sottotitoli e decisioni di upload.",
+      "body": [
+        "Il montaggio sembra pronto: script chiaro, AI voiceover e visual brevi. Poi aggiungi una music bed piacevole e meta delle parole diventa impastata. Non significa che la musica sia cattiva. Semplicemente non e stata progettata intorno a una voce sintetica, ai captions e alle scelte di pubblicazione.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, lyrics, style direction e idee audio in music drafts da rivedere. Per un AI voiceover video, usala come strumento di bozza e verifica separatamente mix clarity, disclosure di piattaforma e diritti d uso.",
+        "## Scrivi il compito audio prima dello style",
+        "Non partire da cinematic corporate inspiration. Scrivi il lavoro: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. Se il video insegna qualcosa, la musica deve aiutare ad ascoltare. Se e un product update, deve segnare le sezioni senza rendere enorme ogni feature.",
+        "Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo ordinare parole come soft pulse, warm pad, light percussion, no busy arpeggio e speech-first mix. Poi elimina cio che spinge troppo avanti la cue. Un prompt breve e severo spesso batte una lista lunga di mood.",
+        "## Prova sotto la voce, non da sola",
+        "Una cue semplice da sola puo essere perfetta sotto narration. Metti la musica sotto il voiceover reale gia dal primo review. Abbassala finche ogni frase si capisce senza captions, poi restituisci solo l energia che serve al montaggio. Se usi ducking, mantieni il cambio di livello morbido per evitare pompaggio su ogni syllable. Le indicazioni W3C sul background audio sono un buon riferimento: quando la voce e il contenuto principale, il fondo deve stare molto sotto.",
+        "## Lascia spazio a captions e visual cues",
+        "Gli AI voiceover videos spesso dipendono dai captions, perche le persone guardano in luoghi rumorosi, uffici silenziosi o telefoni a volume basso. Non mettere un hit musicale proprio quando appare un numero, un nome prodotto o un passaggio importante. Dividi la timeline in intro, explanation, example, recap e CTA. Dai a ogni parte un piccolo cambio di energia, ma lascia che siano le parole a guidare.",
+        "## Prepara export e nota di disclosure",
+        "Salva prompt, voice version, music version, mix notes e qualsiasi decisione di disclosure. Alcune piattaforme distinguono tra semplice AI assistance, contenuto generato realistico o musica generata che e il focus del video; controlla le impostazioni attuali di upload. Se ti serve WAV per editing o MP3 per consegna, [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo preparare un file dopo che hai confermato il diritto di processare l audio.",
+        "## Idee riutilizzabili",
+        "- Inizia il prompt con speech-first constraints prima del genre.\n- Scegli la musica solo dopo averla ascoltata sotto tutto il voiceover.\n- Metti accenti musicali dopo le frasi importanti, non sopra.\n- Tieni una nota con prompt, mix, voice source e disclosure.\n- Esporta un file di review e uno di delivery.",
+        "## FAQ\n### La musica sotto AI voiceover deve essere sempre bassa?\nNon piatta o senza carattere, ma deve servire la voce. Se servono captions per capire una frase normale, la bed e probabilmente troppo alta o densa.\n### Ha senso usare vocals sotto narration?\nDi solito no. Anche vocals lontani competono con parole parlate e complicano la comprensione.\n### Devo dichiarare AI voiceover o AI music?\nDipende da piattaforma, realismo e ruolo della musica generata. Controlla policy e impostazioni correnti prima di pubblicare.\n### Quale formato esportare?\nWAV o FLAC per review ed editing quando conta la qualita; MP3 o M4A per consegna leggera se accettati da piattaforma o cliente."
+      ]
+    },
+    "ja": {
+      "title": "AI voiceover 動画の言葉を消さない music bed の作り方",
+      "description": "AI narration の下に music を置くとき、speech、captions、upload 判断を崩さないための practical checklist。",
+      "body": [
+        "Edit は完成に見えます。Clear script、AI voiceover、短く切った visuals。そこに気持ちのよい music bed を入れた瞬間、言葉の半分がぼやけます。Music が悪いとは限りません。Synthetic voice、captions、generated media の upload choices を前提に設計されていないだけです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、lyrics、style direction、audio ideas を review できる music drafts に変える AI music creation platform です。AI voiceover video では、supportive cue を作る draft tool として使い、mix clarity、platform disclosure、usage rights は別々に確認します。",
+        "## style の前に audio job を書く",
+        "cinematic corporate inspiration から始めないでください。まず役割を書きます: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA。Teaching video なら、music は聞き取りを助けるものです。Product update なら、section を示しつつ、すべての feature を大きく見せすぎないことが大切です。",
+        "[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は、soft pulse、warm pad、light percussion、no busy arpeggio、speech-first mix などの言葉を整理するのに使えます。そのあと、cue を前に出しすぎる言葉を削ります。長い mood list より、短く厳しい prompt のほうが扱いやすいことが多いです。",
+        "## Solo ではなく voice の下で test する",
+        "単体では地味な cue が、narration の下ではちょうどよいことがあります。最初の review から実際の voiceover の下に置いてください。Captions なしで全ての文が理解できるまで下げ、そのあと必要な energy だけ戻します。Ducking を使うなら、level change は滑らかにし、syllable ごとに pumping しないようにします。W3C の background audio guidance は参考になります。Speech が main content のとき、background sound は foreground voice よりかなり低く置くべきです。",
+        "## Captions と visual cues の場所を空ける",
+        "AI voiceover videos は、騒がしい場所、静かな office、音量の低い phone で見られるため、captions に頼ることが多いです。重要な number、product name、step label が出る frame に musical hit を重ねないでください。Timeline を intro、explanation、example、recap、CTA に分けます。各 section に小さな energy change を入れつつ、意味は words に任せます。",
+        "## export と disclosure note を準備する",
+        "Prompt、voice version、music version、mix notes、disclosure decision を保存します。Platform によっては、light AI assistance、realistic generated content、または music が video の main focus かどうかで扱いが変わります。Upload 時点の current settings を確認してください。Editing 用の WAV や handoff 用の MP3 が必要なら、audio を処理する権利を確認したうえで [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使えます。",
+        "## 今日使える ideas",
+        "- Genre の前に speech-first constraints を書きます。\n- Full voiceover の下で聞いてから music を選びます。\n- Musical accents は大事な phrase の上ではなく後ろに置きます。\n- Prompt、mix choice、voice source、disclosure call を一つの note に残します。\n- Review file と delivery file を分けて export します。",
+        "## FAQ\n### AI voiceover の下の music は常に小さくするべきですか？\n平坦にする必要はありませんが、speech を支える必要があります。普通の文を理解するために captions が必要なら、bed は大きすぎるか、明るすぎるか、busy です。\n### Narration の下に vocals は使えますか？\n通常は避けます。遠くにある vocals でも spoken words と競合します。\n### AI voiceover や AI music は disclosure が必要ですか？\nPlatform、content の realism、generated music が中心かどうかで変わります。公開前に current upload policy と settings を確認してください。\n### どの audio format で export しますか？\nQuality が重要な review や editing には WAV または FLAC。軽い delivery には platform や client が受け入れる場合のみ MP3 または M4A を使います。"
+      ]
+    },
+    "ko": {
+      "title": "AI voiceover 영상에서 말을 가리지 않는 music bed 만들기",
+      "description": "AI narration 아래에 music을 둘 때 speech, captions, upload 결정을 지키는 practical checklist.",
+      "body": [
+        "Edit는 완성처럼 보입니다. Clear script, AI voiceover, 짧게 정리한 visuals가 있습니다. 그런데 좋은 music bed를 넣자마자 말의 절반이 흐려집니다. Music이 꼭 나쁜 것은 아닙니다. Synthetic voice, captions, generated media upload choices를 기준으로 설계되지 않았을 뿐입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. AI voiceover video에서는 supportive cue를 만드는 drafting tool로 쓰고, mix clarity, platform disclosure, usage rights는 따로 확인하세요.",
+        "## style보다 audio job 먼저 쓰기",
+        "cinematic corporate inspiration으로 시작하지 마세요. 먼저 역할을 씁니다: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. Teaching video라면 music은 듣기를 도와야 합니다. Product update라면 section을 표시하되 모든 feature를 과장하면 안 됩니다.",
+        "[Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 soft pulse, warm pad, light percussion, no busy arpeggio, speech-first mix 같은 단어를 정리하는 데 도움이 됩니다. 그다음 cue를 너무 앞으로 밀어내는 단어를 지웁니다. 긴 mood list보다 짧고 엄격한 prompt가 보통 더 낫습니다.",
+        "## solo가 아니라 voice 아래에서 test하기",
+        "혼자 들으면 평범한 cue가 narration 아래에서는 정확히 맞을 수 있습니다. 첫 review부터 real voiceover 아래에 music을 놓으세요. Captions 없이도 모든 문장이 이해될 때까지 낮춘 뒤, edit에 필요한 energy만 조금 되돌립니다. Ducking을 쓴다면 level change는 부드러워야 하고 syllable마다 pump하면 안 됩니다. W3C background audio guidance는 좋은 기준입니다. Speech가 main content라면 background sound는 foreground voice보다 훨씬 낮아야 합니다.",
+        "## captions와 visual cues를 위한 공간 남기기",
+        "AI voiceover videos는 시끄러운 장소, 조용한 office, 낮은 volume의 phone에서 보기 때문에 captions에 의존하는 경우가 많습니다. 중요한 number, product name, step label이 나오는 frame에 musical hit를 겹치지 마세요. Timeline을 intro, explanation, example, recap, CTA로 나눕니다. 각 section에는 작은 energy change만 주고, 의미는 words가 맡게 합니다.",
+        "## export와 disclosure note 준비하기",
+        "Prompt, voice version, music version, mix notes, disclosure decision을 저장합니다. Platform에 따라 light AI assistance, realistic generated content, 또는 music이 video의 main focus인지에 따라 요구가 달라질 수 있습니다. Upload 순간의 current settings를 확인하세요. Editing용 WAV나 handoff용 MP3가 필요하면, audio를 처리할 권한을 확인한 뒤 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)로 delivery file을 준비할 수 있습니다.",
+        "## 오늘 바로 쓸 ideas",
+        "- Genre 전에 speech-first constraints를 씁니다.\n- Full voiceover 아래에서 들은 뒤 music을 고릅니다.\n- Musical accents는 중요한 phrases 위가 아니라 뒤에 둡니다.\n- Prompt, mix choice, voice source, disclosure call을 한 note에 남깁니다.\n- Review file과 delivery file을 따로 export합니다.",
+        "## FAQ\n### AI voiceover 아래 music은 항상 작아야 하나요?\n생기 없이 작을 필요는 없지만 speech를 섬겨야 합니다. 보통 문장을 이해하려고 captions가 필요하다면 bed가 너무 크거나 밝거나 busy합니다.\n### Narration 아래 vocals를 써도 되나요?\n대부분 피하세요. 멀리 깔린 vocals도 spoken words와 경쟁합니다.\n### AI voiceover나 AI music을 disclosure해야 하나요?\nPlatform, content realism, generated music이 중심인지에 따라 다릅니다. Publishing 전에 current upload policy와 settings를 확인하세요.\n### 어떤 audio format으로 export해야 하나요?\nQuality가 중요한 review와 editing에는 WAV 또는 FLAC을 쓰고, 가벼운 delivery에는 platform이나 client가 허용할 때 MP3 또는 M4A를 쓰세요."
+      ]
+    },
+    "pt": {
+      "title": "Music bed para AI voiceover video sem esconder as palavras",
+      "description": "Checklist pratica para colocar musica sob narracao AI mantendo voz, legendas e decisoes de upload claras.",
+      "body": [
+        "O edit parece pronto: script claro, AI voiceover e visual curto. Depois voce adiciona uma music bed bonita e metade das palavras fica turva. A musica talvez nao seja ruim. Ela so nao foi planejada ao redor de uma voz sintetica, captions e escolhas de upload ligadas a media gerada.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, lyrics, style direction e ideias de audio em music drafts revisaveis. Em um AI voiceover video, trate como ferramenta de rascunho para cues de apoio, depois revise mix clarity, disclosure de plataforma e direitos de uso separadamente.",
+        "## Escreva o audio job antes do style",
+        "Nao comece com cinematic corporate inspiration. Escreva a funcao: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. Se o video ensina algo, a musica deve ajudar a ouvir. Se e um product update, deve marcar secoes sem tornar toda feature gigante.",
+        "O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode organizar soft pulse, warm pad, light percussion, no busy arpeggio e speech-first mix. Depois remova tudo que empurra a cue para frente demais. Um prompt curto e rigoroso costuma vencer uma pilha de moods.",
+        "## Teste sob a voz, nao sozinha",
+        "Uma cue que parece simples sozinha pode ser exata sob narration. Coloque a musica sob o voiceover real ja no primeiro review. Abaixe ate cada frase fazer sentido sem captions e recupere apenas a energia de que o edit precisa. Se usar ducking, mantenha a mudanca de nivel suave para nao bombear a cada syllable. A orientacao W3C sobre background audio e uma boa referencia: quando fala e o conteudo principal, o fundo precisa ficar bem abaixo da voz.",
+        "## Deixe espaco para captions e visual cues",
+        "AI voiceover videos muitas vezes dependem de captions porque as pessoas assistem em lugares barulhentos, escritorios silenciosos ou telefones com pouco volume. Nao coloque um hit musical no mesmo frame de um numero importante, nome de produto ou passo. Divida a timeline em intro, explanation, example, recap e CTA. Dê a cada parte uma pequena mudanca de energia, mas deixe as palavras carregarem o sentido.",
+        "## Prepare export e nota de disclosure",
+        "Salve prompt, voice version, music version, mix notes e qualquer decisao de disclosure. Algumas plataformas diferenciam AI assistance leve, conteudo gerado realista ou musica gerada que e foco do video; confira os ajustes atuais de upload. Se precisar de WAV para edicao ou MP3 para handoff, [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode preparar um arquivo depois que voce confirmar que pode processar o audio.",
+        "## Ideias reutilizaveis",
+        "- Comece o prompt com speech-first constraints antes do genre.\n- Escolha musica so depois de ouvir sob todo o voiceover.\n- Coloque acentos musicais depois de frases importantes, nao em cima.\n- Guarde prompt, mix choice, voice source e disclosure call em uma nota.\n- Exporte um arquivo de review e outro de delivery.",
+        "## FAQ\n### A musica sob AI voiceover deve ser sempre baixa?\nNao precisa ser sem vida, mas deve servir a fala. Se viewers precisam de captions para entender uma frase comum, a bed provavelmente esta alta, brilhante ou cheia demais.\n### Devo usar vocals sob narration?\nNormalmente nao. Mesmo vocals distantes competem com palavras faladas.\n### Preciso declarar AI voiceover ou AI music?\nDepende da plataforma, do realismo e de a musica gerada ser central no video. Confira policy e settings atuais antes de publicar.\n### Qual formato exportar?\nUse WAV ou FLAC para review e edicao quando qualidade importa. Use MP3 ou M4A para entrega leve se a plataforma ou cliente aceitar."
+      ]
+    },
+    "ru": {
+      "title": "Музыка под AI voiceover video без потери слов",
+      "description": "Практический checklist для music bed под AI narration: понятная речь, captions и аккуратные решения при загрузке.",
+      "body": [
+        "Монтаж кажется готовым: четкий script, AI voiceover и короткие visuals. Потом вы добавляете красивый music bed, и половина слов превращается в кашу. Музыка не обязательно плохая. Она просто не была спланирована вокруг синтетического голоса, captions и решений, которые появляются при публикации generated media.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics, style direction и audio ideas в music drafts для review. Для AI voiceover video используйте ее как drafting tool для поддерживающих cue, а mix clarity, platform disclosure и usage rights проверяйте отдельно.",
+        "## Сначала audio job, потом style",
+        "Не начинайте с cinematic corporate inspiration. Напишите задачу: support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA. Если видео обучает, музыка должна помогать слушать. Если это product update, она должна отмечать разделы, но не делать каждую feature чрезмерно большой.",
+        "[Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать soft pulse, warm pad, light percussion, no busy arpeggio и speech-first mix. Затем удалите все, что слишком выводит cue вперед. Короткий и строгий prompt часто лучше длинного списка mood words.",
+        "## Тестируйте под голосом, а не отдельно",
+        "Cue, которая отдельно кажется простой, может идеально работать под narration. С первого review положите музыку под настоящий voiceover. Уменьшайте громкость, пока каждое предложение не станет понятным без captions, затем верните только нужную edit энергию. Если используете ducking, изменение уровня должно быть мягким, без pumping на каждой syllable. Руководство W3C по background audio дает полезный ориентир: когда речь является главным содержанием, фон должен оставаться намного ниже foreground voice.",
+        "## Оставьте место для captions и visual cues",
+        "AI voiceover videos часто смотрят с captions: в шумных местах, тихих офисах или на телефоне с низкой громкостью. Не ставьте музыкальный hit на тот же frame, где появляется важное число, product name или step label. Разделите timeline на intro, explanation, example, recap и CTA. Дайте каждому разделу небольшое изменение энергии, но смысл пусть несут слова.",
+        "## Подготовьте export и disclosure note",
+        "Сохраните prompt, voice version, music version, mix notes и любое решение disclosure. Некоторые платформы различают легкую AI assistance, realistic generated content или музыку, которая является главным фокусом видео; проверяйте текущие upload settings. Если нужен WAV для editing или MP3 для handoff, [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) поможет подготовить файл после подтверждения права обрабатывать audio.",
+        "## Идеи, которые можно применить сегодня",
+        "- Начните prompt с speech-first constraints, а не с genre.\n- Выбирайте музыку только после прослушивания под полным voiceover.\n- Ставьте музыкальные акценты после важных фраз, а не поверх них.\n- Храните prompt, mix choice, voice source и disclosure call в одной note.\n- Экспортируйте отдельный review file и delivery file.",
+        "## FAQ\n### Музыка под AI voiceover всегда должна быть тихой?\nНе плоской и безжизненной, но она должна служить речи. Если для обычного предложения нужны captions, bed, вероятно, слишком громкая, яркая или плотная.\n### Стоит ли использовать vocals под narration?\nОбычно нет. Даже далекие vocals конкурируют с spoken words и мешают разборчивости.\n### Нужно ли раскрывать AI voiceover или AI music?\nЭто зависит от платформы, реалистичности и того, является ли generated music центром видео. Перед публикацией проверьте текущую policy и settings.\n### Какой audio format экспортировать?\nWAV или FLAC для review и editing, когда важна quality. MP3 или M4A для легкой доставки, если платформа или клиент это принимает."
+      ]
+    },
+    "zh": {
+      "title": "为 AI voiceover 视频制作不盖住台词的 music bed",
+      "description": "一份实用 checklist，帮助你在 AI narration 下放音乐时保留 speech、captions 和上传判断的清晰度。",
+      "body": [
+        "剪辑看起来已经完成：清楚的 script、AI voiceover、节奏紧的 visuals。然后你加上一条好听的 music bed，结果一半词句变糊了。Music 不一定差，它只是没有围绕 synthetic voice、captions，以及 generated media 发布时的选择来设计。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可把 prompts、lyrics、style direction 和 audio ideas 转成可 review 的 music drafts。用于 AI voiceover video 时，把它当作制作 supportive cues 的草稿工具，再分别检查 mix clarity、platform disclosure 和 usage rights。",
+        "## 先写 audio job，再写 style",
+        "不要从 cinematic corporate inspiration 开始。先写任务：support a calm AI narrator, low-mid space for speech, no lead melody during instructions, gentle lift at section changes, short ending that does not cover the CTA。如果视频在教学，music 应该帮助观众听懂；如果是 product update，music 应该标记章节，而不是把每个 feature 都推得很大。",
+        "[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮你整理 soft pulse、warm pad、light percussion、no busy arpeggio、speech-first mix 等词。然后删掉让 cue 过分靠前的词。短而严格的 prompt，通常比堆满 moods 的长列表更好用。",
+        "## 不要单听，要放在 voice 下面 test",
+        "单独听起来普通的 cue，放在 narration 下可能刚好。第一次 review 就把 music 放在真实 voiceover 下面。先降到不看 captions 也能听清每一句，再只加回剪辑真正需要的 energy。如果使用 ducking，level change 要柔和，不要在每个 syllable 上 pump。W3C 关于 background audio 的 guidance 是一个好参考：当 speech 是 main content 时，background sound 应明显低于 foreground voice。",
+        "## 给 captions 和 visual cues 留空间",
+        "AI voiceover videos 经常依赖 captions，因为观众可能在嘈杂场所、安静办公室，或用低音量手机观看。不要让 musical hit 正好落在重要 number、product name 或 step label 出现的 frame。把 timeline 分成 intro、explanation、example、recap、CTA。每段给一点 energy change，但让 words 承担主要信息。",
+        "## 准备 export 和 disclosure note",
+        "保存 prompt、voice version、music version、mix notes，以及任何 disclosure decision。有些平台会区分轻量 AI assistance、看起来真实的 generated content，或以 generated music 为主要焦点的视频；上传时查看当前 settings，不要只凭记忆。如果需要用于 editing 的 WAV 或用于 handoff 的 MP3，在确认有权处理该 audio 后，可以用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 准备交付文件。",
+        "## 今天就能复用的 ideas",
+        "- 在 genre 之前先写 speech-first constraints。\n- 只有在 full voiceover 下听过之后才选择 music。\n- 把 musical accents 放在重要 phrase 后面，不要压在上面。\n- 用一份 note 记录 prompt、mix choice、voice source 和 disclosure call。\n- 分别 export review file 和 delivery file，不要让一个文件承担所有任务。",
+        "## FAQ\n### AI voiceover 下的 music 必须一直很小吗？\n不必平淡无味，但必须服务 speech。如果听普通句子也需要 captions，bed 可能太大、太亮或太 busy。\n### Narration 下可以用 vocals 吗？\n通常不建议。即使 vocals 很靠后，也会和 spoken words 竞争。\n### AI voiceover 或 AI music 需要 disclosure 吗？\n取决于平台、内容真实感，以及 generated music 是否是视频核心。发布前查看当前 upload policy 和 settings。\n### 应该 export 什么 audio format？\n需要质量的 review 和 editing 可用 WAV 或 FLAC；轻量 delivery 只有在平台或客户接受时再用 MP3 或 M4A。"
+      ]
+    }
+  }
+}
