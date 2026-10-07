@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-07",
+  "slug": "ugc-creator-ai-music-brief-handoff",
+  "cluster": "creator-collaboration-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اكتب AI music handoff لUGC creators قبل التصوير",
+      "description": "Workflow عملي لتسليم موسيقى AI قصيرة لصناع UGC مع voice space،ملفات واضحة،وقواعد نشر واعلانات قابلة للمراجعة.",
+      "body": [
+        "ترسل brand brief الى creator: امسك المنتج،قل الجملة الاساسية،وافتح الفيديو بهدوء. ثم يعود clip جيد لكن الموسيقى تجعله يبدو كاعلان مبالغ فيه،او لا تصلح للنسخة المدفوعة،او تغطي جملة disclosure. في UGC،الموسيقى لا يجب ان تسرق واقعية creator. يجب ان تكون handoff صغيرا وواضحا قبل التصوير،لا قرارا عشوائيا في اخر export.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompts،lyrics،style direction،وافكار صوتية الى music drafts قابلة للمراجعة. في UGC workflow،استخدمها لعمل خيارات قصيرة للدعم والاختبار،ثم افصل قرارات الحقوق،platform policy،والموافقة النهائية عن عملية التوليد.",
+        "## حدد من يختار الموسيقى ومتى",
+        "اكتب في الbrief هل creator يختار الموسيقى،ام brand تسلم ملفا،ام editor يختار بعد التصوير. هذا القرار يغير كل شيء: طول cue،مستوى الصوت،وجود lyrics،وقابلية استخدام الفيديو كorganic post او paid ad. اذا كان المحتوى قد يصبح اعلان paid،لا تعتمد على track اضافته المنصة تلقائيا في account شخصي. اطلب من الفريق مراجعة music permissions،branded content tools،واي disclosure مطلوب قبل النشر.",
+        "## سلم ثلاث خيارات لا عشرين",
+        "اصنع handoff بسيط: option A هادئة للtalking head،option B اسرع للdemo،option C بدون drums للمراجعات الحساسة. اكتب مع كل ملف mood،BPM تقريبي،مدة loop،افضل نقطة cut،وما يجب تجنبه. استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لترتيب كلمات مثل natural handheld, light pulse, no lead vocal, room for speech, soft product reveal. الخيارات القليلة تجعل creator يقرر بسرعة من دون ان يشعر ان الموسيقى هي المخرج الحقيقي.",
+        "## اترك صوت creator والمنتج",
+        "UGC ينجح غالبا لان الصوت يبدو قريبا: نفس حقيقي،نقرة غطاء،ملمس packaging،او تردد بسيط قبل رأي صادق. لا تغط هذه التفاصيل بmelody لامعة. اطلب mix target بسيط: voice first, product sound audible, music felt more than noticed. اذا احتاج creator نسخة للpreview ونسخة للتسليم،يمكن تجهيز formats مثل WAV،MP3،FLAC،او M4A عبر [Audio Converter](https://easymusic.ai/ar/tools/audio-converter)،بعد التأكد من حق معالجة الملفات.",
+        "## اجعل الapproval قابلا للتتبع",
+        "احتفظ بسجل فيه prompt،audio file name،creator،campaign،platform،ومن وافق على الاستخدام. FTC guidance حول endorsements يركز على وضوح material connection،ومنصات مثل YouTube وTikTok توفر ادوات او قواعد لbranded content. لا تجعل الموسيقى تغطي الافصاح الصوتي او النصي،ولا تفترض ان AI-generated track يمنحك تلقائيا حق استخدامه في كل ad placement.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اكتب في creator brief: no vocals under spoken claims.\n- سلم ثلاث loops قصيرة فقط: calm, demo, no-drums.\n- اطلب creator rough cut بصوت الهاتف قبل اختيار النسخة النهائية.\n- ضع filename واضحا يتضمن campaign،length،version،وdate.\n- احتفظ بنسخة بدون music لاختبار platform review او edit جديد.",
+        "## FAQ\n### هل اعطي creator موسيقى جاهزة ام اتركه يختار؟\nاذا كان الفيديو organic فقط،قد تكون حرية creator مفيدة. اذا قد يتحول الى paid ad،تسليم موسيقى قابلة للمراجعة غالبا يقلل المفاجآت.\n### هل يمكن استخدام vocals في UGC؟\nعادة لا تحت الكلام. Vocals تنافس claim،disclosure،واسم المنتج.\n### هل يجب ذكر AI music في الbrief؟\nمن الافضل تسجيل مصدر الموسيقى وطريقة انتاجها في handoff الداخلي،ثم مراجعة قواعد المنصة والعقد قبل النشر.\n### ما طول loop المناسب؟\nابدأ ب10 الى 20 ثانية لshort UGC،مع نقطة cut نظيفة ونسخة اقصر للopening."
+      ]
+    },
+    "de": {
+      "title": "Schreibe ein AI Music Handoff fuer UGC Creator vor dem Dreh",
+      "description": "Ein praktischer Workflow fuer kurze AI Music Cues in UGC Briefings, mit Sprachraum, klaren Dateien und Review-Notizen.",
+      "body": [
+        "Die Brand schickt ein Creator Brief: Produkt zeigen, ehrlichen Satz sagen, ruhig starten. Dann kommt ein guter Clip zurueck, aber die Musik macht ihn zu werblich, passt nicht fuer Paid Usage oder verdeckt die Disclosure-Zeile. Bei UGC darf Musik die Naehe des Creators nicht stehlen. Sie sollte vor dem Dreh als klares Handoff geplant werden, nicht als zufaellige Entscheidung im letzten Export.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du prompts, lyrics, style direction und Audio-Ideen in pruefbare Music Drafts verwandelst. In einem UGC Workflow eignet sie sich fuer kurze Support-Cues und Varianten; Rechte, Plattformregeln und finale Freigaben bleiben getrennte Entscheidungen.",
+        "## Klaere, wer Musik auswaehlt",
+        "Schreibe ins Briefing, ob der Creator die Musik waehlt, ob die Brand eine Datei liefert oder ob der Editor nach dem Dreh entscheidet. Diese Entscheidung beeinflusst Laenge, Lautstaerke, Lyrics und die Frage, ob der Clip als Organic Post oder Paid Ad funktionieren kann. Wenn Paid Usage moeglich ist, verlasse dich nicht einfach auf einen Track, den eine persoenliche App-Bibliothek anbietet. Klaere Music Permissions, Branded Content Tools und noetige Disclosure vor der Veroeffentlichung.",
+        "## Liefere drei Optionen, nicht zwanzig",
+        "Baue ein einfaches Handoff: Option A ruhig fuer Talking Head, Option B bewegter fuer Demo, Option C ohne Drums fuer empfindliche Reviews. Notiere mood, ungefaehre BPM, loop length, besten Schnittpunkt und Dinge, die nicht passieren duerfen. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann Begriffe wie natural handheld, light pulse, no lead vocal, room for speech und soft product reveal ordnen. Wenige Optionen helfen dem Creator schneller zu entscheiden.",
+        "## Lass Creator-Stimme und Produktklang stehen",
+        "UGC wirkt oft glaubwuerdig, weil es nah klingt: Atem, ein Deckel-Klick, Verpackung, oder ein kurzer Moment vor einer echten Meinung. Uebermale das nicht mit heller Melodie. Definiere ein einfaches Mix-Ziel: voice first, product sound audible, music felt more than noticed. Wenn Review- und Delivery-Dateien in WAV, MP3, FLAC oder M4A gebraucht werden, kann der [Audio Converter](https://easymusic.ai/de/tools/audio-converter) helfen, sobald die Verarbeitung erlaubt ist.",
+        "## Mache Approval nachvollziehbar",
+        "Halte prompt, audio file name, creator, campaign, platform und Freigabe fest. Die FTC Endorsement Guidance betont klare Hinweise auf material connections; Plattformen wie YouTube und TikTok haben eigene Branded-Content-Tools oder Regeln. Musik darf gesprochene oder geschriebene Disclosure nicht verdecken. Ein AI-generated Track ist kein automatischer Nachweis fuer Nutzung in jedem Ad Placement.",
+        "## Ideen fuer heute",
+        "- Schreibe ins Creator Brief: no vocals under spoken claims.\n- Liefere nur drei kurze Loops: calm, demo, no-drums.\n- Bitte um einen rough cut mit Telefon-Audio, bevor final gewaehlt wird.\n- Benenne Dateien mit campaign, length, version und date.\n- Bewahre eine no-music Version fuer Platform Review oder neue Edits auf.",
+        "## FAQ\n### Soll der Creator Musik waehlen oder die Brand liefern?\nFuer rein organische Posts kann Creator-Freiheit sinnvoll sein. Wenn Paid Usage moeglich ist, reduziert ein freigegebenes Handoff meist Ueberraschungen.\n### Sind Vocals in UGC sinnvoll?\nMeist nicht unter Sprache. Vocals konkurrieren mit Claim, Disclosure und Produktname.\n### Muss AI Music im Brief erwaehnt werden?\nDokumentiere Quelle und Produktionsweg intern und pruefe Plattformregeln sowie Vertrag vor dem Posting.\n### Wie lang sollte der Loop sein?\nStarte bei 10 bis 20 Sekunden fuer Short UGC, mit sauberem Schnittpunkt und kuerzerer Opening-Version."
+      ]
+    },
+    "en": {
+      "title": "Write an AI Music Handoff for UGC Creators Before They Film",
+      "description": "A practical workflow for sending short AI music options to UGC creators without burying speech, product sound, disclosure, or ad review.",
+      "body": [
+        "The brand brief looks simple: hold the product, say the honest line, keep the opening natural. Then the clip comes back with music that makes it feel too polished, unusable for a paid version, or loud enough to cover the disclosure. In UGC, music should not steal the creator's closeness. It needs to be a small, reviewable handoff before filming, not a random choice at the final export.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, style direction, and audio ideas into music drafts you can review. In a UGC workflow, use it to create short support cues and testable options, while rights review, platform rules, and final approval stay separate from generation.",
+        "## Decide Who Chooses the Music",
+        "Write into the creator brief whether the creator chooses music, the brand supplies a file, or the editor decides after filming. That choice changes cue length, loudness, lyrics, and whether the clip can move from organic post to paid ad. If paid use is possible, do not rely on a track selected inside a personal social account without review. Ask the team to check music permissions, branded content tools, and any required disclosure before publishing.",
+        "## Send Three Options, Not Twenty",
+        "Build a small handoff: option A for calm talking head, option B for a faster demo, option C with no drums for sensitive review. For each file, list mood, rough BPM, loop length, best cut point, and what it must avoid. Use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) to organize language such as natural handheld, light pulse, no lead vocal, room for speech, soft product reveal. Fewer choices help the creator move quickly without feeling directed out of their own voice.",
+        "## Preserve Creator Voice and Product Sound",
+        "UGC often works because it sounds close: breath, packaging, a cap click, a small hesitation before an honest opinion. Do not cover those cues with a shiny melody. Give a simple mix target: voice first, product sound audible, music felt more than noticed. If the creator needs a preview file and the editor needs WAV, MP3, FLAC, or M4A for delivery, the [Audio Converter](https://easymusic.ai/tools/audio-converter) can prepare versions after you confirm you are allowed to process the audio.",
+        "## Keep Approval Traceable",
+        "Save the prompt, audio file name, creator, campaign, platform, and approver. FTC endorsement guidance centers on clear disclosure of material connections, and platforms such as YouTube and TikTok maintain branded-content tools or rules. Do not let the music hide spoken or on-screen disclosure, and do not assume an AI-generated track automatically clears every ad placement.",
+        "## Ideas You Can Reuse Today",
+        "- Put no vocals under spoken claims in the creator brief.\n- Send only three short loops: calm, demo, no-drums.\n- Ask for a phone-audio rough cut before choosing final music.\n- Name files with campaign, length, version, and date.\n- Keep a no-music version for platform review or a new edit.",
+        "## FAQ\n### Should the creator choose music or should the brand supply it?\nFor organic-only posts, creator choice can protect the native feel. If the video may become a paid ad, a reviewed music handoff usually reduces surprises.\n### Can UGC use vocals?\nUsually not under speech. Vocals compete with claims, disclosures, and product names.\n### Should the brief mention AI music?\nRecord the source and production method in the internal handoff, then check platform rules and contracts before posting.\n### How long should each loop be?\nStart with 10 to 20 seconds for short UGC, plus a clean cut point and a shorter opening version."
+      ]
+    },
+    "es": {
+      "title": "Escribe un handoff de AI music para UGC creators antes de grabar",
+      "description": "Workflow practico para enviar opciones cortas de musica AI a creators sin tapar voz, producto, disclosure ni review de anuncios.",
+      "body": [
+        "El brief de marca parece simple: muestra el producto, di la frase honesta y deja que el inicio se sienta natural. Luego vuelve un clip bueno, pero la musica lo hace demasiado producido, inutil para la version paid, o tan alta que tapa el disclosure. En UGC, la musica no debe robar la cercania del creator. Debe ser un handoff pequeno y revisable antes de grabar, no una eleccion al azar en el export final.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, lyrics, style direction e ideas de audio en music drafts revisables. En un workflow UGC, usala para crear cues cortos y opciones testeables, mientras rights review, reglas de plataforma y aprobacion final se manejan aparte.",
+        "## Decide quien elige la musica",
+        "Escribe en el creator brief si el creator elige la musica, si la marca entrega un archivo o si el editor decide despues de grabar. Esa decision cambia length, loudness, lyrics y si el clip puede pasar de organic post a paid ad. Si existe paid use, no confies en un track elegido dentro de una cuenta social personal sin review. Pide al equipo revisar music permissions, branded content tools y disclosure requerido antes de publicar.",
+        "## Envia tres opciones, no veinte",
+        "Crea un handoff pequeno: option A para talking head calmado, option B para demo mas rapida, option C sin drums para review sensible. En cada archivo lista mood, BPM aproximado, loop length, mejor cut point y lo que debe evitar. Usa [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) para ordenar natural handheld, light pulse, no lead vocal, room for speech, soft product reveal. Menos opciones ayudan al creator a moverse rapido sin perder su voz.",
+        "## Conserva voz del creator y sonido del producto",
+        "UGC funciona porque suena cercano: respiracion, packaging, un cap click, una pequena duda antes de una opinion honesta. No tapes esas pistas con melody brillante. Da un mix target simple: voice first, product sound audible, music felt more than noticed. Si el creator necesita preview y el editor necesita WAV, MP3, FLAC o M4A para delivery, [Audio Converter](https://easymusic.ai/es/tools/audio-converter) puede preparar versiones cuando confirmas que puedes procesar el audio.",
+        "## Haz que approval sea rastreable",
+        "Guarda prompt, audio file name, creator, campaign, platform y approver. La guia FTC sobre endorsements se centra en disclosure claro de material connections, y plataformas como YouTube y TikTok tienen herramientas o reglas de branded content. No dejes que la musica esconda disclosure hablado o en pantalla, ni asumas que un track generado por AI queda aprobado para todo ad placement.",
+        "## Ideas reutilizables hoy",
+        "- Escribe no vocals under spoken claims en el creator brief.\n- Envia solo tres loops cortos: calm, demo, no-drums.\n- Pide un rough cut con audio de telefono antes de elegir musica final.\n- Nombra archivos con campaign, length, version y date.\n- Conserva una version sin musica para platform review o un nuevo edit.",
+        "## FAQ\n### El creator debe elegir musica o la marca debe enviarla?\nPara organic-only posts, elegir puede proteger el estilo nativo. Si el video puede ser paid ad, un handoff revisado reduce sorpresas.\n### UGC puede usar vocals?\nNormalmente no bajo speech. Vocals compiten con claims, disclosures y nombres de producto.\n### El brief debe mencionar AI music?\nRegistra fuente y metodo de produccion en el handoff interno, luego revisa reglas de plataforma y contratos antes de publicar.\n### Cuanto debe durar cada loop?\nEmpieza con 10 a 20 segundos para short UGC, mas un cut point limpio y una version de opening mas corta."
+      ]
+    },
+    "fr": {
+      "title": "Redige un handoff AI music pour UGC creators avant le tournage",
+      "description": "Workflow concret pour envoyer des cues AI music courts aux creators sans couvrir voix, produit, disclosure ou review publicitaire.",
+      "body": [
+        "Le brief de marque parait simple: montrer le produit, dire la phrase honnete, garder une ouverture naturelle. Puis le clip revient avec une musique qui le rend trop publicitaire, inutilisable en paid version, ou assez forte pour couvrir la disclosure. En UGC, la musique ne doit pas voler la proximite du creator. Elle doit etre un petit handoff verifiable avant le tournage, pas un choix improvise au dernier export.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, lyrics, style direction et idees audio en music drafts a reviser. Dans un workflow UGC, utilise-la pour creer des cues courts et des options testables, tandis que rights review, regles de plateforme et validation finale restent separes.",
+        "## Decide qui choisit la musique",
+        "Ecris dans le creator brief si le creator choisit la musique, si la marque fournit un fichier ou si l editor decide apres tournage. Ce choix change la longueur, le niveau, les lyrics et la possibilite de passer d organic post a paid ad. Si une paid usage est possible, ne te fie pas a un track choisi dans un compte social personnel sans review. Demande a l equipe de verifier music permissions, branded content tools et disclosure necessaire avant publication.",
+        "## Envoie trois options, pas vingt",
+        "Construis un petit handoff: option A pour talking head calme, option B pour demo plus rapide, option C sans drums pour review sensible. Pour chaque fichier, indique mood, BPM approximatif, loop length, meilleur cut point et ce qu il faut eviter. Utilise [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) pour organiser natural handheld, light pulse, no lead vocal, room for speech, soft product reveal. Moins de choix aide le creator a avancer sans perdre sa voix.",
+        "## Preserve la voix du creator et le son du produit",
+        "L UGC fonctionne souvent parce qu il sonne proche: respiration, packaging, cap click, petite hesitation avant une opinion honnete. Ne couvre pas ces indices avec une melodie brillante. Donne une cible simple: voice first, product sound audible, music felt more than noticed. Si le creator a besoin d un preview et l editor de WAV, MP3, FLAC ou M4A pour delivery, [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) peut preparer les versions apres verification du droit de traitement.",
+        "## Garde une approval traçable",
+        "Sauvegarde prompt, audio file name, creator, campaign, platform et approver. Les guides FTC sur endorsements insistent sur la disclosure claire des material connections, et des plateformes comme YouTube et TikTok ont leurs outils ou regles branded content. Ne laisse pas la musique cacher la disclosure parlee ou affichee, et ne suppose pas qu un track genere par AI couvre automatiquement chaque ad placement.",
+        "## Idees a reutiliser aujourd hui",
+        "- Mets no vocals under spoken claims dans le creator brief.\n- Envoie seulement trois loops courts: calm, demo, no-drums.\n- Demande un rough cut avec audio telephone avant de choisir la musique finale.\n- Nomme les fichiers avec campaign, length, version et date.\n- Garde une version sans musique pour platform review ou nouvel edit.",
+        "## FAQ\n### Le creator doit-il choisir la musique ou la marque la fournir?\nPour organic-only posts, le choix du creator peut proteger le ton natif. Si la video peut devenir paid ad, un handoff revu reduit les surprises.\n### Peut-on utiliser vocals en UGC?\nGeneralement pas sous la parole. Les vocals concurrencent claims, disclosures et noms de produit.\n### Le brief doit-il mentionner AI music?\nNote source et methode de production dans le handoff interne, puis verifie regles de plateforme et contrats avant publication.\n### Quelle longueur pour chaque loop?\nCommence avec 10 a 20 secondes pour short UGC, plus un cut point propre et une version opening plus courte."
+      ]
+    },
+    "it": {
+      "title": "Scrivi un handoff AI music per UGC creator prima delle riprese",
+      "description": "Workflow pratico per inviare cue AI music brevi ai creator senza coprire voce, suoni prodotto, disclosure o review ads.",
+      "body": [
+        "Il brief del brand sembra semplice: mostra il prodotto, di la frase onesta, tieni l apertura naturale. Poi arriva un clip buono, ma la musica lo fa sembrare troppo pubblicitario, non adatto alla versione paid, o abbastanza forte da coprire la disclosure. In UGC, la musica non deve rubare la vicinanza del creator. Deve essere un piccolo handoff verificabile prima delle riprese, non una scelta casuale all export finale.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, lyrics, style direction e idee audio in music drafts da rivedere. In un workflow UGC, usala per creare cue brevi e opzioni testabili, mentre rights review, platform rules e approvazione finale restano decisioni separate.",
+        "## Decidi chi sceglie la musica",
+        "Scrivi nel creator brief se la musica la sceglie il creator, se il brand invia un file o se l editor decide dopo le riprese. Questa scelta cambia length, loudness, lyrics e possibilita di usare il clip come organic post o paid ad. Se e possibile paid use, non affidarti a un track scelto dentro un account social personale senza review. Chiedi al team di controllare music permissions, branded content tools e disclosure richiesta prima della pubblicazione.",
+        "## Invia tre opzioni, non venti",
+        "Crea un handoff piccolo: option A per talking head calmo, option B per demo piu veloce, option C senza drums per review delicata. Per ogni file indica mood, BPM indicativo, loop length, best cut point e cosa deve evitare. Usa [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) per ordinare natural handheld, light pulse, no lead vocal, room for speech, soft product reveal. Poche scelte aiutano il creator a muoversi senza perdere la propria voce.",
+        "## Proteggi voce del creator e suoni prodotto",
+        "UGC funziona spesso perche suona vicino: respiro, packaging, cap click, una piccola esitazione prima di un opinione sincera. Non coprire questi segnali con una melody brillante. Dai un target mix semplice: voice first, product sound audible, music felt more than noticed. Se servono preview e file WAV, MP3, FLAC o M4A per delivery, [Audio Converter](https://easymusic.ai/it/tools/audio-converter) puo preparare versioni dopo la conferma del diritto di processare l audio.",
+        "## Rendi tracciabile l approval",
+        "Salva prompt, audio file name, creator, campaign, platform e approver. La guidance FTC sugli endorsements insiste su disclosure chiare dei material connections, e piattaforme come YouTube e TikTok hanno strumenti o regole per branded content. Non lasciare che la musica nasconda disclosure parlata o a schermo, e non presumere che un track AI-generated sia approvato per ogni ad placement.",
+        "## Idee da usare oggi",
+        "- Scrivi no vocals under spoken claims nel creator brief.\n- Invia solo tre short loops: calm, demo, no-drums.\n- Chiedi un rough cut con audio telefono prima della musica finale.\n- Nomina i file con campaign, length, version e date.\n- Tieni una versione senza music per platform review o nuovo edit.",
+        "## FAQ\n### Deve scegliere il creator o deve inviare il brand?\nPer organic-only posts, la scelta del creator puo proteggere il tono nativo. Se il video puo diventare paid ad, un handoff rivisto riduce le sorprese.\n### UGC puo usare vocals?\nDi solito non sotto speech. I vocals competono con claims, disclosures e nomi prodotto.\n### Il brief deve citare AI music?\nRegistra source e production method nell handoff interno, poi controlla platform rules e contratti prima del posting.\n### Quanto deve durare ogni loop?\nInizia con 10-20 secondi per short UGC, piu un cut point pulito e una opening version piu corta."
+      ]
+    },
+    "ja": {
+      "title": "撮影前に UGC creator 向け AI music handoff を書く",
+      "description": "UGC creator に短い AI music options を渡すための workflow。Speech、product sound、disclosure、ad review を守ります。",
+      "body": [
+        "Brand brief は単純に見えます。Product を持ち、honest line を話し、opening は自然にする。ところが戻ってきた clip は、music のせいで作り込みすぎに聞こえたり、paid version に使いにくかったり、disclosure を隠したりします。UGC では、music が creator の近さを奪ってはいけません。Final export の偶然ではなく、撮影前に review できる小さな handoff にする必要があります。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、lyrics、style direction、audio ideas を review できる music drafts に変える AI music creation platform です。UGC workflow では、短い support cues と testable options を作る tool として使い、rights review、platform rules、final approval は別に扱います。",
+        "## 誰が music を選ぶか決める",
+        "Creator brief に、creator が music を選ぶのか、brand が file を渡すのか、editor が撮影後に決めるのかを書きます。この選択で cue length、loudness、lyrics、organic post から paid ad に移せるかが変わります。Paid use の可能性があるなら、personal social account 内で選んだ track に review なしで頼らないでください。Music permissions、branded content tools、必要な disclosure を publish 前に確認します。",
+        "## 20個ではなく3個渡す",
+        "Handoff は小さくします。Option A は calm talking head、option B は faster demo、option C は sensitive review 用の no drums。各 file に mood、rough BPM、loop length、best cut point、避ける要素を書きます。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は、natural handheld、light pulse、no lead vocal、room for speech、soft product reveal などの言葉を整理するのに使えます。少ない choices のほうが、creator が自分の声を失わずに進められます。",
+        "## Creator voice と product sound を残す",
+        "UGC が効くのは、近く聞こえるからです。Breath、packaging、cap click、正直な意見の前の小さな hesitation があります。Bright melody でそれを覆わないでください。Mix target は simple にします: voice first, product sound audible, music felt more than noticed。Preview file や delivery 用の WAV、MP3、FLAC、M4A が必要なら、audio を処理できる権利を確認したうえで [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使えます。",
+        "## Approval を追跡できる形にする",
+        "Prompt、audio file name、creator、campaign、platform、approver を保存します。FTC endorsement guidance は material connection の clear disclosure を重視し、YouTube や TikTok などの platforms には branded-content tools や rules があります。Music が spoken disclosure や on-screen disclosure を隠さないようにし、AI-generated track がすべての ad placement を自動的に許可するとは考えないでください。",
+        "## 今日使える ideas",
+        "- Creator brief に no vocals under spoken claims と書きます。\n- 渡す loops は calm、demo、no-drums の3つだけにします。\n- Final music 前に phone-audio rough cut をもらいます。\n- File name に campaign、length、version、date を入れます。\n- Platform review や new edit 用に no-music version を残します。",
+        "## FAQ\n### Creator が music を選ぶべきですか、brand が渡すべきですか？\nOrganic-only posts なら creator choice が自然さを守ることがあります。Paid ad になる可能性があるなら、review 済みの music handoff のほうが surprises を減らせます。\n### UGC に vocals は使えますか？\nSpeech の下では通常避けます。Vocals は claims、disclosures、product names と競合します。\n### Brief に AI music と書くべきですか？\nInternal handoff に source と production method を記録し、posting 前に platform rules と contracts を確認します。\n### Loop の長さは？\nShort UGC なら 10 から 20 秒から始め、clean cut point と短い opening version を用意します。"
+      ]
+    },
+    "ko": {
+      "title": "촬영 전에 UGC creator용 AI music handoff 쓰기",
+      "description": "UGC creator에게 짧은 AI music options를 전달할 때 speech, product sound, disclosure, ad review를 지키는 workflow.",
+      "body": [
+        "Brand brief는 단순해 보입니다. Product를 들고, honest line을 말하고, opening은 자연스럽게 둡니다. 그런데 돌아온 clip은 music 때문에 너무 광고처럼 들리거나, paid version에 쓰기 어렵거나, disclosure를 덮어버립니다. UGC에서 music은 creator의 가까움을 훔치면 안 됩니다. Final export의 즉흥 선택이 아니라, 촬영 전에 review 가능한 작은 handoff여야 합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. UGC workflow에서는 short support cues와 testable options를 만드는 데 쓰고, rights review, platform rules, final approval은 generation과 분리하세요.",
+        "## 누가 music을 고르는지 정하기",
+        "Creator brief에 creator가 music을 고르는지, brand가 file을 제공하는지, editor가 촬영 후 결정하는지 적으세요. 이 선택은 cue length, loudness, lyrics, organic post에서 paid ad로 갈 수 있는지까지 바꿉니다. Paid use 가능성이 있으면 personal social account에서 고른 track을 review 없이 믿지 마세요. Publishing 전에 music permissions, branded content tools, required disclosure를 확인해야 합니다.",
+        "## 스무 개가 아니라 세 개만 보내기",
+        "Handoff는 작게 만듭니다. Option A는 calm talking head, option B는 faster demo, option C는 sensitive review용 no drums. 각 file에는 mood, rough BPM, loop length, best cut point, 피해야 할 것을 적습니다. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 natural handheld, light pulse, no lead vocal, room for speech, soft product reveal 같은 말을 정리하는 데 도움이 됩니다. Choices가 적을수록 creator가 자신의 목소리를 잃지 않고 빨리 움직입니다.",
+        "## Creator voice와 product sound 남기기",
+        "UGC는 가깝게 들리기 때문에 작동합니다. Breath, packaging, cap click, honest opinion 전의 작은 hesitation이 있습니다. Bright melody로 이것을 덮지 마세요. Simple mix target을 주세요: voice first, product sound audible, music felt more than noticed. Preview file과 delivery용 WAV, MP3, FLAC, M4A가 필요하면, audio 처리 권한을 확인한 뒤 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 사용할 수 있습니다.",
+        "## Approval을 추적 가능하게 만들기",
+        "Prompt, audio file name, creator, campaign, platform, approver를 저장합니다. FTC endorsement guidance는 material connection의 clear disclosure를 중시하고, YouTube와 TikTok 같은 platforms에는 branded-content tools나 rules가 있습니다. Music이 spoken disclosure나 on-screen disclosure를 가리지 않게 하고, AI-generated track이 모든 ad placement를 자동으로 해결한다고 가정하지 마세요.",
+        "## 오늘 바로 쓸 ideas",
+        "- Creator brief에 no vocals under spoken claims를 씁니다.\n- Calm, demo, no-drums 세 short loops만 보냅니다.\n- Final music 선택 전 phone-audio rough cut을 요청합니다.\n- File name에 campaign, length, version, date를 넣습니다.\n- Platform review나 new edit용 no-music version을 남깁니다.",
+        "## FAQ\n### Creator가 music을 고를까요, brand가 보낼까요?\nOrganic-only posts라면 creator choice가 native feel을 지킬 수 있습니다. Paid ad가 될 수 있다면 reviewed music handoff가 surprises를 줄입니다.\n### UGC에 vocals를 써도 되나요?\nSpeech 아래에서는 보통 피하세요. Vocals는 claims, disclosures, product names와 경쟁합니다.\n### Brief에 AI music을 mention해야 하나요?\nInternal handoff에 source와 production method를 기록하고, posting 전에 platform rules와 contracts를 확인하세요.\n### Loop는 얼마나 길어야 하나요?\nShort UGC는 10-20초부터 시작하고, clean cut point와 더 짧은 opening version을 준비하세요."
+      ]
+    },
+    "pt": {
+      "title": "Escreva um handoff de AI music para UGC creators antes de gravar",
+      "description": "Workflow pratico para enviar opcoes curtas de AI music a creators sem cobrir fala, som do produto, disclosure ou review de ads.",
+      "body": [
+        "O brand brief parece simples: segure o produto, diga a frase honesta e mantenha a abertura natural. Depois o clip volta bom, mas a musica deixa tudo produzido demais, dificil de usar como paid version ou alto o bastante para cobrir disclosure. Em UGC, musica nao deve roubar a proximidade do creator. Ela precisa ser um handoff pequeno e revisavel antes da gravacao, nao uma escolha aleatoria no export final.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, lyrics, style direction e ideias de audio em music drafts revisaveis. Em um workflow UGC, use para criar support cues curtos e opcoes testaveis, enquanto rights review, platform rules e aprovacao final ficam separados da generation.",
+        "## Decida quem escolhe a musica",
+        "Escreva no creator brief se o creator escolhe a musica, se a brand entrega um arquivo ou se o editor decide depois da gravacao. Essa decisao muda cue length, loudness, lyrics e se o clip pode passar de organic post para paid ad. Se paid use for possivel, nao dependa de um track escolhido dentro de uma conta social pessoal sem review. Peca ao time para conferir music permissions, branded content tools e qualquer disclosure exigido antes de publicar.",
+        "## Envie tres opcoes, nao vinte",
+        "Monte um handoff pequeno: option A para talking head calmo, option B para demo mais rapida, option C sem drums para review sensivel. Em cada file, liste mood, BPM aproximado, loop length, best cut point e o que deve evitar. Use [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) para organizar natural handheld, light pulse, no lead vocal, room for speech, soft product reveal. Menos escolhas ajudam o creator a decidir rapido sem perder a propria voz.",
+        "## Preserve voz do creator e som do produto",
+        "UGC funciona porque soa perto: respiracao, packaging, cap click, pequena hesitacao antes de uma opiniao honesta. Nao cubra isso com melody brilhante. Dê um mix target simples: voice first, product sound audible, music felt more than noticed. Se o creator precisa de preview e o editor precisa de WAV, MP3, FLAC ou M4A para delivery, [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) pode preparar versoes depois que voce confirmar que pode processar o audio.",
+        "## Mantenha approval rastreavel",
+        "Salve prompt, audio file name, creator, campaign, platform e approver. A FTC endorsement guidance foca disclosure clara de material connections, e plataformas como YouTube e TikTok mantem branded-content tools ou rules. Nao deixe a musica esconder disclosure falada ou na tela, e nao presuma que um track AI-generated libera automaticamente todo ad placement.",
+        "## Ideias reutilizaveis hoje",
+        "- Escreva no vocals under spoken claims no creator brief.\n- Envie apenas tres loops curtos: calm, demo, no-drums.\n- Peca um rough cut com audio de telefone antes da musica final.\n- Nomeie files com campaign, length, version e date.\n- Guarde uma versao sem musica para platform review ou novo edit.",
+        "## FAQ\n### Creator escolhe a musica ou brand fornece?\nPara organic-only posts, escolha do creator pode proteger o tom nativo. Se pode virar paid ad, um handoff revisado reduz surpresas.\n### UGC pode usar vocals?\nNormalmente nao sob fala. Vocals competem com claims, disclosures e product names.\n### O brief deve mencionar AI music?\nRegistre source e production method no handoff interno, depois confira platform rules e contracts antes do posting.\n### Qual a duracao de cada loop?\nComece com 10 a 20 segundos para short UGC, mais um cut point limpo e uma opening version mais curta."
+      ]
+    },
+    "ru": {
+      "title": "Напишите AI music handoff для UGC creators до съемки",
+      "description": "Практический workflow для коротких AI music cues в UGC без потери речи, product sound, disclosure и ad review.",
+      "body": [
+        "Brand brief выглядит простым: показать продукт, сказать честную фразу, начать естественно. Потом приходит хороший clip, но музыка делает его слишком рекламным, неудобным для paid version или достаточно громким, чтобы закрыть disclosure. В UGC музыка не должна забирать близость creator. Это должен быть маленький reviewable handoff до съемки, а не случайный выбор на final export.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics, style direction и audio ideas в music drafts для review. В UGC workflow используйте ее для коротких support cues и testable options, а rights review, platform rules и final approval держите отдельно от generation.",
+        "## Решите, кто выбирает музыку",
+        "Запишите в creator brief, выбирает ли музыку creator, передает ли brand готовый file или editor решает после съемки. Это влияет на cue length, loudness, lyrics и возможность перевести clip из organic post в paid ad. Если paid use возможен, не полагайтесь на track, выбранный в личном social account, без review. Пусть команда проверит music permissions, branded content tools и required disclosure до публикации.",
+        "## Передайте три варианта, а не двадцать",
+        "Сделайте небольшой handoff: option A для calm talking head, option B для faster demo, option C без drums для sensitive review. Для каждого file укажите mood, примерный BPM, loop length, best cut point и ограничения. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет упорядочить natural handheld, light pulse, no lead vocal, room for speech, soft product reveal. Меньше choices помогает creator двигаться быстро и не терять свой голос.",
+        "## Сохраните voice creator и product sound",
+        "UGC работает, потому что звучит близко: breath, packaging, cap click, маленькая пауза перед честным мнением. Не закрывайте это яркой melody. Дайте простой mix target: voice first, product sound audible, music felt more than noticed. Если creator нужен preview, а editor нужны WAV, MP3, FLAC или M4A для delivery, [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) поможет подготовить версии после подтверждения права обрабатывать audio.",
+        "## Сделайте approval отслеживаемым",
+        "Сохраните prompt, audio file name, creator, campaign, platform и approver. FTC endorsement guidance фокусируется на clear disclosure of material connections, а платформы вроде YouTube и TikTok имеют branded-content tools или rules. Не позволяйте музыке скрывать spoken или on-screen disclosure и не считайте, что AI-generated track автоматически подходит для каждого ad placement.",
+        "## Идеи на сегодня",
+        "- Напишите no vocals under spoken claims в creator brief.\n- Отправьте только три short loops: calm, demo, no-drums.\n- Попросите phone-audio rough cut до выбора final music.\n- Называйте files с campaign, length, version и date.\n- Храните no-music version для platform review или нового edit.",
+        "## FAQ\n### Creator выбирает музыку или brand передает ее?\nДля organic-only posts выбор creator может сохранить native feel. Если video может стать paid ad, reviewed music handoff обычно снижает surprises.\n### Можно ли использовать vocals в UGC?\nОбычно не под speech. Vocals конкурируют с claims, disclosures и product names.\n### Нужно ли упоминать AI music в brief?\nЗапишите source и production method во внутренний handoff, затем проверьте platform rules и contracts перед posting.\n### Какой длины должен быть loop?\nНачните с 10-20 секунд для short UGC, добавьте clean cut point и короткую opening version."
+      ]
+    },
+    "zh": {
+      "title": "拍摄前给 UGC creator 写好 AI music handoff",
+      "description": "一套实用 workflow，帮你向 UGC creator 交付短 AI music options，同时保护 speech、product sound、disclosure 和 ad review。",
+      "body": [
+        "Brand brief 看起来很简单：拿起产品，说一句真实的体验，开头保持自然。然后 clip 回来了，画面不错，但 music 让它太像硬广告，或者不能直接用于 paid version，甚至盖住了 disclosure。在 UGC 里，music 不应该抢走 creator 的亲近感。它应该是拍摄前可 review 的小 handoff，而不是 final export 时随便选的背景。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、lyrics、style direction 和 audio ideas 变成可 review 的 music drafts。在 UGC workflow 里，可以用它制作短 support cues 和可测试 options，但 rights review、platform rules 和 final approval 需要与 generation 分开处理。",
+        "## 先决定谁来选 music",
+        "在 creator brief 里写清楚：music 由 creator 选，brand 提供 file，还是 editor 拍完后决定。这个选择会影响 cue length、loudness、lyrics，以及 clip 能否从 organic post 转成 paid ad。如果有 paid use 可能，不要未经 review 就依赖 creator 在个人 social account 里选的 track。发布前要检查 music permissions、branded content tools 和 required disclosure。",
+        "## 给三个选项，不要给二十个",
+        "Handoff 保持很小：option A 给 calm talking head，option B 给 faster demo，option C 给 sensitive review 的 no drums。每个 file 旁边写 mood、rough BPM、loop length、best cut point 和必须避免的内容。你可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 整理 natural handheld、light pulse、no lead vocal、room for speech、soft product reveal 这类语言。选择少，creator 才能更快决定，也不容易失去自己的语气。",
+        "## 保留 creator voice 和 product sound",
+        "UGC 有效，常常因为它听起来很近：breath、packaging、cap click，或者说真实意见前的一点 hesitation。不要用明亮 melody 盖住这些线索。给一个简单 mix target：voice first, product sound audible, music felt more than noticed。如果 creator 需要 preview file，editor 需要 WAV、MP3、FLAC 或 M4A for delivery，确认你有权处理 audio 后，可以用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter) 准备版本。",
+        "## 让 approval 可以追踪",
+        "保存 prompt、audio file name、creator、campaign、platform 和 approver。FTC endorsement guidance 强调 material connections 的 clear disclosure，YouTube 和 TikTok 等 platforms 也有 branded-content tools 或 rules。不要让 music 盖住口播或画面上的 disclosure，也不要假设 AI-generated track 会自动适用于每一个 ad placement。",
+        "## 今天就能用的 ideas",
+        "- 在 creator brief 里写 no vocals under spoken claims。\n- 只交付三个 short loops：calm、demo、no-drums。\n- 选 final music 前，先要一个 phone-audio rough cut。\n- File name 包含 campaign、length、version 和 date。\n- 保留 no-music version，方便 platform review 或重新 edit。",
+        "## FAQ\n### 该让 creator 选 music，还是 brand 提供？\n如果只是 organic-only posts，creator choice 可能更自然。如果 video 可能变成 paid ad，reviewed music handoff 通常能减少意外。\n### UGC 可以用 vocals 吗？\n通常不要放在 speech 下。Vocals 会和 claims、disclosures、product names 竞争。\n### Brief 里要写 AI music 吗？\n在内部 handoff 里记录 source 和 production method，然后在 posting 前检查 platform rules 和 contracts。\n### 每个 loop 多长合适？\nShort UGC 可以从 10 到 20 秒开始，同时准备 clean cut point 和更短的 opening version。"
+      ]
+    }
+  }
+}
