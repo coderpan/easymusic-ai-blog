@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-08",
+  "slug": "language-learning-ai-music-pronunciation-drills",
+  "cluster": "language-learning-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اصنع AI music pronunciation drills بلا اخفاء الكلمات",
+      "description": "Workflow عملي لمدرسي اللغة لصنع drills قصيرة تساعد على rhythm،stress،وrepeat space من دون تحويل الدرس الى اغنية مزدحمة.",
+      "body": [
+        "لديك عبارة صغيرة تريد ان يتدرب عليها الطلاب: صوت صعب،stress في كلمة،او intonation في سؤال قصير. تضيف موسيقى لتجعل التمرين اقل جفافا،لكن النتيجة تصبح pop song كامل،والطلاب يتبعون melody بدلا من الكلمات. في language learning،الموسيقى الجيدة لا تستعرض نفسها. هي metronome لطيف،خريطة توقفات،ومساحة للسمع ثم التكرار.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompts،lyrics،style direction،وافكار صوتية الى music drafts قابلة للمراجعة. في درس pronunciation،استخدمها لصنع track قصير او loop داعم،ثم راجع اللغة،السرعة،والوضوح بنفسك قبل ان تعطيه للمتعلمين.",
+        "## ابدأ بهدف نطق واحد",
+        "لا تطلب اغنية عن كل الدرس. اكتب هدفا واحدا: final consonants،word stress،short question intonation،او contrast مثل ship / sheep. اختر 5 الى 8 كلمات وعبارة واحدة فقط. اذا احتجت الى كلمات practice بسيطة،يمكن ان يساعد [AI Lyrics Generator](https://easymusic.ai/ar/tools/ai-lyrics-generator) في صياغة lines قصيرة،لكن teacher يجب ان يصحح spelling،meaning،والنطق المتوقع. لا تجعل rhyme يغير الكلمة التي تريد تدريبها.",
+        "## اكتب شكل call and response",
+        "اجعل structure مملا عمدا: hear it, tap it, say it, leave space. مثال prompt داخلي: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لترتيب style words مثل light pulse, clear rests, simple bass, no busy melody. اذا لم يستطع الطالب الكلام فوق track،فالtrack قوي جدا.",
+        "## اصنع ثلاث نسخ فقط",
+        "Version A للlisten-only وفيها phrase واضح من teacher او narrator. Version B فيها gap اطول ليكرر الطالب. Version C instrumental bed لاختبار الطلاب او تسجيلهم. لا تغير melody،tempo،والكلمات في كل نسخة مرة واحدة؛غير متغيرا واحدا فقط كي تعرف ما ساعد فعلا. EasyMusic.AI يمكن ان يعطي drafts متعددة،لكن اختيارك يجب ان يعتمد على intelligibility لا على اكثر نسخة تبدو مثل radio.",
+        "## راجع قبل الاستخدام",
+        "استمع بسماعات الهاتف ومكبر صغير. هل اول consonant واضح؟ هل gap يكفي للمتعلم البطيء؟ هل drums تغطي syllable stress؟ هل الaccent model مناسب للدرس ولا يقدم وعدا بلهجة native؟ اكتب note صغيرة: هذا تمرين rhythm and repetition،وليس proof ان الطالب سيتكلم بطلاقة. اذا ستنشر الفيديو او المادة في platform عام،احتفظ بملاحظة داخلية عن مصدر الموسيقى وطريقة انتاجها.",
+        "## افكار يمكن استخدامها اليوم",
+        "- حوّل five vocabulary words الى chant من دقيقتين مع gap ثابت بعد كل line.\n- اصنع نسخة no-melody لتمرين difficult consonants.\n- اطلب من الطلاب clapping pattern قبل قول العبارة.\n- ضع الكلمات الصعبة في بداية bar لا في اخره.\n- احتفظ بنسخة صامتة من worksheet كي لا يصبح track هو الدرس كله.",
+        "## FAQ\n### هل يجب ان تكون drill اغنية كاملة؟\nلا. غالبا chant قصير او loop واضح افضل من اغنية كاملة لان الهدف هو pronunciation لا performance.\n### هل يمكن استخدام vocals؟\nاستخدمها فقط كنموذج قصير،ثم اترك space طويل للطلاب. Vocals مستمرة تجعلهم يغنون بدلا من التدريب.\n### كم مدة التمرين؟\nابدأ ب60 الى 90 ثانية. اذا احتجت اكثر،اصنع rounds منفصلة بدلا من track طويل.\n### هل هذا يضمن تحسن النطق؟\nلا. الموسيقى تساعد على rhythm والتكرار،لكن teacher feedback،listening،وpractice المنتظم تبقى ضرورية."
+      ]
+    },
+    "de": {
+      "title": "Baue AI Music Pronunciation Drills, ohne die Woerter zu verstecken",
+      "description": "Ein praktischer Workflow fuer Sprachlehrer, die kurze Rhythmus- und Ausspracheuebungen mit AI Music planen.",
+      "body": [
+        "Du hast eine kleine Phrase fuer den Unterricht: ein schwieriger Laut, Wortbetonung oder die Intonation einer kurzen Frage. Musik soll die Uebung leichter machen, aber ploetzlich klingt alles wie ein Pop-Song und die Lernenden folgen der Melodie statt den Woertern. In language learning sollte Musik nicht zeigen, wie gross sie sein kann. Sie ist ein freundliches Metronom, eine Pausenkarte und Platz zum Hoeren und Wiederholen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, mit der du prompts, lyrics, style direction und Audio-Ideen in pruefbare Music Drafts verwandelst. Fuer pronunciation lessons kannst du kurze Tracks oder Loops entwerfen, aber Sprache, Tempo und Klarheit musst du vor dem Einsatz selbst pruefen.",
+        "## Starte mit einem Ausspracheziel",
+        "Bitte nicht um einen Song ueber die ganze Lektion. Schreibe ein Ziel auf: final consonants, word stress, short question intonation oder ein contrast pair wie ship / sheep. Waehle 5 bis 8 Woerter und nur eine phrase. Wenn du einfache practice lines brauchst, kann der [AI Lyrics Generator](https://easymusic.ai/de/tools/ai-lyrics-generator) kurze Zeilen vorbereiten. Der teacher korrigiert danach spelling, meaning und erwartete Aussprache. Rhyme darf das Zielwort nicht verbiegen.",
+        "## Schreibe eine Call-and-Response Form",
+        "Die structure darf absichtlich schlicht sein: hear it, tap it, say it, leave space. Interner prompt: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann style words wie light pulse, clear rests, simple bass und no busy melody ordnen. Wenn Lernende nicht ueber den Track sprechen koennen, ist der Track zu stark.",
+        "## Erstelle nur drei Versionen",
+        "Version A ist listen-only mit einer klaren teacher oder narrator phrase. Version B hat laengere gaps zum Wiederholen. Version C ist ein instrumental bed fuer Test oder Aufnahme. Aendere nicht melody, tempo und words gleichzeitig; aendere einen Punkt, damit du hoerst, was hilft. EasyMusic.AI kann mehrere drafts liefern, aber die Auswahl sollte nach intelligibility gehen, nicht nach der Version, die am meisten nach Radio klingt.",
+        "## Pruefe vor dem Einsatz",
+        "Hoere mit Handy-Lautsprecher und Kopfhoerern. Ist der erste consonant klar? Reicht die gap fuer langsame Lernende? Verdecken drums syllable stress? Passt das accent model zum Unterricht, ohne native-speech Versprechen zu machen? Schreibe eine kleine note: Dies ist rhythm and repetition practice, kein Nachweis fuer Fluency. Wenn du das Material oeffentlich veroeffentlichst, halte intern fest, wie die Musik entstanden ist.",
+        "## Ideen fuer heute",
+        "- Verwandle five vocabulary words in einen zweiminutigen chant mit gleicher gap.\n- Baue eine no-melody Version fuer schwierige consonants.\n- Lass Lernende den clapping pattern sprechen, bevor sie die phrase sagen.\n- Setze schwierige Woerter an den Anfang eines bars, nicht ans Ende.\n- Bewahre ein stilles worksheet auf, damit der Track nicht die ganze lesson wird.",
+        "## FAQ\n### Muss der Drill ein vollstaendiger Song sein?\nNein. Ein kurzer chant oder klarer loop ist oft besser, weil pronunciation wichtiger ist als performance.\n### Sind Vocals sinnvoll?\nNur als kurzes Modell. Danach braucht es langen space fuer die Lernenden.\n### Wie lang sollte der Drill sein?\nStarte mit 60 bis 90 Sekunden. Fuer mehr Material baust du getrennte rounds.\n### Garantiert das bessere Aussprache?\nNein. Musik kann rhythm und repetition stuetzen, aber feedback, listening und regelmaessige practice bleiben noetig."
+      ]
+    },
+    "en": {
+      "title": "Build AI Music Pronunciation Drills Without Hiding the Words",
+      "description": "A practical workflow for language teachers who want short AI music drills that support rhythm, stress, repetition, and clear speech.",
+      "body": [
+        "You have one phrase students need to practice: a hard consonant, word stress, or the rise at the end of a short question. Music should make the drill feel less dry, but the first draft turns into a complete pop song and students start chasing the melody instead of the words. For language learning, the music should not show off. It should act like a friendly metronome, a map of pauses, and a place to hear then repeat.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, lyrics, style direction, and audio ideas into music drafts you can review. In a pronunciation lesson, use it to make a short support track or loop, then check the language, pacing, and clarity yourself before learners hear it.",
+        "## Start With One Pronunciation Target",
+        "Do not ask for a song about the whole lesson. Write one target: final consonants, word stress, short question intonation, or a contrast such as ship / sheep. Choose 5 to 8 words and one carrier phrase. If you need simple practice lines, the [AI Lyrics Generator](https://easymusic.ai/tools/ai-lyrics-generator) can help draft short text, but the teacher should correct spelling, meaning, and expected pronunciation. Never let rhyme change the word you are trying to teach.",
+        "## Write a Call-and-Response Shape",
+        "Keep the structure almost boring: hear it, tap it, say it, leave space. A useful internal prompt might be: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. Use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) to organize style words such as light pulse, clear rests, simple bass, and no busy melody. If students cannot speak over the track, the track is too important.",
+        "## Make Only Three Versions",
+        "Version A is listen-only, with the phrase clearly modeled by a teacher or narrator. Version B has a longer gap for student repetition. Version C is an instrumental bed for testing or recording. Do not change melody, tempo, and wording all at once; change one variable so you know what helped. EasyMusic.AI can produce multiple drafts, but choose by intelligibility, not by which draft sounds most like a finished single.",
+        "## Review Before Class or Upload",
+        "Listen on phone speakers and headphones. Is the first consonant clear? Is the gap long enough for a slower learner? Do drums hide syllable stress? Does the accent model fit the lesson without promising a native accent? Write a small note: this is rhythm and repetition practice, not proof that a learner will become fluent. If you publish the drill in a public video or course, keep an internal note about how the music was made.",
+        "## Ideas You Can Reuse Today",
+        "- Turn five vocabulary words into a two-minute chant with the same gap after every line.\n- Make a no-melody version for difficult consonants.\n- Have students clap the pattern before saying the phrase.\n- Put the hardest word at the start of a bar, not at the end.\n- Keep a silent worksheet version so the track does not become the whole lesson.",
+        "## FAQ\n### Does the drill need to be a full song?\nNo. A short chant or clear loop is often better because pronunciation is the goal, not performance.\n### Should I use vocals?\nUse vocals only as a brief model, then leave generous space for learners. Continuous vocals make students sing along instead of practicing.\n### How long should the drill be?\nStart with 60 to 90 seconds. If you need more material, make separate rounds rather than one long track.\n### Does music guarantee better pronunciation?\nNo. Music can support rhythm and repetition, but teacher feedback, listening, and regular practice still matter."
+      ]
+    },
+    "es": {
+      "title": "Crea pronunciation drills con AI music sin esconder las palabras",
+      "description": "Workflow practico para docentes de idiomas que necesitan drills cortos con ritmo, stress, repeticion y habla clara.",
+      "body": [
+        "Tienes una frase pequena que los estudiantes deben practicar: una consonante dificil, word stress o la subida al final de una pregunta corta. La musica deberia hacer el drill menos seco, pero el primer draft se vuelve una cancion pop completa y los alumnos siguen la melodia en vez de las palabras. En language learning, la musica no debe lucirse. Debe funcionar como metronomo amable, mapa de pausas y espacio para escuchar y repetir.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, lyrics, style direction e ideas de audio en music drafts revisables. En una pronunciation lesson, usala para crear un track corto o loop de apoyo, y luego revisa idioma, ritmo y claridad antes de que lo escuchen los learners.",
+        "## Empieza con un objetivo de pronunciacion",
+        "No pidas una cancion sobre toda la clase. Escribe un solo target: final consonants, word stress, short question intonation o un contraste como ship / sheep. Elige 5 a 8 palabras y una carrier phrase. Si necesitas practice lines simples, [AI Lyrics Generator](https://easymusic.ai/es/tools/ai-lyrics-generator) puede ayudar con texto corto, pero el teacher debe corregir spelling, meaning y pronunciacion esperada. No dejes que la rima cambie la palabra que quieres ensenar.",
+        "## Escribe una forma call and response",
+        "Mantén la structure casi aburrida: hear it, tap it, say it, leave space. Prompt interno: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. Usa [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) para ordenar style words como light pulse, clear rests, simple bass y no busy melody. Si los estudiantes no pueden hablar sobre el track, el track tiene demasiado protagonismo.",
+        "## Haz solo tres versiones",
+        "Version A es listen-only con la frase modelada claramente por teacher o narrator. Version B tiene una gap mas larga para repetir. Version C es instrumental bed para test o recording. No cambies melody, tempo y wording al mismo tiempo; cambia una variable para saber que ayudo. EasyMusic.AI puede producir varios drafts, pero elige por intelligibility, no por la version que mas suena a single terminado.",
+        "## Revisa antes de clase o upload",
+        "Escucha en speakers de telefono y headphones. Se oye la primera consonant? La gap alcanza para un learner lento? Los drums esconden syllable stress? El accent model encaja con la lesson sin prometer native accent? Escribe una nota: esto es rhythm and repetition practice, no prueba de fluency. Si publicas el drill en video o curso publico, conserva una nota interna sobre como se hizo la musica.",
+        "## Ideas reutilizables hoy",
+        "- Convierte five vocabulary words en un chant de dos minutos con la misma gap tras cada line.\n- Haz una version no-melody para consonants dificiles.\n- Pide a los estudiantes clapping pattern antes de decir la phrase.\n- Pon la palabra mas dificil al inicio del bar, no al final.\n- Conserva una worksheet sin audio para que el track no sea toda la lesson.",
+        "## FAQ\n### El drill debe ser una cancion completa?\nNo. Un chant corto o loop claro suele funcionar mejor porque el objetivo es pronunciation, no performance.\n### Conviene usar vocals?\nSolo como modelo breve, luego deja mucho space para learners. Vocals continuas hacen que canten en vez de practicar.\n### Cuanto debe durar?\nEmpieza con 60 a 90 segundos. Si necesitas mas, crea rounds separados.\n### La musica garantiza mejor pronunciacion?\nNo. Puede apoyar rhythm y repetition, pero teacher feedback, listening y practice regular siguen siendo necesarios."
+      ]
+    },
+    "fr": {
+      "title": "Cree des pronunciation drills en AI music sans cacher les mots",
+      "description": "Workflow concret pour professeurs de langue qui veulent des drills courts avec rhythm, stress, repetition et parole claire.",
+      "body": [
+        "Tu as une petite phrase a faire travailler: consonne difficile, word stress ou montee d une question courte. La musique doit rendre le drill moins sec, mais le premier draft devient une chanson pop complete et les apprenants suivent la melodie au lieu des mots. Dans language learning, la musique ne doit pas se montrer. Elle doit servir de metronome doux, de carte des pauses et d espace pour ecouter puis repeter.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, lyrics, style direction et idees audio en music drafts a reviser. Pour une pronunciation lesson, utilise-la pour creer un track court ou une loop de soutien, puis verifie toi-meme langue, vitesse et clarte avant de le donner aux learners.",
+        "## Commence par une seule cible de prononciation",
+        "Ne demande pas une chanson sur toute la lecon. Ecris une cible: final consonants, word stress, short question intonation ou contrast pair comme ship / sheep. Choisis 5 a 8 mots et une carrier phrase. Si tu as besoin de practice lines simples, [AI Lyrics Generator](https://easymusic.ai/fr/tools/ai-lyrics-generator) peut aider a brouillonner du texte court, mais le teacher corrige spelling, meaning et prononciation attendue. La rime ne doit jamais changer le mot a enseigner.",
+        "## Ecris une forme call and response",
+        "Garde une structure presque ennuyeuse: hear it, tap it, say it, leave space. Prompt interne utile: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. Utilise [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) pour organiser light pulse, clear rests, simple bass et no busy melody. Si les apprenants ne peuvent pas parler par-dessus le track, le track prend trop de place.",
+        "## Ne fais que trois versions",
+        "Version A est listen-only, avec la phrase clairement modelee par teacher ou narrator. Version B laisse une gap plus longue pour repetition. Version C est un instrumental bed pour test ou recording. Ne change pas melody, tempo et wording en meme temps; change une variable pour savoir ce qui aide. EasyMusic.AI peut produire plusieurs drafts, mais choisis selon intelligibility, pas selon le son le plus single fini.",
+        "## Verifie avant la classe ou l upload",
+        "Ecoute sur telephone et headphones. La premiere consonant est-elle claire? La gap suffit-elle a un learner lent? Les drums cachent-ils syllable stress? L accent model convient-il a la lecon sans promettre native accent? Note simplement: c est rhythm and repetition practice, pas une preuve de fluency. Si tu publies le drill dans une video ou un cours public, garde une note interne sur la creation de la musique.",
+        "## Idees reutilisables aujourd hui",
+        "- Transforme five vocabulary words en chant de deux minutes avec la meme gap apres chaque line.\n- Cree une version no-melody pour difficult consonants.\n- Fais taper le clapping pattern avant de dire la phrase.\n- Place le mot le plus dur au debut d une bar, pas a la fin.\n- Garde une worksheet silencieuse pour que le track ne devienne pas toute la lesson.",
+        "## FAQ\n### Le drill doit-il etre une chanson complete?\nNon. Un chant court ou une loop claire est souvent meilleur, car le but est pronunciation, pas performance.\n### Faut-il utiliser des vocals?\nSeulement comme modele bref, puis laisse beaucoup de space aux learners. Des vocals continus les font chanter au lieu de pratiquer.\n### Quelle duree choisir?\nCommence par 60 a 90 secondes. Pour plus de matiere, fais des rounds separes.\n### La musique garantit-elle une meilleure prononciation?\nNon. Elle peut soutenir rhythm et repetition, mais feedback, listening et practice reguliere restent essentiels."
+      ]
+    },
+    "it": {
+      "title": "Crea pronunciation drills con AI music senza coprire le parole",
+      "description": "Workflow pratico per insegnanti di lingua che vogliono drill brevi con rhythm, stress, ripetizione e parlato chiaro.",
+      "body": [
+        "Hai una frase piccola da far praticare: una consonante difficile, word stress o la salita finale di una domanda breve. La musica dovrebbe rendere il drill meno secco, ma il primo draft diventa una pop song completa e gli studenti inseguono la melodia invece delle parole. Nel language learning, la musica non deve mettersi in mostra. Deve essere un metronomo gentile, una mappa delle pause e uno spazio per ascoltare e ripetere.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation per trasformare prompts, lyrics, style direction e idee audio in music drafts da rivedere. In una pronunciation lesson, usala per creare un track breve o loop di supporto, poi controlla lingua, ritmo e chiarezza prima che arrivino ai learners.",
+        "## Parti da un solo obiettivo di pronuncia",
+        "Non chiedere una canzone su tutta la lezione. Scrivi un target: final consonants, word stress, short question intonation o un contrast come ship / sheep. Scegli 5-8 parole e una carrier phrase. Se ti servono practice lines semplici, [AI Lyrics Generator](https://easymusic.ai/it/tools/ai-lyrics-generator) puo aiutare a creare testo breve, ma il teacher corregge spelling, meaning e pronuncia attesa. Non lasciare che la rima cambi la parola da insegnare.",
+        "## Scrivi una forma call and response",
+        "Tieni la structure quasi noiosa: hear it, tap it, say it, leave space. Prompt interno: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. Usa [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) per ordinare style words come light pulse, clear rests, simple bass e no busy melody. Se gli studenti non riescono a parlare sopra il track, il track e troppo importante.",
+        "## Prepara solo tre versioni",
+        "Version A e listen-only, con la frase modellata chiaramente da teacher o narrator. Version B ha una gap piu lunga per ripetere. Version C e un instrumental bed per test o recording. Non cambiare melody, tempo e wording insieme; cambia una variabile per sapere che cosa aiuta. EasyMusic.AI puo produrre piu drafts, ma scegli per intelligibility, non per il draft che sembra piu una single finita.",
+        "## Controlla prima della classe o dell upload",
+        "Ascolta su speaker del telefono e headphones. La prima consonant e chiara? La gap basta per un learner lento? I drums coprono syllable stress? L accent model serve la lezione senza promettere native accent? Scrivi una nota: e rhythm and repetition practice, non prova di fluency. Se pubblichi il drill in video o corso pubblico, conserva una nota interna su come e stata creata la musica.",
+        "## Idee da usare oggi",
+        "- Trasforma five vocabulary words in un chant di due minuti con la stessa gap dopo ogni line.\n- Crea una versione no-melody per consonants difficili.\n- Fai battere il clapping pattern prima di dire la phrase.\n- Metti la parola piu difficile all inizio della bar, non alla fine.\n- Conserva una worksheet silenziosa, cosi il track non diventa tutta la lesson.",
+        "## FAQ\n### Il drill deve essere una canzone completa?\nNo. Un chant breve o loop chiaro spesso e meglio, perche il goal e pronunciation, non performance.\n### Devo usare vocals?\nSolo come modello breve, poi lascia molto space ai learners. Vocals continui li fanno cantare invece di praticare.\n### Quanto deve durare?\nInizia con 60-90 secondi. Se serve altro, crea rounds separati.\n### La musica garantisce migliore pronuncia?\nNo. Puo sostenere rhythm e repetition, ma feedback, listening e practice regolare restano necessari."
+      ]
+    },
+    "ja": {
+      "title": "言葉を隠さない AI music pronunciation drills を作る",
+      "description": "Language teachers 向けに、rhythm、stress、repetition、clear speech を支える短い AI music drills を作る workflow。",
+      "body": [
+        "練習したい phrase は小さいものです。難しい consonant、word stress、短い question の最後の rise。Music を入れると drill が少し楽しくなるはずなのに、first draft は complete pop song になり、students は words ではなく melody を追い始めます。Language learning では、music は主役ではありません。Friendly metronome、pause map、hear then repeat の space であるべきです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は prompts、lyrics、style direction、audio ideas を review できる music drafts に変える AI music creation platform です。Pronunciation lesson では short support track や loop を作るために使い、learners に聞かせる前に language、pacing、clarity を teacher が確認します。",
+        "## Pronunciation target を一つにする",
+        "Lesson 全体について song を頼まないでください。Target を一つ書きます: final consonants、word stress、short question intonation、または ship / sheep のような contrast。Words は5から8個、carrier phrase は一つだけ。[AI Lyrics Generator](https://easymusic.ai/ja/tools/ai-lyrics-generator) は simple practice lines の draft に役立ちますが、spelling、meaning、expected pronunciation は teacher が直します。Rhyme のために教えたい word を変えないでください。",
+        "## Call and response の形を書く",
+        "Structure はわざと単純にします: hear it, tap it, say it, leave space。Internal prompt 例: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) は light pulse、clear rests、simple bass、no busy melody などの style words を整理できます。Students が track の上で話せないなら、track が強すぎます。",
+        "## Version は三つだけ作る",
+        "Version A は listen-only で、teacher または narrator が phrase を clear に model します。Version B は repetition 用に長い gap を置きます。Version C は test や recording 用の instrumental bed です。Melody、tempo、wording を同時に変えないでください。一つの variable だけを変えると、何が助けになったか分かります。EasyMusic.AI は複数 draft を作れますが、finished single らしさではなく intelligibility で選びます。",
+        "## Class や upload 前に review する",
+        "Phone speaker と headphones で聞きます。最初の consonant は clear ですか。Slow learner に gap は十分ですか。Drums が syllable stress を隠していませんか。Accent model は lesson に合い、native accent を約束していませんか。Small note を残します: this is rhythm and repetition practice, not proof of fluency。Public video や course に出すなら、music の作り方を internal note として保存します。",
+        "## 今日使える ideas",
+        "- Five vocabulary words を、各 line 後に同じ gap がある two-minute chant にします。\n- Difficult consonants 用に no-melody version を作ります。\n- Phrase を言う前に clapping pattern を練習します。\n- Hardest word は bar の終わりではなく始めに置きます。\n- Track が lesson 全体にならないよう silent worksheet version を残します。",
+        "## FAQ\n### Drill は full song である必要がありますか？\nいいえ。Goal は performance ではなく pronunciation なので、short chant や clear loop のほうがよいことが多いです。\n### Vocals は使うべきですか？\nBrief model としてだけ使い、その後は learners のために十分な space を残します。\n### 長さはどれくらい？\n60から90秒から始めます。もっと必要なら、one long track ではなく separate rounds にします。\n### Music は pronunciation improvement を保証しますか？\nいいえ。Rhythm と repetition は助けますが、teacher feedback、listening、regular practice は必要です。"
+      ]
+    },
+    "ko": {
+      "title": "단어를 가리지 않는 AI music pronunciation drills 만들기",
+      "description": "Language teachers가 rhythm, stress, repetition, clear speech를 지키는 짧은 AI music drills를 만드는 workflow.",
+      "body": [
+        "연습할 phrase는 작습니다. 어려운 consonant, word stress, 짧은 question 끝의 rise 같은 것들입니다. Music을 넣으면 drill이 덜 건조해질 것 같지만, first draft가 complete pop song이 되고 students는 words가 아니라 melody를 따라갑니다. Language learning에서 music은 과시하면 안 됩니다. Friendly metronome, pause map, hear then repeat을 위한 space여야 합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, lyrics, style direction, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Pronunciation lesson에서는 short support track이나 loop를 만들고, learners에게 들려주기 전에 teacher가 language, pacing, clarity를 확인하세요.",
+        "## Pronunciation target 하나로 시작하기",
+        "전체 lesson에 대한 song을 요청하지 마세요. Target 하나를 씁니다: final consonants, word stress, short question intonation, 또는 ship / sheep 같은 contrast. Words는 5-8개, carrier phrase는 하나만 고릅니다. Simple practice lines가 필요하면 [AI Lyrics Generator](https://easymusic.ai/ko/tools/ai-lyrics-generator)가 짧은 text draft에 도움을 줄 수 있지만, spelling, meaning, expected pronunciation은 teacher가 고쳐야 합니다. Rhyme 때문에 가르칠 word를 바꾸지 마세요.",
+        "## Call and response 형태 쓰기",
+        "Structure는 일부러 단순하게 둡니다: hear it, tap it, say it, leave space. Internal prompt 예: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 light pulse, clear rests, simple bass, no busy melody 같은 style words를 정리하는 데 좋습니다. Students가 track 위에서 말할 수 없다면 track이 너무 중요해진 것입니다.",
+        "## 세 version만 만들기",
+        "Version A는 listen-only로 teacher나 narrator가 phrase를 clear하게 model합니다. Version B는 student repetition을 위해 gap을 더 깁니다. Version C는 test나 recording용 instrumental bed입니다. Melody, tempo, wording을 한 번에 바꾸지 마세요. Variable 하나만 바꿔야 무엇이 도움 됐는지 압니다. EasyMusic.AI는 여러 drafts를 만들 수 있지만 finished single처럼 들리는 것보다 intelligibility를 기준으로 고르세요.",
+        "## Class나 upload 전에 review하기",
+        "Phone speakers와 headphones로 들어보세요. 첫 consonant가 clear한가요? Slow learner에게 gap이 충분한가요? Drums가 syllable stress를 덮나요? Accent model이 native accent를 약속하지 않으면서 lesson에 맞나요? Small note를 남깁니다: this is rhythm and repetition practice, not proof of fluency. Public video나 course에 올린다면 music이 어떻게 만들어졌는지 internal note를 보관하세요.",
+        "## 오늘 바로 쓸 ideas",
+        "- Five vocabulary words를 각 line 뒤에 같은 gap이 있는 two-minute chant로 만듭니다.\n- Difficult consonants용 no-melody version을 만듭니다.\n- Phrase를 말하기 전에 clapping pattern을 연습합니다.\n- Hardest word는 bar 끝이 아니라 시작에 둡니다.\n- Track이 lesson 전체가 되지 않도록 silent worksheet version을 남깁니다.",
+        "## FAQ\n### Drill이 full song이어야 하나요?\n아니요. Goal은 performance가 아니라 pronunciation이므로 short chant나 clear loop가 더 나을 때가 많습니다.\n### Vocals를 써야 하나요?\nBrief model로만 쓰고 learners를 위한 충분한 space를 남기세요. Continuous vocals는 singing으로 흐르기 쉽습니다.\n### 길이는 어느 정도가 좋나요?\n60-90초부터 시작하세요. 더 필요하면 one long track이 아니라 separate rounds로 만드세요.\n### Music이 pronunciation improvement를 보장하나요?\n아니요. Rhythm과 repetition은 돕지만 teacher feedback, listening, regular practice가 여전히 필요합니다."
+      ]
+    },
+    "pt": {
+      "title": "Crie pronunciation drills com AI music sem esconder as palavras",
+      "description": "Workflow pratico para professores de idiomas criarem drills curtos com rhythm, stress, repeticao e fala clara.",
+      "body": [
+        "Voce tem uma frase pequena para praticar: uma consonant dificil, word stress ou a subida no fim de uma pergunta curta. A musica deveria deixar o drill menos seco, mas o primeiro draft vira uma pop song completa e os alunos seguem a melody em vez das palavras. Em language learning, a musica nao deve aparecer demais. Ela deve ser um metronomo amigavel, um mapa de pausas e um espaco para ouvir e repetir.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, lyrics, style direction e ideias de audio em music drafts revisaveis. Em uma pronunciation lesson, use para criar um support track curto ou loop, depois confira language, pacing e clarity antes de mostrar aos learners.",
+        "## Comece com um alvo de pronuncia",
+        "Nao peca uma musica sobre a aula inteira. Escreva um target: final consonants, word stress, short question intonation ou um contraste como ship / sheep. Escolha 5 a 8 words e uma carrier phrase. Se precisar de practice lines simples, [AI Lyrics Generator](https://easymusic.ai/pt/tools/ai-lyrics-generator) pode ajudar com texto curto, mas o teacher deve corrigir spelling, meaning e expected pronunciation. Nao deixe a rhyme mudar a palavra que voce quer ensinar.",
+        "## Escreva uma forma call and response",
+        "Mantenha a structure quase chata: hear it, tap it, say it, leave space. Prompt interno: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. Use [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) para organizar light pulse, clear rests, simple bass e no busy melody. Se os students nao conseguem falar sobre o track, o track esta importante demais.",
+        "## Faca apenas tres versoes",
+        "Version A e listen-only, com phrase modelada claramente por teacher ou narrator. Version B tem gap maior para repetition. Version C e instrumental bed para test ou recording. Nao mude melody, tempo e wording ao mesmo tempo; mude uma variavel para saber o que ajudou. EasyMusic.AI pode gerar varios drafts, mas escolha por intelligibility, nao pelo draft que parece mais uma finished single.",
+        "## Revise antes da aula ou upload",
+        "Escute no speaker do telefone e em headphones. A primeira consonant esta clara? A gap serve para learner mais lento? Drums escondem syllable stress? O accent model combina com a aula sem prometer native accent? Escreva uma note pequena: isto e rhythm and repetition practice, nao prova de fluency. Se publicar o drill em video ou curso publico, guarde uma nota interna sobre como a musica foi feita.",
+        "## Ideias reutilizaveis hoje",
+        "- Transforme five vocabulary words em um chant de dois minutos com a mesma gap depois de cada line.\n- Crie uma versao no-melody para difficult consonants.\n- Peca aos alunos clapping pattern antes de dizer a phrase.\n- Coloque a palavra mais dificil no inicio do bar, nao no fim.\n- Guarde uma worksheet silenciosa para que o track nao vire toda a lesson.",
+        "## FAQ\n### O drill precisa ser uma musica completa?\nNao. Um chant curto ou loop claro costuma ser melhor, porque o objetivo e pronunciation, nao performance.\n### Devo usar vocals?\nUse apenas como modelo breve, depois deixe bastante space para learners. Vocals continuos fazem os alunos cantar em vez de praticar.\n### Quanto deve durar?\nComece com 60 a 90 segundos. Se precisar de mais material, crie rounds separados.\n### A musica garante melhor pronuncia?\nNao. Ela pode apoiar rhythm e repetition, mas teacher feedback, listening e practice regular continuam necessarios."
+      ]
+    },
+    "ru": {
+      "title": "Создавайте AI music pronunciation drills, не скрывая слова",
+      "description": "Практический workflow для преподавателей языка: короткие drills с rhythm, stress, repetition и понятной речью.",
+      "body": [
+        "У вас есть маленькая phrase для практики: трудный consonant, word stress или подъем в конце короткого вопроса. Музыка должна сделать drill менее сухим, но первый draft превращается в полноценную pop song, и students начинают следить за melody, а не за словами. В language learning музыка не должна показывать себя. Она должна быть дружелюбным metronome, картой пауз и местом, где можно услышать и повторить.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, lyrics, style direction и audio ideas в music drafts для review. В pronunciation lesson используйте ее для короткого support track или loop, а затем сами проверьте language, pacing и clarity до того, как learners это услышат.",
+        "## Начните с одной цели произношения",
+        "Не просите песню обо всем уроке. Запишите одну цель: final consonants, word stress, short question intonation или contrast вроде ship / sheep. Выберите 5-8 words и одну carrier phrase. Если нужны простые practice lines, [AI Lyrics Generator](https://easymusic.ai/ru/tools/ai-lyrics-generator) может помочь с коротким текстом, но teacher должен исправить spelling, meaning и expected pronunciation. Не позволяйте rhyme менять слово, которое вы учите.",
+        "## Задайте форму call and response",
+        "Structure пусть будет почти скучной: hear it, tap it, say it, leave space. Внутренний prompt: 80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет упорядочить style words: light pulse, clear rests, simple bass, no busy melody. Если students не могут говорить поверх track, track стал слишком важным.",
+        "## Сделайте только три версии",
+        "Version A - listen-only, где phrase ясно моделирует teacher или narrator. Version B дает более длинную gap для repetition. Version C - instrumental bed для test или recording. Не меняйте melody, tempo и wording одновременно; меняйте одну variable, чтобы понимать, что помогло. EasyMusic.AI может создать несколько drafts, но выбирайте по intelligibility, а не по тому, что звучит как finished single.",
+        "## Проверьте до урока или upload",
+        "Послушайте через телефонный speaker и headphones. Первый consonant слышен? Gap достаточно длинная для медленного learner? Drums скрывают syllable stress? Accent model подходит уроку, не обещая native accent? Запишите note: это rhythm and repetition practice, а не proof of fluency. Если публикуете drill в public video или course, сохраните internal note о том, как сделана музыка.",
+        "## Идеи на сегодня",
+        "- Превратите five vocabulary words в two-minute chant с одинаковой gap после каждой line.\n- Сделайте no-melody version для difficult consonants.\n- Пусть students сначала хлопают clapping pattern, потом говорят phrase.\n- Ставьте самое трудное word в начало bar, а не в конец.\n- Храните silent worksheet version, чтобы track не стал всем уроком.",
+        "## FAQ\n### Drill должен быть полноценной песней?\nНет. Короткий chant или clear loop часто лучше, потому что цель - pronunciation, а не performance.\n### Использовать vocals?\nТолько как brief model, затем оставьте большой space для learners. Continuous vocals ведут к singing вместо practice.\n### Какая длина подходит?\nНачните с 60-90 секунд. Если нужно больше, сделайте separate rounds.\n### Музыка гарантирует улучшение произношения?\nНет. Она поддерживает rhythm и repetition, но teacher feedback, listening и regular practice все еще нужны."
+      ]
+    },
+    "zh": {
+      "title": "制作不遮住单词的 AI music pronunciation drills",
+      "description": "给语言教师的一套实用 workflow，用短 AI music drills 支持 rhythm、stress、repetition 和清晰 speech。",
+      "body": [
+        "你要学生练的 phrase 其实很小：一个难发的 consonant，一个 word stress，或者短 question 结尾的上扬。Music 本来只是让 drill 不那么干，但 first draft 变成完整 pop song，students 开始追 melody，而不是听 words。Language learning 里的 music 不该抢戏。它应该像友好的 metronome、pause map，以及 hear then repeat 的 space。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、lyrics、style direction 和 audio ideas 变成可 review 的 music drafts。在 pronunciation lesson 里，你可以用它做 short support track 或 loop，但在 learners 听到之前，teacher 仍要检查 language、pacing 和 clarity。",
+        "## 从一个 pronunciation target 开始",
+        "不要要求一首覆盖整节课的 song。先写一个 target：final consonants、word stress、short question intonation，或 ship / sheep 这样的 contrast。选择 5 到 8 个 words 和一个 carrier phrase。如果需要 simple practice lines，[AI Lyrics Generator](https://easymusic.ai/zh/tools/ai-lyrics-generator) 可以帮助起草短文本，但 spelling、meaning 和 expected pronunciation 必须由 teacher 校正。不要为了 rhyme 改掉你真正要教的 word。",
+        "## 写成 call and response 结构",
+        "Structure 可以故意简单：hear it, tap it, say it, leave space。Internal prompt 可以是：80 BPM, soft hand percussion, no lead vocal, four-beat gap after each phrase, warm classroom energy。用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 整理 light pulse、clear rests、simple bass、no busy melody 等 style words。如果 students 无法在 track 上方说话，说明 track 太重要了。",
+        "## 只做三个版本",
+        "Version A 是 listen-only，由 teacher 或 narrator 清楚示范 phrase。Version B 留出更长 gap 给 student repetition。Version C 是 test 或 recording 用的 instrumental bed。不要同时改变 melody、tempo 和 wording；一次只改一个 variable，才知道什么真的有帮助。EasyMusic.AI 可以产出多个 drafts，但选择标准应是 intelligibility，而不是哪版最像 finished single。",
+        "## 上课或 upload 前 review",
+        "用 phone speaker 和 headphones 都听一遍。第一个 consonant 清楚吗？gap 对 slow learner 够吗？drums 有没有盖住 syllable stress？accent model 是否适合 lesson，而不是暗示 native accent 保证？写一条 small note：this is rhythm and repetition practice, not proof of fluency。如果你把 drill 发布到 public video 或 course，保留一条内部记录，说明 music 是如何制作的。",
+        "## 今天就能用的 ideas",
+        "- 把 five vocabulary words 做成 two-minute chant，每行后保留相同 gap。\n- 给 difficult consonants 做一个 no-melody version。\n- 让 students 先拍 clapping pattern，再说 phrase。\n- 把 hardest word 放在 bar 的开头，而不是结尾。\n- 保留 silent worksheet version，避免 track 变成整节 lesson。",
+        "## FAQ\n### Drill 需要是一首完整 song 吗？\n不需要。目标是 pronunciation，不是 performance；short chant 或 clear loop 往往更好。\n### 要不要用 vocals？\n只把 vocals 当作 brief model，然后给 learners 留足 space。Continuous vocals 容易让学生跟唱，而不是练习。\n### 多长合适？\n先从 60 到 90 秒开始。如果需要更多材料，做 separate rounds，不要做一条很长的 track。\n### Music 能保证 pronunciation 变好吗？\n不能。它可以支持 rhythm 和 repetition，但 teacher feedback、listening 和 regular practice 仍然重要。"
+      ]
+    }
+  }
+}
