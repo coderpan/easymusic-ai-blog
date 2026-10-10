@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-10",
+  "slug": "data-dashboard-ai-music-clarity-map",
+  "cluster": "data-dashboard-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لفيديو dashboard من دون دفن الارقام",
+      "description": "Workflow عملي لموسيقى فيديو data dashboard يحافظ على وضوح الارقام،voiceover،captions،والتحذيرات المهمة.",
+      "body": [
+        "تسجيل dashboard يمكن ان يبدو مرتبا ثم يفشل في السمع. خط يرتفع قليلا،لكن الموسيقى تصنع شعورا بانتصار كبير. رقم ينخفض 12 percent،لكن percussion يغطي كلمة down. Caption يشرح caveat،ثم يغطيه موجة صوتية او beat قوي. في فيديو dashboard،الموسيقى لا يجب ان تجعل البيانات تبدو اذكى او اكثر اهمية مما هي عليه؛يجب ان تساعد المشاهد على متابعة السؤال والرقم والخطوة التالية.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعد على تحويل prompts وstyle direction وافكار audio الى music drafts قابلة للمراجعة. لفيديو dashboard walkthrough،تعامل معها كاداة لصنع bed هادئ حول script واضح،وليس كبديل عن دقة البيانات،مراجعة الحقوق،او قرار النشر.",
+        "## اكتب هرم الارقام قبل prompt",
+        "قبل توليد اي موسيقى،اكتب اربعة اسطر: السؤال الذي يجيب عنه الفيديو،metric واحد يجب ان يبقى واضحا،caveat واحد لا يجوز اخفاؤه،والaction المطلوب من المشاهد. اذا كان الفيديو عن retention،لا تجعل كل chart لحظة dramatic. حدد اين تحتاج silence او low bed: عند قراءة الرقم،عند شرح سبب التغير،وعند عرض next step.",
+        "## اطلب موسيقى لا تفسر البيانات بدلا منك",
+        "Prompt مفيد: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. اذا كانت كلماتك واسعة،استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويل calm وconfident الى instruments،tempo،density،وقائمة avoid. EasyMusic.AI قد يعطي drafts مختلفة،لكن اختر النسخة التي تجعل الارقام اسهل لا اكثر لمعانا.",
+        "## قسم الفيديو الى ثلاث مناطق صوتية",
+        "منطقة opening تعرف السؤال وتحتاج cue قصير. منطقة explanation تحمل الكلام والارقام وتحتاج bed ثابت ومنخفض. منطقة handoff في النهاية قد تحتاج ending قصير عندما تظهر recommendation. لا تضع hit قوي عند رقم سيئ،ولا rise كبيرا قبل caveat. اذا احتجت MP3 او M4A او WAV لمحرر او منصة،استخدم [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) بعد اختيار الفكرة،ولا تستخدم التحويل كحل لمشكلة mix.",
+        "## اختبر كما يشاهدها شخص مستعجل",
+        "شغل الفيديو على laptop وphone speaker مع captions ثم من دونها. اسأل: هل يسمع المشاهد الرقم؟ هل يرى axis او label؟ هل بقي caveat مفهوما؟ هل يعمل الفيديو في mute مع transcript او on-screen text؟ احتفظ بملاحظة صغيرة: prompt،metric،file،mix version،ومن راجع البيانات. الموسيقى المولدة لا تجعل dashboard اكثر صحة،ولا تعطي ضمانا قانونيا او تجاريا.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- اترك نصف ثانية هادئة قبل الرقم الاهم.\n- امنع vocals،busy hi-hats،وbig risers تحت اي metric.\n- اجعل الموسيقى تتغير عند السؤال او handoff،لا عند كل chart.\n- راجع الفيديو مع captions مفتوحة حتى لا تغطي labels او legend.\n- احفظ نسخة no-music للتأكد ان القصة مفهومة بلا عاطفة اضافية.",
+        "## FAQ\n### هل يحتاج dashboard video الى موسيقى؟\nليس دائما. اذا كان الرقم حساسا او الشرح كثيفا،silence مع voiceover واضح قد يكون افضل.\n### اي tempo مناسب؟\nابدأ ب70 الى90 BPM. الاهم هو الثبات والمساحة،لا رقم BPM نفسه.\n### هل يمكن استخدام dramatic music لنتيجة جيدة؟\nبحذر. اذا جعلت البيانات تبدو اقوى من الدليل،فهي تضعف الثقة.\n### ماذا افعل اذا اختفت الارقام في mix؟\nاخفض bed،احذف lead instruments،او اعد توليد نسخة ابسط مع no vocals وlow density."
+      ]
+    },
+    "de": {
+      "title": "Plane AI Music fuer Dashboard-Videos, ohne Zahlen zu begraben",
+      "description": "Ein praktischer Workflow fuer Data-Dashboard-Walkthroughs, bei denen Zahlen, Voiceover, Captions und Caveats klar bleiben.",
+      "body": [
+        "Ein Dashboard-Screencast kann sauber aussehen und trotzdem im Ton scheitern. Eine Linie steigt nur leicht, aber die Musik verkauft einen grossen Sieg. Eine Zahl faellt um 12 percent, aber die Percussion verdeckt das Wort down. Ein Caption erklaert die caveat, waehrend ein Beat die Aufmerksamkeit wegzieht. In einem Dashboard-Video soll Musik die Daten nicht groesser klingen lassen, sondern Frage, Zahl und naechsten Schritt lesbar halten.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, die prompts, style direction und Audio-Ideen in pruefbare Music Drafts verwandelt. Fuer ein Dashboard-Walkthrough ist sie ein Drafting-Tool fuer ein ruhiges bed um ein klares Script; Datenpruefung, rights review und Publishing-Entscheidung bleiben bei deinem Team.",
+        "## Baue zuerst eine Zahlen-Hierarchie",
+        "Schreibe vor dem Prompt vier Zeilen: die Frage des Videos, eine metric, die verstanden werden muss, eine caveat, die nicht untergehen darf, und die action fuer den Viewer. Wenn es um retention geht, braucht nicht jedes chart einen emotionalen Peak. Markiere Stellen fuer silence oder very low bed: beim Lesen der Zahl, beim Grund fuer die Veraenderung und beim next step.",
+        "## Fordere Musik an, die die Daten nicht deutet",
+        "Ein guter Prompt: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. Wenn calm oder confident zu breit sind, nutze den [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), um instruments, tempo, density und avoid-list zu formulieren. EasyMusic.AI kann mehrere drafts liefern; waehle den, der Zahlen klarer macht, nicht den glaenzendsten.",
+        "## Teile das Video in drei Audio-Zonen",
+        "Die opening zone stellt die Frage und braucht nur einen kurzen cue. Die explanation zone traegt Stimme und Zahlen und braucht ein stabiles, niedriges bed. Die handoff zone am Ende darf einen kurzen Abschluss bekommen, wenn die recommendation erscheint. Setze keinen starken hit auf schlechte Zahlen und keinen grossen rise vor eine caveat. Wenn der Editor MP3, M4A oder WAV braucht, nutze nach der Auswahl den [Audio Converter](https://easymusic.ai/de/tools/audio-converter); conversion ersetzt keinen besseren mix.",
+        "## Teste wie jemand mit wenig Zeit",
+        "Spiele das Video auf Laptop und phone speaker, einmal mit captions und einmal ohne. Hoert man die Zahl? Sieht man axis und label? Bleibt die caveat verstaendlich? Funktioniert das Video muted mit transcript oder on-screen text? Bewahre prompt, metric, file, mix version und data reviewer zusammen auf. Generierte Musik macht ein Dashboard nicht richtiger und gibt keine rechtliche oder kommerzielle Garantie.",
+        "## Ideen fuer heute",
+        "- Lass vor der wichtigsten Zahl eine halbe Sekunde Luft.\n- Vermeide vocals, busy hi-hats und big risers unter metrics.\n- Aendere Musik bei Frage oder handoff, nicht bei jedem chart.\n- Pruefe captions, damit sie label, axis oder legend nicht verdecken.\n- Behalte einen no-music export, um die Story ohne Zusatzdrama zu testen.",
+        "## FAQ\n### Braucht ein Dashboard-Video Musik?\nNicht immer. Bei sensiblen Zahlen oder dichter Erklaerung kann klare Stimme plus Stille besser sein.\n### Welches Tempo passt?\nStarte mit 70 bis 90 BPM. Wichtiger als die Zahl ist ein ruhiger Puls mit Platz.\n### Darf gute Performance dramatisch klingen?\nVorsichtig. Wenn Musik mehr Gewissheit verkauft als die Daten zeigen, sinkt Vertrauen.\n### Was tun, wenn Zahlen verschwinden?\nBed leiser, lead instruments entfernen oder eine einfachere no-vocal, low-density Version generieren."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Data Dashboard Videos Without Burying the Numbers",
+      "description": "A practical workflow for dashboard walkthrough music that keeps metrics, caveats, voiceover, captions, and viewer action clear.",
+      "body": [
+        "A dashboard screen recording can look polished and still fail in the audio. A line rises slightly, but the music makes it feel like a triumph. A number drops 12 percent, but percussion hides the word down. A caption explains the caveat, then a busy waveform or bright hit pulls attention away. In a data dashboard video, music should not make the numbers feel smarter or more dramatic than they are. It should help the viewer follow the question, the metric, and the next decision.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, style direction, lyrics, and audio ideas into music drafts you can review. For a dashboard walkthrough, use it as a drafting tool for a restrained bed around a clear script, while data accuracy, rights review, and publishing approval stay with your team.",
+        "## Build the Number Hierarchy First",
+        "Before you generate anything, write four lines: the question the video answers, the one metric viewers must remember, the caveat that must not disappear, and the action you want next. If the walkthrough is about retention, not every chart needs a musical lift. Mark the moments that deserve silence or a very low bed: when the number is spoken, when the reason is explained, and when the recommendation appears.",
+        "## Prompt Music That Does Not Interpret the Data for You",
+        "A useful prompt is: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. If broad words like calm or confident are too loose, use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) to turn them into instrument, tempo, density, and avoid-list notes. EasyMusic.AI can give you several drafts, but choose the one that makes the numbers easier to understand, not the one that sounds biggest alone.",
+        "## Split the Video Into Three Audio Zones",
+        "The opening zone introduces the question and can use a short cue. The explanation zone carries voiceover and numbers, so it needs a steady low bed. The handoff zone at the end can use a small ending when the recommendation appears. Do not place a strong hit on a weak result, and do not build a big rise before a caveat. If the editor or platform needs MP3, M4A, or WAV, check the [Audio Converter](https://easymusic.ai/tools/audio-converter) after the musical idea is chosen; conversion will not fix an overactive mix.",
+        "## Test Like a Busy Viewer",
+        "Play the video on a laptop and a phone speaker, with captions on and off. Can the viewer hear the number? Can they read the axis, label, or legend? Does the caveat stay clear? Does the video still work muted with a transcript or on-screen text? Keep a small note with prompt, metric, file name, mix version, and data reviewer. Generated music does not make a dashboard more accurate, and it does not create legal, commercial, or platform approval by itself.",
+        "## Ideas You Can Reuse Today",
+        "- Leave half a second of air before the most important number.\n- Ban vocals, busy hi-hats, and big risers under any metric readout.\n- Change the music at the question and the handoff, not at every chart.\n- Review with captions on so text does not cover labels, axes, or legends.\n- Keep a no-music export to check whether the story still makes sense.",
+        "## FAQ\n### Does every dashboard video need music?\nNo. If the number is sensitive or the explanation is dense, clean voiceover and silence may be better.\n### What tempo should I use?\nStart around 70 to 90 BPM. Stability and space matter more than the exact number.\n### Can I use dramatic music for a good result?\nCarefully. If the music sells more certainty than the data supports, it weakens trust.\n### What if the numbers disappear in the mix?\nLower the bed, remove lead instruments, or regenerate a simpler no-vocal, low-density version."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para videos de dashboard sin tapar los numeros",
+      "description": "Workflow practico para walkthroughs de data dashboards donde metricas, caveats, voiceover y captions siguen claros.",
+      "body": [
+        "Un screen recording de dashboard puede verse pulido y fallar por el audio. Una linea sube un poco, pero la musica lo vende como triunfo. Un numero baja 12 percent, pero la percusion tapa la palabra down. Un caption explica el caveat y un golpe brillante roba la atencion. En un video de data dashboard, la musica no debe hacer que los numeros parezcan mas seguros o dramaticos; debe ayudar a seguir la pregunta, la metrica y la decision siguiente.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, style direction, lyrics e ideas de audio en music drafts revisables. En un dashboard walkthrough sirve para crear un bed contenido alrededor de un script claro, mientras data accuracy, rights review y aprobacion de publicacion siguen con tu equipo.",
+        "## Construye primero la jerarquia de numeros",
+        "Antes de generar nada, escribe cuatro lineas: la pregunta que responde el video, la metrica que el viewer debe recordar, el caveat que no puede perderse y la action que quieres despues. Si el walkthrough trata de retention, no todos los charts necesitan subida musical. Marca los momentos que merecen silence o very low bed: cuando se dice el numero, cuando se explica la causa y cuando aparece la recommendation.",
+        "## Pide musica que no interprete los datos por ti",
+        "Prompt util: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. Si calm o confident son demasiado amplios, usa [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) para convertirlos en notas de instruments, tempo, density y avoid-list. EasyMusic.AI puede dar varios drafts, pero elige el que vuelve los numeros mas claros, no el que suena mas grande solo.",
+        "## Divide el video en tres zonas de audio",
+        "La opening zone presenta la pregunta y puede tener un cue corto. La explanation zone lleva voiceover y numeros, asi que necesita un bed bajo y estable. La handoff zone final puede tener un cierre pequeno cuando aparece la recommendation. No pongas un hit fuerte sobre un resultado debil ni un gran rise antes de un caveat. Si el editor o plataforma pide MP3, M4A o WAV, revisa [Audio Converter](https://easymusic.ai/es/tools/audio-converter) despues de elegir la idea musical; convertir no arregla un mix demasiado activo.",
+        "## Prueba como un viewer con prisa",
+        "Reproduce en laptop y phone speaker, con captions encendidos y apagados. Se oye el numero? Se leen axis, label y legend? El caveat sigue claro? El video funciona en mute con transcript o on-screen text? Guarda prompt, metric, file name, mix version y data reviewer. La musica generada no hace que un dashboard sea mas exacto ni crea aprobacion legal, comercial o de plataforma por si sola.",
+        "## Ideas reutilizables hoy",
+        "- Deja medio segundo de aire antes del numero mas importante.\n- Prohibe vocals, busy hi-hats y big risers bajo cualquier metrica.\n- Cambia musica en la pregunta y el handoff, no en cada chart.\n- Revisa con captions para no cubrir labels, axes o legends.\n- Mantén un export sin musica para comprobar si la historia se entiende.",
+        "## FAQ\n### Todo dashboard video necesita musica?\nNo. Si el numero es sensible o la explicacion es densa, voz limpia y silencio pueden funcionar mejor.\n### Que tempo conviene?\nEmpieza entre 70 y 90 BPM. Estabilidad y espacio importan mas que el numero exacto.\n### Puedo usar musica dramatica para un buen resultado?\nCon cuidado. Si la musica vende mas certeza que los datos, reduce la confianza.\n### Que hago si desaparecen los numeros?\nBaja el bed, elimina lead instruments o genera una version mas simple no-vocal y low-density."
+      ]
+    },
+    "fr": {
+      "title": "Planifier l AI music pour videos de dashboard sans cacher les chiffres",
+      "description": "Workflow concret pour des walkthroughs de data dashboard ou metrics, caveats, voiceover et captions restent lisibles.",
+      "body": [
+        "Un enregistrement de dashboard peut sembler propre et pourtant echouer par le son. Une courbe monte legerement, mais la musique vend une victoire. Un nombre baisse de 12 percent, mais la percussion couvre le mot down. Un caption explique la caveat, puis un hit brillant detourne l attention. Dans une video de data dashboard, la musique ne doit pas rendre les chiffres plus surs ou plus dramatiques; elle doit aider a suivre la question, la metrique et la decision suivante.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, style direction, lyrics et idees audio en music drafts a reviser. Pour un dashboard walkthrough, utilise-la comme outil de brouillon pour un bed retenu autour d un script clair; data accuracy, rights review et validation de publication restent a l equipe.",
+        "## Construis d abord la hierarchie des chiffres",
+        "Avant de generer, ecris quatre lignes: la question de la video, la metric que le viewer doit retenir, la caveat qui ne doit pas disparaitre et l action attendue. Si le walkthrough parle de retention, chaque chart n a pas besoin d un lift musical. Marque les moments pour silence ou very low bed: quand le nombre est prononce, quand la raison est expliquee, puis quand la recommendation arrive.",
+        "## Demande une musique qui ne juge pas les donnees",
+        "Prompt utile: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. Si calm ou confident sont trop larges, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut les convertir en instruments, tempo, density et avoid-list. EasyMusic.AI peut proposer plusieurs drafts; choisis celui qui rend les chiffres plus faciles a comprendre, pas celui qui impressionne seul.",
+        "## Separe la video en trois zones audio",
+        "La opening zone pose la question et peut avoir un cue court. La explanation zone porte voiceover et chiffres, donc elle demande un bed bas et stable. La handoff zone finale peut avoir une petite fin quand la recommendation apparait. Ne mets pas de hit fort sur un mauvais resultat et pas de grand rise avant une caveat. Si l editeur ou la plateforme demande MP3, M4A ou WAV, verifie l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) apres le choix musical; conversion ne repare pas un mix trop actif.",
+        "## Teste comme un spectateur presse",
+        "Lis la video sur laptop et phone speaker, captions on puis off. Entend-on le nombre? Lit-on axis, label ou legend? La caveat reste-t-elle claire? La video marche-t-elle mute avec transcript ou on-screen text? Garde prompt, metric, file name, mix version et data reviewer dans une note. La musique generee ne rend pas le dashboard plus exact et ne donne pas d approbation juridique, commerciale ou plateforme.",
+        "## Idees reutilisables aujourd hui",
+        "- Laisse une demi-seconde d air avant le chiffre cle.\n- Interdis vocals, busy hi-hats et big risers sous les metrics.\n- Change la musique a la question et au handoff, pas a chaque chart.\n- Verifie captions pour ne pas couvrir labels, axes ou legends.\n- Garde un export sans musique pour tester si l histoire tient seule.",
+        "## FAQ\n### Une video dashboard a-t-elle toujours besoin de musique?\nNon. Si le chiffre est sensible ou l explication dense, voix claire et silence peuvent etre meilleurs.\n### Quel tempo utiliser?\nCommence entre 70 et 90 BPM. La stabilite et l espace comptent plus que le nombre exact.\n### Peut-on utiliser une musique dramatique pour un bon resultat?\nAvec prudence. Si elle vend plus de certitude que les donnees, elle diminue la confiance.\n### Si les chiffres disparaissent dans le mix?\nBaisse le bed, retire les lead instruments ou genere une version plus simple no-vocal, low-density."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per video dashboard senza coprire i numeri",
+      "description": "Workflow pratico per data dashboard walkthrough con metriche, caveat, voiceover, captions e azione finale sempre chiari.",
+      "body": [
+        "Uno screen recording di dashboard puo sembrare curato e fallire nell audio. Una linea sale poco, ma la musica la fa sembrare una vittoria enorme. Un numero scende del 12 percent, ma la percussion copre la parola down. Una caption spiega la caveat, poi un hit brillante porta via l attenzione. In un video di data dashboard la musica non deve far sembrare i numeri piu certi o drammatici; deve aiutare a seguire domanda, metrica e decisione successiva.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, style direction, lyrics e idee audio in music drafts da rivedere. Per un dashboard walkthrough usala come strumento per creare un bed sobrio intorno a uno script chiaro; data accuracy, rights review e approvazione di pubblicazione restano al team.",
+        "## Costruisci prima la gerarchia dei numeri",
+        "Prima di generare, scrivi quattro righe: la domanda a cui risponde il video, la metric che il viewer deve ricordare, la caveat che non puo sparire e la action successiva. Se il walkthrough parla di retention, non ogni chart ha bisogno di lift musicale. Segna i momenti che meritano silence o very low bed: quando si legge il numero, quando si spiega la causa e quando arriva la recommendation.",
+        "## Chiedi musica che non interpreti i dati al posto tuo",
+        "Prompt utile: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. Se calm o confident sono troppo vaghi, usa il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) per tradurli in instruments, tempo, density e avoid-list. EasyMusic.AI puo generare vari drafts, ma scegli quello che rende i numeri piu comprensibili, non quello che suona piu grande da solo.",
+        "## Dividi il video in tre zone audio",
+        "La opening zone introduce la domanda e puo avere un cue breve. La explanation zone porta voiceover e numeri, quindi richiede un bed basso e stabile. La handoff zone finale puo usare un piccolo ending quando compare la recommendation. Non mettere un hit forte su un risultato debole e non costruire un grande rise prima di una caveat. Se editor o platform chiedono MP3, M4A o WAV, controlla l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) dopo aver scelto l idea musicale; conversion non corregge un mix affollato.",
+        "## Testa come un viewer di fretta",
+        "Riproduci su laptop e phone speaker, con captions on e off. Il numero si sente? Axis, label e legend si leggono? La caveat rimane chiara? Il video funziona in mute con transcript o on-screen text? Conserva prompt, metric, file name, mix version e data reviewer. La musica generata non rende il dashboard piu corretto e non crea approvazione legale, commerciale o di piattaforma.",
+        "## Idee da usare oggi",
+        "- Lascia mezzo secondo d aria prima del numero principale.\n- Evita vocals, busy hi-hats e big risers sotto ogni metric.\n- Cambia musica su domanda e handoff, non su ogni chart.\n- Rivedi con captions per non coprire labels, axes o legends.\n- Tieni un export no-music per verificare se la storia regge.",
+        "## FAQ\n### Ogni dashboard video ha bisogno di musica?\nNo. Se il numero e sensibile o la spiegazione densa, voce pulita e silenzio possono essere migliori.\n### Che tempo usare?\nParti da 70-90 BPM. Stabilita e spazio contano piu del numero esatto.\n### Posso usare musica drammatica per un buon risultato?\nCon cautela. Se vende piu certezza dei dati, riduce fiducia.\n### E se i numeri spariscono nel mix?\nAbbassa il bed, togli lead instruments o genera una versione piu semplice no-vocal e low-density."
+      ]
+    },
+    "ja": {
+      "title": "Data dashboard video の数字を隠さない AI music 設計",
+      "description": "Metrics、caveats、voiceover、captions、viewer action を保つための dashboard walkthrough 向け music workflow。",
+      "body": [
+        "Dashboard の screen recording は見た目が整っていても、audio で失敗します。Line が少し上がっただけなのに music が大勝利に聞かせる。Number が 12 percent 下がったのに percussion が down を隠す。Caption が caveat を説明している時に bright hit が注意を奪う。Data dashboard video の music は、数字を賢そうに見せるものではありません。Question、metric、next decision を追いやすくするためのものです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は prompts、style direction、lyrics、audio ideas を review できる music drafts にする AI music creation platform です。Dashboard walkthrough では、clear script の周りに restrained bed を作る drafting tool として使い、data accuracy、rights review、publishing approval は team が判断します。",
+        "## 先に number hierarchy を作る",
+        "Generate する前に四つを書きます: video が答える question、viewer が覚えるべき metric、消えてはいけない caveat、次に取ってほしい action。Retention の walkthrough なら、すべての chart に musical lift は不要です。Number を読む時、reason を説明する時、recommendation が出る時は silence または very low bed の候補として mark します。",
+        "## Data を代わりに解釈しない music を prompt する",
+        "Prompt 例: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions。Calm や confident が広すぎる場合は [Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で instruments、tempo、density、avoid-list に分解します。EasyMusic.AI は複数 drafts を出せますが、単体で派手なものではなく数字が理解しやすいものを選びます。",
+        "## Video を三つの audio zones に分ける",
+        "Opening zone は question を紹介し、short cue だけで足ります。Explanation zone は voiceover と numbers が主役なので steady low bed が必要です。Final handoff zone は recommendation が出る時に小さな ending を置けます。Weak result に strong hit を置かないこと。Caveat の前に big rise を作らないこと。Editor や platform が MP3、M4A、WAV を求めるなら、musical idea を選んだ後で [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を確認します。Conversion は busy mix を直しません。",
+        "## 忙しい viewer として test する",
+        "Laptop と phone speaker で、captions on と off の両方を確認します。Number は聞こえますか。Axis、label、legend は読めますか。Caveat は残っていますか。Mute でも transcript や on-screen text で伝わりますか。Prompt、metric、file name、mix version、data reviewer を small note に残します。Generated music は dashboard を正確にするものではなく、legal、commercial、platform approval を自動で与えるものでもありません。",
+        "## 今日使える ideas",
+        "- 最重要 number の前に半秒の air を置く。\n- Metric の下では vocals、busy hi-hats、big risers を避ける。\n- Music change は question と handoff に置き、各 chart では変えない。\n- Captions on で labels、axes、legends を隠さないか見る。\n- No-music export を残し、story が単独で伝わるか確認する。",
+        "## FAQ\n### Dashboard video に必ず music は必要ですか？\nいいえ。Number が sensitive、または explanation が密なら、clear voiceover と silence のほうがよい場合があります。\n### Tempo はどれくらい？\n70から90 BPM から始めます。Exact number より stability と space が重要です。\n### 良い結果に dramatic music を使えますか？\n慎重に。Music が data 以上の certainty を売ると trust が下がります。\n### Mix で numbers が消える時は？\nBed を下げ、lead instruments を外すか、no-vocal、low-density の簡単な version を再生成します。"
+      ]
+    },
+    "ko": {
+      "title": "숫자를 묻지 않는 data dashboard video AI music 설계",
+      "description": "Metrics, caveats, voiceover, captions, viewer action이 선명하게 남는 dashboard walkthrough music workflow.",
+      "body": [
+        "Dashboard screen recording은 보기에는 깔끔해도 audio에서 실패할 수 있습니다. Line이 조금 올랐을 뿐인데 music이 큰 성공처럼 들리게 합니다. Number가 12 percent 내려갔는데 percussion이 down이라는 말을 가립니다. Caption이 caveat를 설명하는 순간 bright hit이 주의를 가져갑니다. Data dashboard video에서 music은 숫자를 더 똑똑하거나 극적으로 보이게 하는 장치가 아니라 question, metric, next decision을 따라가게 하는 도구입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, style direction, lyrics, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Dashboard walkthrough에서는 clear script 주변의 restrained bed를 만드는 drafting tool로 쓰고, data accuracy, rights review, publishing approval은 team이 따로 판단하세요.",
+        "## 먼저 number hierarchy 만들기",
+        "Generate하기 전에 네 줄을 씁니다: video가 답하는 question, viewer가 기억해야 할 metric, 사라지면 안 되는 caveat, 다음 action. Retention walkthrough라면 모든 chart가 musical lift를 필요로 하지는 않습니다. Number를 읽는 순간, reason을 설명하는 순간, recommendation이 나오는 순간은 silence 또는 very low bed 후보로 표시합니다.",
+        "## Data를 대신 해석하지 않는 music 요청하기",
+        "Prompt 예시: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. Calm이나 confident가 너무 넓다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 instruments, tempo, density, avoid-list로 나눕니다. EasyMusic.AI는 여러 drafts를 만들 수 있지만, 혼자 들을 때 큰 track보다 숫자가 더 잘 이해되는 track을 고르세요.",
+        "## Video를 세 audio zones로 나누기",
+        "Opening zone은 question을 제시하므로 short cue면 충분합니다. Explanation zone은 voiceover와 numbers가 중심이어서 steady low bed가 필요합니다. Handoff zone은 recommendation이 보일 때 작은 ending을 둘 수 있습니다. Weak result에 strong hit을 얹거나 caveat 앞에 big rise를 만들지 마세요. Editor나 platform이 MP3, M4A, WAV를 요구하면 musical idea를 고른 뒤 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 확인하세요. Conversion은 overactive mix를 고치지 못합니다.",
+        "## 바쁜 viewer처럼 test하기",
+        "Laptop과 phone speaker에서 captions on/off로 봅니다. Number가 들리나요? Axis, label, legend를 읽을 수 있나요? Caveat가 명확한가요? Mute에서도 transcript나 on-screen text로 작동하나요? Prompt, metric, file name, mix version, data reviewer를 small note로 남기세요. Generated music은 dashboard를 더 정확하게 만들지 않고, legal, commercial, platform approval을 자동으로 주지도 않습니다.",
+        "## 오늘 바로 쓸 ideas",
+        "- 가장 중요한 number 앞에 0.5초의 air를 둡니다.\n- Metric 아래에서는 vocals, busy hi-hats, big risers를 피합니다.\n- Music change는 question과 handoff에만 두고 모든 chart마다 바꾸지 않습니다.\n- Captions on으로 labels, axes, legends가 가려지지 않는지 봅니다.\n- No-music export를 남겨 story가 음악 없이도 이해되는지 확인합니다.",
+        "## FAQ\n### 모든 dashboard video에 music이 필요한가요?\n아닙니다. Number가 민감하거나 explanation이 dense하면 clear voiceover와 silence가 더 낫습니다.\n### Tempo는 어느 정도가 좋나요?\n70-90 BPM부터 시작하세요. Exact number보다 stability와 space가 중요합니다.\n### 좋은 결과에 dramatic music을 써도 되나요?\n조심하세요. Music이 data보다 더 큰 certainty를 팔면 trust가 약해집니다.\n### Mix에서 numbers가 사라지면?\nBed를 낮추고 lead instruments를 빼거나 no-vocal, low-density version을 다시 생성하세요."
+      ]
+    },
+    "pt": {
+      "title": "Plane AI music para videos de dashboard sem esconder os numeros",
+      "description": "Workflow pratico para data dashboard walkthroughs com metricas, caveats, voiceover, captions e action sempre claros.",
+      "body": [
+        "Um screen recording de dashboard pode parecer polido e ainda falhar no audio. Uma linha sobe um pouco, mas a musica vende uma grande vitoria. Um numero cai 12 percent, mas a percussion cobre a palavra down. Um caption explica a caveat e um hit brilhante rouba a atencao. Em video de data dashboard, a musica nao deve fazer os numeros parecerem mais certos ou dramaticos; ela deve ajudar a seguir a pergunta, a metrica e a proxima decisao.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, style direction, lyrics e ideias de audio em music drafts revisaveis. Para dashboard walkthrough, use como ferramenta para criar um bed contido ao redor de um script claro; data accuracy, rights review e approval de publicacao continuam com a equipe.",
+        "## Construa primeiro a hierarquia dos numeros",
+        "Antes de gerar qualquer coisa, escreva quatro linhas: a pergunta que o video responde, a metric que o viewer precisa lembrar, a caveat que nao pode sumir e a action desejada. Se o walkthrough fala de retention, nem todo chart precisa de lift musical. Marque os momentos que merecem silence ou very low bed: quando o numero e falado, quando a razao e explicada e quando a recommendation aparece.",
+        "## Peça musica que nao interprete os dados por voce",
+        "Prompt util: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. Se calm ou confident forem amplos demais, use [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) para transformar em instruments, tempo, density e avoid-list. EasyMusic.AI pode gerar varios drafts, mas escolha o que torna os numeros mais claros, nao o maior quando toca sozinho.",
+        "## Divida o video em tres zonas de audio",
+        "A opening zone apresenta a pergunta e pode usar um cue curto. A explanation zone carrega voiceover e numeros, entao precisa de bed baixo e estavel. A handoff zone final pode ter um ending pequeno quando a recommendation aparece. Nao coloque hit forte em resultado fraco nem big rise antes de caveat. Se editor ou plataforma pedir MP3, M4A ou WAV, veja [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) depois de escolher a ideia musical; conversion nao conserta mix ocupado demais.",
+        "## Teste como um viewer ocupado",
+        "Toque em laptop e phone speaker, com captions on e off. Da para ouvir o numero? Axis, label e legend ficam legiveis? A caveat continua clara? O video funciona em mute com transcript ou on-screen text? Guarde prompt, metric, file name, mix version e data reviewer. Musica gerada nao torna o dashboard mais preciso e nao cria aprovacao legal, comercial ou de plataforma sozinha.",
+        "## Ideias reutilizaveis hoje",
+        "- Deixe meio segundo de ar antes do numero principal.\n- Evite vocals, busy hi-hats e big risers sob qualquer metric.\n- Mude musica na pergunta e no handoff, nao em cada chart.\n- Revise com captions para nao cobrir labels, axes ou legends.\n- Mantenha um export sem musica para checar se a historia ainda faz sentido.",
+        "## FAQ\n### Todo dashboard video precisa de musica?\nNao. Se o numero e sensivel ou a explicacao e densa, voz clara e silencio podem ser melhores.\n### Que tempo usar?\nComece entre 70 e 90 BPM. Stability e space importam mais que o numero exato.\n### Posso usar musica dramatica para resultado bom?\nCom cuidado. Se a musica vende mais certeza que os dados, ela reduz confianca.\n### E se os numeros somem no mix?\nBaixe o bed, remova lead instruments ou gere uma versao mais simples no-vocal e low-density."
+      ]
+    },
+    "ru": {
+      "title": "Планируйте AI music для dashboard video, не пряча цифры",
+      "description": "Практический workflow для data dashboard walkthrough: metrics, caveats, voiceover, captions и action остаются понятными.",
+      "body": [
+        "Screen recording dashboard может выглядеть аккуратно и все равно провалиться по audio. Линия чуть растет, но музыка продает большую победу. Число падает на 12 percent, но percussion закрывает слово down. Caption объясняет caveat, а яркий hit уводит внимание. В data dashboard video музыка не должна делать цифры умнее или драматичнее. Она должна помогать следить за question, metric и next decision.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, style direction, lyrics и audio ideas в music drafts для review. Для dashboard walkthrough используйте ее как drafting tool для сдержанного bed вокруг clear script; data accuracy, rights review и publishing approval остаются за вашей командой.",
+        "## Сначала соберите иерархию чисел",
+        "До генерации напишите четыре строки: вопрос, на который отвечает video, одну metric, которую viewer должен запомнить, caveat, который нельзя потерять, и action после просмотра. Если walkthrough о retention, не каждый chart требует musical lift. Отметьте места для silence или very low bed: когда произносится number, когда объясняется reason и когда появляется recommendation.",
+        "## Просите музыку, которая не толкует данные за вас",
+        "Полезный prompt: neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions. Если calm или confident слишком широкие, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить их в instruments, tempo, density и avoid-list. EasyMusic.AI может дать несколько drafts, но выбирайте тот, где numbers понятнее, а не самый эффектный отдельно.",
+        "## Разделите video на три audio zones",
+        "Opening zone задает вопрос и требует только short cue. Explanation zone несет voiceover и numbers, поэтому ей нужен steady low bed. Handoff zone в конце может получить небольшой ending, когда появляется recommendation. Не ставьте strong hit на weak result и не стройте big rise перед caveat. Если editor или platform требует MP3, M4A или WAV, проверьте [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) после выбора музыкальной идеи; conversion не исправит слишком активный mix.",
+        "## Тестируйте как занятой viewer",
+        "Включите video на laptop и phone speaker, с captions on и off. Слышно ли number? Читаются ли axis, label и legend? Caveat остается ясным? Работает ли video в mute с transcript или on-screen text? Сохраните prompt, metric, file name, mix version и data reviewer. Generated music не делает dashboard точнее и не дает legal, commercial или platform approval автоматически.",
+        "## Идеи на сегодня",
+        "- Оставьте полсекунды воздуха перед самой важной number.\n- Запретите vocals, busy hi-hats и big risers под любой metric.\n- Меняйте music на question и handoff, а не на каждом chart.\n- Проверьте captions, чтобы они не закрывали labels, axes или legends.\n- Сохраните no-music export, чтобы проверить, держится ли story сама.",
+        "## FAQ\n### Каждому dashboard video нужна музыка?\nНет. Если number чувствительный или explanation плотный, clear voiceover и silence могут быть лучше.\n### Какой tempo выбрать?\nНачните с 70-90 BPM. Stability и space важнее точного числа.\n### Можно ли использовать dramatic music для хорошего результата?\nОсторожно. Если музыка продает больше certainty, чем данные, доверие падает.\n### Что делать, если numbers пропадают в mix?\nОпустите bed, уберите lead instruments или создайте более простую no-vocal, low-density version."
+      ]
+    },
+    "zh": {
+      "title": "为 data dashboard video 规划不遮住数字的 AI music",
+      "description": "一个实用 workflow：让 metrics、caveats、voiceover、captions 和 viewer action 在 dashboard walkthrough 中保持清晰。",
+      "body": [
+        "Dashboard screen recording 看起来可以很精致，但 audio 仍然会失败。Line 只是小幅上升，music 却把它听成巨大胜利。Number 下降 12 percent，percussion 却盖住了 down 这个词。Caption 正在解释 caveat，bright hit 又把注意力抢走。Data dashboard video 里的 music 不该让数字显得更聪明或更戏剧化，它应该帮助 viewer 跟住 question、metric 和 next decision。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、style direction、lyrics 和 audio ideas 变成可 review 的 music drafts。对于 dashboard walkthrough，你可以把它当成围绕 clear script 起草 restrained bed 的工具；data accuracy、rights review 和 publishing approval 仍由团队判断。",
+        "## 先建立 number hierarchy",
+        "Generate 之前，先写四行：这个 video 回答的 question，viewer 必须记住的 metric，不能消失的 caveat，以及希望对方采取的 action。如果 walkthrough 讲的是 retention，并不是每个 chart 都需要 musical lift。标出需要 silence 或 very low bed 的位置：读出 number 时，解释 reason 时，以及 recommendation 出现时。",
+        "## 要求 music 不替你解释数据",
+        "可用 prompt：neutral instrumental bed for a 70 second dashboard walkthrough, 76 BPM, soft pulse, muted keys, light texture, no vocals, no big riser, no drop, leaves room for spoken numbers and captions。如果 calm 或 confident 太宽泛，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 拆成 instruments、tempo、density 和 avoid-list。EasyMusic.AI 可以给出多个 drafts，但要选让 numbers 更容易理解的版本，不是单独听最宏大的版本。",
+        "## 把 video 分成三个 audio zones",
+        "Opening zone 引出 question，只需要 short cue。Explanation zone 承载 voiceover 和 numbers，需要 steady low bed。结尾 handoff zone 在 recommendation 出现时可以有一个小 ending。不要在 weak result 上放 strong hit，也不要在 caveat 前制造 big rise。如果 editor 或 platform 需要 MP3、M4A 或 WAV，选定音乐想法后再查看 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)；conversion 不能修复过于拥挤的 mix。",
+        "## 像匆忙的 viewer 一样测试",
+        "用 laptop 和 phone speaker 播放，分别打开和关闭 captions。Number 听得清吗？Axis、label、legend 读得到吗？Caveat 还清楚吗？Mute 状态下，transcript 或 on-screen text 是否仍然成立？保留 small note：prompt、metric、file name、mix version 和 data reviewer。Generated music 不会让 dashboard 更准确，也不会自动带来 legal、commercial 或 platform approval。",
+        "## 今天可复用的 ideas",
+        "- 在最重要的 number 前留半秒 air。\n- 在任何 metric 下方避开 vocals、busy hi-hats 和 big risers。\n- 只在 question 和 handoff 改变 music，不要每个 chart 都变。\n- 打开 captions 检查，不要盖住 labels、axes 或 legends。\n- 保留 no-music export，检查 story 没有音乐是否仍然成立。",
+        "## FAQ\n### 每个 dashboard video 都需要 music 吗？\n不需要。如果 number 很敏感或 explanation 很密，clear voiceover 加 silence 可能更好。\n### Tempo 应该是多少？\n可以从 70 到 90 BPM 开始。Stability 和 space 比精确数字更重要。\n### 好结果可以配 dramatic music 吗？\n要谨慎。如果 music 卖出的 certainty 超过 data 本身，trust 会下降。\n### Mix 里 numbers 消失怎么办？\n降低 bed，移除 lead instruments，或重新生成更简单的 no-vocal、low-density version。"
+      ]
+    }
+  }
+}
