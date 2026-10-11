@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-11",
+  "slug": "patient-education-ai-music-clarity-checklist",
+  "cluster": "patient-education-video-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "اجعل AI music في patient education video لا يخفي التعليمات",
+      "description": "Checklist عملي لموسيقى فيديوهات patient education يحافظ على وضوح instructions،warnings،captions،والمراجعة الطبية.",
+      "body": [
+        "فيديو patient education قد يبدو هادئا ومطمئنا،ثم تضيع الجملة التي يحتاجها المشاهد فعلا. موسيقى ناعمة تغطي dosage word. Pad دافئ يجعل warning يبدو اقل اهمية. Beat صغير يأتي فوق موعد الاتصال بالطبيب. في هذا النوع من الفيديو،الموسيقى ليست علاجية ولا تشرح الطب؛وظيفتها ان تترك التعليمات قابلة للسماع والقراءة والمراجعة.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعد على تحويل prompts وstyle direction وlyrics وافكار audio الى music drafts قابلة للمراجعة. في patient education video،استخدمها كمساحة لصنع bed هادئ حول script تمت مراجعته،وليس كبديل عن clinical review،accessibility review،او قرار النشر.",
+        "## ابدأ بخريطة مخاطر قبل mood",
+        "اقسم النص الى ثلاث طبقات. طبقة action: ماذا يفعل المشاهد بعد الفيديو. طبقة caution: متى يجب التوقف او طلب مساعدة مختصة. طبقة reassurance: ما الذي يخفف القلق من غير وعد بنتيجة. ضع silence او very low bed تحت كلمات مثل dose،symptom،call،appointment،before،after. اذا لم تعرف ما هو الاهم،لا تولد الموسيقى بعد؛اجعل الفريق الطبي يحدد لحظات no-cover اولا.",
+        "## اكتب prompt يترك الكلام في المقدمة",
+        "Prompt مفيد: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. اذا كانت كلمات مثل caring او hopeful واسعة،استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويلها الى instruments،tempo،density،وavoid-list. EasyMusic.AI قد يعطي نسخة اجمل وحدها؛اختر النسخة التي تجعل الكلمات المهمة اسهل.",
+        "## اختبر الصوت مثل مريض متعب",
+        "شغل الفيديو على phone speaker وبسماعة رخيصة وبمستوى صوت منخفض. هل تسمع الفعل المطلوب؟ هل تظهر captions من غير ان تغطي الرقم او الوقت؟ هل تختفي consonants تحت pad او cymbal؟ اذا احتجت MP3 او WAV او M4A للتسليم،استخدم [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) بعد الموافقة على الفكرة،لا قبل حل مشكلة mix. التحويل لا يصلح تعليمات غير واضحة.",
+        "## احتفظ بسجل مراجعة صغير",
+        "احفظ prompt،اسم الملف،نسخة script،من راجع المعلومة الطبية،واين سينشر الفيديو. لا تكتب ان AI music تجعل الفيديو compliant او safe للاستخدام التجاري. راجع tool terms،platform rules،language access،وحقوق اي صوت بشري او مادة مصورة. الموسيقى يجب ان تخدم الثقة لا ان تخفف مسؤولية المراجعة.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- ضع علامة no music under this line بجانب كل warning.\n- اطلب no vocals وno lead melody من بداية prompt.\n- اترك نصف ثانية صامتة قبل رقم او موعد مهم.\n- اختبر الفيديو مرة مع captions ومرة بلا captions.\n- احتفظ بنسخة voice-only للمراجعة الطبية قبل final mix.",
+        "## FAQ\n### هل يحتاج patient education video الى موسيقى؟\nليس دائما. اذا كان الموضوع حساسا او مليئا بالتعليمات،قد يكون voiceover واضح مع silence افضل.\n### ما مستوى الموسيقى المناسب؟\nابدأ منخفضا جدا واجعل الكلام يفوز. اذا احتجت رفع الموسيقى لتشعر بها،قد تكون مزدحمة.\n### هل يمكن استخدام موسيقى عاطفية؟\nبحذر. اي lift يجب الا يقلل warning او يوحي بنتيجة مضمونة.\n### من يجب ان يراجع النسخة النهائية؟\nشخص مسؤول عن المعلومات الطبية،وشخص يراجع الوضوح واللغة،وشخص يعرف قناة النشر."
+      ]
+    },
+    "de": {
+      "title": "AI Music fuer Patientenvideos, ohne Anweisungen zu verdecken",
+      "description": "Eine praktische Checkliste fuer Patient-Education-Videos, bei denen Instructions, Warnungen, Captions und Review klar bleiben.",
+      "body": [
+        "Ein Patient-Education-Video kann ruhig wirken und trotzdem genau den Satz verlieren, den jemand braucht. Ein weiches Pad verdeckt ein Dosierungswort. Ein warmer Akkord macht eine Warnung weniger dringend. Ein kleiner Beat liegt auf der Telefonnummer oder dem Terminhinweis. In solchen Videos ist Musik keine Behandlung und keine medizinische Erklaerung. Sie soll dafuer sorgen, dass Anleitung, Vorsicht und naechster Schritt hoerbar bleiben.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, die prompts, style direction, lyrics und Audio-Ideen in pruefbare Music Drafts verwandelt. Fuer ein Patient-Education-Video ist sie ein Werkzeug fuer ein ruhiges bed um ein geprueftes Script; clinical review, accessibility review und Publishing-Freigabe bleiben getrennte Aufgaben.",
+        "## Zeichne zuerst die Risiko-Karte",
+        "Teile das Script in drei Ebenen. Action: was der Viewer nach dem Video tun soll. Caution: wann er stoppen oder qualifizierte Hilfe suchen soll. Reassurance: was beruhigt, ohne ein Ergebnis zu versprechen. Markiere silence oder very low bed unter Worten wie dose, symptom, call, appointment, before und after. Wenn unklar ist, was nicht verdeckt werden darf, generiere noch nichts und lass die medizinisch verantwortliche Person diese Stellen markieren.",
+        "## Schreibe einen Prompt, der Sprache vorne laesst",
+        "Ein brauchbarer Prompt: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Wenn caring oder hopeful zu ungenau sind, nutze den [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), um instruments, tempo, density und avoid-list zu formulieren. In EasyMusic.AI gewinnt nicht der schoenste Solo-Track, sondern der klarste unter Sprache.",
+        "## Teste wie ein mueder Patient",
+        "Spiele das Video ueber phone speaker, einfache Kopfhoerer und leise Lautstaerke. Ist die Handlung klar? Verdecken captions keine Zahl und keine Uhrzeit? Verschwinden Konsonanten unter Pad oder Cymbal? Wenn du MP3, WAV oder M4A fuer den Schnitt brauchst, nutze den [Audio Converter](https://easymusic.ai/de/tools/audio-converter) nach der kreativen Freigabe. Conversion repariert keine unklare Anleitung.",
+        "## Halte die Review-Spur klein und sichtbar",
+        "Speichere prompt, file name, script version, medizinische Reviewer und geplanten Kanal. Schreibe nicht, dass AI music ein Video compliant oder kommerziell sicher macht. Pruefe tool terms, platform rules, language access und Rechte an Stimmen oder Bildern getrennt. Musik soll Vertrauen stuetzen, nicht Review-Verantwortung verstecken.",
+        "## Ideen fuer heute",
+        "- Markiere jede Warnzeile mit no music under this line.\n- Schreibe no vocals und no lead melody frueh in den Prompt.\n- Lass vor Zahlen, Zeiten oder Call-to-action eine halbe Sekunde Luft.\n- Pruefe einmal mit captions und einmal ohne.\n- Bewahre eine voice-only Version fuer medizinische Review auf.",
+        "## FAQ\n### Braucht jedes Patient-Education-Video Musik?\nNein. Bei sensiblen Themen oder vielen Schritten kann klare Stimme plus Stille besser sein.\n### Wie laut sollte die Musik sein?\nSehr niedrig starten und Sprache gewinnen lassen. Wenn sie erst bei hoher Lautstaerke wirkt, ist sie oft zu dicht.\n### Darf die Musik emotional sein?\nNur vorsichtig. Ein Lift darf keine Warnung abschwaechen oder ein Ergebnis versprechen.\n### Wer sollte die finale Fassung pruefen?\nEine medizinisch verantwortliche Person, jemand fuer Verstaendlichkeit und Sprache, und jemand, der den Zielkanal kennt."
+      ]
+    },
+    "en": {
+      "title": "Keep AI Music From Hiding Patient Education Instructions",
+      "description": "A practical checklist for patient education video music that keeps instructions, warnings, captions, and clinical review clear.",
+      "body": [
+        "A patient education video can sound calm and still lose the sentence a viewer needs most. A soft pad covers the dosage word. A warm chord makes a warning feel optional. A small beat lands on the phone number or appointment timing. In this kind of video, music is not treatment and it is not medical explanation. Its job is to leave the instruction, caution, and next step easier to hear.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, style direction, lyrics, and audio ideas into music drafts you can review. For a patient education video, use it as a drafting tool for a restrained bed around an already reviewed script, while clinical review, accessibility review, and publishing approval stay separate.",
+        "## Map Risk Before Mood",
+        "Split the script into three layers. Action: what the viewer should do after watching. Caution: when they should stop, call, or seek qualified help. Reassurance: what lowers anxiety without promising an outcome. Mark silence or very low bed under words like dose, symptom, call, appointment, before, and after. If the team cannot identify the no-cover moments, do not generate the music yet.",
+        "## Prompt Music That Leaves Speech in Front",
+        "A useful prompt is: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. If caring or hopeful is too vague, use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) to turn those words into instrument, tempo, density, and avoid-list notes. In EasyMusic.AI, choose the draft that makes the important words clearer, not the one that sounds biggest alone.",
+        "## Test Like a Tired Patient",
+        "Play the video through a phone speaker, cheap earbuds, and low volume. Can the viewer hear the action? Do captions cover any number, time, or contact instruction? Do consonants disappear under pads or cymbals? If the editor needs MP3, WAV, or M4A, use the [Audio Converter](https://easymusic.ai/tools/audio-converter) after the musical idea is approved. Conversion will not fix instructions that are hard to hear.",
+        "## Keep a Small Review Trail",
+        "Save the prompt, file name, script version, clinical reviewer, and planned channel. Do not write that AI music makes the video compliant, medically reviewed, or safe for commercial use. Check tool terms, platform rules, language access needs, and rights for any recorded voice or footage. The music should support trust, not hide review responsibility.",
+        "## Ideas You Can Reuse Today",
+        "- Mark every warning line with no music under this line.\n- Put no vocals and no lead melody near the start of the prompt.\n- Leave half a second of air before a number, time, or call instruction.\n- Review once with captions on and once without captions.\n- Keep a voice-only export for clinical review before the final mix.",
+        "## FAQ\n### Does every patient education video need music?\nNo. If the subject is sensitive or instruction-heavy, clear voiceover and silence may be better.\n### How low should the music sit?\nStart very low and let speech win. If the track must be loud to be noticed, it may be too busy.\n### Can I use emotional music?\nCarefully. A lift should not soften a warning or imply a promised outcome.\n### Who should review the final version?\nSomeone responsible for the medical information, someone checking clarity and language, and someone who knows the publishing channel."
+      ]
+    },
+    "es": {
+      "title": "Evita que la AI music tape instrucciones en patient education videos",
+      "description": "Checklist practico para musica en videos de educacion al paciente con instructions, warnings, captions y revision clinica claros.",
+      "body": [
+        "Un patient education video puede sonar tranquilo y aun asi perder la frase que el viewer necesita. Un pad suave tapa una palabra de dosage. Un acorde calido hace que un warning parezca opcional. Un beat pequeno cae justo sobre el numero de telefono o el horario de la cita. En este tipo de video, la musica no es tratamiento ni explicacion medica. Su trabajo es dejar instrucciones, cautions y next step faciles de oir.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, style direction, lyrics e ideas de audio en music drafts revisables. Para un patient education video, usala como herramienta para crear un bed contenido alrededor de un script ya revisado; clinical review, accessibility review y aprobacion de publicacion van por separado.",
+        "## Mapea el riesgo antes del mood",
+        "Divide el script en tres capas. Action: que debe hacer el viewer despues de mirar. Caution: cuando debe parar, llamar o buscar ayuda cualificada. Reassurance: que baja ansiedad sin prometer resultado. Marca silence o very low bed bajo palabras como dose, symptom, call, appointment, before y after. Si el equipo no puede identificar los momentos no-cover, no generes musica todavia.",
+        "## Pide musica que deje la voz delante",
+        "Prompt util: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Si caring o hopeful son vagos, usa [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) para convertirlos en instruments, tempo, density y avoid-list. En EasyMusic.AI, elige el draft que aclara las palabras importantes, no el mas grande cuando suena solo.",
+        "## Prueba como un paciente cansado",
+        "Reproduce el video con phone speaker, earbuds baratos y volumen bajo. Se oye la action? Los captions cubren algun numero, hora o instruccion de contacto? Desaparecen consonants bajo pads o cymbals? Si el editor necesita MP3, WAV o M4A, usa [Audio Converter](https://easymusic.ai/es/tools/audio-converter) despues de aprobar la idea musical. Conversion no arregla instrucciones dificiles de oir.",
+        "## Mantén una ruta corta de revision",
+        "Guarda prompt, file name, script version, clinical reviewer y canal previsto. No escribas que AI music hace el video compliant, medically reviewed o seguro para commercial use. Revisa tool terms, platform rules, language access y derechos de voz o footage por separado. La musica debe apoyar confianza, no ocultar responsabilidad de revision.",
+        "## Ideas reutilizables hoy",
+        "- Marca cada warning con no music under this line.\n- Pon no vocals y no lead melody al principio del prompt.\n- Deja medio segundo de aire antes de numero, hora o call instruction.\n- Revisa una vez con captions y otra sin captions.\n- Conserva un export voice-only para clinical review antes del final mix.",
+        "## FAQ\n### Todo patient education video necesita musica?\nNo. Si el tema es sensible o tiene muchas instrucciones, voz clara y silencio pueden ser mejores.\n### Que tan baja debe estar la musica?\nEmpieza muy bajo y deja ganar a la voz. Si debe sonar fuerte para notarse, puede estar demasiado cargada.\n### Puedo usar musica emocional?\nCon cuidado. Un lift no debe suavizar un warning ni sugerir un resultado prometido.\n### Quien revisa la version final?\nAlguien responsable de la informacion medica, alguien que revise claridad e idioma, y alguien que conozca el canal de publicacion."
+      ]
+    },
+    "fr": {
+      "title": "Garder l AI music des patient education videos sous les consignes",
+      "description": "Checklist pratique pour que musique, instructions, warnings, captions et revue clinique restent clairs dans une video patient.",
+      "body": [
+        "Une patient education video peut sembler calme et perdre pourtant la phrase dont le viewer a besoin. Un pad doux couvre un mot de dosage. Un accord chaud rend un warning moins urgent. Un petit beat tombe sur le numero a appeler ou l heure du rendez-vous. Dans ce type de video, la musique n est ni traitement ni explication medicale. Elle doit laisser instruction, caution et next step faciles a entendre.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, style direction, lyrics et idees audio en music drafts a reviser. Pour une patient education video, utilise-la comme outil de brouillon pour un bed retenu autour d un script deja valide; clinical review, accessibility review et approval de publication restent separes.",
+        "## Cartographie le risque avant le mood",
+        "Divise le script en trois couches. Action: ce que le viewer doit faire apres la video. Caution: quand il faut arreter, appeler ou chercher une aide qualifiee. Reassurance: ce qui calme sans promettre de resultat. Marque silence ou very low bed sous dose, symptom, call, appointment, before et after. Si l equipe ne sait pas nommer les moments no-cover, ne genere pas encore la musique.",
+        "## Demande une musique qui laisse la parole devant",
+        "Prompt utile: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Si caring ou hopeful restent vagues, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut les convertir en instruments, tempo, density et avoid-list. Dans EasyMusic.AI, choisis le draft qui rend les mots importants plus clairs, pas celui qui impressionne seul.",
+        "## Teste comme un patient fatigue",
+        "Lis la video sur phone speaker, ecouteurs simples et volume bas. L action s entend-elle? Les captions couvrent-ils un nombre, une heure ou une instruction de contact? Les consonnes disparaissent-elles sous pads ou cymbals? Si l editor demande MP3, WAV ou M4A, utilise l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) apres validation musicale. Conversion ne corrige pas des instructions difficiles a entendre.",
+        "## Garde une trace de revue concise",
+        "Sauvegarde prompt, file name, script version, clinical reviewer et canal prevu. N ecris pas que l AI music rend la video compliant, medicalement validee ou sure pour commercial use. Verifie tool terms, platform rules, language access et droits sur voix ou footage separement. La musique doit soutenir la confiance, pas cacher la responsabilite de revue.",
+        "## Idees reutilisables aujourd hui",
+        "- Marque chaque warning avec no music under this line.\n- Mets no vocals et no lead melody au debut du prompt.\n- Laisse une demi-seconde d air avant un nombre, une heure ou une consigne d appel.\n- Revois une fois avec captions et une fois sans.\n- Garde un export voice-only pour clinical review avant le final mix.",
+        "## FAQ\n### Chaque patient education video a-t-elle besoin de musique?\nNon. Si le sujet est sensible ou tres proceduriel, voiceover clair et silence peuvent etre meilleurs.\n### A quel niveau placer la musique?\nCommence tres bas et laisse gagner la voix. Si le track doit etre fort pour exister, il est peut-etre trop dense.\n### Peut-on utiliser une musique emotionnelle?\nAvec prudence. Un lift ne doit pas adoucir un warning ni suggerer un resultat garanti.\n### Qui doit revoir la version finale?\nUne personne responsable de l information medicale, une personne pour clarte et langue, et une personne qui connait le canal de publication."
+      ]
+    },
+    "it": {
+      "title": "Non lasciare che l AI music copra le istruzioni ai pazienti",
+      "description": "Checklist pratica per patient education video in cui instructions, warnings, captions e clinical review restano chiari.",
+      "body": [
+        "Un patient education video puo suonare calmo e perdere proprio la frase piu importante. Un pad morbido copre una parola di dosage. Un accordo caldo rende un warning meno urgente. Un piccolo beat cade sul numero da chiamare o sull orario dell appointment. In questo tipo di video, la musica non e trattamento e non e spiegazione medica. Deve lasciare instruction, caution e next step facili da sentire.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, style direction, lyrics e idee audio in music drafts da rivedere. Per un patient education video usala come tool per un bed controllato intorno a uno script gia revisionato; clinical review, accessibility review e publishing approval restano separati.",
+        "## Mappa il rischio prima del mood",
+        "Dividi lo script in tre livelli. Action: cosa deve fare il viewer dopo il video. Caution: quando deve fermarsi, chiamare o cercare aiuto qualificato. Reassurance: cosa riduce ansia senza promettere un risultato. Segna silence o very low bed sotto dose, symptom, call, appointment, before e after. Se il team non sa indicare i momenti no-cover, non generare ancora musica.",
+        "## Chiedi musica che lasci davanti la voce",
+        "Prompt utile: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Se caring o hopeful sono vaghi, il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo tradurli in instruments, tempo, density e avoid-list. In EasyMusic.AI scegli il draft che rende chiare le parole importanti, non quello piu grande da solo.",
+        "## Testa come un paziente stanco",
+        "Riproduci il video con phone speaker, auricolari semplici e volume basso. Si capisce l action? I captions coprono numeri, tempi o istruzioni di contatto? Le consonants spariscono sotto pads o cymbals? Se l editor richiede MP3, WAV o M4A, usa l [Audio Converter](https://easymusic.ai/it/tools/audio-converter) dopo l approvazione musicale. Conversion non corregge istruzioni difficili da sentire.",
+        "## Mantieni una piccola traccia di review",
+        "Salva prompt, file name, script version, clinical reviewer e canale previsto. Non scrivere che AI music rende il video compliant, medicalmente approvato o sicuro per commercial use. Controlla tool terms, platform rules, language access e diritti su voce o footage separatamente. La musica deve sostenere fiducia, non nascondere la responsabilita della review.",
+        "## Idee riutilizzabili oggi",
+        "- Marca ogni warning con no music under this line.\n- Metti no vocals e no lead melody all inizio del prompt.\n- Lascia mezzo secondo d aria prima di un numero, orario o call instruction.\n- Controlla una volta con captions e una senza.\n- Conserva un export voice-only per clinical review prima del final mix.",
+        "## FAQ\n### Ogni patient education video ha bisogno di musica?\nNo. Se il tema e sensibile o ricco di istruzioni, voiceover chiaro e silenzio possono funzionare meglio.\n### Quanto bassa deve stare la musica?\nParti molto basso e lascia vincere la voce. Se il track deve essere forte per notarsi, forse e troppo pieno.\n### Posso usare musica emotiva?\nCon cautela. Un lift non deve ammorbidire un warning o suggerire un risultato garantito.\n### Chi deve rivedere la versione finale?\nUna persona responsabile delle informazioni mediche, una per chiarezza e lingua, e una che conosce il canale di pubblicazione."
+      ]
+    },
+    "ja": {
+      "title": "Patient education video の instructions を隠さない AI music",
+      "description": "Patient education video で instructions、warnings、captions、clinical review を保つための実用 checklist。",
+      "body": [
+        "Patient education video は calm に聞こえても、viewer が一番必要な一文を失うことがあります。Soft pad が dosage word を隠す。Warm chord が warning を軽く聞かせる。Small beat が phone number や appointment timing に重なる。この種類の video で music は treatment でも medical explanation でもありません。Instruction、caution、next step を聞き取りやすく残すための layer です。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、style direction、lyrics、audio ideas から review できる music drafts を作る AI music creation platform です。Patient education video では、review 済み script の周りに restrained bed を作る draft tool として使い、clinical review、accessibility review、publishing approval は別に扱います。",
+        "## Mood より先に risk を map する",
+        "Script を三つに分けます。Action: 視聴後に何をするか。Caution: いつ止める、call する、qualified help を求めるか。Reassurance: outcome を約束せず不安を下げる言葉。Dose、symptom、call、appointment、before、after の下は silence か very low bed にします。No-cover moments を team が言えないなら、まだ music を生成しません。",
+        "## Speech を前に残す prompt を書く",
+        "使える prompt: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Caring や hopeful が曖昧なら、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で instruments、tempo、density、avoid-list に変えます。EasyMusic.AI では、単独で大きく聞こえる draft ではなく、重要な words を明確にする draft を選びます。",
+        "## 疲れた patient として test する",
+        "Phone speaker、安い earbuds、低い volume で再生します。Action は聞こえますか。Captions が number、time、contact instruction を隠していませんか。Pads や cymbals の下で consonants が消えませんか。Editor が MP3、WAV、M4A を求めるなら、musical idea 承認後に [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使います。Conversion は聞き取りにくい instructions を直しません。",
+        "## 小さな review trail を残す",
+        "Prompt、file name、script version、clinical reviewer、planned channel を保存します。AI music が video を compliant、medically reviewed、commercial use safe にすると書かないでください。Tool terms、platform rules、language access、recorded voice や footage の rights は別に確認します。Music は trust を支えるもので、review responsibility を隠すものではありません。",
+        "## 今日使える ideas",
+        "- すべての warning line に no music under this line を付ける。\n- Prompt の早い位置に no vocals と no lead melody を入れる。\n- Number、time、call instruction の前に半秒の air を置く。\n- Captions on と off の両方で review する。\n- Final mix の前に clinical review 用 voice-only export を残す。",
+        "## FAQ\n### Patient education video に必ず music は必要ですか？\nいいえ。Sensitive な topic や instruction-heavy な内容では、clear voiceover と silence の方がよい場合があります。\n### Music はどのくらい低く？\nかなり低く始め、speech を勝たせます。目立たせるために大きくする必要があるなら、track が busy かもしれません。\n### Emotional music は使えますか？\n慎重に。Lift が warning を弱めたり、promised outcome を示したりしてはいけません。\n### Final version は誰が review しますか？\nMedical information の責任者、clarity と language を見る人、publishing channel を知る人です。"
+      ]
+    },
+    "ko": {
+      "title": "Patient education video instructions 를 가리지 않는 AI music",
+      "description": "Patient education video에서 instructions, warnings, captions, clinical review가 선명하게 남는 practical checklist.",
+      "body": [
+        "Patient education video는 차분하게 들려도 viewer가 가장 필요한 문장을 놓칠 수 있습니다. Soft pad가 dosage word를 가립니다. Warm chord가 warning을 덜 급하게 느끼게 합니다. 작은 beat가 phone number나 appointment timing 위에 놓입니다. 이런 video에서 music은 treatment도 medical explanation도 아닙니다. Instruction, caution, next step이 더 잘 들리게 남아야 합니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, style direction, lyrics, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Patient education video에서는 이미 review된 script 주변에 restrained bed를 만드는 drafting tool로 쓰고, clinical review, accessibility review, publishing approval은 따로 진행하세요.",
+        "## Mood 전에 risk map 만들기",
+        "Script를 세 layers로 나눕니다. Action: viewer가 본 뒤 해야 할 일. Caution: 멈추거나, 전화하거나, qualified help를 찾아야 할 순간. Reassurance: 결과를 약속하지 않고 불안을 낮추는 말. Dose, symptom, call, appointment, before, after 같은 단어 아래는 silence 또는 very low bed로 표시합니다. Team이 no-cover moments를 못 정하면 아직 music을 generate하지 마세요.",
+        "## Speech를 앞으로 남기는 prompt 쓰기",
+        "Prompt 예시: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Caring이나 hopeful이 너무 넓다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 instruments, tempo, density, avoid-list로 나눕니다. EasyMusic.AI에서는 혼자 들을 때 큰 draft보다 중요한 words가 또렷해지는 draft를 고르세요.",
+        "## 피곤한 patient처럼 test하기",
+        "Phone speaker, 저렴한 earbuds, 낮은 volume으로 재생합니다. Action이 들리나요? Captions가 number, time, contact instruction을 가리나요? Pads나 cymbals 아래에서 consonants가 사라지나요? Editor가 MP3, WAV, M4A를 요구하면 musical idea가 승인된 뒤 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 쓰세요. Conversion은 듣기 어려운 instructions를 고치지 않습니다.",
+        "## 작은 review trail 남기기",
+        "Prompt, file name, script version, clinical reviewer, planned channel을 저장합니다. AI music이 video를 compliant, medically reviewed, commercial use safe로 만든다고 쓰지 마세요. Tool terms, platform rules, language access, recorded voice나 footage rights는 따로 확인합니다. Music은 trust를 돕는 layer이지 review responsibility를 숨기는 layer가 아닙니다.",
+        "## 오늘 바로 쓸 ideas",
+        "- 모든 warning line에 no music under this line을 표시합니다.\n- Prompt 앞쪽에 no vocals와 no lead melody를 넣습니다.\n- Number, time, call instruction 앞에 0.5초의 air를 둡니다.\n- Captions on/off로 각각 review합니다.\n- Final mix 전 clinical review용 voice-only export를 남깁니다.",
+        "## FAQ\n### 모든 patient education video에 music이 필요한가요?\n아닙니다. Sensitive topic이거나 instruction-heavy하면 clear voiceover와 silence가 더 나을 수 있습니다.\n### Music은 얼마나 낮아야 하나요?\n아주 낮게 시작하고 speech가 이기게 하세요. 들리게 하려고 크게 올려야 한다면 track이 busy할 수 있습니다.\n### Emotional music을 써도 되나요?\n조심하세요. Lift가 warning을 약하게 만들거나 promised outcome처럼 들리면 안 됩니다.\n### Final version은 누가 review하나요?\nMedical information 책임자, clarity와 language를 보는 사람, publishing channel을 아는 사람이 필요합니다."
+      ]
+    },
+    "pt": {
+      "title": "Nao deixe AI music esconder instrucoes em patient education video",
+      "description": "Checklist pratico para musica em videos de educacao do paciente com instructions, warnings, captions e clinical review claros.",
+      "body": [
+        "Um patient education video pode soar calmo e ainda perder a frase que o viewer mais precisa. Um pad suave cobre uma palavra de dosage. Um acorde quente faz um warning parecer opcional. Um beat pequeno cai sobre o numero de telefone ou o horario do appointment. Nesse tipo de video, musica nao e tratamento nem explicacao medica. O trabalho dela e deixar instruction, caution e next step mais faceis de ouvir.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, style direction, lyrics e ideias de audio em music drafts revisaveis. Para patient education video, use como ferramenta para criar um bed contido ao redor de um script ja revisado; clinical review, accessibility review e publishing approval continuam separados.",
+        "## Mapeie risco antes de mood",
+        "Divida o script em tres camadas. Action: o que o viewer deve fazer depois. Caution: quando deve parar, ligar ou buscar ajuda qualificada. Reassurance: o que reduz ansiedade sem prometer resultado. Marque silence ou very low bed sob dose, symptom, call, appointment, before e after. Se a equipe nao consegue identificar no-cover moments, ainda nao gere a musica.",
+        "## Peça musica que deixe a fala na frente",
+        "Prompt util: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Se caring ou hopeful forem vagos demais, use [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) para transformar em instruments, tempo, density e avoid-list. No EasyMusic.AI, escolha o draft que torna as palavras importantes mais claras, nao o maior sozinho.",
+        "## Teste como um paciente cansado",
+        "Toque em phone speaker, earbuds simples e volume baixo. A action fica audivel? Captions cobrem algum numero, hora ou instrucao de contato? Consonants somem sob pads ou cymbals? Se o editor precisa de MP3, WAV ou M4A, use [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) depois da aprovacao musical. Conversion nao corrige instructions dificeis de ouvir.",
+        "## Mantenha uma pequena trilha de review",
+        "Guarde prompt, file name, script version, clinical reviewer e planned channel. Nao escreva que AI music torna o video compliant, medically reviewed ou seguro para commercial use. Verifique tool terms, platform rules, language access e direitos de voz ou footage separadamente. A musica deve apoiar trust, nao esconder responsabilidade de review.",
+        "## Ideias reutilizaveis hoje",
+        "- Marque cada warning com no music under this line.\n- Coloque no vocals e no lead melody perto do inicio do prompt.\n- Deixe meio segundo de air antes de numero, hora ou call instruction.\n- Revise uma vez com captions e outra sem captions.\n- Guarde um export voice-only para clinical review antes do final mix.",
+        "## FAQ\n### Todo patient education video precisa de musica?\nNao. Se o assunto e sensivel ou cheio de instrucoes, voiceover claro e silencio podem ser melhores.\n### Quao baixa deve ficar a musica?\nComece muito baixo e deixe a fala vencer. Se o track precisa ficar alto para aparecer, talvez esteja ocupado demais.\n### Posso usar musica emocional?\nCom cuidado. Um lift nao deve suavizar warning nem sugerir resultado prometido.\n### Quem deve revisar a versao final?\nAlguem responsavel pela informacao medica, alguem que revise clareza e idioma, e alguem que conheca o canal de publicacao."
+      ]
+    },
+    "ru": {
+      "title": "Не давайте AI music скрывать инструкции в patient education video",
+      "description": "Практический checklist для patient education video, где instructions, warnings, captions и clinical review остаются понятными.",
+      "body": [
+        "Patient education video может звучать спокойно и все равно потерять фразу, которая нужна viewer больше всего. Мягкий pad закрывает dosage word. Теплый аккорд делает warning менее срочным. Маленький beat попадает на phone number или appointment timing. В таком video музыка не является treatment и не объясняет медицину. Ее задача - оставить instruction, caution и next step слышимыми.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, style direction, lyrics и audio ideas в music drafts для review. Для patient education video используйте ее как drafting tool для restrained bed вокруг уже проверенного script; clinical review, accessibility review и publishing approval остаются отдельными задачами.",
+        "## Сначала составьте карту риска",
+        "Разделите script на три слоя. Action: что viewer должен сделать после просмотра. Caution: когда нужно остановиться, позвонить или обратиться за qualified help. Reassurance: что снижает тревогу без обещания результата. Отметьте silence или very low bed под словами dose, symptom, call, appointment, before и after. Если команда не может назвать no-cover moments, пока не генерируйте music.",
+        "## Просите музыку, которая оставляет речь впереди",
+        "Полезный prompt: calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions. Если caring или hopeful слишком расплывчаты, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить их в instruments, tempo, density и avoid-list. В EasyMusic.AI выбирайте draft, где важные words яснее, а не самый эффектный отдельно.",
+        "## Тестируйте как уставший patient",
+        "Включите video через phone speaker, простые earbuds и на низкой громкости. Слышно ли action? Закрывают ли captions number, time или contact instruction? Исчезают ли consonants под pads или cymbals? Если editor нужен MP3, WAV или M4A, используйте [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) после musical approval. Conversion не исправит instructions, которые трудно услышать.",
+        "## Сохраняйте короткий review trail",
+        "Сохраните prompt, file name, script version, clinical reviewer и planned channel. Не пишите, что AI music делает video compliant, medically reviewed или safe for commercial use. Проверяйте tool terms, platform rules, language access и права на voice или footage отдельно. Music должна поддерживать trust, а не скрывать review responsibility.",
+        "## Идеи на сегодня",
+        "- Отмечайте каждую warning line как no music under this line.\n- Ставьте no vocals и no lead melody ближе к началу prompt.\n- Оставляйте полсекунды воздуха перед number, time или call instruction.\n- Проверяйте один раз с captions и один раз без captions.\n- Сохраняйте voice-only export для clinical review до final mix.",
+        "## FAQ\n### Каждому patient education video нужна музыка?\nНет. Если тема чувствительная или много instructions, clear voiceover и silence могут быть лучше.\n### Насколько тихой должна быть музыка?\nНачните очень низко и дайте речи победить. Если track надо поднять, чтобы заметить, он может быть слишком busy.\n### Можно ли использовать emotional music?\nОсторожно. Lift не должен смягчать warning или намекать на promised outcome.\n### Кто должен проверить final version?\nОтветственный за medical information, человек для clarity и language, и тот, кто знает publishing channel."
+      ]
+    },
+    "zh": {
+      "title": "别让 AI music 盖住 patient education video 的 instructions",
+      "description": "一个实用 checklist：让 patient education video 的 instructions、warnings、captions 和 clinical review 保持清晰。",
+      "body": [
+        "Patient education video 可以听起来很 calm，却丢掉 viewer 最需要的那句话。Soft pad 盖住 dosage word。Warm chord 让 warning 听起来不那么紧急。Small beat 正好落在 phone number 或 appointment timing 上。这个场景里，music 不是 treatment，也不是 medical explanation。它的任务是让 instruction、caution 和 next step 更容易被听见。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、style direction、lyrics 和 audio ideas 变成可 review 的 music drafts。用于 patient education video 时，把它当作围绕已审阅 script 起草 restrained bed 的工具；clinical review、accessibility review 和 publishing approval 仍然要分开处理。",
+        "## 先做 risk map，再想 mood",
+        "把 script 分成三层。Action：viewer 看完要做什么。Caution：什么时候要停止、call，或寻求 qualified help。Reassurance：什么话能降低焦虑，但不承诺结果。把 dose、symptom、call、appointment、before、after 这些词下方标成 silence 或 very low bed。如果 team 还说不清 no-cover moments，就先不要 generate music。",
+        "## 写让 speech 留在前面的 prompt",
+        "可用 prompt：calm instrumental bed for a 90 second patient education video, 72 BPM, soft pulse, warm keys, no vocals, no lead melody, no dramatic rise, leave room for clinician voice, captions, and safety instructions。如果 caring 或 hopeful 太宽泛，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 拆成 instruments、tempo、density 和 avoid-list。在 EasyMusic.AI 里，选择让重要 words 更清楚的 draft，不是单独听最宏大的那版。",
+        "## 像疲惫的 patient 一样测试",
+        "用 phone speaker、便宜 earbuds 和低 volume 播放。Action 听得清吗？Captions 有没有盖住 number、time 或 contact instruction？Pads 或 cymbals 下方 consonants 会不会消失？如果 editor 需要 MP3、WAV 或 M4A，musical idea 通过后再用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)。Conversion 不能修复本来就难听清的 instructions。",
+        "## 保留简短 review trail",
+        "保存 prompt、file name、script version、clinical reviewer 和 planned channel。不要写 AI music 让 video 变得 compliant、medically reviewed 或 safe for commercial use。Tool terms、platform rules、language access、recorded voice 或 footage rights 都要另外检查。Music 应该支持 trust，而不是隐藏 review responsibility。",
+        "## 今天可复用的 ideas",
+        "- 给每条 warning line 标注 no music under this line。\n- 在 prompt 开头附近写 no vocals 和 no lead melody。\n- 在 number、time 或 call instruction 前留半秒 air。\n- 打开 captions review 一次，关闭 captions 再 review 一次。\n- Final mix 前保留 clinical review 用的 voice-only export。",
+        "## FAQ\n### 每个 patient education video 都需要 music 吗？\n不需要。如果主题敏感或 instructions 很多，clear voiceover 加 silence 可能更好。\n### Music 应该放多低？\n从很低开始，让 speech 获胜。如果 track 必须很大声才被注意到，它可能太 busy。\n### 可以用 emotional music 吗？\n要谨慎。Lift 不应该削弱 warning，也不该暗示 promised outcome。\n### Final version 谁来 review？\n负责 medical information 的人、检查 clarity 和 language 的人，以及了解 publishing channel 的人。"
+      ]
+    }
+  }
+}
