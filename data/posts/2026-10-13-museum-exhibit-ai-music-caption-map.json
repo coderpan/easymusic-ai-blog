@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-13",
+  "slug": "museum-exhibit-ai-music-caption-map",
+  "cluster": "museum-exhibit-audio-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لفيديو museum exhibit من دون ازدحام captions",
+      "description": "Workflow عملي لموسيقى فيديوهات المعارض يحافظ على narration،captions،النصوص،وتجربة الزائر داخل القاعة.",
+      "body": [
+        "في قاعة هادئة،لا يشاهد الزائر فيديو المعرض مثل اعلان على الهاتف. قد يمر شخصان خلفه،وقد يكون speaker صغيرا،وقد يحتاج الى قراءة label وcaption في الوقت نفسه. اذا دخلت music بmelody مزدحمة او bass عريض،تتحول الشاشة من شرح قطعة الى ضجيج بصري وصوتي. الهدف ليس جعل المعرض دراميا اكثر؛الهدف ان يعرف الزائر اين ينظر ومتى يستمع ومتى يقرأ.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعدك على تحويل prompts،style direction،lyrics،وافكار audio الى music drafts قابلة للمراجعة. في فيديو museum exhibit،استخدمها لتجربة beds قصيرة وهادئة حول narration وcaptions،مع بقاء المراجعة التحريرية،الحقوق،ومتطلبات المؤسسة خطوات منفصلة عن ملف الموسيقى.",
+        "## ابدأ بخريطة الزائر لا بقائمة moods",
+        "اكتب مسار المشاهدة قبل prompt: هل يبدأ الزائر بobject label،ثم video،ثم transcript؟ هل هناك narration؟ هل يجب ان يقرأ dates او names او provenance؟ ضع علامة على ثلاث مناطق: silence for reading،low texture under narration،short cue for transition. هذه الخريطة تمنع music من منافسة المعلومات التي جاء الزائر لاجلها.",
+        "## Prompt هادئ بطبقتين",
+        "Prompt عملي: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. اذا كانت الكلمات مثل thoughtful او ancient واسعة جدا،استخدم [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتحويلها الى tempo،instrument،density،وavoid-list.",
+        "## اختبر captions مثلما تختبر الصوت",
+        "الفيديو داخل المعرض غالبا يحتاج captions او transcript او طريقة بديلة لفهم الصوت. لا تجعل music ذات lyrics اذا كانت captions already تحمل narration. اذا كان caption يصف music،اجعله مفيدا: gentle low drone افضل من music فقط. شغل الفيديو مرة من دون صوت،ومرة بصوت منخفض،ومرة من مسافة خطوات قليلة. اذا ضاع اسم الفنان او التاريخ،فالموسيقى عالية او مشغولة او موضوعة في المكان الخطأ.",
+        "## حضر نسخة تشغيل للقاعة",
+        "اصنع نسخة قصيرة loopable لا تعتمد على drop كبير. اترك half second من الهدوء عند بداية loop حتى لا يشعر الموظفون والزوار بتكرار حاد. اذا احتاج الفريق MP3 صغيرا للمعاينة وWAV للتحرير،يمكن استخدام [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) بعد الموافقة. لا تستخدم التحويل كبديل عن فحص الحقوق،لغة المؤسسة،او متطلبات access.",
+        "## افكار قابلة للاستخدام اليوم",
+        "- ضع narration المهم فوق texture منخفضة لا melody نشطة.\n- اترك captions الطويلة على لقطات ثابتة او movement بطيء.\n- اجعل كل transition cue اقصر من ان يبدو مثل trailer.\n- احفظ prompt،version،location،speaker level،ومن وافق على العرض.\n- جهز silent version اذا كان المعرض يعمل في منطقة صوتية مشتركة.",
+        "## FAQ\n### هل يحتاج فيديو المعرض الى music؟\nليس دائما. احيانا silence،narration واضح،وcaption جيد افضل من bed دائم.\n### هل يمكن استخدام vocals؟\nغالبا لا. Lyrics تضيف طبقة قراءة جديدة وتنافس narration وcaptions.\n### ما طول loop المناسب؟\nاجعلها اطول من دورة مرور الزائر المعتادة،او اجعل البداية والنهاية هادئتين حتى لا يبرز التكرار.\n### ماذا اراجع قبل التسليم؟\nCaption readability،transcript،speaker level،حقوق الصوت،approval التحريري،ونسخة mute او low-volume."
+      ]
+    },
+    "de": {
+      "title": "AI Music fuer Museumsvideos planen, ohne Captions zu verdraengen",
+      "description": "Ein praktischer Workflow fuer Exhibit-Videos, bei denen Narration, Captions, Objekttext und Besucherfuehrung klar bleiben.",
+      "body": [
+        "In einer ruhigen Galerie sieht niemand ein Exhibit-Video wie eine Anzeige auf dem Handy. Besucher laufen vorbei, der Lautsprecher ist klein, und jemand liest gleichzeitig Objektlabel und Caption. Wenn die Musik mit dichter Melodie oder breitem Bass startet, wird aus Erklaerung schnell Reizueberladung. Das Ziel ist nicht mehr Drama, sondern Orientierung: wohin schauen, wann hoeren, wann lesen.",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, die prompts, style direction, lyrics und Audio-Ideen in pruefbare Music Drafts verwandelt. Fuer ein Museumsvideo kannst du damit kurze, ruhige Beds rund um narration und captions testen; redaktionelle Freigabe, Rechte und institutionelle Anforderungen bleiben eigene Schritte.",
+        "## Beginne mit dem Besucherweg, nicht mit Mood",
+        "Skizziere vor dem Prompt den Ablauf: Startet der Besuch beim Objektlabel, dann Video, dann transcript? Gibt es narration? Muessen Namen, Daten oder provenance lesbar bleiben? Markiere drei Zonen: silence for reading, low texture under narration, short cue for transition. Diese Karte verhindert, dass Musik genau die Information ueberdeckt, fuer die Menschen stehen bleiben.",
+        "## Schreibe einen ruhigen Zwei-Schichten-Prompt",
+        "Ein brauchbarer Prompt: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Wenn thoughtful oder ancient zu vage sind, hilft der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator), tempo, instruments, density und avoid-list zu formulieren.",
+        "## Teste Captions wie Audio",
+        "Ein Exhibit-Video braucht oft captions, transcript oder eine andere Moeglichkeit, den Ton zu verstehen. Verwende keine lyrics, wenn captions bereits narration tragen. Wenn ein Caption die Musik beschreibt, sollte er konkret sein: gentle low drone ist hilfreicher als nur music. Spiele das Video ohne Ton, leise und aus ein paar Schritten Entfernung. Wenn Kuenstlername oder Datum verloren gehen, ist die Musik zu laut, zu dicht oder falsch platziert.",
+        "## Bereite eine Galerie-Version vor",
+        "Erzeuge einen kurzen loopable Cue ohne grossen Drop. Lass am Loop-Start eine halbe Sekunde Ruhe, damit Wiederholung fuer Personal und Besucher nicht hart wirkt. Wenn das Team eine kleine MP3 fuer Review und WAV fuer Schnitt braucht, nutze den [Audio Converter](https://easymusic.ai/de/tools/audio-converter) nach der Freigabe. Formatkonvertierung ersetzt keine Rechte-, Sprach- oder Access-Pruefung.",
+        "## Ideen fuer heute",
+        "- Lege wichtige narration ueber niedrige texture statt aktive melody.\n- Halte lange captions auf ruhigen Bildern oder langsamem movement.\n- Mache transition cues kuerzer als einen trailer moment.\n- Speichere prompt, version, location, speaker level und approver.\n- Erstelle eine silent version fuer gemeinsam genutzte Klangbereiche.",
+        "## FAQ\n### Braucht jedes Exhibit-Video Musik?\nNein. Manchmal sind silence, klare narration und gute captions staerker als ein dauerndes Bed.\n### Sind vocals sinnvoll?\nMeist nicht. Lyrics fuegen eine weitere Leseebene hinzu und konkurrieren mit narration und captions.\n### Wie lang sollte der Loop sein?\nLaenger als der typische Besuchsmoment, oder so ruhig geloopt, dass Anfang und Ende kaum auffallen.\n### Was pruefe ich vor der Uebergabe?\nCaption readability, transcript, speaker level, Audiorechte, redaktionelle Freigabe und mute oder low-volume version."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for Museum Exhibit Videos Without Crowding Captions",
+      "description": "A practical workflow for exhibit-video music that keeps narration, captions, object text, and the visitor path clear.",
+      "body": [
+        "A gallery screen is not watched like a phone ad. Visitors drift in mid-loop, someone reads the wall label while another listens, and the speaker may be tiny or pointed into a noisy hall. Add a busy melody or a wide bass bed and the video stops explaining the object; it becomes one more thing to process. The job of the music is not to make the exhibit feel bigger. It is to help visitors know when to look, when to listen, and when to read.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, style direction, lyrics, and audio ideas into music drafts you can review. For a museum exhibit video, use it to test short, restrained beds around narration and captions, while editorial approval, rights review, and institutional access requirements stay outside the music draft.",
+        "## Map the Visitor Path Before the Mood",
+        "Write the viewing path before you write the prompt: wall label, screen, caption, transcript, object, exit. Does the video carry narration? Does it show dates, artist names, artifact labels, or provenance text? Mark three zones: silence for reading, low texture under narration, and short cue for transition. This keeps the music from competing with the information people stopped to understand.",
+        "## Use a Quiet Two-Layer Prompt",
+        "A useful prompt is: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. If words like thoughtful or ancient feel too broad, use the [Music Style Generator](https://easymusic.ai/tools/music-style-generator) to turn them into tempo, instruments, density, and avoid-list notes.",
+        "## Test Captions as Seriously as Sound",
+        "Exhibit media often needs captions, a transcript, or another way to understand audio without relying on the room speaker. Avoid lyrics when captions already carry narration. If captions describe the music, make them useful: gentle low drone tells more than music. Watch the piece once muted, once at low volume, and once from several steps away. If an artist name, date, or instruction disappears, the music is too loud, too dense, or placed in the wrong moment.",
+        "## Prepare a Gallery Playback Version",
+        "Make a loop that does not depend on a large drop. Leave half a second of calm at the loop point so staff and repeat visitors do not hear a hard reset all day. If the team needs a small MP3 for review and WAV for editing, use the [Audio Converter](https://easymusic.ai/tools/audio-converter) after approval. Format conversion is not a substitute for rights checks, institutional language review, or access testing.",
+        "## Ideas You Can Reuse Today",
+        "- Put important narration over low texture, not active melody.\n- Hold long captions on still shots or slow movement.\n- Keep transition cues shorter than a trailer moment.\n- Save the prompt, version, gallery location, speaker level, and approver.\n- Export a silent version for shared acoustic spaces.",
+        "## FAQ\n### Does every exhibit video need music?\nNo. Sometimes silence, clear narration, and readable captions serve the visitor better than a constant bed.\n### Should I use vocals?\nUsually no. Lyrics add another reading layer and compete with narration, captions, and nearby gallery sound.\n### How long should the loop be?\nLonger than the usual viewing moment, or quiet enough at the start and end that the repeat does not announce itself.\n### What should I check before handoff?\nCaption readability, transcript availability, speaker level, audio rights, editorial approval, and a mute or low-volume version."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para videos de museo sin saturar captions",
+      "description": "Workflow practico para musica de exhibit videos que mantiene claros narration, captions, textos y recorrido del visitante.",
+      "body": [
+        "Una pantalla de galeria no se mira como un anuncio en el telefono. Los visitantes entran a mitad del loop, alguien lee el label mientras otra persona escucha, y el speaker puede ser pequeno o apuntar a un pasillo ruidoso. Si agregas una melody ocupada o un bass ancho, el video deja de explicar el objeto y se vuelve otra cosa que procesar. La musica no debe hacer que el exhibit parezca mas grande; debe ayudar a saber cuando mirar, escuchar y leer.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, style direction, lyrics e ideas de audio en music drafts revisables. Para un video de museo, usala para probar beds breves y contenidos alrededor de narration y captions, mientras editorial approval, rights review y requisitos de access quedan fuera del draft musical.",
+        "## Mapea el recorrido antes del mood",
+        "Escribe el camino antes del prompt: wall label, pantalla, caption, transcript, objeto, salida. Hay narration? Aparecen fechas, nombres, etiquetas o provenance text? Marca tres zonas: silence for reading, low texture under narration y short cue for transition. Asi la musica no compite con la informacion que el visitante se detuvo a entender.",
+        "## Usa un prompt tranquilo de dos capas",
+        "Prompt util: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Si thoughtful o ancient son muy amplios, usa [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) para convertirlos en tempo, instruments, density y avoid-list.",
+        "## Prueba captions con la misma seriedad que audio",
+        "Los medios de exhibicion suelen necesitar captions, transcript u otra forma de entender el audio sin depender del speaker de sala. Evita lyrics cuando captions ya cargan narration. Si el caption describe la musica, hazlo util: gentle low drone dice mas que music. Mira la pieza muted, luego a volumen bajo y luego desde varios pasos. Si se pierde un artista, fecha o instruccion, la musica esta alta, densa o mal ubicada.",
+        "## Prepara una version de reproduccion para galeria",
+        "Crea un loop que no dependa de un gran drop. Deja medio segundo tranquilo en el loop point para que staff y visitantes repetidos no oigan un reset duro todo el dia. Si el equipo necesita MP3 pequeno para revision y WAV para edicion, usa [Audio Converter](https://easymusic.ai/es/tools/audio-converter) despues de aprobar. Convertir formato no reemplaza derechos, revision de lenguaje institucional ni access testing.",
+        "## Ideas reutilizables hoy",
+        "- Pon narration importante sobre low texture, no sobre melody activa.\n- Mantén captions largas en planos quietos o movimiento lento.\n- Haz que transition cues duren menos que un momento de trailer.\n- Guarda prompt, version, ubicacion, speaker level y approver.\n- Exporta una silent version para espacios acusticos compartidos.",
+        "## FAQ\n### Todo video de museo necesita musica?\nNo. A veces silence, narration clara y captions legibles sirven mejor al visitante que un bed constante.\n### Conviene usar vocals?\nNormalmente no. Lyrics agregan otra capa de lectura y compiten con narration, captions y sonido cercano.\n### Que largo debe tener el loop?\nMas que el tiempo normal de observacion, o con inicio y final tan tranquilos que la repeticion no se note.\n### Que reviso antes del handoff?\nCaption readability, transcript, speaker level, derechos de audio, editorial approval y version mute o low-volume."
+      ]
+    },
+    "fr": {
+      "title": "Planifier l AI music d une video de musee sans etouffer les captions",
+      "description": "Workflow pratique pour garder narration, captions, textes d objet et parcours visiteur lisibles dans un exhibit video.",
+      "body": [
+        "Un ecran de galerie ne se regarde pas comme une pub sur telephone. Des visiteurs arrivent au milieu du loop, quelqu un lit le cartel pendant qu une autre personne ecoute, et le haut-parleur peut etre petit ou perdu dans un hall bruyant. Ajoute une melody chargee ou une basse large et la video n explique plus l objet; elle devient une information de plus a traiter. La musique doit guider le regard, l ecoute et la lecture.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, style direction, lyrics et idees audio en music drafts a reviser. Pour une video de musee, elle sert a tester des beds courts et retenus autour de la narration et des captions, tandis que validation editoriale, droits et exigences d access restent des etapes separees.",
+        "## Cartographie le parcours avant le mood",
+        "Ecris le parcours avant le prompt: cartel, ecran, caption, transcript, objet, sortie. Y a-t-il narration? La video montre-t-elle dates, noms, labels ou provenance text? Marque trois zones: silence for reading, low texture under narration, short cue for transition. Cela evite que la musique rivalise avec l information que le visiteur essaie de comprendre.",
+        "## Utilise un prompt calme a deux couches",
+        "Prompt utile: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Si thoughtful ou ancient est trop large, le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut le transformer en tempo, instruments, density et avoid-list.",
+        "## Teste les captions autant que le son",
+        "Les medias d exposition ont souvent besoin de captions, transcript ou autre solution pour comprendre l audio sans dependre du haut-parleur de salle. Evite les lyrics si les captions portent deja la narration. Si les captions decrivent la musique, sois utile: gentle low drone vaut mieux que music. Regarde la piece muted, puis a bas volume, puis a quelques pas. Si nom, date ou instruction disparaissent, la musique est trop forte, dense ou mal placee.",
+        "## Prepare une version de lecture en galerie",
+        "Cree un loop qui ne depend pas d un gros drop. Laisse une demi-seconde calme au point de boucle pour eviter un reset dur toute la journee. Si l equipe veut un petit MP3 pour review et un WAV pour montage, utilise l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) apres validation. La conversion de format ne remplace pas les controles de droits, de langage institutionnel ni d access.",
+        "## Idees utilisables aujourd hui",
+        "- Mets la narration importante sur une low texture, pas sur une melody active.\n- Garde les captions longues sur plans fixes ou mouvement lent.\n- Fais des transition cues plus courts qu un moment de trailer.\n- Sauvegarde prompt, version, lieu, speaker level et approver.\n- Exporte une silent version pour les espaces acoustiques partages.",
+        "## FAQ\n### Chaque video de musee a-t-elle besoin de musique?\nNon. Parfois silence, narration claire et captions lisibles servent mieux le visiteur qu un bed permanent.\n### Faut-il utiliser des vocals?\nRarement. Les lyrics ajoutent une couche de lecture et concurrencent narration, captions et son de galerie.\n### Quelle longueur pour le loop?\nPlus long que le temps de visionnage habituel, ou assez doux au debut et a la fin pour que la repetition ne s annonce pas.\n### Que verifier avant handoff?\nCaption readability, transcript, speaker level, droits audio, validation editoriale et version mute ou low-volume."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per video museali senza coprire captions",
+      "description": "Workflow pratico per exhibit video in cui narration, captions, testi oggetto e percorso del visitatore restano chiari.",
+      "body": [
+        "Uno schermo in galleria non si guarda come un annuncio sul telefono. I visitatori entrano a meta loop, qualcuno legge il label mentre un altra persona ascolta, e lo speaker puo essere piccolo o perso in un corridoio rumoroso. Se aggiungi una melody affollata o un bass largo, il video smette di spiegare l oggetto e diventa un altra cosa da processare. La musica deve aiutare a capire quando guardare, ascoltare e leggere.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, style direction, lyrics e idee audio in music drafts da revisionare. Per un video museale, usala per testare beds brevi e contenuti attorno a narration e captions, mentre editorial approval, rights review e requisiti di access restano passaggi separati dal draft musicale.",
+        "## Mappa il percorso del visitatore prima del mood",
+        "Scrivi il percorso prima del prompt: wall label, screen, caption, transcript, oggetto, uscita. C e narration? Compaiono date, nomi, artifact labels o provenance text? Marca tre zone: silence for reading, low texture under narration e short cue for transition. Cosi la musica non compete con l informazione che il visitatore si e fermato a capire.",
+        "## Usa un prompt quieto a due livelli",
+        "Prompt utile: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Se thoughtful o ancient sono troppo larghi, usa [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) per trasformarli in tempo, instruments, density e avoid-list.",
+        "## Testa captions con la stessa serieta dell audio",
+        "I media di mostra spesso richiedono captions, transcript o un altro modo per capire l audio senza dipendere dallo speaker della sala. Evita lyrics se le captions portano gia la narration. Se la caption descrive la musica, rendila utile: gentle low drone dice piu di music. Guarda il pezzo muted, poi a basso volume, poi da alcuni passi. Se sparisce un nome, una data o un istruzione, la musica e troppo alta, densa o nel punto sbagliato.",
+        "## Prepara una versione per gallery playback",
+        "Crea un loop che non dipenda da un grande drop. Lascia mezzo secondo calmo nel punto di loop per evitare un reset duro tutto il giorno. Se il team vuole un MP3 piccolo per review e un WAV per editing, usa [Audio Converter](https://easymusic.ai/it/tools/audio-converter) dopo l approvazione. La conversione formato non sostituisce controlli su diritti, linguaggio istituzionale o access.",
+        "## Idee riutilizzabili oggi",
+        "- Metti narration importante sopra low texture, non sopra melody attiva.\n- Tieni captions lunghe su immagini ferme o movimento lento.\n- Rendi i transition cues piu brevi di un momento trailer.\n- Salva prompt, version, location, speaker level e approver.\n- Esporta una silent version per spazi acustici condivisi.",
+        "## FAQ\n### Ogni exhibit video ha bisogno di musica?\nNo. A volte silence, narration chiara e captions leggibili servono meglio del bed costante.\n### Meglio usare vocals?\nDi solito no. Lyrics aggiungono un altro livello di lettura e competono con narration, captions e suono in sala.\n### Quanto deve durare il loop?\nPiu del tempo medio di osservazione, oppure abbastanza calmo inizio e fine da non annunciare la ripetizione.\n### Cosa controllo prima dell handoff?\nCaption readability, transcript, speaker level, diritti audio, editorial approval e versione mute o low-volume."
+      ]
+    },
+    "ja": {
+      "title": "Captions を邪魔しない museum exhibit video の AI music 設計",
+      "description": "Narration、captions、object text、visitor path を保つ exhibit video music workflow。",
+      "body": [
+        "Gallery screen は phone ad のようには見られません。Visitor は loop の途中から入り、誰かは wall label を読み、別の人は小さな speaker を聞きます。Busy melody や wide bass bed を足すと、video は object を説明するものではなく、処理すべき情報の一つになります。Music の仕事は exhibit を大きく見せることではなく、いつ見るか、いつ聞くか、いつ読むかを助けることです。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は、prompts、style direction、lyrics、audio ideas から review 可能な music drafts を作る AI music creation platform です。Museum exhibit video では、narration と captions の周りで短く控えめな bed を試すために使い、editorial approval、rights review、institutional access requirements は music draft と分けて確認します。",
+        "## Mood の前に visitor path を書く",
+        "Prompt の前に viewing path を書きます: wall label、screen、caption、transcript、object、exit。Narration はあるか。Dates、artist names、artifact labels、provenance text は表示されるか。三つの zone を付けます: silence for reading、low texture under narration、short cue for transition。これで、visitor が理解しようとしている情報と music が競合しにくくなります。",
+        "## 静かな二層 prompt を使う",
+        "使える prompt: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Thoughtful や ancient が広すぎるなら、[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で tempo、instruments、density、avoid-list に変えます。",
+        "## Sound と同じくらい captions を test する",
+        "Exhibit media には captions、transcript、または room speaker に頼らず audio を理解する方法が必要なことがあります。Captions が narration を担うなら lyrics は避けます。Music を caption で説明するなら、music だけでなく gentle low drone のように役立つ表現にします。Muted、low volume、数歩離れた位置で一度ずつ見ます。Artist name、date、instruction が消えるなら、music が大きい、密すぎる、または位置が悪いです。",
+        "## Gallery playback 版を用意する",
+        "Large drop に頼らない loop を作ります。Loop point には半秒の calm を残し、staff と repeat visitors が一日中 hard reset を聞かないようにします。Review 用の小さな MP3 と editing 用の WAV が必要なら、承認後に [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使います。Format conversion は rights、institutional language、access testing の代わりではありません。",
+        "## 今日使える ideas",
+        "- 重要な narration は active melody ではなく low texture の上に置く。\n- 長い captions は still shot または slow movement に合わせる。\n- Transition cues は trailer moment より短くする。\n- Prompt、version、gallery location、speaker level、approver を保存する。\n- Shared acoustic spaces 用に silent version を export する。",
+        "## FAQ\n### Exhibit video には必ず music が必要ですか？\nいいえ。Silence、clear narration、readable captions の方が visitor を助けることがあります。\n### Vocals は使うべきですか？\n通常は避けます。Lyrics は reading layer を増やし、narration、captions、近くの gallery sound と競合します。\n### Loop はどれくらいの長さがよいですか？\n通常の viewing moment より長くするか、始まりと終わりを静かにして repeat を目立たせないようにします。\n### Handoff 前に何を確認しますか？\nCaption readability、transcript availability、speaker level、audio rights、editorial approval、mute または low-volume version です。"
+      ]
+    },
+    "ko": {
+      "title": "Captions 를 가리지 않는 museum exhibit video AI music 계획",
+      "description": "Narration, captions, object text, visitor path를 선명하게 지키는 exhibit video music workflow.",
+      "body": [
+        "Gallery screen은 phone ad처럼 보지 않습니다. Visitor는 loop 중간에 들어오고, 한 사람은 wall label을 읽고, 다른 사람은 작은 speaker를 듣습니다. Busy melody나 wide bass bed를 넣으면 video는 object를 설명하기보다 처리해야 할 정보가 하나 더 됩니다. Music의 역할은 exhibit를 더 크게 보이게 하는 것이 아니라 언제 보고, 언제 듣고, 언제 읽을지 돕는 것입니다.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, style direction, lyrics, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Museum exhibit video에서는 narration과 captions 주변의 짧고 restrained한 bed를 시험하는 데 쓰고, editorial approval, rights review, institutional access requirements는 music draft 밖에서 확인하세요.",
+        "## Mood보다 visitor path부터",
+        "Prompt 전에 viewing path를 씁니다: wall label, screen, caption, transcript, object, exit. Narration이 있나요? Dates, artist names, artifact labels, provenance text가 보이나요? 세 zone을 표시합니다: silence for reading, low texture under narration, short cue for transition. 이렇게 하면 visitor가 이해하려고 멈춘 정보와 music이 경쟁하지 않습니다.",
+        "## 조용한 two-layer prompt 사용",
+        "Prompt 예시: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Thoughtful이나 ancient가 넓다면 [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)로 tempo, instruments, density, avoid-list로 바꿉니다.",
+        "## Sound만큼 captions도 test하기",
+        "Exhibit media는 captions, transcript, 또는 room speaker에 의존하지 않고 audio를 이해하는 방법이 필요할 때가 많습니다. Captions가 이미 narration을 담고 있다면 lyrics는 피하세요. Caption이 music을 설명한다면 music보다 gentle low drone처럼 유용하게 씁니다. Muted, low volume, 몇 걸음 떨어진 위치에서 각각 봅니다. Artist name, date, instruction이 사라진다면 music이 너무 크거나 밀도가 높거나 위치가 잘못된 것입니다.",
+        "## Gallery playback version 준비",
+        "Large drop에 의존하지 않는 loop를 만듭니다. Loop point에는 0.5초 calm을 남겨 staff와 repeat visitors가 하루 종일 hard reset을 듣지 않게 합니다. Review용 작은 MP3와 editing용 WAV가 필요하면 승인 후 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 쓰세요. Format conversion은 rights checks, institutional language review, access testing을 대체하지 않습니다.",
+        "## 오늘 바로 쓸 ideas",
+        "- 중요한 narration은 active melody가 아니라 low texture 위에 둡니다.\n- 긴 captions는 still shots나 slow movement에 맞춥니다.\n- Transition cues는 trailer moment보다 짧게 만듭니다.\n- Prompt, version, gallery location, speaker level, approver를 저장합니다.\n- Shared acoustic spaces용 silent version을 export합니다.",
+        "## FAQ\n### Exhibit video마다 music이 필요한가요?\n아닙니다. Silence, clear narration, readable captions가 constant bed보다 visitor를 더 잘 도울 수 있습니다.\n### Vocals를 써야 하나요?\n보통 피합니다. Lyrics는 reading layer를 추가하고 narration, captions, nearby gallery sound와 경쟁합니다.\n### Loop는 얼마나 길어야 하나요?\n일반 viewing moment보다 길거나, 시작과 끝이 조용해서 반복이 드러나지 않아야 합니다.\n### Handoff 전에 무엇을 확인하나요?\nCaption readability, transcript availability, speaker level, audio rights, editorial approval, mute 또는 low-volume version입니다."
+      ]
+    },
+    "pt": {
+      "title": "Planeje AI music para videos de museu sem cobrir captions",
+      "description": "Workflow pratico para exhibit videos com narration, captions, texto de objeto e caminho do visitante claros.",
+      "body": [
+        "Uma tela de galeria nao e vista como um anuncio no telefone. Visitantes entram no meio do loop, alguem le o label enquanto outra pessoa escuta, e o speaker pode ser pequeno ou apontar para um corredor barulhento. Se voce adiciona melody ocupada ou bass largo, o video deixa de explicar o objeto e vira mais uma coisa para processar. A musica deve ajudar a saber quando olhar, ouvir e ler.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, style direction, lyrics e ideias de audio em music drafts revisaveis. Para um video de museu, use para testar beds curtos e contidos ao redor de narration e captions, enquanto editorial approval, rights review e requisitos de access ficam fora do draft musical.",
+        "## Mapeie o caminho do visitante antes do mood",
+        "Escreva o caminho antes do prompt: wall label, tela, caption, transcript, objeto, saida. Existe narration? Aparecem datas, nomes de artistas, artifact labels ou provenance text? Marque tres zonas: silence for reading, low texture under narration e short cue for transition. Isso impede que a musica concorra com a informacao que fez o visitante parar.",
+        "## Use um prompt quieto em duas camadas",
+        "Prompt util: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Se thoughtful ou ancient forem amplos, use [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) para transformar em tempo, instruments, density e avoid-list.",
+        "## Teste captions tao a serio quanto o som",
+        "Midia de exibicao frequentemente precisa de captions, transcript ou outra forma de entender audio sem depender do speaker da sala. Evite lyrics quando captions ja carregam narration. Se captions descrevem a musica, seja util: gentle low drone diz mais que music. Veja a peca muted, depois em volume baixo e depois a alguns passos. Se nome, data ou instrucao desaparecem, a musica esta alta, densa ou no momento errado.",
+        "## Prepare uma versao para gallery playback",
+        "Crie um loop que nao dependa de um grande drop. Deixe meio segundo calmo no loop point para que staff e visitantes repetidos nao oucam um reset duro o dia inteiro. Se a equipe precisa de MP3 pequeno para review e WAV para edicao, use [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) depois da aprovacao. Converter formato nao substitui checagens de direitos, linguagem institucional ou access.",
+        "## Ideias reutilizaveis hoje",
+        "- Coloque narration importante sobre low texture, nao sobre melody ativa.\n- Mantenha captions longas em imagens paradas ou movimento lento.\n- Faca transition cues mais curtos que um momento de trailer.\n- Salve prompt, version, gallery location, speaker level e approver.\n- Exporte uma silent version para espacos acusticos compartilhados.",
+        "## FAQ\n### Todo exhibit video precisa de musica?\nNao. As vezes silence, narration clara e captions legiveis ajudam melhor o visitante que um bed constante.\n### Devo usar vocals?\nGeralmente nao. Lyrics adicionam outra camada de leitura e competem com narration, captions e som da galeria.\n### Qual deve ser a duracao do loop?\nMais longo que o momento comum de observacao, ou com inicio e fim quietos para que a repeticao nao se anuncie.\n### O que revisar antes do handoff?\nCaption readability, transcript, speaker level, direitos de audio, editorial approval e versao mute ou low-volume."
+      ]
+    },
+    "ru": {
+      "title": "План AI music для museum exhibit video без перегруза captions",
+      "description": "Практичный workflow для exhibit video, где narration, captions, object text и путь посетителя остаются ясными.",
+      "body": [
+        "Экран в галерее смотрят не так, как рекламу в телефоне. Посетитель входит в середине loop, кто-то читает label, другой слушает маленький speaker, а рядом шумит зал. Если добавить busy melody или широкий bass bed, video перестает объяснять object и становится еще одним сигналом для обработки. Музыка здесь нужна не для большего drama, а для ориентации: когда смотреть, когда слушать, когда читать.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, style direction, lyrics и audio ideas в музыкальные черновики для review. Для museum exhibit video используйте ее, чтобы тестировать короткие restrained beds вокруг narration и captions; editorial approval, rights review и institutional access requirements остаются отдельными шагами.",
+        "## Сначала путь посетителя, потом mood",
+        "До prompt опишите viewing path: wall label, screen, caption, transcript, object, exit. Есть ли narration? Появляются ли dates, artist names, artifact labels или provenance text? Отметьте три зоны: silence for reading, low texture under narration, short cue for transition. Так music не спорит с информацией, ради которой человек остановился.",
+        "## Используйте тихий двухслойный prompt",
+        "Рабочий prompt: quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending. Если thoughtful или ancient слишком широкие, [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет превратить их в tempo, instruments, density и avoid-list.",
+        "## Проверяйте captions так же внимательно, как sound",
+        "Exhibit media часто нуждается в captions, transcript или другом способе понять audio без зависимости от room speaker. Избегайте lyrics, если captions уже несут narration. Если caption описывает music, пусть он будет полезным: gentle low drone лучше, чем просто music. Посмотрите video без звука, тихо и с нескольких шагов. Если исчезают artist name, date или instruction, music слишком громкая, плотная или стоит не там.",
+        "## Подготовьте gallery playback version",
+        "Сделайте loop, который не зависит от большого drop. Оставьте полсекунды calm в loop point, чтобы staff и repeat visitors не слышали резкий reset весь день. Если команде нужен маленький MP3 для review и WAV для editing, используйте [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) после approval. Format conversion не заменяет rights checks, institutional language review и access testing.",
+        "## Идеи на сегодня",
+        "- Кладите важную narration поверх low texture, а не active melody.\n- Длинные captions держите на still shots или slow movement.\n- Делайте transition cues короче trailer moment.\n- Сохраняйте prompt, version, gallery location, speaker level и approver.\n- Экспортируйте silent version для shared acoustic spaces.",
+        "## FAQ\n### Каждому exhibit video нужна music?\nНет. Иногда silence, ясная narration и readable captions лучше служат посетителю, чем постоянный bed.\n### Стоит ли использовать vocals?\nОбычно нет. Lyrics добавляют слой чтения и конкурируют с narration, captions и звуком галереи.\n### Какой длины должен быть loop?\nДольше обычного viewing moment или достаточно тихим в начале и конце, чтобы repeat не заявлял о себе.\n### Что проверить перед handoff?\nCaption readability, transcript availability, speaker level, audio rights, editorial approval и mute или low-volume version."
+      ]
+    },
+    "zh": {
+      "title": "为 museum exhibit video 规划不遮挡 captions 的 AI 音乐",
+      "description": "一个实用的 exhibit video music workflow，让 narration、captions、object text 和 visitor path 保持清楚。",
+      "body": [
+        "Gallery screen 不是手机广告。Visitor 可能从 loop 中间进入，一个人在读 wall label，另一个人在听小 speaker，旁边还有展厅噪声。如果加入 busy melody 或很宽的 bass bed，video 就不再解释 object，而变成另一层需要处理的信息。这里的 music 不是为了让 exhibit 更戏剧化，而是帮助人知道什么时候看、什么时候听、什么时候读。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、style direction、lyrics 和 audio ideas 转成可 review 的 music drafts。用于 museum exhibit video 时，可以用它围绕 narration 和 captions 测试短而克制的 bed；editorial approval、rights review 和 institutional access requirements 仍要独立处理。",
+        "## 先画 visitor path，再写 mood",
+        "写 prompt 前，先写 viewing path：wall label、screen、caption、transcript、object、exit。视频是否有 narration？是否出现 dates、artist names、artifact labels 或 provenance text？标出三个区域：silence for reading、low texture under narration、short cue for transition。这样 music 不会和观众停下来想理解的信息竞争。",
+        "## 使用安静的 two-layer prompt",
+        "可用 prompt：quiet gallery video bed for a 90 second museum exhibit screen, soft sustained tones, sparse mallet notes, low movement, no vocals, no busy melody, no dramatic rise, leaves room for narration and captions, clean 4 second ending。如果 thoughtful 或 ancient 太宽泛，可以用 [Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 转成 tempo、instruments、density 和 avoid-list。",
+        "## 像测试声音一样测试 captions",
+        "Exhibit media 常常需要 captions、transcript，或另一种不依赖 room speaker 也能理解 audio 的方式。如果 captions 已经承载 narration，就避免 lyrics。如果 captions 描述 music，要写得有用：gentle low drone 比 music 更清楚。分别在 muted、low volume、离屏幕几步远的位置看一遍。如果 artist name、date 或 instruction 消失了，music 就太响、太密，或放错了时机。",
+        "## 准备 gallery playback version",
+        "制作不依赖大 drop 的 loop。在 loop point 留半秒 calm，避免 staff 和 repeat visitors 一整天都听到生硬 reset。如果团队需要小 MP3 做 review、WAV 做 editing，可以在批准后使用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)。Format conversion 不能替代 rights checks、institutional language review 或 access testing。",
+        "## 今天就能用的 ideas",
+        "- 把重要 narration 放在 low texture 上，而不是 active melody 上。\n- 长 captions 搭配 still shots 或 slow movement。\n- 让 transition cues 比 trailer moment 更短。\n- 保存 prompt、version、gallery location、speaker level 和 approver。\n- 为 shared acoustic spaces 导出 silent version。",
+        "## FAQ\n### 每个 exhibit video 都需要 music 吗？\n不需要。有时 silence、clear narration 和 readable captions 比 constant bed 更能服务 visitor。\n### 应该使用 vocals 吗？\n通常不要。Lyrics 会增加一层阅读，并与 narration、captions 和附近的 gallery sound 竞争。\n### Loop 应该多长？\n比常见 viewing moment 更长，或者让开头结尾足够安静，不让重复感跳出来。\n### Handoff 前要检查什么？\nCaption readability、transcript availability、speaker level、audio rights、editorial approval，以及 mute 或 low-volume version。"
+      ]
+    }
+  }
+}
