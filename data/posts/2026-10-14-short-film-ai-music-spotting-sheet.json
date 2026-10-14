@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-14",
+  "slug": "short-film-ai-music-spotting-sheet",
+  "cluster": "short-film-scoring-workflows",
+  "translations": {
+    "ar": {
+      "title": "خطط AI music لفيلم قصير من دون نسخ temp track",
+      "description": "Workflow عملي لتحويل temp music الى spotting sheet،ثم توليد cues تخدم المشهد والحوار والمونتاج.",
+      "body": [
+        "يصل الفيلم القصير الى cut شبه نهائي،وكل شيء يعمل حتى تضغط play مع temp track. فجأة يبدو المشهد اكبر مما يحتمل،او تلتصق بالفيلم موسيقى مرجعية لا يمكن للفريق تركها نفسيا. المشكلة ليست ان الموسيقى جميلة؛المشكلة انها بدأت تقود القرارات. قبل استخدام AI music،اكتب ما تحتاجه كل لحظة فعلا: متى يدخل الصوت،متى يخرج،وماذا يجب الا يسرقه من الصورة او الحوار.",
+        "## ما هي EasyMusic.AI؟",
+        "[EasyMusic.AI](https://easymusic.ai/ar/ai-music-generator) منصة AI music creation تساعد على تحويل prompts،style direction،lyrics،وافكار audio الى music drafts قابلة للمراجعة. في فيلم قصير،استخدمها كمساحة لتجربة cues وtextures قصيرة حول المشاهد،مع بقاء حقوق الاستخدام،موافقة المخرج،وقواعد المنصة خطوات منفصلة عن التوليد.",
+        "## اكتب spotting sheet صغيرا",
+        "لا تبدأ بmood عام مثل dark cinematic. افتح note بخمسة اعمدة: cue id،start time،end time،scene job،do not cover. مثال: M1،00:01:12،00:01:42،يجعل الانتظار متوترا لكن لا يشرح خوف الشخصية،do not cover breathing or door sound. هذا يكفي ليمنع cue طويل من ابتلاع الفيلم كله.",
+        "## ترجم temp track الى وظيفة لا الى نسخة",
+        "اذا احب الفريق temp track،اسأل لماذا: هل هو pulse،الفراغ،اللون الالكتروني،ام طريقة دخوله بعد cut؟ اكتب الصفات المسموعة لا اسم العمل او الفنان. يمكن استخدام [Music Style Generator](https://easymusic.ai/ar/tools/music-style-generator) لتجميع tempo،instrument palette،density،وavoid-list،ثم احذف اي كلمة تطلب imitation. الهدف ان يعرف AI ما يخدم المشهد،لا ما يجب نسخه.",
+        "## ولد نسختين واختبرهما داخل cut",
+        "اصنع pass اول قريب من وظيفة المشهد،وpass ثاني counter-score يضغط عكس الصورة قليلا: مشهد هادئ مع نبض داخلي،او chase صغير بموسيقى جافة لا heroic. لا تحكم من player منفصل. ضع cue تحت الحوار،effects،silence،واللقطات التي تغير المعنى. اذا احتاج الفريق MP3 للمراجعة وWAV للمكس،يمكن استخدام [Audio Converter](https://easymusic.ai/ar/tools/audio-converter) بعد اختيار direction.",
+        "## اترك سجلا للتسليم",
+        "احفظ prompt،cue id،file name،version،مدة الظهور،واي تعديل في edit او level. هذا السجل ليس ضمانا قانونيا ولا يحل rights review،لكنه يمنع سؤالا متأخرا مثل: اي ملف استخدمنا في festival export؟ كما يساعدك على الرجوع خطوة للخلف اذا اصبح temp track هو المعيار الوحيد.",
+        "## افكار قابلة للتطبيق اليوم",
+        "- اكتب cue واحدا لكل تحول حقيقي في المشهد،لا track واحدا للفيلم كله.\n- ضع silence كخيار مقصود في spotting sheet.\n- حول temp music الى ثلاث وظائف مسموعة بدلا من اسم مرجعي.\n- اختبر cue مع dialogue وroom tone،لا وحده.\n- احتفظ بversion log قبل اي festival،client،او online upload.",
+        "## FAQ\n### هل يحتاج الفيلم القصير الى موسيقى في كل مشهد؟\nلا. كثير من الافلام القصيرة تصبح اقوى عندما تدخل الموسيقى فقط عند تغير وجهة النظر او الضغط الدرامي.\n### هل يمكنني ذكر temp track في prompt؟\nالافضل وصف الوظيفة والادوات والطاقة بدلا من طلب تقليد عمل معروف.\n### كم عدد cues لفيلم مدته خمس دقائق؟\nغالبا يكفي ثلاثة الى ستة cues واضحة،مع silence بينهما،بدلا من bed دائم.\n### ماذا افعل اذا احب الفريق النسخة الاقرب الى temp؟\nشغل المشهد من دون temp يوميا،ثم قيّم النسخة الجديدة بما تخدمه في القصة لا بمدى تشابهها."
+      ]
+    },
+    "de": {
+      "title": "AI Music fuer Kurzfilm planen, ohne den Temp Track zu kopieren",
+      "description": "Ein praktischer Workflow vom Temp Track zum Spotting Sheet, damit Cues Szene, Dialog und Schnitt dienen.",
+      "body": [
+        "Der Kurzfilm ist fast locked, der Schnitt funktioniert, und dann bleibt der Temp Track kleben. Ploetzlich wirkt eine kleine Szene zu gross, oder das Team erwartet von jeder neuen Musik, dass sie genau wie die Referenz atmet. Das Problem ist nicht, dass die Musik gut ist. Das Problem ist, dass sie die Entscheidungen uebernimmt. Vor der AI music brauchst du eine klare Antwort: wo tritt Musik ein, wo geht sie raus, und was darf sie nicht verdecken?",
+        "## Was ist EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/de/ai-music-generator) ist eine AI Music Creation Platform, die prompts, style direction, lyrics und Audio-Ideen in pruefbare Music Drafts verwandelt. Fuer einen Kurzfilm nutzt du sie als Skizzenraum fuer Cues und Texturen rund um einzelne Szenen; Nutzungsrechte, Regiefreigabe und Plattformregeln bleiben eigene Pruefschritte.",
+        "## Schreibe ein kleines Spotting Sheet",
+        "Starte nicht mit dark cinematic. Erstelle fuenf Felder: cue id, start time, end time, scene job, do not cover. Beispiel: M1, 00:01:12, 00:01:42, macht das Warten angespannt, erklaert aber nicht die Angst der Figur, do not cover breathing or door sound. So verhinderst du, dass ein langer Cue den ganzen Film uebernimmt.",
+        "## Uebersetze den Temp Track in Funktion",
+        "Wenn alle den Temp Track lieben, frage warum: Ist es der pulse, der Raum, die elektronische Farbe oder der Einstieg nach einem Cut? Notiere hoerbare Eigenschaften, nicht Werk- oder Kuenstlernamen. Der [Music Style Generator](https://easymusic.ai/de/tools/music-style-generator) kann tempo, instrument palette, density und avoid-list sammeln; streiche danach alles, was nach Imitation klingt.",
+        "## Generiere zwei Richtungen und teste im Cut",
+        "Mache eine Version, die der Szenenfunktion folgt, und eine counter-score Version, die leicht dagegen arbeitet: stille Szene mit innerem Puls, oder kleine chase sequence mit trockenem, nicht heroischem Rhythmus. Beurteile sie nicht im Player allein. Lege den Cue unter Dialog, effects, room tone, silence und Bedeutungswechsel im Bild. Wenn Review-MP3 und Mix-WAV gebraucht werden, nutze nach der Auswahl den [Audio Converter](https://easymusic.ai/de/tools/audio-converter).",
+        "## Halte die Uebergabe nachvollziehbar",
+        "Speichere prompt, cue id, file name, version, sichtbare Dauer und jede Schnitt- oder Pegelaenderung. Das ist keine Rechtsfreigabe und ersetzt keinen Rechtecheck, aber es verhindert spaete Fragen wie: Welche Datei liegt im festival export? Es hilft auch, Abstand zu gewinnen, wenn der Temp Track zum einzigen Massstab wird.",
+        "## Ideen fuer heute",
+        "- Schreibe einen Cue pro echter Szenenwendung, nicht einen Track fuer alles.\n- Fuehre silence als bewusste Option im Spotting Sheet.\n- Uebersetze Temp Music in drei hoerbare Funktionen statt in einen Referenznamen.\n- Teste den Cue mit dialogue und room tone, nicht solo.\n- Fuehre ein version log vor festival, client oder online upload.",
+        "## FAQ\n### Braucht jede Szene Musik?\nNein. Kurzfilme gewinnen oft, wenn Musik nur bei Perspektivwechseln oder dramatischem Druck eintritt.\n### Darf der Temp Track im Prompt stehen?\nBesser nicht als Kopiervorlage. Beschreibe Funktion, Instrumente und Energie.\n### Wie viele Cues braucht ein fuenfminuetiger Film?\nOft reichen drei bis sechs klare Cues mit geplanter Stille dazwischen.\n### Was, wenn das Team die temp-naechste Version liebt?\nSchaut die Szene ohne Temp an und bewertet die neue Musik danach, was sie fuer die Geschichte tut."
+      ]
+    },
+    "en": {
+      "title": "Plan AI Music for a Short Film Without Copying the Temp Track",
+      "description": "A practical workflow for turning temp music into a spotting sheet, then generating cues that serve the scene, dialogue, and edit.",
+      "body": [
+        "The short film is nearly locked, the cut works, and then the temp track starts sticking to everyone. A small scene suddenly feels too big, or every new music draft sounds wrong because it is not the reference everyone has watched fifty times. The fix is not to ask AI for a cheaper copy of the temp. Before generating anything, decide where music enters, where it leaves, and what it must not steal from the picture.",
+        "## What is EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ai-music-generator) is an AI music creation platform for turning prompts, style direction, lyrics, and audio ideas into music drafts you can review. For a short film, use it as a sketchpad for scene cues and textures, while usage rights, director approval, and platform rules stay separate from the generation step.",
+        "## Write a Small Spotting Sheet",
+        "Do not start with a mood blob like dark cinematic. Make five fields: cue id, start time, end time, scene job, and do not cover. A useful row might be: M1, 00:01:12, 00:01:42, makes the waiting feel tense but does not explain the character's fear, do not cover breathing or door sound. That tiny sheet keeps one long cue from swallowing the whole film.",
+        "## Translate the Temp Track Into Function",
+        "If the team loves the temp, ask what part works: the pulse, the space, the electronic color, the entry after the cut, or the restraint. Write audible qualities, not the title or artist. The [Music Style Generator](https://easymusic.ai/tools/music-style-generator) can help gather tempo, instrument palette, density, and avoid-list language; then remove any wording that asks for imitation.",
+        "## Generate Two Passes and Test Them in the Cut",
+        "Make one pass that follows the scene function and one counter-score pass that gently works against the picture: a quiet room with an inner pulse, or a small chase with dry rhythm instead of hero music. Do not judge the cue in a separate player. Put it under dialogue, effects, room tone, silence, and the shot where the meaning changes. If the team needs review MP3 and mix WAV versions, use the [Audio Converter](https://easymusic.ai/tools/audio-converter) after the direction is chosen.",
+        "## Keep a Delivery Note",
+        "Save the prompt, cue id, file name, version, on-screen duration, and any edit or level changes. This is not legal clearance and it does not replace a rights review, but it prevents late questions like which file went into the festival export. It also gives the team a way to step back if the temp track becomes the only measure of success.",
+        "## Ideas You Can Reuse Today",
+        "- Write one cue for each real story turn, not one track for the whole film.\n- Put silence in the spotting sheet as an intentional choice.\n- Convert temp music into three audible functions instead of a reference name.\n- Test the cue with dialogue and room tone, not alone.\n- Keep a version log before any festival, client, or online upload.",
+        "## FAQ\n### Does every short-film scene need music?\nNo. Many short films become stronger when music enters only for a point-of-view shift, a reveal, or a pressure change.\n### Can I mention the temp track in the prompt?\nIt is safer to describe function, instruments, energy, and what to avoid instead of asking for a known work to be reproduced.\n### How many cues does a five-minute film need?\nOften three to six clear cues, with planned silence between them, work better than a constant bed.\n### What if the team likes the version closest to the temp?\nWatch the scene without the temp for a day, then judge the new cue by what it does for the story, not by how familiar it feels."
+      ]
+    },
+    "es": {
+      "title": "Planifica AI music para un cortometraje sin copiar el temp track",
+      "description": "Workflow practico para convertir temp music en spotting sheet y generar cues que sirvan a escena, dialogo y montaje.",
+      "body": [
+        "El cortometraje esta casi locked, el cut funciona, y entonces el temp track se queda pegado a todo el equipo. Una escena pequena empieza a sonar enorme, o cada nueva musica parece incorrecta porque no es la referencia vista cincuenta veces. La solucion no es pedir a la AI una copia barata del temp. Antes de generar, decide donde entra la musica, donde sale y que no debe robarle a la imagen.",
+        "## Que es EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/es/ai-music-generator) es una plataforma de AI music creation para convertir prompts, style direction, lyrics e ideas de audio en music drafts revisables. Para un cortometraje, usala como sketchpad de cues y textures por escena, mientras usage rights, aprobacion del director y reglas de plataforma quedan aparte de la generacion.",
+        "## Escribe un spotting sheet pequeno",
+        "No empieces con un mood amplio como dark cinematic. Crea cinco campos: cue id, start time, end time, scene job y do not cover. Fila util: M1, 00:01:12, 00:01:42, hace que la espera sea tensa pero no explica el miedo del personaje, do not cover breathing or door sound. Esa hoja evita que un cue largo se trague todo el film.",
+        "## Traduce el temp track a funcion",
+        "Si el equipo ama el temp, pregunta que parte funciona: pulse, espacio, color electronico, entrada despues del cut o restraint. Escribe cualidades audibles, no titulo ni artista. [Music Style Generator](https://easymusic.ai/es/tools/music-style-generator) puede ayudar con tempo, instrument palette, density y avoid-list; luego elimina cualquier wording que pida imitacion.",
+        "## Genera dos pases y pruebalos en el cut",
+        "Haz un pase que siga la funcion de la escena y otro counter-score que trabaje un poco contra la imagen: habitacion quieta con inner pulse, o pequena persecucion con ritmo seco en vez de hero music. No juzgues desde un player separado. Coloca el cue bajo dialogo, effects, room tone, silence y el plano donde cambia el significado. Si el equipo necesita MP3 de revision y WAV de mezcla, usa [Audio Converter](https://easymusic.ai/es/tools/audio-converter) despues de elegir direction.",
+        "## Guarda una nota de entrega",
+        "Conserva prompt, cue id, file name, version, duracion en pantalla y cambios de edit o level. No es clearance legal ni reemplaza rights review, pero evita preguntas tardias como que archivo entro en el festival export. Tambien ayuda a tomar distancia si el temp track se vuelve la unica medida de exito.",
+        "## Ideas reutilizables hoy",
+        "- Escribe un cue por cada giro real de historia, no un track para todo el film.\n- Pon silence en el spotting sheet como decision intencional.\n- Convierte temp music en tres funciones audibles, no en un nombre de referencia.\n- Prueba el cue con dialogo y room tone, no solo.\n- Mantén un version log antes de festival, cliente u online upload.",
+        "## FAQ\n### Toda escena de un corto necesita musica?\nNo. Muchos cortos mejoran cuando la musica entra solo ante cambio de punto de vista, reveal o presion.\n### Puedo mencionar el temp track en el prompt?\nEs mejor describir funcion, instrumentos, energia y limites que pedir reproducir una obra conocida.\n### Cuantos cues necesita un film de cinco minutos?\nA menudo tres a seis cues claros, con silence planificado entre ellos, funcionan mejor que un bed constante.\n### Y si el equipo prefiere la version mas parecida al temp?\nMira la escena sin temp durante un dia y juzga el cue nuevo por lo que hace por la historia."
+      ]
+    },
+    "fr": {
+      "title": "Planifier l AI music d un court metrage sans copier le temp track",
+      "description": "Workflow pratique pour transformer une temp music en spotting sheet puis generer des cues utiles a la scene.",
+      "body": [
+        "Le court metrage est presque locked, le montage tient, puis le temp track colle a tout le monde. Une petite scene parait soudain trop grande, ou chaque nouvelle musique semble fausse parce qu elle n est pas la reference vue cinquante fois. La reponse n est pas de demander a l IA une copie moins chere du temp. Avant de generer, decide ou la musique entre, ou elle sort, et ce qu elle ne doit pas voler a l image.",
+        "## Qu est-ce que EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/fr/ai-music-generator) est une plateforme de AI music creation qui transforme prompts, style direction, lyrics et idees audio en music drafts a reviser. Pour un court metrage, utilise-la comme carnet d essais pour cues et textures par scene; droits d usage, validation realisateur et regles de plateforme restent separes de la generation.",
+        "## Ecris un petit spotting sheet",
+        "Ne commence pas par un mood flou comme dark cinematic. Cree cinq champs: cue id, start time, end time, scene job, do not cover. Ligne utile: M1, 00:01:12, 00:01:42, rend l attente tendue sans expliquer la peur du personnage, do not cover breathing or door sound. Cette petite feuille empeche un long cue d avaler tout le film.",
+        "## Traduis le temp track en fonction",
+        "Si l equipe aime le temp, demande ce qui marche: pulse, espace, couleur electronique, entree apres le cut, retenue. Note des qualites audibles, pas le titre ni l artiste. Le [Music Style Generator](https://easymusic.ai/fr/tools/music-style-generator) peut aider a rassembler tempo, instrument palette, density et avoid-list; supprime ensuite tout ce qui demande imitation.",
+        "## Genere deux passes et teste dans le montage",
+        "Fais une passe qui suit la fonction de scene et une passe counter-score qui travaille legerement contre l image: piece calme avec inner pulse, ou petite poursuite avec rythme sec plutot que hero music. Ne juge pas dans un player isole. Place le cue sous dialogue, effects, room tone, silence et le plan ou le sens change. Si l equipe veut MP3 de review et WAV de mix, utilise l [Audio Converter](https://easymusic.ai/fr/tools/audio-converter) apres le choix de direction.",
+        "## Garde une note de livraison",
+        "Sauve prompt, cue id, file name, version, duree a l image, et changements d edit ou de niveau. Ce n est pas une validation juridique et cela ne remplace pas rights review, mais ca evite les questions tardives: quel fichier est parti dans le festival export? Cela aide aussi a sortir du piege ou le temp track devient la seule mesure.",
+        "## Idees reutilisables aujourd hui",
+        "- Ecris un cue pour chaque vrai tournant de recit, pas un track pour tout le film.\n- Mets silence dans le spotting sheet comme choix volontaire.\n- Transforme temp music en trois fonctions audibles plutot qu en nom de reference.\n- Teste le cue avec dialogue et room tone, pas seul.\n- Tiens un version log avant festival, client ou online upload.",
+        "## FAQ\n### Chaque scene a-t-elle besoin de musique?\nNon. Beaucoup de courts gagnent quand la musique entre seulement lors d un changement de point de vue, d un reveal ou d une pression.\n### Puis-je citer le temp track dans le prompt?\nMieux vaut decrire fonction, instruments, energie et limites que demander la reproduction d une oeuvre connue.\n### Combien de cues pour cinq minutes?\nSouvent trois a six cues clairs, avec des silences prevus entre eux, valent mieux qu un bed constant.\n### Si l equipe prefere la version proche du temp?\nRegarde la scene sans temp pendant une journee, puis juge la nouvelle cue par son role narratif."
+      ]
+    },
+    "it": {
+      "title": "Pianifica AI music per un cortometraggio senza copiare il temp track",
+      "description": "Workflow pratico per passare da temp music a spotting sheet e creare cues utili a scena, dialoghi e montaggio.",
+      "body": [
+        "Il cortometraggio e quasi locked, il cut funziona, poi il temp track resta incollato alla testa di tutti. Una scena piccola diventa troppo grande, oppure ogni nuova musica sembra sbagliata perche non e la reference vista cinquanta volte. La soluzione non e chiedere all AI una copia economica del temp. Prima di generare, decidi dove la musica entra, dove esce e cosa non deve rubare all immagine.",
+        "## Che cos e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/it/ai-music-generator) e una piattaforma di AI music creation che trasforma prompts, style direction, lyrics e idee audio in music drafts da revisionare. Per un cortometraggio, usala come sketchpad per cues e textures di scena; usage rights, approvazione del regista e regole della piattaforma restano controlli separati.",
+        "## Scrivi un piccolo spotting sheet",
+        "Non iniziare con un mood generico come dark cinematic. Crea cinque campi: cue id, start time, end time, scene job, do not cover. Riga utile: M1, 00:01:12, 00:01:42, rende l attesa tesa ma non spiega la paura del personaggio, do not cover breathing or door sound. Questo evita che un cue lungo ingoi tutto il film.",
+        "## Traduci il temp track in funzione",
+        "Se il team ama il temp, chiedi quale parte funziona: pulse, spazio, colore elettronico, ingresso dopo il cut o restraint. Scrivi qualita udibili, non titolo o artista. Il [Music Style Generator](https://easymusic.ai/it/tools/music-style-generator) puo aiutare con tempo, instrument palette, density e avoid-list; poi elimina ogni parola che chieda imitazione.",
+        "## Genera due passaggi e provali nel cut",
+        "Crea un passaggio che segua la funzione della scena e un counter-score che lavori leggermente contro l immagine: stanza quieta con inner pulse, o piccola chase con ritmo secco invece di hero music. Non giudicare dal player separato. Metti il cue sotto dialoghi, effects, room tone, silence e lo shot in cui cambia il significato. Se servono MP3 review e WAV mix, usa [Audio Converter](https://easymusic.ai/it/tools/audio-converter) dopo aver scelto direction.",
+        "## Tieni una nota di consegna",
+        "Salva prompt, cue id, file name, version, durata in scena e ogni cambio di edit o level. Non e clearance legale e non sostituisce rights review, ma evita domande tardive come quale file e finito nel festival export. Aiuta anche il team a uscire dal temp track come unico metro.",
+        "## Idee riutilizzabili oggi",
+        "- Scrivi un cue per ogni vero svolta narrativa, non un track per tutto il film.\n- Inserisci silence nello spotting sheet come scelta intenzionale.\n- Trasforma temp music in tre funzioni udibili, non in un nome di reference.\n- Testa il cue con dialogo e room tone, non da solo.\n- Mantieni un version log prima di festival, client o online upload.",
+        "## FAQ\n### Ogni scena ha bisogno di musica?\nNo. Molti corti migliorano quando la musica entra solo per punto di vista, reveal o cambio di pressione.\n### Posso citare il temp track nel prompt?\nMeglio descrivere funzione, strumenti, energia e limiti invece di chiedere la riproduzione di un opera nota.\n### Quanti cues servono per cinque minuti?\nSpesso bastano tre-sei cues chiari, con silence pianificato, invece di un bed costante.\n### E se il team ama la versione piu vicina al temp?\nGuarda la scena senza temp per un giorno e valuta il nuovo cue per cio che fa alla storia."
+      ]
+    },
+    "ja": {
+      "title": "temp track を写さず short film の AI music を計画する",
+      "description": "Temp music を spotting sheet に変え、scene、dialogue、edit に役立つ cues を作る workflow。",
+      "body": [
+        "Short film の cut はほぼ locked。映像は機能しているのに、temp track が全員の耳に貼りつきます。小さな scene が大きく聞こえすぎたり、新しい music draft が reference と違うだけで wrong に感じたりします。解決策は AI に temp の安いコピーを頼むことではありません。生成前に、music がどこで入り、どこで出て、picture から何を奪ってはいけないかを決めます。",
+        "## EasyMusic.AI とは？",
+        "[EasyMusic.AI](https://easymusic.ai/ja/ai-music-generator) は prompts、style direction、lyrics、audio ideas を review できる music drafts に変える AI music creation platform です。Short film では、scene cue や texture を試す sketchpad として使い、usage rights、director approval、platform rules は generation とは別に確認します。",
+        "## 小さな spotting sheet を書く",
+        "Dark cinematic のような大きな mood から始めないでください。cue id、start time、end time、scene job、do not cover の五項目を作ります。例: M1、00:01:12、00:01:42、waiting を tense にするが character の fear を説明しない、do not cover breathing or door sound。小さな sheet が、長い cue に film 全体を飲み込ませないための枠になります。",
+        "## temp track を機能に翻訳する",
+        "Team が temp を好きなら、何が効いているかを聞きます。Pulse、space、electronic color、cut 後の entry、または restraint かもしれません。Title や artist ではなく、聞こえる性質を書きます。[Music Style Generator](https://easymusic.ai/ja/tools/music-style-generator) で tempo、instrument palette、density、avoid-list を集め、その後 imitation を求める言い方を削ります。",
+        "## 二つの pass を作り cut で試す",
+        "一つは scene function に沿う pass、もう一つは picture に少し逆らう counter-score pass にします。Quiet room に inner pulse、small chase に heroic ではなく dry rhythm などです。別 player だけで判断しないでください。Dialogue、effects、room tone、silence、meaning が変わる shot の下に置きます。Review MP3 と mix WAV が必要なら、direction 決定後に [Audio Converter](https://easymusic.ai/ja/tools/audio-converter) を使います。",
+        "## delivery note を残す",
+        "Prompt、cue id、file name、version、on-screen duration、edit や level の変更を保存します。これは legal clearance ではなく rights review の代わりでもありませんが、festival export に入った file はどれか、という後日の混乱を防ぎます。Temp track だけが成功基準になった時にも距離を取れます。",
+        "## 今日使える ideas",
+        "- Film 全体に一曲ではなく、story turn ごとに一つ cue を書く。\n- Spotting sheet に silence を意図的な選択として入れる。\n- Temp music を reference name ではなく三つの audible functions に変える。\n- Cue は単体でなく dialogue と room tone の中で test する。\n- Festival、client、online upload 前に version log を残す。",
+        "## FAQ\n### short film の全 scene に music は必要ですか？\nいいえ。Point of view、reveal、pressure change の時だけ入る方が強くなる short film は多いです。\n### prompt に temp track を書いてよいですか？\nKnown work の再現を頼むより、function、instruments、energy、avoid を書く方が安全です。\n### 5分 film に cues はいくつ必要ですか？\n多くの場合、planned silence を挟んだ三から六の clear cues が constant bed より使いやすいです。\n### team が temp に一番近い version を好む場合は？\n一日 temp なしで scene を見てから、新しい cue が story に何をするかで判断します。"
+      ]
+    },
+    "ko": {
+      "title": "temp track을 베끼지 않는 short film AI music 계획",
+      "description": "Temp music을 spotting sheet로 바꾸고 scene, dialogue, edit을 돕는 cues를 만드는 workflow.",
+      "body": [
+        "Short film cut은 거의 locked이고 장면도 잘 작동합니다. 그런데 temp track이 모두의 귀에 붙어 버립니다. 작은 scene이 갑자기 너무 크게 느껴지거나, 새 music draft가 reference와 다르다는 이유만으로 wrong처럼 들립니다. 해법은 AI에게 temp의 저렴한 복사본을 요청하는 것이 아닙니다. 생성 전에 music이 어디서 들어오고, 어디서 나가며, picture에서 무엇을 빼앗으면 안 되는지 정하세요.",
+        "## EasyMusic.AI란?",
+        "[EasyMusic.AI](https://easymusic.ai/ko/ai-music-generator)는 prompts, style direction, lyrics, audio ideas를 review 가능한 music drafts로 바꾸는 AI music creation platform입니다. Short film에서는 scene cues와 textures를 시험하는 sketchpad로 쓰고, usage rights, director approval, platform rules는 generation과 별도로 확인하세요.",
+        "## 작은 spotting sheet 쓰기",
+        "Dark cinematic 같은 큰 mood로 시작하지 마세요. cue id, start time, end time, scene job, do not cover 다섯 필드를 만듭니다. 예: M1, 00:01:12, 00:01:42, waiting을 tense하게 만들지만 character의 fear를 설명하지 않음, do not cover breathing or door sound. 이 작은 sheet가 긴 cue가 film 전체를 삼키지 않게 합니다.",
+        "## temp track을 기능으로 번역하기",
+        "Team이 temp를 좋아한다면 무엇이 작동하는지 묻습니다. Pulse, space, electronic color, cut 뒤 entry, restraint 중 하나일 수 있습니다. Title이나 artist가 아니라 들리는 특성을 적으세요. [Music Style Generator](https://easymusic.ai/ko/tools/music-style-generator)는 tempo, instrument palette, density, avoid-list를 모으는 데 도움이 되고, 그 뒤 imitation을 요구하는 말은 삭제합니다.",
+        "## 두 pass를 만들고 cut 안에서 test하기",
+        "하나는 scene function을 따르는 pass, 다른 하나는 picture와 살짝 반대로 가는 counter-score pass로 만듭니다. Quiet room에 inner pulse, small chase에 hero music이 아닌 dry rhythm 같은 식입니다. Separate player에서만 판단하지 마세요. Dialogue, effects, room tone, silence, meaning이 바뀌는 shot 아래에 놓아 봅니다. Review MP3와 mix WAV가 필요하면 direction을 고른 뒤 [Audio Converter](https://easymusic.ai/ko/tools/audio-converter)를 사용하세요.",
+        "## delivery note 남기기",
+        "Prompt, cue id, file name, version, on-screen duration, edit나 level 변경을 저장합니다. 이것은 legal clearance도 아니고 rights review를 대신하지도 않지만, festival export에 들어간 file이 무엇인지 같은 늦은 질문을 막아 줍니다. Temp track이 유일한 성공 기준이 될 때 한 걸음 물러나는 데도 도움이 됩니다.",
+        "## 오늘 바로 쓸 ideas",
+        "- Film 전체에 한 track이 아니라 real story turn마다 cue 하나를 씁니다.\n- Spotting sheet에 silence를 intentional choice로 넣습니다.\n- Temp music을 reference name이 아니라 세 가지 audible functions로 바꿉니다.\n- Cue를 혼자 듣지 말고 dialogue와 room tone 안에서 test합니다.\n- Festival, client, online upload 전에 version log를 남깁니다.",
+        "## FAQ\n### short film의 모든 scene에 music이 필요한가요?\n아닙니다. Point-of-view shift, reveal, pressure change에만 music이 들어갈 때 더 강해지는 short film이 많습니다.\n### prompt에 temp track을 언급해도 되나요?\nKnown work를 재현해 달라고 하기보다 function, instruments, energy, avoid를 쓰는 편이 안전합니다.\n### 5분 film에는 cues가 몇 개 필요할까요?\n대개 planned silence 사이에 세 개에서 여섯 개의 clear cues가 constant bed보다 낫습니다.\n### team이 temp와 가장 가까운 version을 좋아하면요?\n하루 동안 temp 없이 scene을 본 뒤, 새 cue가 story에 무엇을 하는지로 판단하세요."
+      ]
+    },
+    "pt": {
+      "title": "Planeje AI music para curta-metragem sem copiar o temp track",
+      "description": "Workflow pratico para transformar temp music em spotting sheet e gerar cues que sirvam cena, dialogo e edit.",
+      "body": [
+        "O curta esta quase locked, o cut funciona, e entao o temp track gruda na cabeca de todo mundo. Uma cena pequena fica grande demais, ou cada nova musica parece errada porque nao e a referencia vista cinquenta vezes. A solucao nao e pedir a AI uma copia barata do temp. Antes de gerar, decida onde a musica entra, onde sai e o que ela nao pode roubar da imagem.",
+        "## O que e EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/pt/ai-music-generator) e uma plataforma de AI music creation para transformar prompts, style direction, lyrics e ideias de audio em music drafts revisaveis. Para um curta, use como sketchpad de scene cues e textures, enquanto usage rights, aprovacao do diretor e regras de plataforma ficam separados da generation.",
+        "## Escreva um spotting sheet pequeno",
+        "Nao comece com um mood amplo como dark cinematic. Crie cinco campos: cue id, start time, end time, scene job e do not cover. Linha util: M1, 00:01:12, 00:01:42, deixa a espera tensa mas nao explica o medo da personagem, do not cover breathing or door sound. Essa pequena sheet impede que um cue longo engula o filme inteiro.",
+        "## Traduza o temp track em funcao",
+        "Se a equipe ama o temp, pergunte qual parte funciona: pulse, espaco, cor eletronica, entrada depois do cut ou restraint. Escreva qualidades audiveis, nao titulo ou artista. O [Music Style Generator](https://easymusic.ai/pt/tools/music-style-generator) pode reunir tempo, instrument palette, density e avoid-list; depois remova qualquer wording que peca imitacao.",
+        "## Gere dois passes e teste no cut",
+        "Crie um pass que siga a funcao da cena e um counter-score que trabalhe um pouco contra a imagem: sala quieta com inner pulse, ou pequena chase com ritmo seco em vez de hero music. Nao julgue em player separado. Coloque o cue sob dialogue, effects, room tone, silence e o shot onde o sentido muda. Se a equipe precisa de MP3 para review e WAV para mix, use [Audio Converter](https://easymusic.ai/pt/tools/audio-converter) depois da escolha da direction.",
+        "## Guarde uma nota de entrega",
+        "Salve prompt, cue id, file name, version, on-screen duration e mudancas de edit ou level. Isso nao e legal clearance nem substitui rights review, mas evita perguntas tardias como qual file entrou no festival export. Tambem ajuda a equipe a se afastar quando o temp track vira a unica medida de sucesso.",
+        "## Ideias reutilizaveis hoje",
+        "- Escreva um cue para cada virada real de historia, nao um track para o filme inteiro.\n- Coloque silence no spotting sheet como escolha intencional.\n- Converta temp music em tres funcoes audiveis, nao em nome de referencia.\n- Teste o cue com dialogo e room tone, nao sozinho.\n- Mantenha um version log antes de festival, client ou online upload.",
+        "## FAQ\n### Toda cena de curta precisa de musica?\nNao. Muitos curtas ficam mais fortes quando a musica entra so em mudanca de ponto de vista, reveal ou pressao.\n### Posso mencionar o temp track no prompt?\nE melhor descrever funcao, instrumentos, energia e limites do que pedir reproduzir uma obra conhecida.\n### Quantos cues um filme de cinco minutos precisa?\nFrequentemente tres a seis cues claros, com silence planejado entre eles, funcionam melhor que um bed constante.\n### E se a equipe preferir a versao mais proxima do temp?\nAssista a cena sem temp por um dia e julgue o novo cue pelo que ele faz pela historia."
+      ]
+    },
+    "ru": {
+      "title": "План AI music для short film без копирования temp track",
+      "description": "Практичный workflow: превратить temp music в spotting sheet и создать cues для сцены, диалога и монтажа.",
+      "body": [
+        "Short film почти locked, монтаж работает, а потом temp track прилипает ко всей команде. Небольшая сцена вдруг звучит слишком крупно, или каждый новый music draft кажется wrong просто потому, что это не reference, просмотренный пятьдесят раз. Решение не в том, чтобы попросить AI сделать дешевую копию temp. До generation решите, где music входит, где выходит и что она не должна забирать у picture.",
+        "## Что такое EasyMusic.AI?",
+        "[EasyMusic.AI](https://easymusic.ai/ru/ai-music-generator) - это AI music creation platform, которая превращает prompts, style direction, lyrics и audio ideas в music drafts для review. Для short film используйте ее как sketchpad для scene cues и textures; usage rights, director approval и platform rules проверяются отдельно от generation.",
+        "## Напишите маленький spotting sheet",
+        "Не начинайте с широкого mood вроде dark cinematic. Сделайте пять полей: cue id, start time, end time, scene job, do not cover. Полезная строка: M1, 00:01:12, 00:01:42, делает ожидание tense, но не объясняет страх героя, do not cover breathing or door sound. Такая sheet не дает одному длинному cue проглотить весь film.",
+        "## Переведите temp track в функцию",
+        "Если команда любит temp, спросите, что именно работает: pulse, space, electronic color, entry after the cut или restraint. Записывайте слышимые качества, а не title или artist. [Music Style Generator](https://easymusic.ai/ru/tools/music-style-generator) поможет собрать tempo, instrument palette, density и avoid-list; затем уберите все, что просит imitation.",
+        "## Сделайте две версии и проверьте в cut",
+        "Одна pass следует scene function, другая counter-score мягко идет против picture: quiet room с inner pulse или small chase с dry rhythm вместо hero music. Не оценивайте cue в отдельном player. Положите его под dialogue, effects, room tone, silence и shot, где меняется meaning. Если команде нужны review MP3 и mix WAV, используйте [Audio Converter](https://easymusic.ai/ru/tools/audio-converter) после выбора direction.",
+        "## Оставьте delivery note",
+        "Сохраните prompt, cue id, file name, version, on-screen duration и изменения edit или level. Это не legal clearance и не замена rights review, но так меньше поздних вопросов: какой file попал в festival export? Это также помогает отойти от temp track, если он стал единственной мерой успеха.",
+        "## Идеи на сегодня",
+        "- Пишите один cue на каждый реальный story turn, а не один track на весь film.\n- Внесите silence в spotting sheet как намеренный выбор.\n- Превратите temp music в три слышимые функции, а не в reference name.\n- Тестируйте cue с dialogue и room tone, а не отдельно.\n- Ведите version log до festival, client или online upload.",
+        "## FAQ\n### Нужна ли music в каждой сцене short film?\nНет. Многие short films сильнее, когда music входит только при point-of-view shift, reveal или pressure change.\n### Можно ли указать temp track в prompt?\nЛучше описать function, instruments, energy и avoid, чем просить воспроизвести известную работу.\n### Сколько cues нужно фильму на пять минут?\nЧасто достаточно трех-шести ясных cues с запланированной silence между ними.\n### Что если команда любит версию ближе всего к temp?\nПосмотрите сцену без temp один день, потом оцените новый cue по тому, что он делает для story."
+      ]
+    },
+    "zh": {
+      "title": "为 short film 规划不复制 temp track 的 AI 音乐",
+      "description": "把 temp music 转成 spotting sheet，再生成服务 scene、dialogue 和 edit 的 cues 的实用 workflow。",
+      "body": [
+        "Short film 已经接近 locked，cut 本身也成立，但 temp track 开始粘在每个人耳朵里。一个很小的 scene 突然显得过大，或者每个新的 music draft 只因为不像那首看了五十遍的 reference 就被认为 wrong。解决办法不是让 AI 便宜地复制 temp。生成之前，先决定 music 什么时候进、什么时候出、不能从 picture 里抢走什么。",
+        "## EasyMusic.AI 是什么？",
+        "[EasyMusic.AI](https://easymusic.ai/zh/ai-music-generator) 是一个 AI music creation platform，可以把 prompts、style direction、lyrics 和 audio ideas 转成可 review 的 music drafts。用于 short film 时，把它当成 scene cues 和 textures 的 sketchpad；usage rights、director approval 和 platform rules 仍然要和 generation 分开检查。",
+        "## 写一个小 spotting sheet",
+        "不要从 dark cinematic 这种宽泛 mood 开始。建五个字段：cue id、start time、end time、scene job、do not cover。可用一行：M1，00:01:12，00:01:42，让等待变 tense，但不替 character 解释恐惧，do not cover breathing or door sound。这个小 sheet 能防止一个长 cue 吞掉整部 film。",
+        "## 把 temp track 翻译成功能",
+        "如果团队喜欢 temp，问清楚喜欢什么：pulse、space、electronic color、cut 后的 entry，还是 restraint。写可听见的特征，不写 title 或 artist。[Music Style Generator](https://easymusic.ai/zh/tools/music-style-generator) 可以帮助整理 tempo、instrument palette、density 和 avoid-list；然后删掉任何要求 imitation 的词。",
+        "## 生成两个 pass，并放进 cut 里测试",
+        "做一个跟随 scene function 的 pass，再做一个轻微反向的 counter-score pass：quiet room 里有 inner pulse，或 small chase 用 dry rhythm 而不是 hero music。不要只在单独 player 里判断。把 cue 放在 dialogue、effects、room tone、silence，以及 meaning 变化的 shot 下。若团队需要 review MP3 和 mix WAV，可在确定 direction 后使用 [Audio Converter](https://easymusic.ai/zh/tools/audio-converter)。",
+        "## 留下 delivery note",
+        "保存 prompt、cue id、file name、version、on-screen duration，以及任何 edit 或 level 调整。这不是 legal clearance，也不能代替 rights review，但能避免后期追问：festival export 用的是哪个 file？当 temp track 变成唯一成功标准时，它也能帮助团队退一步。",
+        "## 今天就能用的 ideas",
+        "- 不要为整部 film 写一条 track，而是为每个 real story turn 写一个 cue。\n- 把 silence 作为 intentional choice 放进 spotting sheet。\n- 把 temp music 转成三个 audible functions，而不是一个 reference name。\n- 在 dialogue 和 room tone 中 test cue，不要只单独听。\n- 在 festival、client 或 online upload 前保留 version log。",
+        "## FAQ\n### short film 每个 scene 都需要 music 吗？\n不需要。很多 short film 只有在 point-of-view shift、reveal 或 pressure change 时进 music，反而更有力。\n### 可以在 prompt 里提 temp track 吗？\n最好描述 function、instruments、energy 和 avoid，而不是要求复现某个 known work。\n### 五分钟 film 需要多少 cues？\n通常三到六个清楚的 cues，加上 planned silence，比 constant bed 更好控制。\n### 如果团队最喜欢最像 temp 的版本怎么办？\n先把 scene 去掉 temp 看一天，再按新 cue 对 story 的作用来判断，而不是按熟悉感判断。"
+      ]
+    }
+  }
+}
